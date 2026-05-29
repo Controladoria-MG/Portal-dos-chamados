@@ -52,7 +52,6 @@ function showError(msg) {
 }
 
 /* ─── COLUMN RESOLVER ────────────────────────────────────────────── */
-/* Finds the actual column key regardless of small spacing/case differences */
 function col(row, ...candidates) {
   const keys = Object.keys(row);
   for (const c of candidates) {
@@ -69,20 +68,44 @@ function fmt(val) {
     return val.toLocaleDateString('pt-BR');
   }
   if (typeof val === 'number') {
-    // Excel serial date
     const d = new Date(Math.round((val - 25569) * 86400 * 1000));
     if (!isNaN(d)) return d.toLocaleDateString('pt-BR');
   }
   return String(val);
 }
 
+/* ─── PRAZO BADGE — destaca vencido/próximo ──────────────────────── */
+function fmtPrazo(val) {
+  if (!val && val !== 0) return '<span class="date-cell">—</span>';
+
+  let date;
+  if (val instanceof Date) {
+    date = val;
+  } else if (typeof val === 'number') {
+    date = new Date(Math.round((val - 25569) * 86400 * 1000));
+  } else {
+    return `<span class="date-cell">${escHtml(String(val))}</span>`;
+  }
+
+  if (isNaN(date)) return '<span class="date-cell">—</span>';
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const diffDays = Math.ceil((date - today) / (1000 * 60 * 60 * 24));
+  const label = date.toLocaleDateString('pt-BR');
+
+  if (diffDays < 0)  return `<span class="badge badge-open" title="Vencido">⚠ ${label}</span>`;
+  if (diffDays <= 3) return `<span class="badge badge-pending" title="Vence em breve">${label}</span>`;
+  return `<span class="date-cell">${label}</span>`;
+}
+
 /* ─── STATUS BADGE ───────────────────────────────────────────────── */
 function badge(status) {
   const s = String(status).toLowerCase().trim();
   let cls = 'badge-default';
-  if (/aberto|open|pendente/i.test(s))    cls = 'badge-open';
-  else if (/fechado|closed|resolvido/i.test(s)) cls = 'badge-closed';
-  else if (/em atend|andamento|progress/i.test(s)) cls = 'badge-pending';
+  if (/aberto|open|pendente/i.test(s))              cls = 'badge-open';
+  else if (/fechado|closed|resolvido/i.test(s))     cls = 'badge-closed';
+  else if (/em atend|andamento|progress/i.test(s))  cls = 'badge-pending';
   return `<span class="badge ${cls}">${status || '—'}</span>`;
 }
 
@@ -90,14 +113,13 @@ function badge(status) {
 function renderHome() {
   $loading.style.display = 'none';
 
-  // Group by department
   const deptMap = {};
   for (const row of allData) {
     const dept = String(col(row, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || 'Sem Departamento').trim();
     deptMap[dept] = (deptMap[dept] || 0) + 1;
   }
 
-  const depts  = Object.entries(deptMap).sort((a, b) => b[1] - a[1]);
+  const depts = Object.entries(deptMap).sort((a, b) => b[1] - a[1]);
 
   $totalRecs.textContent = allData.length.toLocaleString('pt-BR');
   $totalDeps.textContent = depts.length;
@@ -128,12 +150,10 @@ function openDept(deptName) {
   currentDept   = deptName;
   openClientRow = null;
 
-  // Filter rows for this dept
   const rows = allData.filter(r =>
     String(col(r, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || '').trim() === deptName
   );
 
-  // Build unique client list (by IdCliente)
   const clientMap = {};
   for (const r of rows) {
     const id = String(col(r, 'IdCliente', 'Id Cliente', 'ID Cliente', 'id_cliente') || '').trim();
@@ -182,7 +202,6 @@ function toggleClientDetail(tr, client) {
   const existingDetail = tr.nextElementSibling;
   const isOpen = existingDetail && existingDetail.classList.contains('detail-row');
 
-  // Close any open panel
   if (openClientRow) {
     const prev = $clientBody.querySelector(`tr[data-client-id="${openClientRow}"]`);
     if (prev) {
@@ -218,6 +237,7 @@ function toggleClientDetail(tr, client) {
               <th>Solicitação</th>
               <th>Responsável</th>
               <th>Data Cadastro</th>
+              <th>Prazo Vencimento</th>
               <th>Status</th>
               <th>Solicitante</th>
               <th>Início Atend.</th>
@@ -231,6 +251,7 @@ function toggleClientDetail(tr, client) {
                 <td>${escHtml(String(col(r,'Solicitacao','Solicitação','solicitacao','solicitação') || '—'))}</td>
                 <td>${escHtml(String(col(r,'Responsavel','Responsável','responsavel') || '—'))}</td>
                 <td class="date-cell">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</td>
+                <td>${fmtPrazo(col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'))}</td>
                 <td>${badge(col(r,'Status','status'))}</td>
                 <td>${escHtml(String(col(r,'Solicitante','solicitante') || '—'))}</td>
                 <td class="date-cell">${fmt(col(r,'Inicio Atend.','Início Atend.','Inicio Atendimento','InicioAtend','Inicio_Atend'))}</td>
@@ -250,7 +271,6 @@ $clientSearch.addEventListener('input', () => {
   $clientBody.querySelectorAll('tr:not(.detail-row)').forEach(tr => {
     const visible = tr.textContent.toLowerCase().includes(q);
     tr.style.display = visible ? '' : 'none';
-    // hide orphan detail panel when parent is hidden
     const next = tr.nextElementSibling;
     if (next && next.classList.contains('detail-row')) {
       next.style.display = visible ? '' : 'none';
