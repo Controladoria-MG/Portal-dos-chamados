@@ -162,6 +162,7 @@ function openDept(deptName) {
         id,
         name: col(r, 'Cliente', 'Nome Cliente', 'NomeCliente') || id,
         dataCad: col(r, 'Data Cadastro', 'DataCadastro', 'Data_Cadastro'),
+        prazoVenc: col(r, 'Prazo Vencimento', 'Prazo de Vencimento', 'PrazoVencimento'),
         rows: []
       };
     }
@@ -181,7 +182,7 @@ function renderClientTable(clients) {
   $clientBody.innerHTML = '';
 
   if (!clients.length) {
-    $clientBody.innerHTML = `<tr><td colspan="3" class="empty">Nenhum cliente encontrado.</td></tr>`;
+    $clientBody.innerHTML = `<tr><td colspan="4" class="empty">Nenhum cliente encontrado.</td></tr>`;
     return;
   }
 
@@ -191,7 +192,8 @@ function renderClientTable(clients) {
     tr.innerHTML = `
       <td class="id-cell">${escHtml(c.id) || '—'}</td>
       <td class="name-cell">${escHtml(String(c.name))}</td>
-      <td class="date-cell">${fmt(c.dataCad)}</td>`;
+      <td class="date-cell">${fmt(c.dataCad)}</td>
+      <td>${fmtPrazo(c.prazoVenc)}</td>`;
     tr.addEventListener('click', () => toggleClientDetail(tr, c));
     $clientBody.appendChild(tr);
   }
