@@ -1,0 +1,196 @@
+"""
+atualizar_base.py
+─────────────────
+Lê o relatório de chamados da pasta Att Base, substitui os usuários AD
+das colunas I e Q pelo nome de exibição usando o relatório de colaboradores,
+filtra status 'Entregue Ao Solicitante' e salva em data/base.xlsx
+com o visual de tabela formatada (TableStyleMedium2).
+
+Estrutura esperada:
+  Chamados/
+  ├── data/
+  │   ├── base.xlsx                  ← será sobrescrito
+  │   └── Att Base/
+  │       ├── relatorio_chamados_*.xlsx
+  │       └── Relatório_Colaboradores_*.xlsx
+  └── atualizar_base.py              ← este script
+"""
+
+import os
+import sys
+from pathlib import Path
+
+try:
+    import openpyxl
+except ImportError:
+    print("Instalando openpyxl...")
+    os.system(f"{sys.executable} -m pip install openpyxl")
+    import openpyxl
+
+from openpyxl.worksheet.table import Table, TableStyleInfo
+from openpyxl.styles import Font, Alignment
+from openpyxl.utils import get_column_letter
+
+# ─── CAMINHOS ────────────────────────────────────────────────────────
+BASE_DIR = Path(__file__).parent
+ATT_DIR  = BASE_DIR / "data" / "Att Base"
+OUTPUT   = BASE_DIR / "data" / "base.xlsx"
+
+# ─── LOCALIZAR ARQUIVOS AUTOMATICAMENTE ──────────────────────────────
+def find_file(folder, pattern):
+    matches = list(folder.glob(pattern))
+    if not matches:
+        raise FileNotFoundError(f"Nenhum arquivo encontrado com padrão '{pattern}' em {folder}")
+    return max(matches, key=os.path.getmtime)
+
+print("Localizando arquivos...")
+chamados_path = find_file(ATT_DIR, "*chamados*.xlsx")
+colab_path    = find_file(ATT_DIR, "*olaboradores*.xlsx")
+print(f"  Chamados:      {chamados_path.name}")
+print(f"  Colaboradores: {colab_path.name}")
+
+# ─── CARREGAR COLABORADORES ───────────────────────────────────────────
+print("\nCarregando colaboradores...")
+wb_colab = openpyxl.load_workbook(colab_path, read_only=True, data_only=True)
+ws_colab = wb_colab.active
+
+colab_map = {}
+for row in ws_colab.iter_rows(min_row=2, values_only=True):
+    nome_exib = row[1]  # Coluna B - NOME EXIBICAO
+    usuario   = row[2]  # Coluna C - USUARIO AD
+    if usuario and nome_exib:
+        colab_map[str(usuario).strip().lower()] = str(nome_exib).strip()
+
+print(f"  {len(colab_map)} colaboradores carregados.")
+
+def resolver_nome(valor):
+    if not valor:
+        return valor
+    chave = str(valor).strip().lower()
+    return colab_map.get(chave, str(valor).strip())
+
+# ─── MAPEAMENTO DE COLUNAS (índice 0-based) ──────────────────────────
+COL_MAP = [
+    (0,  0),   # A → A  | Id
+    (1,  1),   # B → B  | Categoria
+    (2,  2),   # C → C  | Assunto
+    (3,  3),   # D → D  | Departamento Solicitante
+    (4,  4),   # E → E  | Solicitação
+    (5,  5),   # F → F  | IdCliente
+    (6,  6),   # G → G  | Cliente
+    (8,  7),   # I → H  | Responsável (com lookup)
+    (9,  8),   # J → I  | Departamento Responsavel
+    (13, 9),   # N → J  | Data Cadastro
+    (14, 10),  # O → K  | Prazo Vencimento
+    (15, 11),  # P → L  | Status
+    (16, 12),  # Q → M  | Solicitante (com lookup)
+    (17, 13),  # R → N  | Inicio Atend.
+    (18, 14),  # S → O  | Data Entrega
+    (19, 15),  # T → P  | Responsável pela conclusão
+    (20, 16),  # U → Q  | Ultimo Comentário
+]
+
+LOOKUP_COLS = {8, 16}  # I e Q do chamados
+
+# ─── CABEÇALHOS DA BASE ───────────────────────────────────────────────
+HEADERS = [
+    "Id", "Categoria", "Assunto", "Departamento Solicitante",
+    "Solicitação", "IdCliente", "Cliente", "Responsável",
+    "Departamento Responsavel", "Data Cadastro", "Prazo Vencimento",
+    "Status", "Solicitante", "Inicio Atend.", "Data Entrega",
+    "Responsável pela conclusão", "Ultimo Comentário"
+]
+
+# Status que devem ser excluídos
+STATUS_EXCLUIR = {"entregue ao solicitante"}
+
+# ─── PROCESSAR CHAMADOS ───────────────────────────────────────────────
+print("\nProcessando relatório de chamados...")
+wb_cham = openpyxl.load_workbook(chamados_path, read_only=True, data_only=True)
+ws_cham = wb_cham.active
+
+wb_out = openpyxl.Workbook()
+ws_out = wb_out.active
+ws_out.title = "Base"
+ws_out.append(HEADERS)
+
+linhas          = 0
+linhas_ignoradas = 0
+nao_encontrados = set()
+
+for row in ws_cham.iter_rows(min_row=2, values_only=True):
+    if not any(row):
+        continue
+
+    # Coluna P (índice 15) = Status no relatório de chamados
+    status_val = str(row[15]).strip().lower() if row[15] else ''
+    if status_val in STATUS_EXCLUIR:
+        linhas_ignoradas += 1
+        continue
+
+    nova_linha = [None] * len(HEADERS)
+
+    for col_src, col_dst in COL_MAP:
+        valor = row[col_src] if col_src < len(row) else None
+        if col_src in LOOKUP_COLS:
+            nome_resolvido = resolver_nome(valor)
+            if valor and nome_resolvido == str(valor).strip():
+                nao_encontrados.add(str(valor).strip())
+            valor = nome_resolvido
+        nova_linha[col_dst] = valor
+
+    ws_out.append(nova_linha)
+    linhas += 1
+
+# ─── FORMATAÇÃO VISUAL ────────────────────────────────────────────────
+# Larguras de coluna (replicando o visual da base original)
+COL_WIDTHS = {
+    'A': 10,    'B': 11.86, 'C': 10.43, 'D': 26.29,
+    'E': 13.0,  'F': 11.57, 'G': 9.86,  'H': 14.71,
+    'I': 28.14, 'J': 15.86, 'K': 19.29, 'L': 12.86,
+    'M': 12.86, 'N': 14.43, 'O': 15.57, 'P': 28.57,
+    'Q': 20.29,
+}
+for col_letter, width in COL_WIDTHS.items():
+    ws_out.column_dimensions[col_letter].width = width
+
+# Fonte Aptos Narrow para todas as células
+font_padrao = Font(name='Aptos Narrow', size=11)
+for row in ws_out.iter_rows():
+    for cell in row:
+        cell.font = font_padrao
+        cell.alignment = Alignment(vertical='center', wrap_text=False)
+
+# Formato de data para colunas J, K, N, O
+DATE_COLS = ['J', 'K', 'N', 'O']
+for col_letter in DATE_COLS:
+    for cell in ws_out[col_letter][1:]:
+        if cell.value:
+            cell.number_format = 'DD/MM/YYYY'
+
+# Tabela formatada TableStyleMedium2 (igual à base original)
+last_row = ws_out.max_row
+last_col = get_column_letter(ws_out.max_column)
+table_ref = f"A1:{last_col}{last_row}"
+
+table = Table(displayName="Tabela2", ref=table_ref)
+table.tableStyleInfo = TableStyleInfo(
+    name="TableStyleMedium2",
+    showFirstColumn=False,
+    showLastColumn=False,
+    showRowStripes=True,
+    showColumnStripes=False
+)
+ws_out.add_table(table)
+
+# ─── SALVAR ───────────────────────────────────────────────────────────
+wb_out.save(OUTPUT)
+print(f"\n✅ base.xlsx atualizado com {linhas} registros → {OUTPUT}")
+print(f"🗑  {linhas_ignoradas} registro(s) ignorado(s) por status 'Entregue Ao Solicitante'.")
+
+if nao_encontrados:
+    print(f"\n⚠  Usuários não encontrados no relatório de colaboradores ({len(nao_encontrados)}):")
+    for u in sorted(nao_encontrados):
+        print(f"   - {u}")
+else:
+    print("✅ Todos os usuários foram resolvidos com sucesso.")
