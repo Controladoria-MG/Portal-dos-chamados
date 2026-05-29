@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal de Chamados</title>
+  <link rel="stylesheet" href="static/style.css" />
+  <!-- SheetJS: leitura de .xlsx no browser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-logo">
+      <span class="dot"></span>
+      Portal de Chamados
+    </div>
+    <div class="header-meta" id="header-date"></div>
+  </header>
+
+  <main>
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb">
+      <span class="crumb" id="bc-home">Início</span>
+      <span class="sep" id="bc-sep" style="display:none">›</span>
+      <span class="crumb active" id="bc-dept" style="display:none"></span>
+    </nav>
+
+    <!-- ── HOME VIEW ─────────────────────────────────────── -->
+    <div id="view-home" class="view active">
+
+      <div class="page-title">
+        <h1>Chamados <span>por Departamento</span></h1>
+        <p>Selecione um departamento para visualizar os registros em aberto</p>
+      </div>
+
+      <!-- Stats bar -->
+      <div class="stats-bar">
+        <div class="stat-pill">
+          Total de registros: <strong id="total-records">—</strong>
+        </div>
+        <div class="stat-pill">
+          Departamentos ativos: <strong id="total-depts">—</strong>
+        </div>
+      </div>
+
+      <!-- Loading -->
+      <div id="loading">
+        <div class="spinner"></div>
+        <p>Carregando base de dados...</p>
+      </div>
+
+      <!-- Error -->
+      <div id="error-msg"></div>
+
+      <!-- Department cards -->
+      <div id="dept-grid"></div>
+
+    </div><!-- /view-home -->
+
+    <!-- ── DEPT VIEW ──────────────────────────────────────── -->
+    <div id="view-dept" class="view">
+
+      <button class="btn-back" id="btn-back">← Voltar</button>
+
+      <div class="page-title" style="margin-bottom:1.5rem">
+        <h1 id="dept-title">Departamento</h1>
+        <p id="dept-count"></p>
+      </div>
+
+      <!-- Client table -->
+      <div class="table-wrap">
+        <div class="table-header">
+          <div>
+            <div class="table-title">Clientes com Solicitações</div>
+            <div class="table-subtitle">Clique em uma linha para ver o detalhamento das pendências</div>
+          </div>
+          <input
+            class="search-input"
+            id="client-search"
+            type="search"
+            placeholder="Buscar cliente..."
+          />
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>ID Cliente</th>
+              <th>Cliente</th>
+              <th>Data Cadastro</th>
+            </tr>
+          </thead>
+          <tbody id="client-body"></tbody>
+        </table>
+      </div>
+
+    </div><!-- /view-dept -->
+
+  </main>
+
+  <script src="static/script.js"></script>
+</body>
+</html>
