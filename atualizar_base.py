@@ -57,21 +57,30 @@ def find_all(folder, pattern):
     return list(folder.glob(pattern))
 
 print("Localizando arquivos...")
-colab_path    = find_file(ATT_DIR, "*olaboradores*.xlsx")
+colab_path = find_file(ATT_DIR, "*olaboradores*.xlsx")
 
-# Pega todos os relatórios de chamados (qualquer nome que contenha "chamados")
-chamados_paths = find_all(ATT_DIR, "*chamados*.xlsx")
-gc_path        = find_file(ATT_DIR, "*GC*.xlsx",  required=False)
-ctr_path       = find_file(ATT_DIR, "*CTR*.xlsx", required=False)
+# Arquivos específicos por sufixo (pegam o mais recente de cada tipo)
+gc_path  = find_file(ATT_DIR, "*GC*.xlsx",  required=False)
+ctr_path = find_file(ATT_DIR, "*CTR*.xlsx", required=False)
+
+# Arquivos de chamados genéricos: todos com "chamados" no nome
+# EXCLUINDO os que já foram identificados como GC ou CTR
+gc_name  = gc_path.name  if gc_path  else None
+ctr_name = ctr_path.name if ctr_path else None
+
+chamados_paths = [
+    p for p in find_all(ATT_DIR, "*chamados*.xlsx")
+    if p.name != gc_name and p.name != ctr_name
+]
 
 if not chamados_paths:
-    raise FileNotFoundError(f"Nenhum arquivo *chamados*.xlsx encontrado em {ATT_DIR}")
+    raise FileNotFoundError(f"Nenhum arquivo *chamados*.xlsx (não-GC/CTR) encontrado em {ATT_DIR}")
 
 print(f"  Colaboradores: {colab_path.name}")
 for p in chamados_paths:
     print(f"  Chamados:      {p.name}")
-print(f"  GC:            {gc_path.name  if gc_path  else '⚠ não encontrado'}")
-print(f"  CTR:           {ctr_path.name if ctr_path else '⚠ não encontrado'}")
+print(f"  GC:            {gc_name  if gc_name  else '⚠ não encontrado'}")
+print(f"  CTR:           {ctr_name if ctr_name else '⚠ não encontrado'}")
 
 # ─── CARREGAR COLABORADORES ───────────────────────────────────────────
 print("\nCarregando colaboradores...")
