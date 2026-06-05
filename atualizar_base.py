@@ -2,20 +2,21 @@
 atualizar_base.py
 ─────────────────
 Lê os relatórios de chamados (principal, GC e CTR) da pasta Att Base,
-substitui os usuários AD das colunas I e Q pelo nome de exibição usando
-o relatório de colaboradores, filtra status 'Entregue Ao Solicitante'
-e salva em data/base.xlsx com o visual de tabela formatada (TableStyleMedium2).
+substitui usuários AD das colunas I e Q pelo nome de exibição,
+filtra status 'Entregue Ao Solicitante' — EXCETO para registros cujo
+Departamento Responsavel seja 'GERENCIA DE CONTAS' ou 'GC - ADMINISTRATIVO',
+que são salvos com a flag Retornado = TRUE na coluna R.
 
 Estrutura esperada:
   Chamados/
   ├── data/
   │   ├── base.xlsx                          ← será sobrescrito
   │   └── Att Base/
-  │       ├── relatorio_chamados_*.xlsx       ← relatório principal
-  │       ├── *GC*.xlsx                       ← relatório GC
-  │       ├── *CTR*.xlsx                      ← relatório CTR
+  │       ├── relatorio_chamados_*.xlsx
+  │       ├── *GC*.xlsx
+  │       ├── *CTR*.xlsx
   │       └── Relatório_Colaboradores_*.xlsx
-  └── atualizar_base.py                       ← este script
+  └── atualizar_base.py
 """
 
 import os
@@ -38,6 +39,11 @@ BASE_DIR = Path(__file__).parent
 ATT_DIR  = BASE_DIR / "data" / "Att Base"
 OUTPUT   = BASE_DIR / "data" / "base.xlsx"
 
+# ─── DEPARTAMENTOS QUE SALVAM RETORNADOS ─────────────────────────────
+# Departamento Responsavel (coluna I na base final) que deve preservar
+# itens com status 'Entregue Ao Solicitante' marcados como Retornado
+DEPTS_RETORNADOS = {"gerencia de contas", "gc - administrativo"}
+
 # ─── LOCALIZAR ARQUIVOS AUTOMATICAMENTE ──────────────────────────────
 def find_file(folder, pattern, required=True):
     matches = list(folder.glob(pattern))
@@ -49,8 +55,8 @@ def find_file(folder, pattern, required=True):
 
 print("Localizando arquivos...")
 chamados_path = find_file(ATT_DIR, "*chamados*.xlsx")
-gc_path       = find_file(ATT_DIR, "*GC*.xlsx",   required=False)
-ctr_path      = find_file(ATT_DIR, "*CTR*.xlsx",  required=False)
+gc_path       = find_file(ATT_DIR, "*GC*.xlsx",  required=False)
+ctr_path      = find_file(ATT_DIR, "*CTR*.xlsx", required=False)
 colab_path    = find_file(ATT_DIR, "*olaboradores*.xlsx")
 
 print(f"  Chamados:      {chamados_path.name}")
@@ -97,6 +103,7 @@ COL_MAP = [
     (18, 14),  # S → O  | Data Entrega
     (19, 15),  # T → P  | Responsável pela conclusão
     (20, 16),  # U → Q  | Ultimo Comentário
+    # coluna R (índice 17 na base) = Retornado ← gerada pelo script
 ]
 
 LOOKUP_COLS = {8, 16}  # I e Q do relatório de origem
@@ -107,25 +114,33 @@ HEADERS = [
     "Solicitação", "IdCliente", "Cliente", "Responsável",
     "Departamento Responsavel", "Data Cadastro", "Prazo Vencimento",
     "Status", "Solicitante", "Inicio Atend.", "Data Entrega",
-    "Responsável pela conclusão", "Ultimo Comentário"
+    "Responsável pela conclusão", "Ultimo Comentário",
+    "Retornado",   # ← nova coluna R: TRUE para itens retornados ao solicitante
 ]
 
-# Status que devem ser excluídos
-STATUS_EXCLUIR = {"entregue ao solicitante"}
+STATUS_ENTREGUE = "entregue ao solicitante"
 
 # ─── FUNÇÃO GENÉRICA DE PROCESSAMENTO ────────────────────────────────
-def processar_relatorio(ws, label, linhas_total, ignoradas_total, nao_encontrados, ws_out):
-    """Itera sobre as linhas de um worksheet e escreve no ws_out."""
-    linhas   = 0
+def processar_relatorio(ws, label, linhas_total, ignoradas_total,
+                        retornados_total, nao_encontrados, ws_out):
+    linhas    = 0
     ignoradas = 0
+    retornados = 0
 
     for row in ws.iter_rows(min_row=2, values_only=True):
         if not any(row):
             continue
 
-        # Coluna P (índice 15) = Status no relatório
+        # Coluna P (índice 15) = Status no relatório original
         status_val = str(row[15]).strip().lower() if row[15] else ''
-        if status_val in STATUS_EXCLUIR:
+        # Coluna J (índice 9) = Departamento Responsavel no relatório original
+        dept_val   = str(row[9]).strip().lower()  if row[9]  else ''
+
+        eh_entregue  = (status_val == STATUS_ENTREGUE)
+        eh_gc        = (dept_val in DEPTS_RETORNADOS)
+
+        if eh_entregue and not eh_gc:
+            # Ignora normalmente
             ignoradas += 1
             continue
 
@@ -140,11 +155,18 @@ def processar_relatorio(ws, label, linhas_total, ignoradas_total, nao_encontrado
                 valor = nome_resolvido
             nova_linha[col_dst] = valor
 
+        # Marca coluna Retornado (índice 17)
+        if eh_entregue and eh_gc:
+            nova_linha[17] = True
+            retornados += 1
+        else:
+            nova_linha[17] = False
+
         ws_out.append(nova_linha)
         linhas += 1
 
-    print(f"  {label}: {linhas} registro(s) incluídos, {ignoradas} ignorado(s).")
-    return linhas_total + linhas, ignoradas_total + ignoradas
+    print(f"  {label}: {linhas} incluídos  |  {ignoradas} ignorados  |  {retornados} retornados.")
+    return linhas_total + linhas, ignoradas_total + ignoradas, retornados_total + retornados
 
 # ─── PREPARAR WORKBOOK DE SAÍDA ───────────────────────────────────────
 wb_out = openpyxl.Workbook()
@@ -152,21 +174,21 @@ ws_out = wb_out.active
 ws_out.title = "Base"
 ws_out.append(HEADERS)
 
-linhas_total   = 0
+linhas_total    = 0
 ignoradas_total = 0
+retornados_total = 0
 nao_encontrados = set()
 
 # ─── PROCESSAR OS TRÊS RELATÓRIOS ────────────────────────────────────
 print("\nProcessando relatórios...")
-
 for label, path in [("Chamados", chamados_path), ("GC", gc_path), ("CTR", ctr_path)]:
     if path is None:
         print(f"  {label}: ⚠ pulado (arquivo não encontrado).")
         continue
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
     ws = wb.active
-    linhas_total, ignoradas_total = processar_relatorio(
-        ws, label, linhas_total, ignoradas_total, nao_encontrados, ws_out
+    linhas_total, ignoradas_total, retornados_total = processar_relatorio(
+        ws, label, linhas_total, ignoradas_total, retornados_total, nao_encontrados, ws_out
     )
     wb.close()
 
@@ -176,7 +198,7 @@ COL_WIDTHS = {
     'E': 13.0,  'F': 11.57, 'G': 9.86,  'H': 14.71,
     'I': 28.14, 'J': 15.86, 'K': 19.29, 'L': 12.86,
     'M': 12.86, 'N': 14.43, 'O': 15.57, 'P': 28.57,
-    'Q': 20.29,
+    'Q': 20.29, 'R': 12.0,
 }
 for col_letter, width in COL_WIDTHS.items():
     ws_out.column_dimensions[col_letter].width = width
@@ -209,8 +231,9 @@ ws_out.add_table(table)
 
 # ─── SALVAR ───────────────────────────────────────────────────────────
 wb_out.save(OUTPUT)
-print(f"\n✅ base.xlsx atualizado com {linhas_total} registros no total → {OUTPUT}")
-print(f"🗑  {ignoradas_total} registro(s) ignorado(s) por status 'Entregue Ao Solicitante'.")
+print(f"\n✅ base.xlsx atualizado com {linhas_total} registros → {OUTPUT}")
+print(f"🗑  {ignoradas_total} registro(s) ignorado(s) (outros departamentos).")
+print(f"🔄  {retornados_total} registro(s) marcado(s) como Retornado (GC/GC-ADM).")
 
 if nao_encontrados:
     print(f"\n⚠  Usuários não encontrados no relatório de colaboradores ({len(nao_encontrados)}):")
