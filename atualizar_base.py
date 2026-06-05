@@ -40,7 +40,7 @@ ATT_DIR  = BASE_DIR / "data" / "Att Base"
 OUTPUT   = BASE_DIR / "data" / "base.xlsx"
 
 # ─── DEPARTAMENTOS QUE SALVAM RETORNADOS ─────────────────────────────
-# Departamento Responsavel (coluna I na base final) que deve preservar
+# Departamento Solicitante (coluna D no relatório original) que deve preservar
 # itens com status 'Entregue Ao Solicitante' marcados como Retornado
 DEPTS_RETORNADOS = {"gerencia de contas", "gc - administrativo"}
 
@@ -133,8 +133,8 @@ def processar_relatorio(ws, label, linhas_total, ignoradas_total,
 
         # Coluna P (índice 15) = Status no relatório original
         status_val = str(row[15]).strip().lower() if row[15] else ''
-        # Coluna J (índice 9) = Departamento Responsavel no relatório original
-        dept_val   = str(row[9]).strip().lower()  if row[9]  else ''
+        # Coluna D (índice 3) = Departamento Solicitante no relatório original
+        dept_val   = str(row[3]).strip().lower()  if row[3]  else ''
 
         eh_entregue  = (status_val == STATUS_ENTREGUE)
         eh_gc        = (dept_val in DEPTS_RETORNADOS)
