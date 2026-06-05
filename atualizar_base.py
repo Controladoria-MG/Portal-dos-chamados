@@ -1,19 +1,21 @@
 """
 atualizar_base.py
 ─────────────────
-Lê o relatório de chamados da pasta Att Base, substitui os usuários AD
-das colunas I e Q pelo nome de exibição usando o relatório de colaboradores,
-filtra status 'Entregue Ao Solicitante' e salva em data/base.xlsx
-com o visual de tabela formatada (TableStyleMedium2).
+Lê os relatórios de chamados (principal, GC e CTR) da pasta Att Base,
+substitui os usuários AD das colunas I e Q pelo nome de exibição usando
+o relatório de colaboradores, filtra status 'Entregue Ao Solicitante'
+e salva em data/base.xlsx com o visual de tabela formatada (TableStyleMedium2).
 
 Estrutura esperada:
   Chamados/
   ├── data/
-  │   ├── base.xlsx                  ← será sobrescrito
+  │   ├── base.xlsx                          ← será sobrescrito
   │   └── Att Base/
-  │       ├── relatorio_chamados_*.xlsx
+  │       ├── relatorio_chamados_*.xlsx       ← relatório principal
+  │       ├── *GC*.xlsx                       ← relatório GC
+  │       ├── *CTR*.xlsx                      ← relatório CTR
   │       └── Relatório_Colaboradores_*.xlsx
-  └── atualizar_base.py              ← este script
+  └── atualizar_base.py                       ← este script
 """
 
 import os
@@ -37,16 +39,23 @@ ATT_DIR  = BASE_DIR / "data" / "Att Base"
 OUTPUT   = BASE_DIR / "data" / "base.xlsx"
 
 # ─── LOCALIZAR ARQUIVOS AUTOMATICAMENTE ──────────────────────────────
-def find_file(folder, pattern):
+def find_file(folder, pattern, required=True):
     matches = list(folder.glob(pattern))
     if not matches:
-        raise FileNotFoundError(f"Nenhum arquivo encontrado com padrão '{pattern}' em {folder}")
+        if required:
+            raise FileNotFoundError(f"Nenhum arquivo encontrado com padrão '{pattern}' em {folder}")
+        return None
     return max(matches, key=os.path.getmtime)
 
 print("Localizando arquivos...")
 chamados_path = find_file(ATT_DIR, "*chamados*.xlsx")
+gc_path       = find_file(ATT_DIR, "*GC*.xlsx",   required=False)
+ctr_path      = find_file(ATT_DIR, "*CTR*.xlsx",  required=False)
 colab_path    = find_file(ATT_DIR, "*olaboradores*.xlsx")
+
 print(f"  Chamados:      {chamados_path.name}")
+print(f"  GC:            {gc_path.name  if gc_path  else '⚠ não encontrado'}")
+print(f"  CTR:           {ctr_path.name if ctr_path else '⚠ não encontrado'}")
 print(f"  Colaboradores: {colab_path.name}")
 
 # ─── CARREGAR COLABORADORES ───────────────────────────────────────────
@@ -90,7 +99,7 @@ COL_MAP = [
     (20, 16),  # U → Q  | Ultimo Comentário
 ]
 
-LOOKUP_COLS = {8, 16}  # I e Q do chamados
+LOOKUP_COLS = {8, 16}  # I e Q do relatório de origem
 
 # ─── CABEÇALHOS DA BASE ───────────────────────────────────────────────
 HEADERS = [
@@ -104,46 +113,64 @@ HEADERS = [
 # Status que devem ser excluídos
 STATUS_EXCLUIR = {"entregue ao solicitante"}
 
-# ─── PROCESSAR CHAMADOS ───────────────────────────────────────────────
-print("\nProcessando relatório de chamados...")
-wb_cham = openpyxl.load_workbook(chamados_path, read_only=True, data_only=True)
-ws_cham = wb_cham.active
+# ─── FUNÇÃO GENÉRICA DE PROCESSAMENTO ────────────────────────────────
+def processar_relatorio(ws, label, linhas_total, ignoradas_total, nao_encontrados, ws_out):
+    """Itera sobre as linhas de um worksheet e escreve no ws_out."""
+    linhas   = 0
+    ignoradas = 0
 
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        if not any(row):
+            continue
+
+        # Coluna P (índice 15) = Status no relatório
+        status_val = str(row[15]).strip().lower() if row[15] else ''
+        if status_val in STATUS_EXCLUIR:
+            ignoradas += 1
+            continue
+
+        nova_linha = [None] * len(HEADERS)
+
+        for col_src, col_dst in COL_MAP:
+            valor = row[col_src] if col_src < len(row) else None
+            if col_src in LOOKUP_COLS:
+                nome_resolvido = resolver_nome(valor)
+                if valor and nome_resolvido == str(valor).strip():
+                    nao_encontrados.add(str(valor).strip())
+                valor = nome_resolvido
+            nova_linha[col_dst] = valor
+
+        ws_out.append(nova_linha)
+        linhas += 1
+
+    print(f"  {label}: {linhas} registro(s) incluídos, {ignoradas} ignorado(s).")
+    return linhas_total + linhas, ignoradas_total + ignoradas
+
+# ─── PREPARAR WORKBOOK DE SAÍDA ───────────────────────────────────────
 wb_out = openpyxl.Workbook()
 ws_out = wb_out.active
 ws_out.title = "Base"
 ws_out.append(HEADERS)
 
-linhas          = 0
-linhas_ignoradas = 0
+linhas_total   = 0
+ignoradas_total = 0
 nao_encontrados = set()
 
-for row in ws_cham.iter_rows(min_row=2, values_only=True):
-    if not any(row):
+# ─── PROCESSAR OS TRÊS RELATÓRIOS ────────────────────────────────────
+print("\nProcessando relatórios...")
+
+for label, path in [("Chamados", chamados_path), ("GC", gc_path), ("CTR", ctr_path)]:
+    if path is None:
+        print(f"  {label}: ⚠ pulado (arquivo não encontrado).")
         continue
-
-    # Coluna P (índice 15) = Status no relatório de chamados
-    status_val = str(row[15]).strip().lower() if row[15] else ''
-    if status_val in STATUS_EXCLUIR:
-        linhas_ignoradas += 1
-        continue
-
-    nova_linha = [None] * len(HEADERS)
-
-    for col_src, col_dst in COL_MAP:
-        valor = row[col_src] if col_src < len(row) else None
-        if col_src in LOOKUP_COLS:
-            nome_resolvido = resolver_nome(valor)
-            if valor and nome_resolvido == str(valor).strip():
-                nao_encontrados.add(str(valor).strip())
-            valor = nome_resolvido
-        nova_linha[col_dst] = valor
-
-    ws_out.append(nova_linha)
-    linhas += 1
+    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+    ws = wb.active
+    linhas_total, ignoradas_total = processar_relatorio(
+        ws, label, linhas_total, ignoradas_total, nao_encontrados, ws_out
+    )
+    wb.close()
 
 # ─── FORMATAÇÃO VISUAL ────────────────────────────────────────────────
-# Larguras de coluna (replicando o visual da base original)
 COL_WIDTHS = {
     'A': 10,    'B': 11.86, 'C': 10.43, 'D': 26.29,
     'E': 13.0,  'F': 11.57, 'G': 9.86,  'H': 14.71,
@@ -154,21 +181,18 @@ COL_WIDTHS = {
 for col_letter, width in COL_WIDTHS.items():
     ws_out.column_dimensions[col_letter].width = width
 
-# Fonte Aptos Narrow para todas as células
 font_padrao = Font(name='Aptos Narrow', size=11)
 for row in ws_out.iter_rows():
     for cell in row:
         cell.font = font_padrao
         cell.alignment = Alignment(vertical='center', wrap_text=False)
 
-# Formato de data para colunas J, K, N, O
 DATE_COLS = ['J', 'K', 'N', 'O']
 for col_letter in DATE_COLS:
     for cell in ws_out[col_letter][1:]:
         if cell.value:
             cell.number_format = 'DD/MM/YYYY'
 
-# Tabela formatada TableStyleMedium2 (igual à base original)
 last_row = ws_out.max_row
 last_col = get_column_letter(ws_out.max_column)
 table_ref = f"A1:{last_col}{last_row}"
@@ -185,8 +209,8 @@ ws_out.add_table(table)
 
 # ─── SALVAR ───────────────────────────────────────────────────────────
 wb_out.save(OUTPUT)
-print(f"\n✅ base.xlsx atualizado com {linhas} registros → {OUTPUT}")
-print(f"🗑  {linhas_ignoradas} registro(s) ignorado(s) por status 'Entregue Ao Solicitante'.")
+print(f"\n✅ base.xlsx atualizado com {linhas_total} registros no total → {OUTPUT}")
+print(f"🗑  {ignoradas_total} registro(s) ignorado(s) por status 'Entregue Ao Solicitante'.")
 
 if nao_encontrados:
     print(f"\n⚠  Usuários não encontrados no relatório de colaboradores ({len(nao_encontrados)}):")
