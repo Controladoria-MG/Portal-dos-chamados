@@ -233,10 +233,6 @@ function buildTabs(deptName, allDeptRows) {
       activeCategories = new Set();
       $clientSearch.value = '';
 
-      // Restaura cabeçalho padrão ao trocar de aba
-      const thead = $clientBody.closest('table').querySelector('thead tr');
-      thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th>Data Cadastro</th><th>Prazo Vencimento</th>';
-
       const rows = allData.filter(r => {
         const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
         const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
@@ -396,59 +392,27 @@ function renderDeptRows(allDeptRows) {
 
   $deptCount.textContent = `${rows.length} registro${rows.length !== 1 ? 's' : ''}`;
 
-  if (isRet) {
-    // Aba retornados: cada chamado é uma linha individual
-    renderRetornadosTable(rows);
-  } else {
-    // Aba pendentes: agrupado por cliente
-    const clientMap = {};
-    for (const r of rows) {
-      const id = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
-      if (!clientMap[id]) {
-        clientMap[id] = {
-          id,
-          name:      col(r,'Cliente','Nome Cliente','NomeCliente') || id,
-          dataCad:   col(r,'Data Cadastro','DataCadastro','Data_Cadastro'),
-          prazoVenc: col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento'),
-          rows: []
-        };
-      }
-      clientMap[id].rows.push(r);
-    }
-    renderClientTable(Object.values(clientMap));
-  }
-}
-
-/* ─── RENDER RETORNADOS TABLE ────────────────────────────────────── */
-function renderRetornadosTable(rows) {
-  $clientBody.innerHTML = '';
-
-  if (!rows.length) {
-    $clientBody.innerHTML = `<tr><td colspan="4" class="empty">Nenhum registro retornado.</td></tr>`;
-    return;
-  }
-
-  // Atualiza cabeçalho da tabela para retornados
-  const thead = $clientBody.closest('table').querySelector('thead tr');
-  thead.innerHTML = `
-    <th>ID</th>
-    <th>Cliente</th>
-    <th>Categoria</th>
-    <th>Depto. Solicitante</th>
-    <th>Data Cadastro</th>
-    <th>Prazo Vencimento</th>`;
-
+  // Ambas as abas: agrupado por cliente com detalhamento expansível
+  const clientMap = {};
   for (const r of rows) {
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td class="id-cell">${escHtml(String(col(r,'Id','ID','id')||'—'))}</td>
-      <td class="name-cell">${escHtml(String(col(r,'Cliente','Nome Cliente','NomeCliente')||'—'))}</td>
-      <td>${escHtml(String(col(r,'Categoria','categoria')||'—'))}</td>
-      <td>${escHtml(String(col(r,'Departamento Solicitante','Departamento_Solicitante')||'—'))}</td>
-      <td class="date-cell">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</td>
-      <td>${fmtPrazo(col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento'))}</td>`;
-    $clientBody.appendChild(tr);
+    const id = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
+    if (!clientMap[id]) {
+      clientMap[id] = {
+        id,
+        name:      col(r,'Cliente','Nome Cliente','NomeCliente') || id,
+        dataCad:   col(r,'Data Cadastro','DataCadastro','Data_Cadastro'),
+        prazoVenc: col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento'),
+        rows: []
+      };
+    }
+    clientMap[id].rows.push(r);
   }
+
+  // Restaura cabeçalho padrão
+  const thead = $clientBody.closest('table').querySelector('thead tr');
+  thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th>Data Cadastro</th><th>Prazo Vencimento</th>';
+
+  renderClientTable(Object.values(clientMap));
 }
 
 /* ─── RENDER CLIENT TABLE ────────────────────────────────────────── */
