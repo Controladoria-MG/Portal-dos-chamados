@@ -53,16 +53,25 @@ def find_file(folder, pattern, required=True):
         return None
     return max(matches, key=os.path.getmtime)
 
+def find_all(folder, pattern):
+    return list(folder.glob(pattern))
+
 print("Localizando arquivos...")
-chamados_path = find_file(ATT_DIR, "*chamados*.xlsx")
-gc_path       = find_file(ATT_DIR, "*GC*.xlsx",  required=False)
-ctr_path      = find_file(ATT_DIR, "*CTR*.xlsx", required=False)
 colab_path    = find_file(ATT_DIR, "*olaboradores*.xlsx")
 
-print(f"  Chamados:      {chamados_path.name}")
+# Pega todos os relatórios de chamados (qualquer nome que contenha "chamados")
+chamados_paths = find_all(ATT_DIR, "*chamados*.xlsx")
+gc_path        = find_file(ATT_DIR, "*GC*.xlsx",  required=False)
+ctr_path       = find_file(ATT_DIR, "*CTR*.xlsx", required=False)
+
+if not chamados_paths:
+    raise FileNotFoundError(f"Nenhum arquivo *chamados*.xlsx encontrado em {ATT_DIR}")
+
+print(f"  Colaboradores: {colab_path.name}")
+for p in chamados_paths:
+    print(f"  Chamados:      {p.name}")
 print(f"  GC:            {gc_path.name  if gc_path  else '⚠ não encontrado'}")
 print(f"  CTR:           {ctr_path.name if ctr_path else '⚠ não encontrado'}")
-print(f"  Colaboradores: {colab_path.name}")
 
 # ─── CARREGAR COLABORADORES ───────────────────────────────────────────
 print("\nCarregando colaboradores...")
@@ -181,10 +190,13 @@ nao_encontrados = set()
 
 # ─── PROCESSAR OS TRÊS RELATÓRIOS ────────────────────────────────────
 print("\nProcessando relatórios...")
-for label, path in [("Chamados", chamados_path), ("GC", gc_path), ("CTR", ctr_path)]:
-    if path is None:
-        print(f"  {label}: ⚠ pulado (arquivo não encontrado).")
-        continue
+
+# Todos os arquivos de chamados + GC + CTR
+fontes = [(p.stem, p) for p in sorted(chamados_paths)]
+if gc_path:  fontes.append(("GC",  gc_path))
+if ctr_path: fontes.append(("CTR", ctr_path))
+
+for label, path in fontes:
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
     ws = wb.active
     linhas_total, ignoradas_total, retornados_total = processar_relatorio(
