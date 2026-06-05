@@ -459,7 +459,7 @@ td.date-cell { color: var(--muted-light); font-size: 0.72rem; }
 .cat-chevron { font-size: 0.65rem; opacity: 0.6; }
 
 .cat-dropdown {
-  position: absolute; top: calc(100% + 6px); left: 0; z-index: 200;
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 200;
   min-width: 230px; max-width: 300px;
   background: var(--bg-card); border: 1px solid var(--border-accent);
   border-radius: var(--radius-lg); box-shadow: 0 12px 40px rgba(0,0,0,.4); overflow: hidden;

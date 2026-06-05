@@ -136,25 +136,25 @@ function renderHome() {
   const deptMap = {};
   for (const row of allData) {
     const retornado = String(col(row, 'Retornado')).toUpperCase();
-    if (retornado === 'SIM') continue; // não conta retornados no card da home
+    if (retornado === 'SIM') continue; // retornados não contam nos cards normais
     const dept = String(col(row, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || 'Sem Departamento').trim();
     deptMap[dept] = (deptMap[dept] || 0) + 1;
   }
+  // Garante que GERENCIA DE CONTAS aparece mesmo que não tenha pendentes
+  if (!deptMap['GERENCIA DE CONTAS']) deptMap['GERENCIA DE CONTAS'] = 0;
 
   const depts = Object.entries(deptMap).sort((a, b) => b[1] - a[1]);
   $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
+  const totalRetornados = allData.filter(r => String(col(r,'Retornado')).toUpperCase() === 'SIM').length;
   $totalDeps.textContent = depts.length;
 
   $deptGrid.innerHTML = '';
   for (const [name, count] of depts) {
     // Conta retornados deste dept (qualquer dept pode ter, mas na prática só GC)
-    const retCount = allData.filter(r => {
-      const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
-      const solicitante = String(col(r,'Departamento Solicitante')||'').trim();
-      const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
-      if (name === 'GERENCIA DE CONTAS' && retornado && solicitante === 'GC - ADMINISTRATIVO') return true;
-      return dept === name && retornado;
-    }).length;
+    // Todos os retornados ficam sob GERENCIA DE CONTAS
+    const retCount = name === 'GERENCIA DE CONTAS'
+      ? allData.filter(r => String(col(r,'Retornado')).toUpperCase() === 'SIM').length
+      : 0;
 
     const card = document.createElement('div');
     card.className = 'dept-card';
@@ -185,13 +185,11 @@ function openDept(deptName) {
 
   $deptTitle.textContent = deptName;
 
-  const GC_ADM = 'GC - ADMINISTRATIVO';
   const allDeptRows = allData.filter(r => {
     const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
-    const solicitante = String(col(r,'Departamento Solicitante')||'').trim();
     const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
-    // Inclui rows do próprio dept + retornados do GC-ADM se estivermos em GERENCIA DE CONTAS
-    if (deptName === 'GERENCIA DE CONTAS' && retornado && solicitante === GC_ADM) return true;
+    // Retornados sempre ficam em GERENCIA DE CONTAS, independente do dept original
+    if (retornado) return deptName === 'GERENCIA DE CONTAS';
     return dept === deptName;
   });
 
@@ -235,14 +233,18 @@ function buildTabs(deptName, allDeptRows) {
       activeCategories = new Set();
       $clientSearch.value = '';
 
-      const rows = allData.filter(r =>
-        String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim() === currentDept
-      );
-      const tabRows = activeTab === 'retornados'
-        ? rows.filter(r => String(col(r,'Retornado')).toUpperCase() === 'SIM')
-        : rows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM');
+      // Restaura cabeçalho padrão ao trocar de aba
+      const thead = $clientBody.closest('table').querySelector('thead tr');
+      thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th>Data Cadastro</th><th>Prazo Vencimento</th>';
 
-      populateCategoryDropdown(tabRows);
+      const rows = allData.filter(r => {
+        const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
+        const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
+        if (retornado) return currentDept === 'GERENCIA DE CONTAS';
+        return dept === currentDept;
+      });
+
+      populateCategoryDropdown(rows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM'));
       renderDeptRows(rows);
       updateCategoryLabel();
     });
@@ -392,24 +394,61 @@ function renderDeptRows(allDeptRows) {
       : String(col(r,'Retornado')).toUpperCase() !== 'SIM'
   );
 
-  const clientMap = {};
-  for (const r of rows) {
-    const id = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
-    if (!clientMap[id]) {
-      clientMap[id] = {
-        id,
-        name:      col(r,'Cliente','Nome Cliente','NomeCliente') || id,
-        dataCad:   col(r,'Data Cadastro','DataCadastro','Data_Cadastro'),
-        prazoVenc: col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento'),
-        rows: []
-      };
+  $deptCount.textContent = `${rows.length} registro${rows.length !== 1 ? 's' : ''}`;
+
+  if (isRet) {
+    // Aba retornados: cada chamado é uma linha individual
+    renderRetornadosTable(rows);
+  } else {
+    // Aba pendentes: agrupado por cliente
+    const clientMap = {};
+    for (const r of rows) {
+      const id = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
+      if (!clientMap[id]) {
+        clientMap[id] = {
+          id,
+          name:      col(r,'Cliente','Nome Cliente','NomeCliente') || id,
+          dataCad:   col(r,'Data Cadastro','DataCadastro','Data_Cadastro'),
+          prazoVenc: col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento'),
+          rows: []
+        };
+      }
+      clientMap[id].rows.push(r);
     }
-    clientMap[id].rows.push(r);
+    renderClientTable(Object.values(clientMap));
+  }
+}
+
+/* ─── RENDER RETORNADOS TABLE ────────────────────────────────────── */
+function renderRetornadosTable(rows) {
+  $clientBody.innerHTML = '';
+
+  if (!rows.length) {
+    $clientBody.innerHTML = `<tr><td colspan="4" class="empty">Nenhum registro retornado.</td></tr>`;
+    return;
   }
 
-  const clients = Object.values(clientMap);
-  $deptCount.textContent = `${rows.length} registro${rows.length !== 1 ? 's' : ''}`;
-  renderClientTable(clients);
+  // Atualiza cabeçalho da tabela para retornados
+  const thead = $clientBody.closest('table').querySelector('thead tr');
+  thead.innerHTML = `
+    <th>ID</th>
+    <th>Cliente</th>
+    <th>Categoria</th>
+    <th>Depto. Solicitante</th>
+    <th>Data Cadastro</th>
+    <th>Prazo Vencimento</th>`;
+
+  for (const r of rows) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="id-cell">${escHtml(String(col(r,'Id','ID','id')||'—'))}</td>
+      <td class="name-cell">${escHtml(String(col(r,'Cliente','Nome Cliente','NomeCliente')||'—'))}</td>
+      <td>${escHtml(String(col(r,'Categoria','categoria')||'—'))}</td>
+      <td>${escHtml(String(col(r,'Departamento Solicitante','Departamento_Solicitante')||'—'))}</td>
+      <td class="date-cell">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</td>
+      <td>${fmtPrazo(col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento'))}</td>`;
+    $clientBody.appendChild(tr);
+  }
 }
 
 /* ─── RENDER CLIENT TABLE ────────────────────────────────────────── */
