@@ -42,10 +42,9 @@ const $deptTitle    = document.getElementById('dept-title');
 const $deptCount    = document.getElementById('dept-count');
 const $headerDate   = document.getElementById('header-date');
 
-/* ─── DEPT GC: detecta se é departamento com retornados ─────────── */
-const GC_DEPTS = ['gerencia de contas', 'gc - administrativo'];
-function isGcDept(name) {
-  return GC_DEPTS.includes((name || '').trim().toLowerCase());
+/* ─── DEPT COM RETORNADOS: qualquer dept que tenha linhas Retornado=SIM ─ */
+function deptTemRetornados(rows) {
+  return rows.some(r => String(col(r,'Retornado')).toUpperCase() === 'SIM');
 }
 
 /* ─── INIT ───────────────────────────────────────────────────────── */
@@ -148,13 +147,11 @@ function renderHome() {
 
   $deptGrid.innerHTML = '';
   for (const [name, count] of depts) {
-    // Conta retornados para GC
-    const retCount = isGcDept(name)
-      ? allData.filter(r =>
-          String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim() === name &&
-          String(col(r,'Retornado')).toUpperCase() === 'SIM'
-        ).length
-      : 0;
+    // Conta retornados deste dept (qualquer dept pode ter, mas na prática só GC)
+    const retCount = allData.filter(r =>
+      String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim() === name &&
+      String(col(r,'Retornado')).toUpperCase() === 'SIM'
+    ).length;
 
     const card = document.createElement('div');
     card.className = 'dept-card';
@@ -201,8 +198,7 @@ function buildTabs(deptName, allDeptRows) {
   const tabsWrap = document.getElementById('dept-tabs');
   if (!tabsWrap) return;
 
-  const hasRetornados = isGcDept(deptName) &&
-    allDeptRows.some(r => String(col(r,'Retornado')).toUpperCase() === 'SIM');
+  const hasRetornados = deptTemRetornados(allDeptRows);
 
   if (!hasRetornados) {
     tabsWrap.style.display = 'none';
@@ -262,11 +258,14 @@ function buildCategoryDropdown() {
       <ul id="cat-list" class="cat-list"></ul>
     </div>`;
 
-  const searchWrap = $clientSearch.parentElement;
-  searchWrap.style.display    = 'flex';
-  searchWrap.style.gap        = '8px';
-  searchWrap.style.alignItems = 'center';
-  searchWrap.appendChild(wrapper);
+  // Cria wrapper .table-header-controls ao redor do input + dropdown
+  const searchInput = $clientSearch;
+  const searchWrap  = searchInput.parentElement;
+  const controls    = document.createElement('div');
+  controls.className = 'table-header-controls';
+  searchWrap.insertBefore(controls, searchInput);
+  controls.appendChild(searchInput);
+  controls.appendChild(wrapper);
 
   document.getElementById('cat-btn').addEventListener('click', (e) => {
     e.stopPropagation();
