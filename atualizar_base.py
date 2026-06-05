@@ -40,8 +40,8 @@ ATT_DIR  = BASE_DIR / "data" / "Att Base"
 OUTPUT   = BASE_DIR / "data" / "base.xlsx"
 
 # ─── DEPARTAMENTOS QUE SALVAM RETORNADOS ─────────────────────────────
-# Departamento Solicitante (coluna D no relatório original) que deve preservar
-# itens com status 'Entregue Ao Solicitante' marcados como Retornado
+# Verifica AMBAS as colunas: D (Depto Solicitante) E J (Depto Responsavel)
+# Se qualquer uma delas for GC, o item é marcado como Retornado
 DEPTS_RETORNADOS = {"gerencia de contas", "gc - administrativo"}
 
 # ─── LOCALIZAR ARQUIVOS AUTOMATICAMENTE ──────────────────────────────
@@ -141,12 +141,15 @@ def processar_relatorio(ws, label, linhas_total, ignoradas_total,
             continue
 
         # Coluna P (índice 15) = Status no relatório original
-        status_val = str(row[15]).strip().lower() if row[15] else ''
-        # Coluna D (índice 3) = Departamento Solicitante no relatório original
-        dept_val   = str(row[3]).strip().lower()  if row[3]  else ''
+        status_val   = str(row[15]).strip().lower() if row[15] else ''
+        # Coluna D (índice 3) = Departamento Solicitante
+        dept_sol     = str(row[3]).strip().lower()  if row[3]  else ''
+        # Coluna J (índice 9) = Departamento Responsavel
+        dept_resp    = str(row[9]).strip().lower()  if row[9]  else ''
 
         eh_entregue  = (status_val == STATUS_ENTREGUE)
-        eh_gc        = (dept_val in DEPTS_RETORNADOS)
+        # É GC se qualquer uma das colunas de departamento indicar GC
+        eh_gc        = (dept_sol in DEPTS_RETORNADOS) or (dept_resp in DEPTS_RETORNADOS)
 
         if eh_entregue and not eh_gc:
             # Ignora normalmente
