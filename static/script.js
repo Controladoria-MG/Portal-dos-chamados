@@ -136,14 +136,14 @@ function renderHome() {
 
   const deptMap = {};
   for (const row of allData) {
-    const retornado = String(col(row, 'Retornado')).toLowerCase();
-    if (retornado === 'true') continue; // não conta retornados no card da home
+    const retornado = String(col(row, 'Retornado')).toUpperCase();
+    if (retornado === 'SIM') continue; // não conta retornados no card da home
     const dept = String(col(row, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || 'Sem Departamento').trim();
     deptMap[dept] = (deptMap[dept] || 0) + 1;
   }
 
   const depts = Object.entries(deptMap).sort((a, b) => b[1] - a[1]);
-  $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toLowerCase() !== 'true').length.toLocaleString('pt-BR');
+  $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
   $totalDeps.textContent = depts.length;
 
   $deptGrid.innerHTML = '';
@@ -152,7 +152,7 @@ function renderHome() {
     const retCount = isGcDept(name)
       ? allData.filter(r =>
           String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim() === name &&
-          String(col(r,'Retornado')).toLowerCase() === 'true'
+          String(col(r,'Retornado')).toUpperCase() === 'SIM'
         ).length
       : 0;
 
@@ -191,7 +191,7 @@ function openDept(deptName) {
 
   // Monta abas se for dept GC
   buildTabs(deptName, allDeptRows);
-  populateCategoryDropdown(allDeptRows.filter(r => String(col(r,'Retornado')).toLowerCase() !== 'true'));
+  populateCategoryDropdown(allDeptRows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM'));
   renderDeptRows(allDeptRows);
   showView('dept');
 }
@@ -202,15 +202,15 @@ function buildTabs(deptName, allDeptRows) {
   if (!tabsWrap) return;
 
   const hasRetornados = isGcDept(deptName) &&
-    allDeptRows.some(r => String(col(r,'Retornado')).toLowerCase() === 'true');
+    allDeptRows.some(r => String(col(r,'Retornado')).toUpperCase() === 'SIM');
 
   if (!hasRetornados) {
     tabsWrap.style.display = 'none';
     return;
   }
 
-  const pendCount = allDeptRows.filter(r => String(col(r,'Retornado')).toLowerCase() !== 'true').length;
-  const retCount  = allDeptRows.filter(r => String(col(r,'Retornado')).toLowerCase() === 'true').length;
+  const pendCount = allDeptRows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length;
+  const retCount  = allDeptRows.filter(r => String(col(r,'Retornado')).toUpperCase() === 'SIM').length;
 
   tabsWrap.style.display = 'flex';
   tabsWrap.innerHTML = `
@@ -234,8 +234,8 @@ function buildTabs(deptName, allDeptRows) {
         String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim() === currentDept
       );
       const tabRows = activeTab === 'retornados'
-        ? rows.filter(r => String(col(r,'Retornado')).toLowerCase() === 'true')
-        : rows.filter(r => String(col(r,'Retornado')).toLowerCase() !== 'true');
+        ? rows.filter(r => String(col(r,'Retornado')).toUpperCase() === 'SIM')
+        : rows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM');
 
       populateCategoryDropdown(tabRows);
       renderDeptRows(rows);
@@ -356,7 +356,7 @@ function applyFilters() {
       const clientRows = allData.filter(r => {
         const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
         const id   = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
-        const ret  = String(col(r,'Retornado')).toLowerCase() === 'true';
+        const ret  = String(col(r,'Retornado')).toUpperCase() === 'SIM';
         return dept === currentDept && id === clientId &&
                (activeTab === 'retornados' ? ret : !ret);
       });
@@ -380,8 +380,8 @@ function renderDeptRows(allDeptRows) {
   const isRet = activeTab === 'retornados';
   const rows  = allDeptRows.filter(r =>
     isRet
-      ? String(col(r,'Retornado')).toLowerCase() === 'true'
-      : String(col(r,'Retornado')).toLowerCase() !== 'true'
+      ? String(col(r,'Retornado')).toUpperCase() === 'SIM'
+      : String(col(r,'Retornado')).toUpperCase() !== 'SIM'
   );
 
   const clientMap = {};

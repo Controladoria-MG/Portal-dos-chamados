@@ -155,12 +155,12 @@ def processar_relatorio(ws, label, linhas_total, ignoradas_total,
                 valor = nome_resolvido
             nova_linha[col_dst] = valor
 
-        # Marca coluna Retornado (índice 17)
+        # Marca coluna Retornado (índice 17) como texto para leitura segura no browser
         if eh_entregue and eh_gc:
-            nova_linha[17] = True
+            nova_linha[17] = "SIM"
             retornados += 1
         else:
-            nova_linha[17] = False
+            nova_linha[17] = "NÃO"
 
         ws_out.append(nova_linha)
         linhas += 1
