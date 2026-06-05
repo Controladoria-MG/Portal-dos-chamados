@@ -148,10 +148,13 @@ function renderHome() {
   $deptGrid.innerHTML = '';
   for (const [name, count] of depts) {
     // Conta retornados deste dept (qualquer dept pode ter, mas na prática só GC)
-    const retCount = allData.filter(r =>
-      String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim() === name &&
-      String(col(r,'Retornado')).toUpperCase() === 'SIM'
-    ).length;
+    const retCount = allData.filter(r => {
+      const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
+      const solicitante = String(col(r,'Departamento Solicitante')||'').trim();
+      const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
+      if (name === 'GERENCIA DE CONTAS' && retornado && solicitante === 'GC - ADMINISTRATIVO') return true;
+      return dept === name && retornado;
+    }).length;
 
     const card = document.createElement('div');
     card.className = 'dept-card';
@@ -182,9 +185,15 @@ function openDept(deptName) {
 
   $deptTitle.textContent = deptName;
 
-  const allDeptRows = allData.filter(r =>
-    String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim() === deptName
-  );
+  const GC_ADM = 'GC - ADMINISTRATIVO';
+  const allDeptRows = allData.filter(r => {
+    const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
+    const solicitante = String(col(r,'Departamento Solicitante')||'').trim();
+    const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
+    // Inclui rows do próprio dept + retornados do GC-ADM se estivermos em GERENCIA DE CONTAS
+    if (deptName === 'GERENCIA DE CONTAS' && retornado && solicitante === GC_ADM) return true;
+    return dept === deptName;
+  });
 
   // Monta abas se for dept GC
   buildTabs(deptName, allDeptRows);
@@ -458,7 +467,7 @@ function toggleClientDetail(tr, client) {
           <thead>
             <tr>
               <th>ID</th><th>Categoria</th><th>Solicitação</th><th>Responsável</th>
-              <th>Data Cadastro</th><th>Prazo Vencimento</th><th>Status</th>
+              <th>Depto. Solicitante</th><th>Data Cadastro</th><th>Prazo Vencimento</th><th>Status</th>
               <th>Solicitante</th><th>Início Atend.</th>
             </tr>
           </thead>
@@ -469,6 +478,7 @@ function toggleClientDetail(tr, client) {
                 <td>${escHtml(String(col(r,'Categoria','categoria')||'—'))}</td>
                 <td>${escHtml(String(col(r,'Solicitacao','Solicitação','solicitacao','solicitação')||'—'))}</td>
                 <td>${escHtml(String(col(r,'Responsavel','Responsável','responsavel')||'—'))}</td>
+                <td>${escHtml(String(col(r,'Departamento Solicitante','Departamento_Solicitante')||'—'))}</td>
                 <td class="date-cell">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</td>
                 <td>${fmtPrazo(col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'))}</td>
                 <td>${badge(col(r,'Status','status'))}</td>
