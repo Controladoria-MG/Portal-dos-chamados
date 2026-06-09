@@ -150,15 +150,12 @@ def processar_relatorio(ws, label, linhas_total, ignoradas_total,
             continue
 
         # Coluna P (índice 15) = Status no relatório original
-        status_val   = str(row[15]).strip().lower() if row[15] else ''
-        # Coluna D (índice 3) = Departamento Solicitante
-        dept_sol     = str(row[3]).strip().lower()  if row[3]  else ''
-        # Coluna J (índice 9) = Departamento Responsavel
-        dept_resp    = str(row[9]).strip().lower()  if row[9]  else ''
+        status_val = str(row[15]).strip().lower() if row[15] else ''
+        # Coluna D (índice 3) = Departamento Solicitante — único critério para GC
+        dept_sol   = str(row[3]).strip().lower()  if row[3]  else ''
 
-        eh_entregue  = (status_val == STATUS_ENTREGUE)
-        # É GC se qualquer uma das colunas de departamento indicar GC
-        eh_gc        = (dept_sol in DEPTS_RETORNADOS) or (dept_resp in DEPTS_RETORNADOS)
+        eh_entregue = (status_val == STATUS_ENTREGUE)
+        eh_gc       = (dept_sol in DEPTS_RETORNADOS)
 
         if eh_entregue and not eh_gc:
             # Ignora normalmente
