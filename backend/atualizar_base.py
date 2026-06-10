@@ -35,9 +35,12 @@ from openpyxl.styles import Font, Alignment
 from openpyxl.utils import get_column_letter
 
 # ─── CAMINHOS ────────────────────────────────────────────────────────
+# BASE_DIR aponta para a pasta pai do script (funciona em backend/ ou raiz)
 BASE_DIR = Path(__file__).parent
-ATT_DIR  = BASE_DIR / "data" / "Att Base"
-OUTPUT   = BASE_DIR / "data" / "base.xlsx"
+# Se o script está em backend/, sobe um nível para encontrar data/
+DATA_DIR = BASE_DIR / "data" if (BASE_DIR / "data").exists() else BASE_DIR.parent / "data"
+ATT_DIR  = DATA_DIR / "Att Base"
+OUTPUT   = DATA_DIR / "base.xlsx"
 
 # ─── DEPARTAMENTOS QUE SALVAM RETORNADOS ─────────────────────────────
 # Verifica AMBAS as colunas: D (Depto Solicitante) E J (Depto Responsavel)
