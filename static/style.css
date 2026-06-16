@@ -133,22 +133,6 @@ header {
   border-color: var(--secondary);
   color: var(--secondary);
 }
-.btn-central {
-  background: transparent;
-  border: 1px solid var(--border-accent);
-  border-radius: 100px;
-  padding: 0.4rem 1rem;
-  color: var(--muted-light);
-  font-size: 0.72rem;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  transition: border-color 0.2s, color 0.2s;
-}
-.btn-central:hover {
-  border-color: var(--secondary);
-  color: var(--secondary);
-}
-
 /* ─── MAIN LAYOUT ────────────────────────────────────────────────── */
 main {
   position: relative; z-index: 1;
