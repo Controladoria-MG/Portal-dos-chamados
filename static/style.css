@@ -1,58 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap');
-
 /* ══════════════════════════════════════════════════════════════════
    TOKENS — TEMA ESCURO (padrão)
 ══════════════════════════════════════════════════════════════════ */
 :root,
 [data-theme="dark"] {
-  --bg-deep:        #0a0a0f;
-  --bg-card:        #1d1d27;
-  --bg-card-hover:  #16161f;
-  --bg-surface:     #1a1a25;
-  --border:         #1e1e2e;
-  --border-accent:  #2a2a3e;
+  --bg-deep:        #1a1a1a;
+  --bg-card:        #2c2c2c;
+  --bg-card-hover:  #333333;
+  --bg-surface:     #333333;
+  --border:         #444444;
+  --border-accent:  #555555;
   --primary:        #ffffff;
-  --secondary:      #e02020;        /* vermelho */
-  --secondary-dim:  #5a0a0a;
-  --secondary-glow: rgba(224,32,32,0.15);
-  --muted:          #ffffff;
-  --muted-light:    #8888aa;
+  --secondary:      #c0392b;
+  --secondary-dim:  rgba(192,57,43,0.15);
+  --secondary-glow: rgba(192,57,43,0.18);
+  --muted:          #aaaaaa;
+  --muted-light:    #888888;
   --danger:         #ff5566;
   --success:        #44ddaa;
   --warning:        #ffaa44;
-  --text:           #e8e8f0;
+  --text:           #ffffff;
   --text-dim:       #ffffff;
   --radius:         8px;
   --radius-lg:      14px;
-  --ret-bg:         rgba(224,32,32,0.08);
-  --ret-border:     rgba(224,32,32,0.30);
-  --ret-color:      #ff6b6b;
+  --ret-bg:         rgba(192,57,43,0.08);
+  --ret-border:     rgba(192,57,43,0.30);
+  --ret-color:      #e05050;
 }
 
 /* ══════════════════════════════════════════════════════════════════
    TOKENS — TEMA CLARO
 ══════════════════════════════════════════════════════════════════ */
 [data-theme="light"] {
-  --bg-deep:        #f5f5f7;
+  --bg-deep:        #f4f4f4;
   --bg-card:        #ffffff;
   --bg-card-hover:  #fafafa;
-  --bg-surface:     #f0f0f5;
-  --border:         #e2e2ea;
-  --border-accent:  #d0d0de;
-  --primary:        #1a1a2e;
-  --secondary:      #cc1111;        /* vermelho mais escuro no claro */
-  --secondary-dim:  #fde8e8;
-  --secondary-glow: rgba(204,17,17,0.12);
-  --muted:          #555577;
-  --muted-light:    #777799;
+  --bg-surface:     #ebebeb;
+  --border:         #e0e0e0;
+  --border-accent:  #cccccc;
+  --primary:        #2c2c2c;
+  --secondary:      #c0392b;
+  --secondary-dim:  rgba(192,57,43,0.12);
+  --secondary-glow: rgba(192,57,43,0.12);
+  --muted:          #888888;
+  --muted-light:    #888888;
   --danger:         #cc2233;
   --success:        #117755;
   --warning:        #bb7700;
-  --text:           #1a1a2e;
-  --text-dim:       #2a2a40;
-  --ret-bg:         rgba(204,17,17,0.06);
-  --ret-border:     rgba(204,17,17,0.25);
-  --ret-color:      #cc1111;
+  --text:           #2c2c2c;
+  --text-dim:       #2c2c2c;
+  --ret-bg:         rgba(192,57,43,0.06);
+  --ret-border:     rgba(192,57,43,0.25);
+  --ret-color:      #c0392b;
 }
 
 /* ─── RESET ──────────────────────────────────────────────────────── */
@@ -60,7 +58,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: var(--bg-deep);
   color: var(--text);
   min-height: 100vh;
@@ -68,18 +66,11 @@ body {
   transition: background 0.25s, color 0.25s;
 }
 
-/* noise overlay só no dark */
-[data-theme="dark"] body::before {
-  content: '';
-  position: fixed; inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
-  pointer-events: none; z-index: 0; opacity: 0.4;
-}
 
 /* ─── HEADER ─────────────────────────────────────────────────────── */
 header {
   position: sticky; top: 0; z-index: 100;
-  background: rgba(10,10,15,0.92);
+  background: rgba(26,26,26,0.95);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
   padding: 0 2rem; height: 60px;
@@ -121,12 +112,13 @@ header {
   background: transparent;
   border: 1px solid var(--border-accent);
   border-radius: 100px;
-  padding: 0.3rem 0.85rem;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.68rem;
+  padding: 0.4rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
   color: var(--muted-light);
   cursor: pointer;
-  letter-spacing: 0.05em;
+  white-space: nowrap;
   transition: border-color 0.2s, color 0.2s;
 }
 #theme-toggle:hover {
@@ -149,7 +141,7 @@ main {
 .page-title h1 span { color: var(--secondary); }
 .page-title p {
   margin-top: 0.4rem; font-size: 0.85rem;
-  color: var(--muted-light); font-family: 'DM Mono', monospace;
+  color: var(--muted-light); font-family: 'Courier New', Consolas, monospace;
   font-weight: 300; letter-spacing: 0.04em;
 }
 
@@ -169,7 +161,7 @@ main {
 .stat-pill {
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: 100px; padding: 0.35rem 1rem;
-  font-family: 'DM Mono', monospace; font-size: 0.72rem;
+  font-family: 'Courier New', Consolas, monospace; font-size: 0.72rem;
   color: var(--muted-light); display: flex; align-items: center; gap: 0.5rem;
 }
 .stat-pill strong { color: var(--secondary); font-weight: 500; }
@@ -204,7 +196,7 @@ main {
 .dept-card:hover::before { opacity: 1; }
 
 .card-label {
-  font-size: 0.7rem; font-family: 'DM Mono', monospace;
+  font-size: 0.7rem; font-family: 'Courier New', Consolas, monospace;
   color: var(--muted); text-transform: uppercase;
   letter-spacing: 0.1em; margin-bottom: 0.8rem;
 }
@@ -220,7 +212,7 @@ main {
   line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums;
 }
 .card-unit {
-  font-family: 'DM Mono', monospace; font-size: 0.65rem;
+  font-family: 'Courier New', Consolas, monospace; font-size: 0.65rem;
   color: var(--muted); margin-bottom: 0.25rem; letter-spacing: 0.06em;
 }
 .card-arrow {
@@ -244,7 +236,7 @@ main {
   border: 1px solid var(--ret-border);
   border-radius: 100px;
   font-size: 0.65rem;
-  font-family: 'DM Mono', monospace;
+  font-family: 'Courier New', Consolas, monospace;
   color: var(--ret-color);
   letter-spacing: 0.04em;
 }
@@ -262,7 +254,7 @@ main {
   border-radius: 50%; animation: spin .7s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
-#loading p { font-family: 'DM Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; }
+#loading p { font-family: 'Courier New', Consolas, monospace; font-size: 0.75rem; letter-spacing: 0.08em; }
 
 /* ─── ERROR ──────────────────────────────────────────────────────── */
 #error-msg {
@@ -271,7 +263,7 @@ main {
   border: 1px solid rgba(255,85,102,.3);
   border-radius: var(--radius);
   padding: 1.2rem 1.5rem;
-  color: var(--danger); font-family: 'DM Mono', monospace;
+  color: var(--danger); font-family: 'Courier New', Consolas, monospace;
   font-size: 0.8rem; letter-spacing: 0.03em;
 }
 
@@ -293,7 +285,7 @@ main {
   border: none;
   border-bottom: 2px solid transparent;
   margin-bottom: -2px;
-  font-family: 'DM Mono', monospace;
+  font-family: 'Courier New', Consolas, monospace;
   font-size: 0.75rem;
   letter-spacing: 0.05em;
   color: var(--muted-light);
@@ -334,7 +326,7 @@ main {
 }
 .table-title { font-size: 0.95rem; font-weight: 700; color: var(--primary); }
 .table-subtitle {
-  font-size: 0.72rem; font-family: 'DM Mono', monospace;
+  font-size: 0.72rem; font-family: 'Courier New', Consolas, monospace;
   color: var(--muted); margin-top: 0.15rem; letter-spacing: 0.04em;
 }
 
@@ -346,7 +338,7 @@ main {
 .search-input {
   background: var(--bg-deep); border: 1px solid var(--border-accent);
   border-radius: 100px; padding: 0.4rem 1rem;
-  color: var(--text); font-family: 'DM Mono', monospace;
+  color: var(--text); font-family: 'Courier New', Consolas, monospace;
   font-size: 0.75rem; outline: none; width: 190px; min-width: 0;
   transition: border-color .2s, box-shadow .2s;
 }
@@ -360,13 +352,13 @@ table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
 thead tr { background: var(--bg-surface); }
 th {
   padding: 0.75rem 1.2rem; text-align: left;
-  font-size: 0.65rem; font-family: 'DM Mono', monospace;
+  font-size: 0.65rem; font-family: 'Courier New', Consolas, monospace;
   font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
   color: var(--muted); border-bottom: 1px solid var(--border); white-space: nowrap;
 }
 td {
   padding: 0.8rem 1.2rem; border-bottom: 1px solid var(--border);
-  color: var(--text-dim); font-family: 'DM Mono', monospace;
+  color: var(--text-dim); font-family: 'Courier New', Consolas, monospace;
   font-size: 0.78rem; vertical-align: middle;
 }
 tbody tr { transition: background .15s; cursor: pointer; }
@@ -374,8 +366,11 @@ tbody tr:hover { background: var(--bg-surface); }
 tbody tr:last-child td { border-bottom: none; }
 
 td.id-cell   { font-weight: 500; color: var(--secondary); font-size: 0.72rem; }
-td.name-cell { color: var(--text); font-weight: 600; font-family: 'Syne', sans-serif; font-size: 0.82rem; }
-td.date-cell { color: var(--muted-light); font-size: 0.72rem; }
+td.name-cell { color: var(--text); font-weight: 600; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 0.82rem; }
+td.date-cell { color: var(--muted-light); font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular-nums; }
+td.prazo-cell .date-cell { color: var(--muted-light); font-size: 0.72rem; }
+td.prazo-cell .badge { display: inline-block; }
 
 /* ─── ROW DETAIL PANEL ───────────────────────────────────────────── */
 .detail-row td { padding: 0; background: var(--bg-deep) !important; cursor: default; }
@@ -386,7 +381,7 @@ td.date-cell { color: var(--muted-light); font-size: 0.72rem; }
   border-bottom: 1px solid var(--border-accent);
 }
 .detail-inner h4 {
-  font-size: 0.7rem; font-family: 'DM Mono', monospace;
+  font-size: 0.7rem; font-family: 'Courier New', Consolas, monospace;
   text-transform: uppercase; letter-spacing: 0.1em;
   color: var(--secondary); margin-bottom: 0.8rem;
 }
@@ -426,7 +421,7 @@ td.date-cell { color: var(--muted-light); font-size: 0.72rem; }
   display: inline-flex; align-items: center; gap: 0.5rem;
   background: transparent; border: 1px solid var(--border-accent);
   border-radius: 100px; padding: 0.4rem 1rem;
-  color: var(--muted-light); font-family: 'DM Mono', monospace;
+  color: var(--muted-light); font-family: 'Courier New', Consolas, monospace;
   font-size: 0.72rem; letter-spacing: 0.05em;
   cursor: pointer; transition: all .2s; margin-bottom: 1.5rem;
 }
@@ -438,7 +433,7 @@ td.date-cell { color: var(--muted-light); font-size: 0.72rem; }
 /* ─── EMPTY STATE ────────────────────────────────────────────────── */
 .empty {
   padding: 2.5rem; text-align: center; color: var(--muted);
-  font-family: 'DM Mono', monospace; font-size: 0.78rem; letter-spacing: 0.05em;
+  font-family: 'Courier New', Consolas, monospace; font-size: 0.78rem; letter-spacing: 0.05em;
 }
 
 /* ─── FILTRO DE CATEGORIA ────────────────────────────────────────── */
@@ -449,7 +444,7 @@ td.date-cell { color: var(--muted-light); font-size: 0.72rem; }
   padding: 0.4rem 1rem;
   background: var(--bg-deep); border: 1px solid var(--border-accent);
   border-radius: 100px; font-size: 0.75rem;
-  font-family: 'DM Mono', monospace; color: var(--muted-light);
+  font-family: 'Courier New', Consolas, monospace; color: var(--muted-light);
   cursor: pointer; white-space: nowrap;
   transition: border-color .2s, box-shadow .2s, color .2s;
 }
@@ -469,7 +464,7 @@ td.date-cell { color: var(--muted-light); font-size: 0.72rem; }
 }
 .cat-dropdown-actions button {
   flex: 1; padding: 5px 0; font-size: 0.68rem;
-  font-family: 'DM Mono', monospace; letter-spacing: 0.05em;
+  font-family: 'Courier New', Consolas, monospace; letter-spacing: 0.05em;
   border: 1px solid var(--border-accent); border-radius: 100px;
   background: transparent; color: var(--muted-light);
   cursor: pointer; transition: background .15s, color .15s, border-color .15s;
@@ -484,7 +479,7 @@ td.date-cell { color: var(--muted-light); font-size: 0.72rem; }
 .cat-option {
   display: flex; align-items: center; gap: 10px;
   padding: 8px 14px; font-size: 0.75rem;
-  font-family: 'DM Mono', monospace; color: var(--text-dim);
+  font-family: 'Courier New', Consolas, monospace; color: var(--text-dim);
   cursor: pointer; transition: background .1s;
 }
 .cat-option:hover { background: var(--bg-surface); }

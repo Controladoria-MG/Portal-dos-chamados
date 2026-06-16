@@ -12,12 +12,12 @@ let activeTab        = 'pendentes'; // 'pendentes' | 'retornados'
 /* ─── TEMA ───────────────────────────────────────────────────────── */
 const THEME_KEY = 'portal-theme';
 function initTheme() {
-  const saved = localStorage.getItem(THEME_KEY) || 'dark';
+  const saved = localStorage.getItem(THEME_KEY) || 'light';
   document.documentElement.setAttribute('data-theme', saved);
   updateThemeBtn(saved);
 }
 function toggleTheme() {
-  const cur  = document.documentElement.getAttribute('data-theme') || 'dark';
+  const cur  = document.documentElement.getAttribute('data-theme') || 'light';
   const next = cur === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem(THEME_KEY, next);
@@ -25,7 +25,7 @@ function toggleTheme() {
 }
 function updateThemeBtn(theme) {
   const btn = document.getElementById('theme-toggle');
-  if (btn) btn.textContent = theme === 'dark' ? '☀ Claro' : '🌙 Escuro';
+  if (btn) btn.textContent = theme === 'light' ? '☀️ Alterar Tema: Claro' : '🌙 Alterar Tema: Escuro';
 }
 
 /* ─── DOM REFS ───────────────────────────────────────────────────── */
@@ -410,7 +410,7 @@ function renderDeptRows(allDeptRows) {
 
   // Restaura cabeçalho padrão
   const thead = $clientBody.closest('table').querySelector('thead tr');
-  thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th>Data Cadastro</th><th>Prazo Vencimento</th>';
+  thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th>Data Cadastro</th><th class="prazo-cell">Prazo Vencimento</th>';
 
   renderClientTable(Object.values(clientMap));
 }
@@ -431,7 +431,7 @@ function renderClientTable(clients) {
       <td class="id-cell">${escHtml(c.id)||'—'}</td>
       <td class="name-cell">${escHtml(String(c.name))}</td>
       <td class="date-cell">${fmt(c.dataCad)}</td>
-      <td>${fmtPrazo(c.prazoVenc)}</td>`;
+      <td class="prazo-cell">${fmtPrazo(c.prazoVenc)}</td>`;
     tr.addEventListener('click', () => toggleClientDetail(tr, c));
     $clientBody.appendChild(tr);
   }
