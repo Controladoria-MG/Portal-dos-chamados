@@ -10,17 +10,14 @@ let activeCategories = new Set();
 let activeTab        = 'pendentes'; // 'pendentes' | 'retornados'
 
 /* ─── TEMA ───────────────────────────────────────────────────────── */
-const THEME_KEY = 'portal-theme';
 function initTheme() {
-  const saved = localStorage.getItem(THEME_KEY) || 'light';
-  document.documentElement.setAttribute('data-theme', saved);
-  updateThemeBtn(saved);
+  document.documentElement.setAttribute('data-theme', 'light');
+  updateThemeBtn('light');
 }
 function toggleTheme() {
   const cur  = document.documentElement.getAttribute('data-theme') || 'light';
   const next = cur === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem(THEME_KEY, next);
   updateThemeBtn(next);
 }
 function updateThemeBtn(theme) {
