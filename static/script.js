@@ -8,6 +8,7 @@ let currentDept      = null;
 let openClientRow    = null;
 let activeCategories = new Set();
 let activeTab        = 'pendentes'; // 'pendentes' | 'retornados'
+let currentDeptTemDeptoAnterior = false; // dept atual tem chamados "Devolvido para Solicitante"?
 
 /* ─── TEMA ───────────────────────────────────────────────────────── */
 function initTheme() {
@@ -42,6 +43,11 @@ const $headerDate   = document.getElementById('header-date');
 /* ─── DEPT COM RETORNADOS: qualquer dept que tenha linhas Retornado=SIM ─ */
 function deptTemRetornados(rows) {
   return rows.some(r => String(col(r,'Retornado')).toUpperCase() === 'SIM');
+}
+
+/* ─── DEPT COM DEVOLVIDOS: qualquer linha com Depto. Responsavel Original ─ */
+function deptTemDeptoAnterior(rows) {
+  return rows.some(r => String(col(r,'Departamento Responsavel Original','Departamento Responsável Original')||'').trim() !== '');
 }
 
 /* ─── INIT ───────────────────────────────────────────────────────── */
@@ -189,6 +195,8 @@ function openDept(deptName) {
     if (retornado) return deptName === 'GERENCIA DE CONTAS';
     return dept === deptName;
   });
+
+  currentDeptTemDeptoAnterior = deptTemDeptoAnterior(allDeptRows);
 
   // Monta abas se for dept GC
   buildTabs(deptName, allDeptRows);
@@ -459,34 +467,31 @@ function toggleClientDetail(tr, client) {
   const td = document.createElement('td');
   td.colSpan = 3;
 
+  const showDeptoAnterior = currentDeptTemDeptoAnterior;
+
   td.innerHTML = `
     <div class="detail-inner">
       <h4>Pendências do cliente — ${escHtml(String(client.name))}</h4>
-      <div class="detail-table-wrap">
-        <table class="detail-table">
-          <thead>
-            <tr>
-              <th>ID</th><th>Categoria</th><th>Solicitação</th><th>Responsável</th>
-              <th>Depto. Solicitante</th><th>Data Cadastro</th><th>Prazo Vencimento</th><th>Status</th>
-              <th>Solicitante</th><th>Início Atend.</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${visibleRows.map(r => `
-              <tr>
-                <td class="id-cell">${escHtml(String(col(r,'Id','ID','id')||'—'))}</td>
-                <td>${escHtml(String(col(r,'Categoria','categoria')||'—'))}</td>
-                <td>${escHtml(String(col(r,'Solicitacao','Solicitação','solicitacao','solicitação')||'—'))}</td>
-                <td>${escHtml(String(col(r,'Responsavel','Responsável','responsavel')||'—'))}</td>
-                <td>${escHtml(String(col(r,'Departamento Solicitante','Departamento_Solicitante')||'—'))}</td>
-                <td class="date-cell">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</td>
-                <td>${fmtPrazo(col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'))}</td>
-                <td>${badge(col(r,'Status','status'))}</td>
-                <td>${escHtml(String(col(r,'Solicitante','solicitante')||'—'))}</td>
-                <td class="date-cell">${fmt(col(r,'Inicio Atend.','Início Atend.','Inicio Atendimento','InicioAtend','Inicio_Atend'))}</td>
-              </tr>`).join('')}
-          </tbody>
-        </table>
+      <div class="ticket-list">
+        ${visibleRows.map(r => `
+          <div class="ticket-card">
+            <div class="ticket-top">
+              <div class="ticket-field"><span class="f-label">ID</span><span class="f-value f-id">${escHtml(String(col(r,'Id','ID','id')||'—'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Categoria</span><span class="f-value">${escHtml(String(col(r,'Categoria','categoria')||'—'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Responsável</span><span class="f-value">${escHtml(String(col(r,'Responsavel','Responsável','responsavel')||'—'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Depto. Solicitante</span><span class="f-value">${escHtml(String(col(r,'Departamento Solicitante','Departamento_Solicitante')||'—'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Data Cadastro</span><span class="f-value">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Prazo Vencimento</span><span class="f-value">${fmtPrazo(col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Status</span><span class="f-value">${badge(col(r,'Status','status'))}</span></div>
+              ${showDeptoAnterior ? `<div class="ticket-field"><span class="f-label">Depto. Anterior</span><span class="f-value">${escHtml(String(col(r,'Departamento Responsavel Original','Departamento Responsável Original')||'—'))}</span></div>` : ''}
+              <div class="ticket-field"><span class="f-label">Solicitante</span><span class="f-value">${escHtml(String(col(r,'Solicitante','solicitante')||'—'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Início Atend.</span><span class="f-value">${fmt(col(r,'Inicio Atend.','Início Atend.','Inicio Atendimento','InicioAtend','Inicio_Atend'))}</span></div>
+            </div>
+            <div class="ticket-bottom">
+              <span class="f-label">Solicitação</span>
+              <p class="f-solicitacao">${escHtml(String(col(r,'Solicitacao','Solicitação','solicitacao','solicitação')||'—'))}</p>
+            </div>
+          </div>`).join('')}
       </div>
     </div>`;
 

@@ -348,6 +348,18 @@ main {
   box-shadow: 0 0 0 3px var(--secondary-glow);
 }
 
+.table-scroll {
+  overflow-x: auto;
+  scrollbar-color: var(--secondary) var(--bg-deep);
+}
+.table-scroll::-webkit-scrollbar { height: 9px; }
+.table-scroll::-webkit-scrollbar-track { background: var(--bg-deep); }
+.table-scroll::-webkit-scrollbar-thumb {
+  background: var(--secondary); border-radius: 99px;
+  border: 2px solid var(--bg-deep);
+}
+.table-scroll::-webkit-scrollbar-thumb:hover { background: var(--ret-color); }
+
 table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
 thead tr { background: var(--bg-surface); }
 th {
@@ -373,7 +385,7 @@ td.prazo-cell .date-cell { color: var(--muted-light); font-size: 0.72rem; }
 td.prazo-cell .badge { display: inline-block; }
 
 /* ─── ROW DETAIL PANEL ───────────────────────────────────────────── */
-.detail-row td { padding: 0; background: var(--bg-deep) !important; cursor: default; }
+.detail-row td { padding: 0; width: 0; background: var(--bg-deep) !important; cursor: default; }
 .detail-row:hover { background: transparent !important; }
 .detail-inner {
   padding: 1rem 1.5rem 1.2rem;
@@ -385,25 +397,32 @@ td.prazo-cell .badge { display: inline-block; }
   text-transform: uppercase; letter-spacing: 0.1em;
   color: var(--secondary); margin-bottom: 0.8rem;
 }
-.detail-table-wrap {
-  overflow-x: auto; border-radius: var(--radius);
-  border: 1px solid var(--border-accent);
+/* ─── TICKET CARD (pendências do cliente) ───────────────────────── */
+.ticket-list { display: flex; flex-direction: column; gap: 0.7rem; }
+.ticket-card {
+  background: var(--bg-card); border: 1px solid var(--border-accent);
+  border-radius: var(--radius); padding: 0.85rem 1rem;
 }
-.detail-table {
-  width: 100%; border-collapse: collapse;
-  font-size: 0.72rem; min-width: 700px;
+.ticket-top {
+  display: flex; flex-wrap: wrap; gap: 0.8rem 1.6rem;
+  padding-bottom: 0.7rem; margin-bottom: 0.7rem;
+  border-bottom: 1px solid var(--border);
 }
-.detail-table th {
-  background: var(--secondary-dim); padding: 0.55rem 0.9rem;
-  font-size: 0.6rem; color: var(--secondary);
-  border-bottom: 1px solid var(--border-accent);
+.ticket-field { display: flex; flex-direction: column; gap: 0.25rem; }
+.f-label {
+  font-size: 0.58rem; font-family: 'Courier New', Consolas, monospace;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted);
 }
-.detail-table td {
-  padding: 0.6rem 0.9rem; border-bottom: 1px solid var(--border);
-  font-size: 0.72rem; cursor: default;
+.f-value {
+  font-size: 0.76rem; color: var(--text-dim);
+  font-family: 'Courier New', Consolas, monospace;
 }
-.detail-table tbody tr:hover { background: var(--secondary-glow); }
-.detail-table tbody tr:last-child td { border-bottom: none; }
+.f-value.f-id { color: var(--secondary); font-weight: 600; }
+.ticket-bottom { display: flex; flex-direction: column; gap: 0.35rem; }
+.f-solicitacao {
+  font-size: 0.78rem; color: var(--text-dim); line-height: 1.45;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* ─── BADGES ─────────────────────────────────────────────────────── */
 .badge {

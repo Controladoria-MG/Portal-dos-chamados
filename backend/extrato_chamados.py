@@ -126,6 +126,7 @@ OUTPUT_BASE = _DATA_DIR / "base.xlsx"
 
 DEPTS_RETORNADOS = {"gerencia de contas", "gc - administrativo"}
 STATUS_ENTREGUE  = "entregue ao solicitante"
+STATUS_DEVOLVIDO_SOLICITANTE = "devolvido para solicitante"
 
 COL_MAP = [
     (0,  0),   # A → A  | Id
@@ -155,6 +156,7 @@ HEADERS = [
     "Departamento Responsavel", "Data Cadastro", "Prazo Vencimento",
     "Status", "Solicitante", "Inicio Atend.", "Data Entrega",
     "Responsável pela conclusão", "Ultimo Comentário", "Retornado",
+    "Departamento Responsavel Original",
 ]
 
 COL_WIDTHS = {
@@ -162,7 +164,7 @@ COL_WIDTHS = {
     'E': 13.0,  'F': 11.57, 'G': 9.86,  'H': 14.71,
     'I': 28.14, 'J': 15.86, 'K': 19.29, 'L': 12.86,
     'M': 12.86, 'N': 14.43, 'O': 15.57, 'P': 28.57,
-    'Q': 20.29, 'R': 12.0,
+    'Q': 20.29, 'R': 12.0,  'S': 28.14,
 }
 
 # ============================================================
@@ -589,6 +591,13 @@ def _processar_relatorio(ws, label, colab_map, ws_out):
                     nao_encontrados.add(str(valor).strip())
                 valor = resolvido
             nova[col_dst] = valor
+
+        # "Devolvido para Solicitante": a pendência passa a ser do depto
+        # solicitante (coluna D), não mais do depto responsável (coluna I).
+        # O depto responsável original é preservado na coluna de rastreabilidade.
+        if status_val == STATUS_DEVOLVIDO_SOLICITANTE:
+            nova[18] = nova[8]
+            nova[8]  = nova[3]
 
         nova[17] = "SIM" if (eh_entregue and eh_gc) else "NÃO"
         if eh_entregue and eh_gc:
