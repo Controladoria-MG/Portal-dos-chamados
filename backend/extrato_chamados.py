@@ -11,6 +11,7 @@ import os
 import sys
 import time
 import subprocess
+import argparse
 from pathlib import Path
 from datetime import datetime
 
@@ -84,6 +85,7 @@ SENHA    = "Palmeiras!"
 
 PASTA_DOWNLOAD    = r"C:\Users\gamaral\Desktop\Python\Chamados\data\Att Base"
 ARQUIVO_PROTEGIDO = "Relatório Colaboradores Ativos_29_05_2026, 16_53_32.xlsx"
+REPO_DIR          = r"C:\Users\gamaral\Desktop\Python\Chamados"
 
 TIMEOUT    = 40
 URL_LOGIN  = "https://aplicativo.mgcontecnica.com.br/#/login"
@@ -713,10 +715,68 @@ def atualizar_base():
             console.print(f"    [dim]- {u}[/dim]")
 
 # ============================================================
+# PUBLICAÇÃO NO GITHUB
+# ============================================================
+
+def publicar_no_github():
+    console.print()
+    console.rule("[bold cyan]Publicando no GitHub[/bold cyan]")
+    console.print()
+
+    try:
+        with Progress(
+            SpinnerColumn(style="cyan"),
+            TextColumn("[progress.description]{task.description}"),
+            console=console,
+            transient=True,
+        ) as pg:
+            t2 = pg.add_task("[cyan]Sincronizando com GitHub...", total=None)
+            pg.update(t2, description="[cyan]Baixando atualizações remotas (pull)...")
+            subprocess.run(["git", "-C", REPO_DIR, "pull", "--rebase", "--autostash"],
+                           check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            pg.update(t2, description="[cyan]Adicionando arquivos...")
+            subprocess.run(["git", "-C", REPO_DIR, "add", "data/"], check=True,
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+            diff = subprocess.run(["git", "-C", REPO_DIR, "diff", "--cached", "--quiet"])
+            if diff.returncode == 0:
+                pg.stop()
+                console.print(Panel(
+                    "[dim]Nenhuma alteração em data/ desde o último envio.[/dim]",
+                    title="[cyan]Nada a publicar[/cyan]",
+                    border_style="cyan",
+                ))
+                return
+
+            pg.update(t2, description="[cyan]Criando commit...")
+            msg = f"data: atualização base chamados {agora_str()}"
+            subprocess.run(["git", "-C", REPO_DIR, "commit", "-m", msg], check=True,
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            pg.update(t2, description="[cyan]Fazendo push...")
+            subprocess.run(["git", "-C", REPO_DIR, "push"], check=True,
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+        console.print(Panel(
+            "[green]✔[/green] Base enviada para o GitHub!\n"
+            "[dim]O Portal de Chamados será atualizado em ~1 minuto.[/dim]\n"
+            "[cyan]https://gamaral99.github.io/Chamados/[/cyan]",
+            title="[green]GitHub Pages[/green]",
+            border_style="green",
+            padding=(0, 2),
+        ))
+    except subprocess.CalledProcessError as e:
+        console.print(Panel(
+            f"[yellow]base.xlsx atualizado, mas o push falhou:[/yellow]\n[red]{e}[/red]\n\n"
+            "[dim]Faça o push manualmente via terminal na pasta do repo.[/dim]",
+            title="[yellow]Aviso[/yellow]",
+            border_style="yellow",
+        ))
+
+# ============================================================
 # EXECUÇÃO PRINCIPAL
 # ============================================================
 
-def executar():
+def executar(auto=False):
     console.print()
     console.print(Panel(
         Align.center(
@@ -730,8 +790,16 @@ def executar():
         padding=(1, 6),
     ))
 
-    opcao, label_extracao, departamentos = perguntar_extracao()
-    headless = perguntar_modo()
+    if auto:
+        opcao, label_extracao, departamentos = "4", "Todas", None
+        headless = True
+        console.print(
+            "  [dim][--auto] Extração: [bold magenta]Todas (sequencial)[/bold magenta] | "
+            "Modo: [bold cyan]Sem janela[/bold cyan][/dim]"
+        )
+    else:
+        opcao, label_extracao, departamentos = perguntar_extracao()
+        headless = perguntar_modo()
 
     data_inicio = DATA_INICIO
     data_fim    = hoje_str()
@@ -866,6 +934,7 @@ def executar():
     if sucesso:
         try:
             atualizar_base()
+            publicar_no_github()
         except Exception as erro:
             console.print()
             console.print(Panel(
@@ -881,4 +950,14 @@ def executar():
 # ============================================================
 
 if __name__ == "__main__":
-    executar()
+    parser = argparse.ArgumentParser(
+        description="Extrator + Atualizador de Base de Chamados MG Contécnica"
+    )
+    parser.add_argument(
+        "--auto",
+        action="store_true",
+        help="Execução automática: extrai Todas (sequencial), modo headless, "
+             "sem prompts, e publica no GitHub ao final.",
+    )
+    args = parser.parse_args()
+    executar(auto=args.auto)
