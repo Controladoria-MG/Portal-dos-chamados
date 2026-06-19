@@ -6,9 +6,32 @@ const DATA_PATH = 'data/base.xlsx';
 let allData          = [];
 let currentDept      = null;
 let openClientRow    = null;
-let activeCategories = new Set();
 let activeTab        = 'pendentes'; // 'pendentes' | 'retornados'
 let currentDeptTemDeptoAnterior = false; // dept atual tem chamados "Devolvido para Solicitante"?
+
+/* ─── FILTROS (CATEGORIA / RESPONSÁVEL / STATUS) ─────────────────── */
+const FILTER_DEFS = [
+  { key: 'categoria',   label: 'Categoria',   cols: ['Categoria','categoria'] },
+  { key: 'responsavel', label: 'Responsável', cols: ['Responsavel','Responsável','responsavel'] },
+  { key: 'status',      label: 'Status',      cols: ['Status','status'] },
+];
+const activeFilters = {
+  categoria:   new Set(),
+  responsavel: new Set(),
+  status:      new Set(),
+};
+function resetFilters() {
+  FILTER_DEFS.forEach(def => activeFilters[def.key].clear());
+}
+function filterValue(row, def) {
+  return String(col(row, ...def.cols) || '').trim();
+}
+function rowMatchesFilters(row) {
+  return FILTER_DEFS.every(def => {
+    const active = activeFilters[def.key];
+    return active.size === 0 || active.has(filterValue(row, def));
+  });
+}
 
 /* ─── TEMA ───────────────────────────────────────────────────────── */
 function initTheme() {
@@ -60,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }).toUpperCase();
 
   loadData();
-  buildCategoryDropdown();
+  buildFilterDropdowns();
 });
 
 /* ─── LOAD XLSX ──────────────────────────────────────────────────── */
@@ -106,14 +129,23 @@ function fmt(val) {
   return String(val);
 }
 
-/* ─── PRAZO BADGE ────────────────────────────────────────────────── */
-function fmtPrazo(val) {
-  if (!val && val !== 0) return '<span class="date-cell">—</span>';
+/* ─── PRAZO PARSER ───────────────────────────────────────────────── */
+function parsePrazoDate(val) {
+  if (!val && val !== 0) return null;
   let date;
   if (val instanceof Date) date = val;
   else if (typeof val === 'number') date = new Date(Math.round((val - 25569) * 86400 * 1000));
-  else return `<span class="date-cell">${escHtml(String(val))}</span>`;
-  if (isNaN(date)) return '<span class="date-cell">—</span>';
+  else return null;
+  return isNaN(date) ? null : date;
+}
+
+/* ─── PRAZO BADGE ────────────────────────────────────────────────── */
+function fmtPrazo(val) {
+  const date = parsePrazoDate(val);
+  if (!date) {
+    if (!val && val !== 0) return '<span class="date-cell">—</span>';
+    return `<span class="date-cell">${escHtml(String(val))}</span>`;
+  }
   const today = new Date(); today.setHours(0,0,0,0);
   const diffDays = Math.ceil((date - today) / (1000 * 60 * 60 * 24));
   const label = date.toLocaleDateString('pt-BR');
@@ -183,7 +215,7 @@ function renderHome() {
 function openDept(deptName) {
   currentDept      = deptName;
   openClientRow    = null;
-  activeCategories = new Set();
+  resetFilters();
   activeTab        = 'pendentes';
 
   $deptTitle.textContent = deptName;
@@ -200,7 +232,7 @@ function openDept(deptName) {
 
   // Monta abas se for dept GC
   buildTabs(deptName, allDeptRows);
-  populateCategoryDropdown(allDeptRows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM'));
+  populateFilterDropdowns(allDeptRows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM'));
   renderDeptRows(allDeptRows);
   showView('dept');
 }
@@ -235,7 +267,7 @@ function buildTabs(deptName, allDeptRows) {
       tabsWrap.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('tab-btn--active'));
       btn.classList.add('tab-btn--active');
       openClientRow = null;
-      activeCategories = new Set();
+      resetFilters();
       $clientSearch.value = '';
 
       const rows = allData.filter(r => {
@@ -245,125 +277,178 @@ function buildTabs(deptName, allDeptRows) {
         return dept === currentDept;
       });
 
-      populateCategoryDropdown(rows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM'));
+      populateFilterDropdowns(rows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM'));
       renderDeptRows(rows);
-      updateCategoryLabel();
     });
   });
 }
 
-/* ─── CATEGORY DROPDOWN — BUILD SHELL ───────────────────────────── */
-function buildCategoryDropdown() {
-  const wrapper = document.createElement('div');
-  wrapper.id        = 'cat-filter-wrap';
-  wrapper.className = 'cat-filter-wrap';
-  wrapper.innerHTML = `
-    <button id="cat-btn" class="cat-btn" type="button" aria-haspopup="true" aria-expanded="false">
-      <span id="cat-btn-label">Categoria</span>
-      <span class="cat-chevron">▾</span>
-    </button>
-    <div id="cat-dropdown" class="cat-dropdown" hidden>
-      <div class="cat-dropdown-actions">
-        <button type="button" id="cat-select-all">Todas</button>
-        <button type="button" id="cat-clear-all">Limpar</button>
-      </div>
-      <ul id="cat-list" class="cat-list"></ul>
-    </div>`;
-
-  // Cria wrapper .table-header-controls ao redor do input + dropdown
+/* ─── FILTROS — MONTAR ESTRUTURA (CATEGORIA / RESPONSÁVEL / STATUS) ─ */
+function buildFilterDropdowns() {
+  // Cria wrapper .table-header-controls ao redor do input + filtros
   const searchInput = $clientSearch;
   const searchWrap  = searchInput.parentElement;
   const controls    = document.createElement('div');
   controls.className = 'table-header-controls';
   searchWrap.insertBefore(controls, searchInput);
   controls.appendChild(searchInput);
-  controls.appendChild(wrapper);
 
-  document.getElementById('cat-btn').addEventListener('click', (e) => {
-    e.stopPropagation();
-    const dd  = document.getElementById('cat-dropdown');
-    const btn = document.getElementById('cat-btn');
-    const isHidden = dd.hidden;
-    dd.hidden = !isHidden;
-    btn.setAttribute('aria-expanded', String(isHidden));
-  });
+  const filtersRow = document.createElement('div');
+  filtersRow.className = 'filters-row';
+  controls.appendChild(filtersRow);
 
-  document.addEventListener('click', (e) => {
-    const dd = document.getElementById('cat-dropdown');
-    if (!wrapper.contains(e.target)) {
+  FILTER_DEFS.forEach(def => {
+    const wrapper = document.createElement('div');
+    wrapper.id        = `${def.key}-filter-wrap`;
+    wrapper.className = 'cat-filter-wrap';
+    wrapper.innerHTML = `
+      <button id="${def.key}-btn" class="cat-btn" type="button" aria-haspopup="true" aria-expanded="false">
+        <span id="${def.key}-btn-label">${def.label}</span>
+        <span class="cat-chevron">▾</span>
+      </button>`;
+    filtersRow.appendChild(wrapper);
+
+    // Dropdown é anexado direto no <body> ("portal"), para nunca ser
+    // cortado por um ancestral com overflow:hidden/auto (ex: .table-wrap).
+    const dd = document.createElement('div');
+    dd.id        = `${def.key}-dropdown`;
+    dd.className = 'cat-dropdown';
+    dd.hidden    = true;
+    dd.innerHTML = `
+      <div class="cat-dropdown-actions">
+        <button type="button" id="${def.key}-select-all">Todos</button>
+        <button type="button" id="${def.key}-clear-all">Limpar</button>
+      </div>
+      <ul id="${def.key}-list" class="cat-list"></ul>`;
+    document.body.appendChild(dd);
+
+    const btn = wrapper.querySelector('.cat-btn');
+
+    const openDropdown = () => {
+      document.querySelectorAll('.cat-dropdown').forEach(other => { if (other !== dd) other.hidden = true; });
+      document.querySelectorAll('.cat-btn').forEach(other => { if (other !== btn) other.setAttribute('aria-expanded', 'false'); });
+      dd.hidden = false;
+      btn.setAttribute('aria-expanded', 'true');
+      positionDropdown(btn, dd);
+    };
+    const closeDropdown = () => {
       dd.hidden = true;
-      document.getElementById('cat-btn').setAttribute('aria-expanded', 'false');
-    }
-  });
+      btn.setAttribute('aria-expanded', 'false');
+    };
 
-  document.getElementById('cat-select-all').addEventListener('click', () => {
-    document.querySelectorAll('#cat-list input[type=checkbox]').forEach(cb => {
-      cb.checked = true;
-      activeCategories.add(cb.value);
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (dd.hidden) openDropdown(); else closeDropdown();
     });
-    updateCategoryLabel();
-    applyFilters();
-  });
 
-  document.getElementById('cat-clear-all').addEventListener('click', () => {
-    document.querySelectorAll('#cat-list input[type=checkbox]').forEach(cb => cb.checked = false);
-    activeCategories.clear();
-    updateCategoryLabel();
-    applyFilters();
-  });
-}
+    document.addEventListener('click', (e) => {
+      if (!wrapper.contains(e.target) && !dd.contains(e.target)) closeDropdown();
+    });
 
-/* ─── CATEGORY DROPDOWN — POPULAR ───────────────────────────────── */
-function populateCategoryDropdown(rows) {
-  const cats = [...new Set(
-    rows.map(r => String(col(r,'Categoria','categoria')||'').trim()).filter(Boolean)
-  )].sort();
-
-  const $list = document.getElementById('cat-list');
-  $list.innerHTML = '';
-  activeCategories.clear();
-
-  for (const cat of cats) {
-    const li = document.createElement('li');
-    li.innerHTML = `
-      <label class="cat-option">
-        <input type="checkbox" value="${escHtml(cat)}">
-        <span>${escHtml(cat)}</span>
-      </label>`;
-    li.querySelector('input').addEventListener('change', (e) => {
-      if (e.target.checked) activeCategories.add(cat);
-      else activeCategories.delete(cat);
-      updateCategoryLabel();
+    dd.querySelector(`#${def.key}-select-all`).addEventListener('click', () => {
+      dd.querySelectorAll('input[type=checkbox]').forEach(cb => {
+        cb.checked = true;
+        activeFilters[def.key].add(cb.value);
+      });
+      updateFilterLabel(def);
       applyFilters();
     });
-    $list.appendChild(li);
-  }
-  updateCategoryLabel();
+
+    dd.querySelector(`#${def.key}-clear-all`).addEventListener('click', () => {
+      dd.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
+      activeFilters[def.key].clear();
+      updateFilterLabel(def);
+      applyFilters();
+    });
+  });
+
+  // Reposiciona o dropdown aberto ao rolar (inclusive scroll interno de
+  // containers, via capture) ou redimensionar a janela.
+  const repositionOpenDropdown = () => {
+    const dd = document.querySelector('.cat-dropdown:not([hidden])');
+    if (!dd) return;
+    const btn = document.getElementById(dd.id.replace('-dropdown', '-btn'));
+    if (btn) positionDropdown(btn, dd);
+  };
+  window.addEventListener('scroll', repositionOpenDropdown, true);
+  window.addEventListener('resize', repositionOpenDropdown);
 }
 
-/* ─── CATEGORY LABEL ─────────────────────────────────────────────── */
-function updateCategoryLabel() {
-  const $label = document.getElementById('cat-btn-label');
-  const total  = document.querySelectorAll('#cat-list input[type=checkbox]').length;
-  if (activeCategories.size === 0 || activeCategories.size === total) {
-    $label.textContent = 'Categoria';
-    document.getElementById('cat-btn').classList.remove('cat-btn--active');
+/* ─── FILTROS — POSICIONAR DROPDOWN (fixed, ancorado no botão) ──── */
+function positionDropdown(btn, dd) {
+  const margin = 6;
+  const rect   = btn.getBoundingClientRect();
+  const ddW    = dd.offsetWidth;
+  const ddH    = dd.offsetHeight;
+
+  let left = rect.right - ddW;
+  left = Math.max(8, Math.min(left, window.innerWidth - ddW - 8));
+
+  let top = rect.bottom + margin;
+  if (top + ddH > window.innerHeight - 8 && rect.top - ddH - margin > 0) {
+    top = rect.top - ddH - margin; // sem espaço abaixo: abre para cima
+  }
+
+  dd.style.left = `${left}px`;
+  dd.style.top  = `${top}px`;
+}
+
+/* ─── FILTROS — POPULAR OPÇÕES ───────────────────────────────────── */
+function populateFilterDropdowns(rows) {
+  FILTER_DEFS.forEach(def => {
+    const values = [...new Set(
+      rows.map(r => filterValue(r, def)).filter(Boolean)
+    )].sort();
+
+    const $list = document.getElementById(`${def.key}-list`);
+    $list.innerHTML = '';
+    activeFilters[def.key].clear();
+
+    for (const val of values) {
+      const li = document.createElement('li');
+      li.innerHTML = `
+        <label class="cat-option">
+          <input type="checkbox" value="${escHtml(val)}">
+          <span>${escHtml(val)}</span>
+        </label>`;
+      li.querySelector('input').addEventListener('change', (e) => {
+        if (e.target.checked) activeFilters[def.key].add(val);
+        else activeFilters[def.key].delete(val);
+        updateFilterLabel(def);
+        applyFilters();
+      });
+      $list.appendChild(li);
+    }
+    updateFilterLabel(def);
+  });
+}
+
+/* ─── FILTROS — ATUALIZAR LABEL DO BOTÃO ─────────────────────────── */
+function updateFilterLabel(def) {
+  const $label = document.getElementById(`${def.key}-btn-label`);
+  const total  = document.querySelectorAll(`#${def.key}-list input[type=checkbox]`).length;
+  const active = activeFilters[def.key];
+  const $btn   = document.getElementById(`${def.key}-btn`);
+  if (active.size === 0 || active.size === total) {
+    $label.textContent = def.label;
+    $btn.classList.remove('cat-btn--active');
   } else {
-    $label.textContent = `Categoria (${activeCategories.size})`;
-    document.getElementById('cat-btn').classList.add('cat-btn--active');
+    $label.textContent = `${def.label} (${active.size})`;
+    $btn.classList.add('cat-btn--active');
   }
 }
 
 /* ─── APLICAR FILTROS ────────────────────────────────────────────── */
 function applyFilters() {
   const q = $clientSearch.value.toLowerCase();
+  const algumFiltroAtivo = FILTER_DEFS.some(def => activeFilters[def.key].size > 0);
 
   $clientBody.querySelectorAll('tr:not(.detail-row)').forEach(tr => {
     const clientId  = tr.dataset.clientId;
     const matchText = !q || tr.textContent.toLowerCase().includes(q);
 
-    let matchCat = true;
-    if (activeCategories.size > 0) {
+    let matchFiltros = true;
+    if (algumFiltroAtivo) {
       const clientRows = allData.filter(r => {
         const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
         const id   = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
@@ -371,12 +456,10 @@ function applyFilters() {
         return dept === currentDept && id === clientId &&
                (activeTab === 'retornados' ? ret : !ret);
       });
-      matchCat = clientRows.some(r =>
-        activeCategories.has(String(col(r,'Categoria','categoria')||'').trim())
-      );
+      matchFiltros = clientRows.some(rowMatchesFilters);
     }
 
-    const visible = matchText && matchCat;
+    const visible = matchText && matchFiltros;
     tr.style.display = visible ? '' : 'none';
     const next = tr.nextElementSibling;
     if (next && next.classList.contains('detail-row')) next.style.display = visible ? '' : 'none';
@@ -417,7 +500,16 @@ function renderDeptRows(allDeptRows) {
   const thead = $clientBody.closest('table').querySelector('thead tr');
   thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th>Data Cadastro</th><th class="prazo-cell">Prazo Vencimento</th>';
 
-  renderClientTable(Object.values(clientMap));
+  const clients = Object.values(clientMap).sort((a, b) => {
+    const da = parsePrazoDate(a.prazoVenc);
+    const db = parsePrazoDate(b.prazoVenc);
+    if (!da && !db) return 0;
+    if (!da) return 1;
+    if (!db) return -1;
+    return da - db;
+  });
+
+  renderClientTable(clients);
 }
 
 /* ─── RENDER CLIENT TABLE ────────────────────────────────────────── */
@@ -458,9 +550,14 @@ function toggleClientDetail(tr, client) {
   if (isOpen) { openClientRow = null; return; }
   openClientRow = client.id;
 
-  const visibleRows = activeCategories.size > 0
-    ? client.rows.filter(r => activeCategories.has(String(col(r,'Categoria','categoria')||'').trim()))
-    : client.rows;
+  const visibleRows = client.rows.filter(rowMatchesFilters).sort((a, b) => {
+    const da = parsePrazoDate(col(a,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'));
+    const db = parsePrazoDate(col(b,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'));
+    if (!da && !db) return 0;
+    if (!da) return 1;
+    if (!db) return -1;
+    return da - db;
+  });
 
   const detailTr = document.createElement('tr');
   detailTr.className = 'detail-row';
@@ -504,14 +601,14 @@ $clientSearch.addEventListener('input', applyFilters);
 
 /* ─── BACK ───────────────────────────────────────────────────────── */
 document.getElementById('btn-back').addEventListener('click', () => {
-  openClientRow = null; activeCategories = new Set(); $clientSearch.value = '';
+  openClientRow = null; resetFilters(); $clientSearch.value = '';
   showView('home');
 });
 
 /* ─── BREADCRUMB ─────────────────────────────────────────────────── */
 document.getElementById('bc-home').addEventListener('click', () => {
   if ($viewDept.classList.contains('active')) {
-    openClientRow = null; activeCategories = new Set(); $clientSearch.value = '';
+    openClientRow = null; resetFilters(); $clientSearch.value = '';
     showView('home');
   }
 });

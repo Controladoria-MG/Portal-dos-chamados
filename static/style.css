@@ -330,16 +330,17 @@ main {
   color: var(--muted); margin-top: 0.15rem; letter-spacing: 0.04em;
 }
 
-/* Wrapper direito: busca + filtro lado a lado sem cortar */
+/* Wrapper direito: busca + filtros lado a lado, quebrando linha em vez de cortar */
 .table-header-controls {
-  display: flex; align-items: center; gap: 8px; flex-shrink: 0;
+  display: flex; align-items: center; flex-wrap: wrap;
+  gap: 8px; row-gap: 10px; justify-content: flex-end;
 }
 
 .search-input {
   background: var(--bg-deep); border: 1px solid var(--border-accent);
   border-radius: 100px; padding: 0.4rem 1rem;
   color: var(--text); font-family: 'Courier New', Consolas, monospace;
-  font-size: 0.75rem; outline: none; width: 190px; min-width: 0;
+  font-size: 0.75rem; outline: none; width: 190px; flex-shrink: 0;
   transition: border-color .2s, box-shadow .2s;
 }
 .search-input::placeholder { color: var(--muted); }
@@ -455,7 +456,8 @@ td.prazo-cell .badge { display: inline-block; }
   font-family: 'Courier New', Consolas, monospace; font-size: 0.78rem; letter-spacing: 0.05em;
 }
 
-/* ─── FILTRO DE CATEGORIA ────────────────────────────────────────── */
+/* ─── FILTROS (CATEGORIA / RESPONSÁVEL / STATUS) ────────────────── */
+.filters-row { display: flex; flex-wrap: wrap; gap: 8px; row-gap: 10px; }
 .cat-filter-wrap { position: relative; flex-shrink: 0; }
 
 .cat-btn {
@@ -471,9 +473,12 @@ td.prazo-cell .badge { display: inline-block; }
 .cat-btn--active { border-color: var(--secondary); color: var(--secondary); box-shadow: 0 0 0 3px var(--secondary-glow); font-weight: 600; }
 .cat-chevron { font-size: 0.65rem; opacity: 0.6; }
 
+/* position: fixed (não absolute) + anexado direto no <body> via JS:
+   escapa de qualquer ancestral com overflow:hidden/auto (ex: .table-wrap).
+   top/left são calculados dinamicamente em positionDropdown(). */
 .cat-dropdown {
-  position: absolute; top: calc(100% + 6px); right: 0; z-index: 200;
-  min-width: 230px; max-width: 300px;
+  position: fixed; z-index: 1000;
+  min-width: 230px; max-width: min(300px, calc(100vw - 16px));
   background: var(--bg-card); border: 1px solid var(--border-accent);
   border-radius: var(--radius-lg); box-shadow: 0 12px 40px rgba(0,0,0,.4); overflow: hidden;
 }
