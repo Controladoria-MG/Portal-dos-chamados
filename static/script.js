@@ -9,22 +9,32 @@ let openClientRow    = null;
 let activeTab        = 'pendentes'; // 'pendentes' | 'retornados'
 let currentDeptTemDeptoAnterior = false; // dept atual tem chamados "Devolvido para Solicitante"?
 
-/* ─── FILTROS (CATEGORIA / RESPONSÁVEL / STATUS) ─────────────────── */
+/* ─── FILTROS (CATEGORIA / RESPONSÁVEL / STATUS / VENCIMENTO) ────── */
 const FILTER_DEFS = [
   { key: 'categoria',   label: 'Categoria',   cols: ['Categoria','categoria'] },
   { key: 'responsavel', label: 'Responsável', cols: ['Responsavel','Responsável','responsavel'] },
   { key: 'status',      label: 'Status',      cols: ['Status','status'] },
+  { key: 'vencimento',  label: 'Vencimento',  value: vencimentoStatus, sort: ['Vencido','Não Vencido'] },
 ];
 const activeFilters = {
   categoria:   new Set(),
   responsavel: new Set(),
   status:      new Set(),
+  vencimento:  new Set(),
 };
 function resetFilters() {
   FILTER_DEFS.forEach(def => activeFilters[def.key].clear());
 }
 function filterValue(row, def) {
+  if (def.value) return def.value(row);
   return String(col(row, ...def.cols) || '').trim();
+}
+/* Classifica o chamado em 'Vencido' / 'Não Vencido' a partir do Prazo Vencimento */
+function vencimentoStatus(row) {
+  const date = parsePrazoDate(col(row,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'));
+  if (!date) return '';
+  const today = new Date(); today.setHours(0,0,0,0);
+  return date < today ? 'Vencido' : 'Não Vencido';
 }
 function rowMatchesFilters(row) {
   return FILTER_DEFS.every(def => {
@@ -120,12 +130,9 @@ function col(row, ...candidates) {
 
 /* ─── DATE FORMATTER ─────────────────────────────────────────────── */
 function fmt(val) {
+  const date = parsePrazoDate(val);
+  if (date) return date.toLocaleDateString('pt-BR');
   if (!val && val !== 0) return '—';
-  if (val instanceof Date) return val.toLocaleDateString('pt-BR');
-  if (typeof val === 'number') {
-    const d = new Date(Math.round((val - 25569) * 86400 * 1000));
-    if (!isNaN(d)) return d.toLocaleDateString('pt-BR');
-  }
   return String(val);
 }
 
@@ -136,7 +143,12 @@ function parsePrazoDate(val) {
   if (val instanceof Date) date = val;
   else if (typeof val === 'number') date = new Date(Math.round((val - 25569) * 86400 * 1000));
   else return null;
-  return isNaN(date) ? null : date;
+  if (isNaN(date)) return null;
+  // Datas do Excel/SheetJS chegam como meia-noite UTC. Em fuso negativo
+  // (Brasil, UTC-3) isso corresponde a 21h do dia anterior no horário local,
+  // o que adianta a data em 1 dia em comparações/exibições locais. Normaliza
+  // para meia-noite LOCAL do mesmo dia-mês-ano UTC, eliminando esse desvio.
+  return new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate());
 }
 
 /* ─── PRAZO BADGE ────────────────────────────────────────────────── */
@@ -396,9 +408,8 @@ function positionDropdown(btn, dd) {
 /* ─── FILTROS — POPULAR OPÇÕES ───────────────────────────────────── */
 function populateFilterDropdowns(rows) {
   FILTER_DEFS.forEach(def => {
-    const values = [...new Set(
-      rows.map(r => filterValue(r, def)).filter(Boolean)
-    )].sort();
+    const found = [...new Set(rows.map(r => filterValue(r, def)).filter(Boolean))];
+    const values = def.sort ? def.sort.filter(v => found.includes(v)) : found.sort();
 
     const $list = document.getElementById(`${def.key}-list`);
     $list.innerHTML = '';
