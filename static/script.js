@@ -31,10 +31,23 @@ function filterValue(row, def) {
 }
 /* Classifica o chamado em 'Vencido' / 'Não Vencido' a partir do Prazo Vencimento */
 function vencimentoStatus(row) {
-  const date = parsePrazoDate(col(row,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'));
+  const date = parsePrazoDate(prazoVal(row));
   if (!date) return '';
   const today = new Date(); today.setHours(0,0,0,0);
   return date < today ? 'Vencido' : 'Não Vencido';
+}
+function prazoVal(row) {
+  return col(row,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento');
+}
+/* Prazo Vencimento mais urgente (data mais antiga) entre um conjunto de chamados */
+function earliestPrazo(rows) {
+  let best = null;
+  for (const r of rows) {
+    const raw = prazoVal(r);
+    const date = parsePrazoDate(raw);
+    if (date && (!best || date < best.date)) best = { raw, date };
+  }
+  return best ? best.raw : '';
 }
 function rowMatchesFilters(row) {
   return FILTER_DEFS.every(def => {
@@ -458,17 +471,21 @@ function applyFilters() {
     const clientId  = tr.dataset.clientId;
     const matchText = !q || tr.textContent.toLowerCase().includes(q);
 
-    let matchFiltros = true;
-    if (algumFiltroAtivo) {
-      const clientRows = allData.filter(r => {
-        const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
-        const id   = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
-        const ret  = String(col(r,'Retornado')).toUpperCase() === 'SIM';
-        return dept === currentDept && id === clientId &&
-               (activeTab === 'retornados' ? ret : !ret);
-      });
-      matchFiltros = clientRows.some(rowMatchesFilters);
-    }
+    const clientRows = allData.filter(r => {
+      const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
+      const id   = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
+      const ret  = String(col(r,'Retornado')).toUpperCase() === 'SIM';
+      return dept === currentDept && id === clientId &&
+             (activeTab === 'retornados' ? ret : !ret);
+    });
+    // Apenas os chamados que de fato passam pelos filtros ativos — é a partir
+    // deles que a célula de Prazo Vencimento da linha é recalculada abaixo,
+    // para nunca exibir o prazo de um chamado que não está no resultado filtrado.
+    const relevantRows = algumFiltroAtivo ? clientRows.filter(rowMatchesFilters) : clientRows;
+    const matchFiltros  = relevantRows.length > 0;
+
+    const prazoCell = tr.querySelector('.prazo-cell');
+    if (prazoCell) prazoCell.innerHTML = fmtPrazo(earliestPrazo(relevantRows));
 
     const visible = matchText && matchFiltros;
     tr.style.display = visible ? '' : 'none';
@@ -500,12 +517,14 @@ function renderDeptRows(allDeptRows) {
         id,
         name:      col(r,'Cliente','Nome Cliente','NomeCliente') || id,
         dataCad:   col(r,'Data Cadastro','DataCadastro','Data_Cadastro'),
-        prazoVenc: col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento'),
         rows: []
       };
     }
     clientMap[id].rows.push(r);
   }
+  // Prazo Vencimento exibido na linha do cliente = o mais urgente entre
+  // todos os chamados dele (não apenas o primeiro encontrado nos dados).
+  Object.values(clientMap).forEach(c => { c.prazoVenc = earliestPrazo(c.rows); });
 
   // Restaura cabeçalho padrão
   const thead = $clientBody.closest('table').querySelector('thead tr');
@@ -562,8 +581,8 @@ function toggleClientDetail(tr, client) {
   openClientRow = client.id;
 
   const visibleRows = client.rows.filter(rowMatchesFilters).sort((a, b) => {
-    const da = parsePrazoDate(col(a,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'));
-    const db = parsePrazoDate(col(b,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'));
+    const da = parsePrazoDate(prazoVal(a));
+    const db = parsePrazoDate(prazoVal(b));
     if (!da && !db) return 0;
     if (!da) return 1;
     if (!db) return -1;
@@ -589,7 +608,7 @@ function toggleClientDetail(tr, client) {
               <div class="ticket-field"><span class="f-label">Responsável</span><span class="f-value">${escHtml(String(col(r,'Responsavel','Responsável','responsavel')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Depto. Solicitante</span><span class="f-value">${escHtml(String(col(r,'Departamento Solicitante','Departamento_Solicitante')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Data Cadastro</span><span class="f-value">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</span></div>
-              <div class="ticket-field"><span class="f-label">Prazo Vencimento</span><span class="f-value">${fmtPrazo(col(r,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Prazo Vencimento</span><span class="f-value">${fmtPrazo(prazoVal(r))}</span></div>
               <div class="ticket-field"><span class="f-label">Status</span><span class="f-value">${badge(col(r,'Status','status'))}</span></div>
               ${showDeptoAnterior ? `<div class="ticket-field"><span class="f-label">Depto. Anterior</span><span class="f-value">${escHtml(String(col(r,'Departamento Responsavel Original','Departamento Responsável Original')||'—'))}</span></div>` : ''}
               <div class="ticket-field"><span class="f-label">Solicitante</span><span class="f-value">${escHtml(String(col(r,'Solicitante','solicitante')||'—'))}</span></div>
