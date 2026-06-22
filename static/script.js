@@ -172,10 +172,8 @@ function fmtPrazo(val) {
     return `<span class="date-cell">${escHtml(String(val))}</span>`;
   }
   const today = new Date(); today.setHours(0,0,0,0);
-  const diffDays = Math.ceil((date - today) / (1000 * 60 * 60 * 24));
   const label = date.toLocaleDateString('pt-BR');
-  if (diffDays < 0)  return `<span class="badge badge-open" title="Vencido">⚠ ${label}</span>`;
-  if (diffDays <= 3) return `<span class="badge badge-pending" title="Vence em breve">${label}</span>`;
+  if (date < today) return `<span class="prazo-vencido">${label}</span>`;
   return `<span class="date-cell">${label}</span>`;
 }
 
@@ -183,9 +181,9 @@ function fmtPrazo(val) {
 function badge(status) {
   const s = String(status).toLowerCase().trim();
   let cls = 'badge-default';
-  if (/aberto|open|pendente/i.test(s))             cls = 'badge-open';
-  else if (/fechado|closed|resolvido/i.test(s))    cls = 'badge-closed';
-  else if (/em atend|andamento|progress/i.test(s)) cls = 'badge-pending';
+  if (/fechado|closed|resolvido/i.test(s))              cls = 'badge-closed';
+  else if (/em atend|andamento|progress/i.test(s))      cls = 'badge-yellow';
+  else if (/espera|aguard|pendente|aberto|open/i.test(s)) cls = 'badge-red';
   return `<span class="badge ${cls}">${status || '—'}</span>`;
 }
 
@@ -204,9 +202,9 @@ function renderHome() {
   if (!deptMap['GERENCIA DE CONTAS']) deptMap['GERENCIA DE CONTAS'] = 0;
 
   const depts = Object.entries(deptMap).sort((a, b) => b[1] - a[1]);
-  $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
+  if ($totalRecs) $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
   const totalRetornados = allData.filter(r => String(col(r,'Retornado')).toUpperCase() === 'SIM').length;
-  $totalDeps.textContent = depts.length;
+  if ($totalDeps) $totalDeps.textContent = depts.length;
 
   $deptGrid.innerHTML = '';
   for (const [name, count] of depts) {
@@ -219,16 +217,9 @@ function renderHome() {
     const card = document.createElement('div');
     card.className = 'dept-card';
     card.innerHTML = `
-      <div class="card-label">Departamento</div>
       <div class="card-name">${escHtml(name)}</div>
-      <div class="card-count-wrap">
-        <div>
-          <div class="card-count">${count.toLocaleString('pt-BR')}</div>
-          <div class="card-unit">registros</div>
-        </div>
-        <div class="card-arrow">→</div>
-      </div>
-      ${retCount > 0 ? `<div class="card-returned-badge">🔄 ${retCount} retornado${retCount !== 1 ? 's' : ''}</div>` : ''}`;
+      <div class="card-count">${count.toLocaleString('pt-BR')}</div>
+      <div class="card-hint">Clique para ver os detalhes</div>`;
     card.addEventListener('click', () => openDept(name));
     $deptGrid.appendChild(card);
   }
@@ -243,7 +234,7 @@ function openDept(deptName) {
   resetFilters();
   activeTab        = 'pendentes';
 
-  $deptTitle.textContent = deptName;
+  if ($deptTitle) $deptTitle.textContent = deptName;
 
   const allDeptRows = allData.filter(r => {
     const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
@@ -494,7 +485,7 @@ function applyFilters() {
   });
 
   const visible = $clientBody.querySelectorAll('tr:not(.detail-row):not([style*="display: none"])').length;
-  $deptCount.textContent = `${visible} registro${visible !== 1 ? 's' : ''}`;
+  if ($deptCount) $deptCount.textContent = `${visible} registro${visible !== 1 ? 's' : ''}`;
 }
 
 /* ─── RENDER DEPT ROWS ───────────────────────────────────────────── */
@@ -506,7 +497,7 @@ function renderDeptRows(allDeptRows) {
       : String(col(r,'Retornado')).toUpperCase() !== 'SIM'
   );
 
-  $deptCount.textContent = `${rows.length} registro${rows.length !== 1 ? 's' : ''}`;
+  if ($deptCount) $deptCount.textContent = `${rows.length} registro${rows.length !== 1 ? 's' : ''}`;
 
   // Ambas as abas: agrupado por cliente com detalhamento expansível
   const clientMap = {};
@@ -551,9 +542,10 @@ function renderClientTable(clients) {
     return;
   }
 
-  for (const c of clients) {
+  clients.forEach((c, i) => {
     const tr = document.createElement('tr');
     tr.dataset.clientId = c.id;
+    if (i % 2 === 1) tr.classList.add('row-even');
     tr.innerHTML = `
       <td class="id-cell">${escHtml(c.id)||'—'}</td>
       <td class="name-cell">${escHtml(String(c.name))}</td>
@@ -561,7 +553,7 @@ function renderClientTable(clients) {
       <td class="prazo-cell">${fmtPrazo(c.prazoVenc)}</td>`;
     tr.addEventListener('click', () => toggleClientDetail(tr, c));
     $clientBody.appendChild(tr);
-  }
+  });
 }
 
 /* ─── TOGGLE CLIENT DETAIL ───────────────────────────────────────── */
@@ -592,13 +584,12 @@ function toggleClientDetail(tr, client) {
   const detailTr = document.createElement('tr');
   detailTr.className = 'detail-row';
   const td = document.createElement('td');
-  td.colSpan = 3;
+  td.colSpan = 4;
 
   const showDeptoAnterior = currentDeptTemDeptoAnterior;
 
   td.innerHTML = `
     <div class="detail-inner">
-      <h4>Pendências do cliente — ${escHtml(String(client.name))}</h4>
       <div class="ticket-list">
         ${visibleRows.map(r => `
           <div class="ticket-card">
@@ -621,6 +612,7 @@ function toggleClientDetail(tr, client) {
           </div>`).join('')}
       </div>
     </div>`;
+
 
   detailTr.appendChild(td);
   tr.insertAdjacentElement('afterend', detailTr);
@@ -647,12 +639,13 @@ document.getElementById('bc-home').addEventListener('click', () => {
 function showView(name) {
   $viewHome.classList.toggle('active', name === 'home');
   $viewDept.classList.toggle('active', name === 'dept');
+  const bar    = document.getElementById('unidade-bar');
   const bcDept = document.getElementById('bc-dept');
-  const bcSep  = document.getElementById('bc-sep');
   if (name === 'dept') {
-    bcDept.textContent = currentDept; bcDept.style.display = ''; bcSep.style.display = '';
+    bcDept.textContent = currentDept;
+    bar.style.display = 'flex';
   } else {
-    bcDept.style.display = 'none'; bcSep.style.display = 'none';
+    bar.style.display = 'none';
   }
 }
 
