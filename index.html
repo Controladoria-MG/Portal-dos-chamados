@@ -11,42 +11,29 @@
 <body>
 
   <!-- HEADER -->
-  <header>
-    <div class="header-logo">
-      <span class="dot"></span>
-      Portal de Chamados
+  <header class="topbar">
+    <img src="data/imagens/logo.png" alt="MG Controle" class="topbar-logo" />
+    <div class="topbar-info">
+      <h1 class="topbar-title">Relatório dos chamados - MG Controle</h1>
+      <span class="topbar-atualizacao" id="header-date"></span>
     </div>
-    <div class="header-right">
-      <div class="header-meta" id="header-date"></div>
-<button id="theme-toggle">☀ Claro</button>
-    </div>
+    <button id="theme-toggle">Alterar tema</button>
   </header>
 
-  <main>
+  <!-- BARRA DE NAVEGAÇÃO -->
+  <div class="unidade-bar" id="unidade-bar" style="display:none">
+    <span class="unidade-crumb" id="bc-home">Início</span>
+    <span class="unidade-sep" id="bc-sep">›</span>
+    <span class="unidade-nome" id="bc-dept"></span>
+  </div>
 
-    <!-- BREADCRUMB -->
-    <nav class="breadcrumb">
-      <span class="crumb" id="bc-home">Início</span>
-      <span class="sep" id="bc-sep" style="display:none">›</span>
-      <span class="crumb active" id="bc-dept" style="display:none"></span>
-    </nav>
+  <main>
 
     <!-- ── HOME VIEW ─────────────────────────────────────── -->
     <div id="view-home" class="view active">
 
       <div class="page-title">
-        <h1>Chamados <span>por Departamento</span></h1>
-        <p>Selecione um departamento para visualizar os registros em aberto</p>
-      </div>
-
-      <!-- Stats bar -->
-      <div class="stats-bar">
-        <div class="stat-pill">
-          Total de registros: <strong id="total-records">—</strong>
-        </div>
-        <div class="stat-pill">
-          Departamentos ativos: <strong id="total-depts">—</strong>
-        </div>
+        <h1>Painel de Controle</h1>
       </div>
 
       <!-- Loading -->
@@ -68,11 +55,6 @@
 
       <button class="btn-back" id="btn-back">← Voltar</button>
 
-      <div class="page-title" style="margin-bottom:1.5rem">
-        <h1 id="dept-title">Departamento</h1>
-        <p id="dept-count"></p>
-      </div>
-
       <!-- Abas Pendentes / Retornados (visível só para GC) -->
       <div id="dept-tabs"></div>
 
@@ -80,8 +62,8 @@
       <div class="table-wrap">
         <div class="table-header">
           <div>
-            <div class="table-title">Clientes com Solicitações</div>
-            <div class="table-subtitle">Clique em uma linha para ver o detalhamento das pendências</div>
+            <div class="table-title">Chamados por cliente</div>
+            <div class="table-subtitle">Clique na linha para ver mais detalhes</div>
           </div>
           <input
             class="search-input"
