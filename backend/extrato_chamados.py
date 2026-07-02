@@ -64,8 +64,10 @@ if sys.platform == "win32":
     import ctypes
     ctypes.windll.kernel32.SetConsoleOutputCP(65001)
     ctypes.windll.kernel32.SetConsoleCP(65001)
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-console = Console()
+console = Console(legacy_windows=False)
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
