@@ -16,6 +16,20 @@ from pathlib import Path
 from datetime import datetime
 
 # ============================================================
+# CONSOLE – fixar tamanho e codepage ANTES de qualquer print,
+# para o rich não calcular a largura errada e desalinhar a
+# tabela do menu inicial.
+# ============================================================
+
+if sys.platform == "win32":
+    import ctypes
+    os.system("mode con: cols=130 lines=45")
+    ctypes.windll.kernel32.SetConsoleOutputCP(65001)
+    ctypes.windll.kernel32.SetConsoleCP(65001)
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
+# ============================================================
 # GARANTIR DEPENDÊNCIAS
 # ============================================================
 
@@ -59,13 +73,6 @@ except ImportError:
     from openpyxl.worksheet.table import Table as XlTable, TableStyleInfo
     from openpyxl.styles import Font, Alignment
     from openpyxl.utils import get_column_letter
-
-if sys.platform == "win32":
-    import ctypes
-    ctypes.windll.kernel32.SetConsoleOutputCP(65001)
-    ctypes.windll.kernel32.SetConsoleCP(65001)
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 console = Console(legacy_windows=False)
 
