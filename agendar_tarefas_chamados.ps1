@@ -4,7 +4,7 @@
 
 $python = (Get-Command python).Source
 $script = "C:\Users\gamaral\Desktop\Python\Chamados\backend\extrato_chamados.py"
-$horarios = @("09:00", "13:00", "17:00", "18:00")
+$horarios = @("09:00", "13:00", "15:00", "17:00", "18:00")
 
 Write-Host "Configurando tarefas agendadas..." -ForegroundColor Cyan
 
