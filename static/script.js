@@ -69,7 +69,7 @@ function toggleTheme() {
 }
 function updateThemeBtn(theme) {
   const btn = document.getElementById('theme-toggle');
-  if (btn) btn.textContent = theme === 'light' ? '☀️ Alterar Tema: Claro' : '🌙 Alterar Tema: Escuro';
+  if (btn) btn.textContent = theme === 'light' ? 'Alterar Tema: Claro' : 'Alterar Tema: Escuro';
 }
 
 /* ─── DOM REFS ───────────────────────────────────────────────────── */
