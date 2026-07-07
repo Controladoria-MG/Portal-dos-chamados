@@ -93,7 +93,7 @@ USUARIO  = "rjuan"
 SENHA    = "Palmeiras!"
 
 PASTA_DOWNLOAD    = r"C:\Users\gamaral\Desktop\Python\Chamados\data\Att Base"
-ARQUIVO_PROTEGIDO = "Relatório Colaboradores Ativos_29_05_2026, 16_53_32.xlsx"
+ARQUIVO_PROTEGIDO = "Relatório Colaboradores Ativos_07_07_2026, 17_41_11.xlsx"
 REPO_DIR          = r"C:\Users\gamaral\Desktop\Python\Chamados"
 
 TIMEOUT    = 40
