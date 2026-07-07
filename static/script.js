@@ -1,6 +1,7 @@
 /* ─── CHAMADOS PORTAL — script.js ───────────────────────────────── */
 
 const DATA_PATH = 'data/base.xlsx';
+const INFO_PATH = 'data/base_info.json';
 
 /* ─── STATE ──────────────────────────────────────────────────────── */
 let allData          = [];
@@ -96,15 +97,27 @@ function deptTemDeptoAnterior(rows) {
   return rows.some(r => String(col(r,'Departamento Responsavel Original','Departamento Responsável Original')||'').trim() !== '');
 }
 
+/* ─── DATA DE ATUALIZAÇÃO DA BASE ───────────────────────────────────
+   Lê data/base_info.json (gravado pelo pipeline toda vez que base.xlsx
+   é regerado) para mostrar quando os dados foram atualizados de fato -
+   a data de hoje sozinha não diz nada sobre isso. */
+async function carregarDataAtualizacao() {
+  try {
+    const res = await fetch(INFO_PATH);
+    if (!res.ok) throw new Error('base_info.json não encontrado');
+    const info = await res.json();
+    $headerDate.textContent = `Base atualizada em ${info.atualizado_em}`;
+  } catch (e) {
+    $headerDate.textContent = '';
+  }
+}
+
 /* ─── INIT ───────────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
 
-  $headerDate.textContent = new Date().toLocaleDateString('pt-BR', {
-    day: '2-digit', month: 'short', year: 'numeric'
-  }).toUpperCase();
-
+  carregarDataAtualizacao();
   loadData();
   buildFilterDropdowns();
 });

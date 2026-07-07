@@ -10,6 +10,7 @@
 import os
 import sys
 import time
+import json
 import subprocess
 import argparse
 from pathlib import Path
@@ -712,6 +713,15 @@ def atualizar_base():
     )
     ws_out.add_table(tbl)
     wb_out.save(OUTPUT_BASE)
+
+    # Grava o horário desta atualização para o front-end exibir "base
+    # atualizada em ..." (a data de modificação do arquivo não é confiável
+    # quando servida via GitHub Pages/CDN).
+    info_path = OUTPUT_BASE.parent / "base_info.json"
+    info_path.write_text(
+        json.dumps({"atualizado_em": datetime.now().strftime("%d/%m/%Y %H:%M")}, ensure_ascii=False),
+        encoding="utf-8",
+    )
 
     console.print()
     console.print(Panel(
