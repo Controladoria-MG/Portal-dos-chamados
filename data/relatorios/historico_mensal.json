@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/07/2026 09:02",
+  "atualizado_em": "08/07/2026 13:02",
   "meses": [
     {
       "mes": "2026-01",
-      "abertos": 193,
-      "baixados": 128
+      "abertos": 189,
+      "baixados": 126
     },
     {
       "mes": "2026-02",
@@ -19,7 +19,7 @@
     {
       "mes": "2026-04",
       "abertos": 119,
-      "baixados": 155
+      "baixados": 154
     },
     {
       "mes": "2026-05",
@@ -28,13 +28,13 @@
     },
     {
       "mes": "2026-06",
-      "abertos": 344,
-      "baixados": 324
+      "abertos": 339,
+      "baixados": 320
     },
     {
       "mes": "2026-07",
-      "abertos": 88,
-      "baixados": 105
+      "abertos": 95,
+      "baixados": 111
     }
   ]
 }
