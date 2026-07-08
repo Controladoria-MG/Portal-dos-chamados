@@ -1,0 +1,40 @@
+{
+  "atualizado_em": "08/07/2026 09:02",
+  "meses": [
+    {
+      "mes": "2026-01",
+      "abertos": 193,
+      "baixados": 128
+    },
+    {
+      "mes": "2026-02",
+      "abertos": 214,
+      "baixados": 170
+    },
+    {
+      "mes": "2026-03",
+      "abertos": 219,
+      "baixados": 156
+    },
+    {
+      "mes": "2026-04",
+      "abertos": 119,
+      "baixados": 155
+    },
+    {
+      "mes": "2026-05",
+      "abertos": 138,
+      "baixados": 111
+    },
+    {
+      "mes": "2026-06",
+      "abertos": 344,
+      "baixados": 324
+    },
+    {
+      "mes": "2026-07",
+      "abertos": 88,
+      "baixados": 105
+    }
+  ]
+}
