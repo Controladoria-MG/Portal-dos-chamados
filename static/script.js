@@ -12,16 +12,20 @@ let currentDeptTemDeptoAnterior = false; // dept atual tem chamados "Devolvido p
 
 /* ─── FILTROS (CATEGORIA / RESPONSÁVEL / STATUS / VENCIMENTO) ────── */
 const FILTER_DEFS = [
-  { key: 'categoria',   label: 'Categoria',   cols: ['Categoria','categoria'] },
-  { key: 'responsavel', label: 'Responsável', cols: ['Responsavel','Responsável','responsavel'] },
-  { key: 'status',      label: 'Status',      cols: ['Status','status'] },
-  { key: 'vencimento',  label: 'Vencimento',  value: vencimentoStatus, sort: ['Vencido','Não Vencido'] },
+  { key: 'categoria',       label: 'Categoria',           cols: ['Categoria','categoria'] },
+  { key: 'deptoSolicitante', label: 'Depto. Solicitante', cols: ['Departamento Solicitante','Departamento_Solicitante','departamento solicitante'] },
+  { key: 'responsavel',     label: 'Responsável',         cols: ['Responsavel','Responsável','responsavel'] },
+  { key: 'coordenador',     label: 'Coordenador',         cols: ['Coordenador','coordenador'] },
+  { key: 'status',          label: 'Status',              cols: ['Status','status'] },
+  { key: 'vencimento',      label: 'Vencimento',          value: vencimentoStatus, sort: ['Vencido','Não Vencido'] },
 ];
 const activeFilters = {
-  categoria:   new Set(),
-  responsavel: new Set(),
-  status:      new Set(),
-  vencimento:  new Set(),
+  categoria:        new Set(),
+  deptoSolicitante: new Set(),
+  responsavel:      new Set(),
+  coordenador:      new Set(),
+  status:           new Set(),
+  vencimento:       new Set(),
 };
 function resetFilters() {
   FILTER_DEFS.forEach(def => activeFilters[def.key].clear());
@@ -78,6 +82,7 @@ const $loading      = document.getElementById('loading');
 const $errorMsg     = document.getElementById('error-msg');
 const $viewHome     = document.getElementById('view-home');
 const $viewDept     = document.getElementById('view-dept');
+const $viewRelatorios = document.getElementById('view-relatorios');
 const $deptGrid     = document.getElementById('dept-grid');
 const $totalRecs    = document.getElementById('total-records');
 const $totalDeps    = document.getElementById('total-depts');
@@ -120,6 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
   carregarDataAtualizacao();
   loadData();
   buildFilterDropdowns();
+  carregarHistoricoMensal();
 });
 
 /* ─── LOAD XLSX ──────────────────────────────────────────────────── */
@@ -142,6 +148,14 @@ function showError(msg) {
   $loading.style.display = 'none';
   $errorMsg.style.display = 'block';
   $errorMsg.textContent = '⚠  ' + msg;
+}
+
+/* ─── AGRUPAMENTO DE DEPARTAMENTO ────────────────────────────────────
+   GC - Administrativo é tratado como parte de GERENCIA DE CONTAS —
+   um único card/departamento no portal, nunca separados. ─────────── */
+function deptGroupName(row) {
+  const raw = String(col(row, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || '').trim();
+  return raw.toUpperCase() === 'GC - ADMINISTRATIVO' ? 'GERENCIA DE CONTAS' : (raw || 'Sem Departamento');
 }
 
 /* ─── COLUMN RESOLVER ────────────────────────────────────────────── */
@@ -208,7 +222,7 @@ function renderHome() {
   for (const row of allData) {
     const retornado = String(col(row, 'Retornado')).toUpperCase();
     if (retornado === 'SIM') continue; // retornados não contam nos cards normais
-    const dept = String(col(row, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || 'Sem Departamento').trim();
+    const dept = deptGroupName(row);
     deptMap[dept] = (deptMap[dept] || 0) + 1;
   }
   // Garante que GERENCIA DE CONTAS aparece mesmo que não tenha pendentes
@@ -250,7 +264,7 @@ function openDept(deptName) {
   if ($deptTitle) $deptTitle.textContent = deptName;
 
   const allDeptRows = allData.filter(r => {
-    const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
+    const dept = deptGroupName(r);
     const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
     // Retornados sempre ficam em GERENCIA DE CONTAS, independente do dept original
     if (retornado) return deptName === 'GERENCIA DE CONTAS';
@@ -300,7 +314,7 @@ function buildTabs(deptName, allDeptRows) {
       $clientSearch.value = '';
 
       const rows = allData.filter(r => {
-        const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
+        const dept = deptGroupName(r);
         const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
         if (retornado) return currentDept === 'GERENCIA DE CONTAS';
         return dept === currentDept;
@@ -476,7 +490,7 @@ function applyFilters() {
     const matchText = !q || tr.textContent.toLowerCase().includes(q);
 
     const clientRows = allData.filter(r => {
-      const dept = String(col(r,'Departamento Responsavel','Departamento Responsável','Departamento')||'').trim();
+      const dept = deptGroupName(r);
       const id   = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
       const ret  = String(col(r,'Retornado')).toUpperCase() === 'SIM';
       return dept === currentDept && id === clientId &&
@@ -610,6 +624,7 @@ function toggleClientDetail(tr, client) {
               <div class="ticket-field"><span class="f-label">ID</span><span class="f-value f-id">${escHtml(String(col(r,'Id','ID','id')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Categoria</span><span class="f-value">${escHtml(String(col(r,'Categoria','categoria')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Responsável</span><span class="f-value">${escHtml(String(col(r,'Responsavel','Responsável','responsavel')||'—'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Coordenador</span><span class="f-value">${escHtml(String(col(r,'Coordenador','coordenador')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Depto. Solicitante</span><span class="f-value">${escHtml(String(col(r,'Departamento Solicitante','Departamento_Solicitante')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Data Cadastro</span><span class="f-value">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</span></div>
               <div class="ticket-field"><span class="f-label">Prazo Vencimento</span><span class="f-value">${fmtPrazo(prazoVal(r))}</span></div>
@@ -652,6 +667,7 @@ document.getElementById('bc-home').addEventListener('click', () => {
 function showView(name) {
   $viewHome.classList.toggle('active', name === 'home');
   $viewDept.classList.toggle('active', name === 'dept');
+  $viewRelatorios.classList.toggle('active', name === 'relatorios');
   const bar    = document.getElementById('unidade-bar');
   const bcDept = document.getElementById('bc-dept');
   if (name === 'dept') {
@@ -662,8 +678,329 @@ function showView(name) {
   }
 }
 
+/* ─── RELATÓRIOS — NAVEGAÇÃO ─────────────────────────────────────── */
+document.getElementById('btn-relatorios').addEventListener('click', openRelatorios);
+document.getElementById('btn-back-relatorios').addEventListener('click', () => showView('home'));
+
 /* ─── HTML ESCAPE ────────────────────────────────────────────────── */
 function escHtml(str) {
   return String(str)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   RELATÓRIOS — COMPARATIVO MENSAL DE ABERTURAS x BAIXAS
+   Só trabalha com contagens agregadas (data/relatorios/historico_mensal.json)
+   — nenhum detalhe de chamado individual é exibido aqui.
+═══════════════════════════════════════════════════════════════════ */
+const HIST_PATH = 'data/relatorios/historico_mensal.json';
+let historicoMensal = null;
+
+async function carregarHistoricoMensal() {
+  try {
+    const res = await fetch(HIST_PATH);
+    if (!res.ok) throw new Error('histórico não encontrado');
+    historicoMensal = await res.json();
+  } catch (e) {
+    historicoMensal = null;
+  }
+}
+
+const MESES_ABREV = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+function fmtMes(chave) {
+  const [ano, mes] = chave.split('-').map(Number);
+  return `${MESES_ABREV[mes - 1]}/${String(ano).slice(2)}`;
+}
+
+/* Arredonda o teto do eixo Y para um número "redondo" (1/2/5 x 10^n) */
+function niceCeil(v) {
+  if (v <= 0) return 10;
+  const mag  = Math.pow(10, Math.floor(Math.log10(v)));
+  const norm = v / mag;
+  let niceNorm;
+  if (norm <= 1) niceNorm = 1;
+  else if (norm <= 2) niceNorm = 2;
+  else if (norm <= 5) niceNorm = 5;
+  else niceNorm = 10;
+  return niceNorm * mag;
+}
+
+async function openRelatorios() {
+  if (!historicoMensal) await carregarHistoricoMensal();
+  renderRelatorios();
+  showView('relatorios');
+}
+
+function renderRelatorios() {
+  const $empty   = document.getElementById('rel-empty');
+  const $content = document.getElementById('rel-content');
+  const $atualiz = document.getElementById('rel-atualizado');
+
+  const meses = (historicoMensal && historicoMensal.meses) || [];
+  if (!meses.length) {
+    $empty.style.display   = 'block';
+    $content.style.display = 'none';
+    $atualiz.textContent   = '';
+    return;
+  }
+  $empty.style.display   = 'none';
+  $content.style.display = 'block';
+  $atualiz.textContent   = historicoMensal.atualizado_em
+    ? `Base atualizada em ${historicoMensal.atualizado_em}`
+    : '';
+
+  renderKpis(meses);
+  renderLegend();
+  buildChart(meses);
+  renderResumoTable(meses);
+}
+
+/* ─── KPIs DO MÊS ATUAL ───────────────────────────────────────────── */
+function renderKpis(meses) {
+  const $kpi = document.getElementById('kpi-row');
+  const chaveAtual = new Date().toISOString().slice(0, 7);
+  const atual = meses.find(m => m.mes === chaveAtual) || { abertos: 0, baixados: 0 };
+  const saldo = atual.abertos - atual.baixados;
+
+  const tiles = [
+    { label: `Abertos em ${fmtMes(chaveAtual)}`,  value: atual.abertos },
+    { label: `Baixados em ${fmtMes(chaveAtual)}`, value: atual.baixados },
+    { label: `Saldo em ${fmtMes(chaveAtual)}`,     value: saldo, signed: true },
+  ];
+
+  $kpi.innerHTML = '';
+  tiles.forEach(t => {
+    const div = document.createElement('div');
+    div.className = 'kpi-tile';
+
+    const label = document.createElement('div');
+    label.className = 'kpi-label';
+    label.textContent = t.label;
+
+    const value = document.createElement('div');
+    value.className = 'kpi-value';
+    value.textContent = (t.signed && t.value > 0 ? '+' : '') + t.value.toLocaleString('pt-BR');
+
+    div.appendChild(label);
+    div.appendChild(value);
+    $kpi.appendChild(div);
+  });
+}
+
+/* ─── LEGENDA ─────────────────────────────────────────────────────── */
+function renderLegend() {
+  const $legend = document.getElementById('chart-legend');
+  $legend.innerHTML = '';
+  [['sw-abertos', 'Abertos'], ['sw-baixados', 'Baixados']].forEach(([cls, label]) => {
+    const wrap = document.createElement('div');
+    wrap.className = 'legend-item';
+    const sw = document.createElement('span');
+    sw.className = 'legend-swatch ' + cls;
+    const txt = document.createElement('span');
+    txt.textContent = label;
+    wrap.appendChild(sw);
+    wrap.appendChild(txt);
+    $legend.appendChild(wrap);
+  });
+}
+
+/* ─── TABELA RESUMO ───────────────────────────────────────────────── */
+function renderResumoTable(meses) {
+  const $body = document.getElementById('rel-table-body');
+  $body.innerHTML = '';
+
+  let totalAbertos = 0, totalBaixados = 0;
+
+  meses.forEach((m, i) => {
+    const saldo = m.abertos - m.baixados;
+    totalAbertos  += m.abertos;
+    totalBaixados += m.baixados;
+
+    const tr = document.createElement('tr');
+    if (i % 2 === 1) tr.classList.add('row-even');
+
+    const tdMes = document.createElement('td');
+    tdMes.textContent = fmtMes(m.mes);
+    const tdAb = document.createElement('td');
+    tdAb.textContent = m.abertos.toLocaleString('pt-BR');
+    const tdBx = document.createElement('td');
+    tdBx.textContent = m.baixados.toLocaleString('pt-BR');
+    const tdSaldo = document.createElement('td');
+    tdSaldo.textContent = (saldo > 0 ? '+' : '') + saldo.toLocaleString('pt-BR');
+
+    tr.append(tdMes, tdAb, tdBx, tdSaldo);
+    $body.appendChild(tr);
+  });
+
+  const totalSaldo = totalAbertos - totalBaixados;
+  const trTotal = document.createElement('tr');
+  trTotal.className = 'rel-total-row';
+
+  const tdLabel = document.createElement('td');
+  tdLabel.textContent = 'Total';
+  const tdTotAb = document.createElement('td');
+  tdTotAb.textContent = totalAbertos.toLocaleString('pt-BR');
+  const tdTotBx = document.createElement('td');
+  tdTotBx.textContent = totalBaixados.toLocaleString('pt-BR');
+  const tdTotSaldo = document.createElement('td');
+  tdTotSaldo.textContent = (totalSaldo > 0 ? '+' : '') + totalSaldo.toLocaleString('pt-BR');
+
+  trTotal.append(tdLabel, tdTotAb, tdTotBx, tdTotSaldo);
+  $body.appendChild(trTotal);
+}
+
+/* ─── TOOLTIP DO GRÁFICO ──────────────────────────────────────────── */
+let $chartTooltip = null;
+function getChartTooltip() {
+  if (!$chartTooltip) {
+    $chartTooltip = document.createElement('div');
+    $chartTooltip.className = 'chart-tooltip';
+    document.body.appendChild($chartTooltip);
+  }
+  return $chartTooltip;
+}
+function showChartTooltip(clientX, clientY, mesLabel, abertos, baixados) {
+  const tt = getChartTooltip();
+  tt.innerHTML = '';
+
+  const title = document.createElement('div');
+  title.className = 'tt-title';
+  title.textContent = mesLabel;
+  tt.appendChild(title);
+
+  [['Abertos', abertos, 'sw-abertos'], ['Baixados', baixados, 'sw-baixados']].forEach(([label, val, cls]) => {
+    const row  = document.createElement('div');
+    row.className = 'tt-row';
+    const key  = document.createElement('span');
+    key.className = 'tt-key';
+    const line = document.createElement('span');
+    line.className = 'tt-line ' + cls;
+    const lbl  = document.createElement('span');
+    lbl.textContent = label;
+    key.appendChild(line);
+    key.appendChild(lbl);
+    const value = document.createElement('span');
+    value.className = 'tt-val';
+    value.textContent = val.toLocaleString('pt-BR');
+    row.appendChild(key);
+    row.appendChild(value);
+    tt.appendChild(row);
+  });
+
+  tt.classList.add('visible');
+  positionChartTooltip(clientX, clientY, tt);
+}
+function positionChartTooltip(clientX, clientY, tt) {
+  const margin = 12;
+  const rect = tt.getBoundingClientRect();
+  let x = clientX + margin;
+  let y = clientY + margin;
+  if (x + rect.width  > window.innerWidth  - 8) x = clientX - rect.width  - margin;
+  if (y + rect.height > window.innerHeight - 8) y = clientY - rect.height - margin;
+  tt.style.left = `${x}px`;
+  tt.style.top  = `${y}px`;
+}
+function hideChartTooltip() {
+  if ($chartTooltip) $chartTooltip.classList.remove('visible');
+}
+
+/* ─── GRÁFICO — BARRAS AGRUPADAS (SVG) ────────────────────────────── */
+const SVG_NS = 'http://www.w3.org/2000/svg';
+function svgEl(tag, attrs) {
+  const el = document.createElementNS(SVG_NS, tag);
+  for (const k in attrs) el.setAttribute(k, attrs[k]);
+  return el;
+}
+/* Caminho de uma barra com topo arredondado (4px) e base quadrada, crescendo do baseline */
+function roundedTopBarPath(x, y, w, h, r) {
+  if (h <= 0) return '';
+  r = Math.min(r, w / 2, h);
+  return `M${x},${y + h} L${x},${y + r} Q${x},${y} ${x + r},${y} ` +
+         `L${x + w - r},${y} Q${x + w},${y} ${x + w},${y + r} L${x + w},${y + h} Z`;
+}
+
+function buildChart(meses) {
+  const svg = document.getElementById('rel-chart');
+  svg.innerHTML = '';
+
+  const W = 900, H = 320;
+  const marginLeft = 44, marginRight = 12, marginTop = 12, marginBottom = 34;
+  const plotW = W - marginLeft - marginRight;
+  const plotH = H - marginTop - marginBottom;
+
+  const maxVal  = Math.max(1, ...meses.map(m => Math.max(m.abertos, m.baixados)));
+  const niceMax = niceCeil(maxVal);
+  const steps   = 4;
+
+  // Gridlines + rótulos do eixo Y
+  for (let i = 0; i <= steps; i++) {
+    const val = (niceMax / steps) * i;
+    const y = marginTop + plotH - (val / niceMax) * plotH;
+    svg.appendChild(svgEl('line', {
+      x1: marginLeft, x2: W - marginRight, y1: y, y2: y,
+      style: `stroke:var(--chart-grid);stroke-width:1;opacity:${i === 0 ? 0.6 : 0.35}`,
+    }));
+    const label = svgEl('text', {
+      x: marginLeft - 8, y: y + 4, 'text-anchor': 'end',
+      'font-size': 11, 'font-family': 'Segoe UI, Arial, sans-serif',
+      style: 'fill:var(--muted)',
+    });
+    label.textContent = Math.round(val).toLocaleString('pt-BR');
+    svg.appendChild(label);
+  }
+
+  // Barras agrupadas (Abertos / Baixados) por mês
+  const groupW = plotW / meses.length;
+  const barW   = Math.min(24, groupW * 0.28);
+  const gap    = 2;
+
+  meses.forEach(m => {
+    const idx = meses.indexOf(m);
+    const groupX = marginLeft + idx * groupW;
+    const cx     = groupX + groupW / 2;
+    const mesLabel = fmtMes(m.mes);
+
+    [
+      { key: 'Abertos',  val: m.abertos,  colorVar: '--chart-abertos',  x: cx - barW - gap / 2 },
+      { key: 'Baixados', val: m.baixados, colorVar: '--chart-baixados', x: cx + gap / 2 },
+    ].forEach(b => {
+      const h = niceMax > 0 ? (b.val / niceMax) * plotH : 0;
+      const y = marginTop + plotH - h;
+
+      const path = svgEl('path', {
+        d: roundedTopBarPath(b.x, y, barW, h, 4),
+        style: `fill:var(${b.colorVar})`,
+        class: 'chart-bar',
+        tabindex: '0',
+        role: 'img',
+        'aria-label': `${b.key} em ${mesLabel}: ${b.val}`,
+      });
+
+      const onEnter = (clientX, clientY) => showChartTooltip(clientX, clientY, mesLabel, m.abertos, m.baixados);
+      path.addEventListener('pointerenter', e => onEnter(e.clientX, e.clientY));
+      path.addEventListener('pointermove',  e => positionChartTooltip(e.clientX, e.clientY, getChartTooltip()));
+      path.addEventListener('pointerleave', hideChartTooltip);
+      path.addEventListener('focus', () => {
+        const r = path.getBoundingClientRect();
+        onEnter(r.left + r.width / 2, r.top);
+      });
+      path.addEventListener('blur', hideChartTooltip);
+
+      svg.appendChild(path);
+    });
+
+    const xLabel = svgEl('text', {
+      x: cx, y: H - marginBottom + 18, 'text-anchor': 'middle',
+      'font-size': 11, 'font-family': 'Segoe UI, Arial, sans-serif',
+      style: 'fill:var(--muted)',
+    });
+    xLabel.textContent = mesLabel;
+    svg.appendChild(xLabel);
+  });
+
+  // Eixo base
+  svg.appendChild(svgEl('line', {
+    x1: marginLeft, x2: W - marginRight, y1: marginTop + plotH, y2: marginTop + plotH,
+    style: 'stroke:var(--border-accent);stroke-width:1',
+  }));
 }

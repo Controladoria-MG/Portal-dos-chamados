@@ -21,6 +21,7 @@
         <span class="topbar-hint">Para atualizar seus dados recarregue a página usando "Ctrl+Shift+F5"</span>
       </div>
     </div>
+    <button id="btn-relatorios" class="btn-relatorios">Relatórios</button>
     <button id="theme-toggle">Alterar tema</button>
   </header>
 
@@ -93,6 +94,65 @@
       </div>
 
     </div><!-- /view-dept -->
+
+    <!-- ── RELATÓRIOS VIEW ──────────────────────────────────── -->
+    <div id="view-relatorios" class="view">
+
+      <button class="btn-back" id="btn-back-relatorios">← Voltar</button>
+
+      <div class="page-title">
+        <h1>Relatórios</h1>
+        <p id="rel-atualizado"></p>
+      </div>
+
+      <div id="rel-empty" class="rel-empty" style="display:none">
+        Nenhum dado de relatório mensal disponível ainda. Rode a atualização da base para gerar.
+      </div>
+
+      <div id="rel-content" style="display:none">
+
+        <!-- KPIs do mês atual -->
+        <div class="kpi-row" id="kpi-row"></div>
+
+        <!-- Gráfico comparativo -->
+        <div class="table-wrap chart-card">
+          <div class="table-header">
+            <div>
+              <div class="table-title">Aberturas x Baixas por mês</div>
+              <div class="table-subtitle">Chamados abertos e chamados entregues (baixados), por mês</div>
+            </div>
+            <div class="chart-legend" id="chart-legend"></div>
+          </div>
+          <div class="chart-wrap">
+            <svg id="rel-chart" viewBox="0 0 900 320" preserveAspectRatio="none"></svg>
+          </div>
+        </div>
+
+        <!-- Tabela resumo -->
+        <div class="table-wrap" style="margin-top:1.2rem">
+          <div class="table-header">
+            <div>
+              <div class="table-title">Resumo mensal</div>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Mês</th>
+                  <th>Abertos</th>
+                  <th>Baixados</th>
+                  <th>Saldo</th>
+                </tr>
+              </thead>
+              <tbody id="rel-table-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </div><!-- /rel-content -->
+
+    </div><!-- /view-relatorios -->
 
   </main>
 

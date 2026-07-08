@@ -8,6 +8,7 @@
 # ============================================================
 
 import os
+import re
 import sys
 import time
 import json
@@ -166,7 +167,7 @@ HEADERS = [
     "Departamento Responsavel", "Data Cadastro", "Prazo Vencimento",
     "Status", "Solicitante", "Inicio Atend.", "Data Entrega",
     "Responsável pela conclusão", "Ultimo Comentário", "Retornado",
-    "Departamento Responsavel Original",
+    "Departamento Responsavel Original", "Coordenador",
 ]
 
 COL_WIDTHS = {
@@ -174,7 +175,7 @@ COL_WIDTHS = {
     'E': 13.0,  'F': 11.57, 'G': 9.86,  'H': 14.71,
     'I': 28.14, 'J': 15.86, 'K': 19.29, 'L': 12.86,
     'M': 12.86, 'N': 14.43, 'O': 15.57, 'P': 28.57,
-    'Q': 20.29, 'R': 12.0,  'S': 28.14,
+    'Q': 20.29, 'R': 12.0,  'S': 28.14, 'T': 22.0,
 }
 
 # ============================================================
@@ -350,6 +351,10 @@ def iniciar_driver(pasta_download, headless=True):
     options = Options()
     if headless:
         options.add_argument("--headless=new")
+        # Chrome recente às vezes abre uma janela em branco mesmo em modo
+        # headless — joga essa janela pra fora da tela em vez de deixá-la
+        # aparecer no meio da execução automática.
+        options.add_argument("--window-position=-32000,-32000")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--no-sandbox")
@@ -558,6 +563,12 @@ def renomear_arquivo(caminho_original, pasta_download, label="Geral"):
 # PROCESSAMENTO BASE
 # ============================================================
 
+def _norm_nome(nome):
+    if not nome:
+        return ""
+    return re.sub(r"\s+", " ", str(nome).strip().upper())
+
+
 def _find_file(folder: Path, pattern: str, required=True):
     matches = list(folder.glob(pattern))
     if not matches:
@@ -569,7 +580,7 @@ def _find_file(folder: Path, pattern: str, required=True):
     return max(matches, key=lambda p: p.stat().st_mtime)
 
 
-def _processar_relatorio(ws, label, colab_map, ws_out):
+def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, abertos_mes, baixados_mes):
     linhas = ignoradas = retornados = 0
 
     def resolver(valor):
@@ -587,6 +598,20 @@ def _processar_relatorio(ws, label, colab_map, ws_out):
         dept_sol   = str(row[3]).strip().lower()  if row[3]  else ''
         eh_entregue = (status_val == STATUS_ENTREGUE)
         eh_gc       = (dept_sol in DEPTS_RETORNADOS)
+
+        # Histórico mensal (só contagens, para o comparativo aberturas x
+        # baixas do portal) — computado sobre TODAS as linhas do relatório
+        # bruto, antes de qualquer descarte, para não perder os chamados
+        # "Entregue ao Solicitante" fora da GC que a base.xlsx não guarda.
+        data_cad_raw = row[13] if len(row) > 13 else None
+        if isinstance(data_cad_raw, datetime):
+            chave = data_cad_raw.strftime('%Y-%m')
+            abertos_mes[chave] = abertos_mes.get(chave, 0) + 1
+        if eh_entregue:
+            data_ent_raw = row[18] if len(row) > 18 else None
+            if isinstance(data_ent_raw, datetime):
+                chave = data_ent_raw.strftime('%Y-%m')
+                baixados_mes[chave] = baixados_mes.get(chave, 0) + 1
 
         if eh_entregue and not eh_gc:
             ignoradas += 1
@@ -613,6 +638,10 @@ def _processar_relatorio(ws, label, colab_map, ws_out):
         if eh_entregue and eh_gc:
             retornados += 1
 
+        # Coordenador do responsável pelo chamado (via Coordenadores.xlsx,
+        # cruzado pelo Nome de Exibição já resolvido na coluna H).
+        nova[19] = coordenador_map.get(_norm_nome(nova[7]), "")
+
         ws_out.append(nova)
         linhas += 1
 
@@ -633,6 +662,7 @@ def atualizar_base():
     att_dir = _ATT_DIR
 
     colab_path = _find_file(att_dir, "*olaboradores*.xlsx")
+    coord_path = _find_file(att_dir, "*oordenadores*.xlsx",             required=False)
     gc_path    = _find_file(att_dir, "*Chamados - GC*.xlsx",            required=False)
     ctr_path   = _find_file(att_dir, "*Chamados - Controladoria*.xlsx", required=False)
 
@@ -649,6 +679,7 @@ def atualizar_base():
         )
 
     console.print(f"  [dim]Colaboradores:[/dim] {colab_path.name}")
+    console.print(f"  [dim]Coordenadores:[/dim] {coord_path.name if coord_path else '[yellow]não encontrado[/yellow]'}")
     for p in sorted(chamados_paths):
         console.print(f"  [dim]Chamados:[/dim]      {p.name}")
     console.print(f"  [dim]GC:[/dim]            {gc_name  or '[yellow]não encontrado[/yellow]'}")
@@ -664,6 +695,22 @@ def atualizar_base():
             colab_map[str(usuario).strip().lower()] = str(nome_exib).strip()
     wb_colab.close()
     console.print(f"  [dim]{len(colab_map)} colaboradores carregados.[/dim]")
+
+    # Mapa de coordenadores (Nome de Exibição → Coordenador). Opcional —
+    # se o arquivo não existir, a coluna Coordenador fica em branco.
+    coordenador_map = {}
+    if coord_path:
+        wb_coord = openpyxl.load_workbook(coord_path, read_only=True, data_only=True)
+        for row in wb_coord.active.iter_rows(min_row=2, values_only=True):
+            nome_exib   = row[1] if len(row) > 1 else None
+            coordenador = row[3] if len(row) > 3 else None
+            if nome_exib and coordenador:
+                coordenador_map[_norm_nome(nome_exib)] = str(coordenador).strip()
+        wb_coord.close()
+    console.print(
+        f"  [dim]{len(coordenador_map)} coordenadores carregados"
+        f"{' (' + coord_path.name + ')' if coord_path else ' — Coordenadores.xlsx não encontrado'}.[/dim]"
+    )
     console.print()
 
     # Workbook de saída
@@ -674,6 +721,8 @@ def atualizar_base():
 
     total_linhas = total_ignoradas = total_retornados = 0
     todos_nao_encontrados: set = set()
+    abertos_mes: dict  = {}
+    baixados_mes: dict = {}
 
     fontes = [(p.stem, p) for p in sorted(chamados_paths)]
     if gc_path:  fontes.append(("GC",            gc_path))
@@ -681,7 +730,9 @@ def atualizar_base():
 
     for label, path in fontes:
         wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-        lin, ign, ret, nao = _processar_relatorio(wb.active, label, colab_map, ws_out)
+        lin, ign, ret, nao = _processar_relatorio(
+            wb.active, label, colab_map, coordenador_map, ws_out, abertos_mes, baixados_mes
+        )
         wb.close()
         total_linhas     += lin
         total_ignoradas  += ign
@@ -720,6 +771,28 @@ def atualizar_base():
     info_path = OUTPUT_BASE.parent / "base_info.json"
     info_path.write_text(
         json.dumps({"atualizado_em": datetime.now().strftime("%d/%m/%Y %H:%M")}, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+    # Histórico mensal de aberturas x baixas (apenas contagens — sem
+    # detalhe de chamados) para o comparativo do portal. Recalculado do
+    # zero a cada rodada, já que a extração sempre cobre DATA_INICIO→hoje.
+    rel_dir = _DATA_DIR / "relatorios"
+    rel_dir.mkdir(exist_ok=True)
+    meses_chave = sorted(set(abertos_mes) | set(baixados_mes))
+    historico = {
+        "atualizado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "meses": [
+            {
+                "mes":      m,
+                "abertos":  abertos_mes.get(m, 0),
+                "baixados": baixados_mes.get(m, 0),
+            }
+            for m in meses_chave
+        ],
+    }
+    (rel_dir / "historico_mensal.json").write_text(
+        json.dumps(historico, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
