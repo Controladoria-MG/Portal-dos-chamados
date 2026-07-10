@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/07/2026 17:03",
+  "atualizado_em": "10/07/2026 18:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -12,8 +12,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 146,
-              "atendidosFora": 170,
+              "atendidosDentro": 143,
+              "atendidosFora": 173,
               "pendentes": 0,
               "chamados": [
                 {
@@ -1333,8 +1333,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-01-19",
                   "prazo": "2026-01-20",
-                  "dataEntrega": "2026-01-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 76714,
@@ -1381,8 +1381,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-01-20",
                   "prazo": "2026-01-22",
-                  "dataEntrega": "2026-01-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 76721,
@@ -1429,8 +1429,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-01-20",
                   "prazo": "2026-01-21",
-                  "dataEntrega": "2026-01-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 76727,
@@ -15599,7 +15599,7 @@
                   "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
                   "dataCadastro": "2026-01-19",
                   "prazo": "2026-01-26",
-                  "dataEntrega": "2026-04-01",
+                  "dataEntrega": "2026-07-10",
                   "status": "atendido_fora"
                 },
                 {
@@ -15607,7 +15607,7 @@
                   "cliente": "MQ PRODUSERV COMÉRCIO E EMPREENDIMENTOS LTDA",
                   "dataCadastro": "2026-01-19",
                   "prazo": "2026-01-20",
-                  "dataEntrega": "2026-04-01",
+                  "dataEntrega": "2026-07-10",
                   "status": "atendido_fora"
                 },
                 {
@@ -15623,7 +15623,7 @@
                   "cliente": "ORVALHO DO SOL INDÚSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-01-19",
                   "prazo": "2026-01-26",
-                  "dataEntrega": "2026-04-01",
+                  "dataEntrega": "2026-07-10",
                   "status": "atendido_fora"
                 },
                 {
@@ -15671,7 +15671,7 @@
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-01-19",
                   "prazo": "2026-01-26",
-                  "dataEntrega": "2026-04-01",
+                  "dataEntrega": "2026-07-10",
                   "status": "atendido_fora"
                 },
                 {
@@ -19214,7 +19214,7 @@
                   "cliente": "AF DATALINK CABOS, CONEXOES E SISTEMAS LTDA",
                   "dataCadastro": "2026-01-19",
                   "prazo": "2026-01-26",
-                  "dataEntrega": "2026-06-08",
+                  "dataEntrega": "2026-07-10",
                   "status": "atendido_fora"
                 },
                 {
@@ -21433,9 +21433,9 @@
       "meses": [
         {
           "mes": "2026-01",
-          "abertos": 16,
+          "abertos": 10,
           "atendidos": 6,
-          "pendentes": 10,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -21457,38 +21457,14 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 5,
-              "pendentes": 10,
+              "pendentes": 4,
               "chamados": [
-                {
-                  "id": 76702,
-                  "cliente": "SINCOPLASTIC INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-01-19",
-                  "prazo": "2026-01-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 76708,
-                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-01-19",
-                  "prazo": "2026-01-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 76698,
-                  "cliente": "MQ PRODUSERV COMÉRCIO E EMPREENDIMENTOS LTDA",
-                  "dataCadastro": "2026-01-19",
-                  "prazo": "2026-01-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 76705,
                   "cliente": "ORVALHO DO SOL INDÚSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-01-19",
                   "prazo": "2026-01-26",
-                  "dataEntrega": "2026-02-05",
+                  "dataEntrega": "2026-07-10",
                   "status": "atendido_fora"
                 },
                 {
@@ -21530,30 +21506,6 @@
                   "prazo": "2026-02-05",
                   "dataEntrega": "2026-06-11",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 76703,
-                  "cliente": "Emplaca Automação e Tecnologia Ltda. ",
-                  "dataCadastro": "2026-01-19",
-                  "prazo": "2026-01-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 76706,
-                  "cliente": "AF DATALINK CABOS, CONEXOES E SISTEMAS LTDA",
-                  "dataCadastro": "2026-01-19",
-                  "prazo": "2026-01-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 76701,
-                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
-                  "dataCadastro": "2026-01-19",
-                  "prazo": "2026-01-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 76817,
@@ -22188,20 +22140,20 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 80016,
-                  "cliente": "Benevento Participações S.A.",
-                  "dataCadastro": "2026-06-15",
-                  "prazo": "2026-06-16",
-                  "dataEntrega": "2026-06-17",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 80040,
                   "cliente": "Benevento Participações S.A.",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-16",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 80016,
+                  "cliente": "Benevento Participações S.A.",
+                  "dataCadastro": "2026-06-15",
+                  "prazo": "2026-06-16",
+                  "dataEntrega": "2026-06-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80007,
@@ -22484,22 +22436,6 @@
               "pendentes": 8,
               "chamados": [
                 {
-                  "id": 80753,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80760,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80754,
                   "cliente": null,
                   "dataCadastro": "2026-07-06",
@@ -22544,6 +22480,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80753,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-06",
+                  "prazo": "2026-07-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80760,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-06",
+                  "prazo": "2026-07-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
