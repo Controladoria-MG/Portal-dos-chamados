@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/07/2026 09:02",
+  "atualizado_em": "10/07/2026 13:02",
   "meses": [
     {
       "mes": "2026-01",
@@ -33,8 +33,8 @@
     },
     {
       "mes": "2026-07",
-      "abertos": 107,
-      "baixados": 0
+      "abertos": 113,
+      "baixados": 1
     }
   ]
 }
