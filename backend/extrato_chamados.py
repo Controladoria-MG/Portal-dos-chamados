@@ -617,7 +617,16 @@ def _dept_group(nome):
     return dept or 'SEM DEPARTAMENTO'
 
 
-def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, abertos_mes, baixados_mes):
+def _classificar_prazo(data_entrega, prazo):
+    """Chamado fechado (Entregue/Encerrado): dentro ou fora do Prazo
+    Vencimento. Sem data de entrega ou sem prazo registrado, considera
+    dentro do prazo por padrão (não há como provar atraso)."""
+    if not isinstance(data_entrega, datetime) or not isinstance(prazo, datetime):
+        return 'atendido_dentro'
+    return 'atendido_dentro' if data_entrega.date() <= prazo.date() else 'atendido_fora'
+
+
+def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, detalhe):
     linhas = ignoradas = retornados = 0
 
     def resolver(valor):
@@ -644,25 +653,47 @@ def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, abertos_
         eh_gc       = (dept_sol in DEPTS_RETORNADOS)
         manter_como_retornado = eh_entregue and eh_gc
 
-        # Histórico mensal (contagens por departamento, para o comparativo
-        # aberturas x baixas do portal) — computado sobre TODAS as linhas do
-        # relatório bruto, antes de qualquer descarte, para não perder os
-        # chamados finalizados fora da GC que a base.xlsx não guarda.
-        # Departamento = Departamento Responsavel (coluna J do relatório de
-        # origem), agrupado como no portal (deptGroupName).
+        # Detalhe mensal por departamento/categoria (para o relatório do
+        # portal) — computado sobre TODAS as linhas do relatório bruto, antes
+        # de qualquer descarte, para não perder os chamados finalizados fora
+        # da GC que a base.xlsx não guarda. O mês do chamado é sempre o mês
+        # de ABERTURA (Data Cadastro) — não o de atendimento — para que
+        # "abrir os chamados daquele mês" sempre mostre o mesmo conjunto,
+        # cada um com seu status final (atendido dentro/fora do prazo, ou
+        # ainda pendente). Departamento = Departamento Responsavel (coluna J
+        # do relatório de origem), agrupado como no portal (deptGroupName).
         depto = _dept_group(row[9] if len(row) > 9 else None)
 
         data_cad_raw = row[13] if len(row) > 13 else None
         if isinstance(data_cad_raw, datetime):
-            chave = data_cad_raw.strftime('%Y-%m')
-            bucket = abertos_mes.setdefault(chave, {})
-            bucket[depto] = bucket.get(depto, 0) + 1
-        if eh_fechado:
+            mes_chave    = data_cad_raw.strftime('%Y-%m')
+            categoria    = str(row[1]).strip() if row[1] else 'Sem Categoria'
+            prazo_raw    = row[14] if len(row) > 14 else None
             data_ent_raw = row[19] if len(row) > 19 else None
-            if isinstance(data_ent_raw, datetime):
-                chave = data_ent_raw.strftime('%Y-%m')
-                bucket = baixados_mes.setdefault(chave, {})
-                bucket[depto] = bucket.get(depto, 0) + 1
+
+            status_final = _classificar_prazo(data_ent_raw, prazo_raw) if eh_fechado else 'pendente'
+
+            grupo = (detalhe.setdefault(depto, {})
+                            .setdefault(mes_chave, {})
+                            .setdefault(categoria, {
+                                'atendidosDentro': 0, 'atendidosFora': 0, 'pendentes': 0,
+                                'chamados': [],
+                            }))
+            if status_final == 'atendido_dentro':
+                grupo['atendidosDentro'] += 1
+            elif status_final == 'atendido_fora':
+                grupo['atendidosFora'] += 1
+            else:
+                grupo['pendentes'] += 1
+
+            grupo['chamados'].append({
+                'id':           row[0],
+                'cliente':      row[6] if len(row) > 6 else None,
+                'dataCadastro': data_cad_raw.strftime('%Y-%m-%d'),
+                'prazo':        prazo_raw.strftime('%Y-%m-%d') if isinstance(prazo_raw, datetime) else None,
+                'dataEntrega':  data_ent_raw.strftime('%Y-%m-%d') if isinstance(data_ent_raw, datetime) else None,
+                'status':       status_final,
+            })
 
         if eh_fechado and not manter_como_retornado:
             ignoradas += 1
@@ -772,8 +803,7 @@ def atualizar_base():
 
     total_linhas = total_ignoradas = total_retornados = 0
     todos_nao_encontrados: set = set()
-    abertos_mes: dict  = {}
-    baixados_mes: dict = {}
+    detalhe: dict = {}
 
     fontes = [(p.stem, p) for p in sorted(chamados_paths)]
     if gc_path:  fontes.append(("GC",            gc_path))
@@ -782,7 +812,7 @@ def atualizar_base():
     for label, path in fontes:
         wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
         lin, ign, ret, nao = _processar_relatorio(
-            wb.active, label, colab_map, coordenador_map, ws_out, abertos_mes, baixados_mes
+            wb.active, label, colab_map, coordenador_map, ws_out, detalhe
         )
         total_linhas     += lin
         total_ignoradas  += ign
@@ -825,39 +855,52 @@ def atualizar_base():
         encoding="utf-8",
     )
 
-    # Histórico mensal de aberturas x baixas (apenas contagens — sem
-    # detalhe de chamados) para o comparativo do portal. Recalculado do
-    # zero a cada rodada, já que a extração sempre cobre DATA_INICIO→hoje.
+    # Detalhe mensal por departamento/categoria (com o chamado a chamado)
+    # para a tela de Relatórios do portal. Recalculado do zero a cada
+    # rodada, já que a extração sempre cobre DATA_INICIO→hoje.
     rel_dir = _DATA_DIR / "relatorios"
     rel_dir.mkdir(exist_ok=True)
-    meses_chave = sorted(set(abertos_mes) | set(baixados_mes))
-    todos_deptos = sorted(
-        {d for bucket in abertos_mes.values() for d in bucket}
-        | {d for bucket in baixados_mes.values() for d in bucket}
-    )
-    historico = {
+    detalhe_json = {
         "atualizado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
-        "departamentos": todos_deptos,
-        "meses": [
+        "departamentos": [
             {
-                "mes":      m,
-                "abertos":  sum(abertos_mes.get(m, {}).values()),
-                "baixados": sum(baixados_mes.get(m, {}).values()),
-                "porDepto": {
-                    d: {
-                        "abertos":  abertos_mes.get(m, {}).get(d, 0),
-                        "baixados": baixados_mes.get(m, {}).get(d, 0),
+                "nome": depto,
+                "meses": [
+                    {
+                        "mes":      mes,
+                        "abertos":  sum(
+                            g['atendidosDentro'] + g['atendidosFora'] + g['pendentes']
+                            for g in categorias.values()
+                        ),
+                        "atendidos": sum(
+                            g['atendidosDentro'] + g['atendidosFora']
+                            for g in categorias.values()
+                        ),
+                        "pendentes": sum(g['pendentes'] for g in categorias.values()),
+                        "categorias": [
+                            {
+                                "nome":            categoria,
+                                "atendidosDentro": g['atendidosDentro'],
+                                "atendidosFora":   g['atendidosFora'],
+                                "pendentes":       g['pendentes'],
+                                "chamados":        g['chamados'],
+                            }
+                            for categoria, g in sorted(categorias.items())
+                        ],
                     }
-                    for d in todos_deptos
-                },
+                    for mes, categorias in sorted(meses.items())
+                ],
             }
-            for m in meses_chave
+            for depto, meses in sorted(detalhe.items())
         ],
     }
-    (rel_dir / "historico_mensal.json").write_text(
-        json.dumps(historico, ensure_ascii=False, indent=2),
+    (rel_dir / "detalhe_mensal.json").write_text(
+        json.dumps(detalhe_json, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    historico_antigo = rel_dir / "historico_mensal.json"
+    if historico_antigo.exists():
+        historico_antigo.unlink()
 
     console.print()
     console.print(Panel(

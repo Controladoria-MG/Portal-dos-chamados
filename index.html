@@ -21,7 +21,7 @@
         <span class="topbar-hint">Para atualizar seus dados recarregue a página usando "Ctrl+Shift+F5"</span>
       </div>
     </div>
-    <button id="btn-relatorios" class="btn-relatorios">Relatórios</button>
+    <button id="btn-relatorios" class="btn-relatorios">Relatório de Tarefas Baixadas</button>
     <button id="theme-toggle">Alterar tema</button>
   </header>
 
@@ -95,39 +95,55 @@
 
     </div><!-- /view-dept -->
 
-    <!-- ── RELATÓRIOS VIEW ──────────────────────────────────── -->
+    <!-- ── RELATÓRIOS — ESCOLHA DE DEPARTAMENTO ────────────────── -->
+    <div id="view-relatorios-home" class="view">
+
+      <button class="btn-back" id="btn-back-relatorios-home">← Voltar</button>
+
+      <div class="page-title">
+        <h1>Relatório de Tarefas Baixadas</h1>
+        <p id="rel-home-atualizado"></p>
+      </div>
+
+      <div id="rel-home-empty" class="rel-empty" style="display:none">
+        Nenhum dado de relatório disponível ainda. Rode a atualização da base para gerar.
+      </div>
+
+      <!-- Department cards -->
+      <div id="rel-dept-grid"></div>
+
+    </div><!-- /view-relatorios-home -->
+
+    <!-- ── RELATÓRIOS — DEPARTAMENTO ────────────────────────────── -->
     <div id="view-relatorios" class="view">
 
       <button class="btn-back" id="btn-back-relatorios">← Voltar</button>
 
       <div class="page-title">
-        <h1>Relatórios</h1>
+        <h1 id="rel-dept-title">Relatórios</h1>
         <p id="rel-atualizado"></p>
       </div>
 
       <div id="rel-empty" class="rel-empty" style="display:none">
-        Nenhum dado de relatório mensal disponível ainda. Rode a atualização da base para gerar.
+        Nenhum dado de relatório mensal disponível ainda para este departamento.
       </div>
 
       <div id="rel-content" style="display:none">
 
-        <!-- Filtro de departamentos -->
+        <!-- Filtro de categoria -->
         <div class="filters-row rel-filters-row" id="rel-filters-row"></div>
 
-        <!-- KPIs do mês atual -->
-        <div class="kpi-row" id="kpi-row"></div>
-
-        <!-- Gráfico comparativo -->
+        <!-- Gráfico dentro x fora do prazo -->
         <div class="table-wrap chart-card">
           <div class="table-header">
             <div>
-              <div class="table-title">Aberturas x Baixas por mês</div>
-              <div class="table-subtitle">Chamados abertos e chamados entregues (baixados), por mês</div>
+              <div class="table-title" id="rel-chart-title">Atendidos dentro x fora do prazo</div>
+              <div class="table-subtitle" id="rel-chart-subtitle">Por mês — clique num mês na tabela para ver a quebra por categoria</div>
             </div>
             <div class="chart-legend" id="chart-legend"></div>
           </div>
           <div class="chart-wrap">
-            <svg id="rel-chart" viewBox="0 0 900 320" preserveAspectRatio="none"></svg>
+            <div id="rel-chart-hbars" class="hbar-chart"></div>
           </div>
         </div>
 
@@ -136,6 +152,7 @@
           <div class="table-header">
             <div>
               <div class="table-title">Resumo mensal</div>
+              <div class="table-subtitle">Clique num mês para ver os chamados agrupados por categoria</div>
             </div>
           </div>
           <div class="table-scroll">
@@ -143,9 +160,9 @@
               <thead>
                 <tr>
                   <th>Mês</th>
-                  <th>Abertos</th>
-                  <th>Baixados</th>
-                  <th>Saldo</th>
+                  <th class="num-cell">Abertos</th>
+                  <th class="num-cell">Atendidos</th>
+                  <th class="num-cell">Pendentes</th>
                 </tr>
               </thead>
               <tbody id="rel-table-body"></tbody>

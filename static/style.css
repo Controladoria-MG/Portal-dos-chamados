@@ -25,9 +25,6 @@
   --ret-bg:         rgba(192,57,43,0.08);
   --ret-border:     rgba(192,57,43,0.30);
   --ret-color:      #e05050;
-  --chart-abertos:  #e0504f;
-  --chart-baixados: #f2a38c;
-  --chart-backlog:  #22a897;
   --chart-grid:     #444444;
 }
 
@@ -55,9 +52,6 @@
   --ret-bg:         rgba(192,57,43,0.06);
   --ret-border:     rgba(192,57,43,0.25);
   --ret-color:      #c0392b;
-  --chart-abertos:  #C00000;
-  --chart-baixados: #e8998c;
-  --chart-backlog:  #0d8f80;
   --chart-grid:     #e0e0e0;
 }
 
@@ -218,7 +212,7 @@ main {
 .stat-pill strong { color: var(--secondary); font-weight: 500; }
 
 /* ─── DEPARTMENT GRID ────────────────────────────────────────────── */
-#dept-grid {
+#dept-grid, #rel-dept-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
@@ -394,6 +388,7 @@ td.id-cell   { font-weight: 500; color: var(--text); font-size: 0.82rem; }
 td.name-cell { color: var(--text); font-weight: 600; font-size: 0.82rem; }
 td.date-cell { color: var(--text); font-size: 0.82rem; font-variant-numeric: tabular-nums; }
 td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular-nums; }
+td.num-cell, th.num-cell { text-align: center; font-variant-numeric: tabular-nums; }
 .prazo-vencido { color: #C00000; font-weight: 600; font-size: 0.82rem; }
 
 /* ─── ROW DETAIL PANEL ───────────────────────────────────────────── */
@@ -404,6 +399,20 @@ td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular
   border-top: 1px solid var(--border-accent);
   border-bottom: 1px solid var(--border-accent);
 }
+/* ─── GRUPO DE CATEGORIA (chamados do mês, no relatório) ─────────── */
+.categoria-group { margin-bottom: 1rem; }
+.categoria-group:last-child { margin-bottom: 0; }
+.categoria-group-title {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 0.78rem; font-weight: 700; color: var(--primary);
+  text-transform: uppercase; letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+.categoria-group-count {
+  font-size: 0.68rem; font-weight: 500; color: var(--muted);
+  text-transform: none; letter-spacing: normal;
+}
+
 /* ─── TICKET CARD (pendências do cliente) ───────────────────────── */
 .ticket-list { display: flex; flex-direction: column; gap: 0.7rem; }
 .ticket-card {
@@ -529,63 +538,50 @@ td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular
   color: var(--muted-light); font-size: 0.85rem; text-align: center;
 }
 
-/* ─── RELATÓRIOS — FILTRO DE DEPARTAMENTOS ───────────────────────── */
+/* ─── RELATÓRIOS — FILTRO DE CATEGORIA ───────────────────────────── */
 .rel-filters-row { margin-bottom: 1.2rem; }
-
-/* ─── RELATÓRIOS — KPI ROW ───────────────────────────────────────── */
-.kpi-row {
-  display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem; margin-bottom: 1.5rem;
-}
-.kpi-tile {
-  background: var(--bg-card); border: 1px solid var(--border);
-  border-radius: var(--radius-lg); padding: 1.1rem 1.3rem;
-  text-align: center;
-}
-.kpi-label {
-  font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.06em; color: var(--muted);
-}
-.kpi-value {
-  font-size: 2.1rem; font-weight: 800; color: var(--secondary);
-  line-height: 1.2; margin-top: 0.3rem;
-}
-.kpi-sub { font-size: 0.72rem; color: var(--muted-light); margin-top: 0.2rem; }
 
 /* ─── RELATÓRIOS — GRÁFICO ───────────────────────────────────────── */
 .chart-card { padding-bottom: 0.5rem; }
 .chart-legend { display: flex; gap: 1.2rem; align-items: center; flex-wrap: wrap; }
 .legend-item { display: flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; color: var(--text-dim); }
 .legend-swatch { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
-.legend-swatch.sw-abertos  { background: var(--chart-abertos); }
-.legend-swatch.sw-backlog  { background: var(--chart-backlog); }
-.legend-swatch.sw-baixados { background: var(--chart-baixados); }
+.legend-swatch.sw-dentro { background: var(--success); }
+.legend-swatch.sw-fora   { background: var(--danger); }
 
 .chart-wrap { padding: 1rem 1.2rem 0.4rem; position: relative; }
-.chart-wrap svg { width: 100%; height: 320px; display: block; }
-.chart-bar { cursor: pointer; }
-.chart-bar:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
 
-.chart-tooltip {
-  position: fixed; z-index: 1000; pointer-events: none;
-  background: var(--bg-card); border: 1px solid var(--border-accent);
-  border-radius: var(--radius); padding: 0.55rem 0.75rem;
-  box-shadow: 0 8px 24px rgba(0,0,0,.3);
-  font-size: 0.75rem; color: var(--text-dim);
-  min-width: 150px; opacity: 0; transition: opacity .1s;
+/* ─── GRÁFICO — BARRAS HORIZONTAIS (quebra por categoria) ────────── */
+/* Usado em vez do SVG quando há uma lista de categorias (rótulos longos,
+   quantidade variável) — cada categoria vira uma linha, sem espremer nada. */
+.hbar-chart { display: flex; flex-direction: column; }
+.hbar-row {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 0.55rem 0;
 }
-.chart-tooltip.visible { opacity: 1; }
-.chart-tooltip .tt-title {
-  font-weight: 700; color: var(--primary); margin-bottom: 0.35rem;
-  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em;
+.hbar-row + .hbar-row { border-top: 1px solid var(--border); }
+.hbar-label {
+  flex: 0 0 200px; max-width: 200px;
+  font-size: 0.78rem; font-weight: 600; color: var(--text-dim);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
-.chart-tooltip .tt-row { display: flex; align-items: center; gap: 0.4rem; justify-content: space-between; }
-.chart-tooltip .tt-key { display: flex; align-items: center; gap: 0.4rem; }
-.chart-tooltip .tt-line { width: 10px; height: 2px; border-radius: 2px; flex-shrink: 0; }
-.chart-tooltip .tt-line.sw-abertos  { background: var(--chart-abertos); }
-.chart-tooltip .tt-line.sw-backlog  { background: var(--chart-backlog); }
-.chart-tooltip .tt-line.sw-baixados { background: var(--chart-baixados); }
-.chart-tooltip .tt-val { font-weight: 700; color: var(--primary); font-variant-numeric: tabular-nums; }
+.hbar-series { flex: 1; display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+.hbar-serie-row { display: flex; align-items: center; gap: 0.6rem; }
+.hbar-track {
+  flex: 1; height: 14px; border-radius: 4px;
+  background: var(--bg-surface); overflow: hidden;
+}
+.hbar-fill { height: 100%; border-radius: 4px; min-width: 2px; }
+.hbar-fill--dentro { background: var(--success); }
+.hbar-fill--fora   { background: var(--danger); }
+.hbar-value {
+  flex-shrink: 0; min-width: 30px; text-align: right;
+  font-size: 0.72rem; color: var(--muted); font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 640px) {
+  .hbar-label { flex-basis: 110px; max-width: 110px; font-size: 0.7rem; }
+}
 
 /* ─── RELATÓRIOS — LINHA DE TOTAL ────────────────────────────────── */
 tr.rel-total-row td {
@@ -601,10 +597,9 @@ tr.rel-total-row td:not(:first-child) {
 /* ─── RESPONSIVE ─────────────────────────────────────────────────── */
 @media (max-width: 640px) {
   main { padding: 1.5rem 1rem; }
-  #dept-grid { grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+  #dept-grid, #rel-dept-grid { grid-template-columns: 1fr 1fr; gap: 0.8rem; }
   .dept-card { padding: 0.9rem 1rem 0.8rem; }
   .search-input { width: 150px; }
   th, td { padding: 0.6rem 0.8rem; }
-  .kpi-row { grid-template-columns: 1fr; }
   .topbar-hint { display: none; }
 }

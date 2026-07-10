@@ -82,7 +82,8 @@ const $loading      = document.getElementById('loading');
 const $errorMsg     = document.getElementById('error-msg');
 const $viewHome     = document.getElementById('view-home');
 const $viewDept     = document.getElementById('view-dept');
-const $viewRelatorios = document.getElementById('view-relatorios');
+const $viewRelatoriosHome = document.getElementById('view-relatorios-home');
+const $viewRelatorios     = document.getElementById('view-relatorios');
 const $deptGrid     = document.getElementById('dept-grid');
 const $totalRecs    = document.getElementById('total-records');
 const $totalDeps    = document.getElementById('total-depts');
@@ -125,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
   carregarDataAtualizacao();
   loadData();
   buildFilterDropdowns();
-  carregarHistoricoMensal();
+  carregarDetalheMensal();
 });
 
 /* ─── LOAD XLSX ──────────────────────────────────────────────────── */
@@ -182,6 +183,14 @@ function parsePrazoDate(val) {
   let date;
   if (val instanceof Date) date = val;
   else if (typeof val === 'number') date = new Date(Math.round((val - 25569) * 86400 * 1000));
+  else if (typeof val === 'string') {
+    // Datas do detalhe_mensal.json vêm como 'YYYY-MM-DD' (sem hora/fuso) —
+    // trata como meia-noite UTC, igual às datas do Excel, para cair no
+    // mesmo ajuste de fuso abaixo.
+    const m = val.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (!m) return null;
+    date = new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])));
+  }
   else return null;
   if (isNaN(date)) return null;
   // Datas do Excel/SheetJS chegam como meia-noite UTC. Em fuso negativo
@@ -661,6 +670,8 @@ document.getElementById('bc-home').addEventListener('click', () => {
   if ($viewDept.classList.contains('active')) {
     openClientRow = null; resetFilters(); $clientSearch.value = '';
     showView('home');
+  } else if ($viewRelatorios.classList.contains('active')) {
+    showView('home');
   }
 });
 
@@ -668,11 +679,15 @@ document.getElementById('bc-home').addEventListener('click', () => {
 function showView(name) {
   $viewHome.classList.toggle('active', name === 'home');
   $viewDept.classList.toggle('active', name === 'dept');
+  $viewRelatoriosHome.classList.toggle('active', name === 'relatorios-home');
   $viewRelatorios.classList.toggle('active', name === 'relatorios');
   const bar    = document.getElementById('unidade-bar');
   const bcDept = document.getElementById('bc-dept');
   if (name === 'dept') {
     bcDept.textContent = currentDept;
+    bar.style.display = 'flex';
+  } else if (name === 'relatorios') {
+    bcDept.textContent = currentRelDept ? currentRelDept.nome : '';
     bar.style.display = 'flex';
   } else {
     bar.style.display = 'none';
@@ -681,7 +696,8 @@ function showView(name) {
 
 /* ─── RELATÓRIOS — NAVEGAÇÃO ─────────────────────────────────────── */
 document.getElementById('btn-relatorios').addEventListener('click', openRelatorios);
-document.getElementById('btn-back-relatorios').addEventListener('click', () => showView('home'));
+document.getElementById('btn-back-relatorios-home').addEventListener('click', () => showView('home'));
+document.getElementById('btn-back-relatorios').addEventListener('click', () => showView('relatorios-home'));
 
 /* ─── HTML ESCAPE ────────────────────────────────────────────────── */
 function escHtml(str) {
@@ -690,20 +706,22 @@ function escHtml(str) {
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   RELATÓRIOS — COMPARATIVO MENSAL DE ABERTURAS x BAIXAS
-   Só trabalha com contagens agregadas (data/relatorios/historico_mensal.json)
-   — nenhum detalhe de chamado individual é exibido aqui.
+   RELATÓRIOS — POR DEPARTAMENTO, ATENDIDOS DENTRO x FORA DO PRAZO
+   Trabalha com data/relatorios/detalhe_mensal.json — chamado a chamado,
+   agrupado por depto/mês/categoria (mês = mês de abertura do chamado).
 ═══════════════════════════════════════════════════════════════════ */
-const HIST_PATH = 'data/relatorios/historico_mensal.json';
-let historicoMensal = null;
+const DETALHE_PATH = 'data/relatorios/detalhe_mensal.json';
+let detalheMensal  = null;
+let currentRelDept = null; // { nome, meses } do departamento aberto no relatório
+let mesExpandido   = null; // chave 'YYYY-MM' do mês expandido na tabela, ou null
 
-async function carregarHistoricoMensal() {
+async function carregarDetalheMensal() {
   try {
-    const res = await fetch(HIST_PATH);
-    if (!res.ok) throw new Error('histórico não encontrado');
-    historicoMensal = await res.json();
+    const res = await fetch(DETALHE_PATH);
+    if (!res.ok) throw new Error('detalhe mensal não encontrado');
+    detalheMensal = await res.json();
   } catch (e) {
-    historicoMensal = null;
+    detalheMensal = null;
   }
 }
 
@@ -713,31 +731,75 @@ function fmtMes(chave) {
   return `${MESES_ABREV[mes - 1]}/${String(ano).slice(2)}`;
 }
 
-/* Arredonda o teto do eixo Y para um número "redondo" (1/2/5 x 10^n) */
-function niceCeil(v) {
-  if (v <= 0) return 10;
-  const mag  = Math.pow(10, Math.floor(Math.log10(v)));
-  const norm = v / mag;
-  let niceNorm;
-  if (norm <= 1) niceNorm = 1;
-  else if (norm <= 2) niceNorm = 2;
-  else if (norm <= 5) niceNorm = 5;
-  else niceNorm = 10;
-  return niceNorm * mag;
+/* ─── RELATÓRIOS — ESCOLHA DE DEPARTAMENTO ────────────────────────── */
+async function openRelatorios() {
+  if (!detalheMensal) await carregarDetalheMensal();
+  renderRelatoriosHome();
+  showView('relatorios-home');
 }
 
-async function openRelatorios() {
-  if (!historicoMensal) await carregarHistoricoMensal();
-  renderRelatorios();
+function totalAbertosDept(dept) {
+  return dept.meses.reduce((soma, m) => soma + m.abertos, 0);
+}
+
+function renderRelatoriosHome() {
+  const $empty   = document.getElementById('rel-home-empty');
+  const $grid    = document.getElementById('rel-dept-grid');
+  const $atualiz = document.getElementById('rel-home-atualizado');
+
+  const deptos = (detalheMensal && detalheMensal.departamentos) || [];
+  if (!deptos.length) {
+    $empty.style.display = 'block';
+    $grid.innerHTML = '';
+    $atualiz.textContent = '';
+    return;
+  }
+  $empty.style.display = 'none';
+  $atualiz.textContent = detalheMensal.atualizado_em
+    ? `Base atualizada em ${detalheMensal.atualizado_em}`
+    : '';
+
+  $grid.innerHTML = '';
+  const ordenados = [...deptos].sort((a, b) => totalAbertosDept(b) - totalAbertosDept(a));
+  for (const dept of ordenados) {
+    const card = document.createElement('div');
+    card.className = 'dept-card';
+    card.innerHTML = `
+      <div class="card-name">${escHtml(dept.nome)}</div>
+      <div class="card-count">${totalAbertosDept(dept).toLocaleString('pt-BR')}</div>
+      <div class="card-hint">Clique para ver o relatório</div>`;
+    card.addEventListener('click', () => openRelatorioDept(dept.nome));
+    $grid.appendChild(card);
+  }
+}
+
+/* ─── RELATÓRIOS — TELA DO DEPARTAMENTO ───────────────────────────── */
+function categoriasDoDept(dept) {
+  const set = new Set();
+  for (const m of dept.meses) for (const c of m.categorias) set.add(c.nome);
+  return [...set].sort();
+}
+
+function openRelatorioDept(nome) {
+  currentRelDept = (detalheMensal.departamentos || []).find(d => d.nome === nome) || { nome, meses: [] };
+  mesExpandido   = null;
+  activeRelCategorias.clear();
+
+  document.getElementById('rel-dept-title').textContent = `Relatório de Tarefas Baixadas — ${nome}`;
+
+  buildRelCategoriaFilter();
+  populateRelCategoriaFilter(categoriasDoDept(currentRelDept));
+
+  renderRelatorioDept();
   showView('relatorios');
 }
 
-function renderRelatorios() {
+function renderRelatorioDept() {
   const $empty   = document.getElementById('rel-empty');
   const $content = document.getElementById('rel-content');
   const $atualiz = document.getElementById('rel-atualizado');
 
-  const meses = (historicoMensal && historicoMensal.meses) || [];
+  const meses = (currentRelDept && currentRelDept.meses) || [];
   if (!meses.length) {
     $empty.style.display   = 'block';
     $content.style.display = 'none';
@@ -746,62 +808,81 @@ function renderRelatorios() {
   }
   $empty.style.display   = 'none';
   $content.style.display = 'block';
-  $atualiz.textContent   = historicoMensal.atualizado_em
-    ? `Base atualizada em ${historicoMensal.atualizado_em}`
+  $atualiz.textContent   = detalheMensal.atualizado_em
+    ? `Base atualizada em ${detalheMensal.atualizado_em}`
     : '';
 
-  buildRelDeptFilter();
-  populateRelDeptFilter(historicoMensal.departamentos || []);
-
-  renderKpis(meses);
   renderLegend();
-  buildChart(meses);
   renderResumoTable(meses);
+  buildPrazoChart();
 }
 
-/* ─── RELATÓRIOS — FILTRO DE DEPARTAMENTOS ────────────────────────── */
-const activeRelDeptos    = new Set();
-let   relDeptFilterBuilt = false;
+/* ─── RELATÓRIOS — FILTRO DE CATEGORIA ────────────────────────────── */
+const activeRelCategorias    = new Set();
+let   relCategoriaFilterBuilt = false;
 
-/* Contagens do mês, restritas aos departamentos selecionados (soma).
-   Nenhum selecionado = sem filtro = totais de todos os departamentos. */
-function relMesStats(mes) {
-  if (!activeRelDeptos.size) return { abertos: mes.abertos, baixados: mes.baixados };
-  let abertos = 0, baixados = 0;
-  for (const d of activeRelDeptos) {
-    const s = mes.porDepto && mes.porDepto[d];
-    if (s) { abertos += s.abertos; baixados += s.baixados; }
+/* Restringe uma lista de categorias às selecionadas no filtro (soma).
+   Nenhuma selecionada = sem filtro = todas as categorias. */
+function filtrarCategorias(categorias) {
+  if (!activeRelCategorias.size) return categorias;
+  return categorias.filter(c => activeRelCategorias.has(c.nome));
+}
+function categoriasFiltradas(mesObj) {
+  return filtrarCategorias(mesObj.categorias);
+}
+function mesStatsFiltradas(mesObj) {
+  return categoriasFiltradas(mesObj).reduce((acc, c) => {
+    acc.atendidosDentro += c.atendidosDentro;
+    acc.atendidosFora   += c.atendidosFora;
+    acc.pendentes       += c.pendentes;
+    acc.atendidos       += c.atendidosDentro + c.atendidosFora;
+    acc.abertos         += c.atendidosDentro + c.atendidosFora + c.pendentes;
+    return acc;
+  }, { abertos: 0, atendidos: 0, pendentes: 0, atendidosDentro: 0, atendidosFora: 0 });
+}
+
+/* Totais por categoria somando TODOS os meses do departamento — visão
+   padrão do gráfico (sem nenhum mês selecionado na tabela). */
+function categoriasAgregadas(dept) {
+  const totais = new Map();
+  for (const m of dept.meses) {
+    for (const c of m.categorias) {
+      const acc = totais.get(c.nome) || { nome: c.nome, atendidosDentro: 0, atendidosFora: 0 };
+      acc.atendidosDentro += c.atendidosDentro;
+      acc.atendidosFora   += c.atendidosFora;
+      totais.set(c.nome, acc);
+    }
   }
-  return { abertos, baixados };
+  return [...totais.values()].sort((a, b) => a.nome.localeCompare(b.nome));
 }
 
-function buildRelDeptFilter() {
-  if (relDeptFilterBuilt) return;
-  relDeptFilterBuilt = true;
+function buildRelCategoriaFilter() {
+  if (relCategoriaFilterBuilt) return;
+  relCategoriaFilterBuilt = true;
 
   const wrap = document.getElementById('rel-filters-row');
   wrap.innerHTML = `
-    <div class="cat-filter-wrap" id="rel-depto-filter-wrap">
-      <button id="rel-depto-btn" class="cat-btn" type="button" aria-haspopup="true" aria-expanded="false">
-        <span id="rel-depto-btn-label">Departamento</span>
+    <div class="cat-filter-wrap" id="rel-categoria-filter-wrap">
+      <button id="rel-categoria-btn" class="cat-btn" type="button" aria-haspopup="true" aria-expanded="false">
+        <span id="rel-categoria-btn-label">Categoria</span>
         <span class="cat-chevron">▾</span>
       </button>
     </div>`;
 
   const dd = document.createElement('div');
-  dd.id        = 'rel-depto-dropdown';
+  dd.id        = 'rel-categoria-dropdown';
   dd.className = 'cat-dropdown';
   dd.hidden    = true;
   dd.innerHTML = `
     <div class="cat-dropdown-actions">
-      <button type="button" id="rel-depto-select-all">Todos</button>
-      <button type="button" id="rel-depto-clear-all">Limpar</button>
+      <button type="button" id="rel-categoria-select-all">Todos</button>
+      <button type="button" id="rel-categoria-clear-all">Limpar</button>
     </div>
-    <ul id="rel-depto-list" class="cat-list"></ul>`;
+    <ul id="rel-categoria-list" class="cat-list"></ul>`;
   document.body.appendChild(dd);
 
-  const wrapper = document.getElementById('rel-depto-filter-wrap');
-  const btn     = document.getElementById('rel-depto-btn');
+  const wrapper = document.getElementById('rel-categoria-filter-wrap');
+  const btn     = document.getElementById('rel-categoria-btn');
 
   const openDropdown = () => {
     document.querySelectorAll('.cat-dropdown').forEach(other => { if (other !== dd) other.hidden = true; });
@@ -823,110 +904,64 @@ function buildRelDeptFilter() {
     if (!wrapper.contains(e.target) && !dd.contains(e.target)) closeDropdown();
   });
 
-  dd.querySelector('#rel-depto-select-all').addEventListener('click', () => {
+  dd.querySelector('#rel-categoria-select-all').addEventListener('click', () => {
     dd.querySelectorAll('input[type=checkbox]').forEach(cb => {
       cb.checked = true;
-      activeRelDeptos.add(cb.value);
+      activeRelCategorias.add(cb.value);
     });
-    updateRelDeptLabel();
-    renderRelatorios();
+    updateRelCategoriaLabel();
+    renderRelatorioDept();
   });
-  dd.querySelector('#rel-depto-clear-all').addEventListener('click', () => {
+  dd.querySelector('#rel-categoria-clear-all').addEventListener('click', () => {
     dd.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
-    activeRelDeptos.clear();
-    updateRelDeptLabel();
-    renderRelatorios();
+    activeRelCategorias.clear();
+    updateRelCategoriaLabel();
+    renderRelatorioDept();
   });
 
   window.addEventListener('scroll', () => { if (!dd.hidden) positionDropdown(btn, dd); }, true);
   window.addEventListener('resize', () => { if (!dd.hidden) positionDropdown(btn, dd); });
 }
 
-function populateRelDeptFilter(departamentos) {
-  const $list = document.getElementById('rel-depto-list');
+function populateRelCategoriaFilter(categorias) {
+  const $list = document.getElementById('rel-categoria-list');
   $list.innerHTML = '';
-  for (const dep of departamentos) {
+  for (const cat of categorias) {
     const li = document.createElement('li');
     li.innerHTML = `
       <label class="cat-option">
-        <input type="checkbox" value="${escHtml(dep)}" ${activeRelDeptos.has(dep) ? 'checked' : ''}>
-        <span>${escHtml(dep)}</span>
+        <input type="checkbox" value="${escHtml(cat)}">
+        <span>${escHtml(cat)}</span>
       </label>`;
     li.querySelector('input').addEventListener('change', (e) => {
-      if (e.target.checked) activeRelDeptos.add(dep);
-      else activeRelDeptos.delete(dep);
-      updateRelDeptLabel();
-      renderRelatorios();
+      if (e.target.checked) activeRelCategorias.add(cat);
+      else activeRelCategorias.delete(cat);
+      updateRelCategoriaLabel();
+      renderRelatorioDept();
     });
     $list.appendChild(li);
   }
-  updateRelDeptLabel();
+  updateRelCategoriaLabel();
 }
 
-function updateRelDeptLabel() {
-  const $label = document.getElementById('rel-depto-btn-label');
-  const $btn   = document.getElementById('rel-depto-btn');
-  const total  = document.querySelectorAll('#rel-depto-list input[type=checkbox]').length;
-  if (activeRelDeptos.size === 0 || activeRelDeptos.size === total) {
-    $label.textContent = 'Departamento';
+function updateRelCategoriaLabel() {
+  const $label = document.getElementById('rel-categoria-btn-label');
+  const $btn   = document.getElementById('rel-categoria-btn');
+  const total  = document.querySelectorAll('#rel-categoria-list input[type=checkbox]').length;
+  if (activeRelCategorias.size === 0 || activeRelCategorias.size === total) {
+    $label.textContent = 'Categoria';
     $btn.classList.remove('cat-btn--active');
   } else {
-    $label.textContent = `Departamento (${activeRelDeptos.size})`;
+    $label.textContent = `Categoria (${activeRelCategorias.size})`;
     $btn.classList.add('cat-btn--active');
   }
 }
 
-/* ─── SALDO — TEXTO EXPLICATIVO (deixa claro o sentido do sinal) ──── */
-function saldoQualificador(saldo) {
-  if (saldo > 0) return 'Abertos';
-  if (saldo < 0) return 'Baixados';
-  return 'Equilibrado';
-}
-function saldoSufixo(saldo) {
-  if (saldo > 0) return ' abertos';
-  if (saldo < 0) return ' baixados';
-  return ' (equilibrado)';
-}
-
-/* ─── KPIs DO MÊS ATUAL ───────────────────────────────────────────── */
-function renderKpis(meses) {
-  const $kpi = document.getElementById('kpi-row');
-  const chaveAtual = new Date().toISOString().slice(0, 7);
-  const mesAtual = meses.find(m => m.mes === chaveAtual);
-  const atual = mesAtual ? relMesStats(mesAtual) : { abertos: 0, baixados: 0 };
-  const saldo = atual.abertos - atual.baixados;
-
-  const tiles = [
-    { label: `Abertos em ${fmtMes(chaveAtual)}`,  value: atual.abertos },
-    { label: `Baixados em ${fmtMes(chaveAtual)}`, value: atual.baixados },
-    { label: `Saldo em ${fmtMes(chaveAtual)}`,     value: saldo, sub: saldoQualificador(saldo) },
-  ];
-
-  $kpi.innerHTML = '';
-  tiles.forEach(t => {
-    const div = document.createElement('div');
-    div.className = 'kpi-tile';
-
-    const label = document.createElement('div');
-    label.className = 'kpi-label';
-    label.textContent = t.label;
-
-    const value = document.createElement('div');
-    value.className = 'kpi-value';
-    value.textContent = Math.abs(t.value).toLocaleString('pt-BR');
-
-    div.appendChild(label);
-    div.appendChild(value);
-
-    if (t.sub) {
-      const sub = document.createElement('div');
-      sub.className = 'kpi-sub';
-      sub.textContent = t.sub;
-      div.appendChild(sub);
-    }
-
-    $kpi.appendChild(div);
-  });
+/* ─── STATUS DO CHAMADO NO RELATÓRIO ──────────────────────────────── */
+function badgeRelStatus(status) {
+  if (status === 'atendido_dentro') return '<span class="badge badge-closed">Atendido dentro do prazo</span>';
+  if (status === 'atendido_fora')   return '<span class="badge badge-red">Atendido fora do prazo</span>';
+  return '<span class="badge badge-yellow">Pendente</span>';
 }
 
 /* ─── LEGENDA ─────────────────────────────────────────────────────── */
@@ -934,9 +969,8 @@ function renderLegend() {
   const $legend = document.getElementById('chart-legend');
   $legend.innerHTML = '';
   [
-    ['sw-abertos',  'Abertos (do mês)'],
-    ['sw-backlog',  'Herdado de meses anteriores'],
-    ['sw-baixados', 'Baixados'],
+    ['sw-dentro', 'Dentro do prazo'],
+    ['sw-fora',   'Fora do prazo'],
   ].forEach(([cls, label]) => {
     const wrap = document.createElement('div');
     wrap.className = 'legend-item';
@@ -955,255 +989,170 @@ function renderResumoTable(meses) {
   const $body = document.getElementById('rel-table-body');
   $body.innerHTML = '';
 
-  let totalAbertos = 0, totalBaixados = 0;
+  let totalAbertos = 0, totalAtendidos = 0, totalPendentes = 0;
 
   meses.forEach((m, i) => {
-    const stats = relMesStats(m);
-    const saldo = stats.abertos - stats.baixados;
-    totalAbertos  += stats.abertos;
-    totalBaixados += stats.baixados;
+    const stats = mesStatsFiltradas(m);
+    totalAbertos   += stats.abertos;
+    totalAtendidos += stats.atendidos;
+    totalPendentes += stats.pendentes;
 
     const tr = document.createElement('tr');
+    tr.dataset.mes = m.mes;
     if (i % 2 === 1) tr.classList.add('row-even');
 
     const tdMes = document.createElement('td');
     tdMes.textContent = fmtMes(m.mes);
     const tdAb = document.createElement('td');
+    tdAb.className = 'num-cell';
     tdAb.textContent = stats.abertos.toLocaleString('pt-BR');
-    const tdBx = document.createElement('td');
-    tdBx.textContent = stats.baixados.toLocaleString('pt-BR');
-    const tdSaldo = document.createElement('td');
-    tdSaldo.textContent = Math.abs(saldo).toLocaleString('pt-BR') + saldoSufixo(saldo);
+    const tdAt = document.createElement('td');
+    tdAt.className = 'num-cell';
+    tdAt.textContent = stats.atendidos.toLocaleString('pt-BR');
+    const tdPe = document.createElement('td');
+    tdPe.className = 'num-cell';
+    tdPe.textContent = stats.pendentes.toLocaleString('pt-BR');
 
-    tr.append(tdMes, tdAb, tdBx, tdSaldo);
+    tr.append(tdMes, tdAb, tdAt, tdPe);
+    tr.addEventListener('click', () => toggleMesDetail(tr, m));
     $body.appendChild(tr);
+
+    if (mesExpandido === m.mes) abrirDetalheMes(tr, m);
   });
 
-  const totalSaldo = totalAbertos - totalBaixados;
   const trTotal = document.createElement('tr');
   trTotal.className = 'rel-total-row';
 
   const tdLabel = document.createElement('td');
   tdLabel.textContent = 'Total';
   const tdTotAb = document.createElement('td');
+  tdTotAb.className = 'num-cell';
   tdTotAb.textContent = totalAbertos.toLocaleString('pt-BR');
-  const tdTotBx = document.createElement('td');
-  tdTotBx.textContent = totalBaixados.toLocaleString('pt-BR');
-  const tdTotSaldo = document.createElement('td');
-  tdTotSaldo.textContent = Math.abs(totalSaldo).toLocaleString('pt-BR') + saldoSufixo(totalSaldo);
+  const tdTotAt = document.createElement('td');
+  tdTotAt.className = 'num-cell';
+  tdTotAt.textContent = totalAtendidos.toLocaleString('pt-BR');
+  const tdTotPe = document.createElement('td');
+  tdTotPe.className = 'num-cell';
+  tdTotPe.textContent = totalPendentes.toLocaleString('pt-BR');
 
-  trTotal.append(tdLabel, tdTotAb, tdTotBx, tdTotSaldo);
+  trTotal.append(tdLabel, tdTotAb, tdTotAt, tdTotPe);
   $body.appendChild(trTotal);
 }
 
-/* ─── TOOLTIP DO GRÁFICO ──────────────────────────────────────────── */
-let $chartTooltip = null;
-function getChartTooltip() {
-  if (!$chartTooltip) {
-    $chartTooltip = document.createElement('div');
-    $chartTooltip.className = 'chart-tooltip';
-    document.body.appendChild($chartTooltip);
-  }
-  return $chartTooltip;
-}
-function showChartTooltip(clientX, clientY, mesLabel, abertos, baixados, herdado = 0) {
-  const tt = getChartTooltip();
-  tt.innerHTML = '';
+/* ─── EXPANDIR MÊS — CHAMADOS AGRUPADOS POR CATEGORIA ─────────────── */
+function abrirDetalheMes(tr, mesObj) {
+  const existing = tr.nextElementSibling;
+  if (existing && existing.classList.contains('detail-row')) existing.remove();
 
-  const title = document.createElement('div');
-  title.className = 'tt-title';
-  title.textContent = mesLabel;
-  tt.appendChild(title);
+  const categorias = categoriasFiltradas(mesObj);
 
-  const linhas = [['Abertos (mês)', abertos, 'sw-abertos']];
-  if (herdado > 0) linhas.push(['Herdado de meses anteriores', herdado, 'sw-backlog']);
-  linhas.push(['Baixados', baixados, 'sw-baixados']);
+  const detailTr = document.createElement('tr');
+  detailTr.className = 'detail-row';
+  const td = document.createElement('td');
+  td.colSpan = 4;
 
-  linhas.forEach(([label, val, cls]) => {
-    const row  = document.createElement('div');
-    row.className = 'tt-row';
-    const key  = document.createElement('span');
-    key.className = 'tt-key';
-    const line = document.createElement('span');
-    line.className = 'tt-line ' + cls;
-    const lbl  = document.createElement('span');
-    lbl.textContent = label;
-    key.appendChild(line);
-    key.appendChild(lbl);
-    const value = document.createElement('span');
-    value.className = 'tt-val';
-    value.textContent = val.toLocaleString('pt-BR');
-    row.appendChild(key);
-    row.appendChild(value);
-    tt.appendChild(row);
-  });
+  td.innerHTML = `
+    <div class="detail-inner">
+      ${categorias.length ? categorias.map(cat => `
+        <div class="categoria-group">
+          <div class="categoria-group-title">
+            ${escHtml(cat.nome)}
+            <span class="categoria-group-count">${cat.chamados.length} chamado${cat.chamados.length !== 1 ? 's' : ''}</span>
+          </div>
+          <div class="ticket-list">
+            ${cat.chamados.map(c => `
+              <div class="ticket-card">
+                <div class="ticket-top">
+                  <div class="ticket-field"><span class="f-label">ID</span><span class="f-value f-id">${escHtml(String(c.id ?? '—'))}</span></div>
+                  <div class="ticket-field"><span class="f-label">Cliente</span><span class="f-value">${escHtml(c.cliente || '—')}</span></div>
+                  <div class="ticket-field"><span class="f-label">Data Cadastro</span><span class="f-value">${fmt(c.dataCadastro)}</span></div>
+                  <div class="ticket-field"><span class="f-label">Prazo Vencimento</span><span class="f-value">${c.status === 'pendente' ? fmtPrazo(c.prazo) : fmt(c.prazo)}</span></div>
+                  <div class="ticket-field"><span class="f-label">Data Entrega</span><span class="f-value">${fmt(c.dataEntrega)}</span></div>
+                  <div class="ticket-field"><span class="f-label">Status</span><span class="f-value">${badgeRelStatus(c.status)}</span></div>
+                </div>
+              </div>`).join('')}
+          </div>
+        </div>`).join('') : '<p class="empty">Nenhum chamado nessa combinação de filtros.</p>'}
+    </div>`;
 
-  tt.classList.add('visible');
-  positionChartTooltip(clientX, clientY, tt);
-}
-function positionChartTooltip(clientX, clientY, tt) {
-  const margin = 12;
-  const rect = tt.getBoundingClientRect();
-  let x = clientX + margin;
-  let y = clientY + margin;
-  if (x + rect.width  > window.innerWidth  - 8) x = clientX - rect.width  - margin;
-  if (y + rect.height > window.innerHeight - 8) y = clientY - rect.height - margin;
-  tt.style.left = `${x}px`;
-  tt.style.top  = `${y}px`;
-}
-function hideChartTooltip() {
-  if ($chartTooltip) $chartTooltip.classList.remove('visible');
+  detailTr.appendChild(td);
+  tr.insertAdjacentElement('afterend', detailTr);
 }
 
-/* ─── GRÁFICO — BARRAS AGRUPADAS (SVG) ────────────────────────────── */
-const SVG_NS = 'http://www.w3.org/2000/svg';
-function svgEl(tag, attrs) {
-  const el = document.createElementNS(SVG_NS, tag);
-  for (const k in attrs) el.setAttribute(k, attrs[k]);
-  return el;
-}
-/* Caminho de uma barra com topo arredondado (4px) e base quadrada, crescendo do baseline */
-function roundedTopBarPath(x, y, w, h, r) {
-  if (h <= 0) return '';
-  r = Math.min(r, w / 2, h);
-  return `M${x},${y + h} L${x},${y + r} Q${x},${y} ${x + r},${y} ` +
-         `L${x + w - r},${y} Q${x + w},${y} ${x + w},${y + r} L${x + w},${y + h} Z`;
-}
-/* Retângulo reto (cantos quadrados) — usado no segmento de baixo de uma pilha,
-   que não é a ponta exposta da barra. */
-function rectPath(x, y, w, h) {
-  if (h <= 0) return '';
-  return `M${x},${y + h} L${x},${y} L${x + w},${y} L${x + w},${y + h} Z`;
-}
+function toggleMesDetail(tr, mesObj) {
+  const existingDetail = tr.nextElementSibling;
+  const isOpen = existingDetail && existingDetail.classList.contains('detail-row');
 
-/* Backlog acumulado (abertos - baixados de todos os meses anteriores, nunca
-   negativo) herdado por cada mês — é o que vira o segmento empilhado acima da
-   barra "Abertos" desse mês. Respeita o filtro de departamento ativo. */
-function calcularBacklogPorMes(meses) {
-  let acumulado = 0;
-  return meses.map(m => {
-    const herdado = Math.max(0, acumulado);
-    const s = relMesStats(m);
-    acumulado += (s.abertos - s.baixados);
-    return herdado;
-  });
-}
-
-function buildChart(meses) {
-  const svg = document.getElementById('rel-chart');
-  svg.innerHTML = '';
-
-  const W = 900, H = 320;
-  const marginLeft = 44, marginRight = 12, marginTop = 12, marginBottom = 34;
-  const plotW = W - marginLeft - marginRight;
-  const plotH = H - marginTop - marginBottom;
-
-  const backlogPorMes = calcularBacklogPorMes(meses);
-  const maxVal  = Math.max(1, ...meses.map((m, idx) => {
-    const s = relMesStats(m);
-    return Math.max(s.abertos + backlogPorMes[idx], s.baixados);
-  }));
-  const niceMax = niceCeil(maxVal);
-  const steps   = 4;
-
-  // Gridlines + rótulos do eixo Y
-  for (let i = 0; i <= steps; i++) {
-    const val = (niceMax / steps) * i;
-    const y = marginTop + plotH - (val / niceMax) * plotH;
-    svg.appendChild(svgEl('line', {
-      x1: marginLeft, x2: W - marginRight, y1: y, y2: y,
-      style: `stroke:var(--chart-grid);stroke-width:1;opacity:${i === 0 ? 0.6 : 0.35}`,
-    }));
-    const label = svgEl('text', {
-      x: marginLeft - 8, y: y + 4, 'text-anchor': 'end',
-      'font-size': 11, 'font-family': 'Segoe UI, Arial, sans-serif',
-      style: 'fill:var(--muted)',
-    });
-    label.textContent = Math.round(val).toLocaleString('pt-BR');
-    svg.appendChild(label);
-  }
-
-  // Barras agrupadas (Abertos / Baixados) por mês
-  const groupW = plotW / meses.length;
-  const barW   = Math.min(24, groupW * 0.28);
-  const gap    = 2;
-
-  const SEGMENT_GAP = 2; // respiro entre o segmento "deste mês" e o segmento "herdado" empilhado
-
-  meses.forEach((m, idx) => {
-    const groupX = marginLeft + idx * groupW;
-    const cx     = groupX + groupW / 2;
-    const mesLabel = fmtMes(m.mes);
-    const stats    = relMesStats(m);
-    const herdado  = backlogPorMes[idx];
-
-    const onEnter = (clientX, clientY) =>
-      showChartTooltip(clientX, clientY, mesLabel, stats.abertos, stats.baixados, herdado);
-    const ligarTooltip = (path, ariaLabel) => {
-      path.setAttribute('tabindex', '0');
-      path.setAttribute('role', 'img');
-      path.setAttribute('aria-label', ariaLabel);
-      path.addEventListener('pointerenter', e => onEnter(e.clientX, e.clientY));
-      path.addEventListener('pointermove',  e => positionChartTooltip(e.clientX, e.clientY, getChartTooltip()));
-      path.addEventListener('pointerleave', hideChartTooltip);
-      path.addEventListener('focus', () => {
-        const r = path.getBoundingClientRect();
-        onEnter(r.left + r.width / 2, r.top);
-      });
-      path.addEventListener('blur', hideChartTooltip);
-      svg.appendChild(path);
-    };
-
-    // Barra "Abertos" — empilhada: segmento deste mês (embaixo) + segmento
-    // herdado de meses anteriores ainda não baixados (em cima, com respiro
-    // de 2px e ponta arredondada, já que é a extremidade exposta da pilha).
-    const xAbertos = cx - barW - gap / 2;
-    const hMes     = niceMax > 0 ? (stats.abertos / niceMax) * plotH : 0;
-    const hHerdado = niceMax > 0 ? (herdado       / niceMax) * plotH : 0;
-    const yMes     = marginTop + plotH - hMes;
-
-    if (hHerdado > 0) {
-      ligarTooltip(svgEl('path', {
-        d: rectPath(xAbertos, yMes, barW, hMes),
-        style: 'fill:var(--chart-abertos)',
-        class: 'chart-bar',
-      }), `Abertos em ${mesLabel}: ${stats.abertos}`);
-
-      const yHerdado = yMes - SEGMENT_GAP - hHerdado;
-      ligarTooltip(svgEl('path', {
-        d: roundedTopBarPath(xAbertos, yHerdado, barW, hHerdado, 4),
-        style: 'fill:var(--chart-backlog)',
-        class: 'chart-bar',
-      }), `Herdado de meses anteriores, em ${mesLabel}: ${herdado}`);
-    } else {
-      ligarTooltip(svgEl('path', {
-        d: roundedTopBarPath(xAbertos, yMes, barW, hMes, 4),
-        style: 'fill:var(--chart-abertos)',
-        class: 'chart-bar',
-      }), `Abertos em ${mesLabel}: ${stats.abertos}`);
+  if (mesExpandido !== null) {
+    const prevTr = document.querySelector(`#rel-table-body tr[data-mes="${mesExpandido}"]`);
+    if (prevTr) {
+      const prevDetail = prevTr.nextElementSibling;
+      if (prevDetail && prevDetail.classList.contains('detail-row')) prevDetail.remove();
     }
+  }
 
-    // Barra "Baixados" — sem mudanças, um único segmento.
-    const hBaix = niceMax > 0 ? (stats.baixados / niceMax) * plotH : 0;
-    const yBaix = marginTop + plotH - hBaix;
-    ligarTooltip(svgEl('path', {
-      d: roundedTopBarPath(cx + gap / 2, yBaix, barW, hBaix, 4),
-      style: 'fill:var(--chart-baixados)',
-      class: 'chart-bar',
-    }), `Baixados em ${mesLabel}: ${stats.baixados}`);
+  if (isOpen) {
+    mesExpandido = null;
+  } else {
+    mesExpandido = mesObj.mes;
+    abrirDetalheMes(tr, mesObj);
+  }
+  buildPrazoChart();
+}
 
-    const xLabel = svgEl('text', {
-      x: cx, y: H - marginBottom + 18, 'text-anchor': 'middle',
-      'font-size': 11, 'font-family': 'Segoe UI, Arial, sans-serif',
-      style: 'fill:var(--muted)',
-    });
-    xLabel.textContent = mesLabel;
-    svg.appendChild(xLabel);
-  });
+/* Gráfico "Atendidos dentro x fora do prazo" — sempre por categoria (uma
+   linha por categoria, crescendo pra baixo conforme necessário — cabe
+   qualquer quantidade sem espremer nada). Sem mês selecionado, soma todas
+   as categorias de todos os meses do departamento; com um mês selecionado
+   na tabela, mostra só as categorias daquele mês. */
+function buildPrazoChart() {
+  const hbars      = document.getElementById('rel-chart-hbars');
+  const $titulo    = document.getElementById('rel-chart-title');
+  const $subtitulo = document.getElementById('rel-chart-subtitle');
 
-  // Eixo base
-  svg.appendChild(svgEl('line', {
-    x1: marginLeft, x2: W - marginRight, y1: marginTop + plotH, y2: marginTop + plotH,
-    style: 'stroke:var(--border-accent);stroke-width:1',
+  let categorias;
+  if (mesExpandido !== null) {
+    const mesObj = currentRelDept.meses.find(m => m.mes === mesExpandido);
+    categorias = categoriasFiltradas(mesObj);
+    $titulo.textContent    = `Atendidos dentro x fora do prazo — ${fmtMes(mesExpandido)}`;
+    $subtitulo.textContent = 'Por categoria, só nesse mês — clique no mês de novo para ver todos os meses';
+  } else {
+    categorias = filtrarCategorias(categoriasAgregadas(currentRelDept));
+    $titulo.textContent    = 'Atendidos dentro x fora do prazo';
+    $subtitulo.textContent = 'Por categoria, somando todos os meses — clique num mês na tabela para ver só aquele mês';
+  }
+
+  const itens = categorias.map(c => ({
+    label: c.nome, dentro: c.atendidosDentro, fora: c.atendidosFora,
   }));
+
+  buildHBarChart(hbars, itens);
+}
+
+/* Gráfico de barras horizontais — uma linha por item (categoria), com duas
+   barrinhas (dentro/fora do prazo) crescendo da esquerda pra direita. HTML
+   puro (não SVG): o rótulo é texto normal (trunca com "..." + title nativo
+   em vez de sobrepor), e a altura cresce com a quantidade de itens em vez
+   de espremer a largura. */
+function buildHBarChart(container, itens) {
+  const maxVal = Math.max(1, ...itens.map(it => Math.max(it.dentro, it.fora)));
+
+  container.innerHTML = itens.map(it => {
+    const pctDentro = Math.round((it.dentro / maxVal) * 100);
+    const pctFora   = Math.round((it.fora   / maxVal) * 100);
+    return `
+      <div class="hbar-row">
+        <div class="hbar-label" title="${escHtml(it.label)}">${escHtml(it.label)}</div>
+        <div class="hbar-series">
+          <div class="hbar-serie-row" title="Dentro do prazo em ${escHtml(it.label)}: ${it.dentro}">
+            <div class="hbar-track"><div class="hbar-fill hbar-fill--dentro" style="width:${pctDentro}%"></div></div>
+            <span class="hbar-value">${it.dentro.toLocaleString('pt-BR')}</span>
+          </div>
+          <div class="hbar-serie-row" title="Fora do prazo em ${escHtml(it.label)}: ${it.fora}">
+            <div class="hbar-track"><div class="hbar-fill hbar-fill--fora" style="width:${pctFora}%"></div></div>
+            <span class="hbar-value">${it.fora.toLocaleString('pt-BR')}</span>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
 }
