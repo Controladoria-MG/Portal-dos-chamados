@@ -527,6 +527,9 @@ td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular
   color: var(--muted-light); font-size: 0.85rem; text-align: center;
 }
 
+/* ─── RELATÓRIOS — FILTRO DE DEPARTAMENTOS ───────────────────────── */
+.rel-filters-row { margin-bottom: 1.2rem; }
+
 /* ─── RELATÓRIOS — KPI ROW ───────────────────────────────────────── */
 .kpi-row {
   display: grid; grid-template-columns: repeat(3, 1fr);

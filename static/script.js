@@ -588,7 +588,7 @@ function toggleClientDetail(tr, client) {
   const existingDetail = tr.nextElementSibling;
   const isOpen = existingDetail && existingDetail.classList.contains('detail-row');
 
-  if (openClientRow) {
+  if (openClientRow !== null) {
     const prev = $clientBody.querySelector(`tr[data-client-id="${openClientRow}"]`);
     if (prev) {
       const prevDetail = prev.nextElementSibling;
@@ -632,6 +632,7 @@ function toggleClientDetail(tr, client) {
               ${showDeptoAnterior ? `<div class="ticket-field"><span class="f-label">Depto. Anterior</span><span class="f-value">${escHtml(String(col(r,'Departamento Responsavel Original','Departamento Responsável Original')||'—'))}</span></div>` : ''}
               <div class="ticket-field"><span class="f-label">Solicitante</span><span class="f-value">${escHtml(String(col(r,'Solicitante','solicitante')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Início Atend.</span><span class="f-value">${fmt(col(r,'Inicio Atend.','Início Atend.','Inicio Atendimento','InicioAtend','Inicio_Atend'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Previsão Atend.</span><span class="f-value">${fmt(col(r,'DataPrevisaoAtendimento','Data Previsao Atendimento','Data Previsão Atendimento','Data Previsão de Atendimento','Data_Previsao_Atendimento'))}</span></div>
             </div>
             <div class="ticket-bottom">
               <span class="f-label">Solicitação</span>
@@ -749,17 +750,138 @@ function renderRelatorios() {
     ? `Base atualizada em ${historicoMensal.atualizado_em}`
     : '';
 
+  buildRelDeptFilter();
+  populateRelDeptFilter(historicoMensal.departamentos || []);
+
   renderKpis(meses);
   renderLegend();
   buildChart(meses);
   renderResumoTable(meses);
 }
 
+/* ─── RELATÓRIOS — FILTRO DE DEPARTAMENTOS ────────────────────────── */
+const activeRelDeptos    = new Set();
+let   relDeptFilterBuilt = false;
+
+/* Contagens do mês, restritas aos departamentos selecionados (soma).
+   Nenhum selecionado = sem filtro = totais de todos os departamentos. */
+function relMesStats(mes) {
+  if (!activeRelDeptos.size) return { abertos: mes.abertos, baixados: mes.baixados };
+  let abertos = 0, baixados = 0;
+  for (const d of activeRelDeptos) {
+    const s = mes.porDepto && mes.porDepto[d];
+    if (s) { abertos += s.abertos; baixados += s.baixados; }
+  }
+  return { abertos, baixados };
+}
+
+function buildRelDeptFilter() {
+  if (relDeptFilterBuilt) return;
+  relDeptFilterBuilt = true;
+
+  const wrap = document.getElementById('rel-filters-row');
+  wrap.innerHTML = `
+    <div class="cat-filter-wrap" id="rel-depto-filter-wrap">
+      <button id="rel-depto-btn" class="cat-btn" type="button" aria-haspopup="true" aria-expanded="false">
+        <span id="rel-depto-btn-label">Departamento</span>
+        <span class="cat-chevron">▾</span>
+      </button>
+    </div>`;
+
+  const dd = document.createElement('div');
+  dd.id        = 'rel-depto-dropdown';
+  dd.className = 'cat-dropdown';
+  dd.hidden    = true;
+  dd.innerHTML = `
+    <div class="cat-dropdown-actions">
+      <button type="button" id="rel-depto-select-all">Todos</button>
+      <button type="button" id="rel-depto-clear-all">Limpar</button>
+    </div>
+    <ul id="rel-depto-list" class="cat-list"></ul>`;
+  document.body.appendChild(dd);
+
+  const wrapper = document.getElementById('rel-depto-filter-wrap');
+  const btn     = document.getElementById('rel-depto-btn');
+
+  const openDropdown = () => {
+    document.querySelectorAll('.cat-dropdown').forEach(other => { if (other !== dd) other.hidden = true; });
+    document.querySelectorAll('.cat-btn').forEach(other => { if (other !== btn) other.setAttribute('aria-expanded', 'false'); });
+    dd.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    positionDropdown(btn, dd);
+  };
+  const closeDropdown = () => {
+    dd.hidden = true;
+    btn.setAttribute('aria-expanded', 'false');
+  };
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (dd.hidden) openDropdown(); else closeDropdown();
+  });
+  document.addEventListener('click', (e) => {
+    if (!wrapper.contains(e.target) && !dd.contains(e.target)) closeDropdown();
+  });
+
+  dd.querySelector('#rel-depto-select-all').addEventListener('click', () => {
+    dd.querySelectorAll('input[type=checkbox]').forEach(cb => {
+      cb.checked = true;
+      activeRelDeptos.add(cb.value);
+    });
+    updateRelDeptLabel();
+    renderRelatorios();
+  });
+  dd.querySelector('#rel-depto-clear-all').addEventListener('click', () => {
+    dd.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
+    activeRelDeptos.clear();
+    updateRelDeptLabel();
+    renderRelatorios();
+  });
+
+  window.addEventListener('scroll', () => { if (!dd.hidden) positionDropdown(btn, dd); }, true);
+  window.addEventListener('resize', () => { if (!dd.hidden) positionDropdown(btn, dd); });
+}
+
+function populateRelDeptFilter(departamentos) {
+  const $list = document.getElementById('rel-depto-list');
+  $list.innerHTML = '';
+  for (const dep of departamentos) {
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <label class="cat-option">
+        <input type="checkbox" value="${escHtml(dep)}" ${activeRelDeptos.has(dep) ? 'checked' : ''}>
+        <span>${escHtml(dep)}</span>
+      </label>`;
+    li.querySelector('input').addEventListener('change', (e) => {
+      if (e.target.checked) activeRelDeptos.add(dep);
+      else activeRelDeptos.delete(dep);
+      updateRelDeptLabel();
+      renderRelatorios();
+    });
+    $list.appendChild(li);
+  }
+  updateRelDeptLabel();
+}
+
+function updateRelDeptLabel() {
+  const $label = document.getElementById('rel-depto-btn-label');
+  const $btn   = document.getElementById('rel-depto-btn');
+  const total  = document.querySelectorAll('#rel-depto-list input[type=checkbox]').length;
+  if (activeRelDeptos.size === 0 || activeRelDeptos.size === total) {
+    $label.textContent = 'Departamento';
+    $btn.classList.remove('cat-btn--active');
+  } else {
+    $label.textContent = `Departamento (${activeRelDeptos.size})`;
+    $btn.classList.add('cat-btn--active');
+  }
+}
+
 /* ─── KPIs DO MÊS ATUAL ───────────────────────────────────────────── */
 function renderKpis(meses) {
   const $kpi = document.getElementById('kpi-row');
   const chaveAtual = new Date().toISOString().slice(0, 7);
-  const atual = meses.find(m => m.mes === chaveAtual) || { abertos: 0, baixados: 0 };
+  const mesAtual = meses.find(m => m.mes === chaveAtual);
+  const atual = mesAtual ? relMesStats(mesAtual) : { abertos: 0, baixados: 0 };
   const saldo = atual.abertos - atual.baixados;
 
   const tiles = [
@@ -812,9 +934,10 @@ function renderResumoTable(meses) {
   let totalAbertos = 0, totalBaixados = 0;
 
   meses.forEach((m, i) => {
-    const saldo = m.abertos - m.baixados;
-    totalAbertos  += m.abertos;
-    totalBaixados += m.baixados;
+    const stats = relMesStats(m);
+    const saldo = stats.abertos - stats.baixados;
+    totalAbertos  += stats.abertos;
+    totalBaixados += stats.baixados;
 
     const tr = document.createElement('tr');
     if (i % 2 === 1) tr.classList.add('row-even');
@@ -822,9 +945,9 @@ function renderResumoTable(meses) {
     const tdMes = document.createElement('td');
     tdMes.textContent = fmtMes(m.mes);
     const tdAb = document.createElement('td');
-    tdAb.textContent = m.abertos.toLocaleString('pt-BR');
+    tdAb.textContent = stats.abertos.toLocaleString('pt-BR');
     const tdBx = document.createElement('td');
-    tdBx.textContent = m.baixados.toLocaleString('pt-BR');
+    tdBx.textContent = stats.baixados.toLocaleString('pt-BR');
     const tdSaldo = document.createElement('td');
     tdSaldo.textContent = (saldo > 0 ? '+' : '') + saldo.toLocaleString('pt-BR');
 
@@ -928,7 +1051,7 @@ function buildChart(meses) {
   const plotW = W - marginLeft - marginRight;
   const plotH = H - marginTop - marginBottom;
 
-  const maxVal  = Math.max(1, ...meses.map(m => Math.max(m.abertos, m.baixados)));
+  const maxVal  = Math.max(1, ...meses.map(m => { const s = relMesStats(m); return Math.max(s.abertos, s.baixados); }));
   const niceMax = niceCeil(maxVal);
   const steps   = 4;
 
@@ -959,10 +1082,11 @@ function buildChart(meses) {
     const groupX = marginLeft + idx * groupW;
     const cx     = groupX + groupW / 2;
     const mesLabel = fmtMes(m.mes);
+    const stats  = relMesStats(m);
 
     [
-      { key: 'Abertos',  val: m.abertos,  colorVar: '--chart-abertos',  x: cx - barW - gap / 2 },
-      { key: 'Baixados', val: m.baixados, colorVar: '--chart-baixados', x: cx + gap / 2 },
+      { key: 'Abertos',  val: stats.abertos,  colorVar: '--chart-abertos',  x: cx - barW - gap / 2 },
+      { key: 'Baixados', val: stats.baixados, colorVar: '--chart-baixados', x: cx + gap / 2 },
     ].forEach(b => {
       const h = niceMax > 0 ? (b.val / niceMax) * plotH : 0;
       const y = marginTop + plotH - h;
@@ -976,7 +1100,7 @@ function buildChart(meses) {
         'aria-label': `${b.key} em ${mesLabel}: ${b.val}`,
       });
 
-      const onEnter = (clientX, clientY) => showChartTooltip(clientX, clientY, mesLabel, m.abertos, m.baixados);
+      const onEnter = (clientX, clientY) => showChartTooltip(clientX, clientY, mesLabel, stats.abertos, stats.baixados);
       path.addEventListener('pointerenter', e => onEnter(e.clientX, e.clientY));
       path.addEventListener('pointermove',  e => positionChartTooltip(e.clientX, e.clientY, getChartTooltip()));
       path.addEventListener('pointerleave', hideChartTooltip);

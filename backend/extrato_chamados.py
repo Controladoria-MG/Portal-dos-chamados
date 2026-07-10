@@ -137,6 +137,7 @@ OUTPUT_BASE = _DATA_DIR / "base.xlsx"
 
 DEPTS_RETORNADOS = {"gerencia de contas", "gc - administrativo"}
 STATUS_ENTREGUE  = "entregue ao solicitante"
+STATUS_ENCERRADO = "encerrado"
 STATUS_DEVOLVIDO_SOLICITANTE = "devolvido para solicitante"
 
 COL_MAP = [
@@ -154,9 +155,10 @@ COL_MAP = [
     (15, 11),  # P → L  | Status
     (16, 12),  # Q → M  | Solicitante (com lookup)
     (17, 13),  # R → N  | Inicio Atend.
-    (18, 14),  # S → O  | Data Entrega
-    (19, 15),  # T → P  | Responsável pela conclusão
-    (20, 16),  # U → Q  | Ultimo Comentário
+    (18, 14),  # S → O  | DataPrevisaoAtendimento
+    (19, 15),  # T → P  | Data Entrega
+    (20, 16),  # U → Q  | Responsável pela conclusão
+    (21, 17),  # V → R  | Ultimo Comentário
 ]
 
 LOOKUP_COLS = {8, 16}
@@ -165,17 +167,18 @@ HEADERS = [
     "Id", "Categoria", "Assunto", "Departamento Solicitante",
     "Solicitação", "IdCliente", "Cliente", "Responsável",
     "Departamento Responsavel", "Data Cadastro", "Prazo Vencimento",
-    "Status", "Solicitante", "Inicio Atend.", "Data Entrega",
-    "Responsável pela conclusão", "Ultimo Comentário", "Retornado",
-    "Departamento Responsavel Original", "Coordenador",
+    "Status", "Solicitante", "Inicio Atend.", "DataPrevisaoAtendimento",
+    "Data Entrega", "Responsável pela conclusão", "Ultimo Comentário",
+    "Retornado", "Departamento Responsavel Original", "Coordenador",
 ]
 
 COL_WIDTHS = {
     'A': 10,    'B': 11.86, 'C': 10.43, 'D': 26.29,
     'E': 13.0,  'F': 11.57, 'G': 9.86,  'H': 14.71,
     'I': 28.14, 'J': 15.86, 'K': 19.29, 'L': 12.86,
-    'M': 12.86, 'N': 14.43, 'O': 15.57, 'P': 28.57,
-    'Q': 20.29, 'R': 12.0,  'S': 28.14, 'T': 22.0,
+    'M': 12.86, 'N': 14.43, 'O': 14.43, 'P': 15.57,
+    'Q': 28.57, 'R': 20.29, 'S': 12.0,  'T': 28.14,
+    'U': 22.0,
 }
 
 # ============================================================
@@ -528,6 +531,30 @@ def preencher_data_campo(driver, campo_id, data_str, progress, task, descricao):
         time.sleep(0.3)
 
 
+def marcar_encerrados(driver, progress, task):
+    """Garante que a checkbox 'Encerrados' esteja marcada antes de gerar o
+    relatório. Sem ela, os chamados já encerrados (que vêm numa aba extra
+    'Encerrados' no arquivo baixado) não são incluídos na extração e ficam
+    de fora da contagem de baixados do histórico mensal."""
+    wait = WebDriverWait(driver, TIMEOUT)
+    progress.update(task, description="[cyan]Marcando 'Encerrados'...")
+    try:
+        checkbox = wait.until(
+            EC.presence_of_element_located(
+                (By.XPATH,
+                 "//label[contains(@class,'checkbox')]"
+                 "[contains(normalize-space(.), 'Encerrados')]"
+                 "//input[@type='checkbox']")
+            )
+        )
+        if not checkbox.is_selected():
+            driver.execute_script("arguments[0].click();", checkbox)
+            time.sleep(0.3)
+    except Exception:
+        progress.update(task, description="[yellow]Checkbox 'Encerrados' não encontrada — seguindo sem marcar.")
+        time.sleep(1)
+
+
 def preencher_datas(driver, data_inicio, data_fim, progress, task):
     preencher_data_campo(driver, "txtAberturaInicio", data_inicio, progress, task,
                          f"Preenchendo data inicio: {data_inicio}")
@@ -580,6 +607,16 @@ def _find_file(folder: Path, pattern: str, required=True):
     return max(matches, key=lambda p: p.stat().st_mtime)
 
 
+def _dept_group(nome):
+    """Agrupa o Departamento Responsavel do jeito que o portal exibe —
+    GC - Administrativo sempre unificado em GERENCIA DE CONTAS. Ver
+    deptGroupName() em script.js (mesma regra, front e back)."""
+    dept = str(nome).strip().upper() if nome else ''
+    if dept == 'GC - ADMINISTRATIVO':
+        return 'GERENCIA DE CONTAS'
+    return dept or 'SEM DEPARTAMENTO'
+
+
 def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, abertos_mes, baixados_mes):
     linhas = ignoradas = retornados = 0
 
@@ -596,24 +633,38 @@ def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, abertos_
 
         status_val = str(row[15]).strip().lower() if row[15] else ''
         dept_sol   = str(row[3]).strip().lower()  if row[3]  else ''
+        # "Encerrado" conta como baixado no histórico igual a "Entregue Ao
+        # Solicitante", mas NUNCA vira "Retornado" para a GC — só chamados
+        # entregues normalmente entram na aba de retornados. Encerrado,
+        # mesmo sendo da GC, é sempre descartado da base (não aparece em
+        # lugar nenhum do portal).
         eh_entregue = (status_val == STATUS_ENTREGUE)
+        eh_encerrado = (status_val == STATUS_ENCERRADO)
+        eh_fechado  = eh_entregue or eh_encerrado
         eh_gc       = (dept_sol in DEPTS_RETORNADOS)
+        manter_como_retornado = eh_entregue and eh_gc
 
-        # Histórico mensal (só contagens, para o comparativo aberturas x
-        # baixas do portal) — computado sobre TODAS as linhas do relatório
-        # bruto, antes de qualquer descarte, para não perder os chamados
-        # "Entregue ao Solicitante" fora da GC que a base.xlsx não guarda.
+        # Histórico mensal (contagens por departamento, para o comparativo
+        # aberturas x baixas do portal) — computado sobre TODAS as linhas do
+        # relatório bruto, antes de qualquer descarte, para não perder os
+        # chamados finalizados fora da GC que a base.xlsx não guarda.
+        # Departamento = Departamento Responsavel (coluna J do relatório de
+        # origem), agrupado como no portal (deptGroupName).
+        depto = _dept_group(row[9] if len(row) > 9 else None)
+
         data_cad_raw = row[13] if len(row) > 13 else None
         if isinstance(data_cad_raw, datetime):
             chave = data_cad_raw.strftime('%Y-%m')
-            abertos_mes[chave] = abertos_mes.get(chave, 0) + 1
-        if eh_entregue:
-            data_ent_raw = row[18] if len(row) > 18 else None
+            bucket = abertos_mes.setdefault(chave, {})
+            bucket[depto] = bucket.get(depto, 0) + 1
+        if eh_fechado:
+            data_ent_raw = row[19] if len(row) > 19 else None
             if isinstance(data_ent_raw, datetime):
                 chave = data_ent_raw.strftime('%Y-%m')
-                baixados_mes[chave] = baixados_mes.get(chave, 0) + 1
+                bucket = baixados_mes.setdefault(chave, {})
+                bucket[depto] = bucket.get(depto, 0) + 1
 
-        if eh_entregue and not eh_gc:
+        if eh_fechado and not manter_como_retornado:
             ignoradas += 1
             continue
 
@@ -631,16 +682,16 @@ def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, abertos_
         # solicitante (coluna D), não mais do depto responsável (coluna I).
         # O depto responsável original é preservado na coluna de rastreabilidade.
         if status_val == STATUS_DEVOLVIDO_SOLICITANTE:
-            nova[18] = nova[8]
+            nova[19] = nova[8]
             nova[8]  = nova[3]
 
-        nova[17] = "SIM" if (eh_entregue and eh_gc) else "NÃO"
-        if eh_entregue and eh_gc:
+        nova[18] = "SIM" if manter_como_retornado else "NÃO"
+        if manter_como_retornado:
             retornados += 1
 
         # Coordenador do responsável pelo chamado (via Coordenadores.xlsx,
         # cruzado pelo Nome de Exibição já resolvido na coluna H).
-        nova[19] = coordenador_map.get(_norm_nome(nova[7]), "")
+        nova[20] = coordenador_map.get(_norm_nome(nova[7]), "")
 
         ws_out.append(nova)
         linhas += 1
@@ -733,11 +784,11 @@ def atualizar_base():
         lin, ign, ret, nao = _processar_relatorio(
             wb.active, label, colab_map, coordenador_map, ws_out, abertos_mes, baixados_mes
         )
-        wb.close()
         total_linhas     += lin
         total_ignoradas  += ign
         total_retornados += ret
         todos_nao_encontrados |= nao
+        wb.close()
 
     # Formatação
     for col_letter, width in COL_WIDTHS.items():
@@ -749,7 +800,7 @@ def atualizar_base():
             cell.font      = font_padrao
             cell.alignment = Alignment(vertical="center", wrap_text=False)
 
-    for col_letter in ["J", "K", "N", "O"]:
+    for col_letter in ["J", "K", "N", "O", "P"]:
         for cell in ws_out[col_letter][1:]:
             if cell.value:
                 cell.number_format = "DD/MM/YYYY"
@@ -780,13 +831,25 @@ def atualizar_base():
     rel_dir = _DATA_DIR / "relatorios"
     rel_dir.mkdir(exist_ok=True)
     meses_chave = sorted(set(abertos_mes) | set(baixados_mes))
+    todos_deptos = sorted(
+        {d for bucket in abertos_mes.values() for d in bucket}
+        | {d for bucket in baixados_mes.values() for d in bucket}
+    )
     historico = {
         "atualizado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "departamentos": todos_deptos,
         "meses": [
             {
                 "mes":      m,
-                "abertos":  abertos_mes.get(m, 0),
-                "baixados": baixados_mes.get(m, 0),
+                "abertos":  sum(abertos_mes.get(m, {}).values()),
+                "baixados": sum(baixados_mes.get(m, {}).values()),
+                "porDepto": {
+                    d: {
+                        "abertos":  abertos_mes.get(m, {}).get(d, 0),
+                        "baixados": baixados_mes.get(m, {}).get(d, 0),
+                    }
+                    for d in todos_deptos
+                },
             }
             for m in meses_chave
         ],
@@ -960,6 +1023,7 @@ def executar(auto=False):
 
                 selecionar_departamentos(driver, deptos, progress, task)
                 preencher_datas(driver, data_inicio, data_fim, progress, task)
+                marcar_encerrados(driver, progress, task)
 
                 arquivo_bruto = gerar_relatorio(driver, PASTA_DOWNLOAD, progress, task)
 
