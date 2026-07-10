@@ -876,6 +876,18 @@ function updateRelDeptLabel() {
   }
 }
 
+/* ─── SALDO — TEXTO EXPLICATIVO (deixa claro o sentido do sinal) ──── */
+function saldoQualificador(saldo) {
+  if (saldo > 0) return 'Abertos';
+  if (saldo < 0) return 'Baixados';
+  return 'Equilibrado';
+}
+function saldoSufixo(saldo) {
+  if (saldo > 0) return ' abertos';
+  if (saldo < 0) return ' baixados';
+  return ' (equilibrado)';
+}
+
 /* ─── KPIs DO MÊS ATUAL ───────────────────────────────────────────── */
 function renderKpis(meses) {
   const $kpi = document.getElementById('kpi-row');
@@ -887,7 +899,7 @@ function renderKpis(meses) {
   const tiles = [
     { label: `Abertos em ${fmtMes(chaveAtual)}`,  value: atual.abertos },
     { label: `Baixados em ${fmtMes(chaveAtual)}`, value: atual.baixados },
-    { label: `Saldo em ${fmtMes(chaveAtual)}`,     value: saldo, signed: true },
+    { label: `Saldo em ${fmtMes(chaveAtual)}`,     value: saldo, sub: saldoQualificador(saldo) },
   ];
 
   $kpi.innerHTML = '';
@@ -901,10 +913,18 @@ function renderKpis(meses) {
 
     const value = document.createElement('div');
     value.className = 'kpi-value';
-    value.textContent = (t.signed && t.value > 0 ? '+' : '') + t.value.toLocaleString('pt-BR');
+    value.textContent = Math.abs(t.value).toLocaleString('pt-BR');
 
     div.appendChild(label);
     div.appendChild(value);
+
+    if (t.sub) {
+      const sub = document.createElement('div');
+      sub.className = 'kpi-sub';
+      sub.textContent = t.sub;
+      div.appendChild(sub);
+    }
+
     $kpi.appendChild(div);
   });
 }
@@ -913,7 +933,11 @@ function renderKpis(meses) {
 function renderLegend() {
   const $legend = document.getElementById('chart-legend');
   $legend.innerHTML = '';
-  [['sw-abertos', 'Abertos'], ['sw-baixados', 'Baixados']].forEach(([cls, label]) => {
+  [
+    ['sw-abertos',  'Abertos (do mês)'],
+    ['sw-backlog',  'Herdado de meses anteriores'],
+    ['sw-baixados', 'Baixados'],
+  ].forEach(([cls, label]) => {
     const wrap = document.createElement('div');
     wrap.className = 'legend-item';
     const sw = document.createElement('span');
@@ -949,7 +973,7 @@ function renderResumoTable(meses) {
     const tdBx = document.createElement('td');
     tdBx.textContent = stats.baixados.toLocaleString('pt-BR');
     const tdSaldo = document.createElement('td');
-    tdSaldo.textContent = (saldo > 0 ? '+' : '') + saldo.toLocaleString('pt-BR');
+    tdSaldo.textContent = Math.abs(saldo).toLocaleString('pt-BR') + saldoSufixo(saldo);
 
     tr.append(tdMes, tdAb, tdBx, tdSaldo);
     $body.appendChild(tr);
@@ -966,7 +990,7 @@ function renderResumoTable(meses) {
   const tdTotBx = document.createElement('td');
   tdTotBx.textContent = totalBaixados.toLocaleString('pt-BR');
   const tdTotSaldo = document.createElement('td');
-  tdTotSaldo.textContent = (totalSaldo > 0 ? '+' : '') + totalSaldo.toLocaleString('pt-BR');
+  tdTotSaldo.textContent = Math.abs(totalSaldo).toLocaleString('pt-BR') + saldoSufixo(totalSaldo);
 
   trTotal.append(tdLabel, tdTotAb, tdTotBx, tdTotSaldo);
   $body.appendChild(trTotal);
@@ -982,7 +1006,7 @@ function getChartTooltip() {
   }
   return $chartTooltip;
 }
-function showChartTooltip(clientX, clientY, mesLabel, abertos, baixados) {
+function showChartTooltip(clientX, clientY, mesLabel, abertos, baixados, herdado = 0) {
   const tt = getChartTooltip();
   tt.innerHTML = '';
 
@@ -991,7 +1015,11 @@ function showChartTooltip(clientX, clientY, mesLabel, abertos, baixados) {
   title.textContent = mesLabel;
   tt.appendChild(title);
 
-  [['Abertos', abertos, 'sw-abertos'], ['Baixados', baixados, 'sw-baixados']].forEach(([label, val, cls]) => {
+  const linhas = [['Abertos (mês)', abertos, 'sw-abertos']];
+  if (herdado > 0) linhas.push(['Herdado de meses anteriores', herdado, 'sw-backlog']);
+  linhas.push(['Baixados', baixados, 'sw-baixados']);
+
+  linhas.forEach(([label, val, cls]) => {
     const row  = document.createElement('div');
     row.className = 'tt-row';
     const key  = document.createElement('span');
@@ -1041,6 +1069,25 @@ function roundedTopBarPath(x, y, w, h, r) {
   return `M${x},${y + h} L${x},${y + r} Q${x},${y} ${x + r},${y} ` +
          `L${x + w - r},${y} Q${x + w},${y} ${x + w},${y + r} L${x + w},${y + h} Z`;
 }
+/* Retângulo reto (cantos quadrados) — usado no segmento de baixo de uma pilha,
+   que não é a ponta exposta da barra. */
+function rectPath(x, y, w, h) {
+  if (h <= 0) return '';
+  return `M${x},${y + h} L${x},${y} L${x + w},${y} L${x + w},${y + h} Z`;
+}
+
+/* Backlog acumulado (abertos - baixados de todos os meses anteriores, nunca
+   negativo) herdado por cada mês — é o que vira o segmento empilhado acima da
+   barra "Abertos" desse mês. Respeita o filtro de departamento ativo. */
+function calcularBacklogPorMes(meses) {
+  let acumulado = 0;
+  return meses.map(m => {
+    const herdado = Math.max(0, acumulado);
+    const s = relMesStats(m);
+    acumulado += (s.abertos - s.baixados);
+    return herdado;
+  });
+}
 
 function buildChart(meses) {
   const svg = document.getElementById('rel-chart');
@@ -1051,7 +1098,11 @@ function buildChart(meses) {
   const plotW = W - marginLeft - marginRight;
   const plotH = H - marginTop - marginBottom;
 
-  const maxVal  = Math.max(1, ...meses.map(m => { const s = relMesStats(m); return Math.max(s.abertos, s.baixados); }));
+  const backlogPorMes = calcularBacklogPorMes(meses);
+  const maxVal  = Math.max(1, ...meses.map((m, idx) => {
+    const s = relMesStats(m);
+    return Math.max(s.abertos + backlogPorMes[idx], s.baixados);
+  }));
   const niceMax = niceCeil(maxVal);
   const steps   = 4;
 
@@ -1077,30 +1128,21 @@ function buildChart(meses) {
   const barW   = Math.min(24, groupW * 0.28);
   const gap    = 2;
 
-  meses.forEach(m => {
-    const idx = meses.indexOf(m);
+  const SEGMENT_GAP = 2; // respiro entre o segmento "deste mês" e o segmento "herdado" empilhado
+
+  meses.forEach((m, idx) => {
     const groupX = marginLeft + idx * groupW;
     const cx     = groupX + groupW / 2;
     const mesLabel = fmtMes(m.mes);
-    const stats  = relMesStats(m);
+    const stats    = relMesStats(m);
+    const herdado  = backlogPorMes[idx];
 
-    [
-      { key: 'Abertos',  val: stats.abertos,  colorVar: '--chart-abertos',  x: cx - barW - gap / 2 },
-      { key: 'Baixados', val: stats.baixados, colorVar: '--chart-baixados', x: cx + gap / 2 },
-    ].forEach(b => {
-      const h = niceMax > 0 ? (b.val / niceMax) * plotH : 0;
-      const y = marginTop + plotH - h;
-
-      const path = svgEl('path', {
-        d: roundedTopBarPath(b.x, y, barW, h, 4),
-        style: `fill:var(${b.colorVar})`,
-        class: 'chart-bar',
-        tabindex: '0',
-        role: 'img',
-        'aria-label': `${b.key} em ${mesLabel}: ${b.val}`,
-      });
-
-      const onEnter = (clientX, clientY) => showChartTooltip(clientX, clientY, mesLabel, stats.abertos, stats.baixados);
+    const onEnter = (clientX, clientY) =>
+      showChartTooltip(clientX, clientY, mesLabel, stats.abertos, stats.baixados, herdado);
+    const ligarTooltip = (path, ariaLabel) => {
+      path.setAttribute('tabindex', '0');
+      path.setAttribute('role', 'img');
+      path.setAttribute('aria-label', ariaLabel);
       path.addEventListener('pointerenter', e => onEnter(e.clientX, e.clientY));
       path.addEventListener('pointermove',  e => positionChartTooltip(e.clientX, e.clientY, getChartTooltip()));
       path.addEventListener('pointerleave', hideChartTooltip);
@@ -1109,9 +1151,46 @@ function buildChart(meses) {
         onEnter(r.left + r.width / 2, r.top);
       });
       path.addEventListener('blur', hideChartTooltip);
-
       svg.appendChild(path);
-    });
+    };
+
+    // Barra "Abertos" — empilhada: segmento deste mês (embaixo) + segmento
+    // herdado de meses anteriores ainda não baixados (em cima, com respiro
+    // de 2px e ponta arredondada, já que é a extremidade exposta da pilha).
+    const xAbertos = cx - barW - gap / 2;
+    const hMes     = niceMax > 0 ? (stats.abertos / niceMax) * plotH : 0;
+    const hHerdado = niceMax > 0 ? (herdado       / niceMax) * plotH : 0;
+    const yMes     = marginTop + plotH - hMes;
+
+    if (hHerdado > 0) {
+      ligarTooltip(svgEl('path', {
+        d: rectPath(xAbertos, yMes, barW, hMes),
+        style: 'fill:var(--chart-abertos)',
+        class: 'chart-bar',
+      }), `Abertos em ${mesLabel}: ${stats.abertos}`);
+
+      const yHerdado = yMes - SEGMENT_GAP - hHerdado;
+      ligarTooltip(svgEl('path', {
+        d: roundedTopBarPath(xAbertos, yHerdado, barW, hHerdado, 4),
+        style: 'fill:var(--chart-backlog)',
+        class: 'chart-bar',
+      }), `Herdado de meses anteriores, em ${mesLabel}: ${herdado}`);
+    } else {
+      ligarTooltip(svgEl('path', {
+        d: roundedTopBarPath(xAbertos, yMes, barW, hMes, 4),
+        style: 'fill:var(--chart-abertos)',
+        class: 'chart-bar',
+      }), `Abertos em ${mesLabel}: ${stats.abertos}`);
+    }
+
+    // Barra "Baixados" — sem mudanças, um único segmento.
+    const hBaix = niceMax > 0 ? (stats.baixados / niceMax) * plotH : 0;
+    const yBaix = marginTop + plotH - hBaix;
+    ligarTooltip(svgEl('path', {
+      d: roundedTopBarPath(cx + gap / 2, yBaix, barW, hBaix, 4),
+      style: 'fill:var(--chart-baixados)',
+      class: 'chart-bar',
+    }), `Baixados em ${mesLabel}: ${stats.baixados}`);
 
     const xLabel = svgEl('text', {
       x: cx, y: H - marginBottom + 18, 'text-anchor': 'middle',

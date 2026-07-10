@@ -27,6 +27,7 @@
   --ret-color:      #e05050;
   --chart-abertos:  #e0504f;
   --chart-baixados: #f2a38c;
+  --chart-backlog:  #22a897;
   --chart-grid:     #444444;
 }
 
@@ -56,6 +57,7 @@
   --ret-color:      #c0392b;
   --chart-abertos:  #C00000;
   --chart-baixados: #e8998c;
+  --chart-backlog:  #0d8f80;
   --chart-grid:     #e0e0e0;
 }
 
@@ -538,6 +540,7 @@ td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular
 .kpi-tile {
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: var(--radius-lg); padding: 1.1rem 1.3rem;
+  text-align: center;
 }
 .kpi-label {
   font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
@@ -555,6 +558,7 @@ td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular
 .legend-item { display: flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; color: var(--text-dim); }
 .legend-swatch { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
 .legend-swatch.sw-abertos  { background: var(--chart-abertos); }
+.legend-swatch.sw-backlog  { background: var(--chart-backlog); }
 .legend-swatch.sw-baixados { background: var(--chart-baixados); }
 
 .chart-wrap { padding: 1rem 1.2rem 0.4rem; position: relative; }
@@ -579,6 +583,7 @@ td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular
 .chart-tooltip .tt-key { display: flex; align-items: center; gap: 0.4rem; }
 .chart-tooltip .tt-line { width: 10px; height: 2px; border-radius: 2px; flex-shrink: 0; }
 .chart-tooltip .tt-line.sw-abertos  { background: var(--chart-abertos); }
+.chart-tooltip .tt-line.sw-backlog  { background: var(--chart-backlog); }
 .chart-tooltip .tt-line.sw-baixados { background: var(--chart-baixados); }
 .chart-tooltip .tt-val { font-weight: 700; color: var(--primary); font-variant-numeric: tabular-nums; }
 
