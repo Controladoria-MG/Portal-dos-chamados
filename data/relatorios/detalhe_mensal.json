@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "12/07/2026 15:03",
+  "atualizado_em": "12/07/2026 17:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -5660,8 +5660,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 149,
-              "atendidosFora": 154,
+              "atendidosDentro": 146,
+              "atendidosFora": 157,
               "pendentes": 0,
               "chamados": [
                 {
@@ -7365,8 +7365,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-03-24",
                   "prazo": "2026-03-25",
-                  "dataEntrega": "2026-03-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78165,
@@ -7533,7 +7533,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-03-25",
                   "prazo": "2026-03-26",
-                  "dataEntrega": "2026-03-27",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -7773,8 +7773,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-03-31",
-                  "dataEntrega": "2026-03-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78334,
@@ -7845,8 +7845,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-01",
-                  "dataEntrega": "2026-03-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78366,
@@ -8148,8 +8148,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 133,
-              "atendidosFora": 114,
+              "atendidosDentro": 114,
+              "atendidosFora": 133,
               "pendentes": 0,
               "chamados": [
                 {
@@ -8181,8 +8181,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-01",
                   "prazo": "2026-04-02",
-                  "dataEntrega": "2026-04-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78376,
@@ -8205,16 +8205,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-01",
                   "prazo": "2026-04-02",
-                  "dataEntrega": "2026-04-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78404,
                   "cliente": null,
                   "dataCadastro": "2026-04-01",
                   "prazo": "2026-04-02",
-                  "dataEntrega": "2026-04-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78409,
@@ -8245,8 +8245,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-01",
                   "prazo": "2026-04-02",
-                  "dataEntrega": "2026-04-02",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78434,
@@ -8293,8 +8293,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-06",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-04-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78453,
@@ -8341,16 +8341,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-06",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-04-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78477,
                   "cliente": null,
                   "dataCadastro": "2026-04-06",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-04-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78478,
@@ -8405,8 +8405,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-06",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-04-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78485,
@@ -9061,8 +9061,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-16",
                   "prazo": "2026-04-17",
-                  "dataEntrega": "2026-04-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78711,
@@ -9261,8 +9261,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-17",
                   "prazo": "2026-04-20",
-                  "dataEntrega": "2026-04-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78812,
@@ -9341,8 +9341,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-23",
                   "prazo": "2026-04-24",
-                  "dataEntrega": "2026-04-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78862,
@@ -9413,8 +9413,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-24",
                   "prazo": "2026-04-27",
-                  "dataEntrega": "2026-04-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78873,
@@ -9557,8 +9557,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-27",
                   "prazo": "2026-04-28",
-                  "dataEntrega": "2026-04-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78934,
@@ -9669,8 +9669,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-29",
                   "prazo": "2026-04-30",
-                  "dataEntrega": "2026-04-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78970,
@@ -9685,8 +9685,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-29",
                   "prazo": "2026-04-30",
-                  "dataEntrega": "2026-04-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78972,
@@ -9733,8 +9733,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-30",
                   "prazo": "2026-05-01",
-                  "dataEntrega": "2026-04-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78978,
@@ -9837,8 +9837,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-20",
                   "prazo": "2026-04-21",
-                  "dataEntrega": "2026-04-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78826,
@@ -9869,8 +9869,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-20",
                   "prazo": "2026-04-21",
-                  "dataEntrega": "2026-04-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78831,
@@ -9957,8 +9957,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-22",
                   "prazo": "2026-04-23",
-                  "dataEntrega": "2026-04-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78856,
@@ -10156,8 +10156,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 139,
-              "atendidosFora": 124,
+              "atendidosDentro": 124,
+              "atendidosFora": 139,
               "pendentes": 0,
               "chamados": [
                 {
@@ -10173,8 +10173,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-04",
                   "prazo": "2026-05-05",
-                  "dataEntrega": "2026-05-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78994,
@@ -10205,24 +10205,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-04",
                   "prazo": "2026-05-05",
-                  "dataEntrega": "2026-05-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79002,
                   "cliente": null,
                   "dataCadastro": "2026-05-04",
                   "prazo": "2026-05-05",
-                  "dataEntrega": "2026-05-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79003,
                   "cliente": null,
                   "dataCadastro": "2026-05-04",
                   "prazo": "2026-05-05",
-                  "dataEntrega": "2026-05-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79004,
@@ -10309,8 +10309,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-06",
                   "prazo": "2026-05-07",
-                  "dataEntrega": "2026-05-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79060,
@@ -10381,8 +10381,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-08",
                   "prazo": "2026-05-11",
-                  "dataEntrega": "2026-05-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79081,
@@ -10445,8 +10445,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-08",
                   "prazo": "2026-05-11",
-                  "dataEntrega": "2026-05-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79097,
@@ -10517,7 +10517,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-07",
                   "prazo": "2026-05-08",
-                  "dataEntrega": "2026-06-05",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -11101,8 +11101,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-15",
                   "prazo": "2026-05-18",
-                  "dataEntrega": "2026-05-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79328,
@@ -11133,16 +11133,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-18",
                   "prazo": "2026-05-19",
-                  "dataEntrega": "2026-05-18",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79337,
                   "cliente": null,
                   "dataCadastro": "2026-05-18",
                   "prazo": "2026-05-19",
-                  "dataEntrega": "2026-05-18",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79338,
@@ -11317,8 +11317,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-20",
                   "prazo": "2026-05-21",
-                  "dataEntrega": "2026-05-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79398,
@@ -11333,8 +11333,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-20",
                   "prazo": "2026-05-21",
-                  "dataEntrega": "2026-05-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79400,
@@ -11733,8 +11733,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-19",
                   "prazo": "2026-05-20",
-                  "dataEntrega": "2026-05-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79361,
@@ -11781,8 +11781,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-25",
                   "prazo": "2026-05-26",
-                  "dataEntrega": "2026-05-25",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79445,
@@ -11989,8 +11989,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-18",
                   "prazo": "2026-05-19",
-                  "dataEntrega": "2026-05-18",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79357,
@@ -15886,8 +15886,8 @@
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 5,
-              "atendidosFora": 2,
+              "atendidosDentro": 0,
+              "atendidosFora": 7,
               "pendentes": 0,
               "chamados": [
                 {
@@ -15895,40 +15895,40 @@
                   "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-04-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78338,
                   "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-04-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78339,
                   "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-04-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78345,
                   "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-04-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78280,
                   "cliente": "PERFIL SERVIÇOS E COMÉRCIO DE EQUIPAMENTOS FRIGORIFICOS LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-06",
-                  "dataEntrega": "2026-04-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78147,
@@ -16139,20 +16139,20 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 79687,
-                  "cliente": "METALTEC SERVICOS E INSTALACOES INDUSTRIAIS LTDA",
-                  "dataCadastro": "2026-06-03",
-                  "prazo": "2026-06-05",
-                  "dataEntrega": "2026-06-05",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 79697,
                   "cliente": "METALTEC SERVICOS E INSTALACOES INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-06-05",
                   "prazo": "2026-06-08",
                   "dataEntrega": "2026-06-09",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 79687,
+                  "cliente": "METALTEC SERVICOS E INSTALACOES INDUSTRIAIS LTDA",
+                  "dataCadastro": "2026-06-03",
+                  "prazo": "2026-06-05",
+                  "dataEntrega": "2026-06-05",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 79618,
@@ -17467,8 +17467,8 @@
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 7,
-              "atendidosFora": 12,
+              "atendidosDentro": 0,
+              "atendidosFora": 19,
               "pendentes": 0,
               "chamados": [
                 {
@@ -17476,8 +17476,8 @@
                   "cliente": "SUPERMERCADO YAMATO LTDA",
                   "dataCadastro": "2026-04-01",
                   "prazo": "2026-04-08",
-                  "dataEntrega": "2026-04-02",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78508,
@@ -17548,23 +17548,23 @@
                   "cliente": "AR4 TAVARES PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-04-07",
                   "prazo": "2026-04-28",
-                  "dataEntrega": "2026-04-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78513,
                   "cliente": "AR4 TAVARES PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-04-07",
                   "prazo": "2026-04-28",
-                  "dataEntrega": "2026-04-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78514,
                   "cliente": "AR4 TAVARES PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-04-07",
                   "prazo": "2026-04-28",
-                  "dataEntrega": "2026-06-01",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -17588,24 +17588,24 @@
                   "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
                   "dataCadastro": "2026-04-07",
                   "prazo": "2026-04-28",
-                  "dataEntrega": "2026-04-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78505,
                   "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
                   "dataCadastro": "2026-04-07",
                   "prazo": "2026-04-28",
-                  "dataEntrega": "2026-04-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78506,
                   "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
                   "dataCadastro": "2026-04-07",
                   "prazo": "2026-04-28",
-                  "dataEntrega": "2026-04-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78410,
@@ -17620,15 +17620,15 @@
                   "cliente": "BOMBEIROS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANÇA LTDA",
                   "dataCadastro": "2026-04-13",
                   "prazo": "2026-04-20",
-                  "dataEntrega": "2026-04-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "Reunião externa",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -17636,8 +17636,8 @@
                   "cliente": "A P SOARES DA SILVA MERCADO E PADARIA",
                   "dataCadastro": "2026-04-02",
                   "prazo": "2026-04-09",
-                  "dataEntrega": "2026-04-02",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -17651,8 +17651,8 @@
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 2,
-              "atendidosFora": 10,
+              "atendidosDentro": 0,
+              "atendidosFora": 12,
               "pendentes": 0,
               "chamados": [
                 {
@@ -17660,7 +17660,7 @@
                   "cliente": "SUPER DOCES MARINGÁ LTDA (MATRIZ)",
                   "dataCadastro": "2026-05-19",
                   "prazo": "2026-06-02",
-                  "dataEntrega": "2026-06-09",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -17668,8 +17668,8 @@
                   "cliente": "SUPER DOCES MARINGÁ LTDA (MATRIZ)",
                   "dataCadastro": "2026-05-19",
                   "prazo": "2026-06-02",
-                  "dataEntrega": "2026-06-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79375,
@@ -17700,7 +17700,7 @@
                   "cliente": "ÁGUA LIMPA DISTRIBUIDORA DE HORTIFRUTI, ALIMENTOS E SERVIÇOS DE TRANSPORTES LTDA.",
                   "dataCadastro": "2026-05-19",
                   "prazo": "2026-06-02",
-                  "dataEntrega": "2026-06-03",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -17708,7 +17708,7 @@
                   "cliente": "RIO DAS PEDRAS COMERCIO DE HORTIFRUTIGRANJEIROS E MERCEARIA LIMITADA",
                   "dataCadastro": "2026-05-19",
                   "prazo": "2026-06-02",
-                  "dataEntrega": "2026-06-03",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -17724,15 +17724,15 @@
                   "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
                   "dataCadastro": "2026-05-19",
                   "prazo": "2026-06-02",
-                  "dataEntrega": "2026-05-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79022,
                   "cliente": "DISTRIBUIDORA GESSO 3000 LTDA",
                   "dataCadastro": "2026-05-06",
                   "prazo": "2026-05-15",
-                  "dataEntrega": "2026-06-01",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -17740,7 +17740,7 @@
                   "cliente": "LOFT EMPREENDIMENTOS HOTELEIROS LTDA",
                   "dataCadastro": "2026-05-19",
                   "prazo": "2026-06-02",
-                  "dataEntrega": "2026-06-10",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -17748,7 +17748,7 @@
                   "cliente": "ITALO BRASILEIRA AGRO COMERCIAL LTDA",
                   "dataCadastro": "2026-05-19",
                   "prazo": "2026-06-02",
-                  "dataEntrega": "2026-06-10",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 }
               ]
@@ -18793,7 +18793,7 @@
                   "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-06",
-                  "dataEntrega": "2026-06-02",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -18801,7 +18801,7 @@
                   "cliente": "Comércio de Horti Frutti Catroque Ltda.",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-06-02",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -18825,7 +18825,7 @@
                   "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-06-02",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -18857,7 +18857,7 @@
                   "cliente": "REDFLEX 90 DO BRASIL COMERCIO LTDA",
                   "dataCadastro": "2026-03-24",
                   "prazo": "2026-04-01",
-                  "dataEntrega": "2026-06-05",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -18921,7 +18921,7 @@
                   "cliente": "BOMBEIROS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANÇA LTDA",
                   "dataCadastro": "2026-04-13",
                   "prazo": "2026-04-20",
-                  "dataEntrega": "2026-06-02",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 }
               ]
@@ -18937,7 +18937,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-22",
                   "prazo": "2026-04-30",
-                  "dataEntrega": "2026-06-03",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 }
               ]
@@ -19390,7 +19390,7 @@
                   "cliente": "JARDIM ELÉTRICO PRODUÇÕES LTDA",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-06-09",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -19398,7 +19398,7 @@
                   "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-06-09",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -19406,7 +19406,7 @@
                   "cliente": "PERFIL REFRIGERAÇÃO INDUSTRIA ,COMÉRCIO E SERVIÇO LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-06",
-                  "dataEntrega": "2026-06-10",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -19462,7 +19462,7 @@
                   "cliente": "GRILD - PLASTIC INDÚSTRIA, COMÉRCIO E IMPORTAÇÃO LTDA",
                   "dataCadastro": "2026-05-26",
                   "prazo": "2026-05-28",
-                  "dataEntrega": "2026-06-07",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -19470,7 +19470,7 @@
                   "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-05-26",
                   "prazo": "2026-05-28",
-                  "dataEntrega": "2026-06-03",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -19486,7 +19486,7 @@
                   "cliente": "ACCESS EVENTOS E VIAGENS LTDA",
                   "dataCadastro": "2026-05-26",
                   "prazo": "2026-05-28",
-                  "dataEntrega": "2026-06-26",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -20452,38 +20452,30 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 14,
+          "abertos": 12,
           "atendidos": 12,
-          "pendentes": 2,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 12,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 78352,
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-06-11",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 78362,
-                  "cliente": "MERCADO ROQUE TADEU CARVALHO LTDA",
-                  "dataCadastro": "2026-03-31",
-                  "prazo": "2026-04-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 78363,
                   "cliente": "MERCADO EXPEDITA ISIDORO LTDA",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-06-19",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -20491,7 +20483,7 @@
                   "cliente": "EMPORIO RT CARVALHO LTDA",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-07",
-                  "dataEntrega": "2026-06-26",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -20551,14 +20543,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 78160,
-                  "cliente": "REDFLEX 90 DO BRASIL COMERCIO LTDA",
-                  "dataCadastro": "2026-03-24",
-                  "prazo": "2026-04-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78055,
                   "cliente": "INFINITY UTILIDADES LTDA",
                   "dataCadastro": "2026-03-17",
@@ -20580,15 +20564,15 @@
         },
         {
           "mes": "2026-04",
-          "abertos": 7,
+          "abertos": 6,
           "atendidos": 6,
-          "pendentes": 1,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 78497,
@@ -20603,16 +20587,8 @@
                   "cliente": "ORIVALDO DAN",
                   "dataCadastro": "2026-04-22",
                   "prazo": "2026-04-30",
-                  "dataEntrega": "2026-06-25",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 78445,
-                  "cliente": "A P SOARES DA SILVA MERCADO E PADARIA",
-                  "dataCadastro": "2026-04-02",
-                  "prazo": "2026-04-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 78507,
@@ -20627,7 +20603,7 @@
                   "cliente": "BOMBEIROS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANÇA LTDA",
                   "dataCadastro": "2026-04-13",
                   "prazo": "2026-04-20",
-                  "dataEntrega": "2026-06-09",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -20635,7 +20611,7 @@
                   "cliente": "COMBATEAINCENDIOS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANCA LTDA",
                   "dataCadastro": "2026-04-13",
                   "prazo": "2026-04-20",
-                  "dataEntrega": "2026-06-09",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 }
               ]
@@ -20651,7 +20627,7 @@
                   "cliente": "MARIA VALDENE FERREIRA RIBEIRO",
                   "dataCadastro": "2026-04-02",
                   "prazo": "2026-04-09",
-                  "dataEntrega": "2026-06-09",
+                  "dataEntrega": "2026-07-12",
                   "status": "atendido_fora"
                 }
               ]
@@ -21537,9 +21513,9 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 30,
+          "abertos": 29,
           "atendidos": 8,
-          "pendentes": 22,
+          "pendentes": 21,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -21778,22 +21754,6 @@
                   "prazo": "2026-03-31",
                   "dataEntrega": "2026-06-18",
                   "status": "atendido_fora"
-                }
-              ]
-            },
-            {
-              "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 78340,
-                  "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
-                  "dataCadastro": "2026-03-31",
-                  "prazo": "2026-04-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             }
@@ -22316,22 +22276,6 @@
               "pendentes": 8,
               "chamados": [
                 {
-                  "id": 80753,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80760,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80754,
                   "cliente": null,
                   "dataCadastro": "2026-07-06",
@@ -22376,6 +22320,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80753,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-06",
+                  "prazo": "2026-07-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80760,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-06",
+                  "prazo": "2026-07-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
