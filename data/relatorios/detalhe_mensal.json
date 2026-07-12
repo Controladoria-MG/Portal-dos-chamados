@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/07/2026 18:03",
+  "atualizado_em": "12/07/2026 09:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -16808,9 +16808,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 9,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17025,6 +17025,22 @@
                   "prazo": "2026-07-06",
                   "dataEntrega": "2026-07-07",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Pesquisa IBGE",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 80954,
+                  "cliente": "LINHARES E FONTOURA CONSTRUCAO CIVIL LTDA ",
+                  "dataCadastro": "2026-07-12",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
