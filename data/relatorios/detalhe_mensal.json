@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/07/2026 13:03",
+  "atualizado_em": "13/07/2026 15:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 206,
-              "atendidosFora": 108,
+              "atendidosDentro": 204,
+              "atendidosFora": 110,
               "pendentes": 1,
               "chamados": [
                 {
@@ -13789,8 +13789,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-18",
                   "prazo": "2026-06-19",
-                  "dataEntrega": "2026-06-18",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80189,
@@ -14133,8 +14133,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-25",
                   "prazo": "2026-06-26",
-                  "dataEntrega": "2026-06-25",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80554,
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 86,
-          "atendidos": 85,
-          "pendentes": 1,
+          "abertos": 88,
+          "atendidos": 88,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 70,
-              "atendidosFora": 14,
-              "pendentes": 1,
+              "atendidosDentro": 71,
+              "atendidosFora": 16,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -14861,8 +14861,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-01",
                   "prazo": "2026-07-02",
-                  "dataEntrega": "2026-07-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80683,
@@ -15197,8 +15197,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-08",
                   "prazo": "2026-07-09",
-                  "dataEntrega": "2026-07-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80872,
@@ -15429,8 +15429,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80981,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80982,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80666,
@@ -18613,9 +18629,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 11,
+          "abertos": 12,
           "atendidos": 8,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18750,6 +18766,22 @@
                   "prazo": "2026-07-08",
                   "dataEntrega": "2026-07-07",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Pesquisa IBGE",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 80984,
+                  "cliente": "JANAE PAES E DOCES LTDA",
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -19583,9 +19615,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 54,
+          "abertos": 55,
           "atendidos": 49,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -19687,7 +19719,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80074,
@@ -19726,6 +19758,14 @@
                   "cliente": "KINGS TRANSPORTES E LOGISTICA LTDA",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-07-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80138,
+                  "cliente": "OBA OBA MIX LTDA",
+                  "dataCadastro": "2026-06-17",
+                  "prazo": "2026-06-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -21825,9 +21865,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 61,
+          "abertos": 60,
           "atendidos": 19,
-          "pendentes": 42,
+          "pendentes": 41,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -21953,7 +21993,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 79642,
@@ -21975,14 +22015,6 @@
                   "id": 80203,
                   "cliente": "MERCH LINK LTDA",
                   "dataCadastro": "2026-06-18",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80138,
-                  "cliente": "OBA OBA MIX LTDA",
-                  "dataCadastro": "2026-06-17",
                   "prazo": "2026-06-30",
                   "dataEntrega": null,
                   "status": "pendente"
