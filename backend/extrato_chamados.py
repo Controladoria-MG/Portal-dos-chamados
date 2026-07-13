@@ -704,8 +704,15 @@ def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, detalhe)
             valor = row[col_src] if col_src < len(row) else None
             if col_src in LOOKUP_COLS:
                 resolvido = resolver(valor)
-                if valor and resolvido == str(valor).strip():
-                    nao_encontrados.add(str(valor).strip())
+                # Só entra como "não encontrado" se parecer um usuário AD de
+                # verdade (sem espaço) — o relatório de origem passou a
+                # trazer o nome de exibição pronto em algumas linhas, e esse
+                # nome nunca vai bater com a chave (usuário AD) do colab_map,
+                # o que inflaria a lista de "não encontrados" à toa mesmo
+                # com o valor certo já exibido (via fallback do resolver).
+                bruto = str(valor).strip() if valor else ''
+                if valor and resolvido == bruto and ' ' not in bruto:
+                    nao_encontrados.add(bruto)
                 valor = resolvido
             nova[col_dst] = valor
 
