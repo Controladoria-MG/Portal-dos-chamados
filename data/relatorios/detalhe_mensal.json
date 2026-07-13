@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/07/2026 12:05",
+  "atualizado_em": "13/07/2026 13:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -5660,8 +5660,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 146,
-              "atendidosFora": 157,
+              "atendidosDentro": 145,
+              "atendidosFora": 158,
               "pendentes": 0,
               "chamados": [
                 {
@@ -7621,8 +7621,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-03-26",
                   "prazo": "2026-03-27",
-                  "dataEntrega": "2026-03-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78225,
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 207,
-              "atendidosFora": 107,
+              "atendidosDentro": 206,
+              "atendidosFora": 108,
               "pendentes": 1,
               "chamados": [
                 {
@@ -12765,8 +12765,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-08",
                   "prazo": "2026-06-09",
-                  "dataEntrega": "2026-06-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79749,
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 78,
-          "atendidos": 76,
-          "pendentes": 2,
+          "abertos": 86,
+          "atendidos": 85,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 63,
-              "atendidosFora": 12,
-              "pendentes": 2,
+              "atendidosDentro": 70,
+              "atendidosFora": 14,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -15133,8 +15133,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-07",
                   "prazo": "2026-07-08",
-                  "dataEntrega": "2026-07-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80798,
@@ -15309,8 +15309,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-09",
                   "prazo": "2026-07-10",
-                  "dataEntrega": "2026-07-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80933,
@@ -15362,6 +15362,70 @@
                 },
                 {
                   "id": 80957,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80966,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80967,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80968,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80969,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80972,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80973,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80975,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80976,
                   "cliente": null,
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
@@ -15421,8 +15485,8 @@
                   "cliente": "UP SEA SOLUÇÕES MARITIMAS E ENGENHARIA NAVAL LTDA",
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80681,
@@ -21252,9 +21316,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 6,
+          "abertos": 9,
           "atendidos": 1,
-          "pendentes": 5,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -21307,6 +21371,46 @@
                   "cliente": "DISTRIBUIDORA  AGRICOLA BALBINOT LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Material de Reunião - Solicitação Interna",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 80970,
+                  "cliente": "M CAVICHIOLLI COMÉRCIO DE ROUPAS EIRELI",
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Solicitação do cliente",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 80759,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-06",
+                  "prazo": "2026-07-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80753,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-06",
+                  "prazo": "2026-07-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -22329,9 +22433,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 14,
+          "abertos": 12,
           "atendidos": 0,
-          "pendentes": 14,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -22401,7 +22505,7 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 80754,
@@ -22436,26 +22540,10 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 80759,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80751,
                   "cliente": null,
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80753,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
