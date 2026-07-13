@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/07/2026 17:03",
+  "atualizado_em": "13/07/2026 18:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 89,
-          "atendidos": 88,
-          "pendentes": 1,
+          "abertos": 91,
+          "atendidos": 91,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 71,
+              "atendidosDentro": 74,
               "atendidosFora": 16,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -15453,8 +15453,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80666,
@@ -15503,6 +15503,22 @@
                   "prazo": "2026-07-09",
                   "dataEntrega": "2026-07-13",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 80987,
+                  "cliente": "VPS COMERCIO DE AUTO PECAS E ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 80988,
+                  "cliente": "VPS COMERCIO DE AUTO PECAS E ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80964,
@@ -16905,8 +16921,8 @@
         {
           "mes": "2026-07",
           "abertos": 20,
-          "atendidos": 9,
-          "pendentes": 11,
+          "atendidos": 11,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -16927,8 +16943,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 2,
-              "atendidosFora": 1,
-              "pendentes": 4,
+              "atendidosFora": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80745,
@@ -16967,8 +16983,8 @@
                   "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-07-03",
                   "prazo": "2026-07-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80707,
@@ -16991,8 +17007,8 @@
             {
               "nome": "Conciliação de Contas",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80771,
@@ -17007,8 +17023,8 @@
                   "cliente": "DM COMERCIO ALIMENTICIO LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -18637,9 +18653,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 12,
+          "abertos": 13,
           "atendidos": 8,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18661,8 +18677,16 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 80992,
+                  "cliente": "ZELUPA PARTICIPAÇÕES S.A.",
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80809,
                   "cliente": "KI DELICIA SERVIÇOS E MÃO DE OBRA ESPECIALIZADA LTDA",
@@ -22854,9 +22878,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 7,
+          "abertos": 8,
           "atendidos": 0,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -22917,6 +22941,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-08",
                   "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Regularização de Débitos",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 80989,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
