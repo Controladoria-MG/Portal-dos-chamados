@@ -785,7 +785,7 @@ function openRelatorioDept(nome) {
   mesExpandido   = null;
   activeRelCategorias.clear();
 
-  document.getElementById('rel-dept-title').textContent = `Relatório de Tarefas Baixadas — ${nome}`;
+  document.getElementById('rel-dept-title').textContent = `Relatório de Chamados Entregues — ${nome}`;
 
   buildRelCategoriaFilter();
   populateRelCategoriaFilter(categoriasDoDept(currentRelDept));
