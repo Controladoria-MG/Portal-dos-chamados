@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "12/07/2026 18:03",
+  "atualizado_em": "13/07/2026 09:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14807,14 +14807,14 @@
         {
           "mes": "2026-07",
           "abertos": 76,
-          "atendidos": 72,
-          "pendentes": 4,
+          "atendidos": 74,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 63,
+              "atendidosDentro": 65,
               "atendidosFora": 8,
-              "pendentes": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80661,
@@ -15349,16 +15349,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-07-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80950,
                   "cliente": null,
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-07-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80666,
@@ -18550,8 +18550,8 @@
         {
           "mes": "2026-07",
           "abertos": 10,
-          "atendidos": 8,
-          "pendentes": 2,
+          "atendidos": 7,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18619,9 +18619,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 3,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80819,
@@ -18644,8 +18644,8 @@
                   "cliente": "KI DELICIA SERVIÇOS E MÃO DE OBRA ESPECIALIZADA LTDA",
                   "dataCadastro": "2026-07-08",
                   "prazo": "2026-07-10",
-                  "dataEntrega": "2026-07-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -20112,8 +20112,8 @@
         {
           "mes": "2026-07",
           "abertos": 15,
-          "atendidos": 1,
-          "pendentes": 14,
+          "atendidos": 2,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -20230,16 +20230,16 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80738,
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_fora"
                 }
               ]
             },
