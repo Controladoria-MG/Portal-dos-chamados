@@ -669,8 +669,17 @@ def _processar_relatorio(ws, label, colab_map, coordenador_map, ws_out, detalhe)
         # "abrir os chamados daquele mês" sempre mostre o mesmo conjunto,
         # cada um com seu status final (atendido dentro/fora do prazo, ou
         # ainda pendente). Departamento = Departamento Responsavel (coluna J
-        # do relatório de origem), agrupado como no portal (deptGroupName).
-        depto = _dept_group(row[9] if len(row) > 9 else None)
+        # do relatório de origem), agrupado como no portal (deptGroupName) —
+        # e, em "Devolvido para Solicitante", reatribuído para o depto
+        # solicitante (coluna D), igual ao que acontece com nova[8] mais
+        # abaixo para a base.xlsx. Sem isso, um chamado devolvido contava no
+        # relatório sob o depto original em vez de para quem ele voltou,
+        # divergindo da contagem de pendentes mostrada na tela de Chamados.
+        if status_val == STATUS_DEVOLVIDO_SOLICITANTE:
+            depto_raw = row[3] if len(row) > 3 else None
+        else:
+            depto_raw = row[9] if len(row) > 9 else None
+        depto = _dept_group(depto_raw)
 
         data_cad_raw = row[13] if len(row) > 13 else None
         if isinstance(data_cad_raw, datetime):

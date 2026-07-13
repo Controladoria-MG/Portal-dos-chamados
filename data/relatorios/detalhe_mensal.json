@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/07/2026 10:49",
+  "atualizado_em": "13/07/2026 12:05",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -15992,9 +15992,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 86,
+          "abertos": 85,
           "atendidos": 75,
-          "pendentes": 11,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -16712,16 +16712,8 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
-                {
-                  "id": 79995,
-                  "cliente": "JARDIM ELÉTRICO PRODUÇÕES LTDA",
-                  "dataCadastro": "2026-06-15",
-                  "prazo": "2026-06-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 79718,
                   "cliente": "PS3 INSTALACOES E MONTAGENS LTDA ",
@@ -17805,9 +17797,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 79,
+          "abertos": 78,
           "atendidos": 76,
-          "pendentes": 3,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18445,7 +18437,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 79992,
@@ -18478,14 +18470,6 @@
                   "prazo": "2026-06-17",
                   "dataEntrega": "2026-06-17",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 80209,
-                  "cliente": "Distribuidora J Jotas Ltda.",
-                  "dataCadastro": "2026-06-18",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -19535,9 +19519,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 59,
+          "abertos": 54,
           "atendidos": 49,
-          "pendentes": 10,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -19615,7 +19599,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80137,
@@ -19632,14 +19616,6 @@
                   "prazo": "2026-07-02",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 80509,
-                  "cliente": "HEAD INFORMATICA MULTIMARCAS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-06-23",
-                  "prazo": "2026-06-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -19647,7 +19623,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80074,
@@ -19686,14 +19662,6 @@
                   "cliente": "KINGS TRANSPORTES E LOGISTICA LTDA",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80138,
-                  "cliente": "OBA OBA MIX LTDA",
-                  "dataCadastro": "2026-06-17",
-                  "prazo": "2026-06-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -19823,7 +19791,7 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 79707,
@@ -19858,14 +19826,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 79588,
-                  "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-06-01",
-                  "prazo": "2026-06-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79669,
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS (FILIAL)",
                   "dataCadastro": "2026-06-03",
@@ -19879,16 +19839,8 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
               "atendidosFora": 9,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
-                {
-                  "id": 80457,
-                  "cliente": "GENGIBRE ADMINISTRACAO E PARTICIPACOES S.A.",
-                  "dataCadastro": "2026-06-23",
-                  "prazo": "2026-06-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 80576,
                   "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
@@ -20087,16 +20039,8 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
-                {
-                  "id": 80003,
-                  "cliente": "OBA OBA MIX LTDA",
-                  "dataCadastro": "2026-06-15",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 80136,
                   "cliente": "PLANET GRAPHICS LTDA ",
@@ -20676,26 +20620,10 @@
         },
         {
           "mes": "2026-05",
-          "abertos": 3,
+          "abertos": 2,
           "atendidos": 2,
-          "pendentes": 1,
+          "pendentes": 0,
           "categorias": [
-            {
-              "nome": "Malha Fiscal",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 79515,
-                  "cliente": null,
-                  "dataCadastro": "2026-05-27",
-                  "prazo": "2026-06-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
             {
               "nome": "PER/DCOMP - Intimação/Comunicado",
               "atendidosDentro": 1,
@@ -20724,15 +20652,15 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 70,
+          "abertos": 63,
           "atendidos": 59,
-          "pendentes": 11,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Autorregularização",
               "atendidosDentro": 4,
               "atendidosFora": 22,
-              "pendentes": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 79983,
@@ -20807,14 +20735,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 79642,
-                  "cliente": "JANAE PAES E DOCES LTDA",
-                  "dataCadastro": "2026-06-02",
-                  "prazo": "2026-06-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79990,
                   "cliente": "Mercado Juquicenter Ltda - Loja 09",
                   "dataCadastro": "2026-06-12",
@@ -20829,14 +20749,6 @@
                   "prazo": "2026-06-17",
                   "dataEntrega": "2026-06-18",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 80159,
-                  "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 02)",
-                  "dataCadastro": "2026-06-17",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 80152,
@@ -20927,14 +20839,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 80203,
-                  "cliente": "MERCH LINK LTDA",
-                  "dataCadastro": "2026-06-18",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79895,
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-06-11",
@@ -21004,16 +20908,8 @@
               "nome": "Multas Diversas",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
-                {
-                  "id": 79648,
-                  "cliente": "RICARDO SANTOS COSTA ",
-                  "dataCadastro": "2026-06-02",
-                  "prazo": "2026-06-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 79921,
                   "cliente": "NARCIZO ALVES CORDEIRO",
@@ -21188,7 +21084,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80211,
@@ -21205,22 +21101,6 @@
                   "prazo": "2026-06-19",
                   "dataEntrega": "2026-06-19",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 79659,
-                  "cliente": "ORIVALDO DAN",
-                  "dataCadastro": "2026-06-03",
-                  "prazo": "2026-06-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79868,
-                  "cliente": "MERCH LINK LTDA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -21228,21 +21108,13 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80646,
                   "cliente": "SUPERMERCADO VINI LTDA ",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79799,
-                  "cliente": "SUPERMERCADO SANTA MARIA LTDA",
-                  "dataCadastro": "2026-06-09",
-                  "prazo": "2026-06-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -21824,10 +21696,34 @@
           ]
         },
         {
+          "mes": "2026-05",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "Malha Fiscal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 79515,
+                  "cliente": null,
+                  "dataCadastro": "2026-05-27",
+                  "prazo": "2026-06-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "mes": "2026-06",
-          "abertos": 47,
+          "abertos": 61,
           "atendidos": 19,
-          "pendentes": 28,
+          "pendentes": 42,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -21930,6 +21826,62 @@
                   "prazo": "2026-06-12",
                   "dataEntrega": "2026-06-16",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 80509,
+                  "cliente": "HEAD INFORMATICA MULTIMARCAS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-06-23",
+                  "prazo": "2026-06-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Autorregularização",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 4,
+              "chamados": [
+                {
+                  "id": 79642,
+                  "cliente": "JANAE PAES E DOCES LTDA",
+                  "dataCadastro": "2026-06-02",
+                  "prazo": "2026-06-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80159,
+                  "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 02)",
+                  "dataCadastro": "2026-06-17",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80203,
+                  "cliente": "MERCH LINK LTDA",
+                  "dataCadastro": "2026-06-18",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80138,
+                  "cliente": "OBA OBA MIX LTDA",
+                  "dataCadastro": "2026-06-17",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -22184,6 +22136,126 @@
                   "cliente": "COXA PARTICIPACOES S A",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Multas Diversas",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 79648,
+                  "cliente": "RICARDO SANTOS COSTA ",
+                  "dataCadastro": "2026-06-02",
+                  "prazo": "2026-06-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Omissão de Obrigações Acessórias",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 79588,
+                  "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-06-01",
+                  "prazo": "2026-06-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 80457,
+                  "cliente": "GENGIBRE ADMINISTRACAO E PARTICIPACOES S.A.",
+                  "dataCadastro": "2026-06-23",
+                  "prazo": "2026-06-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80209,
+                  "cliente": "Distribuidora J Jotas Ltda.",
+                  "dataCadastro": "2026-06-18",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 79659,
+                  "cliente": "ORIVALDO DAN",
+                  "dataCadastro": "2026-06-03",
+                  "prazo": "2026-06-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79868,
+                  "cliente": "MERCH LINK LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Retificação de Obrigação Acessória",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 79799,
+                  "cliente": "SUPERMERCADO SANTA MARIA LTDA",
+                  "dataCadastro": "2026-06-09",
+                  "prazo": "2026-06-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79995,
+                  "cliente": "JARDIM ELÉTRICO PRODUÇÕES LTDA",
+                  "dataCadastro": "2026-06-15",
+                  "prazo": "2026-06-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Saldo Credor Incorreto",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 80003,
+                  "cliente": "OBA OBA MIX LTDA",
+                  "dataCadastro": "2026-06-15",
+                  "prazo": "2026-06-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
