@@ -742,8 +742,8 @@ async function openRelatorios() {
   showView('relatorios-home');
 }
 
-function totalAbertosDept(dept) {
-  return dept.meses.reduce((soma, m) => soma + m.abertos, 0);
+function totalAtendidosDept(dept) {
+  return dept.meses.reduce((soma, m) => soma + m.atendidos, 0);
 }
 
 function renderRelatoriosHome() {
@@ -764,13 +764,13 @@ function renderRelatoriosHome() {
     : '';
 
   $grid.innerHTML = '';
-  const ordenados = [...deptos].sort((a, b) => totalAbertosDept(b) - totalAbertosDept(a));
+  const ordenados = [...deptos].sort((a, b) => totalAtendidosDept(b) - totalAtendidosDept(a));
   for (const dept of ordenados) {
     const card = document.createElement('div');
     card.className = 'dept-card';
     card.innerHTML = `
       <div class="card-name">${escHtml(dept.nome)}</div>
-      <div class="card-count">${totalAbertosDept(dept).toLocaleString('pt-BR')}</div>
+      <div class="card-count">${totalAtendidosDept(dept).toLocaleString('pt-BR')}</div>
       <div class="card-hint">Clique para ver o relatório</div>`;
     card.addEventListener('click', () => openRelatorioDept(dept.nome));
     $grid.appendChild(card);
