@@ -125,6 +125,11 @@ TIPOS_EXTRACAO = {
         "descricao":    "Gerência de Contas + GC Administrativo",
         "departamentos": ["GERENCIA DE CONTAS", "GC - ADMINISTRATIVO"],
     },
+    "4": {
+        "label":        "Paralegal",
+        "descricao":    "Apenas Paralegal",
+        "departamentos": ["PARALEGAL"],
+    },
 }
 
 # ============================================================
@@ -200,8 +205,8 @@ def perguntar_extracao():
         table.add_row(f"[{k}]", v["label"],
                       v["descricao"] + f"\n[dim italic]{deptos}[/dim italic]")
 
-    table.add_row("[4]", "Todas (seq.)",
-                  "Executa as 3 extrações em sequência — gera 3 arquivos separados")
+    table.add_row("[5]", "Todas (seq.)",
+                  f"Executa as {len(TIPOS_EXTRACAO)} extrações em sequência — gera {len(TIPOS_EXTRACAO)} arquivos separados")
 
     console.print(Align.center(table))
     console.print()
@@ -212,9 +217,9 @@ def perguntar_extracao():
             escolha = TIPOS_EXTRACAO[opcao]
             console.print("  [green]✔ Extração:[/green] [bold]" + escolha["label"] + "[/bold]")
             return opcao, escolha["label"], escolha["departamentos"]
-        if opcao == "4":
-            console.print("  [green]✔ Extração:[/green] [bold]Todas (sequencial — 3 arquivos)[/bold]")
-            return "4", "Todas", None
+        if opcao == "5":
+            console.print(f"  [green]✔ Extração:[/green] [bold]Todas (sequencial — {len(TIPOS_EXTRACAO)} arquivos)[/bold]")
+            return "5", "Todas", None
         console.print("  [red]Opção inválida. Tente novamente.[/red]")
 
 # ============================================================
@@ -609,11 +614,14 @@ def _find_file(folder: Path, pattern: str, required=True):
 
 def _dept_group(nome):
     """Agrupa o Departamento Responsavel do jeito que o portal exibe —
-    GC - Administrativo sempre unificado em GERENCIA DE CONTAS. Ver
-    deptGroupName() em script.js (mesma regra, front e back)."""
+    GC - Administrativo sempre unificado em GERENCIA DE CONTAS, e
+    PL - Auditoria (nome do depto no relatório de origem) exibido como
+    PARALEGAL. Ver deptGroupName() em script.js (mesma regra, front e back)."""
     dept = str(nome).strip().upper() if nome else ''
     if dept == 'GC - ADMINISTRATIVO':
         return 'GERENCIA DE CONTAS'
+    if dept == 'PL - AUDITORIA':
+        return 'PARALEGAL'
     return dept or 'SEM DEPARTAMENTO'
 
 
@@ -754,13 +762,15 @@ def atualizar_base():
     coord_path = _find_file(att_dir, "*oordenadores*.xlsx",             required=False)
     gc_path    = _find_file(att_dir, "*Chamados - GC*.xlsx",            required=False)
     ctr_path   = _find_file(att_dir, "*Chamados - Controladoria*.xlsx", required=False)
+    pl_path    = _find_file(att_dir, "*Chamados - Paralegal*.xlsx",     required=False)
 
     gc_name  = gc_path.name  if gc_path  else None
     ctr_name = ctr_path.name if ctr_path else None
+    pl_name  = pl_path.name  if pl_path  else None
 
     chamados_paths = [
         p for p in att_dir.glob("*Chamados*.xlsx")
-        if p.name != gc_name and p.name != ctr_name
+        if p.name != gc_name and p.name != ctr_name and p.name != pl_name
     ]
     if not chamados_paths:
         raise FileNotFoundError(
@@ -773,6 +783,7 @@ def atualizar_base():
         console.print(f"  [dim]Chamados:[/dim]      {p.name}")
     console.print(f"  [dim]GC:[/dim]            {gc_name  or '[yellow]não encontrado[/yellow]'}")
     console.print(f"  [dim]Controladoria:[/dim] {ctr_name or '[yellow]não encontrado[/yellow]'}")
+    console.print(f"  [dim]Paralegal:[/dim]     {pl_name  or '[yellow]não encontrado[/yellow]'}")
     console.print()
 
     # Mapa de colaboradores
@@ -815,6 +826,7 @@ def atualizar_base():
     fontes = [(p.stem, p) for p in sorted(chamados_paths)]
     if gc_path:  fontes.append(("GC",            gc_path))
     if ctr_path: fontes.append(("Controladoria", ctr_path))
+    if pl_path:  fontes.append(("Paralegal",     pl_path))
 
     for label, path in fontes:
         wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
@@ -1005,7 +1017,7 @@ def executar(auto=False):
     ))
 
     if auto:
-        opcao, label_extracao, departamentos = "4", "Todas", None
+        opcao, label_extracao, departamentos = "5", "Todas", None
         headless = True
         console.print(
             "  [dim][--auto] Extração: [bold magenta]Todas (sequencial)[/bold magenta] | "
@@ -1018,13 +1030,13 @@ def executar(auto=False):
     data_inicio = DATA_INICIO
     data_fim    = hoje_str()
 
-    if opcao == "4":
+    if opcao == "5":
         extracoes = [(v["label"], v["departamentos"]) for v in TIPOS_EXTRACAO.values()]
     else:
         extracoes = [(label_extracao, departamentos)]
 
     console.print()
-    if opcao == "4":
+    if opcao == "5":
         console.print(
             f"  [dim]Extração: [bold cyan]Todas (sequencial)[/bold cyan] | "
             f"[bold cyan]{len(extracoes)}[/bold cyan] extrações[/dim]"

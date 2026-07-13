@@ -156,7 +156,10 @@ function showError(msg) {
    um único card/departamento no portal, nunca separados. ─────────── */
 function deptGroupName(row) {
   const raw = String(col(row, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || '').trim();
-  return raw.toUpperCase() === 'GC - ADMINISTRATIVO' ? 'GERENCIA DE CONTAS' : (raw || 'Sem Departamento');
+  const upper = raw.toUpperCase();
+  if (upper === 'GC - ADMINISTRATIVO') return 'GERENCIA DE CONTAS';
+  if (upper === 'PL - AUDITORIA') return 'PARALEGAL';
+  return raw || 'Sem Departamento';
 }
 
 /* ─── COLUMN RESOLVER ────────────────────────────────────────────── */
@@ -234,8 +237,9 @@ function renderHome() {
     const dept = deptGroupName(row);
     deptMap[dept] = (deptMap[dept] || 0) + 1;
   }
-  // Garante que GERENCIA DE CONTAS aparece mesmo que não tenha pendentes
+  // Garante que GERENCIA DE CONTAS e PARALEGAL aparecem mesmo sem pendentes
   if (!deptMap['GERENCIA DE CONTAS']) deptMap['GERENCIA DE CONTAS'] = 0;
+  if (!deptMap['PARALEGAL']) deptMap['PARALEGAL'] = 0;
 
   const depts = Object.entries(deptMap).sort((a, b) => b[1] - a[1]);
   if ($totalRecs) $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
