@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/07/2026 15:03",
+  "atualizado_em": "13/07/2026 17:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 88,
+          "abertos": 89,
           "atendidos": 88,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 71,
               "atendidosFora": 16,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -15447,6 +15447,14 @@
                   "prazo": "2026-07-14",
                   "dataEntrega": "2026-07-13",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 80986,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80666,
@@ -21356,16 +21364,24 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 1,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Autorregularização",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
+                {
+                  "id": 80985,
+                  "cliente": "MERCADO GUALTIERI LTDA",
+                  "dataCadastro": "2026-07-13",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80796,
                   "cliente": "Mercado R.T. Carvalho e Filho Ltda.",
@@ -22466,8 +22482,8 @@
         {
           "mes": "2026-07",
           "abertos": 12,
-          "atendidos": 0,
-          "pendentes": 12,
+          "atendidos": 1,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -22519,17 +22535,17 @@
             },
             {
               "nome": "Certificado",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80965,
                   "cliente": "CASA SANTA GEMMA SUPERMERCADOS LTDA",
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-13",
+                  "status": "atendido_dentro"
                 }
               ]
             },
