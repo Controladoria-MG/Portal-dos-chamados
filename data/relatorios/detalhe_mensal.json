@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/07/2026 13:03",
+  "atualizado_em": "14/07/2026 15:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 113,
-          "atendidos": 103,
-          "pendentes": 10,
+          "abertos": 117,
+          "atendidos": 112,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 70,
+              "atendidosDentro": 79,
               "atendidosFora": 32,
-              "pendentes": 10,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80661,
@@ -15485,8 +15485,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81013,
@@ -15597,16 +15597,40 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81031,
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-16",
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81032,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81034,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-15",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 81035,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80664,
@@ -15661,24 +15685,32 @@
                   "cliente": "LINHARES E FONTOURA CONSTRUCAO CIVIL LTDA ",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81033,
+                  "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81022,
                   "cliente": "CZLOC LOCACAO DE EQUIPAMENTOS PARA CONSTRUCAO CIVIL LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81021,
                   "cliente": "CONCEITO ESTRUTURA LOCADORA LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80987,
@@ -20415,9 +20447,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 3,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -20583,13 +20615,21 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80738,
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81036,
+                  "cliente": "PLANET GRAPHICS LTDA ",
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
