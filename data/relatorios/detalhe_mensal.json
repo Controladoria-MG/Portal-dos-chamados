@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/07/2026 17:03",
+  "atualizado_em": "14/07/2026 18:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -12271,14 +12271,14 @@
         {
           "mes": "2026-06",
           "abertos": 315,
-          "atendidos": 313,
-          "pendentes": 2,
+          "atendidos": 314,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 195,
-              "atendidosFora": 118,
-              "pendentes": 2,
+              "atendidosFora": 119,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 79564,
@@ -14349,8 +14349,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80634,
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 119,
-          "atendidos": 115,
-          "pendentes": 4,
+          "abertos": 124,
+          "atendidos": 118,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 82,
+              "atendidosDentro": 85,
               "atendidosFora": 32,
-              "pendentes": 4,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 80661,
@@ -15525,16 +15525,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81020,
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80993,
@@ -15645,6 +15645,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81044,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81045,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -15671,6 +15687,14 @@
                   "prazo": "2026-07-15",
                   "dataEntrega": "2026-07-14",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81047,
+                  "cliente": "NOVO GESSO ROCHDALE LTDA",
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80667,
@@ -15729,6 +15753,14 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 81046,
+                  "cliente": "RRW DISTRIBUIDORA E IMPORTADORA DE PECAS LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 80987,
                   "cliente": "VPS COMERCIO DE AUTO PECAS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-07-13",
@@ -15751,6 +15783,14 @@
                   "prazo": "2026-07-14",
                   "dataEntrega": "2026-07-13",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81048,
+                  "cliente": "MERCADO VIOLETA LTDA (FILIAL 10)",
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80681,
@@ -18893,15 +18933,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 14,
+          "abertos": 15,
           "atendidos": 12,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80669,
@@ -18910,6 +18950,14 @@
                   "prazo": "2026-07-02",
                   "dataEntrega": "2026-07-07",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81043,
+                  "cliente": "COMERCIAL TOP DOCES LTDA",
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -19896,8 +19944,8 @@
         {
           "mes": "2026-06",
           "abertos": 57,
-          "atendidos": 49,
-          "pendentes": 8,
+          "atendidos": 48,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -20085,17 +20133,17 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 5,
+              "atendidosDentro": 4,
               "atendidosFora": 3,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 79602,
                   "cliente": null,
                   "dataCadastro": "2026-06-02",
                   "prazo": "2026-06-12",
-                  "dataEntrega": "2026-06-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 79603,
