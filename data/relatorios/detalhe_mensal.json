@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/07/2026 17:03",
+  "atualizado_em": "15/07/2026 18:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 191,
-              "atendidosFora": 124,
+              "atendidosDentro": 190,
+              "atendidosFora": 125,
               "pendentes": 0,
               "chamados": [
                 {
@@ -12805,8 +12805,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-08",
                   "prazo": "2026-06-09",
-                  "dataEntrega": "2026-06-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79760,
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 146,
-          "atendidos": 140,
-          "pendentes": 6,
+          "abertos": 148,
+          "atendidos": 144,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 104,
+              "atendidosDentro": 108,
               "atendidosFora": 35,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 80661,
@@ -15805,30 +15805,46 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81083,
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81085,
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81086,
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
+                  "dataEntrega": "2026-07-15",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81087,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-15",
+                  "prazo": "2026-07-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81088,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-15",
+                  "prazo": "2026-07-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
