@@ -54,6 +54,19 @@ function earliestPrazo(rows) {
   }
   return best ? best.raw : '';
 }
+function previsaoVal(row) {
+  return col(row,'DataPrevisaoAtendimento','Data Previsao Atendimento','Data Previsão Atendimento','Data Previsão de Atendimento','Data_Previsao_Atendimento');
+}
+/* Previsão de Atendimento mais próxima entre um conjunto de chamados */
+function earliestPrevisao(rows) {
+  let best = null;
+  for (const r of rows) {
+    const raw = previsaoVal(r);
+    const date = parsePrazoDate(raw);
+    if (date && (!best || date < best.date)) best = { raw, date };
+  }
+  return best ? best.raw : '';
+}
 function rowMatchesFilters(row) {
   return FILTER_DEFS.every(def => {
     const active = activeFilters[def.key];
@@ -517,6 +530,8 @@ function applyFilters() {
 
     const prazoCell = tr.querySelector('.prazo-cell');
     if (prazoCell) prazoCell.innerHTML = fmtPrazo(earliestPrazo(relevantRows));
+    const previsaoCell = tr.querySelector('.previsao-cell');
+    if (previsaoCell) previsaoCell.textContent = fmt(earliestPrevisao(relevantRows));
 
     const visible = matchText && matchFiltros;
     tr.style.display = visible ? '' : 'none';
@@ -555,11 +570,14 @@ function renderDeptRows(allDeptRows) {
   }
   // Prazo Vencimento exibido na linha do cliente = o mais urgente entre
   // todos os chamados dele (não apenas o primeiro encontrado nos dados).
-  Object.values(clientMap).forEach(c => { c.prazoVenc = earliestPrazo(c.rows); });
+  Object.values(clientMap).forEach(c => {
+    c.prazoVenc = earliestPrazo(c.rows);
+    c.previsao  = earliestPrevisao(c.rows);
+  });
 
   // Restaura cabeçalho padrão
   const thead = $clientBody.closest('table').querySelector('thead tr');
-  thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th>Data Cadastro</th><th class="prazo-cell">Prazo Vencimento</th>';
+  thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th class="date-cell">Data Cadastro</th><th class="previsao-cell">Previsão Atend.</th><th class="prazo-cell">Prazo Vencimento</th>';
 
   const clients = Object.values(clientMap).sort((a, b) => {
     const da = parsePrazoDate(a.prazoVenc);
@@ -578,7 +596,7 @@ function renderClientTable(clients) {
   $clientBody.innerHTML = '';
 
   if (!clients.length) {
-    $clientBody.innerHTML = `<tr><td colspan="4" class="empty">Nenhum registro encontrado.</td></tr>`;
+    $clientBody.innerHTML = `<tr><td colspan="5" class="empty">Nenhum registro encontrado.</td></tr>`;
     return;
   }
 
@@ -590,6 +608,7 @@ function renderClientTable(clients) {
       <td class="id-cell">${escHtml(c.id)||'—'}</td>
       <td class="name-cell">${escHtml(String(c.name))}</td>
       <td class="date-cell">${fmt(c.dataCad)}</td>
+      <td class="date-cell previsao-cell">${fmt(c.previsao)}</td>
       <td class="prazo-cell">${fmtPrazo(c.prazoVenc)}</td>`;
     tr.addEventListener('click', () => toggleClientDetail(tr, c));
     $clientBody.appendChild(tr);
@@ -624,7 +643,7 @@ function toggleClientDetail(tr, client) {
   const detailTr = document.createElement('tr');
   detailTr.className = 'detail-row';
   const td = document.createElement('td');
-  td.colSpan = 4;
+  td.colSpan = 5;
 
   const showDeptoAnterior = currentDeptTemDeptoAnterior;
 
@@ -640,12 +659,12 @@ function toggleClientDetail(tr, client) {
               <div class="ticket-field"><span class="f-label">Coordenador</span><span class="f-value">${escHtml(String(col(r,'Coordenador','coordenador')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Depto. Solicitante</span><span class="f-value">${escHtml(String(col(r,'Departamento Solicitante','Departamento_Solicitante')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Data Cadastro</span><span class="f-value">${fmt(col(r,'Data Cadastro','DataCadastro','Data_Cadastro'))}</span></div>
+              <div class="ticket-field"><span class="f-label">Previsão Atend.</span><span class="f-value">${fmt(col(r,'DataPrevisaoAtendimento','Data Previsao Atendimento','Data Previsão Atendimento','Data Previsão de Atendimento','Data_Previsao_Atendimento'))}</span></div>
               <div class="ticket-field"><span class="f-label">Prazo Vencimento</span><span class="f-value">${fmtPrazo(prazoVal(r))}</span></div>
               <div class="ticket-field"><span class="f-label">Status</span><span class="f-value">${badge(col(r,'Status','status'))}</span></div>
               ${showDeptoAnterior ? `<div class="ticket-field"><span class="f-label">Depto. Anterior</span><span class="f-value">${escHtml(String(col(r,'Departamento Responsavel Original','Departamento Responsável Original')||'—'))}</span></div>` : ''}
               <div class="ticket-field"><span class="f-label">Solicitante</span><span class="f-value">${escHtml(String(col(r,'Solicitante','solicitante')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Início Atend.</span><span class="f-value">${fmt(col(r,'Inicio Atend.','Início Atend.','Inicio Atendimento','InicioAtend','Inicio_Atend'))}</span></div>
-              <div class="ticket-field"><span class="f-label">Previsão Atend.</span><span class="f-value">${fmt(col(r,'DataPrevisaoAtendimento','Data Previsao Atendimento','Data Previsão Atendimento','Data Previsão de Atendimento','Data_Previsao_Atendimento'))}</span></div>
             </div>
             <div class="ticket-bottom">
               <span class="f-label">Solicitação</span>

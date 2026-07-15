@@ -386,8 +386,10 @@ tbody tr:last-child td { border-bottom: none; }
 
 td.id-cell   { font-weight: 500; color: var(--text); font-size: 0.82rem; }
 td.name-cell { color: var(--text); font-weight: 600; font-size: 0.82rem; }
-td.date-cell { color: var(--text); font-size: 0.82rem; font-variant-numeric: tabular-nums; }
+td.date-cell { color: var(--text); font-size: 0.82rem; font-variant-numeric: tabular-nums; text-align: center; }
+th.date-cell { text-align: center; font-variant-numeric: tabular-nums; }
 td.prazo-cell, th.prazo-cell { text-align: center; font-variant-numeric: tabular-nums; }
+td.previsao-cell, th.previsao-cell { text-align: center; font-variant-numeric: tabular-nums; }
 td.num-cell, th.num-cell { text-align: center; font-variant-numeric: tabular-nums; }
 .prazo-vencido { color: #C00000; font-weight: 600; font-size: 0.82rem; }
 
