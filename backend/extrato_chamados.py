@@ -1178,6 +1178,7 @@ def executar(auto=False):
                 title="[red]Erro ao atualizar base.xlsx[/red]",
                 border_style="red",
             ))
+            raise
 
     console.print()
 
