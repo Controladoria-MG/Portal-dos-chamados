@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/07/2026 13:04",
+  "atualizado_em": "15/07/2026 14:17",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14812,8 +14812,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 100,
-              "atendidosFora": 32,
+              "atendidosDentro": 99,
+              "atendidosFora": 33,
               "pendentes": 2,
               "chamados": [
                 {
@@ -15141,8 +15141,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-07",
                   "prazo": "2026-07-08",
-                  "dataEntrega": "2026-07-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80813,
@@ -22945,9 +22945,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 14,
+          "abertos": 15,
           "atendidos": 1,
-          "pendentes": 13,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23017,8 +23017,16 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 81074,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-15",
+                  "prazo": "2026-07-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80965,
                   "cliente": "CASA SANTA GEMMA SUPERMERCADOS LTDA",
