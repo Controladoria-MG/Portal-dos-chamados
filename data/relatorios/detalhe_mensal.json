@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/07/2026 18:03",
+  "atualizado_em": "15/07/2026 09:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -16791,7 +16791,7 @@
                   "cliente": "GTG EMPREENDIMENTOS SERVIÇOS E COMERCIO LTDA",
                   "dataCadastro": "2026-06-25",
                   "prazo": "2026-06-26",
-                  "dataEntrega": "2026-07-13",
+                  "dataEntrega": "2026-07-14",
                   "status": "atendido_fora"
                 }
               ]
@@ -17214,8 +17214,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 2,
-              "atendidosFora": 2,
+              "atendidosDentro": 0,
+              "atendidosFora": 4,
               "pendentes": 4,
               "chamados": [
                 {
@@ -17223,8 +17223,8 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-07",
-                  "dataEntrega": "2026-07-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80946,
@@ -17247,8 +17247,8 @@
                   "cliente": "CLAMEPI LOCADORA DE BENS LTDA",
                   "dataCadastro": "2026-07-07",
                   "prazo": "2026-07-08",
-                  "dataEntrega": "2026-07-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80713,
@@ -17263,7 +17263,7 @@
                   "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-07-03",
                   "prazo": "2026-07-07",
-                  "dataEntrega": "2026-07-13",
+                  "dataEntrega": "2026-07-14",
                   "status": "atendido_fora"
                 },
                 {
@@ -17303,7 +17303,7 @@
                   "cliente": "DM COMERCIO ALIMENTICIO LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-07",
-                  "dataEntrega": "2026-07-13",
+                  "dataEntrega": "2026-07-14",
                   "status": "atendido_fora"
                 }
               ]
@@ -18620,7 +18620,7 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA  (MATRIZ)",
                   "dataCadastro": "2026-06-22",
                   "prazo": "2026-06-26",
-                  "dataEntrega": "2026-07-02",
+                  "dataEntrega": "2026-07-14",
                   "status": "atendido_fora"
                 },
                 {
