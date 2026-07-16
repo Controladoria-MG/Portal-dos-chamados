@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/07/2026 13:08",
+  "atualizado_em": "16/07/2026 15:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -16633,8 +16633,8 @@
         {
           "mes": "2026-06",
           "abertos": 86,
-          "atendidos": 77,
-          "pendentes": 9,
+          "atendidos": 78,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -16959,8 +16959,8 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
-              "atendidosFora": 5,
-              "pendentes": 1,
+              "atendidosFora": 6,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80416,
@@ -16991,8 +16991,8 @@
                   "cliente": "E A P PINGO REFRIGERAÇÃO",
                   "dataCadastro": "2026-06-29",
                   "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80043,
@@ -17465,8 +17465,8 @@
         {
           "mes": "2026-07",
           "abertos": 22,
-          "atendidos": 12,
-          "pendentes": 10,
+          "atendidos": 17,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17487,8 +17487,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 0,
-              "atendidosFora": 5,
-              "pendentes": 3,
+              "atendidosFora": 6,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80745,
@@ -17511,8 +17511,8 @@
                   "cliente": "ESS INDUSTRIA E COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80790,
@@ -17559,16 +17559,16 @@
             {
               "nome": "Conciliação de Contas",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80771,
                   "cliente": "NOVAIS IT SOLUCOES TECNOLOGICAS LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80778,
@@ -17599,8 +17599,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 3,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81093,
@@ -17615,8 +17615,8 @@
                   "cliente": "ENBRAGEO ENGENHARIA LTDA ",
                   "dataCadastro": "2026-07-07",
                   "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80830,
@@ -17631,8 +17631,8 @@
                   "cliente": "RN MUROS LTDA",
                   "dataCadastro": "2026-07-07",
                   "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -17655,16 +17655,16 @@
             {
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80686,
                   "cliente": "Geo Eletron Semicondutores LTDA",
                   "dataCadastro": "2026-07-01",
                   "prazo": "2026-07-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 }
               ]
             },
