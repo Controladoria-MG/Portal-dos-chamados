@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/07/2026 18:03",
+  "atualizado_em": "16/07/2026 09:02",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -10156,8 +10156,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 121,
-              "atendidosFora": 142,
+              "atendidosDentro": 118,
+              "atendidosFora": 145,
               "pendentes": 0,
               "chamados": [
                 {
@@ -11037,8 +11037,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-15",
                   "prazo": "2026-05-18",
-                  "dataEntrega": "2026-05-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79312,
@@ -11437,8 +11437,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-26",
                   "prazo": "2026-05-27",
-                  "dataEntrega": "2026-05-26",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79482,
@@ -11677,8 +11677,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-22",
                   "prazo": "2026-05-26",
-                  "dataEntrega": "2026-05-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79421,
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 190,
-              "atendidosFora": 125,
+              "atendidosDentro": 186,
+              "atendidosFora": 129,
               "pendentes": 0,
               "chamados": [
                 {
@@ -13365,8 +13365,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-12",
                   "prazo": "2026-06-15",
-                  "dataEntrega": "2026-06-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79950,
@@ -13405,8 +13405,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-12",
                   "prazo": "2026-06-15",
-                  "dataEntrega": "2026-06-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79963,
@@ -13613,8 +13613,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-17",
                   "prazo": "2026-06-19",
-                  "dataEntrega": "2026-06-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80144,
@@ -13957,8 +13957,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-22",
                   "prazo": "2026-06-24",
-                  "dataEntrega": "2026-06-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80424,
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 148,
-          "atendidos": 144,
-          "pendentes": 4,
+          "abertos": 151,
+          "atendidos": 145,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 108,
-              "atendidosFora": 35,
-              "pendentes": 4,
+              "atendidosDentro": 107,
+              "atendidosFora": 37,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 80661,
@@ -15373,16 +15373,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80967,
                   "cliente": null,
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80968,
@@ -15461,8 +15461,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81002,
@@ -15493,7 +15493,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-14",
+                  "dataEntrega": "2026-07-15",
                   "status": "atendido_dentro"
                 },
                 {
@@ -15837,14 +15837,38 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81088,
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81089,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-15",
+                  "prazo": "2026-07-16",
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81090,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-15",
+                  "prazo": "2026-07-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81092,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -22296,7 +22320,7 @@
                   "cliente": "HAITTER INDUSTRIA DE MAQUINAS LTDA.",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
-                  "dataEntrega": "2026-06-18",
+                  "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
                 },
                 {
@@ -22320,7 +22344,7 @@
                   "cliente": "TRONICS DO BRASIL INDUSTRIA DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
-                  "dataEntrega": "2026-06-18",
+                  "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
                 },
                 {
@@ -22384,7 +22408,7 @@
                   "cliente": "Caete Comunicacao Visual LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
-                  "dataEntrega": "2026-07-07",
+                  "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
                 },
                 {
@@ -22392,7 +22416,7 @@
                   "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
-                  "dataEntrega": "2026-06-18",
+                  "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
                 },
                 {
@@ -23345,22 +23369,6 @@
               "pendentes": 9,
               "chamados": [
                 {
-                  "id": 79856,
-                  "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79855,
-                  "cliente": "BRASILEIRÃO ATACADO COMÉRCIO DE PRODUTOS ALIMENTICIOS SOCIEDADE ANÔNIMA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79865,
                   "cliente": "EMPORIO DOS FRIOS LTDA",
                   "dataCadastro": "2026-06-10",
@@ -23411,6 +23419,22 @@
                 {
                   "id": 79861,
                   "cliente": "DROGA MX LTDA (MATRIZ)",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79856,
+                  "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79855,
+                  "cliente": "BRASILEIRÃO ATACADO COMÉRCIO DE PRODUTOS ALIMENTICIOS SOCIEDADE ANÔNIMA",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-12",
                   "dataEntrega": null,
@@ -23478,9 +23502,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 0,
-          "pendentes": 18,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -23622,16 +23646,8 @@
               "nome": "Senha",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
-                {
-                  "id": 80995,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-14",
-                  "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 81068,
                   "cliente": null,
@@ -23661,6 +23677,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80995,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81091,
+                  "cliente": "JDM DISTRIBUIDORA DE PRODUTOS ALIMENTÍCIOS LTDA ",
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
