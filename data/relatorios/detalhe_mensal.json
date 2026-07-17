@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/07/2026 15:17",
+  "atualizado_em": "17/07/2026 16:19",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -16784,9 +16784,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 86,
-          "atendidos": 78,
-          "pendentes": 8,
+          "abertos": 85,
+          "atendidos": 83,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -17071,8 +17071,8 @@
             {
               "nome": "Conciliação de Contas",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 3,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80557,
@@ -17087,24 +17087,24 @@
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80641,
                   "cliente": "CONCEITO ESTRUTURA LOCADORA LTDA",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80545,
                   "cliente": "DM COMERCIO ALIMENTICIO LTDA",
                   "dataCadastro": "2026-06-24",
                   "prazo": "2026-06-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -17176,16 +17176,8 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
-                {
-                  "id": 79955,
-                  "cliente": "DON MARCHÊ SERVIÇOS DE ALIMENTAÇÃO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-06-12",
-                  "prazo": "2026-06-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 80219,
                   "cliente": "DISTRIBUIDOR DE MORANGOS LTDA",
@@ -17263,24 +17255,24 @@
             {
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80535,
                   "cliente": "GTG EMPREENDIMENTOS SERVIÇOS E COMERCIO LTDA",
                   "dataCadastro": "2026-06-24",
                   "prazo": "2026-06-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 3,
-              "atendidosFora": 5,
-              "pendentes": 1,
+              "atendidosFora": 6,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 79804,
@@ -17295,8 +17287,8 @@
                   "cliente": "D&T BRASIL INDUSTRIA DE ELETRÔNICOS LTDA",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79708,
@@ -17617,8 +17609,8 @@
         {
           "mes": "2026-07",
           "abertos": 26,
-          "atendidos": 18,
-          "pendentes": 8,
+          "atendidos": 19,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17639,8 +17631,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 0,
-              "atendidosFora": 6,
-              "pendentes": 3,
+              "atendidosFora": 7,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80745,
@@ -17703,8 +17695,8 @@
                   "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-07-02",
                   "prazo": "2026-07-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80943,
@@ -22865,9 +22857,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 57,
+          "abertos": 58,
           "atendidos": 20,
-          "pendentes": 37,
+          "pendentes": 38,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23178,6 +23170,22 @@
                   "prazo": "2026-06-19",
                   "dataEntrega": "2026-07-07",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Documentação Contábil",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 79955,
+                  "cliente": "DON MARCHÊ SERVIÇOS DE ALIMENTAÇÃO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-06-12",
+                  "prazo": "2026-06-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
