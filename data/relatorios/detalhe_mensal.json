@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/07/2026 09:25",
+  "atualizado_em": "17/07/2026 14:17",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 161,
-          "atendidos": 159,
-          "pendentes": 2,
+          "abertos": 170,
+          "atendidos": 170,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 117,
+              "atendidosDentro": 128,
               "atendidosFora": 41,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -15925,16 +15925,88 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81172,
                   "cliente": null,
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81173,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81174,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81176,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81179,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81180,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81184,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81186,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81187,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81189,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80664,
@@ -17512,9 +17584,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 18,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17551,7 +17623,7 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-07-13",
-                  "dataEntrega": "2026-07-15",
+                  "dataEntrega": "2026-07-17",
                   "status": "atendido_fora"
                 },
                 {
@@ -17559,7 +17631,7 @@
                   "cliente": "ESS INDUSTRIA E COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-16",
+                  "dataEntrega": "2026-07-17",
                   "status": "atendido_fora"
                 },
                 {
@@ -17775,6 +17847,22 @@
                   "cliente": "LINHARES E FONTOURA CONSTRUCAO CIVIL LTDA ",
                   "dataCadastro": "2026-07-12",
                   "prazo": "2026-07-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "SPED",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81191,
+                  "cliente": "Parafutrecos Comercial LTDA ",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -19277,9 +19365,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 13,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -19389,7 +19477,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80819,
@@ -19406,6 +19494,14 @@
                   "prazo": "2026-07-08",
                   "dataEntrega": "2026-07-08",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81192,
+                  "cliente": "SAMPA ATACADO DE GENEROS ALIMENTICIOS E BEBIDAS LTDA",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80926,
@@ -19914,26 +20010,10 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 4,
+          "abertos": 3,
           "atendidos": 1,
-          "pendentes": 3,
+          "pendentes": 2,
           "categorias": [
-            {
-              "nome": "Auditoria",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 81019,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-14",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
             {
               "nome": "Documentação",
               "atendidosDentro": 0,
@@ -20911,9 +20991,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 25,
+          "abertos": 27,
           "atendidos": 3,
-          "pendentes": 22,
+          "pendentes": 24,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -20966,6 +21046,22 @@
                   "cliente": "MAC FRIO DISTRIBUIDORA LTDA",
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-07-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "MG Controle",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81183,
+                  "cliente": "GRIFFY FERRAMENTARIA DE PRECISAO LTDA",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -21087,7 +21183,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81069,
@@ -21104,6 +21200,14 @@
                   "prazo": "2026-07-03",
                   "dataEntrega": "2026-07-07",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81188,
+                  "cliente": "NOVAIS IT SOLUCOES TECNOLOGICAS LTDA",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -22172,9 +22276,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 12,
+          "abertos": 13,
           "atendidos": 2,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -22260,8 +22364,16 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 81190,
+                  "cliente": "DONA LELLA INDÚSTRIA E COMÉRCIO DE PRODUTOS PARA CONFEITARIA LTDA",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81098,
                   "cliente": "MIL ACESSORIOS E PRODUTOS PARA CONFEITARIA LTDA",
@@ -23702,9 +23814,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 7,
-          "pendentes": 12,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -23774,8 +23886,16 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 81019,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-14",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81052,
                   "cliente": null,
