@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/07/2026 14:17",
+  "atualizado_em": "17/07/2026 15:17",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 170,
-          "atendidos": 170,
+          "abertos": 171,
+          "atendidos": 171,
           "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 128,
+              "atendidosDentro": 129,
               "atendidosFora": 41,
               "pendentes": 0,
               "chamados": [
@@ -16009,6 +16009,14 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 81193,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
                   "id": 80664,
                   "cliente": "ELETRICA DO VALE SERVIÇOS DE INSTALAÇÕES ELÉTRICAS LTDA",
                   "dataCadastro": "2026-07-01",
@@ -16323,9 +16331,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 1,
+          "abertos": 3,
           "atendidos": 1,
-          "pendentes": 0,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -16340,6 +16348,30 @@
                   "prazo": "2026-07-16",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Omissão de Obrigações Acessórias",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 81196,
+                  "cliente": "A.H.M.H. PARTICIPACOES S.A. ",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81197,
+                  "cliente": "Adlpar Investimentos S.A.",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -17584,9 +17616,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 25,
+          "abertos": 26,
           "atendidos": 18,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17728,8 +17760,16 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 81195,
+                  "cliente": "MQ PRODUSERV COMÉRCIO E EMPREENDIMENTOS LTDA",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81158,
                   "cliente": "ESQUADRIAS SIDNEY LTDA",
@@ -23393,9 +23433,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 3,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23473,7 +23513,7 @@
               "nome": "Certificado",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81074,
@@ -23496,6 +23536,14 @@
                   "cliente": "ESPITE PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81194,
+                  "cliente": "EMPORIO RT CARVALHO LTDA",
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
