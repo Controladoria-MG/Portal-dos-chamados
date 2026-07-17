@@ -18,6 +18,7 @@ const FILTER_DEFS = [
   { key: 'coordenador',     label: 'Coordenador',         cols: ['Coordenador','coordenador'] },
   { key: 'status',          label: 'Status',              cols: ['Status','status'] },
   { key: 'vencimento',      label: 'Vencimento',          value: vencimentoStatus, sort: ['Vencido','Não Vencido'] },
+  { key: 'previsao',        label: 'Previsão Atend.',     value: previsaoLabel, sortFn: sortDateLabelsBR },
 ];
 const activeFilters = {
   categoria:        new Set(),
@@ -26,6 +27,7 @@ const activeFilters = {
   coordenador:      new Set(),
   status:           new Set(),
   vencimento:       new Set(),
+  previsao:         new Set(),
 };
 function resetFilters() {
   FILTER_DEFS.forEach(def => activeFilters[def.key].clear());
@@ -56,6 +58,19 @@ function earliestPrazo(rows) {
 }
 function previsaoVal(row) {
   return col(row,'DataPrevisaoAtendimento','Data Previsao Atendimento','Data Previsão Atendimento','Data Previsão de Atendimento','Data_Previsao_Atendimento');
+}
+/* Rótulo (dd/mm/aaaa) usado como opção do filtro de Previsão de Atendimento */
+function previsaoLabel(row) {
+  const date = parsePrazoDate(previsaoVal(row));
+  return date ? date.toLocaleDateString('pt-BR') : '';
+}
+/* Ordena rótulos 'dd/mm/aaaa' cronologicamente (não alfabeticamente) */
+function sortDateLabelsBR(labels) {
+  return labels.slice().sort((a, b) => {
+    const [da, ma, ya] = a.split('/').map(Number);
+    const [db, mb, yb] = b.split('/').map(Number);
+    return new Date(ya, ma - 1, da) - new Date(yb, mb - 1, db);
+  });
 }
 /* Previsão de Atendimento mais próxima entre um conjunto de chamados */
 function earliestPrevisao(rows) {
@@ -466,7 +481,9 @@ function positionDropdown(btn, dd) {
 function populateFilterDropdowns(rows) {
   FILTER_DEFS.forEach(def => {
     const found = [...new Set(rows.map(r => filterValue(r, def)).filter(Boolean))];
-    const values = def.sort ? def.sort.filter(v => found.includes(v)) : found.sort();
+    const values = def.sort   ? def.sort.filter(v => found.includes(v))
+                 : def.sortFn ? def.sortFn(found)
+                 : found.sort();
 
     const $list = document.getElementById(`${def.key}-list`);
     $list.innerHTML = '';
