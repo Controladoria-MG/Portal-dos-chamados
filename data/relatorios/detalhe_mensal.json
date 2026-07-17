@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/07/2026 18:03",
+  "atualizado_em": "17/07/2026 09:21",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 157,
-          "atendidos": 157,
-          "pendentes": 0,
+          "abertos": 161,
+          "atendidos": 159,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 116,
-              "atendidosFora": 40,
-              "pendentes": 0,
+              "atendidosDentro": 117,
+              "atendidosFora": 41,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80661,
@@ -14925,8 +14925,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-03",
                   "prazo": "2026-07-06",
-                  "dataEntrega": "2026-07-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80712,
@@ -15921,6 +15921,22 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 81171,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81172,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-17",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 80664,
                   "cliente": "ELETRICA DO VALE SERVIÇOS DE INSTALAÇÕES ELÉTRICAS LTDA",
                   "dataCadastro": "2026-07-01",
@@ -15950,6 +15966,14 @@
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
                   "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81170,
+                  "cliente": "LS COMÉRCIO DE PRODUTOS ALIMENTICIOS, PRESTAÇÃO DE SERVIÇOS DE APOIO ADMINISTRATIV E ESTACIONAMENTO",
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
                   "status": "atendido_dentro"
                 },
                 {
@@ -15990,6 +16014,14 @@
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
                   "dataEntrega": "2026-07-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81169,
+                  "cliente": "ALUSTOCK COMERCIO DE VIDROS E ESQUADRIAS DE ALUMINIO LTDA",
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-17",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17481,22 +17513,22 @@
         {
           "mes": "2026-07",
           "abertos": 24,
-          "atendidos": 17,
-          "pendentes": 7,
+          "atendidos": 18,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80944,
                   "cliente": "Local Serviços Especializados LTDA",
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-07-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-17",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -19246,14 +19278,14 @@
         {
           "mes": "2026-07",
           "abertos": 16,
-          "atendidos": 14,
-          "pendentes": 2,
+          "atendidos": 13,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80669,
@@ -19268,8 +19300,8 @@
                   "cliente": "COMERCIAL TOP DOCES LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -20879,9 +20911,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 3,
-          "pendentes": 21,
+          "pendentes": 22,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21135,13 +21167,21 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80769,
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81168,
+                  "cliente": "INDUSTRIA E COMERCIO RAIZES DO NORDESTE LTDA",
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -23663,8 +23703,8 @@
         {
           "mes": "2026-07",
           "abertos": 19,
-          "atendidos": 6,
-          "pendentes": 13,
+          "atendidos": 7,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -23756,9 +23796,9 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81004,
@@ -23781,8 +23821,8 @@
                   "cliente": "TAITI COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA (FILIAL 1)",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-16",
+                  "status": "atendido_dentro"
                 }
               ]
             },
