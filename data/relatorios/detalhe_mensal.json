@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 14:20",
+  "atualizado_em": "20/07/2026 15:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 178,
+          "abertos": 179,
           "atendidos": 177,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 131,
               "atendidosFora": 45,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80661,
@@ -16058,6 +16058,14 @@
                 },
                 {
                   "id": 81211,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81221,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
@@ -17664,9 +17672,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 29,
-          "atendidos": 19,
-          "pendentes": 10,
+          "abertos": 31,
+          "atendidos": 20,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17768,7 +17776,7 @@
               "nome": "Conciliação de Contas",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80771,
@@ -17777,6 +17785,14 @@
                   "prazo": "2026-07-07",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81216,
+                  "cliente": "DFG COMERCIO IMPORTACAO, EXPORTACAO E REPRESENTACAO LTDA",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80778,
@@ -17944,7 +17960,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80725,
@@ -17953,22 +17969,30 @@
                   "prazo": "2026-07-06",
                   "dataEntrega": "2026-07-07",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81219,
+                  "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
             {
               "nome": "Pesquisa IBGE",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80954,
                   "cliente": "LINHARES E FONTOURA CONSTRUCAO CIVIL LTDA ",
                   "dataCadastro": "2026-07-12",
                   "prazo": "2026-07-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -18734,14 +18758,14 @@
         {
           "mes": "2026-06",
           "abertos": 78,
-          "atendidos": 76,
-          "pendentes": 2,
+          "atendidos": 77,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 79871,
@@ -18772,8 +18796,8 @@
                   "cliente": "VIEIRA E REZENDE TEND TUDO LTDA",
                   "dataCadastro": "2026-06-18",
                   "prazo": "2026-06-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79919,
@@ -19485,9 +19509,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 15,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -19653,8 +19677,16 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 81222,
+                  "cliente": "DISTRIBUIDORA DE ALIMENTOS JAPÃO LTDA ",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80746,
                   "cliente": "Centro de Distribuição Butantã Ltda.",
@@ -21112,8 +21144,8 @@
         {
           "mes": "2026-07",
           "abertos": 27,
-          "atendidos": 11,
-          "pendentes": 16,
+          "atendidos": 10,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21334,8 +21366,8 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80738,
@@ -21350,8 +21382,8 @@
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-20",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81037,
@@ -23825,30 +23857,6 @@
               "pendentes": 9,
               "chamados": [
                 {
-                  "id": 79865,
-                  "cliente": "EMPORIO DOS FRIOS LTDA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79854,
-                  "cliente": "COOPERATIVA DE CONSUMO POPULAR DE CERQUILHO (MATRIZ)",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79863,
-                  "cliente": "SOLAR INVESTIMENTOS LTDA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79866,
                   "cliente": "TECHFEED ADITIVOS PARA NUTRICAO ANIMAL LTDA",
                   "dataCadastro": "2026-06-10",
@@ -23881,6 +23889,30 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 79865,
+                  "cliente": "EMPORIO DOS FRIOS LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79854,
+                  "cliente": "COOPERATIVA DE CONSUMO POPULAR DE CERQUILHO (MATRIZ)",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79863,
+                  "cliente": "SOLAR INVESTIMENTOS LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 79856,
                   "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
                   "dataCadastro": "2026-06-10",
@@ -23905,6 +23937,14 @@
               "pendentes": 4,
               "chamados": [
                 {
+                  "id": 79867,
+                  "cliente": "TECNO COM INFORMATICA LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 79833,
                   "cliente": "CORA SERVIÇOS EMPRESARIAIS LTDA (MATRIZ)",
                   "dataCadastro": "2026-06-10",
@@ -23925,14 +23965,6 @@
                   "cliente": "SMA AGRONEGOCIOS LTDA",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79867,
-                  "cliente": "TECNO COM INFORMATICA LTDA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-12",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -23958,9 +23990,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 23,
+          "abertos": 27,
           "atendidos": 7,
-          "pendentes": 16,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24046,8 +24078,32 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 6,
               "chamados": [
+                {
+                  "id": 81215,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81217,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81218,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81019,
                   "cliente": null,
@@ -24117,6 +24173,22 @@
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Regularização",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81220,
+                  "cliente": "ARAO PEREIRA DE SA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
