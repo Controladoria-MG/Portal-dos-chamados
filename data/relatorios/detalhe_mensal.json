@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 17:29",
+  "atualizado_em": "20/07/2026 18:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 183,
-          "atendidos": 180,
+          "abertos": 184,
+          "atendidos": 181,
           "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 134,
+              "atendidosDentro": 135,
               "atendidosFora": 45,
               "pendentes": 3,
               "chamados": [
@@ -16077,8 +16077,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81230,
@@ -16090,6 +16090,14 @@
                 },
                 {
                   "id": 81231,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81233,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
@@ -19549,9 +19557,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 15,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -19581,7 +19589,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80992,
@@ -19590,6 +19598,14 @@
                   "prazo": "2026-07-14",
                   "dataEntrega": "2026-07-14",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81232,
+                  "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80809,
