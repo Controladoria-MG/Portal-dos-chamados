@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 13:43",
+  "atualizado_em": "20/07/2026 13:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14807,14 +14807,14 @@
         {
           "mes": "2026-07",
           "abertos": 178,
-          "atendidos": 176,
-          "pendentes": 2,
+          "atendidos": 177,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 130,
+              "atendidosDentro": 131,
               "atendidosFora": 45,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -16053,8 +16053,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81211,
@@ -17664,9 +17664,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 27,
+          "abertos": 29,
           "atendidos": 19,
-          "pendentes": 8,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17808,7 +17808,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81195,
@@ -17823,6 +17823,14 @@
                   "cliente": "ESQUADRIAS SIDNEY LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81212,
+                  "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -17849,6 +17857,14 @@
                   "prazo": "2026-07-09",
                   "dataEntrega": "2026-07-13",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81214,
+                  "cliente": "VALE CONCRETO LTDA",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80787,
@@ -23942,9 +23958,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 7,
-          "pendentes": 15,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24126,7 +24142,7 @@
               "nome": "Senha",
               "atendidosDentro": 5,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81068,
@@ -24173,6 +24189,14 @@
                   "cliente": "JDM DISTRIBUIDORA DE PRODUTOS ALIMENTÍCIOS LTDA ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81213,
+                  "cliente": "FFRA CONCRETOS LTDA",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
