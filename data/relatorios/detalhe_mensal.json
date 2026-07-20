@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 11:33",
+  "atualizado_em": "20/07/2026 12:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -15997,7 +15997,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-17",
+                  "dataEntrega": "2026-07-20",
                   "status": "atendido_dentro"
                 },
                 {
@@ -21080,8 +21080,8 @@
         {
           "mes": "2026-07",
           "abertos": 27,
-          "atendidos": 8,
-          "pendentes": 19,
+          "atendidos": 11,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21157,25 +21157,25 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81105,
                   "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81103,
                   "cliente": "ACCESS EVENTOS E VIAGENS LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -21269,9 +21269,9 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81069,
@@ -21294,8 +21294,8 @@
                   "cliente": "NOVAIS IT SOLUCOES TECNOLOGICAS LTDA",
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -23926,9 +23926,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 20,
+          "abertos": 22,
           "atendidos": 7,
-          "pendentes": 13,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -23995,6 +23995,22 @@
               ]
             },
             {
+              "nome": "Ata de Reunião de Sócios",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81208,
+                  "cliente": "RRW DISTRIBUIDORA E IMPORTADORA DE PECAS LTDA",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -24055,6 +24071,22 @@
                   "prazo": "2026-07-17",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Processo de Prefeitura",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81209,
+                  "cliente": "CLINICA SAUDE & VIDA LTDA ",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
