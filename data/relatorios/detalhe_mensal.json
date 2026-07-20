@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 12:42",
+  "atualizado_em": "20/07/2026 13:43",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 176,
+          "abertos": 178,
           "atendidos": 176,
-          "pendentes": 0,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 130,
               "atendidosFora": 45,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80661,
@@ -16047,6 +16047,22 @@
                   "prazo": "2026-07-21",
                   "dataEntrega": "2026-07-20",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81210,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81211,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80664,
@@ -20496,8 +20512,8 @@
         {
           "mes": "2026-06",
           "abertos": 57,
-          "atendidos": 48,
-          "pendentes": 9,
+          "atendidos": 49,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -20686,16 +20702,16 @@
             {
               "nome": "Malha Fiscal",
               "atendidosDentro": 4,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 79602,
                   "cliente": null,
                   "dataCadastro": "2026-06-02",
                   "prazo": "2026-06-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79603,
