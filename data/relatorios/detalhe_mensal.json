@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 10:31",
+  "atualizado_em": "20/07/2026 11:33",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 174,
-          "atendidos": 174,
+          "abertos": 176,
+          "atendidos": 176,
           "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 128,
+              "atendidosDentro": 130,
               "atendidosFora": 45,
               "pendentes": 0,
               "chamados": [
@@ -16029,6 +16029,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81206,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81207,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
                   "dataEntrega": "2026-07-20",
                   "status": "atendido_dentro"
                 },
@@ -21064,22 +21080,22 @@
         {
           "mes": "2026-07",
           "abertos": 27,
-          "atendidos": 3,
-          "pendentes": 24,
+          "atendidos": 8,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81009,
                   "cliente": "LIQUIM E-BIKE LTDA ",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -21166,16 +21182,16 @@
             {
               "nome": "Multas Diversas",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80956,
                   "cliente": "FAGUNDES, TONELO, FERRO, DOMINGUES E BARROS ADVOGADOS",
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -21214,8 +21230,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80729,
@@ -21238,8 +21254,8 @@
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81030,
@@ -21286,8 +21302,8 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80738,
@@ -21302,16 +21318,16 @@
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81037,
                   "cliente": "POWER FINANCIAL DO BRASIL S.A.",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 }
               ]
             },
