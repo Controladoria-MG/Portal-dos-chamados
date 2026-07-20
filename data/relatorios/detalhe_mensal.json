@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 08:48",
+  "atualizado_em": "20/07/2026 09:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,14 +14806,14 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 173,
-          "atendidos": 173,
+          "abertos": 174,
+          "atendidos": 174,
           "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 131,
-              "atendidosFora": 41,
+              "atendidosDentro": 130,
+              "atendidosFora": 43,
               "pendentes": 0,
               "chamados": [
                 {
@@ -15605,8 +15605,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81032,
@@ -15693,8 +15693,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81059,
@@ -16022,6 +16022,14 @@
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
                   "dataEntrega": "2026-07-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81201,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-20",
+                  "dataEntrega": "2026-07-20",
                   "status": "atendido_dentro"
                 },
                 {
@@ -22889,15 +22897,15 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 58,
+          "abertos": 57,
           "atendidos": 20,
-          "pendentes": 38,
+          "pendentes": 37,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80086,
@@ -22930,14 +22938,6 @@
                   "prazo": "2026-06-15",
                   "dataEntrega": "2026-06-19",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 80038,
-                  "cliente": "BROGOTÁ INDÚSTRIA GRÁFICA LTDA",
-                  "dataCadastro": "2026-06-15",
-                  "prazo": "2026-06-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 79832,
@@ -23473,9 +23473,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 3,
-          "pendentes": 15,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23553,7 +23553,7 @@
               "nome": "Certificado",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81074,
@@ -23562,6 +23562,14 @@
                   "prazo": "2026-07-16",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81202,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80965,
