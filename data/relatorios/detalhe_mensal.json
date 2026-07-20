@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 15:42",
+  "atualizado_em": "20/07/2026 16:13",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 179,
-          "atendidos": 177,
+          "abertos": 181,
+          "atendidos": 179,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 131,
+              "atendidosDentro": 133,
               "atendidosFora": 45,
               "pendentes": 2,
               "chamados": [
@@ -16061,11 +16061,19 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81221,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81224,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
@@ -16087,6 +16095,14 @@
                   "prazo": "2026-07-16",
                   "dataEntrega": "2026-07-15",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81223,
+                  "cliente": "SUPERMERCADOS DALBEN LTDA. (MATRIZ)",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80680,
