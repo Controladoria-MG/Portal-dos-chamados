@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/07/2026 12:25",
+  "atualizado_em": "21/07/2026 13:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14812,8 +14812,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 134,
-              "atendidosFora": 52,
+              "atendidosDentro": 132,
+              "atendidosFora": 54,
               "pendentes": 1,
               "chamados": [
                 {
@@ -15781,8 +15781,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81081,
@@ -16261,8 +16261,8 @@
                   "cliente": "CONCEITO ESTRUTURA LOCADORA LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81046,
@@ -16921,8 +16921,8 @@
         {
           "mes": "2026-06",
           "abertos": 85,
-          "atendidos": 82,
-          "pendentes": 3,
+          "atendidos": 81,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -17406,17 +17406,17 @@
             },
             {
               "nome": "Omissão de Obrigações Acessórias",
-              "atendidosDentro": 3,
-              "atendidosFora": 6,
-              "pendentes": 0,
+              "atendidosDentro": 1,
+              "atendidosFora": 7,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 79804,
                   "cliente": "ESQUADRIAS SIDNEY LTDA",
                   "dataCadastro": "2026-06-09",
                   "prazo": "2026-06-12",
-                  "dataEntrega": "2026-06-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80644,
@@ -17479,8 +17479,8 @@
                   "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
                   "dataCadastro": "2026-06-03",
                   "prazo": "2026-06-08",
-                  "dataEntrega": "2026-06-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -21038,7 +21038,7 @@
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-06-09",
                   "prazo": "2026-06-12",
-                  "dataEntrega": "2026-06-19",
+                  "dataEntrega": "2026-07-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -21118,7 +21118,7 @@
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-11",
-                  "dataEntrega": "2026-06-19",
+                  "dataEntrega": "2026-07-21",
                   "status": "atendido_fora"
                 },
                 {
