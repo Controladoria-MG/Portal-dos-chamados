@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/07/2026 17:32",
+  "atualizado_em": "21/07/2026 18:09",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 193,
-          "atendidos": 192,
-          "pendentes": 1,
+          "abertos": 194,
+          "atendidos": 194,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 131,
-              "atendidosFora": 60,
-              "pendentes": 1,
+              "atendidosDentro": 132,
+              "atendidosFora": 61,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -14949,8 +14949,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-03",
                   "prazo": "2026-07-03",
-                  "dataEntrega": "2026-07-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80724,
@@ -16141,8 +16141,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81279,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81249,
@@ -19669,9 +19677,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 20,
+          "abertos": 21,
           "atendidos": 15,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -19749,7 +19757,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80960,
@@ -19764,6 +19772,14 @@
                   "cliente": "DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS 3 BBB LTDA  (MATRIZ)",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81278,
+                  "cliente": "WORLD FOOD GESTÃO LTDA",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -21319,9 +21335,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 29,
+          "abertos": 31,
           "atendidos": 7,
-          "pendentes": 22,
+          "pendentes": 24,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21479,7 +21495,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80729,
@@ -21494,6 +21510,22 @@
                   "cliente": "JARDIM ELÉTRICO PRODUÇÕES LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81277,
+                  "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81276,
+                  "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -22620,9 +22652,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 13,
+          "abertos": 14,
           "atendidos": 2,
-          "pendentes": 11,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -22701,6 +22733,22 @@
                   "prazo": "2026-07-13",
                   "dataEntrega": "2026-07-14",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Omissão de Obrigações Acessórias",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81280,
+                  "cliente": "REDFLEX 90 DO BRASIL COMERCIO LTDA",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
