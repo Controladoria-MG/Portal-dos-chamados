@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/07/2026 18:04",
+  "atualizado_em": "21/07/2026 09:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 184,
-              "atendidosFora": 131,
+              "atendidosDentro": 183,
+              "atendidosFora": 132,
               "pendentes": 0,
               "chamados": [
                 {
@@ -13149,8 +13149,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-11",
                   "prazo": "2026-06-11",
-                  "dataEntrega": "2026-06-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79912,
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 184,
-          "atendidos": 181,
-          "pendentes": 3,
+          "abertos": 185,
+          "atendidos": 184,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 135,
-              "atendidosFora": 45,
-              "pendentes": 3,
+              "atendidosDentro": 136,
+              "atendidosFora": 47,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -15965,8 +15965,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81180,
@@ -16085,22 +16085,30 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81231,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81233,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81236,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -16117,8 +16125,8 @@
                   "cliente": "Supermercado Delta Max Ltda (Matriz)",
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81223,
@@ -23617,9 +23625,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 3,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23697,7 +23705,7 @@
               "nome": "Certificado",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81074,
@@ -23736,6 +23744,14 @@
                   "cliente": "EMPORIO RT CARVALHO LTDA",
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81235,
+                  "cliente": "ELFUTEC - ESCOLA PARA FORMACAO DE USUARIOS DE TECNOLOGIA E CONHECIMENTO LTDA",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -23845,7 +23861,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-01-08",
                   "prazo": "2026-01-09",
-                  "dataEntrega": "2026-07-16",
+                  "dataEntrega": "2026-07-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -24054,9 +24070,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 30,
+          "abertos": 31,
           "atendidos": 8,
-          "pendentes": 22,
+          "pendentes": 23,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24198,8 +24214,16 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 81234,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81004,
                   "cliente": "PET HOME EXPRESS COMERCIO DE RACOES LTDA",
