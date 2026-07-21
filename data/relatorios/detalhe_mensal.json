@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/07/2026 09:04",
+  "atualizado_em": "21/07/2026 09:38",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 185,
-          "atendidos": 184,
+          "abertos": 186,
+          "atendidos": 185,
           "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 136,
+              "atendidosDentro": 137,
               "atendidosFora": 47,
               "pendentes": 1,
               "chamados": [
@@ -16109,8 +16109,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80664,
@@ -16119,6 +16119,14 @@
                   "prazo": "2026-07-02",
                   "dataEntrega": "2026-07-01",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81238,
+                  "cliente": "Supermercado Delta Max Ltda (Matriz)",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81051,
@@ -17919,7 +17927,7 @@
                   "cliente": "ENBRAGEO ENGENHARIA LTDA ",
                   "dataCadastro": "2026-07-07",
                   "prazo": "2026-07-08",
-                  "dataEntrega": "2026-07-16",
+                  "dataEntrega": "2026-07-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -21208,8 +21216,8 @@
         {
           "mes": "2026-07",
           "abertos": 28,
-          "atendidos": 10,
-          "pendentes": 18,
+          "atendidos": 8,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21285,25 +21293,25 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 2,
+              "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81105,
                   "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-07-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81103,
                   "cliente": "ACCESS EVENTOS E VIAGENS LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-07-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
