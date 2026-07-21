@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/07/2026 16:31",
+  "atualizado_em": "21/07/2026 17:32",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 191,
-          "atendidos": 191,
-          "pendentes": 0,
+          "abertos": 193,
+          "atendidos": 192,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 130,
+              "atendidosDentro": 131,
               "atendidosFora": 60,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -16105,22 +16105,6 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 81249,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-21",
-                  "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 81252,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-21",
-                  "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 81262,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
@@ -16138,6 +16122,38 @@
                 },
                 {
                   "id": 81269,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81271,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81275,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81249,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81252,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
@@ -24142,9 +24158,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 40,
+          "abertos": 42,
           "atendidos": 8,
-          "pendentes": 32,
+          "pendentes": 34,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24379,6 +24395,22 @@
               ]
             },
             {
+              "nome": "Certidão",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81270,
+                  "cliente": "GRAFICA TABOAO LTDA",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Parcelamento Municipal",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -24470,7 +24502,7 @@
               "nome": "Senha",
               "atendidosDentro": 5,
               "atendidosFora": 1,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81068,
@@ -24524,6 +24556,14 @@
                   "id": 81228,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81274,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
