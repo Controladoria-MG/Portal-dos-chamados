@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/07/2026 11:34",
+  "atualizado_em": "21/07/2026 12:25",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14807,14 +14807,14 @@
         {
           "mes": "2026-07",
           "abertos": 188,
-          "atendidos": 188,
-          "pendentes": 0,
+          "atendidos": 187,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 140,
-              "atendidosFora": 47,
-              "pendentes": 0,
+              "atendidosDentro": 134,
+              "atendidosFora": 52,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -15145,14 +15145,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 80813,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-07",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": "2026-07-07",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 80818,
                   "cliente": null,
                   "dataCadastro": "2026-07-07",
@@ -15477,8 +15469,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81012,
@@ -15549,8 +15541,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80997,
@@ -15821,8 +15813,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81086,
@@ -15925,8 +15917,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81172,
@@ -16173,8 +16165,8 @@
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81170,
@@ -16223,6 +16215,14 @@
                   "prazo": "2026-07-20",
                   "dataEntrega": "2026-07-20",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81253,
+                  "cliente": "Parafutrecos Comercial LTDA ",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81023,
@@ -16921,8 +16921,8 @@
         {
           "mes": "2026-06",
           "abertos": 85,
-          "atendidos": 83,
-          "pendentes": 2,
+          "atendidos": 82,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -17679,8 +17679,8 @@
             {
               "nome": "Termos de Intimação",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 0,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80525,
@@ -17695,8 +17695,8 @@
                   "cliente": "AMATRUDA LOCADORA DE GUINDASTES E ARTICULADOS LTDA",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-01",
-                  "dataEntrega": "2026-07-03",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -17744,9 +17744,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 32,
+          "abertos": 34,
           "atendidos": 20,
-          "pendentes": 12,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17888,7 +17888,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80730,
@@ -17897,6 +17897,14 @@
                   "prazo": "2026-07-06",
                   "dataEntrega": "2026-07-07",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81257,
+                  "cliente": "DATAFAST SISTEMAS LTDA ",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -18073,6 +18081,22 @@
                   "prazo": "2026-07-14",
                   "dataEntrega": "2026-07-20",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81254,
+                  "cliente": "MEGA CICLO COMERCIO DE BICICLETAS LTDA ",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -21231,9 +21255,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 28,
-          "atendidos": 8,
-          "pendentes": 20,
+          "abertos": 29,
+          "atendidos": 7,
+          "pendentes": 22,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21334,16 +21358,16 @@
             {
               "nome": "Multas Diversas",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80956,
                   "cliente": "FAGUNDES, TONELO, FERRO, DOMINGUES E BARROS ADVOGADOS",
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-20",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -21463,7 +21487,7 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80738,
@@ -21488,6 +21512,14 @@
                   "prazo": "2026-07-16",
                   "dataEntrega": "2026-07-20",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81256,
+                  "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS (FILIAL)",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -22524,9 +22556,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 14,
+          "abertos": 13,
           "atendidos": 2,
-          "pendentes": 12,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -22652,18 +22684,10 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80759,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80753,
                   "cliente": null,
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
@@ -23657,9 +23681,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 20,
+          "abertos": 17,
           "atendidos": 3,
-          "pendentes": 17,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23801,16 +23825,8 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 5,
+              "pendentes": 2,
               "chamados": [
-                {
-                  "id": 80754,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 80755,
                   "cliente": null,
@@ -23826,22 +23842,6 @@
                   "prazo": "2026-07-08",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 80758,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80751,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 80760,
