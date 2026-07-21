@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/07/2026 15:34",
+  "atualizado_em": "21/07/2026 16:31",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 189,
-          "atendidos": 188,
-          "pendentes": 1,
+          "abertos": 191,
+          "atendidos": 191,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 127,
+              "atendidosDentro": 130,
               "atendidosFora": 60,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -16125,8 +16125,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81266,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81269,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80664,
@@ -23138,8 +23154,8 @@
         {
           "mes": "2026-06",
           "abertos": 56,
-          "atendidos": 20,
-          "pendentes": 36,
+          "atendidos": 24,
+          "pendentes": 32,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23272,8 +23288,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 0,
-              "atendidosFora": 9,
-              "pendentes": 12,
+              "atendidosFora": 13,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 80132,
@@ -23320,24 +23336,24 @@
                   "cliente": "MARQUES DISTRIBUIDORA DE HORTI FRUTTI TRANSPORTES LTDA ",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80039,
                   "cliente": "HARVEST HORTIFRUTTI LTDA ",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80014,
                   "cliente": "CAEFHOLD Participações S.A.",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80015,
@@ -23368,8 +23384,8 @@
                   "cliente": "Benevento Participações S.A.",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80007,
@@ -23706,8 +23722,8 @@
         {
           "mes": "2026-07",
           "abertos": 17,
-          "atendidos": 3,
-          "pendentes": 14,
+          "atendidos": 4,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23784,8 +23800,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 5,
+              "atendidosFora": 1,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81074,
@@ -23816,8 +23832,8 @@
                   "cliente": "ESPITE PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81194,
@@ -24126,9 +24142,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 39,
+          "abertos": 40,
           "atendidos": 8,
-          "pendentes": 31,
+          "pendentes": 32,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24390,13 +24406,21 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81209,
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81267,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
