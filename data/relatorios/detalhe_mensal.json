@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/07/2026 13:34",
+  "atualizado_em": "21/07/2026 14:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14807,14 +14807,14 @@
         {
           "mes": "2026-07",
           "abertos": 188,
-          "atendidos": 187,
-          "pendentes": 1,
+          "atendidos": 188,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 132,
+              "atendidosDentro": 133,
               "atendidosFora": 54,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -16221,8 +16221,8 @@
                   "cliente": "Parafutrecos Comercial LTDA ",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81023,
@@ -17744,9 +17744,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 34,
+          "abertos": 35,
           "atendidos": 20,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17768,7 +17768,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 0,
               "atendidosFora": 7,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80745,
@@ -17801,6 +17801,14 @@
                   "prazo": "2026-07-08",
                   "dataEntrega": "2026-07-14",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81259,
+                  "cliente": "LUCIANA DALPRA COELHO DE CASTRO",
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80713,
