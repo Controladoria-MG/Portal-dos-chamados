@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/07/2026 10:34",
+  "atualizado_em": "21/07/2026 11:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 187,
-          "atendidos": 186,
-          "pendentes": 1,
+          "abertos": 188,
+          "atendidos": 188,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 138,
+              "atendidosDentro": 140,
               "atendidosFora": 47,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -16117,8 +16117,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81252,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80664,
@@ -21229,8 +21237,8 @@
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -21238,8 +21246,8 @@
                   "cliente": "LIQUIM E-BIKE LTDA ",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -23993,6 +24001,22 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 79856,
+                  "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79855,
+                  "cliente": "BRASILEIRÃO ATACADO COMÉRCIO DE PRODUTOS ALIMENTICIOS SOCIEDADE ANÔNIMA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 79865,
                   "cliente": "EMPORIO DOS FRIOS LTDA",
                   "dataCadastro": "2026-06-10",
@@ -24011,22 +24035,6 @@
                 {
                   "id": 79863,
                   "cliente": "SOLAR INVESTIMENTOS LTDA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79856,
-                  "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79855,
-                  "cliente": "BRASILEIRÃO ATACADO COMÉRCIO DE PRODUTOS ALIMENTICIOS SOCIEDADE ANÔNIMA",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-12",
                   "dataEntrega": null,
@@ -24094,9 +24102,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 36,
+          "abertos": 38,
           "atendidos": 8,
-          "pendentes": 28,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24319,6 +24327,30 @@
                   "prazo": "2026-07-17",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Parcelamento Municipal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 81250,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81251,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
