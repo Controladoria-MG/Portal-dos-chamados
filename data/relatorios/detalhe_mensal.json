@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 17:34",
+  "atualizado_em": "22/07/2026 18:48",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 213,
+          "abertos": 222,
           "atendidos": 207,
-          "pendentes": 6,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 141,
-              "atendidosFora": 65,
-              "pendentes": 6,
+              "atendidosDentro": 138,
+              "atendidosFora": 68,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 80661,
@@ -15973,16 +15973,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81186,
                   "cliente": null,
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81187,
@@ -16013,8 +16013,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81201,
@@ -16297,6 +16297,46 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 81333,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81334,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81335,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81336,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81337,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 81249,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
@@ -16311,6 +16351,14 @@
                   "prazo": "2026-07-22",
                   "dataEntrega": "2026-07-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81339,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80664,
@@ -16343,6 +16391,14 @@
                   "prazo": "2026-07-21",
                   "dataEntrega": "2026-07-20",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81338,
+                  "cliente": "TS EMPREENDIMENTOS COMERCIAIS LTDA ME.",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80680,
@@ -16497,12 +16553,28 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 81340,
+                  "cliente": "EMPORIO ITIE LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 81048,
                   "cliente": "MERCADO VIOLETA LTDA (FILIAL 10)",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-17",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81341,
+                  "cliente": "CINECAM LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80681,
@@ -24113,9 +24185,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 4,
-          "pendentes": 12,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -24193,7 +24265,7 @@
               "nome": "Certificado",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81074,
@@ -24248,6 +24320,14 @@
                   "cliente": "MONTE CARLO LAB SERVICOS ADMINISTRATIVOS E COMERCIO LTDA ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81342,
+                  "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
