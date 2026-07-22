@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 08:59",
+  "atualizado_em": "22/07/2026 09:35",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 194,
+          "abertos": 196,
           "atendidos": 194,
-          "pendentes": 0,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 131,
-              "atendidosFora": 62,
-              "pendentes": 0,
+              "atendidosDentro": 130,
+              "atendidosFora": 63,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80661,
@@ -14845,8 +14845,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-01",
                   "prazo": "2026-07-01",
-                  "dataEntrega": "2026-07-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80672,
@@ -16065,46 +16065,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 81224,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-20",
-                  "prazo": "2026-07-21",
-                  "dataEntrega": "2026-07-20",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 81230,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-20",
-                  "prazo": "2026-07-21",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 81231,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-20",
-                  "prazo": "2026-07-21",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 81233,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-20",
-                  "prazo": "2026-07-21",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 81236,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-21",
-                  "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 81262,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
@@ -16146,6 +16106,62 @@
                 },
                 {
                   "id": 81279,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81286,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81287,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81224,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": "2026-07-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81230,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81231,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81233,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": "2026-07-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81236,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
@@ -21343,9 +21359,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 31,
+          "abertos": 33,
           "atendidos": 7,
-          "pendentes": 24,
+          "pendentes": 26,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21503,7 +21519,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 80729,
@@ -21526,6 +21542,14 @@
                   "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81285,
+                  "cliente": "PLANET GRAPHICS LTDA ",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -21655,13 +21679,21 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 80769,
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81284,
+                  "cliente": "PLANET GRAPHICS LTDA ",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -22660,9 +22692,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 15,
+          "abertos": 16,
           "atendidos": 2,
-          "pendentes": 13,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -22811,6 +22843,22 @@
                   "cliente": "REDFLEX 90 DO BRASIL COMERCIO LTDA",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Senha",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81228,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -24214,9 +24262,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 42,
-          "atendidos": 8,
-          "pendentes": 34,
+          "abertos": 41,
+          "atendidos": 9,
+          "pendentes": 32,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24556,9 +24604,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 1,
-              "pendentes": 5,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81068,
@@ -24605,16 +24653,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81228,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-20",
-                  "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81274,
