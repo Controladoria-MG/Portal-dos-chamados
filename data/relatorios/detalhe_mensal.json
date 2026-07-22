@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 11:34",
+  "atualizado_em": "22/07/2026 12:35",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19725,9 +19725,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 22,
+          "abertos": 25,
           "atendidos": 17,
-          "pendentes": 5,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -19757,7 +19757,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 80992,
@@ -19772,6 +19772,30 @@
                   "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81300,
+                  "cliente": "SOUZA & AZEVEDO ADMINISTRADORA DE BENS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81302,
+                  "cliente": "COMERCIO DE ALIMENTOS VICALI LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81301,
+                  "cliente": "ESQUINA DOS POMARES COMERCIO DE HORTI FRUTI LTDA ",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -22740,9 +22764,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 2,
-          "pendentes": 15,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -22835,6 +22859,22 @@
                   "cliente": "REDFLEX 90 DO BRASIL COMERCIO LTDA",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81298,
+                  "cliente": "JK BURITI CAFETERIA E CONVENIENCIAS LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -23346,8 +23386,8 @@
         {
           "mes": "2026-06",
           "abertos": 55,
-          "atendidos": 24,
-          "pendentes": 31,
+          "atendidos": 25,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -23480,8 +23520,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 0,
-              "atendidosFora": 13,
-              "pendentes": 8,
+              "atendidosFora": 14,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 80132,
@@ -23608,8 +23648,8 @@
                   "cliente": "ASSOCIAÇÃO COMERCIAL INDUSTRIAL E SERVIÇOS DE EMBU ",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80020,
@@ -24310,9 +24350,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 42,
+          "abertos": 45,
           "atendidos": 10,
-          "pendentes": 32,
+          "pendentes": 35,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24366,13 +24406,21 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80919,
                   "cliente": null,
                   "dataCadastro": "2026-07-08",
                   "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81296,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -24510,13 +24558,21 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81234,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81297,
+                  "cliente": "A. DE S. JANOCA MERCADO",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -24645,6 +24701,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Retificação de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81304,
+                  "cliente": "SINCOPLASTIC INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
