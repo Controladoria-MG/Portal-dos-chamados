@@ -14,6 +14,7 @@ let currentDeptTemDeptoAnterior = false; // dept atual tem chamados "Devolvido p
 const FILTER_DEFS = [
   { key: 'categoria',       label: 'Categoria',           cols: ['Categoria','categoria'] },
   { key: 'deptoSolicitante', label: 'Depto. Solicitante', cols: ['Departamento Solicitante','Departamento_Solicitante','departamento solicitante'] },
+  { key: 'solicitante',     label: 'Solicitante',         cols: ['Solicitante','solicitante'] },
   { key: 'responsavel',     label: 'Responsável',         cols: ['Responsavel','Responsável','responsavel'] },
   { key: 'coordenador',     label: 'Coordenador',         cols: ['Coordenador','coordenador'] },
   { key: 'status',          label: 'Status',              cols: ['Status','status'] },
@@ -23,6 +24,7 @@ const FILTER_DEFS = [
 const activeFilters = {
   categoria:        new Set(),
   deptoSolicitante: new Set(),
+  solicitante:      new Set(),
   responsavel:      new Set(),
   coordenador:      new Set(),
   status:           new Set(),
