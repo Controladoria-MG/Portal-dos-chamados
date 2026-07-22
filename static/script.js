@@ -721,6 +721,10 @@ function showView(name) {
   $viewDept.classList.toggle('active', name === 'dept');
   $viewRelatoriosHome.classList.toggle('active', name === 'relatorios-home');
   $viewRelatorios.classList.toggle('active', name === 'relatorios');
+  const emRelatorios = name === 'relatorios-home' || name === 'relatorios';
+  document.getElementById('btn-relatorios').textContent = emRelatorios
+    ? 'Relatório Padrão'
+    : 'Relatório de Chamados Entregues';
   const bar    = document.getElementById('unidade-bar');
   const bcDept = document.getElementById('bc-dept');
   if (name === 'dept') {
@@ -735,7 +739,14 @@ function showView(name) {
 }
 
 /* ─── RELATÓRIOS — NAVEGAÇÃO ─────────────────────────────────────── */
-document.getElementById('btn-relatorios').addEventListener('click', openRelatorios);
+document.getElementById('btn-relatorios').addEventListener('click', () => {
+  const emRelatorios = $viewRelatoriosHome.classList.contains('active') || $viewRelatorios.classList.contains('active');
+  if (emRelatorios) {
+    showView('home');
+  } else {
+    openRelatorios();
+  }
+});
 document.getElementById('btn-back-relatorios-home').addEventListener('click', () => showView('home'));
 document.getElementById('btn-back-relatorios').addEventListener('click', () => showView('relatorios-home'));
 
