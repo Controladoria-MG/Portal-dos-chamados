@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 10:34",
+  "atualizado_em": "22/07/2026 11:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 197,
-          "atendidos": 195,
+          "abertos": 200,
+          "atendidos": 198,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 131,
+              "atendidosDentro": 134,
               "atendidosFora": 63,
               "pendentes": 2,
               "chamados": [
@@ -16133,6 +16133,30 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-22",
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81292,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81293,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81295,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -17817,8 +17841,8 @@
         {
           "mes": "2026-07",
           "abertos": 36,
-          "atendidos": 21,
-          "pendentes": 15,
+          "atendidos": 23,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17911,7 +17935,7 @@
                   "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-07-02",
                   "prazo": "2026-07-03",
-                  "dataEntrega": "2026-07-17",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -17927,8 +17951,8 @@
             {
               "nome": "Conciliação de Contas",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80771,
@@ -17951,8 +17975,8 @@
                   "cliente": "DFG COMERCIO IMPORTACAO, EXPORTACAO E REPRESENTACAO LTDA",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80778,
@@ -17991,8 +18015,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 5,
+              "atendidosFora": 4,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81195,
@@ -18007,8 +18031,8 @@
                   "cliente": "ESQUADRIAS SIDNEY LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81212,
@@ -19701,8 +19725,8 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 21,
-          "atendidos": 16,
+          "abertos": 22,
+          "atendidos": 17,
           "pendentes": 5,
           "categorias": [
             {
@@ -19733,7 +19757,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80992,
@@ -19768,6 +19792,14 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 81291,
+                  "cliente": "COMERCIAL DE ALIMENTOS ALLEGRA LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 80948,
                   "cliente": "PC GAMER GOIANIA LTDA",
                   "dataCadastro": "2026-07-10",
@@ -19780,8 +19812,8 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 2,
+              "atendidosFora": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80960,
@@ -19796,8 +19828,8 @@
                   "cliente": "DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS 3 BBB LTDA  (MATRIZ)",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81278,
@@ -22708,9 +22740,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 2,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -22884,10 +22916,18 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80759,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-06",
+                  "prazo": "2026-07-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80760,
                   "cliente": null,
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
@@ -23857,9 +23897,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 17,
+          "abertos": 16,
           "atendidos": 4,
-          "pendentes": 13,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -24001,7 +24041,7 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80755,
@@ -24018,14 +24058,6 @@
                   "prazo": "2026-07-08",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 80760,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-06",
-                  "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             }
@@ -24177,22 +24209,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 79856,
-                  "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79855,
-                  "cliente": "BRASILEIRÃO ATACADO COMÉRCIO DE PRODUTOS ALIMENTICIOS SOCIEDADE ANÔNIMA",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79865,
                   "cliente": "EMPORIO DOS FRIOS LTDA",
                   "dataCadastro": "2026-06-10",
@@ -24211,6 +24227,22 @@
                 {
                   "id": 79863,
                   "cliente": "SOLAR INVESTIMENTOS LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79856,
+                  "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79855,
+                  "cliente": "BRASILEIRÃO ATACADO COMÉRCIO DE PRODUTOS ALIMENTICIOS SOCIEDADE ANÔNIMA",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-12",
                   "dataEntrega": null,
@@ -24278,8 +24310,8 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 41,
-          "atendidos": 9,
+          "abertos": 42,
+          "atendidos": 10,
           "pendentes": 32,
           "categorias": [
             {
@@ -24561,18 +24593,18 @@
               "pendentes": 2,
               "chamados": [
                 {
-                  "id": 81209,
-                  "cliente": "CLINICA SAUDE & VIDA LTDA ",
-                  "dataCadastro": "2026-07-20",
-                  "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81267,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81209,
+                  "cliente": "CLINICA SAUDE & VIDA LTDA ",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -24597,16 +24629,16 @@
             {
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80989,
                   "cliente": null,
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81227,
@@ -24622,7 +24654,7 @@
               "nome": "Senha",
               "atendidosDentro": 6,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81068,
@@ -24677,6 +24709,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81294,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
