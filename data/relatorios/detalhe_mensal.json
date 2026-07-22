@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 16:36",
+  "atualizado_em": "22/07/2026 17:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 209,
+          "abertos": 213,
           "atendidos": 207,
-          "pendentes": 2,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 141,
               "atendidosFora": 65,
-              "pendentes": 2,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 80661,
@@ -16233,6 +16233,30 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 81328,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81330,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81331,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 81224,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
@@ -16391,6 +16415,14 @@
                   "prazo": "2026-07-22",
                   "dataEntrega": "2026-07-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81332,
+                  "cliente": "RECOOK COMERCIO E SERVIÇO DE PRODUTOS NATURAIS LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81023,
@@ -19813,9 +19845,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 28,
+          "abertos": 29,
           "atendidos": 18,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -19869,7 +19901,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 80992,
@@ -19906,6 +19938,14 @@
                 {
                   "id": 81301,
                   "cliente": "ESQUINA DOS POMARES COMERCIO DE HORTI FRUTI LTDA ",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81329,
+                  "cliente": "BEST SALAD HORTI FRUTI LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
                   "dataEntrega": null,
@@ -24319,22 +24359,22 @@
         {
           "mes": "2026-06",
           "abertos": 16,
-          "atendidos": 0,
-          "pendentes": 16,
+          "atendidos": 1,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 79609,
                   "cliente": null,
                   "dataCadastro": "2026-06-02",
                   "prazo": "2026-07-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80515,
@@ -24487,8 +24527,8 @@
         {
           "mes": "2026-07",
           "abertos": 48,
-          "atendidos": 10,
-          "pendentes": 38,
+          "atendidos": 11,
+          "pendentes": 37,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24596,17 +24636,17 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81208,
                   "cliente": "RRW DISTRIBUIDORA E IMPORTADORA DE PECAS LTDA",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
                 }
               ]
             },
