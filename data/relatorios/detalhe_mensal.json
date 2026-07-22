@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 09:35",
+  "atualizado_em": "22/07/2026 10:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 196,
-          "atendidos": 194,
+          "abertos": 197,
+          "atendidos": 195,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 130,
+              "atendidosDentro": 131,
               "atendidosFora": 63,
               "pendentes": 2,
               "chamados": [
@@ -16117,14 +16117,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81287,
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81288,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -18191,7 +18199,7 @@
                   "cliente": "Parafutrecos Comercial LTDA ",
                   "dataCadastro": "2026-07-17",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-21",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 }
               ]
@@ -20370,16 +20378,24 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 1,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Documentação",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 81289,
+                  "cliente": "TCYKPAR PARTICIPAÇÕES LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80822,
                   "cliente": "SAMPATACADO DE GÊNEROS ALIMENTÍCIOS E BEBIDAS LTDA (FILIAL 02)",
@@ -20680,14 +20696,14 @@
         {
           "mes": "2026-05",
           "abertos": 9,
-          "atendidos": 4,
-          "pendentes": 5,
+          "atendidos": 6,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Malha Fiscal",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 5,
+              "atendidosFora": 6,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 79499,
@@ -20710,8 +20726,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-27",
                   "prazo": "2026-06-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79467,
@@ -20750,8 +20766,8 @@
                   "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
                   "dataCadastro": "2026-05-26",
                   "prazo": "2026-05-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79551,
@@ -23464,7 +23480,7 @@
                   "cliente": "COMÉRCIO DE ALIMENTOS VIOLETA LTDA",
                   "dataCadastro": "2026-06-19",
                   "prazo": "2026-06-22",
-                  "dataEntrega": "2026-06-26",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -23472,7 +23488,7 @@
                   "cliente": "MARQUES DISTRIBUIDORA DE HORTI FRUTTI TRANSPORTES LTDA ",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-16",
-                  "dataEntrega": "2026-07-21",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -23488,7 +23504,7 @@
                   "cliente": "CAEFHOLD Participações S.A.",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-16",
-                  "dataEntrega": "2026-07-21",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -23504,7 +23520,7 @@
                   "cliente": "ESPITE PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-06-19",
                   "prazo": "2026-06-22",
-                  "dataEntrega": "2026-06-26",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -23584,7 +23600,7 @@
                   "cliente": "MONTES CLAROS ADMINISTRADORA LTDA",
                   "dataCadastro": "2026-06-17",
                   "prazo": "2026-06-19",
-                  "dataEntrega": "2026-07-07",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -23592,7 +23608,7 @@
                   "cliente": "DISTRIBUIDORA DE HORT FRUIT SEMPRE VERDE LTDA",
                   "dataCadastro": "2026-06-17",
                   "prazo": "2026-06-19",
-                  "dataEntrega": "2026-07-07",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 }
               ]
@@ -23952,7 +23968,7 @@
                   "cliente": "ESPITE PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-21",
+                  "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
                 },
                 {
