@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 12:35",
+  "atualizado_em": "22/07/2026 13:25",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 200,
-          "atendidos": 198,
-          "pendentes": 2,
+          "abertos": 202,
+          "atendidos": 199,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 134,
+              "atendidosDentro": 135,
               "atendidosFora": 63,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80661,
@@ -16154,6 +16154,22 @@
                 },
                 {
                   "id": 81295,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81306,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81307,
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
@@ -17841,8 +17857,8 @@
         {
           "mes": "2026-07",
           "abertos": 36,
-          "atendidos": 23,
-          "pendentes": 13,
+          "atendidos": 24,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18198,17 +18214,17 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81254,
                   "cliente": "MEGA CICLO COMERCIO DE BICICLETAS LTDA ",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
                 }
               ]
             },
