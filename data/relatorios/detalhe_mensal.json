@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 13:25",
+  "atualizado_em": "22/07/2026 14:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 183,
-              "atendidosFora": 132,
+              "atendidosDentro": 182,
+              "atendidosFora": 133,
               "pendentes": 0,
               "chamados": [
                 {
@@ -13573,8 +13573,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-16",
                   "prazo": "2026-06-17",
-                  "dataEntrega": "2026-06-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80109,
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 202,
+          "abertos": 204,
           "atendidos": 199,
-          "pendentes": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 135,
               "atendidosFora": 63,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80661,
@@ -16170,6 +16170,22 @@
                 },
                 {
                   "id": 81307,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81308,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81309,
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
@@ -17857,8 +17873,8 @@
         {
           "mes": "2026-07",
           "abertos": 36,
-          "atendidos": 24,
-          "pendentes": 12,
+          "atendidos": 27,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -17878,9 +17894,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 7,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80745,
@@ -17919,8 +17935,8 @@
                   "cliente": "LUCIANA DALPRA COELHO DE CASTRO",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80713,
@@ -18006,9 +18022,9 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80730,
@@ -18023,16 +18039,16 @@
                   "cliente": "DATAFAST SISTEMAS LTDA ",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 4,
+              "atendidosFora": 5,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81195,
@@ -18063,8 +18079,8 @@
                   "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80797,
