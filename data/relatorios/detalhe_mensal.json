@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/07/2026 13:47",
+  "atualizado_em": "23/07/2026 14:24",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14449,6 +14449,14 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 80612,
+                  "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
+                  "dataCadastro": "2026-06-30",
+                  "prazo": "2026-07-01",
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_fora"
+                },
+                {
                   "id": 79945,
                   "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-06-12",
@@ -14462,14 +14470,6 @@
                   "dataCadastro": "2026-06-02",
                   "prazo": "2026-06-03",
                   "dataEntrega": "2026-06-12",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 80612,
-                  "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
-                  "dataCadastro": "2026-06-30",
-                  "prazo": "2026-07-01",
-                  "dataEntrega": "2026-07-23",
                   "status": "atendido_fora"
                 },
                 {
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 226,
+          "abertos": 228,
           "atendidos": 226,
-          "pendentes": 0,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 157,
               "atendidosFora": 68,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -16377,6 +16377,14 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 81407,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 80664,
                   "cliente": "ELETRICA DO VALE SERVIÇOS DE INSTALAÇÕES ELÉTRICAS LTDA",
                   "dataCadastro": "2026-07-01",
@@ -16631,6 +16639,22 @@
                   "prazo": "2026-07-10",
                   "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Sistema de Análise",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81406,
+                  "cliente": "Supermercado Alta Rotação Ltda (Filial 3)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
