@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/07/2026 12:48",
+  "atualizado_em": "23/07/2026 13:47",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19974,8 +19974,8 @@
         {
           "mes": "2026-07",
           "abertos": 28,
-          "atendidos": 23,
-          "pendentes": 5,
+          "atendidos": 24,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -20027,9 +20027,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80992,
@@ -20100,8 +20100,8 @@
                   "cliente": "CEREALISTA IDEAL DE SÃO CAETANO LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80948,
