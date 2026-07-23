@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/07/2026 18:48",
+  "atualizado_em": "23/07/2026 09:24",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -18016,9 +18016,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 38,
+          "abertos": 39,
           "atendidos": 27,
-          "pendentes": 11,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18401,6 +18401,22 @@
                   "prazo": "2026-07-22",
                   "dataEntrega": "2026-07-22",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Retificação de Obrigação Acessória",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81344,
+                  "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -24186,8 +24202,8 @@
         {
           "mes": "2026-07",
           "abertos": 17,
-          "atendidos": 4,
-          "pendentes": 13,
+          "atendidos": 5,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -24264,8 +24280,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 2,
-              "atendidosFora": 1,
-              "pendentes": 5,
+              "atendidosFora": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81074,
@@ -24320,8 +24336,8 @@
                   "cliente": "MONTE CARLO LAB SERVICOS ADMINISTRATIVOS E COMERCIO LTDA ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81342,
@@ -24606,9 +24622,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 48,
-          "atendidos": 11,
-          "pendentes": 37,
+          "abertos": 49,
+          "atendidos": 13,
+          "pendentes": 36,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24821,32 +24837,32 @@
             {
               "nome": "Auditoria Inversa",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81243,
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81234,
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81297,
@@ -24886,13 +24902,21 @@
               "nome": "Certidão",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81270,
                   "cliente": "GRAFICA TABOAO LTDA",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81343,
+                  "cliente": "SALDAO CASA & LAR MOVEIS E ELETRODOMESTICOS LTDA",
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -24989,7 +25013,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
-                  "dataEntrega": "2026-07-22",
+                  "dataEntrega": "2026-07-23",
                   "status": "atendido_fora"
                 },
                 {
