@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/07/2026 11:58",
+  "atualizado_em": "23/07/2026 12:48",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24617,6 +24617,14 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 79835,
+                  "cliente": "SMA AGRONEGOCIOS LTDA",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 79833,
                   "cliente": "CORA SERVIÇOS EMPRESARIAIS LTDA (MATRIZ)",
                   "dataCadastro": "2026-06-10",
@@ -24627,14 +24635,6 @@
                 {
                   "id": 79834,
                   "cliente": "RENOVACAO EMPREENDIMENTOS HOTELEIROS LTDA ",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79835,
-                  "cliente": "SMA AGRONEGOCIOS LTDA",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-11",
                   "dataEntrega": null,
@@ -24662,9 +24662,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 89,
+          "abertos": 98,
           "atendidos": 14,
-          "pendentes": 75,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24741,6 +24741,30 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Alteração de Contabilista",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 81403,
+                  "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81402,
+                  "cliente": "MERCADO VIOLETA LTDA (FILIAL 11)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25017,18 +25041,18 @@
               "pendentes": 2,
               "chamados": [
                 {
-                  "id": 81267,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-21",
-                  "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81209,
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81267,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25102,7 +25126,7 @@
               "nome": "Senha",
               "atendidosDentro": 2,
               "atendidosFora": 5,
-              "pendentes": 42,
+              "pendentes": 49,
               "chamados": [
                 {
                   "id": 81068,
@@ -25243,70 +25267,6 @@
                 {
                   "id": 81379,
                   "cliente": "VIT FRUT DISTRIBUIDORA DE FRUTAS LTDA FILIAL 01.",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81225,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-20",
-                  "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-22",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 81274,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-21",
-                  "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81294,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-22",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81380,
-                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 60)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81358,
-                  "cliente": "SUPERMERCADO XODO LTDA (FILIAL 02)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81360,
-                  "cliente": "SUPERMERCADO MATRIZ LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81361,
-                  "cliente": "AFE SERVICOS ADMINISTRATIVOS LTDA",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81381,
-                  "cliente": "HORUS ATACADO COMÉRCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
                   "dataEntrega": null,
@@ -25467,6 +25427,126 @@
                 {
                   "id": 81393,
                   "cliente": "Cucinare Pro Alimentacao (Filial 84)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81395,
+                  "cliente": "Cucinare Pro Alimentacao LTDA (Filial 85)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81396,
+                  "cliente": "Cucinare Pro Alimentacao LTDA (Filial 86)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81397,
+                  "cliente": "Cucinare Pro Alimentacao LTDA (Filial 88)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81399,
+                  "cliente": "Cucinare Pro Alimentacao LTDA (Filial 89)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81400,
+                  "cliente": "Cucinare Pro Alimentacao LTDA (Filial 90)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81401,
+                  "cliente": "Cucinare Pro Alimentacao LTDA (Filial 90)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81225,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": "2026-07-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81274,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-21",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81294,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-22",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81380,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 60)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81358,
+                  "cliente": "SUPERMERCADO XODO LTDA (FILIAL 02)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81360,
+                  "cliente": "SUPERMERCADO MATRIZ LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81361,
+                  "cliente": "AFE SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81381,
+                  "cliente": "HORUS ATACADO COMÉRCIO DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81404,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 92)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
                   "dataEntrega": null,
