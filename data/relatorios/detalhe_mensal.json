@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/07/2026 16:24",
+  "atualizado_em": "23/07/2026 17:47",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 232,
-          "atendidos": 231,
-          "pendentes": 1,
+          "abertos": 235,
+          "atendidos": 233,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 162,
+              "atendidosDentro": 164,
               "atendidosFora": 68,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -16655,6 +16655,30 @@
                   "prazo": "2026-07-24",
                   "dataEntrega": "2026-07-23",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81419,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-24",
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81424,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-24",
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81428,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -20786,9 +20810,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 4,
+          "abertos": 5,
           "atendidos": 1,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Documentação",
@@ -20825,6 +20849,22 @@
                   "cliente": "GOUVEA & THAUMATURGO PROPRIEDADE INTELECTUAL LTDA",
                   "dataCadastro": "2026-07-08",
                   "prazo": "2026-07-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81420,
+                  "cliente": "P L REPRESENTAÇÕES E CONSULTORIA DE VENDAS S.A.",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -21783,9 +21823,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 34,
+          "abertos": 35,
           "atendidos": 9,
-          "pendentes": 25,
+          "pendentes": 26,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21911,7 +21951,7 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80867,
@@ -21928,6 +21968,14 @@
                   "prazo": "2026-07-10",
                   "dataEntrega": "2026-07-13",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81427,
+                  "cliente": "CAF LOG TRANSPORTES RODOVIARIOS E ARMAZENS LTDA",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80929,
@@ -24742,9 +24790,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 99,
+          "abertos": 104,
           "atendidos": 15,
-          "pendentes": 84,
+          "pendentes": 89,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -24894,7 +24942,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 11,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 81019,
@@ -24981,6 +25029,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81422,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81423,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25131,6 +25195,22 @@
               ]
             },
             {
+              "nome": "Parcelamento RFB",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81426,
+                  "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -25158,7 +25238,7 @@
               "nome": "Regularização",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81220,
@@ -25167,6 +25247,14 @@
                   "prazo": "2026-07-22",
                   "dataEntrega": "2026-07-20",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81425,
+                  "cliente": "SKEPAR ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25174,7 +25262,7 @@
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80989,
@@ -25197,6 +25285,14 @@
                   "cliente": "Centro de Distribuição Butantã Ltda.",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81421,
+                  "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
