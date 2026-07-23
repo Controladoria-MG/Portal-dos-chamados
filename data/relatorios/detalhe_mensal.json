@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/07/2026 15:48",
+  "atualizado_em": "23/07/2026 16:24",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14807,14 +14807,14 @@
         {
           "mes": "2026-07",
           "abertos": 232,
-          "atendidos": 228,
-          "pendentes": 4,
+          "atendidos": 231,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 159,
+              "atendidosDentro": 162,
               "atendidosFora": 68,
-              "pendentes": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -16629,8 +16629,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81411,
@@ -16645,16 +16645,16 @@
                   "cliente": "ECHO ID TECNOLOGIA LTDA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81417,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-23",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -24742,9 +24742,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 98,
+          "abertos": 99,
           "atendidos": 15,
-          "pendentes": 83,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25085,6 +25085,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Parcelamento Estadual",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81418,
+                  "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
