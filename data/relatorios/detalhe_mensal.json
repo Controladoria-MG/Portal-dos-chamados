@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/07/2026 12:04",
+  "atualizado_em": "27/07/2026 12:55",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24934,9 +24934,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 110,
+          "abertos": 111,
           "atendidos": 16,
-          "pendentes": 94,
+          "pendentes": 95,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25422,7 +25422,7 @@
               "nome": "Regularização",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81220,
@@ -25437,6 +25437,14 @@
                   "cliente": "SKEPAR ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81463,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-31",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
