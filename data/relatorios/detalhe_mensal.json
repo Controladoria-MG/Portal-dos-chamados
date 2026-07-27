@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/07/2026 11:03",
+  "atualizado_em": "27/07/2026 12:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 238,
-          "atendidos": 238,
-          "pendentes": 0,
+          "abertos": 240,
+          "atendidos": 239,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 167,
-              "atendidosFora": 69,
-              "pendentes": 0,
+              "atendidosFora": 70,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -15605,8 +15605,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81013,
@@ -16703,6 +16703,22 @@
                   "prazo": "2026-07-28",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81455,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81457,
+                  "cliente": "EMPÓRIO DA FESTA COMÉRCIO DE DISTRIBUIDORA LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -16875,9 +16891,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 1,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -16892,6 +16908,22 @@
                   "prazo": "2026-07-16",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "DCTFWeb",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81450,
+                  "cliente": "ESQUADRIAS SIDNEY LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -20172,7 +20204,7 @@
                   "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": "2026-07-23",
+                  "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -21863,9 +21895,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 37,
+          "abertos": 40,
           "atendidos": 9,
-          "pendentes": 28,
+          "pendentes": 31,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -21983,13 +22015,21 @@
               "nome": "Multas Diversas",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80956,
                   "cliente": "FAGUNDES, TONELO, FERRO, DOMINGUES E BARROS ADVOGADOS",
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81453,
+                  "cliente": "INSTITUTO DE ENSINO A CHAVE DO SABER LTDA ",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -22007,7 +22047,7 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 80867,
@@ -22046,6 +22086,14 @@
                   "cliente": "VALE CONCRETO LTDA",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81452,
+                  "cliente": "RESOLVE MIDIA IMPRESSOES A LASER E MANUSEIO LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -22191,8 +22239,16 @@
               "nome": "SPED",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 81454,
+                  "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81437,
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
@@ -22931,7 +22987,7 @@
                   "cliente": "S&S SUPERMERCADOS LTDA",
                   "dataCadastro": "2026-06-19",
                   "prazo": "2026-06-22",
-                  "dataEntrega": "2026-06-24",
+                  "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -23236,9 +23292,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 20,
+          "abertos": 21,
           "atendidos": 3,
-          "pendentes": 17,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23267,7 +23323,7 @@
                   "cliente": "MERCADO GUALTIERI LTDA",
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-23",
+                  "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -23356,8 +23412,16 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 81459,
+                  "cliente": "Centro de Distribuição Butantã Ltda.",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81346,
                   "cliente": "Centro de Distribuição Butantã Ltda.",
@@ -25241,16 +25305,16 @@
               "pendentes": 2,
               "chamados": [
                 {
-                  "id": 81322,
+                  "id": 81444,
                   "cliente": null,
-                  "dataCadastro": "2026-07-22",
-                  "prazo": "2026-07-23",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
                 {
-                  "id": 81444,
-                  "cliente": null,
+                  "id": 81451,
+                  "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-28",
                   "dataEntrega": null,
