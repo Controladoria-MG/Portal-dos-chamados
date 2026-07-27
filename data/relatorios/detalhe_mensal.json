@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/07/2026 16:09",
+  "atualizado_em": "27/07/2026 17:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 245,
-          "atendidos": 245,
-          "pendentes": 0,
+          "abertos": 247,
+          "atendidos": 246,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 169,
-              "atendidosFora": 74,
-              "pendentes": 0,
+              "atendidosDentro": 163,
+              "atendidosFora": 81,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -15725,7 +15725,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-16",
+                  "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -15741,8 +15741,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81039,
@@ -15813,16 +15813,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81057,
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81058,
@@ -15893,8 +15893,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81077,
@@ -15917,8 +15917,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81080,
@@ -16013,8 +16013,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": "2026-07-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81095,
@@ -16293,8 +16293,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81252,
@@ -16759,6 +16759,22 @@
                   "prazo": "2026-07-30",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81481,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81486,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -17401,8 +17417,8 @@
         {
           "mes": "2026-06",
           "abertos": 85,
-          "atendidos": 81,
-          "pendentes": 4,
+          "atendidos": 82,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -17831,8 +17847,8 @@
             {
               "nome": "Malha Fiscal",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80651,
@@ -17863,8 +17879,8 @@
                   "cliente": "LEGUME S/A",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -20195,8 +20211,8 @@
             },
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 2,
               "chamados": [
                 {
@@ -20204,8 +20220,8 @@
                   "cliente": "SUPERMERCADO CATANDUVA LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81323,
@@ -21944,22 +21960,22 @@
         {
           "mes": "2026-07",
           "abertos": 40,
-          "atendidos": 9,
-          "pendentes": 31,
+          "atendidos": 10,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81430,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -24982,9 +24998,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 117,
-          "atendidos": 35,
-          "pendentes": 82,
+          "abertos": 123,
+          "atendidos": 39,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25278,7 +25294,7 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81004,
@@ -25319,6 +25335,22 @@
                   "prazo": "2026-07-23",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81478,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81479,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25350,7 +25382,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81444,
@@ -25371,6 +25403,22 @@
                 {
                   "id": 81469,
                   "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81484,
+                  "cliente": "INOVAR CONSULTORIA EM VAREJO LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81485,
+                  "cliente": "PROMOTORAS GYN LTDA",
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-28",
                   "dataEntrega": null,
@@ -25396,33 +25444,33 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 0,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81418,
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81465,
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81475,
                   "cliente": "SUPERMERCADO SANTA MARIA LTDA",
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -25510,7 +25558,7 @@
               "nome": "Regularização",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81220,
@@ -25543,6 +25591,22 @@
                   "prazo": "2026-07-29",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81477,
+                  "cliente": "SUPERMERCADO PICCIN LIMITADA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81487,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25604,9 +25668,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 8,
+              "atendidosDentro": 9,
               "atendidosFora": 6,
-              "pendentes": 45,
+              "pendentes": 44,
               "chamados": [
                 {
                   "id": 80961,
@@ -25877,8 +25941,8 @@
                   "cliente": "DISTRIBUIDORA FERRAZ GUERRA LTDA (FILIAL 01)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81375,
