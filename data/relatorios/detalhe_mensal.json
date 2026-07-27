@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/07/2026 17:03",
+  "atualizado_em": "27/07/2026 18:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 247,
-          "atendidos": 246,
-          "pendentes": 1,
+          "abertos": 249,
+          "atendidos": 249,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 163,
+              "atendidosDentro": 166,
               "atendidosFora": 81,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -16773,8 +16773,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81489,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81493,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -16889,8 +16905,8 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 6,
-              "atendidosFora": 0,
+              "atendidosDentro": 5,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -16938,8 +16954,8 @@
                   "cliente": "V. J. ALMEIDA ADMINISTRAÇÃO DE BENS LTDA",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-17",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -17846,8 +17862,8 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 1,
-              "atendidosFora": 3,
+              "atendidosDentro": 0,
+              "atendidosFora": 4,
               "pendentes": 0,
               "chamados": [
                 {
@@ -17871,8 +17887,8 @@
                   "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-17",
-                  "dataEntrega": "2026-07-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80653,
@@ -18526,8 +18542,8 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -18535,8 +18551,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-02",
                   "prazo": "2026-07-17",
-                  "dataEntrega": "2026-07-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -21368,8 +21384,8 @@
         {
           "mes": "2026-06",
           "abertos": 58,
-          "atendidos": 47,
-          "pendentes": 11,
+          "atendidos": 48,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -21702,8 +21718,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 8,
-              "pendentes": 4,
+              "atendidosFora": 9,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80457,
@@ -21750,8 +21766,8 @@
                   "cliente": "REMARCA COMÉRCIO DE MAQUINAS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80058,
@@ -21959,9 +21975,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 40,
-          "atendidos": 10,
-          "pendentes": 30,
+          "abertos": 41,
+          "atendidos": 16,
+          "pendentes": 25,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22077,9 +22093,9 @@
             },
             {
               "nome": "Multas Diversas",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80956,
@@ -22102,8 +22118,8 @@
                   "cliente": "PERIMETRAL SERVICOS LTDA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -22165,7 +22181,7 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
               "pendentes": 6,
               "chamados": [
@@ -22194,12 +22210,20 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 81488,
+                  "cliente": "AMATRUDA LOCADORA DE GUINDASTES E ARTICULADOS LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 81285,
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81276,
@@ -22230,16 +22254,16 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81069,
                   "cliente": "LUSINDE INVEST EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80698,
@@ -22301,9 +22325,9 @@
             },
             {
               "nome": "SPED",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosDentro": 1,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81454,
@@ -22318,16 +22342,16 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-07-24",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80940,
                   "cliente": "M & M INDUSTRIA E COMERCIO LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-07-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80952,
@@ -22342,8 +22366,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80769,
@@ -22366,8 +22390,8 @@
                   "cliente": "INDUSTRIA E COMERCIO RAIZES DO NORDESTE LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80705,
@@ -22757,8 +22781,8 @@
         {
           "mes": "2026-06",
           "abertos": 63,
-          "atendidos": 59,
-          "pendentes": 4,
+          "atendidos": 60,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -23275,8 +23299,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 6,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80566,
@@ -23331,8 +23355,8 @@
                   "cliente": "PIRANA - AUTO SERVIÇO LTDA",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79915,
@@ -23357,8 +23381,8 @@
         {
           "mes": "2026-07",
           "abertos": 21,
-          "atendidos": 3,
-          "pendentes": 18,
+          "atendidos": 4,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23379,8 +23403,8 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 5,
+              "atendidosFora": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 80985,
@@ -23395,8 +23419,8 @@
                   "cliente": "Mercado R.T. Carvalho e Filho Ltda.",
                   "dataCadastro": "2026-07-07",
                   "prazo": "2026-07-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80750,
@@ -24998,9 +25022,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 123,
-          "atendidos": 39,
-          "pendentes": 84,
+          "abertos": 124,
+          "atendidos": 41,
+          "pendentes": 83,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25165,8 +25189,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 12,
+              "atendidosFora": 0,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 81019,
@@ -25237,8 +25261,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-27",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81248,
@@ -25292,9 +25316,9 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81004,
@@ -25341,8 +25365,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81479,
@@ -25500,17 +25524,17 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81426,
                   "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -25668,7 +25692,7 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 9,
+              "atendidosDentro": 10,
               "atendidosFora": 6,
               "pendentes": 44,
               "chamados": [
@@ -25837,8 +25861,8 @@
                   "cliente": "SUPERMERCADO MATRIZ LTDA (FILIAL 01)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81361,
@@ -25885,8 +25909,8 @@
                   "cliente": "PAULO S. DA SILVA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81367,
@@ -26129,18 +26153,26 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 81449,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-27",
-                  "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-27",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 81470,
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81491,
+                  "cliente": "BARBU & MARQUES COMERCIO DE VIDROS EM GERAL LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81492,
+                  "cliente": "RM DOS SANTOS – COMÉRCIO DE MOLDES E BORRACHA DE SILICONE LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-31",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
