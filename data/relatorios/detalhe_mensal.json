@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/07/2026 12:55",
+  "atualizado_em": "27/07/2026 15:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,14 +14806,14 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 240,
-          "atendidos": 239,
+          "abertos": 243,
+          "atendidos": 242,
           "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 167,
-              "atendidosFora": 70,
+              "atendidosFora": 73,
               "pendentes": 1,
               "chamados": [
                 {
@@ -16389,16 +16389,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81293,
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81295,
@@ -16549,8 +16549,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-24",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81338,
@@ -16715,6 +16715,30 @@
                 {
                   "id": 81457,
                   "cliente": "EMPÓRIO DA FESTA COMÉRCIO DE DISTRIBUIDORA LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81466,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81467,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81471,
+                  "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-28",
                   "dataEntrega": null,
@@ -21216,14 +21240,14 @@
         {
           "mes": "2026-05",
           "abertos": 9,
-          "atendidos": 6,
-          "pendentes": 3,
+          "atendidos": 8,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Malha Fiscal",
               "atendidosDentro": 0,
-              "atendidosFora": 6,
-              "pendentes": 3,
+              "atendidosFora": 8,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 79499,
@@ -21238,8 +21262,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-27",
                   "prazo": "2026-06-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79502,
@@ -21270,8 +21294,8 @@
                   "cliente": "ARABAIANA EMPREENDIMENTOS E PARTICIPACOES LTDA",
                   "dataCadastro": "2026-05-26",
                   "prazo": "2026-05-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79464,
@@ -24934,9 +24958,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 111,
-          "atendidos": 16,
-          "pendentes": 95,
+          "abertos": 115,
+          "atendidos": 18,
+          "pendentes": 97,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25228,8 +25252,8 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 1,
-              "atendidosFora": 1,
+              "atendidosDentro": 0,
+              "atendidosFora": 2,
               "pendentes": 3,
               "chamados": [
                 {
@@ -25253,8 +25277,8 @@
                   "cliente": "TAITI COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA (FILIAL 1)",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": "2026-07-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81234,
@@ -25277,8 +25301,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81270,
@@ -25293,8 +25317,8 @@
                   "cliente": "SALDAO CASA & LAR MOVEIS E ELETRODOMESTICOS LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -25302,7 +25326,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81444,
@@ -25319,6 +25343,30 @@
                   "prazo": "2026-07-28",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 81469,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Levantamento de Débitos Mensal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81468,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25326,13 +25374,21 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81418,
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81465,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25453,8 +25509,8 @@
             {
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 3,
+              "atendidosFora": 2,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80989,
@@ -25477,8 +25533,8 @@
                   "cliente": "Centro de Distribuição Butantã Ltda.",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81421,
@@ -25492,8 +25548,8 @@
             },
             {
               "nome": "Retificação de Guia",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -25501,8 +25557,8 @@
                   "cliente": "SINCOPLASTIC INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -25510,7 +25566,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 6,
-              "pendentes": 51,
+              "pendentes": 52,
               "chamados": [
                 {
                   "id": 80961,
@@ -25973,6 +26029,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81470,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
