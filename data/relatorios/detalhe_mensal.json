@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/07/2026 15:03",
+  "atualizado_em": "27/07/2026 16:09",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 243,
-          "atendidos": 242,
-          "pendentes": 1,
+          "abertos": 245,
+          "atendidos": 245,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 167,
-              "atendidosFora": 73,
-              "pendentes": 1,
+              "atendidosDentro": 169,
+              "atendidosFora": 74,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -16669,8 +16669,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81428,
@@ -16741,8 +16741,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81473,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81474,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-30",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -17814,8 +17830,8 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 2,
-              "atendidosFora": 1,
+              "atendidosDentro": 1,
+              "atendidosFora": 2,
               "pendentes": 1,
               "chamados": [
                 {
@@ -17823,8 +17839,8 @@
                   "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-17",
-                  "dataEntrega": "2026-07-02",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79661,
@@ -20149,9 +20165,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 30,
+          "abertos": 31,
           "atendidos": 27,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -20421,13 +20437,21 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81222,
                   "cliente": "DISTRIBUIDORA DE ALIMENTOS JAPÃO LTDA ",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81472,
+                  "cliente": "MERCADINHO BARCELONA LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -24958,15 +24982,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 115,
-          "atendidos": 18,
-          "pendentes": 97,
+          "abertos": 117,
+          "atendidos": 35,
+          "pendentes": 82,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80697,
@@ -25013,16 +25037,16 @@
                   "cliente": "BRASIL DISTRIBUIDORA DE PEÇAS LTDA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80919,
@@ -25045,32 +25069,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Alteração de Contabilista",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81402,
                   "cliente": "MERCADO VIOLETA LTDA (FILIAL 11)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81403,
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81440,
@@ -25084,25 +25108,25 @@
             },
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81316,
                   "cliente": "HORTIFRUTI CENTRAL DO COIMBRA LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81317,
                   "cliente": "CHER SOLUÇÕES COMERCIAIS LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -25253,8 +25277,8 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 3,
+              "atendidosFora": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81004,
@@ -25293,8 +25317,8 @@
                   "cliente": "A. DE S. JANOCA MERCADO",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -25324,17 +25348,17 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81444,
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81451,
@@ -25374,7 +25398,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81418,
@@ -25387,6 +25411,14 @@
                 {
                   "id": 81465,
                   "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81475,
+                  "cliente": "SUPERMERCADO SANTA MARIA LTDA",
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
                   "dataEntrega": null,
@@ -25436,17 +25468,17 @@
             },
             {
               "nome": "Processo de Caixa",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81432,
                   "cliente": "BRASIL DISTRIBUIDORA DE PEÇAS LTDA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -25476,7 +25508,7 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
               "pendentes": 2,
               "chamados": [
@@ -25503,6 +25535,14 @@
                   "prazo": "2026-07-31",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 81476,
+                  "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -25564,9 +25604,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 1,
+              "atendidosDentro": 8,
               "atendidosFora": 6,
-              "pendentes": 52,
+              "pendentes": 45,
               "chamados": [
                 {
                   "id": 80961,
@@ -25653,8 +25693,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81351,
@@ -25685,8 +25725,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81355,
@@ -25717,16 +25757,16 @@
                   "cliente": "SUPERMERCADO XODO LTDA (FILIAL 02)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81359,
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81360,
@@ -25741,8 +25781,8 @@
                   "cliente": "AFE SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81362,
@@ -26021,16 +26061,16 @@
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81449,
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81470,
