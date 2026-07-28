@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/07/2026 11:09",
+  "atualizado_em": "28/07/2026 12:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -16987,15 +16987,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 2,
+          "abertos": 3,
           "atendidos": 1,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81084,
@@ -17004,6 +17004,14 @@
                   "prazo": "2026-07-16",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81520,
+                  "cliente": "HERLOS EMPREENDIMENTOS S.A.",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -22032,8 +22040,8 @@
         {
           "mes": "2026-07",
           "abertos": 44,
-          "atendidos": 16,
-          "pendentes": 28,
+          "atendidos": 17,
+          "pendentes": 27,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22438,8 +22446,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 4,
+              "atendidosFora": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81502,
@@ -22462,8 +22470,8 @@
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81168,
@@ -25086,9 +25094,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 131,
+          "abertos": 134,
           "atendidos": 47,
-          "pendentes": 84,
+          "pendentes": 87,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25237,6 +25245,22 @@
                   "cliente": "VICTOR PANUCCI CONFECÇOES LTDA (FILIAL 1)",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Arquivo",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81522,
+                  "cliente": "Soluzz Administração e Participação S.A",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25814,7 +25838,7 @@
               "nome": "Senha",
               "atendidosDentro": 14,
               "atendidosFora": 8,
-              "pendentes": 38,
+              "pendentes": 40,
               "chamados": [
                 {
                   "id": 80961,
@@ -26295,6 +26319,22 @@
                   "prazo": "2026-07-31",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81518,
+                  "cliente": "Guilherme A KL Gunnewiek & Cia Ltda -  Filial 01",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81519,
+                  "cliente": "Guilherme A KL Gunnewiek & Cia Ltda",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
