@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/07/2026 13:04",
+  "atualizado_em": "28/07/2026 14:06",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 253,
-          "atendidos": 252,
-          "pendentes": 1,
+          "abertos": 255,
+          "atendidos": 253,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 164,
-              "atendidosFora": 86,
-              "pendentes": 1,
+              "atendidosFora": 87,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80661,
@@ -16637,8 +16637,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81416,
@@ -16818,6 +16818,22 @@
                 },
                 {
                   "id": 81524,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81525,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81526,
                   "cliente": null,
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
@@ -22141,8 +22157,8 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 2,
-              "atendidosFora": 0,
+              "atendidosDentro": 1,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -22150,8 +22166,8 @@
                   "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-07-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81103,
@@ -25103,8 +25119,8 @@
         {
           "mes": "2026-07",
           "abertos": 134,
-          "atendidos": 48,
-          "pendentes": 86,
+          "atendidos": 49,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25845,8 +25861,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 14,
-              "atendidosFora": 9,
-              "pendentes": 39,
+              "atendidosFora": 10,
+              "pendentes": 38,
               "chamados": [
                 {
                   "id": 80961,
@@ -26181,8 +26197,8 @@
                   "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 03)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81385,
