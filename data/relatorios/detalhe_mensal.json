@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/07/2026 08:55",
+  "atualizado_em": "28/07/2026 10:12",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 251,
-          "atendidos": 250,
+          "abertos": 252,
+          "atendidos": 251,
           "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 166,
+              "atendidosDentro": 167,
               "atendidosFora": 82,
               "pendentes": 1,
               "chamados": [
@@ -16807,6 +16807,14 @@
                   "prazo": "2026-07-29",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 81507,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -18248,9 +18256,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 42,
+          "abertos": 44,
           "atendidos": 31,
-          "pendentes": 11,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18408,8 +18416,16 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 81503,
+                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81447,
                   "cliente": "MAGFI PROJETOS E SERVIÇOS LTDA",
@@ -18456,7 +18472,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 1,
               "atendidosFora": 5,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81195,
@@ -18473,6 +18489,14 @@
                   "prazo": "2026-07-17",
                   "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81505,
+                  "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81212,
@@ -20189,9 +20213,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 31,
+          "abertos": 32,
           "atendidos": 27,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -20251,8 +20275,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 6,
-              "atendidosFora": 5,
+              "atendidosDentro": 4,
+              "atendidosFora": 7,
               "pendentes": 0,
               "chamados": [
                 {
@@ -20300,8 +20324,8 @@
                   "cliente": "BEST SALAD HORTI FRUTI LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81263,
@@ -20324,8 +20348,8 @@
                   "cliente": "CEREALISTA IDEAL DE SÃO CAETANO LTDA",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80948,
@@ -20405,7 +20429,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80819,
@@ -20438,6 +20462,14 @@
                   "prazo": "2026-07-10",
                   "dataEntrega": "2026-07-13",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81508,
+                  "cliente": "AR BRASIL COMERCIO DE PEÇAS DE REFRIGERAÇÃO LTDA",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -21967,9 +21999,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 42,
+          "abertos": 44,
           "atendidos": 16,
-          "pendentes": 26,
+          "pendentes": 28,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22247,7 +22279,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81069,
@@ -22261,6 +22293,14 @@
                   "id": 81497,
                   "cliente": "TRONICS DO BRASIL INDUSTRIA DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81506,
+                  "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
+                  "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -22367,8 +22407,16 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 81502,
+                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80769,
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
@@ -25022,8 +25070,8 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 125,
-          "atendidos": 45,
+          "abertos": 127,
+          "atendidos": 47,
           "pendentes": 80,
           "categorias": [
             {
@@ -25172,8 +25220,8 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -25181,8 +25229,8 @@
                   "cliente": "RRW DISTRIBUIDORA E IMPORTADORA DE PECAS LTDA",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -25357,7 +25405,7 @@
                   "cliente": "A. DE S. JANOCA MERCADO",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-27",
+                  "dataEntrega": "2026-07-28",
                   "status": "atendido_fora"
                 },
                 {
@@ -25526,7 +25574,7 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81426,
@@ -25535,6 +25583,14 @@
                   "prazo": "2026-07-27",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81501,
+                  "cliente": "PERIMETRAL SERVICOS LTDA",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25646,7 +25702,7 @@
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80989,
@@ -25679,6 +25735,14 @@
                   "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 81504,
+                  "cliente": "Padaria e Restaurante Valentina Ltda.",
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25701,8 +25765,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 14,
-              "atendidosFora": 6,
-              "pendentes": 40,
+              "atendidosFora": 8,
+              "pendentes": 38,
               "chamados": [
                 {
                   "id": 80961,
@@ -25837,16 +25901,16 @@
                   "cliente": "Cucinare Pro Alimentaçao Ltda (FL 51)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81357,
                   "cliente": "Cucinare Pro Alimentaçao ( FL 53)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81358,
