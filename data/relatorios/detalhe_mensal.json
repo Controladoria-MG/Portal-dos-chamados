@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/07/2026 12:04",
+  "atualizado_em": "28/07/2026 13:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 252,
+          "abertos": 253,
           "atendidos": 252,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 166,
-              "atendidosFora": 84,
-              "pendentes": 0,
+              "atendidosDentro": 164,
+              "atendidosFora": 86,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -16253,8 +16253,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81231,
@@ -16613,8 +16613,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81407,
@@ -16815,6 +16815,14 @@
                   "prazo": "2026-07-29",
                   "dataEntrega": "2026-07-28",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81524,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -21448,8 +21456,8 @@
         {
           "mes": "2026-06",
           "abertos": 58,
-          "atendidos": 48,
-          "pendentes": 10,
+          "atendidos": 49,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -21782,16 +21790,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 9,
-              "pendentes": 3,
+              "atendidosFora": 10,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80457,
                   "cliente": "GENGIBRE ADMINISTRACAO E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-06-23",
                   "prazo": "2026-06-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80576,
@@ -22040,8 +22048,8 @@
         {
           "mes": "2026-07",
           "abertos": 44,
-          "atendidos": 17,
-          "pendentes": 27,
+          "atendidos": 20,
+          "pendentes": 24,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22246,16 +22254,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 6,
+              "atendidosFora": 2,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80729,
                   "cliente": "EKIIM RESTAURANTE LTDA",
                   "dataCadastro": "2026-07-03",
                   "prazo": "2026-07-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80766,
@@ -22366,24 +22374,24 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 3,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80738,
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81036,
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81037,
@@ -25095,8 +25103,8 @@
         {
           "mes": "2026-07",
           "abertos": 134,
-          "atendidos": 47,
-          "pendentes": 87,
+          "atendidos": 48,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25173,7 +25181,7 @@
                   "cliente": "M CAVICHIOLLI COMÉRCIO DE ROUPAS EIRELI",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-23",
+                  "dataEntrega": "2026-07-28",
                   "status": "atendido_fora"
                 },
                 {
@@ -25837,8 +25845,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 14,
-              "atendidosFora": 8,
-              "pendentes": 40,
+              "atendidosFora": 9,
+              "pendentes": 39,
               "chamados": [
                 {
                   "id": 80961,
@@ -26229,8 +26237,8 @@
                   "cliente": "CENTRAL DISTRIBUIDORA DE GESSO LTDA (FILIAL 01) ",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81395,
