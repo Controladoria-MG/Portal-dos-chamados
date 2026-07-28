@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/07/2026 14:06",
+  "atualizado_em": "28/07/2026 14:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -20285,9 +20285,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 31,
+          "abertos": 32,
           "atendidos": 27,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -20430,6 +20430,22 @@
                   "prazo": "2026-07-24",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Cadastro de Cliente",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81479,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -22350,7 +22366,7 @@
                   "cliente": "LUSINDE INVEST EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-27",
+                  "dataEntrega": "2026-07-28",
                   "status": "atendido_fora"
                 },
                 {
@@ -25118,9 +25134,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 134,
+          "abertos": 133,
           "atendidos": 49,
-          "pendentes": 85,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25462,7 +25478,7 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81004,
@@ -25511,14 +25527,6 @@
                   "prazo": "2026-07-30",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 81479,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-27",
-                  "prazo": "2026-07-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
