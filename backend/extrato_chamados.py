@@ -968,10 +968,10 @@ def publicar_no_github():
             t2 = pg.add_task("[cyan]Sincronizando com GitHub...", total=None)
             pg.update(t2, description="[cyan]Baixando atualizações remotas (pull)...")
             subprocess.run(["git", "-C", REPO_DIR, "pull", "--rebase", "--autostash"],
-                           check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                           check=True, capture_output=True, text=True)
             pg.update(t2, description="[cyan]Adicionando arquivos...")
             subprocess.run(["git", "-C", REPO_DIR, "add", "data/"], check=True,
-                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                           capture_output=True, text=True)
 
             diff = subprocess.run(["git", "-C", REPO_DIR, "diff", "--cached", "--quiet"])
             if diff.returncode == 0:
@@ -986,10 +986,10 @@ def publicar_no_github():
             pg.update(t2, description="[cyan]Criando commit...")
             msg = f"data: atualização base chamados {agora_str()}"
             subprocess.run(["git", "-C", REPO_DIR, "commit", "-m", msg], check=True,
-                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                           capture_output=True, text=True)
             pg.update(t2, description="[cyan]Fazendo push...")
             subprocess.run(["git", "-C", REPO_DIR, "push"], check=True,
-                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                           capture_output=True, text=True)
 
         console.print(Panel(
             "[green]✔[/green] Base enviada para o GitHub!\n"
@@ -1000,8 +1000,11 @@ def publicar_no_github():
             padding=(0, 2),
         ))
     except subprocess.CalledProcessError as e:
+        detalhe = (e.stderr or e.stdout or "").strip() or "(sem saída do git)"
         console.print(Panel(
-            f"[yellow]base.xlsx atualizado, mas o push falhou:[/yellow]\n[red]{e}[/red]\n\n"
+            f"[yellow]base.xlsx atualizado, mas o push falhou:[/yellow]\n"
+            f"[dim]{e}[/dim]\n\n"
+            f"[red]{detalhe}[/red]\n\n"
             "[dim]Faça o push manualmente via terminal na pasta do repo.[/dim]",
             title="[yellow]Aviso[/yellow]",
             border_style="yellow",
