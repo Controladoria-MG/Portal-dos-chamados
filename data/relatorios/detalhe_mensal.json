@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/07/2026 10:05",
+  "atualizado_em": "29/07/2026 10:49",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -18345,8 +18345,8 @@
         {
           "mes": "2026-07",
           "abertos": 50,
-          "atendidos": 33,
-          "pendentes": 17,
+          "atendidos": 34,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18374,9 +18374,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 7,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80745,
@@ -18439,8 +18439,8 @@
                   "cliente": "G4 LINHA VIVA LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80715,
@@ -22191,9 +22191,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 46,
+          "abertos": 47,
           "atendidos": 32,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22471,7 +22471,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 4,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81069,
@@ -22512,6 +22512,14 @@
                   "prazo": "2026-07-20",
                   "dataEntrega": "2026-07-20",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81558,
+                  "cliente": "G4 LINHA VIVA LTDA",
+                  "dataCadastro": "2026-07-29",
+                  "prazo": "2026-07-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81532,
@@ -25246,9 +25254,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 137,
+          "abertos": 139,
           "atendidos": 54,
-          "pendentes": 83,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25525,8 +25533,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81247,
@@ -25549,8 +25557,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": "2026-07-29",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81422,
@@ -25971,6 +25979,22 @@
               ]
             },
             {
+              "nome": "Restituição",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81556,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-29",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Retificação de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 1,
@@ -25990,7 +26014,7 @@
               "nome": "Senha",
               "atendidosDentro": 14,
               "atendidosFora": 11,
-              "pendentes": 40,
+              "pendentes": 41,
               "chamados": [
                 {
                   "id": 80961,
@@ -26508,6 +26532,14 @@
                   "id": 81543,
                   "cliente": "RM DOS SANTOS – COMÉRCIO DE MOLDES E BORRACHA DE SILICONE LTDA",
                   "dataCadastro": "2026-07-28",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81557,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-31",
                   "dataEntrega": null,
                   "status": "pendente"
