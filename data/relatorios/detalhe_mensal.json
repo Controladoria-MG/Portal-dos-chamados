@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/07/2026 13:03",
+  "atualizado_em": "30/07/2026 14:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 273,
-          "atendidos": 273,
-          "pendentes": 0,
+          "abertos": 274,
+          "atendidos": 272,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 179,
+              "atendidosDentro": 178,
               "atendidosFora": 92,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80661,
@@ -16957,8 +16957,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81610,
@@ -16983,6 +16983,14 @@
                   "prazo": "2026-07-31",
                   "dataEntrega": "2026-07-30",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81661,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -20461,8 +20469,8 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 41,
-          "atendidos": 29,
+          "abertos": 40,
+          "atendidos": 28,
           "pendentes": 12,
           "categorias": [
             {
@@ -20500,7 +20508,7 @@
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -20509,14 +20517,6 @@
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
                   "dataEntrega": "2026-07-27",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81409,
-                  "cliente": "Pantoja & Cia Ltda.",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-29",
                   "status": "atendido_fora"
                 }
               ]
@@ -25438,9 +25438,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 156,
+          "abertos": 157,
           "atendidos": 61,
-          "pendentes": 95,
+          "pendentes": 96,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25942,7 +25942,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81444,
@@ -25983,6 +25983,14 @@
                   "prazo": "2026-07-28",
                   "dataEntrega": "2026-07-29",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81663,
+                  "cliente": "MERCADINHO BARCELONA LTDA",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -26020,8 +26028,8 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 3,
-              "atendidosFora": 0,
+              "atendidosDentro": 2,
+              "atendidosFora": 1,
               "pendentes": 1,
               "chamados": [
                 {
@@ -26029,8 +26037,8 @@
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-07-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81465,
