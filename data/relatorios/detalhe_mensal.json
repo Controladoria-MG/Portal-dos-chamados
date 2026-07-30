@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/07/2026 16:04",
+  "atualizado_em": "30/07/2026 17:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 275,
-          "atendidos": 274,
-          "pendentes": 1,
+          "abertos": 279,
+          "atendidos": 275,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 180,
-              "atendidosFora": 92,
-              "pendentes": 1,
+              "atendidosDentro": 179,
+              "atendidosFora": 94,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 80661,
@@ -16621,8 +16621,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81410,
@@ -16661,8 +16661,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81424,
@@ -16995,6 +16995,38 @@
                 {
                   "id": 81667,
                   "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81670,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81671,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81672,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-07-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81673,
+                  "cliente": null,
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
                   "dataEntrega": null,
@@ -22368,8 +22400,8 @@
         {
           "mes": "2026-07",
           "abertos": 48,
-          "atendidos": 39,
-          "pendentes": 9,
+          "atendidos": 40,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22510,8 +22542,8 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
-              "atendidosFora": 5,
-              "pendentes": 1,
+              "atendidosFora": 6,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80867,
@@ -22558,15 +22590,15 @@
                   "cliente": "RESOLVE MIDIA IMPRESSOES A LASER E MANUSEIO LTDA",
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 2,
-              "atendidosFora": 4,
+              "atendidosDentro": 1,
+              "atendidosFora": 5,
               "pendentes": 3,
               "chamados": [
                 {
@@ -22606,8 +22638,8 @@
                   "cliente": "AMATRUDA LOCADORA DE GUINDASTES E ARTICULADOS LTDA",
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
-                  "dataEntrega": "2026-07-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81285,
@@ -22726,16 +22758,16 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80738,
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
-                  "dataEntrega": "2026-07-28",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81036,
@@ -22806,8 +22838,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81502,
@@ -22846,8 +22878,8 @@
                   "cliente": "GR MIX CONCRETOS LTDA",
                   "dataCadastro": "2026-07-02",
                   "prazo": "2026-07-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -25462,15 +25494,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 160,
-          "atendidos": 62,
+          "abertos": 161,
+          "atendidos": 63,
           "pendentes": 98,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80697,
@@ -25501,8 +25533,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80951,
@@ -26124,9 +26156,9 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81426,
@@ -26141,12 +26173,20 @@
                   "cliente": "PERIMETRAL SERVICOS LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
-                  "dataEntrega": "2026-07-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81665,
                   "cliente": "LIMA MOTA LOCAÇÕES, SERVIÇOS E COMERCIO LTDA",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81674,
+                  "cliente": "GS MUROS LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
                   "dataEntrega": null,
@@ -26404,9 +26444,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 10,
+              "atendidosDentro": 11,
               "atendidosFora": 14,
-              "pendentes": 42,
+              "pendentes": 41,
               "chamados": [
                 {
                   "id": 80961,
@@ -26901,8 +26941,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81584,
