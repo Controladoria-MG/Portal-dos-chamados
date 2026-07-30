@@ -63,6 +63,22 @@
       <!-- Abas Pendentes / Retornados (visível só para GC) -->
       <div id="dept-tabs"></div>
 
+      <!-- Placar Total / Vencidos / Não Vencidos -->
+      <div class="ticket-stats-row" id="ticket-stats-row">
+        <div class="stat-box">
+          <span class="stat-box-label">Total</span>
+          <span class="stat-box-value" id="stat-total">0</span>
+        </div>
+        <div class="stat-box stat-box--danger">
+          <span class="stat-box-label">Vencidos</span>
+          <span class="stat-box-value" id="stat-vencidos">0</span>
+        </div>
+        <div class="stat-box stat-box--success">
+          <span class="stat-box-label">Não Vencidos</span>
+          <span class="stat-box-value" id="stat-nao-vencidos">0</span>
+        </div>
+      </div>
+
       <!-- Client table -->
       <div class="table-wrap">
         <div class="table-header">

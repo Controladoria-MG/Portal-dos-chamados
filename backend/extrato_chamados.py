@@ -94,9 +94,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 USUARIO  = "rjuan"
 SENHA    = "Palmeiras!"
 
-PASTA_DOWNLOAD    = r"C:\Users\gamaral\Desktop\Python\Chamados\data\Att Base"
+PASTA_DOWNLOAD    = r"C:\Users\gamaral\Desktop\Python\Portal-dos-chamados\data\Att Base"
 ARQUIVO_PROTEGIDO = "Relatório Colaboradores Ativos_07_07_2026, 17_41_11.xlsx"
-REPO_DIR          = r"C:\Users\gamaral\Desktop\Python\Chamados"
+REPO_DIR          = r"C:\Users\gamaral\Desktop\Python\Portal-dos-chamados"
 
 TIMEOUT    = 40
 URL_LOGIN  = "https://aplicativo.mgcontecnica.com.br/#/login"
@@ -372,11 +372,17 @@ def iniciar_driver(pasta_download, headless=True):
         "download.default_directory":                                 os.path.abspath(pasta_download),
         "download.prompt_for_download":                               False,
         "download.directory_upgrade":                                 True,
-        "safebrowsing.enabled":                                       True,
+        # Safe Browsing desligado por completo — com ele ligado, o Chrome às
+        # vezes marca o .xlsx baixado como "Não confirmado" e trava o
+        # download pedindo confirmação manual ("Manter arquivo perigoso?"),
+        # que nunca chega em modo automatizado/headless. O download fica
+        # parado como .crdownload para sempre e o script trava aguardando.
+        "safebrowsing.enabled":                                       False,
         "safebrowsing.disable_download_protection":                   True,
         "profile.default_content_setting_values.automatic_downloads": 1,
     }
     options.add_experimental_option("prefs", prefs)
+    options.add_argument("--safebrowsing-disable-download-protection")
 
     service = Service(ChromeDriverManager().install())
     driver  = webdriver.Chrome(service=service, options=options)

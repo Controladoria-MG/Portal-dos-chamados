@@ -48,6 +48,19 @@ function vencimentoStatus(row) {
 function prazoVal(row) {
   return col(row,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento');
 }
+/* Placar Total / Vencidos / Não Vencidos — conta chamados (não clientes) */
+function updateTicketStats(tickets) {
+  if (!$statTotal) return;
+  let vencidos = 0, naoVencidos = 0;
+  tickets.forEach(r => {
+    const st = vencimentoStatus(r);
+    if (st === 'Vencido') vencidos++;
+    else if (st === 'Não Vencido') naoVencidos++;
+  });
+  $statTotal.textContent       = tickets.length.toLocaleString('pt-BR');
+  $statVencidos.textContent    = vencidos.toLocaleString('pt-BR');
+  $statNaoVencidos.textContent = naoVencidos.toLocaleString('pt-BR');
+}
 /* Prazo Vencimento mais urgente (data mais antiga) entre um conjunto de chamados */
 function earliestPrazo(rows) {
   let best = null;
@@ -121,6 +134,9 @@ const $clientBody   = document.getElementById('client-body');
 const $clientSearch = document.getElementById('client-search');
 const $deptTitle    = document.getElementById('dept-title');
 const $deptCount    = document.getElementById('dept-count');
+const $statTotal        = document.getElementById('stat-total');
+const $statVencidos     = document.getElementById('stat-vencidos');
+const $statNaoVencidos  = document.getElementById('stat-nao-vencidos');
 const $headerDate   = document.getElementById('header-date');
 
 /* ─── DEPT COM RETORNADOS: qualquer dept que tenha linhas Retornado=SIM ─ */
@@ -482,21 +498,26 @@ function positionDropdown(btn, dd) {
 /* ─── FILTROS — POPULAR OPÇÕES ───────────────────────────────────── */
 function populateFilterDropdowns(rows) {
   FILTER_DEFS.forEach(def => {
-    const found = [...new Set(rows.map(r => filterValue(r, def)).filter(Boolean))];
+    const allFound = [...new Set(rows.map(r => filterValue(r, def)))];
+    const temVazio = allFound.includes('');
+    const found     = allFound.filter(Boolean);
     const values = def.sort   ? def.sort.filter(v => found.includes(v))
                  : def.sortFn ? def.sortFn(found)
                  : found.sort();
+    // "Vazio" (campo ainda não preenchido, ex.: Previsão Atend. em branco) sempre por último.
+    if (temVazio) values.push('');
 
     const $list = document.getElementById(`${def.key}-list`);
     $list.innerHTML = '';
     activeFilters[def.key].clear();
 
     for (const val of values) {
+      const isVazio = val === '';
       const li = document.createElement('li');
       li.innerHTML = `
-        <label class="cat-option">
+        <label class="cat-option${isVazio ? ' cat-option--empty' : ''}">
           <input type="checkbox" value="${escHtml(val)}">
-          <span>${escHtml(val)}</span>
+          <span>${isVazio ? 'Vazio' : escHtml(val)}</span>
         </label>`;
       li.querySelector('input').addEventListener('change', (e) => {
         if (e.target.checked) activeFilters[def.key].add(val);
@@ -529,6 +550,7 @@ function updateFilterLabel(def) {
 function applyFilters() {
   const q = $clientSearch.value.toLowerCase();
   const algumFiltroAtivo = FILTER_DEFS.some(def => activeFilters[def.key].size > 0);
+  const ticketsVisiveis = [];
 
   $clientBody.querySelectorAll('tr:not(.detail-row)').forEach(tr => {
     const clientId  = tr.dataset.clientId;
@@ -556,7 +578,10 @@ function applyFilters() {
     tr.style.display = visible ? '' : 'none';
     const next = tr.nextElementSibling;
     if (next && next.classList.contains('detail-row')) next.style.display = visible ? '' : 'none';
+    if (visible) ticketsVisiveis.push(...relevantRows);
   });
+
+  updateTicketStats(ticketsVisiveis);
 
   const visible = $clientBody.querySelectorAll('tr:not(.detail-row):not([style*="display: none"])').length;
   if ($deptCount) $deptCount.textContent = `${visible} registro${visible !== 1 ? 's' : ''}`;
@@ -570,6 +595,8 @@ function renderDeptRows(allDeptRows) {
       ? String(col(r,'Retornado')).toUpperCase() === 'SIM'
       : String(col(r,'Retornado')).toUpperCase() !== 'SIM'
   );
+
+  updateTicketStats(rows);
 
   if ($deptCount) $deptCount.textContent = `${rows.length} registro${rows.length !== 1 ? 's' : ''}`;
 

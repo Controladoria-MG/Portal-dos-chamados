@@ -322,6 +322,26 @@ main {
   color: var(--ret-color);
 }
 
+/* ─── PLACAR TOTAL / VENCIDOS / NÃO VENCIDOS ─────────────────────── */
+.ticket-stats-row {
+  display: flex; flex-wrap: wrap; gap: 12px;
+  margin-bottom: 1.2rem;
+}
+.stat-box {
+  flex: 1 1 160px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 0.9rem 1.2rem;
+  display: flex; flex-direction: column; gap: 0.3rem;
+}
+.stat-box-label {
+  font-size: 0.65rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--muted);
+}
+.stat-box-value { font-size: 1.6rem; font-weight: 700; color: var(--text); }
+.stat-box--danger  .stat-box-value { color: var(--danger); }
+.stat-box--success .stat-box-value { color: var(--success); }
+
 /* ─── CLIENT TABLE ───────────────────────────────────────────────── */
 .table-wrap {
   background: var(--bg-card); border: 1px solid var(--border);
@@ -526,6 +546,7 @@ td.num-cell, th.num-cell { text-align: center; font-variant-numeric: tabular-num
   width: 14px; height: 14px; accent-color: var(--secondary);
   flex-shrink: 0; cursor: pointer;
 }
+.cat-option--empty span { color: var(--muted); font-style: italic; }
 
 /* ─── SCROLLBAR ──────────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 5px; height: 5px; }

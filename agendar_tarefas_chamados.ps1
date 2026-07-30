@@ -3,8 +3,9 @@
 # ============================================================
 
 $python = (Get-Command python).Source
-$script = "C:\Users\gamaral\Desktop\Python\Chamados\backend\extrato_chamados.py"
-$horarios = @("09:00", "13:00", "15:00", "17:00", "18:00")
+$script = "C:\Users\gamaral\Desktop\Python\Portal-dos-chamados\backend\extrato_chamados.py"
+$workDir = "C:\Users\gamaral\Desktop\Python\Portal-dos-chamados"
+$horarios = 9..18 | ForEach-Object { "{0:D2}:00" -f $_ }
 
 Write-Host "Configurando tarefas agendadas..." -ForegroundColor Cyan
 
@@ -16,16 +17,21 @@ foreach ($horario in $horarios) {
     $acao = New-ScheduledTaskAction `
         -Execute $python `
         -Argument "$script --auto" `
-        -WorkingDirectory "C:\Users\gamaral\Desktop\Python\Chamados"
+        -WorkingDirectory $workDir
 
     $gatilho = New-ScheduledTaskTrigger `
         -Daily `
         -At $horario
 
+    # Limite de 45 min: a rodada "--auto" faz 4 extracoes sequenciais + base +
+    # push, e cada download pode levar ate 10 min se travar. Fica com folga
+    # antes do proximo disparo (1h depois). IgnoreNew evita empilhar uma nova
+    # instancia (e novos processos de Chrome) se a rodada anterior atrasar.
     $config = New-ScheduledTaskSettingsSet `
-        -ExecutionTimeLimit (New-TimeSpan -Minutes 10) `
+        -ExecutionTimeLimit (New-TimeSpan -Minutes 45) `
         -StartWhenAvailable `
-        -DontStopOnIdleEnd
+        -DontStopOnIdleEnd `
+        -MultipleInstances IgnoreNew
 
     $principal = New-ScheduledTaskPrincipal `
         -UserId $env:USERNAME `
