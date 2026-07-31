@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/07/2026 10:04",
+  "atualizado_em": "31/07/2026 12:05",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,13 +14806,13 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 281,
-          "atendidos": 280,
+          "abertos": 282,
+          "atendidos": 281,
           "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 183,
+              "atendidosDentro": 184,
               "atendidosFora": 95,
               "pendentes": 1,
               "chamados": [
@@ -17045,6 +17045,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81699,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -18505,8 +18513,8 @@
         {
           "mes": "2026-07",
           "abertos": 54,
-          "atendidos": 34,
-          "pendentes": 20,
+          "atendidos": 35,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18687,16 +18695,16 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 5,
+              "atendidosFora": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81503,
                   "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81447,
@@ -19790,8 +19798,8 @@
         {
           "mes": "2026-06",
           "abertos": 78,
-          "atendidos": 77,
-          "pendentes": 1,
+          "atendidos": 78,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -19859,8 +19867,8 @@
             },
             {
               "nome": "Autorregularização",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19868,8 +19876,8 @@
                   "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (MATRIZ)",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-06-17",
-                  "dataEntrega": "2026-06-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -20204,8 +20212,8 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 3,
-              "atendidosFora": 7,
-              "pendentes": 1,
+              "atendidosFora": 8,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80353,
@@ -20260,8 +20268,8 @@
                   "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
                   "dataCadastro": "2026-06-17",
                   "prazo": "2026-06-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80206,
@@ -20355,8 +20363,8 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -20364,8 +20372,8 @@
                   "cliente": "VIT FRUT DISTRIBUIDORA DE FRUTAS LTDA.",
                   "dataCadastro": "2026-06-25",
                   "prazo": "2026-07-06",
-                  "dataEntrega": "2026-07-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -20541,9 +20549,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 42,
+          "abertos": 43,
           "atendidos": 28,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -20590,6 +20598,22 @@
                   "prazo": "2026-07-23",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Autorregularização",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81707,
+                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -22431,9 +22455,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 48,
+          "abertos": 49,
           "atendidos": 40,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22791,8 +22815,16 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 81703,
+                  "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80738,
                   "cliente": "PLANET GRAPHICS LTDA ",
@@ -23892,9 +23924,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 22,
+          "abertos": 25,
           "atendidos": 11,
-          "pendentes": 11,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23916,7 +23948,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 4,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 80985,
@@ -23925,6 +23957,30 @@
                   "prazo": "2026-07-15",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81702,
+                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81705,
+                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81706,
+                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 80796,
@@ -25526,9 +25582,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 162,
-          "atendidos": 79,
-          "pendentes": 83,
+          "abertos": 163,
+          "atendidos": 82,
+          "pendentes": 81,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25797,8 +25853,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 13,
+              "atendidosFora": 1,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 81019,
@@ -25885,8 +25941,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81422,
@@ -26252,9 +26308,9 @@
             },
             {
               "nome": "Processo de Prefeitura",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosDentro": 2,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81209,
@@ -26277,16 +26333,16 @@
                   "cliente": "ASMG INSTALAÇÕES E SERVIÇOS LTDA",
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81638,
                   "cliente": null,
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81669,
@@ -26484,9 +26540,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 15,
-              "atendidosFora": 14,
-              "pendentes": 37,
+              "atendidosDentro": 14,
+              "atendidosFora": 15,
+              "pendentes": 38,
               "chamados": [
                 {
                   "id": 80961,
@@ -26941,8 +26997,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
-                  "dataEntrega": "2026-07-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81529,
@@ -27015,6 +27071,14 @@
                   "prazo": "2026-08-03",
                   "dataEntrega": "2026-07-30",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81704,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
