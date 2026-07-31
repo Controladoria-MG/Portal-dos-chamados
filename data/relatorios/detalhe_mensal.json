@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/07/2026 09:04",
+  "atualizado_em": "31/07/2026 10:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 280,
+          "abertos": 281,
           "atendidos": 280,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 184,
-              "atendidosFora": 94,
-              "pendentes": 0,
+              "atendidosDentro": 183,
+              "atendidosFora": 95,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80661,
@@ -16845,8 +16845,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
-                  "dataEntrega": "2026-07-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81539,
@@ -17005,7 +17005,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-30",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17039,6 +17039,14 @@
                   "prazo": "2026-07-31",
                   "dataEntrega": "2026-07-31",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81698,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -18175,7 +18183,7 @@
                   "cliente": "D&T BRASIL INDUSTRIA DE ELETRÔNICOS LTDA",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-10",
-                  "dataEntrega": "2026-07-17",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
                 },
                 {
@@ -18496,9 +18504,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 53,
+          "abertos": 54,
           "atendidos": 34,
-          "pendentes": 19,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18528,7 +18536,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 2,
               "atendidosFora": 7,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 80745,
@@ -18585,6 +18593,14 @@
                   "prazo": "2026-07-06",
                   "dataEntrega": "2026-07-08",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81697,
+                  "cliente": "CLUBE ATLETICO INDIANO",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81157,
@@ -20525,9 +20541,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 41,
+          "abertos": 42,
           "atendidos": 28,
-          "pendentes": 13,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -20581,7 +20597,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 10,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 81588,
@@ -20718,6 +20734,14 @@
                   "prazo": "2026-07-24",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81696,
+                  "cliente": "AR BRASIL COMERCIO DE PEÇAS DE REFRIGERAÇÃO LTDA",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -21728,14 +21752,14 @@
         {
           "mes": "2026-05",
           "abertos": 9,
-          "atendidos": 9,
-          "pendentes": 0,
+          "atendidos": 7,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Malha Fiscal",
               "atendidosDentro": 0,
-              "atendidosFora": 9,
-              "pendentes": 0,
+              "atendidosFora": 7,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 79499,
@@ -21758,8 +21782,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-27",
                   "prazo": "2026-06-08",
-                  "dataEntrega": "2026-07-22",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 79467,
@@ -21798,8 +21822,8 @@
                   "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
                   "dataCadastro": "2026-05-26",
                   "prazo": "2026-05-28",
-                  "dataEntrega": "2026-07-22",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 79551,
@@ -21925,8 +21949,8 @@
             },
             {
               "nome": "Autorregularização",
-              "atendidosDentro": 1,
-              "atendidosFora": 3,
+              "atendidosDentro": 0,
+              "atendidosFora": 4,
               "pendentes": 3,
               "chamados": [
                 {
@@ -21934,8 +21958,8 @@
                   "cliente": "AF DATALINK CABOS, CONEXOES E SISTEMAS LTDA",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79757,
@@ -22408,8 +22432,8 @@
         {
           "mes": "2026-07",
           "abertos": 48,
-          "atendidos": 41,
-          "pendentes": 7,
+          "atendidos": 40,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22662,7 +22686,7 @@
                   "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-07-30",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
                 },
                 {
@@ -22685,17 +22709,17 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 5,
+              "atendidosDentro": 4,
               "atendidosFora": 4,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81580,
                   "cliente": "Junbra Investimentos e Participações Ltda",
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-30",
-                  "dataEntrega": "2026-07-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81069,
@@ -22845,8 +22869,8 @@
             },
             {
               "nome": "Saldo Credor Incorreto",
-              "atendidosDentro": 1,
-              "atendidosFora": 3,
+              "atendidosDentro": 0,
+              "atendidosFora": 4,
               "pendentes": 1,
               "chamados": [
                 {
@@ -22854,8 +22878,8 @@
                   "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
-                  "dataEntrega": "2026-07-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80769,
@@ -23269,8 +23293,8 @@
         {
           "mes": "2026-06",
           "abertos": 63,
-          "atendidos": 61,
-          "pendentes": 2,
+          "atendidos": 62,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -23787,8 +23811,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 6,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80566,
@@ -23859,8 +23883,8 @@
                   "cliente": "FORT FRUIT LTDA",
                   "dataCadastro": "2026-06-25",
                   "prazo": "2026-07-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -23869,8 +23893,8 @@
         {
           "mes": "2026-07",
           "abertos": 22,
-          "atendidos": 9,
-          "pendentes": 13,
+          "atendidos": 11,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24019,8 +24043,8 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81190,
@@ -24043,8 +24067,8 @@
                   "cliente": "MARAJOARA II COMÉRCIO VAREJISTA DE CARNES, LANCHES E BEBIDAS LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81242,
@@ -24058,17 +24082,17 @@
             },
             {
               "nome": "Saldo Credor Incorreto",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81547,
                   "cliente": "NOBRES DOCES DISTRIBUIDORA LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81281,
@@ -25503,8 +25527,8 @@
         {
           "mes": "2026-07",
           "abertos": 162,
-          "atendidos": 80,
-          "pendentes": 82,
+          "atendidos": 79,
+          "pendentes": 83,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25564,9 +25588,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 2,
+              "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 5,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 80919,
@@ -25589,16 +25613,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-07-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81574,
                   "cliente": null,
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-08-05",
-                  "dataEntrega": "2026-07-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81575,
@@ -25725,7 +25749,7 @@
                   "cliente": "Soluzz Administração e Participação S.A",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
-                  "dataEntrega": "2026-07-30",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
                 }
               ]
@@ -26173,8 +26197,8 @@
             {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81426,
@@ -26189,24 +26213,24 @@
                   "cliente": "PERIMETRAL SERVICOS LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81665,
                   "cliente": "LIMA MOTA LOCAÇÕES, SERVIÇOS E COMERCIO LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
-                  "dataEntrega": "2026-07-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81674,
                   "cliente": "GS MUROS LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
                 }
               ]
             },
