@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/07/2026 13:25",
+  "atualizado_em": "31/07/2026 15:54",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14806,15 +14806,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 282,
-          "atendidos": 281,
-          "pendentes": 1,
+          "abertos": 284,
+          "atendidos": 284,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 182,
+              "atendidosDentro": 185,
               "atendidosFora": 97,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80661,
@@ -17053,8 +17053,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81711,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81715,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -22472,8 +22488,8 @@
         {
           "mes": "2026-07",
           "abertos": 49,
-          "atendidos": 40,
-          "pendentes": 9,
+          "atendidos": 39,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22614,8 +22630,8 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
-              "atendidosFora": 6,
-              "pendentes": 0,
+              "atendidosFora": 5,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80867,
@@ -22646,8 +22662,8 @@
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-07-08",
                   "prazo": "2026-07-10",
-                  "dataEntrega": "2026-07-28",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81229,
@@ -23340,15 +23356,15 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 63,
+          "abertos": 64,
           "atendidos": 62,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Autorregularização",
               "atendidosDentro": 4,
               "atendidosFora": 22,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 79983,
@@ -23525,6 +23541,14 @@
                   "prazo": "2026-06-04",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 80203,
+                  "cliente": "MERCH LINK LTDA",
+                  "dataCadastro": "2026-06-18",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 79895,
@@ -23964,7 +23988,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 80985,
@@ -23979,14 +24003,6 @@
                   "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81705,
-                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-07-31",
-                  "prazo": "2026-08-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -24156,7 +24172,7 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81547,
@@ -24165,6 +24181,14 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-07-31",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81712,
+                  "cliente": "A P SOARES DA SILVA MERCADO E PADARIA",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81281,
@@ -24625,9 +24649,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 47,
+          "abertos": 46,
           "atendidos": 24,
-          "pendentes": 23,
+          "pendentes": 22,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -24721,7 +24745,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 79642,
@@ -24735,14 +24759,6 @@
                   "id": 80159,
                   "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 02)",
                   "dataCadastro": "2026-06-17",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80203,
-                  "cliente": "MERCH LINK LTDA",
-                  "dataCadastro": "2026-06-18",
                   "prazo": "2026-06-30",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -25113,9 +25129,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 5,
-          "pendentes": 18,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -25201,8 +25217,16 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 81705,
+                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80685,
                   "cliente": "DALMEC SISTEMAS DE PONTO E ACESSO LTDA",
@@ -25598,8 +25622,8 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 163,
-          "atendidos": 82,
+          "abertos": 167,
+          "atendidos": 86,
           "pendentes": 81,
           "categorias": [
             {
@@ -25662,7 +25686,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 80919,
@@ -25731,6 +25755,14 @@
                 {
                   "id": 81708,
                   "cliente": null,
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81716,
+                  "cliente": "DROGARIA PERDOENSE LTDA",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
@@ -25822,7 +25854,7 @@
               "nome": "Arquivo",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81522,
@@ -25831,6 +25863,14 @@
                   "prazo": "2026-07-29",
                   "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81714,
+                  "cliente": "JMM CARRASCOSA SOLUÇÕES EMPRESARIAIS LTDA ",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -26004,7 +26044,7 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 3,
               "pendentes": 2,
               "chamados": [
@@ -26054,6 +26094,14 @@
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-30",
                   "dataEntrega": "2026-07-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81713,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_dentro"
                 }
               ]
@@ -26278,7 +26326,7 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81426,
@@ -26311,6 +26359,14 @@
                   "prazo": "2026-08-03",
                   "dataEntrega": "2026-07-31",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81717,
+                  "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -26556,9 +26612,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 14,
-              "atendidosFora": 15,
-              "pendentes": 38,
+              "atendidosDentro": 16,
+              "atendidosFora": 16,
+              "pendentes": 35,
               "chamados": [
                 {
                   "id": 80961,
@@ -26661,8 +26717,8 @@
                   "cliente": "Cucinare Pro Alimentação ",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81354,
@@ -27029,16 +27085,16 @@
                   "cliente": "BARBU & MARQUES COMERCIO DE VIDROS EM GERAL LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81543,
                   "cliente": "RM DOS SANTOS – COMÉRCIO DE MOLDES E BORRACHA DE SILICONE LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81557,
