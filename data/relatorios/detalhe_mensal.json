@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/07/2026 13:04",
+  "atualizado_em": "31/07/2026 13:25",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -25599,8 +25599,8 @@
         {
           "mes": "2026-07",
           "abertos": 163,
-          "atendidos": 83,
-          "pendentes": 80,
+          "atendidos": 82,
+          "pendentes": 81,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25877,8 +25877,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 11,
+              "atendidosFora": 1,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 81019,
@@ -25909,8 +25909,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-31",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81217,
