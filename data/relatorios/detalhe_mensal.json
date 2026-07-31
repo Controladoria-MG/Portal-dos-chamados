@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/07/2026 12:05",
+  "atualizado_em": "31/07/2026 13:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14812,8 +14812,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 184,
-              "atendidosFora": 95,
+              "atendidosDentro": 182,
+              "atendidosFora": 97,
               "pendentes": 1,
               "chamados": [
                 {
@@ -16069,8 +16069,8 @@
                   "cliente": "LS COMÉRCIO DE PRODUTOS ALIMENTICIOS, PRESTAÇÃO DE SERVIÇOS DE APOIO ADMINISTRATIV E ESTACIONAMENTO",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81171,
@@ -16181,8 +16181,8 @@
                   "cliente": "Mega Adega Kanguru LTDA ",
                   "dataCadastro": "2026-07-19",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-07-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81201,
@@ -16949,7 +16949,7 @@
                   "cliente": "LBB - Locação de Equipamentos BemBom Ltda. ",
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-30",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_dentro"
                 },
                 {
@@ -16981,7 +16981,7 @@
                   "cliente": "FORT-FRUIT COMERCIO E DISTRIBUICAO LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-30",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_dentro"
                 },
                 {
@@ -18512,9 +18512,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 54,
+          "abertos": 56,
           "atendidos": 35,
-          "pendentes": 19,
+          "pendentes": 21,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18696,7 +18696,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81503,
@@ -18743,6 +18743,22 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-07-24",
                   "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81709,
+                  "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81710,
+                  "cliente": "PLANET GRAPHICS LTDA ",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -20316,7 +20332,7 @@
                   "cliente": "SUPERMERCADO SANTA MARIA LTDA",
                   "dataCadastro": "2026-06-25",
                   "prazo": "2026-06-30",
-                  "dataEntrega": "2026-07-01",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
                 },
                 {
@@ -20324,7 +20340,7 @@
                   "cliente": "SUPERMERCADO SANTA MARIA LTDA",
                   "dataCadastro": "2026-06-25",
                   "prazo": "2026-06-30",
-                  "dataEntrega": "2026-07-01",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
                 }
               ]
@@ -23925,8 +23941,8 @@
         {
           "mes": "2026-07",
           "abertos": 25,
-          "atendidos": 11,
-          "pendentes": 14,
+          "atendidos": 12,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24035,16 +24051,16 @@
             {
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81537,
                   "cliente": "SUPERMERCADO BEMBOM EIRELI",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80970,
@@ -25098,8 +25114,8 @@
         {
           "mes": "2026-07",
           "abertos": 23,
-          "atendidos": 6,
-          "pendentes": 17,
+          "atendidos": 5,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -25199,17 +25215,17 @@
             },
             {
               "nome": "Certificado",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80965,
                   "cliente": "CASA SANTA GEMMA SUPERMERCADOS LTDA",
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
-                  "dataEntrega": "2026-07-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81061,
@@ -25232,7 +25248,7 @@
                   "cliente": "MONTE CARLO LAB SERVICOS ADMINISTRATIVOS E COMERCIO LTDA ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": "2026-07-23",
+                  "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
                 },
                 {
@@ -25583,8 +25599,8 @@
         {
           "mes": "2026-07",
           "abertos": 163,
-          "atendidos": 82,
-          "pendentes": 81,
+          "atendidos": 83,
+          "pendentes": 80,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25646,7 +25662,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 80919,
@@ -25709,6 +25725,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81708,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-09-04",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25853,8 +25877,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 12,
+              "atendidosFora": 2,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 81019,
@@ -25885,8 +25909,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81217,
@@ -26252,9 +26276,9 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81426,
@@ -26277,8 +26301,8 @@
                   "cliente": "LIMA MOTA LOCAÇÕES, SERVIÇOS E COMERCIO LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81674,
@@ -26453,7 +26477,7 @@
             {
               "nome": "Regularização de Débitos",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
+              "atendidosFora": 2,
               "pendentes": 2,
               "chamados": [
                 {
@@ -26487,14 +26511,6 @@
                   "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 81504,
-                  "cliente": "Padaria e Restaurante Valentina Ltda.",
-                  "dataCadastro": "2026-07-28",
-                  "prazo": "2026-07-29",
-                  "dataEntrega": "2026-07-30",
-                  "status": "atendido_fora"
                 },
                 {
                   "id": 81572,
