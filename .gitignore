@@ -12,4 +12,8 @@ node_modules/
 # Versionar isso causava conflitos de git (limpar_pasta_download apaga os
 # arquivos antigos a cada rodada, o que o autostash via como exclusão de
 # arquivo rastreado, gerando conflito no pull --rebase e corrompendo o commit).
-data/Att Base/
+# NÃO cobre Coordenadores.xlsx / Relatório Colaboradores Ativos*.xlsx — são
+# referências fixas que o pipeline precisa e não regenera sozinho, então
+# continuam versionadas (já apagadas uma vez sem querer por um "git reset
+# --hard" numa cópia do repo, por causa de uma regra ampla demais aqui).
+data/Att Base/Chamados*.xlsx
