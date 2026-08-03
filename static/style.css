@@ -211,8 +211,19 @@ main {
 }
 .stat-pill strong { color: var(--secondary); font-weight: 500; }
 
-/* ─── DEPARTMENT GRID ────────────────────────────────────────────── */
+/* ─── FILIAL GRID (São Paulo / Rio de Janeiro / Santos, centralizado) ─ */
 #dept-grid, #rel-dept-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+}
+#dept-grid .dept-card, #rel-dept-grid .dept-card {
+  flex: 0 1 280px;
+}
+
+/* ─── DEPARTMENT GRID (departamentos dentro de uma filial) ───────── */
+#filial-dept-grid, #rel-filial-dept-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
@@ -617,10 +628,79 @@ tr.rel-total-row td:not(:first-child) {
   color: var(--secondary);
 }
 
+/* ─── COBRANÇA DE CHAMADOS ───────────────────────────────────────── */
+.cobranca-bar { display: flex; justify-content: flex-end; margin-bottom: 1rem; }
+.btn-cobranca {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: var(--bg-card); border: 1px solid var(--secondary);
+  border-radius: 100px; padding: 0.5rem 1.2rem;
+  color: var(--secondary); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.03em;
+  cursor: pointer; transition: box-shadow .2s, background .2s, opacity .2s;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.btn-cobranca:hover { background: var(--secondary-dim); box-shadow: 0 0 12px var(--secondary-glow); }
+.btn-cobranca:disabled { opacity: 0.6; cursor: default; box-shadow: none; }
+
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center;
+  padding: 1.5rem;
+}
+.modal-box {
+  position: relative;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.6rem; width: 100%; max-width: 620px; max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+.modal-title { font-size: 1.1rem; font-weight: 800; color: var(--primary); margin-bottom: 1rem; }
+.modal-close {
+  position: absolute; top: 1rem; right: 1rem;
+  background: transparent; border: none; color: var(--muted-light);
+  font-size: 1rem; cursor: pointer; line-height: 1;
+}
+.modal-close:hover { color: var(--secondary); }
+
+.cobranca-preview {
+  border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; margin-bottom: 0.8rem; background: var(--bg-deep);
+}
+.cobranca-preview img { display: block; width: 100%; height: auto; }
+
+.cobranca-actions-row {
+  display: flex; align-items: center; gap: 0.8rem;
+  margin-bottom: 1.2rem; flex-wrap: wrap;
+}
+.btn-modal-action {
+  background: var(--bg-deep); border: 1px solid var(--border-accent);
+  border-radius: 100px; padding: 0.45rem 1.1rem;
+  color: var(--text); font-size: 0.75rem; font-weight: 600;
+  cursor: pointer; transition: border-color .2s, color .2s;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.btn-modal-action:hover { border-color: var(--secondary); color: var(--secondary); }
+.cobranca-status { font-size: 0.72rem; color: var(--muted); }
+
+.cobranca-text-label {
+  display: block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--muted); margin-bottom: 0.4rem;
+}
+#cobranca-texto {
+  width: 100%; resize: vertical;
+  background: var(--bg-deep); border: 1px solid var(--border-accent);
+  border-radius: var(--radius); padding: 0.7rem 0.9rem;
+  color: var(--text); font-size: 0.82rem; line-height: 1.5;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
 /* ─── RESPONSIVE ─────────────────────────────────────────────────── */
 @media (max-width: 640px) {
   main { padding: 1.5rem 1rem; }
-  #dept-grid, #rel-dept-grid { grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+  #dept-grid, #rel-dept-grid { gap: 0.8rem; }
+  #dept-grid .dept-card, #rel-dept-grid .dept-card { flex-basis: 100%; }
+  #filial-dept-grid, #rel-filial-dept-grid { grid-template-columns: 1fr 1fr; gap: 0.8rem; }
   .dept-card { padding: 0.9rem 1rem 0.8rem; }
   .search-input { width: 150px; }
   th, td { padding: 0.6rem 0.8rem; }

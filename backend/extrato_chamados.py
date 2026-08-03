@@ -130,7 +130,31 @@ TIPOS_EXTRACAO = {
         "descricao":    "Apenas Paralegal",
         "departamentos": ["PARALEGAL"],
     },
+    "5": {
+        "label":        "Santos Geral",
+        "descricao":    "Departamentos operacionais de Santos",
+        "departamentos": ["SANTOS - CTB", "SANTOS - EF", "SANTOS - DP"],
+    },
+    "6": {
+        "label":        "Santos GC",
+        "descricao":    "Gerência de Contas de Santos",
+        "departamentos": ["SANTOS - GC", "SANTOS - ADM"],
+    },
+    "7": {
+        "label":        "RJ Geral",
+        "descricao":    "Departamentos operacionais do Rio de Janeiro",
+        "departamentos": ["RJ - CTB", "RJ - EF", "RJ - DP"],
+    },
+    "8": {
+        "label":        "RJ GC",
+        "descricao":    "Gerência de Contas do Rio de Janeiro",
+        "departamentos": ["RJ - GC", "RJ - GC ADMINISTRATIVO"],
+    },
 }
+
+# Opção "Todas (seq.)" do menu de extração — sempre a próxima chave livre
+# depois dos tipos cadastrados acima, para não colidir se a lista crescer.
+OPCAO_TODAS = str(len(TIPOS_EXTRACAO) + 1)
 
 # ============================================================
 # CONFIGURAÇÕES – BASE
@@ -140,7 +164,11 @@ _ATT_DIR = Path(PASTA_DOWNLOAD)
 _DATA_DIR = _ATT_DIR.parent
 OUTPUT_BASE = _DATA_DIR / "base.xlsx"
 
-DEPTS_RETORNADOS = {"gerencia de contas", "gc - administrativo"}
+DEPTS_RETORNADOS = {
+    "gerencia de contas", "gc - administrativo",
+    "santos - gc", "santos - adm",
+    "rj - gc", "rj - gc administrativo",
+}
 STATUS_ENTREGUE  = "entregue ao solicitante"
 STATUS_ENCERRADO = "encerrado"
 STATUS_DEVOLVIDO_SOLICITANTE = "devolvido para solicitante"
@@ -205,7 +233,7 @@ def perguntar_extracao():
         table.add_row(f"[{k}]", v["label"],
                       v["descricao"] + f"\n[dim italic]{deptos}[/dim italic]")
 
-    table.add_row("[5]", "Todas (seq.)",
+    table.add_row(f"[{OPCAO_TODAS}]", "Todas (seq.)",
                   f"Executa as {len(TIPOS_EXTRACAO)} extrações em sequência — gera {len(TIPOS_EXTRACAO)} arquivos separados")
 
     console.print(Align.center(table))
@@ -217,9 +245,9 @@ def perguntar_extracao():
             escolha = TIPOS_EXTRACAO[opcao]
             console.print("  [green]✔ Extração:[/green] [bold]" + escolha["label"] + "[/bold]")
             return opcao, escolha["label"], escolha["departamentos"]
-        if opcao == "5":
+        if opcao == OPCAO_TODAS:
             console.print(f"  [green]✔ Extração:[/green] [bold]Todas (sequencial — {len(TIPOS_EXTRACAO)} arquivos)[/bold]")
-            return "5", "Todas", None
+            return OPCAO_TODAS, "Todas", None
         console.print("  [red]Opção inválida. Tente novamente.[/red]")
 
 # ============================================================
@@ -622,12 +650,22 @@ def _dept_group(nome):
     """Agrupa o Departamento Responsavel do jeito que o portal exibe —
     GC - Administrativo sempre unificado em GERENCIA DE CONTAS, e
     PL - Auditoria (nome do depto no relatório de origem) exibido como
-    PARALEGAL. Ver deptGroupName() em script.js (mesma regra, front e back)."""
+    PARALEGAL. Mesma regra para as filiais Santos e RJ, cada uma com seu
+    próprio grupo Geral e Gerência de Contas. Ver deptGroupName() em
+    script.js (mesma regra, front e back)."""
     dept = str(nome).strip().upper() if nome else ''
     if dept == 'GC - ADMINISTRATIVO':
         return 'GERENCIA DE CONTAS'
     if dept == 'PL - AUDITORIA':
         return 'PARALEGAL'
+    if dept in ('SANTOS - CTB', 'SANTOS - EF', 'SANTOS - DP'):
+        return 'SANTOS GERAL'
+    if dept in ('SANTOS - GC', 'SANTOS - ADM'):
+        return 'SANTOS GERENCIA DE CONTAS'
+    if dept in ('RJ - CTB', 'RJ - EF', 'RJ - DP'):
+        return 'RJ GERAL'
+    if dept in ('RJ - GC', 'RJ - GC ADMINISTRATIVO'):
+        return 'RJ GERENCIA DE CONTAS'
     return dept or 'SEM DEPARTAMENTO'
 
 
@@ -1035,7 +1073,7 @@ def executar(auto=False):
     ))
 
     if auto:
-        opcao, label_extracao, departamentos = "5", "Todas", None
+        opcao, label_extracao, departamentos = OPCAO_TODAS, "Todas", None
         headless = True
         console.print(
             "  [dim][--auto] Extração: [bold magenta]Todas (sequencial)[/bold magenta] | "
@@ -1048,13 +1086,13 @@ def executar(auto=False):
     data_inicio = DATA_INICIO
     data_fim    = hoje_str()
 
-    if opcao == "5":
+    if opcao == OPCAO_TODAS:
         extracoes = [(v["label"], v["departamentos"]) for v in TIPOS_EXTRACAO.values()]
     else:
         extracoes = [(label_extracao, departamentos)]
 
     console.print()
-    if opcao == "5":
+    if opcao == OPCAO_TODAS:
         console.print(
             f"  [dim]Extração: [bold cyan]Todas (sequencial)[/bold cyan] | "
             f"[bold cyan]{len(extracoes)}[/bold cyan] extrações[/dim]"
