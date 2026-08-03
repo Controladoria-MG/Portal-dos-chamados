@@ -205,17 +205,18 @@ function showError(msg) {
 /* ─── AGRUPAMENTO DE DEPARTAMENTO ────────────────────────────────────
    GC - Administrativo é tratado como parte de GERENCIA DE CONTAS —
    um único card/departamento no portal, nunca separados. Mesma lógica
-   para as filiais Santos e RJ, cada uma com seu próprio grupo "Geral"
-   e "Gerência de Contas". ─────────────────────────────────────────── */
+   para a Gerência de Contas de Santos e RJ (GC + ADM viram um único
+   card cada). Os demais departamentos (CTB/EF/DP) não são unificados —
+   cada um continua como seu próprio card. ────────────────────────── */
 function deptGroupName(row) {
   const raw = String(col(row, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || '').trim();
   const upper = raw.toUpperCase();
   if (upper === 'GC - ADMINISTRATIVO') return 'GERENCIA DE CONTAS';
   if (upper === 'PL - AUDITORIA') return 'PARALEGAL';
-  if (['SANTOS - CTB', 'SANTOS - EF', 'SANTOS - DP'].includes(upper)) return 'SANTOS GERAL';
   if (['SANTOS - GC', 'SANTOS - ADM'].includes(upper)) return 'SANTOS GERENCIA DE CONTAS';
-  if (['RJ - CTB', 'RJ - EF', 'RJ - DP'].includes(upper)) return 'RJ GERAL';
   if (['RJ - GC', 'RJ - GC ADMINISTRATIVO'].includes(upper)) return 'RJ GERENCIA DE CONTAS';
+  // SANTOS - CTB/EF/DP e RJ - CTB/EF/DP não são unificados — cada um vira
+  // seu próprio card de departamento, igual acontece com os de São Paulo.
   return raw || 'Sem Departamento';
 }
 
@@ -312,24 +313,17 @@ function badge(status) {
 function renderHome() {
   $loading.style.display = 'none';
 
-  const filialCounts = {};
-  FILIAIS.forEach(f => { filialCounts[f] = 0; });
-  for (const row of allData) {
-    if (String(col(row, 'Retornado')).toUpperCase() === 'SIM') continue; // retornados não contam nos cards
-    const filial = filialDoDept(deptGroupName(row));
-    filialCounts[filial] = (filialCounts[filial] || 0) + 1;
-  }
-
   if ($totalRecs) $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
   if ($totalDeps) $totalDeps.textContent = FILIAIS.length;
 
+  // Cards de filial sem número — igual à tela de escolha de unidade do
+  // Portal das Tarefas: só o nome, o total aparece na tela seguinte.
   $deptGrid.innerHTML = '';
   for (const nome of FILIAIS) {
     const card = document.createElement('div');
     card.className = 'dept-card';
     card.innerHTML = `
       <div class="card-name">${escHtml(nome)}</div>
-      <div class="card-count">${filialCounts[nome].toLocaleString('pt-BR')}</div>
       <div class="card-hint">Clique para ver os detalhes</div>`;
     card.addEventListener('click', () => openFilial(nome));
     $deptGrid.appendChild(card);
@@ -916,34 +910,23 @@ function totalAtendidosDept(dept) {
 function renderRelatoriosFiliais() {
   const $empty   = document.getElementById('rel-home-empty');
   const $grid    = document.getElementById('rel-dept-grid');
-  const $atualiz = document.getElementById('rel-home-atualizado');
 
   const deptos = (detalheMensal && detalheMensal.departamentos) || [];
   if (!deptos.length) {
     $empty.style.display = 'block';
     $grid.innerHTML = '';
-    $atualiz.textContent = '';
     return;
   }
   $empty.style.display = 'none';
-  $atualiz.textContent = detalheMensal.atualizado_em
-    ? `Base atualizada em ${detalheMensal.atualizado_em}`
-    : '';
 
-  const totaisPorFilial = {};
-  FILIAIS.forEach(f => { totaisPorFilial[f] = 0; });
-  for (const dept of deptos) {
-    const filial = filialDoDept(dept.nome);
-    totaisPorFilial[filial] = (totaisPorFilial[filial] || 0) + totalAtendidosDept(dept);
-  }
-
+  // Cards de filial sem número — igual à tela de escolha de unidade do
+  // Portal das Tarefas: só o nome, o total aparece na tela seguinte.
   $grid.innerHTML = '';
   for (const nome of FILIAIS) {
     const card = document.createElement('div');
     card.className = 'dept-card';
     card.innerHTML = `
       <div class="card-name">${escHtml(nome)}</div>
-      <div class="card-count">${totaisPorFilial[nome].toLocaleString('pt-BR')}</div>
       <div class="card-hint">Clique para ver o relatório</div>`;
     card.addEventListener('click', () => openRelatorioFilial(nome));
     $grid.appendChild(card);
@@ -1007,20 +990,15 @@ function openRelatorioDept(nome) {
 function renderRelatorioDept() {
   const $empty   = document.getElementById('rel-empty');
   const $content = document.getElementById('rel-content');
-  const $atualiz = document.getElementById('rel-atualizado');
 
   const meses = (currentRelDept && currentRelDept.meses) || [];
   if (!meses.length) {
     $empty.style.display   = 'block';
     $content.style.display = 'none';
-    $atualiz.textContent   = '';
     return;
   }
   $empty.style.display   = 'none';
   $content.style.display = 'block';
-  $atualiz.textContent   = detalheMensal.atualizado_em
-    ? `Base atualizada em ${detalheMensal.atualizado_em}`
-    : '';
 
   renderLegend();
   renderResumoTable(meses);

@@ -650,20 +650,17 @@ def _dept_group(nome):
     """Agrupa o Departamento Responsavel do jeito que o portal exibe —
     GC - Administrativo sempre unificado em GERENCIA DE CONTAS, e
     PL - Auditoria (nome do depto no relatório de origem) exibido como
-    PARALEGAL. Mesma regra para as filiais Santos e RJ, cada uma com seu
-    próprio grupo Geral e Gerência de Contas. Ver deptGroupName() em
-    script.js (mesma regra, front e back)."""
+    PARALEGAL. Mesma regra para a Gerência de Contas de Santos e RJ
+    (GC + ADM viram um único grupo cada). Os demais departamentos
+    (CTB/EF/DP) não são unificados — cada um continua com seu próprio
+    grupo. Ver deptGroupName() em script.js (mesma regra, front e back)."""
     dept = str(nome).strip().upper() if nome else ''
     if dept == 'GC - ADMINISTRATIVO':
         return 'GERENCIA DE CONTAS'
     if dept == 'PL - AUDITORIA':
         return 'PARALEGAL'
-    if dept in ('SANTOS - CTB', 'SANTOS - EF', 'SANTOS - DP'):
-        return 'SANTOS GERAL'
     if dept in ('SANTOS - GC', 'SANTOS - ADM'):
         return 'SANTOS GERENCIA DE CONTAS'
-    if dept in ('RJ - CTB', 'RJ - EF', 'RJ - DP'):
-        return 'RJ GERAL'
     if dept in ('RJ - GC', 'RJ - GC ADMINISTRATIVO'):
         return 'RJ GERENCIA DE CONTAS'
     return dept or 'SEM DEPARTAMENTO'
@@ -1013,6 +1010,32 @@ def publicar_no_github():
             pg.update(t2, description="[cyan]Baixando atualizações remotas (pull)...")
             subprocess.run(["git", "-C", REPO_DIR, "pull", "--rebase", "--autostash"],
                            check=True, capture_output=True, text=True)
+
+            # --autostash pode falhar em reaplicar o stash (ex.: duas rodadas
+            # publicando quase ao mesmo tempo) sem que o comando acima retorne
+            # erro — o git só avisa e deixa o stash guardado, com marcadores
+            # de conflito (<<<<<<<) escritos nos arquivos. Sem essa checagem,
+            # o script seguia e commitava/enviava esses arquivos corrompidos
+            # (foi exatamente isso que quebrou base.xlsx/detalhe_mensal.json
+            # numa rodada anterior). Aborta aqui em vez de publicar lixo.
+            unmerged = subprocess.run(
+                ["git", "-C", REPO_DIR, "diff", "--name-only", "--diff-filter=U"],
+                check=True, capture_output=True, text=True,
+            )
+            if unmerged.stdout.strip():
+                pg.stop()
+                console.print(Panel(
+                    "[red]Conflito ao reaplicar o autostash do git pull — arquivo(s) com "
+                    "marcadores de conflito não resolvidos:[/red]\n"
+                    f"[dim]{unmerged.stdout.strip()}[/dim]\n\n"
+                    "[yellow]base.xlsx/relatórios NÃO foram publicados[/yellow] para não "
+                    "subir dado corrompido. Resolva manualmente em "
+                    f"{REPO_DIR} (git status, git stash list) e rode a atualização de novo.",
+                    title="[red]Publicação abortada[/red]",
+                    border_style="red",
+                ))
+                return
+
             pg.update(t2, description="[cyan]Adicionando arquivos...")
             subprocess.run(["git", "-C", REPO_DIR, "add", "data/"], check=True,
                            capture_output=True, text=True)

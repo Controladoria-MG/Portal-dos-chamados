@@ -160,7 +160,8 @@ main {
   font-size: clamp(1.6rem,3vw,2.4rem); font-weight: 800;
   color: var(--primary); letter-spacing: -0.02em; line-height: 1.1;
 }
-#view-home .page-title h1 {
+#view-home .page-title h1,
+#view-relatorios-home .page-title h1 {
   color: #C00000;
   text-align: center;
 }

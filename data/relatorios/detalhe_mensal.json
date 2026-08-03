@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "atualizado_em": "03/08/2026 10:18",
-=======
-  "atualizado_em": "03/08/2026 12:15",
->>>>>>> Stashed changes
+  "atualizado_em": "03/08/2026 15:13",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17130,15 +17126,6 @@
         },
         {
           "mes": "2026-08",
-<<<<<<< Updated upstream
-          "abertos": 1,
-          "atendidos": 1,
-          "pendentes": 0,
-          "categorias": [
-            {
-              "nome": "MG Controle",
-              "atendidosDentro": 1,
-=======
           "abertos": 3,
           "atendidos": 2,
           "pendentes": 1,
@@ -17146,9 +17133,8 @@
             {
               "nome": "MG Controle",
               "atendidosDentro": 2,
->>>>>>> Stashed changes
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -17157,8 +17143,6 @@
                   "prazo": "2026-08-04",
                   "dataEntrega": "2026-08-03",
                   "status": "atendido_dentro"
-<<<<<<< Updated upstream
-=======
                 },
                 {
                   "id": 81740,
@@ -17175,7 +17159,6 @@
                   "prazo": "2026-08-04",
                   "dataEntrega": null,
                   "status": "pendente"
->>>>>>> Stashed changes
                 }
               ]
             }
@@ -18617,15 +18600,9 @@
         },
         {
           "mes": "2026-07",
-<<<<<<< Updated upstream
-          "abertos": 56,
-          "atendidos": 43,
-          "pendentes": 13,
-=======
           "abertos": 55,
           "atendidos": 55,
           "pendentes": 0,
->>>>>>> Stashed changes
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18805,15 +18782,9 @@
             },
             {
               "nome": "DCTFWeb",
-<<<<<<< Updated upstream
-              "atendidosDentro": 1,
-              "atendidosFora": 4,
-              "pendentes": 5,
-=======
               "atendidosDentro": 3,
               "atendidosFora": 6,
               "pendentes": 0,
->>>>>>> Stashed changes
               "chamados": [
                 {
                   "id": 81503,
@@ -18892,13 +18863,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 1,
-<<<<<<< Updated upstream
-              "atendidosFora": 7,
-              "pendentes": 6,
-=======
               "atendidosFora": 13,
               "pendentes": 0,
->>>>>>> Stashed changes
               "chamados": [
                 {
                   "id": 81195,
@@ -21135,15 +21101,9 @@
         },
         {
           "mes": "2026-08",
-<<<<<<< Updated upstream
-          "abertos": 3,
-          "atendidos": 0,
-          "pendentes": 3,
-=======
           "abertos": 5,
           "atendidos": 1,
           "pendentes": 4,
->>>>>>> Stashed changes
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21186,18 +21146,12 @@
               ]
             },
             {
-<<<<<<< Updated upstream
-              "nome": "Multas Diversas",
-=======
               "nome": "Material de Reunião - Solicitação Interna",
->>>>>>> Stashed changes
               "atendidosDentro": 0,
               "atendidosFora": 0,
               "pendentes": 1,
               "chamados": [
                 {
-<<<<<<< Updated upstream
-=======
                   "id": 81744,
                   "cliente": "BARRETO & TONELLI DISTRIBUIDOIRA DE EQUIPAMENTOS DE SEGURANCA ELETRONICA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-03",
@@ -21214,18 +21168,12 @@
               "pendentes": 0,
               "chamados": [
                 {
->>>>>>> Stashed changes
                   "id": 81737,
                   "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
-<<<<<<< Updated upstream
-                  "dataEntrega": null,
-                  "status": "pendente"
-=======
                   "dataEntrega": "2026-08-03",
                   "status": "atendido_dentro"
->>>>>>> Stashed changes
                 }
               ]
             }
@@ -25715,13 +25663,8 @@
         {
           "mes": "2026-06",
           "abertos": 16,
-<<<<<<< Updated upstream
-          "atendidos": 2,
-          "pendentes": 14,
-=======
           "atendidos": 11,
           "pendentes": 5,
->>>>>>> Stashed changes
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25750,13 +25693,8 @@
             {
               "nome": "Arquivo",
               "atendidosDentro": 0,
-<<<<<<< Updated upstream
-              "atendidosFora": 1,
-              "pendentes": 8,
-=======
               "atendidosFora": 9,
               "pendentes": 0,
->>>>>>> Stashed changes
               "chamados": [
                 {
                   "id": 79854,
@@ -25892,15 +25830,9 @@
         },
         {
           "mes": "2026-07",
-<<<<<<< Updated upstream
-          "abertos": 167,
-          "atendidos": 91,
-          "pendentes": 76,
-=======
           "abertos": 168,
           "atendidos": 90,
           "pendentes": 78,
->>>>>>> Stashed changes
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -27563,19 +27495,19 @@
       ]
     },
     {
-      "nome": "RJ GERAL",
+      "nome": "RJ - CTB",
       "meses": [
         {
           "mes": "2026-01",
-          "abertos": 8,
+          "abertos": 6,
           "atendidos": 0,
-          "pendentes": 8,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 76346,
@@ -27618,22 +27550,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 76383,
-                  "cliente": "RRB SUPERMERCADO EIRELI",
-                  "dataCadastro": "2026-01-02",
-                  "prazo": "2026-01-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 76385,
-                  "cliente": "ACMA SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-01-02",
-                  "prazo": "2026-01-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 76394,
                   "cliente": "MERCADO MULTI PENHA RIO LTDA",
                   "dataCadastro": "2026-01-02",
@@ -27647,15 +27563,15 @@
         },
         {
           "mes": "2026-02",
-          "abertos": 29,
+          "abertos": 18,
           "atendidos": 0,
-          "pendentes": 29,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 29,
+              "pendentes": 18,
               "chamados": [
                 {
                   "id": 77147,
@@ -27706,14 +27622,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 77170,
-                  "cliente": "PARADA DOS PAES LTDA",
-                  "dataCadastro": "2026-02-12",
-                  "prazo": "2026-02-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 77173,
                   "cliente": "PARADA DOS PAES LTDA",
                   "dataCadastro": "2026-02-12",
@@ -27746,42 +27654,10 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 77196,
-                  "cliente": "CASA DA PIEDRA RESTAURANTE LTDA",
-                  "dataCadastro": "2026-02-12",
-                  "prazo": "2026-02-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77204,
-                  "cliente": "LAAN SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-02-12",
-                  "prazo": "2026-02-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 77348,
                   "cliente": "LIFE SAFETY COMERCIO E SERVICOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-02-19",
                   "prazo": "2026-02-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77350,
-                  "cliente": "ATMS COMÉRCIO, SERVIÇOS E REPRESENTAÇÕES LTDA.",
-                  "dataCadastro": "2026-02-19",
-                  "prazo": "2026-02-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77455,
-                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA ",
-                  "dataCadastro": "2026-02-26",
-                  "prazo": "2026-03-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -27796,54 +27672,6 @@
                 {
                   "id": 77472,
                   "cliente": "STOCK FRANGO DISTRIBUIDORA DE GÊNEROS ALIMENTÍCIOS E TRANSPORTE LTDA",
-                  "dataCadastro": "2026-02-26",
-                  "prazo": "2026-03-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77475,
-                  "cliente": "STOCK FRANGO DISTRIBUIDORA DE GÊNEROS ALIMENTÍCIOS E TRANSPORTE LTDA",
-                  "dataCadastro": "2026-02-26",
-                  "prazo": "2026-03-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77480,
-                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 03)",
-                  "dataCadastro": "2026-02-26",
-                  "prazo": "2026-03-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77489,
-                  "cliente": "CAFETERIA ACONCHEGO DA TERRA LTDA",
-                  "dataCadastro": "2026-02-26",
-                  "prazo": "2026-03-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77492,
-                  "cliente": "WC COMPRAS LTDA",
-                  "dataCadastro": "2026-02-26",
-                  "prazo": "2026-03-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77496,
-                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
-                  "dataCadastro": "2026-02-26",
-                  "prazo": "2026-03-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77501,
-                  "cliente": "PANIFICAÇÃO E BAR ITUVERAVA LTDA ",
                   "dataCadastro": "2026-02-26",
                   "prazo": "2026-03-05",
                   "dataEntrega": null,
@@ -27895,15 +27723,15 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 48,
+          "abertos": 25,
           "atendidos": 0,
-          "pendentes": 48,
+          "pendentes": 25,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 48,
+              "pendentes": 25,
               "chamados": [
                 {
                   "id": 77626,
@@ -27930,32 +27758,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 77727,
-                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 77737,
                   "cliente": "ROCHA E FILHO LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77738,
-                  "cliente": "ROCHA E BORGES SERVICOS OPERACIONAIS LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77740,
-                  "cliente": "MAPA DISTRIBUIDORA DE ALIMENTOS IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-03-06",
                   "prazo": "2026-03-13",
                   "dataEntrega": null,
@@ -27970,72 +27774,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 77758,
-                  "cliente": "Panificadora Flor dos Tres Rios LTDA ",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77761,
-                  "cliente": "DIBRAMASUL MADEIRAS LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 77764,
                   "cliente": "GEMF COMERCIO DE ALIMENTOS LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77765,
-                  "cliente": "GRADIM SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77773,
-                  "cliente": "GARRA PRODUTOS, ALIMENTOS E BEBIDAS LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77782,
-                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77789,
-                  "cliente": "CFN SANTA ANA LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77791,
-                  "cliente": "MC SILVA SILVERIO LTDA",
-                  "dataCadastro": "2026-03-06",
-                  "prazo": "2026-03-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77798,
-                  "cliente": "VITORIA CERTA SERVICO E APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-03-06",
                   "prazo": "2026-03-13",
                   "dataEntrega": null,
@@ -28052,30 +27792,6 @@
                 {
                   "id": 77812,
                   "cliente": "CRIS MAR MERCADO LTDA",
-                  "dataCadastro": "2026-03-09",
-                  "prazo": "2026-03-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77813,
-                  "cliente": "CRIS MAR MERCADO LTDA",
-                  "dataCadastro": "2026-03-09",
-                  "prazo": "2026-03-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77818,
-                  "cliente": "GLOBAL SOLUCOES DE SERVICOS INDUSTRIAIS LTDA",
-                  "dataCadastro": "2026-03-09",
-                  "prazo": "2026-03-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77822,
-                  "cliente": "LIGEIRINHO DE GUARATIBA MATERIAL DE CONSTRUCAO LTDA",
                   "dataCadastro": "2026-03-09",
                   "prazo": "2026-03-16",
                   "dataEntrega": null,
@@ -28114,14 +27830,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 77940,
-                  "cliente": "Proseg Serviços Gerais LTDA ",
-                  "dataCadastro": "2026-03-12",
-                  "prazo": "2026-03-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 77941,
                   "cliente": "Pro Seg Servicos de Seguranca LTDA",
                   "dataCadastro": "2026-03-12",
@@ -28131,14 +27839,6 @@
                 },
                 {
                   "id": 77961,
-                  "cliente": "MERCADO MULTI PENHA RIO LTDA",
-                  "dataCadastro": "2026-03-13",
-                  "prazo": "2026-03-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 77962,
                   "cliente": "MERCADO MULTI PENHA RIO LTDA",
                   "dataCadastro": "2026-03-13",
                   "prazo": "2026-03-20",
@@ -28158,30 +27858,6 @@
                   "cliente": "TUTTI QUITUTE PRODUTOS ALIMENTICIOS LTDA",
                   "dataCadastro": "2026-03-17",
                   "prazo": "2026-03-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78050,
-                  "cliente": "TUTTI QUITUTE PRODUTOS ALIMENTICIOS LTDA",
-                  "dataCadastro": "2026-03-17",
-                  "prazo": "2026-03-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78076,
-                  "cliente": "COMINDRE MANGUEIRAS E CONEXOES LTDA",
-                  "dataCadastro": "2026-03-18",
-                  "prazo": "2026-03-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78191,
-                  "cliente": "O PAOZIN CONGELADOS E PRONTOS LTDA",
-                  "dataCadastro": "2026-03-26",
-                  "prazo": "2026-04-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -28226,24 +27902,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78250,
-                  "cliente": "Rondo Cafe E Pizzaria LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78260,
                   "cliente": "CFN SANTA ANA LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78262,
-                  "cliente": "MC SILVA SILVERIO LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-06",
                   "dataEntrega": null,
@@ -28266,23 +27926,7 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78293,
-                  "cliente": "MERCADO DCM EIRELI (FILIAL 01)",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-03-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78299,
-                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78300,
                   "cliente": "HFRUTI DCM COMERCIO LTDA ",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-06",
@@ -28295,27 +27939,19 @@
         },
         {
           "mes": "2026-04",
-          "abertos": 52,
+          "abertos": 28,
           "atendidos": 0,
-          "pendentes": 52,
+          "pendentes": 28,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 52,
+              "pendentes": 28,
               "chamados": [
                 {
                   "id": 78387,
                   "cliente": "HINFOLUZ COMERCIAL E SERVICOS LTDA",
-                  "dataCadastro": "2026-04-01",
-                  "prazo": "2026-04-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78389,
-                  "cliente": "EVOLUA TECNOLOGIA E SERVICOS DE PORTARIA REMOTA LTDA",
                   "dataCadastro": "2026-04-01",
                   "prazo": "2026-04-08",
                   "dataEntrega": null,
@@ -28346,32 +27982,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78471,
-                  "cliente": "TOP FOODS ALIMENTOS LTDA (FILIAL 1)",
-                  "dataCadastro": "2026-04-06",
-                  "prazo": "2026-04-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78531,
-                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
-                  "dataCadastro": "2026-04-08",
-                  "prazo": "2026-04-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78534,
                   "cliente": "MERCADINHO IMPERIAL DE BENTO RIBEIRO LTDA",
-                  "dataCadastro": "2026-04-08",
-                  "prazo": "2026-04-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78537,
-                  "cliente": "MERCADINHO IMPERIAL DE BENTO RIBEIRO LTDA (FILIAL 01)",
                   "dataCadastro": "2026-04-08",
                   "prazo": "2026-04-15",
                   "dataEntrega": null,
@@ -28386,14 +27998,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78627,
-                  "cliente": "MASAF SERVICOS DE APOIO LTDA",
-                  "dataCadastro": "2026-04-13",
-                  "prazo": "2026-04-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78629,
                   "cliente": "WJS COMUNICAÇÃO VISUAL LTDA ",
                   "dataCadastro": "2026-04-13",
@@ -28402,23 +28006,7 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78630,
-                  "cliente": "WJS COMUNICAÇÃO VISUAL LTDA ",
-                  "dataCadastro": "2026-04-13",
-                  "prazo": "2026-04-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78632,
-                  "cliente": "SOUZA REVESTIMENTOS E FACHADAS LTDA",
-                  "dataCadastro": "2026-04-13",
-                  "prazo": "2026-04-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78633,
                   "cliente": "SOUZA REVESTIMENTOS E FACHADAS LTDA",
                   "dataCadastro": "2026-04-13",
                   "prazo": "2026-04-20",
@@ -28436,22 +28024,6 @@
                 {
                   "id": 78638,
                   "cliente": "CRIATIVA COMUNICAÇÃO VISUAL LTDA",
-                  "dataCadastro": "2026-04-13",
-                  "prazo": "2026-04-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78639,
-                  "cliente": "CRIATIVA COMUNICAÇÃO VISUAL LTDA",
-                  "dataCadastro": "2026-04-13",
-                  "prazo": "2026-04-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78640,
-                  "cliente": "CRIART COMUNICAÇÃO VISUAL LTDA",
                   "dataCadastro": "2026-04-13",
                   "prazo": "2026-04-20",
                   "dataEntrega": null,
@@ -28482,14 +28054,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78695,
-                  "cliente": "BLACK WOOD BURGER LTDA",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78696,
                   "cliente": "BLACK WOOD BURGER LTDA",
                   "dataCadastro": "2026-04-16",
@@ -28506,32 +28070,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78709,
-                  "cliente": "DESLIMPEX DISTRIBUIDORA DE DESCARTAVEIS E MATERIAIS DE LIMPEZA LTDA (MATRIZ)",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78715,
                   "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78717,
-                  "cliente": "Asa Servprime Servicos de Apoio LTDA ",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78736,
-                  "cliente": "MVT LOGISTICA LTDA",
                   "dataCadastro": "2026-04-16",
                   "prazo": "2026-04-23",
                   "dataEntrega": null,
@@ -28546,32 +28086,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78739,
-                  "cliente": "Panificadora Flor dos Tres Rios LTDA ",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78741,
                   "cliente": "Panificadora Flor dos Tres Rios LTDA ",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78744,
-                  "cliente": "PERSONAL FORCE ASSISTANCE & SERVICES LTDA",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78745,
-                  "cliente": "PERSONAL FORCE ASSISTANCE & SERVICES LTDA",
                   "dataCadastro": "2026-04-16",
                   "prazo": "2026-04-23",
                   "dataEntrega": null,
@@ -28594,22 +28110,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78765,
-                  "cliente": "LAAN SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78766,
-                  "cliente": "LAAN SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78768,
                   "cliente": "MINIMERCADO PAG LEV DE ITAGUAI LTDA",
                   "dataCadastro": "2026-04-16",
@@ -28620,14 +28120,6 @@
                 {
                   "id": 78773,
                   "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78777,
-                  "cliente": "PANIFICAÇÃO E BAR ITUVERAVA LTDA ",
                   "dataCadastro": "2026-04-16",
                   "prazo": "2026-04-23",
                   "dataEntrega": null,
@@ -28650,23 +28142,7 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78795,
-                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 03)",
-                  "dataCadastro": "2026-04-16",
-                  "prazo": "2026-04-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78880,
-                  "cliente": "CARDIOVENT COMERCIO E SERVICOS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-04-24",
-                  "prazo": "2026-05-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78881,
                   "cliente": "CARDIOVENT COMERCIO E SERVICOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-04-24",
                   "prazo": "2026-05-01",
@@ -28690,30 +28166,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78923,
-                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-04-27",
-                  "prazo": "2026-05-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78926,
-                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA ",
-                  "dataCadastro": "2026-04-27",
-                  "prazo": "2026-05-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78943,
-                  "cliente": "UP SEA SOLUÇÕES MARITIMAS E ENGENHARIA NAVAL LTDA",
-                  "dataCadastro": "2026-04-28",
-                  "prazo": "2026-05-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78949,
                   "cliente": "CRIS MAR MERCADO LTDA",
                   "dataCadastro": "2026-04-28",
@@ -28727,35 +28179,19 @@
         },
         {
           "mes": "2026-05",
-          "abertos": 27,
+          "abertos": 12,
           "atendidos": 0,
-          "pendentes": 27,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 27,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 79045,
                   "cliente": "CHURRASCARIA IRMAOS DELAZERI LTDA",
-                  "dataCadastro": "2026-05-07",
-                  "prazo": "2026-05-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79047,
-                  "cliente": "CHURRASCARIA IRMAOS DELAZERI LTDA",
-                  "dataCadastro": "2026-05-07",
-                  "prazo": "2026-05-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79048,
-                  "cliente": "GAUCHOS PRESTAÇÃO DE SERVIÇOS LTDA",
                   "dataCadastro": "2026-05-07",
                   "prazo": "2026-05-14",
                   "dataEntrega": null,
@@ -28786,48 +28222,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 79196,
-                  "cliente": "MERCADINHO BAMBINA LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79207,
-                  "cliente": "BLACK WOOD BURGER LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79208,
-                  "cliente": "BLACK WOOD BURGER LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79209,
                   "cliente": "BLACK WOOD BURGER LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79228,
-                  "cliente": "JOVIKI GESTÃO ADMINISTRATIVA LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79230,
-                  "cliente": "JPS GESTÃO ADMINISTRATIVA LTDA",
                   "dataCadastro": "2026-05-14",
                   "prazo": "2026-05-21",
                   "dataEntrega": null,
@@ -28842,34 +28238,10 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 79240,
-                  "cliente": "SPJ MATERIAIS DE CONSTRUCAO LTDA ",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79245,
                   "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
                   "dataCadastro": "2026-05-14",
                   "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79258,
-                  "cliente": "CF CARE MATERIAL HOSPITALAR LTDA (FILIAL 3)",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79261,
-                  "cliente": "RONDO FRIOS LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -28882,48 +28254,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 79271,
-                  "cliente": "LAB LINE COMÉRCIO DE COSMÉTICOS LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79272,
-                  "cliente": "LAB LINE COMÉRCIO DE COSMÉTICOS LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79275,
-                  "cliente": "GREEN BEL SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79277,
-                  "cliente": "M.PAIS ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 79278,
                   "cliente": "M.PAIS ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
-                  "dataCadastro": "2026-05-14",
-                  "prazo": "2026-05-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 79280,
-                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
                   "dataCadastro": "2026-05-14",
                   "prazo": "2026-05-21",
                   "dataEntrega": null,
@@ -28959,15 +28291,15 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 28,
+          "abertos": 16,
           "atendidos": 0,
-          "pendentes": 28,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 28,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 80263,
@@ -28994,14 +28326,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 80314,
-                  "cliente": "CF CARE MATERIAL HOSPITALAR LTDA (FILIAL 3)",
-                  "dataCadastro": "2026-06-22",
-                  "prazo": "2026-06-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80315,
                   "cliente": "AQUIOR COMERCIO E DISTRIBUIDORA DE MATERIAL HOSPITALAR ME LTDA",
                   "dataCadastro": "2026-06-22",
@@ -29012,14 +28336,6 @@
                 {
                   "id": 80329,
                   "cliente": "PARADA DOS PAES LTDA",
-                  "dataCadastro": "2026-06-22",
-                  "prazo": "2026-06-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80360,
-                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
                   "dataCadastro": "2026-06-22",
                   "prazo": "2026-06-29",
                   "dataEntrega": null,
@@ -29042,22 +28358,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 80370,
-                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
-                  "dataCadastro": "2026-06-22",
-                  "prazo": "2026-06-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80371,
-                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
-                  "dataCadastro": "2026-06-22",
-                  "prazo": "2026-06-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80389,
                   "cliente": "PRODUTOS CIRÚRGICO SERRA DA ESTRELA LTDA",
                   "dataCadastro": "2026-06-22",
@@ -29074,32 +28374,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 80396,
-                  "cliente": "DIBRAMASUL MADEIRAS LTDA",
-                  "dataCadastro": "2026-06-22",
-                  "prazo": "2026-06-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80397,
                   "cliente": "DIBRAMASUL MADEIRAS LTDA",
-                  "dataCadastro": "2026-06-22",
-                  "prazo": "2026-06-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80401,
-                  "cliente": "POINT GRUMA COMERCIO E SERVICOS LTDA",
-                  "dataCadastro": "2026-06-22",
-                  "prazo": "2026-06-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80406,
-                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
                   "dataCadastro": "2026-06-22",
                   "prazo": "2026-06-29",
                   "dataEntrega": null,
@@ -29122,14 +28398,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 80449,
-                  "cliente": "Mercado Romano Ltda. ",
-                  "dataCadastro": "2026-06-23",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80451,
                   "cliente": "Mercado Romano Ltda. ",
                   "dataCadastro": "2026-06-23",
@@ -29146,32 +28414,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 80475,
-                  "cliente": "CARDIOVENT COMERCIO E SERVICOS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-06-23",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80478,
                   "cliente": "MERCADO DCM EIRELI",
-                  "dataCadastro": "2026-06-23",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80480,
-                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
-                  "dataCadastro": "2026-06-23",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80481,
-                  "cliente": "MERCADO QZ DO BARRETO LTDA",
                   "dataCadastro": "2026-06-23",
                   "prazo": "2026-06-30",
                   "dataEntrega": null,
@@ -29184,14 +28428,6 @@
                   "prazo": "2026-06-30",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 80493,
-                  "cliente": "ATMS COMÉRCIO, SERVIÇOS E REPRESENTAÇÕES LTDA.",
-                  "dataCadastro": "2026-06-23",
-                  "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             }
@@ -29199,26 +28435,18 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 46,
+          "abertos": 22,
           "atendidos": 0,
-          "pendentes": 46,
+          "pendentes": 22,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 46,
+              "pendentes": 22,
               "chamados": [
                 {
                   "id": 80801,
-                  "cliente": "CRIS MAR MERCADO LTDA",
-                  "dataCadastro": "2026-07-07",
-                  "prazo": "2026-07-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80802,
                   "cliente": "CRIS MAR MERCADO LTDA",
                   "dataCadastro": "2026-07-07",
                   "prazo": "2026-07-14",
@@ -29258,30 +28486,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 80835,
-                  "cliente": "JRF MANUTENÇÃO E SERVIÇOS LTDA",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80853,
-                  "cliente": "ENERFLUX SERVICOS LTDA",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80868,
-                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80869,
                   "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
                   "dataCadastro": "2026-07-08",
@@ -29298,56 +28502,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 80874,
-                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80883,
-                  "cliente": "ACMA SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80889,
-                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80890,
-                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 03)",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 80891,
                   "cliente": "MINAS CEARA LOCAÇÃO DE AUTOMÓVEIS LTDA",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80892,
-                  "cliente": "MINAS CEARA LOCAÇÃO DE AUTOMÓVEIS LTDA",
-                  "dataCadastro": "2026-07-08",
-                  "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 80895,
-                  "cliente": "AG CONCEPT ESTETICA E BEM-ESTAR LTDA",
                   "dataCadastro": "2026-07-08",
                   "prazo": "2026-07-15",
                   "dataEntrega": null,
@@ -29370,14 +28526,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 81118,
-                  "cliente": "LIGEIRINHO DE GUARATIBA MATERIAL DE CONSTRUCAO LTDA",
-                  "dataCadastro": "2026-07-16",
-                  "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81125,
                   "cliente": "WC COMPRAS LTDA",
                   "dataCadastro": "2026-07-16",
@@ -29394,32 +28542,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 81133,
-                  "cliente": "PERSONAL FORCE ASSISTANCE & SERVICES LTDA",
-                  "dataCadastro": "2026-07-16",
-                  "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81135,
-                  "cliente": "MAPA DISTRIBUIDORA DE ALIMENTOS IMPORTACAO E EXPORTACAO LTDA",
-                  "dataCadastro": "2026-07-16",
-                  "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81136,
                   "cliente": "ECONOMIZAPLAST COMERCIO LTDA",
-                  "dataCadastro": "2026-07-16",
-                  "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81140,
-                  "cliente": "DIBRAMASUL MADEIRAS LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-23",
                   "dataEntrega": null,
@@ -29466,18 +28590,1092 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 81597,
-                  "cliente": "DESLIMPEX DISTRIBUIDORA DE DESCARTAVEIS E MATERIAIS DE LIMPEZA LTDA (MATRIZ)",
-                  "dataCadastro": "2026-07-29",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81608,
                   "cliente": "MERCADO MULTI PENHA RIO LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81633,
+                  "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA ",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81687,
+                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81689,
+                  "cliente": "MARJ - MERCADOS ASSOCIADOS DO ESTADO DO RIO DE JANEIRO",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "RJ - DP",
+      "meses": [
+        {
+          "mes": "2026-02",
+          "abertos": 3,
+          "atendidos": 0,
+          "pendentes": 3,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 3,
+              "chamados": [
+                {
+                  "id": 77170,
+                  "cliente": "PARADA DOS PAES LTDA",
+                  "dataCadastro": "2026-02-12",
+                  "prazo": "2026-02-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77475,
+                  "cliente": "STOCK FRANGO DISTRIBUIDORA DE GÊNEROS ALIMENTÍCIOS E TRANSPORTE LTDA",
+                  "dataCadastro": "2026-02-26",
+                  "prazo": "2026-03-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77496,
+                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
+                  "dataCadastro": "2026-02-26",
+                  "prazo": "2026-03-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-03",
+          "abertos": 5,
+          "atendidos": 0,
+          "pendentes": 5,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 5,
+              "chamados": [
+                {
+                  "id": 77740,
+                  "cliente": "MAPA DISTRIBUIDORA DE ALIMENTOS IMPORTACAO E EXPORTACAO LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77791,
+                  "cliente": "MC SILVA SILVERIO LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78250,
+                  "cliente": "Rondo Cafe E Pizzaria LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78262,
+                  "cliente": "MC SILVA SILVERIO LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78300,
+                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-04",
+          "abertos": 6,
+          "atendidos": 0,
+          "pendentes": 6,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 6,
+              "chamados": [
+                {
+                  "id": 78627,
+                  "cliente": "MASAF SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-04-13",
+                  "prazo": "2026-04-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78695,
+                  "cliente": "BLACK WOOD BURGER LTDA",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78744,
+                  "cliente": "PERSONAL FORCE ASSISTANCE & SERVICES LTDA",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78766,
+                  "cliente": "LAAN SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78926,
+                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA ",
+                  "dataCadastro": "2026-04-27",
+                  "prazo": "2026-05-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78943,
+                  "cliente": "UP SEA SOLUÇÕES MARITIMAS E ENGENHARIA NAVAL LTDA",
+                  "dataCadastro": "2026-04-28",
+                  "prazo": "2026-05-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-05",
+          "abertos": 5,
+          "atendidos": 0,
+          "pendentes": 5,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 5,
+              "chamados": [
+                {
+                  "id": 79047,
+                  "cliente": "CHURRASCARIA IRMAOS DELAZERI LTDA",
+                  "dataCadastro": "2026-05-07",
+                  "prazo": "2026-05-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79048,
+                  "cliente": "GAUCHOS PRESTAÇÃO DE SERVIÇOS LTDA",
+                  "dataCadastro": "2026-05-07",
+                  "prazo": "2026-05-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79196,
+                  "cliente": "MERCADINHO BAMBINA LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79208,
+                  "cliente": "BLACK WOOD BURGER LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79272,
+                  "cliente": "LAB LINE COMÉRCIO DE COSMÉTICOS LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-06",
+          "abertos": 3,
+          "atendidos": 0,
+          "pendentes": 3,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 3,
+              "chamados": [
+                {
+                  "id": 80371,
+                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
+                  "dataCadastro": "2026-06-22",
+                  "prazo": "2026-06-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80449,
+                  "cliente": "Mercado Romano Ltda. ",
+                  "dataCadastro": "2026-06-23",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80481,
+                  "cliente": "MERCADO QZ DO BARRETO LTDA",
+                  "dataCadastro": "2026-06-23",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-07",
+          "abertos": 4,
+          "atendidos": 0,
+          "pendentes": 4,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 4,
+              "chamados": [
+                {
+                  "id": 80895,
+                  "cliente": "AG CONCEPT ESTETICA E BEM-ESTAR LTDA",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81625,
+                  "cliente": "RONDO FRIOS LTDA",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81643,
+                  "cliente": "CRIS MAR MERCADO LTDA",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81688,
+                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
+                  "dataCadastro": "2026-07-30",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "RJ - EF",
+      "meses": [
+        {
+          "mes": "2026-01",
+          "abertos": 2,
+          "atendidos": 0,
+          "pendentes": 2,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 76383,
+                  "cliente": "RRB SUPERMERCADO EIRELI",
+                  "dataCadastro": "2026-01-02",
+                  "prazo": "2026-01-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 76385,
+                  "cliente": "ACMA SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-01-02",
+                  "prazo": "2026-01-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-02",
+          "abertos": 8,
+          "atendidos": 0,
+          "pendentes": 8,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 8,
+              "chamados": [
+                {
+                  "id": 77196,
+                  "cliente": "CASA DA PIEDRA RESTAURANTE LTDA",
+                  "dataCadastro": "2026-02-12",
+                  "prazo": "2026-02-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77204,
+                  "cliente": "LAAN SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-02-12",
+                  "prazo": "2026-02-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77350,
+                  "cliente": "ATMS COMÉRCIO, SERVIÇOS E REPRESENTAÇÕES LTDA.",
+                  "dataCadastro": "2026-02-19",
+                  "prazo": "2026-02-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77455,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA ",
+                  "dataCadastro": "2026-02-26",
+                  "prazo": "2026-03-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77480,
+                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-02-26",
+                  "prazo": "2026-03-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77489,
+                  "cliente": "CAFETERIA ACONCHEGO DA TERRA LTDA",
+                  "dataCadastro": "2026-02-26",
+                  "prazo": "2026-03-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77492,
+                  "cliente": "WC COMPRAS LTDA",
+                  "dataCadastro": "2026-02-26",
+                  "prazo": "2026-03-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77501,
+                  "cliente": "PANIFICAÇÃO E BAR ITUVERAVA LTDA ",
+                  "dataCadastro": "2026-02-26",
+                  "prazo": "2026-03-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-03",
+          "abertos": 18,
+          "atendidos": 0,
+          "pendentes": 18,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 18,
+              "chamados": [
+                {
+                  "id": 77727,
+                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77738,
+                  "cliente": "ROCHA E BORGES SERVICOS OPERACIONAIS LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77758,
+                  "cliente": "Panificadora Flor dos Tres Rios LTDA ",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77761,
+                  "cliente": "DIBRAMASUL MADEIRAS LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77765,
+                  "cliente": "GRADIM SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77773,
+                  "cliente": "GARRA PRODUTOS, ALIMENTOS E BEBIDAS LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77782,
+                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77789,
+                  "cliente": "CFN SANTA ANA LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77798,
+                  "cliente": "VITORIA CERTA SERVICO E APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-03-06",
+                  "prazo": "2026-03-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77813,
+                  "cliente": "CRIS MAR MERCADO LTDA",
+                  "dataCadastro": "2026-03-09",
+                  "prazo": "2026-03-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77818,
+                  "cliente": "GLOBAL SOLUCOES DE SERVICOS INDUSTRIAIS LTDA",
+                  "dataCadastro": "2026-03-09",
+                  "prazo": "2026-03-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77822,
+                  "cliente": "LIGEIRINHO DE GUARATIBA MATERIAL DE CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-03-09",
+                  "prazo": "2026-03-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77940,
+                  "cliente": "Proseg Serviços Gerais LTDA ",
+                  "dataCadastro": "2026-03-12",
+                  "prazo": "2026-03-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 77962,
+                  "cliente": "MERCADO MULTI PENHA RIO LTDA",
+                  "dataCadastro": "2026-03-13",
+                  "prazo": "2026-03-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78050,
+                  "cliente": "TUTTI QUITUTE PRODUTOS ALIMENTICIOS LTDA",
+                  "dataCadastro": "2026-03-17",
+                  "prazo": "2026-03-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78076,
+                  "cliente": "COMINDRE MANGUEIRAS E CONEXOES LTDA",
+                  "dataCadastro": "2026-03-18",
+                  "prazo": "2026-03-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78191,
+                  "cliente": "O PAOZIN CONGELADOS E PRONTOS LTDA",
+                  "dataCadastro": "2026-03-26",
+                  "prazo": "2026-04-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78293,
+                  "cliente": "MERCADO DCM EIRELI (FILIAL 01)",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-03-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-04",
+          "abertos": 18,
+          "atendidos": 0,
+          "pendentes": 18,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 18,
+              "chamados": [
+                {
+                  "id": 78389,
+                  "cliente": "EVOLUA TECNOLOGIA E SERVICOS DE PORTARIA REMOTA LTDA",
+                  "dataCadastro": "2026-04-01",
+                  "prazo": "2026-04-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78471,
+                  "cliente": "TOP FOODS ALIMENTOS LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-04-06",
+                  "prazo": "2026-04-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78531,
+                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
+                  "dataCadastro": "2026-04-08",
+                  "prazo": "2026-04-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78537,
+                  "cliente": "MERCADINHO IMPERIAL DE BENTO RIBEIRO LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-04-08",
+                  "prazo": "2026-04-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78630,
+                  "cliente": "WJS COMUNICAÇÃO VISUAL LTDA ",
+                  "dataCadastro": "2026-04-13",
+                  "prazo": "2026-04-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78633,
+                  "cliente": "SOUZA REVESTIMENTOS E FACHADAS LTDA",
+                  "dataCadastro": "2026-04-13",
+                  "prazo": "2026-04-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78639,
+                  "cliente": "CRIATIVA COMUNICAÇÃO VISUAL LTDA",
+                  "dataCadastro": "2026-04-13",
+                  "prazo": "2026-04-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78640,
+                  "cliente": "CRIART COMUNICAÇÃO VISUAL LTDA",
+                  "dataCadastro": "2026-04-13",
+                  "prazo": "2026-04-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78709,
+                  "cliente": "DESLIMPEX DISTRIBUIDORA DE DESCARTAVEIS E MATERIAIS DE LIMPEZA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78717,
+                  "cliente": "Asa Servprime Servicos de Apoio LTDA ",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78736,
+                  "cliente": "MVT LOGISTICA LTDA",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78739,
+                  "cliente": "Panificadora Flor dos Tres Rios LTDA ",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78745,
+                  "cliente": "PERSONAL FORCE ASSISTANCE & SERVICES LTDA",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78765,
+                  "cliente": "LAAN SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78777,
+                  "cliente": "PANIFICAÇÃO E BAR ITUVERAVA LTDA ",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78795,
+                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-04-16",
+                  "prazo": "2026-04-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78881,
+                  "cliente": "CARDIOVENT COMERCIO E SERVICOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-04-24",
+                  "prazo": "2026-05-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78923,
+                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-04-27",
+                  "prazo": "2026-05-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-05",
+          "abertos": 10,
+          "atendidos": 0,
+          "pendentes": 10,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 10,
+              "chamados": [
+                {
+                  "id": 79207,
+                  "cliente": "BLACK WOOD BURGER LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79228,
+                  "cliente": "JOVIKI GESTÃO ADMINISTRATIVA LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79230,
+                  "cliente": "JPS GESTÃO ADMINISTRATIVA LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79240,
+                  "cliente": "SPJ MATERIAIS DE CONSTRUCAO LTDA ",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79258,
+                  "cliente": "CF CARE MATERIAL HOSPITALAR LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79261,
+                  "cliente": "RONDO FRIOS LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79271,
+                  "cliente": "LAB LINE COMÉRCIO DE COSMÉTICOS LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79275,
+                  "cliente": "GREEN BEL SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79277,
+                  "cliente": "M.PAIS ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 79280,
+                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
+                  "dataCadastro": "2026-05-14",
+                  "prazo": "2026-05-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-06",
+          "abertos": 9,
+          "atendidos": 0,
+          "pendentes": 9,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 9,
+              "chamados": [
+                {
+                  "id": 80314,
+                  "cliente": "CF CARE MATERIAL HOSPITALAR LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-06-22",
+                  "prazo": "2026-06-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80360,
+                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
+                  "dataCadastro": "2026-06-22",
+                  "prazo": "2026-06-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80370,
+                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
+                  "dataCadastro": "2026-06-22",
+                  "prazo": "2026-06-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80396,
+                  "cliente": "DIBRAMASUL MADEIRAS LTDA",
+                  "dataCadastro": "2026-06-22",
+                  "prazo": "2026-06-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80401,
+                  "cliente": "POINT GRUMA COMERCIO E SERVICOS LTDA",
+                  "dataCadastro": "2026-06-22",
+                  "prazo": "2026-06-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80406,
+                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
+                  "dataCadastro": "2026-06-22",
+                  "prazo": "2026-06-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80475,
+                  "cliente": "CARDIOVENT COMERCIO E SERVICOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-06-23",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80480,
+                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
+                  "dataCadastro": "2026-06-23",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80493,
+                  "cliente": "ATMS COMÉRCIO, SERVIÇOS E REPRESENTAÇÕES LTDA.",
+                  "dataCadastro": "2026-06-23",
+                  "prazo": "2026-06-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-07",
+          "abertos": 20,
+          "atendidos": 0,
+          "pendentes": 20,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 20,
+              "chamados": [
+                {
+                  "id": 80802,
+                  "cliente": "CRIS MAR MERCADO LTDA",
+                  "dataCadastro": "2026-07-07",
+                  "prazo": "2026-07-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80835,
+                  "cliente": "JRF MANUTENÇÃO E SERVIÇOS LTDA",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80853,
+                  "cliente": "ENERFLUX SERVICOS LTDA",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80868,
+                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80874,
+                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80883,
+                  "cliente": "ACMA SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80889,
+                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80890,
+                  "cliente": "NOVA EMPÓRIO DO SERTÃO DE MINAS LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 80892,
+                  "cliente": "MINAS CEARA LOCAÇÃO DE AUTOMÓVEIS LTDA",
+                  "dataCadastro": "2026-07-08",
+                  "prazo": "2026-07-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81118,
+                  "cliente": "LIGEIRINHO DE GUARATIBA MATERIAL DE CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81133,
+                  "cliente": "PERSONAL FORCE ASSISTANCE & SERVICES LTDA",
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81135,
+                  "cliente": "MAPA DISTRIBUIDORA DE ALIMENTOS IMPORTACAO E EXPORTACAO LTDA",
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81140,
+                  "cliente": "DIBRAMASUL MADEIRAS LTDA",
+                  "dataCadastro": "2026-07-16",
+                  "prazo": "2026-07-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81597,
+                  "cliente": "DESLIMPEX DISTRIBUIDORA DE DESCARTAVEIS E MATERIAIS DE LIMPEZA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-29",
+                  "prazo": "2026-08-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -29498,32 +29696,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 81625,
-                  "cliente": "RONDO FRIOS LTDA",
-                  "dataCadastro": "2026-07-30",
-                  "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81632,
                   "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA ",
-                  "dataCadastro": "2026-07-30",
-                  "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81633,
-                  "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA ",
-                  "dataCadastro": "2026-07-30",
-                  "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81643,
-                  "cliente": "CRIS MAR MERCADO LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-06",
                   "dataEntrega": null,
@@ -29548,30 +29722,6 @@
                 {
                   "id": 81684,
                   "cliente": "ANFESO SERVIÇOS DE APOIO ADMINISTRATIVOS LTDA",
-                  "dataCadastro": "2026-07-30",
-                  "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81687,
-                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
-                  "dataCadastro": "2026-07-30",
-                  "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81688,
-                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
-                  "dataCadastro": "2026-07-30",
-                  "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81689,
-                  "cliente": "MARJ - MERCADOS ASSOCIADOS DO ESTADO DO RIO DE JANEIRO",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-06",
                   "dataEntrega": null,

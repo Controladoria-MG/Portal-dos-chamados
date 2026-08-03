@@ -5,3 +5,10 @@ node_modules/
 *.log
 *.sqlite
 .DS_Store
+
+# Dumps brutos de cada extração (Selenium) — arquivos de trabalho transitórios,
+# não o dado publicado (esse é data/base.xlsx + data/relatorios/*.json).
+# Versionar isso causava conflitos de git (limpar_pasta_download apaga os
+# arquivos antigos a cada rodada, o que o autostash via como exclusão de
+# arquivo rastreado, gerando conflito no pull --rebase e corrompendo o commit).
+data/Att Base/
