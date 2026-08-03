@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="static/style.css" />
   <!-- SheetJS: leitura de .xlsx no browser -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-  <!-- html2canvas: gera o print do placar para a cobrança -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
 
@@ -30,7 +28,8 @@
   <!-- BARRA DE NAVEGAÇÃO -->
   <div class="unidade-bar" id="unidade-bar" style="display:none">
     <span class="unidade-crumb" id="bc-home">Início</span>
-    <span id="bc-rest"></span>
+    <span class="unidade-sep" id="bc-sep">›</span>
+    <span class="unidade-nome" id="bc-dept"></span>
   </div>
 
   <main>
@@ -51,24 +50,10 @@
       <!-- Error -->
       <div id="error-msg"></div>
 
-      <!-- Filial cards -->
+      <!-- Department cards -->
       <div id="dept-grid"></div>
 
     </div><!-- /view-home -->
-
-    <!-- ── FILIAL VIEW — DEPARTAMENTOS DA FILIAL ───────────────── -->
-    <div id="view-filial" class="view">
-
-      <button class="btn-back" id="btn-back-filial">← Voltar</button>
-
-      <div class="page-title">
-        <h1 id="filial-depts-title">Filial</h1>
-      </div>
-
-      <!-- Department cards -->
-      <div id="filial-dept-grid"></div>
-
-    </div><!-- /view-filial -->
 
     <!-- ── DEPT VIEW ──────────────────────────────────────── -->
     <div id="view-dept" class="view">
@@ -78,61 +63,52 @@
       <!-- Abas Pendentes / Retornados (visível só para GC) -->
       <div id="dept-tabs"></div>
 
-      <!-- Cobrança de chamados -->
-      <div class="cobranca-bar">
-        <button id="btn-cobranca" class="btn-cobranca">📢 Gerar Cobrança</button>
+      <!-- Placar Total / Vencidos / Não Vencidos -->
+      <div class="ticket-stats-row" id="ticket-stats-row">
+        <div class="stat-box">
+          <span class="stat-box-label">Total</span>
+          <span class="stat-box-value" id="stat-total">0</span>
+        </div>
+        <div class="stat-box stat-box--danger">
+          <span class="stat-box-label">Vencidos</span>
+          <span class="stat-box-value" id="stat-vencidos">0</span>
+        </div>
+        <div class="stat-box stat-box--success">
+          <span class="stat-box-label">Não Vencidos</span>
+          <span class="stat-box-value" id="stat-nao-vencidos">0</span>
+        </div>
       </div>
 
-      <div id="cobranca-capture-area">
-
-        <!-- Placar Total / Vencidos / Não Vencidos -->
-        <div class="ticket-stats-row" id="ticket-stats-row">
-          <div class="stat-box">
-            <span class="stat-box-label">Total</span>
-            <span class="stat-box-value" id="stat-total">0</span>
+      <!-- Client table -->
+      <div class="table-wrap">
+        <div class="table-header">
+          <div>
+            <div class="table-title">Chamados por cliente</div>
+            <div class="table-subtitle">Clique na linha para ver mais detalhes</div>
           </div>
-          <div class="stat-box stat-box--danger">
-            <span class="stat-box-label">Vencidos</span>
-            <span class="stat-box-value" id="stat-vencidos">0</span>
-          </div>
-          <div class="stat-box stat-box--success">
-            <span class="stat-box-label">Não Vencidos</span>
-            <span class="stat-box-value" id="stat-nao-vencidos">0</span>
-          </div>
+          <input
+            class="search-input"
+            id="client-search"
+            type="search"
+            placeholder="Buscar cliente..."
+          />
         </div>
 
-        <!-- Client table -->
-        <div class="table-wrap">
-          <div class="table-header">
-            <div>
-              <div class="table-title">Chamados por cliente</div>
-              <div class="table-subtitle">Clique na linha para ver mais detalhes</div>
-            </div>
-            <input
-              class="search-input"
-              id="client-search"
-              type="search"
-              placeholder="Buscar cliente..."
-            />
-          </div>
-
-          <div class="table-scroll">
-            <table>
-              <thead>
-                <tr>
-                  <th>ID Cliente</th>
-                  <th>Cliente</th>
-                  <th class="date-cell">Data Cadastro</th>
-                  <th class="previsao-cell">Previsão Atend.</th>
-                  <th class="prazo-cell">Prazo Vencimento</th>
-                </tr>
-              </thead>
-              <tbody id="client-body"></tbody>
-            </table>
-          </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>ID Cliente</th>
+                <th>Cliente</th>
+                <th class="date-cell">Data Cadastro</th>
+                <th class="previsao-cell">Previsão Atend.</th>
+                <th class="prazo-cell">Prazo Vencimento</th>
+              </tr>
+            </thead>
+            <tbody id="client-body"></tbody>
+          </table>
         </div>
-
-      </div><!-- /cobranca-capture-area -->
+      </div>
 
     </div><!-- /view-dept -->
 
@@ -143,30 +119,17 @@
 
       <div class="page-title">
         <h1>Relatório de Chamados Entregues</h1>
+        <p id="rel-home-atualizado"></p>
       </div>
 
       <div id="rel-home-empty" class="rel-empty" style="display:none">
         Nenhum dado de relatório disponível ainda. Rode a atualização da base para gerar.
       </div>
 
-      <!-- Filial cards -->
+      <!-- Department cards -->
       <div id="rel-dept-grid"></div>
 
     </div><!-- /view-relatorios-home -->
-
-    <!-- ── RELATÓRIOS — DEPARTAMENTOS DA FILIAL ─────────────────── -->
-    <div id="view-relatorios-filial" class="view">
-
-      <button class="btn-back" id="btn-back-relatorios-filial">← Voltar</button>
-
-      <div class="page-title">
-        <h1 id="rel-filial-title">Relatório de Chamados Entregues</h1>
-      </div>
-
-      <!-- Department cards -->
-      <div id="rel-filial-dept-grid"></div>
-
-    </div><!-- /view-relatorios-filial -->
 
     <!-- ── RELATÓRIOS — DEPARTAMENTO ────────────────────────────── -->
     <div id="view-relatorios" class="view">
@@ -175,6 +138,7 @@
 
       <div class="page-title">
         <h1 id="rel-dept-title">Relatórios</h1>
+        <p id="rel-atualizado"></p>
       </div>
 
       <div id="rel-empty" class="rel-empty" style="display:none">
@@ -228,29 +192,6 @@
     </div><!-- /view-relatorios -->
 
   </main>
-
-  <!-- ── MODAL DE COBRANÇA ────────────────────────────────────── -->
-  <div id="cobranca-modal" class="modal-overlay" style="display:none">
-    <div class="modal-box">
-      <button class="modal-close" id="cobranca-modal-close" type="button">✕</button>
-      <h2 class="modal-title">Cobrança de Chamados</h2>
-
-      <div class="cobranca-preview">
-        <img id="cobranca-preview-img" alt="Print do placar de chamados em aberto" />
-      </div>
-      <div class="cobranca-actions-row">
-        <button id="btn-copiar-imagem" class="btn-modal-action" type="button">📋 Copiar Imagem</button>
-        <span id="cobranca-img-status" class="cobranca-status"></span>
-      </div>
-
-      <label class="cobranca-text-label" for="cobranca-texto">Texto de cobrança</label>
-      <textarea id="cobranca-texto" rows="8"></textarea>
-      <div class="cobranca-actions-row">
-        <button id="btn-copiar-texto" class="btn-modal-action" type="button">📋 Copiar Texto</button>
-        <span id="cobranca-texto-status" class="cobranca-status"></span>
-      </div>
-    </div>
-  </div>
 
   <script src="static/script.js"></script>
 </body>
