@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/08/2026 16:01",
+  "atualizado_em": "03/08/2026 16:43",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24508,10 +24508,26 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 1,
+          "abertos": 2,
           "atendidos": 0,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
+            {
+              "nome": "Omissão de Obrigações Acessórias",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81783,
+                  "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "SPED",
               "atendidosDentro": 0,
