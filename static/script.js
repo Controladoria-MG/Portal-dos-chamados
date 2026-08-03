@@ -5,7 +5,6 @@ const INFO_PATH = 'data/base_info.json';
 
 /* ─── STATE ──────────────────────────────────────────────────────── */
 let allData          = [];
-let currentFilial    = null; // 'São Paulo' | 'Rio de Janeiro' | 'Santos'
 let currentDept      = null;
 let openClientRow    = null;
 let activeTab        = 'pendentes'; // 'pendentes' | 'retornados'
@@ -50,9 +49,7 @@ function prazoVal(row) {
   return col(row,'Prazo Vencimento','Prazo de Vencimento','PrazoVencimento','prazo_vencimento');
 }
 /* Placar Total / Vencidos / Não Vencidos — conta chamados (não clientes) */
-let currentVisibleTickets = []; // últimos chamados exibidos na tela de departamento (após filtros/busca) — usado pela cobrança
 function updateTicketStats(tickets) {
-  currentVisibleTickets = tickets;
   if (!$statTotal) return;
   let vencidos = 0, naoVencidos = 0;
   tickets.forEach(r => {
@@ -127,11 +124,9 @@ function updateThemeBtn(theme) {
 const $loading      = document.getElementById('loading');
 const $errorMsg     = document.getElementById('error-msg');
 const $viewHome     = document.getElementById('view-home');
-const $viewFilial   = document.getElementById('view-filial');
 const $viewDept     = document.getElementById('view-dept');
-const $viewRelatoriosHome   = document.getElementById('view-relatorios-home');
-const $viewRelatoriosFilial = document.getElementById('view-relatorios-filial');
-const $viewRelatorios       = document.getElementById('view-relatorios');
+const $viewRelatoriosHome = document.getElementById('view-relatorios-home');
+const $viewRelatorios     = document.getElementById('view-relatorios');
 const $deptGrid     = document.getElementById('dept-grid');
 const $totalRecs    = document.getElementById('total-records');
 const $totalDeps    = document.getElementById('total-depts');
@@ -204,42 +199,13 @@ function showError(msg) {
 
 /* ─── AGRUPAMENTO DE DEPARTAMENTO ────────────────────────────────────
    GC - Administrativo é tratado como parte de GERENCIA DE CONTAS —
-   um único card/departamento no portal, nunca separados. Mesma lógica
-   para as filiais Santos e RJ, cada uma com seu próprio grupo "Geral"
-   e "Gerência de Contas". ─────────────────────────────────────────── */
+   um único card/departamento no portal, nunca separados. ─────────── */
 function deptGroupName(row) {
   const raw = String(col(row, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento') || '').trim();
   const upper = raw.toUpperCase();
   if (upper === 'GC - ADMINISTRATIVO') return 'GERENCIA DE CONTAS';
   if (upper === 'PL - AUDITORIA') return 'PARALEGAL';
-  if (['SANTOS - CTB', 'SANTOS - EF', 'SANTOS - DP'].includes(upper)) return 'SANTOS GERAL';
-  if (['SANTOS - GC', 'SANTOS - ADM'].includes(upper)) return 'SANTOS GERENCIA DE CONTAS';
-  if (['RJ - CTB', 'RJ - EF', 'RJ - DP'].includes(upper)) return 'RJ GERAL';
-  if (['RJ - GC', 'RJ - GC ADMINISTRATIVO'].includes(upper)) return 'RJ GERENCIA DE CONTAS';
   return raw || 'Sem Departamento';
-}
-
-/* Agrupamento equivalente, mas a partir do Departamento Solicitante — usado
-   só para chamados Retornado=SIM, para saber a qual Gerência de Contas
-   (SP/Santos/RJ) um retornado pertence (ver openDept/buildTabs). */
-function deptGroupNameSolicitante(row) {
-  const raw = String(col(row, 'Departamento Solicitante', 'Departamento_Solicitante') || '').trim();
-  const upper = raw.toUpperCase();
-  if (upper === 'GERENCIA DE CONTAS' || upper === 'GC - ADMINISTRATIVO') return 'GERENCIA DE CONTAS';
-  if (['SANTOS - GC', 'SANTOS - ADM'].includes(upper)) return 'SANTOS GERENCIA DE CONTAS';
-  if (['RJ - GC', 'RJ - GC ADMINISTRATIVO'].includes(upper)) return 'RJ GERENCIA DE CONTAS';
-  return raw || 'Sem Departamento';
-}
-
-/* ─── FILIAL DE UM DEPARTAMENTO (já agrupado por deptGroupName) ──────
-   Sem coluna própria de filial na base — a filial é inferida pelo
-   prefixo do nome do grupo. Tudo que não é Santos/RJ é São Paulo. ─── */
-const FILIAIS = ['São Paulo', 'Rio de Janeiro', 'Santos'];
-function filialDoDept(deptName) {
-  const upper = String(deptName || '').toUpperCase();
-  if (upper.startsWith('SANTOS')) return 'Santos';
-  if (upper.startsWith('RJ')) return 'Rio de Janeiro';
-  return 'São Paulo';
 }
 
 /* ─── COLUMN RESOLVER ────────────────────────────────────────────── */
@@ -306,76 +272,34 @@ function badge(status) {
   return `<span class="badge ${cls}">${status || '—'}</span>`;
 }
 
-/* ─── HOME VIEW (FILIAIS) ────────────────────────────────────────────
-   Topo do portal: cartão por filial (São Paulo / Rio de Janeiro / Santos).
-   Departamentos de cada filial ficam na tela seguinte (view-filial). ── */
+/* ─── HOME VIEW ──────────────────────────────────────────────────── */
 function renderHome() {
   $loading.style.display = 'none';
 
-  const filialCounts = {};
-  FILIAIS.forEach(f => { filialCounts[f] = 0; });
-  for (const row of allData) {
-    if (String(col(row, 'Retornado')).toUpperCase() === 'SIM') continue; // retornados não contam nos cards
-    const filial = filialDoDept(deptGroupName(row));
-    filialCounts[filial] = (filialCounts[filial] || 0) + 1;
-  }
-
-  if ($totalRecs) $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
-  if ($totalDeps) $totalDeps.textContent = FILIAIS.length;
-
-  $deptGrid.innerHTML = '';
-  for (const nome of FILIAIS) {
-    const card = document.createElement('div');
-    card.className = 'dept-card';
-    card.innerHTML = `
-      <div class="card-name">${escHtml(nome)}</div>
-      <div class="card-count">${filialCounts[nome].toLocaleString('pt-BR')}</div>
-      <div class="card-hint">Clique para ver os detalhes</div>`;
-    card.addEventListener('click', () => openFilial(nome));
-    $deptGrid.appendChild(card);
-  }
-
-  showView('home');
-}
-
-/* ─── FILIAL VIEW (DEPARTAMENTOS DA FILIAL) ─────────────────────────── */
-function openFilial(filialNome) {
-  currentFilial = filialNome;
-  renderFilialDepts(filialNome);
-  showView('filial');
-}
-
-function renderFilialDepts(filialNome) {
   const deptMap = {};
   for (const row of allData) {
-    if (String(col(row, 'Retornado')).toUpperCase() === 'SIM') continue; // retornados não contam nos cards normais
+    const retornado = String(col(row, 'Retornado')).toUpperCase();
+    if (retornado === 'SIM') continue; // retornados não contam nos cards normais
     const dept = deptGroupName(row);
-    if (filialDoDept(dept) !== filialNome) continue;
     deptMap[dept] = (deptMap[dept] || 0) + 1;
   }
-  // Garante que a Gerência de Contas (e Paralegal, só em SP) da filial
-  // aparece mesmo sem pendentes no momento.
-  if (filialNome === 'São Paulo') {
-    if (!deptMap['GERENCIA DE CONTAS']) deptMap['GERENCIA DE CONTAS'] = 0;
-    if (!deptMap['PARALEGAL']) deptMap['PARALEGAL'] = 0;
-  } else if (filialNome === 'Santos') {
-    if (!deptMap['SANTOS GERENCIA DE CONTAS']) deptMap['SANTOS GERENCIA DE CONTAS'] = 0;
-  } else if (filialNome === 'Rio de Janeiro') {
-    if (!deptMap['RJ GERENCIA DE CONTAS']) deptMap['RJ GERENCIA DE CONTAS'] = 0;
-  }
+  // Garante que GERENCIA DE CONTAS e PARALEGAL aparecem mesmo sem pendentes
+  if (!deptMap['GERENCIA DE CONTAS']) deptMap['GERENCIA DE CONTAS'] = 0;
+  if (!deptMap['PARALEGAL']) deptMap['PARALEGAL'] = 0;
 
   const depts = Object.entries(deptMap).sort((a, b) => b[1] - a[1]);
+  if ($totalRecs) $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
+  const totalRetornados = allData.filter(r => String(col(r,'Retornado')).toUpperCase() === 'SIM').length;
+  if ($totalDeps) $totalDeps.textContent = depts.length;
 
-  const $title = document.getElementById('filial-depts-title');
-  if ($title) $title.textContent = filialNome;
-
-  const $grid = document.getElementById('filial-dept-grid');
-  $grid.innerHTML = '';
-  if (!depts.length) {
-    $grid.innerHTML = `<p class="empty">Nenhum departamento encontrado para esta filial.</p>`;
-    return;
-  }
+  $deptGrid.innerHTML = '';
   for (const [name, count] of depts) {
+    // Conta retornados deste dept (qualquer dept pode ter, mas na prática só GC)
+    // Todos os retornados ficam sob GERENCIA DE CONTAS
+    const retCount = name === 'GERENCIA DE CONTAS'
+      ? allData.filter(r => String(col(r,'Retornado')).toUpperCase() === 'SIM').length
+      : 0;
+
     const card = document.createElement('div');
     card.className = 'dept-card';
     card.innerHTML = `
@@ -383,8 +307,10 @@ function renderFilialDepts(filialNome) {
       <div class="card-count">${count.toLocaleString('pt-BR')}</div>
       <div class="card-hint">Clique para ver os detalhes</div>`;
     card.addEventListener('click', () => openDept(name));
-    $grid.appendChild(card);
+    $deptGrid.appendChild(card);
   }
+
+  showView('home');
 }
 
 /* ─── DEPT VIEW ──────────────────────────────────────────────────── */
@@ -397,11 +323,11 @@ function openDept(deptName) {
   if ($deptTitle) $deptTitle.textContent = deptName;
 
   const allDeptRows = allData.filter(r => {
+    const dept = deptGroupName(r);
     const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
-    // Retornados ficam na Gerência de Contas de quem solicitou (SP/Santos/RJ),
-    // não no dept que de fato executou e entregou o chamado.
-    if (retornado) return deptGroupNameSolicitante(r) === deptName;
-    return deptGroupName(r) === deptName;
+    // Retornados sempre ficam em GERENCIA DE CONTAS, independente do dept original
+    if (retornado) return deptName === 'GERENCIA DE CONTAS';
+    return dept === deptName;
   });
 
   currentDeptTemDeptoAnterior = deptTemDeptoAnterior(allDeptRows);
@@ -447,9 +373,10 @@ function buildTabs(deptName, allDeptRows) {
       $clientSearch.value = '';
 
       const rows = allData.filter(r => {
+        const dept = deptGroupName(r);
         const retornado = String(col(r,'Retornado')).toUpperCase() === 'SIM';
-        if (retornado) return deptGroupNameSolicitante(r) === currentDept;
-        return deptGroupName(r) === currentDept;
+        if (retornado) return currentDept === 'GERENCIA DE CONTAS';
+        return dept === currentDept;
       });
 
       populateFilterDropdowns(rows.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM'));
@@ -802,63 +729,47 @@ function toggleClientDetail(tr, client) {
 $clientSearch.addEventListener('input', applyFilters);
 
 /* ─── BACK ───────────────────────────────────────────────────────── */
-document.getElementById('btn-back-filial').addEventListener('click', () => showView('home'));
 document.getElementById('btn-back').addEventListener('click', () => {
-  openClientRow = null; resetFilters(); $clientSearch.value = '';
-  showView('filial');
-});
-
-/* ─── BREADCRUMB ─────────────────────────────────────────────────── */
-document.getElementById('bc-home').addEventListener('click', () => {
   openClientRow = null; resetFilters(); $clientSearch.value = '';
   showView('home');
 });
 
-function setBreadcrumb(partes) {
-  const bar  = document.getElementById('unidade-bar');
-  const rest = document.getElementById('bc-rest');
-  if (!partes.length) { bar.style.display = 'none'; return; }
-  bar.style.display = 'flex';
-  rest.innerHTML = partes.map((p, i) => {
-    const isLast = i === partes.length - 1;
-    return `<span class="unidade-sep">›</span>`
-      + `<span class="${isLast ? 'unidade-nome' : 'unidade-crumb'}" data-crumb-i="${i}">${escHtml(p.label || '')}</span>`;
-  }).join('');
-  rest.querySelectorAll('[data-crumb-i]').forEach(el => {
-    const i = Number(el.dataset.crumbI);
-    if (partes[i].onClick) el.addEventListener('click', partes[i].onClick);
-  });
-}
+/* ─── BREADCRUMB ─────────────────────────────────────────────────── */
+document.getElementById('bc-home').addEventListener('click', () => {
+  if ($viewDept.classList.contains('active')) {
+    openClientRow = null; resetFilters(); $clientSearch.value = '';
+    showView('home');
+  } else if ($viewRelatorios.classList.contains('active')) {
+    showView('home');
+  }
+});
 
 /* ─── SHOW VIEW ──────────────────────────────────────────────────── */
 function showView(name) {
   $viewHome.classList.toggle('active', name === 'home');
-  $viewFilial.classList.toggle('active', name === 'filial');
   $viewDept.classList.toggle('active', name === 'dept');
   $viewRelatoriosHome.classList.toggle('active', name === 'relatorios-home');
-  $viewRelatoriosFilial.classList.toggle('active', name === 'relatorios-filial');
   $viewRelatorios.classList.toggle('active', name === 'relatorios');
-
-  const emRelatorios = name === 'relatorios-home' || name === 'relatorios-filial' || name === 'relatorios';
+  const emRelatorios = name === 'relatorios-home' || name === 'relatorios';
   document.getElementById('btn-relatorios').textContent = emRelatorios
     ? 'Relatório Padrão'
     : 'Relatório de Chamados Entregues';
-
-  const partesPorView = {
-    'filial':            [{ label: currentFilial }],
-    'dept':              [{ label: currentFilial, onClick: () => showView('filial') }, { label: currentDept }],
-    'relatorios-filial': [{ label: currentRelFilial }],
-    'relatorios':        [{ label: currentRelFilial, onClick: () => showView('relatorios-filial') },
-                           { label: currentRelDept ? currentRelDept.nome : '' }],
-  };
-  setBreadcrumb(partesPorView[name] || []);
+  const bar    = document.getElementById('unidade-bar');
+  const bcDept = document.getElementById('bc-dept');
+  if (name === 'dept') {
+    bcDept.textContent = currentDept;
+    bar.style.display = 'flex';
+  } else if (name === 'relatorios') {
+    bcDept.textContent = currentRelDept ? currentRelDept.nome : '';
+    bar.style.display = 'flex';
+  } else {
+    bar.style.display = 'none';
+  }
 }
 
 /* ─── RELATÓRIOS — NAVEGAÇÃO ─────────────────────────────────────── */
 document.getElementById('btn-relatorios').addEventListener('click', () => {
-  const emRelatorios = $viewRelatoriosHome.classList.contains('active')
-    || $viewRelatoriosFilial.classList.contains('active')
-    || $viewRelatorios.classList.contains('active');
+  const emRelatorios = $viewRelatoriosHome.classList.contains('active') || $viewRelatorios.classList.contains('active');
   if (emRelatorios) {
     showView('home');
   } else {
@@ -866,8 +777,7 @@ document.getElementById('btn-relatorios').addEventListener('click', () => {
   }
 });
 document.getElementById('btn-back-relatorios-home').addEventListener('click', () => showView('home'));
-document.getElementById('btn-back-relatorios-filial').addEventListener('click', () => showView('relatorios-home'));
-document.getElementById('btn-back-relatorios').addEventListener('click', () => showView('relatorios-filial'));
+document.getElementById('btn-back-relatorios').addEventListener('click', () => showView('relatorios-home'));
 
 /* ─── HTML ESCAPE ────────────────────────────────────────────────── */
 function escHtml(str) {
@@ -881,10 +791,9 @@ function escHtml(str) {
    agrupado por depto/mês/categoria (mês = mês de abertura do chamado).
 ═══════════════════════════════════════════════════════════════════ */
 const DETALHE_PATH = 'data/relatorios/detalhe_mensal.json';
-let detalheMensal   = null;
-let currentRelFilial = null; // filial aberta na tela de escolha de departamento do relatório
-let currentRelDept  = null; // { nome, meses } do departamento aberto no relatório
-let mesExpandido    = null; // chave 'YYYY-MM' do mês expandido na tabela, ou null
+let detalheMensal  = null;
+let currentRelDept = null; // { nome, meses } do departamento aberto no relatório
+let mesExpandido   = null; // chave 'YYYY-MM' do mês expandido na tabela, ou null
 
 async function carregarDetalheMensal() {
   try {
@@ -902,10 +811,10 @@ function fmtMes(chave) {
   return `${MESES_ABREV[mes - 1]}/${String(ano).slice(2)}`;
 }
 
-/* ─── RELATÓRIOS — ESCOLHA DE FILIAL ─────────────────────────────── */
+/* ─── RELATÓRIOS — ESCOLHA DE DEPARTAMENTO ────────────────────────── */
 async function openRelatorios() {
   if (!detalheMensal) await carregarDetalheMensal();
-  renderRelatoriosFiliais();
+  renderRelatoriosHome();
   showView('relatorios-home');
 }
 
@@ -913,7 +822,7 @@ function totalAtendidosDept(dept) {
   return dept.meses.reduce((soma, m) => soma + m.atendidos, 0);
 }
 
-function renderRelatoriosFiliais() {
+function renderRelatoriosHome() {
   const $empty   = document.getElementById('rel-home-empty');
   const $grid    = document.getElementById('rel-dept-grid');
   const $atualiz = document.getElementById('rel-home-atualizado');
@@ -930,47 +839,8 @@ function renderRelatoriosFiliais() {
     ? `Base atualizada em ${detalheMensal.atualizado_em}`
     : '';
 
-  const totaisPorFilial = {};
-  FILIAIS.forEach(f => { totaisPorFilial[f] = 0; });
-  for (const dept of deptos) {
-    const filial = filialDoDept(dept.nome);
-    totaisPorFilial[filial] = (totaisPorFilial[filial] || 0) + totalAtendidosDept(dept);
-  }
-
-  $grid.innerHTML = '';
-  for (const nome of FILIAIS) {
-    const card = document.createElement('div');
-    card.className = 'dept-card';
-    card.innerHTML = `
-      <div class="card-name">${escHtml(nome)}</div>
-      <div class="card-count">${totaisPorFilial[nome].toLocaleString('pt-BR')}</div>
-      <div class="card-hint">Clique para ver o relatório</div>`;
-    card.addEventListener('click', () => openRelatorioFilial(nome));
-    $grid.appendChild(card);
-  }
-}
-
-/* ─── RELATÓRIOS — DEPARTAMENTOS DA FILIAL ───────────────────────── */
-function openRelatorioFilial(filialNome) {
-  currentRelFilial = filialNome;
-  renderRelatoriosFilialDepts(filialNome);
-  showView('relatorios-filial');
-}
-
-function renderRelatoriosFilialDepts(filialNome) {
-  const deptos = ((detalheMensal && detalheMensal.departamentos) || [])
-    .filter(d => filialDoDept(d.nome) === filialNome);
-
-  const $title = document.getElementById('rel-filial-title');
-  if ($title) $title.textContent = `Relatório de Chamados Entregues — ${filialNome}`;
-
-  const $grid = document.getElementById('rel-filial-dept-grid');
   $grid.innerHTML = '';
   const ordenados = [...deptos].sort((a, b) => totalAtendidosDept(b) - totalAtendidosDept(a));
-  if (!ordenados.length) {
-    $grid.innerHTML = `<p class="empty">Nenhum departamento com dados de relatório nessa filial.</p>`;
-    return;
-  }
   for (const dept of ordenados) {
     const card = document.createElement('div');
     card.className = 'dept-card';
@@ -1366,108 +1236,3 @@ function buildHBarChart(container, itens) {
       </div>`;
   }).join('');
 }
-
-/* ═══════════════════════════════════════════════════════════════════
-   COBRANÇA DE CHAMADOS — print do placar/tabela do departamento +
-   texto pedindo conclusão dos chamados de hoje e preenchimento das
-   previsões em aberto. Números do texto vêm de currentVisibleTickets,
-   os mesmos chamados que estão na tela no momento do clique (respeita
-   filtros/busca/aba ativos).
-═══════════════════════════════════════════════════════════════════ */
-let cobrancaBlobAtual = null;
-
-function chamadosVencendoHoje(tickets) {
-  const today = new Date(); today.setHours(0, 0, 0, 0);
-  return tickets.filter(r => {
-    const d = parsePrazoDate(prazoVal(r));
-    return d && d.getTime() === today.getTime();
-  });
-}
-
-function chamadosSemPrevisao(tickets) {
-  return tickets.filter(r => !parsePrazoDate(previsaoVal(r)));
-}
-
-function chamadosVencidos(tickets) {
-  return tickets.filter(r => vencimentoStatus(r) === 'Vencido');
-}
-
-function gerarTextoCobranca(dept, tickets) {
-  const vencidos     = chamadosVencidos(tickets);
-  const vencendoHoje = chamadosVencendoHoje(tickets);
-  const semPrevisao  = chamadosSemPrevisao(tickets);
-  const hoje = new Date().toLocaleDateString('pt-BR');
-
-  const plural = (n) => n !== 1 ? 's' : '';
-
-  return `Olá! Segue o placar atual de chamados em aberto — ${dept} (${hoje}).\n\n`
-    + `Peço a gentileza de:\n`
-    + `• Concluir os chamados já vencidos: ${vencidos.length} chamado${plural(vencidos.length)}.\n`
-    + `• Concluir os chamados com vencimento para hoje: ${vencendoHoje.length} chamado${plural(vencendoHoje.length)}.\n`
-    + `• Preencher a previsão de atendimento dos chamados que ainda estão sem data prevista: ${semPrevisao.length} chamado${plural(semPrevisao.length)}.\n\n`
-    + `Agradeço a atenção!`;
-}
-
-async function abrirCobranca() {
-  const area = document.getElementById('cobranca-capture-area');
-  const btn  = document.getElementById('btn-cobranca');
-  if (!area || typeof html2canvas === 'undefined' || !btn) return;
-
-  const originalLabel = btn.textContent;
-  btn.disabled = true;
-  btn.textContent = 'Gerando...';
-
-  try {
-    const bg = getComputedStyle(document.body).getPropertyValue('--bg-deep').trim() || '#ffffff';
-    const canvas = await html2canvas(area, { backgroundColor: bg, scale: 2 });
-    const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
-    cobrancaBlobAtual = blob;
-
-    document.getElementById('cobranca-texto').value = gerarTextoCobranca(currentDept, currentVisibleTickets);
-    document.getElementById('cobranca-preview-img').src = URL.createObjectURL(blob);
-    document.getElementById('cobranca-img-status').textContent   = '';
-    document.getElementById('cobranca-texto-status').textContent = '';
-    document.getElementById('cobranca-modal').style.display = 'flex';
-
-    await copiarImagemCobranca();
-  } catch (e) {
-    alert('Não foi possível gerar o print da cobrança: ' + e.message);
-  } finally {
-    btn.disabled = false;
-    btn.textContent = originalLabel;
-  }
-}
-
-async function copiarImagemCobranca() {
-  const status = document.getElementById('cobranca-img-status');
-  if (!cobrancaBlobAtual) return;
-  try {
-    await navigator.clipboard.write([new ClipboardItem({ 'image/png': cobrancaBlobAtual })]);
-    status.textContent = 'Imagem copiada! Já pode colar (Ctrl+V).';
-  } catch (e) {
-    status.textContent = 'Não copiou automaticamente — clique em "Copiar Imagem".';
-  }
-}
-
-async function copiarTextoCobranca() {
-  const status = document.getElementById('cobranca-texto-status');
-  const texto  = document.getElementById('cobranca-texto').value;
-  try {
-    await navigator.clipboard.writeText(texto);
-    status.textContent = 'Texto copiado!';
-  } catch (e) {
-    status.textContent = 'Não foi possível copiar — selecione o texto e copie manualmente.';
-  }
-}
-
-function fecharCobranca() {
-  document.getElementById('cobranca-modal').style.display = 'none';
-}
-
-document.getElementById('btn-cobranca')?.addEventListener('click', abrirCobranca);
-document.getElementById('btn-copiar-imagem')?.addEventListener('click', copiarImagemCobranca);
-document.getElementById('btn-copiar-texto')?.addEventListener('click', copiarTextoCobranca);
-document.getElementById('cobranca-modal-close')?.addEventListener('click', fecharCobranca);
-document.getElementById('cobranca-modal')?.addEventListener('click', (e) => {
-  if (e.target.id === 'cobranca-modal') fecharCobranca();
-});
