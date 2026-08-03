@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/08/2026 09:38",
+  "atualizado_em": "03/08/2026 10:18",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17127,22 +17127,22 @@
         {
           "mes": "2026-08",
           "abertos": 1,
-          "atendidos": 0,
-          "pendentes": 1,
+          "atendidos": 1,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81735,
                   "cliente": null,
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -18585,22 +18585,22 @@
         {
           "mes": "2026-07",
           "abertos": 56,
-          "atendidos": 37,
-          "pendentes": 19,
+          "atendidos": 43,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81319,
                   "cliente": "DATAFAST SISTEMAS LTDA ",
                   "dataCadastro": "2026-07-22",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80944,
@@ -18614,9 +18614,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 3,
-              "atendidosFora": 8,
-              "pendentes": 2,
+              "atendidosDentro": 4,
+              "atendidosFora": 9,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80745,
@@ -18679,16 +18679,16 @@
                   "cliente": "CLUBE ATLETICO INDIANO",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81157,
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81549,
@@ -18767,8 +18767,8 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 6,
+              "atendidosFora": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81503,
@@ -18815,8 +18815,8 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-07-24",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81709,
@@ -18855,8 +18855,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 1,
-              "atendidosFora": 5,
-              "pendentes": 8,
+              "atendidosFora": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81195,
@@ -18911,8 +18911,8 @@
                   "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80797,
@@ -18959,8 +18959,8 @@
                   "cliente": "VALE CONCRETO LTDA",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80787,
@@ -21109,9 +21109,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 2,
+          "abertos": 3,
           "atendidos": 0,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21140,6 +21140,22 @@
                   "cliente": "POPPY SUPERMERCADO LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Multas Diversas",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81737,
+                  "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25607,8 +25623,8 @@
         {
           "mes": "2026-06",
           "abertos": 16,
-          "atendidos": 1,
-          "pendentes": 15,
+          "atendidos": 2,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25637,8 +25653,8 @@
             {
               "nome": "Arquivo",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 9,
+              "atendidosFora": 1,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 79854,
@@ -25709,8 +25725,8 @@
                   "cliente": "TECHFEED ADITIVOS PARA NUTRICAO ANIMAL LTDA",
                   "dataCadastro": "2026-06-10",
                   "prazo": "2026-06-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -25774,9 +25790,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 168,
+          "abertos": 167,
           "atendidos": 91,
-          "pendentes": 77,
+          "pendentes": 76,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -26004,9 +26020,9 @@
             },
             {
               "nome": "Arquivo",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81522,
@@ -26021,8 +26037,8 @@
                   "cliente": "JMM CARRASCOSA SOLUÇÕES EMPRESARIAIS LTDA ",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -26692,7 +26708,7 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 2,
               "pendentes": 2,
               "chamados": [
@@ -26727,14 +26743,6 @@
                   "prazo": "2026-07-27",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 81572,
-                  "cliente": "MERCADINHO BARCELONA LTDA",
-                  "dataCadastro": "2026-07-29",
-                  "prazo": "2026-07-30",
-                  "dataEntrega": "2026-07-30",
-                  "status": "atendido_dentro"
                 }
               ]
             },
