@@ -5,6 +5,7 @@ node_modules/
 *.log
 *.sqlite
 .DS_Store
+.vscode/
 
 # Dumps brutos de cada extração (Selenium) — arquivos de trabalho transitórios,
 # não o dado publicado (esse é data/base.xlsx + data/relatorios/*.json).
