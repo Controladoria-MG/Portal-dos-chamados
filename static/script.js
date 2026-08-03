@@ -10,6 +10,7 @@ let currentDept      = null;
 let openClientRow    = null;
 let activeTab        = 'pendentes'; // 'pendentes' | 'retornados'
 let currentDeptTemDeptoAnterior = false; // dept atual tem chamados "Devolvido para Solicitante"?
+let currentClientRowsMap = {}; // IdCliente -> chamados do cliente (dept/aba atuais) — usado por applyFilters
 
 /* ─── FILTROS (CATEGORIA / RESPONSÁVEL / STATUS / VENCIMENTO) ────── */
 const FILTER_DEFS = [
@@ -623,13 +624,13 @@ function applyFilters() {
     const clientId  = tr.dataset.clientId;
     const matchText = !q || tr.textContent.toLowerCase().includes(q);
 
-    const clientRows = allData.filter(r => {
-      const dept = deptGroupName(r);
-      const id   = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
-      const ret  = String(col(r,'Retornado')).toUpperCase() === 'SIM';
-      return dept === currentDept && id === clientId &&
-             (activeTab === 'retornados' ? ret : !ret);
-    });
+    // Lookup direto no cache montado em renderDeptRows — evita refiltrar
+    // allData inteiro (todos os departamentos) a cada tecla digitada na
+    // busca. Com o RJ isso passou de ~600 para ~1800+ linhas na base, e o
+    // dept "RJ Gerencia de Contas" sozinho tem 380 clientes: refazer esse
+    // filtro por cliente ficou lento demais (centenas de milhares de
+    // iterações por tecla).
+    const clientRows = currentClientRowsMap[clientId] || [];
     // Apenas os chamados que de fato passam pelos filtros ativos — é a partir
     // deles que a célula de Prazo Vencimento da linha é recalculada abaixo,
     // para nunca exibir o prazo de um chamado que não está no resultado filtrado.
@@ -687,6 +688,9 @@ function renderDeptRows(allDeptRows) {
     c.prazoVenc = earliestPrazo(c.rows);
     c.previsao  = earliestPrevisao(c.rows);
   });
+
+  currentClientRowsMap = {};
+  Object.values(clientMap).forEach(c => { currentClientRowsMap[c.id] = c.rows; });
 
   // Restaura cabeçalho padrão
   const thead = $clientBody.closest('table').querySelector('thead tr');
