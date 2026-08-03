@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/08/2026 17:46",
+  "atualizado_em": "03/08/2026 18:14",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14812,8 +14812,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 182,
-              "atendidosFora": 102,
+              "atendidosDentro": 180,
+              "atendidosFora": 104,
               "pendentes": 0,
               "chamados": [
                 {
@@ -16245,8 +16245,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": "2026-07-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81230,
@@ -16301,8 +16301,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81253,
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 6,
-          "atendidos": 5,
-          "pendentes": 1,
+          "atendidos": 6,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81735,
@@ -17181,8 +17181,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -22728,8 +22728,8 @@
         {
           "mes": "2026-07",
           "abertos": 49,
-          "atendidos": 40,
-          "pendentes": 9,
+          "atendidos": 42,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -22926,16 +22926,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
-              "atendidosFora": 6,
-              "pendentes": 2,
+              "atendidosFora": 7,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81552,
                   "cliente": "TYKINV ADMINISTRAÇÃO E PARTICIPAÇÕES S.A",
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80729,
@@ -23006,16 +23006,16 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 4,
-              "atendidosFora": 4,
-              "pendentes": 1,
+              "atendidosFora": 5,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81580,
                   "cliente": "Junbra Investimentos e Participações Ltda",
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81069,
@@ -25713,10 +25713,26 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 1,
+          "abertos": 2,
           "atendidos": 0,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
+            {
+              "nome": "Arquivo",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81813,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Certificado",
               "atendidosDentro": 0,
@@ -25983,8 +25999,8 @@
         {
           "mes": "2026-07",
           "abertos": 169,
-          "atendidos": 88,
-          "pendentes": 81,
+          "atendidos": 89,
+          "pendentes": 80,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -26708,9 +26724,9 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81426,
@@ -26741,8 +26757,8 @@
                   "cliente": "GS MUROS LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81717,
@@ -27542,15 +27558,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 21,
+          "abertos": 22,
           "atendidos": 0,
-          "pendentes": 21,
+          "pendentes": 22,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81745,
@@ -27563,6 +27579,14 @@
                 {
                   "id": 81753,
                   "cliente": "LUIZ GOMES DA SILVA - O GOIANO ",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81811,
+                  "cliente": "PROMOTORAS GYN LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-31",
                   "dataEntrega": null,
