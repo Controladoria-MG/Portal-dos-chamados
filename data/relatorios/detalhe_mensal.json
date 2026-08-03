@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/07/2026 17:18",
+  "atualizado_em": "03/08/2026 09:38",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17123,6 +17123,30 @@
               ]
             }
           ]
+        },
+        {
+          "mes": "2026-08",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "MG Controle",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81735,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -17260,14 +17284,14 @@
         {
           "mes": "2026-07",
           "abertos": 5,
-          "atendidos": 2,
-          "pendentes": 3,
+          "atendidos": 4,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81084,
@@ -17290,8 +17314,8 @@
                   "cliente": "HERLOS EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -17313,17 +17337,17 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81725,
                   "cliente": "PIRES LOUSA ADMINISTRACAO DE BENS PROPRIOS LTDA",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -18561,8 +18585,8 @@
         {
           "mes": "2026-07",
           "abertos": 56,
-          "atendidos": 36,
-          "pendentes": 20,
+          "atendidos": 37,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -18591,8 +18615,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 3,
-              "atendidosFora": 7,
-              "pendentes": 3,
+              "atendidosFora": 8,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80745,
@@ -18695,8 +18719,8 @@
                   "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-07-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -19129,6 +19153,30 @@
                   "prazo": "2026-07-06",
                   "dataEntrega": "2026-07-13",
                   "status": "atendido_fora"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-08",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "Retificação de Obrigação Acessória",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81728,
+                  "cliente": "RN MUROS LTDA",
+                  "dataCadastro": "2026-08-02",
+                  "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -20614,8 +20662,8 @@
         {
           "mes": "2026-07",
           "abertos": 43,
-          "atendidos": 30,
-          "pendentes": 13,
+          "atendidos": 31,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -20683,9 +20731,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 10,
-              "pendentes": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81588,
@@ -20804,8 +20852,8 @@
                   "cliente": "ROCHDALE DISTRIBUIDORA DE GESSO LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-07-31",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 80948,
@@ -21054,6 +21102,46 @@
                   "prazo": "2026-07-29",
                   "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-08",
+          "abertos": 2,
+          "atendidos": 0,
+          "pendentes": 2,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81729,
+                  "cliente": "L G Coelho Representacoes ",
+                  "dataCadastro": "2026-08-02",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Balanço e DRE",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81733,
+                  "cliente": "POPPY SUPERMERCADO LTDA",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -21577,6 +21665,30 @@
                   "cliente": "ASSOCIAÇÃO PORTUGUESA DE DESPORTOS ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-08",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81727,
+                  "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA",
+                  "dataCadastro": "2026-08-02",
+                  "prazo": "2026-08-04",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25663,8 +25775,8 @@
         {
           "mes": "2026-07",
           "abertos": 168,
-          "atendidos": 89,
-          "pendentes": 79,
+          "atendidos": 91,
+          "pendentes": 77,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -25957,8 +26069,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 12,
+              "atendidosFora": 2,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 81019,
@@ -25989,8 +26101,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81217,
@@ -26300,8 +26412,8 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 3,
-              "atendidosFora": 1,
+              "atendidosDentro": 2,
+              "atendidosFora": 2,
               "pendentes": 0,
               "chamados": [
                 {
@@ -26333,8 +26445,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
-                  "dataEntrega": "2026-07-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -26484,17 +26596,17 @@
             },
             {
               "nome": "Processo de VISA",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81601,
                   "cliente": "BEST SALAD HORTI FRUTI LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81603,
@@ -27197,6 +27309,78 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-08",
+          "abertos": 4,
+          "atendidos": 0,
+          "pendentes": 4,
+          "categorias": [
+            {
+              "nome": "Alteração Contratual",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81730,
+                  "cliente": "DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS 3 BBB LTDA  (MATRIZ)",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Encerramento de Empresa",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81731,
+                  "cliente": "E E F SERVICOS ADMINISTRATIVOS LTDA ",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Envio de Proposta",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81734,
+                  "cliente": "NOHKER COMERCIO E REPRESENTACAO DE PRODUTOS PARA HIGIENE, LIMPEZA E COSMETICOS LTDA",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Senha",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81736,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }

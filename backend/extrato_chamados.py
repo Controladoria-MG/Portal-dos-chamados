@@ -92,7 +92,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 # ============================================================
 
 USUARIO  = "rjuan"
-SENHA    = "Palmeiras!"
+SENHA    = "Palmeiras12"
 
 PASTA_DOWNLOAD    = r"C:\Users\gamaral\Desktop\Python\Portal-dos-chamados\data\Att Base"
 ARQUIVO_PROTEGIDO = "Relatório Colaboradores Ativos_07_07_2026, 17_41_11.xlsx"
