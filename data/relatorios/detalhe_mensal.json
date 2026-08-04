@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/08/2026 15:27",
+  "atualizado_em": "04/08/2026 16:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 15,
-          "atendidos": 6,
-          "pendentes": 9,
+          "abertos": 19,
+          "atendidos": 12,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 6,
+              "atendidosDentro": 12,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 81735,
@@ -17189,8 +17189,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81835,
@@ -17205,32 +17205,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81840,
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81851,
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81852,
                   "cliente": "HFARIAS NEGOCIOS E PARTICIPACOES LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81853,
@@ -17245,14 +17245,46 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81856,
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81862,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81863,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81865,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81867,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -20790,8 +20822,8 @@
         {
           "mes": "2026-07",
           "abertos": 42,
-          "atendidos": 37,
-          "pendentes": 5,
+          "atendidos": 38,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -21148,16 +21180,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81222,
                   "cliente": "DISTRIBUIDORA DE ALIMENTOS JAPÃO LTDA ",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81472,
@@ -23271,9 +23303,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 2,
+          "abertos": 5,
           "atendidos": 1,
-          "pendentes": 1,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
@@ -23292,16 +23324,56 @@
               ]
             },
             {
-              "nome": "Saldo Credor Incorreto",
+              "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 0,
               "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81857,
+                  "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Retificação de Obrigação Acessória",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81858,
+                  "cliente": "I9 SOLUCOES ELETRICAS LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Saldo Credor Incorreto",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81782,
                   "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81864,
+                  "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27622,9 +27694,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 27,
-          "atendidos": 3,
-          "pendentes": 24,
+          "abertos": 31,
+          "atendidos": 4,
+          "pendentes": 27,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -27723,6 +27795,22 @@
               ]
             },
             {
+              "nome": "Arquivo",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81861,
+                  "cliente": "SETE DE SETEMBRO SUPERMERCADO LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Encerramento de Empresa",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -27782,11 +27870,19 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81855,
                   "cliente": "ALUSTOCK COMERCIO DE VIDROS E ESQUADRIAS DE ALUMINIO LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81866,
+                  "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
                   "dataEntrega": null,
@@ -27835,6 +27931,22 @@
               ]
             },
             {
+              "nome": "Procuração",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81859,
+                  "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Regularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -27852,17 +27964,17 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81836,
                   "cliente": "MONTE CARLO LAB SERVICOS ADMINISTRATIVOS E COMERCIO LTDA ",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -27870,7 +27982,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81736,
@@ -27919,6 +28031,14 @@
                   "prazo": "2026-08-06",
                   "dataEntrega": "2026-08-04",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81860,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
