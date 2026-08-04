@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/08/2026 16:59",
+  "atualizado_em": "04/08/2026 17:29",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 19,
+          "abertos": 21,
           "atendidos": 12,
-          "pendentes": 7,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 12,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 81735,
@@ -17282,6 +17282,22 @@
                 },
                 {
                   "id": 81867,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81868,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81869,
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
@@ -23304,8 +23320,8 @@
         {
           "mes": "2026-08",
           "abertos": 5,
-          "atendidos": 1,
-          "pendentes": 4,
+          "atendidos": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
@@ -23341,17 +23357,17 @@
             },
             {
               "nome": "Retificação de Obrigação Acessória",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81858,
                   "cliente": "I9 SOLUCOES ELETRICAS LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -24628,9 +24644,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 4,
+          "abertos": 5,
           "atendidos": 0,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Omissão de Obrigações Acessórias",
@@ -24659,6 +24675,22 @@
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81870,
+                  "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27694,9 +27726,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 31,
+          "abertos": 32,
           "atendidos": 4,
-          "pendentes": 27,
+          "pendentes": 28,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -27982,7 +28014,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 81736,
@@ -28037,6 +28069,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81871,
+                  "cliente": "A P SOARES DA SILVA MERCADO E PADARIA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
