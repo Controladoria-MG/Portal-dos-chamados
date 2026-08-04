@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/08/2026 11:52",
+  "atualizado_em": "04/08/2026 13:14",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 6,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81735,
@@ -17202,6 +17202,14 @@
                 },
                 {
                   "id": 81837,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81840,
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
@@ -18702,8 +18710,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 4,
-              "atendidosFora": 9,
+              "atendidosDentro": 3,
+              "atendidosFora": 10,
               "pendentes": 0,
               "chamados": [
                 {
@@ -18767,8 +18775,8 @@
                   "cliente": "CLUBE ATLETICO INDIANO",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
-                  "dataEntrega": "2026-08-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81157,
@@ -21173,9 +21181,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 5,
+          "abertos": 4,
           "atendidos": 3,
-          "pendentes": 2,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21197,16 +21205,8 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
-                {
-                  "id": 81741,
-                  "cliente": "SAMPATACADO DE GÊNEROS ALIMENTÍCIOS E BEBIDAS LTDA (FILIAL 02)",
-                  "dataCadastro": "2026-08-03",
-                  "prazo": "2026-08-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 81733,
                   "cliente": "POPPY SUPERMERCADO LTDA",
@@ -22144,8 +22144,8 @@
         {
           "mes": "2026-06",
           "abertos": 58,
-          "atendidos": 53,
-          "pendentes": 5,
+          "atendidos": 54,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -22254,8 +22254,8 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 3,
+              "atendidosFora": 5,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80074,
@@ -22294,8 +22294,8 @@
                   "cliente": "KINGS TRANSPORTES E LOGISTICA LTDA",
                   "dataCadastro": "2026-06-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80138,
@@ -24252,9 +24252,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 25,
+          "abertos": 24,
           "atendidos": 12,
-          "pendentes": 13,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24276,7 +24276,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80985,
@@ -24285,14 +24285,6 @@
                   "prazo": "2026-07-15",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 81702,
-                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (MATRIZ)",
-                  "dataCadastro": "2026-07-31",
-                  "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 81706,
@@ -25489,9 +25481,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 7,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -25569,8 +25561,16 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 81702,
+                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (MATRIZ)",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80685,
                   "cliente": "DALMEC SISTEMAS DE PONTO E ACESSO LTDA",
@@ -25729,9 +25729,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 2,
+          "abertos": 3,
           "atendidos": 0,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Arquivo",
@@ -25753,13 +25753,21 @@
               "nome": "Certificado",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81762,
                   "cliente": "SBB Servicos Administrativos LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81841,
+                  "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27575,8 +27583,8 @@
         {
           "mes": "2026-08",
           "abertos": 25,
-          "atendidos": 0,
-          "pendentes": 25,
+          "atendidos": 1,
+          "pendentes": 24,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -27700,17 +27708,17 @@
             },
             {
               "nome": "Envio de Proposta",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81734,
                   "cliente": "NOHKER COMERCIO E REPRESENTACAO DE PRODUTOS PARA HIGIENE, LIMPEZA E COSMETICOS LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 }
               ]
             },
