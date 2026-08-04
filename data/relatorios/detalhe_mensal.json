@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/08/2026 17:29",
+  "atualizado_em": "04/08/2026 18:11",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 21,
+          "abertos": 22,
           "atendidos": 12,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 12,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 81735,
@@ -17233,14 +17233,6 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 81853,
-                  "cliente": "MEU MORETE SUPERMERCADOS LTDA",
-                  "dataCadastro": "2026-08-04",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81854,
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
@@ -17301,6 +17293,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81873,
+                  "cliente": "CONCEITO ESTRUTURA LOCADORA LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81874,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -19336,9 +19344,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 2,
+          "abertos": 3,
           "atendidos": 0,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -19351,6 +19359,22 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Pesquisa IBGE",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81872,
+                  "cliente": "TSN TECHNICAL SERVICE NETWORK LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -21270,8 +21294,8 @@
         {
           "mes": "2026-08",
           "abertos": 4,
-          "atendidos": 3,
-          "pendentes": 1,
+          "atendidos": 2,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21291,17 +21315,17 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81733,
                   "cliente": "POPPY SUPERMERCADO LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
-                  "dataEntrega": "2026-08-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -23320,8 +23344,8 @@
         {
           "mes": "2026-08",
           "abertos": 5,
-          "atendidos": 2,
-          "pendentes": 3,
+          "atendidos": 4,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
@@ -23341,17 +23365,17 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81857,
                   "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -23373,9 +23397,9 @@
             },
             {
               "nome": "Saldo Credor Incorreto",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81782,
@@ -23390,8 +23414,8 @@
                   "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 }
               ]
             }
