@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/08/2026 13:14",
+  "atualizado_em": "04/08/2026 15:27",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -6517,7 +6517,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-03-12",
                   "prazo": "2026-03-16",
-                  "dataEntrega": "2026-06-05",
+                  "dataEntrega": "2026-08-04",
                   "status": "atendido_fora"
                 },
                 {
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 10,
+          "abertos": 15,
           "atendidos": 6,
-          "pendentes": 4,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 81735,
@@ -17210,6 +17210,46 @@
                 },
                 {
                   "id": 81840,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81851,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81852,
+                  "cliente": "HFARIAS NEGOCIOS E PARTICIPACOES LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81853,
+                  "cliente": "MEU MORETE SUPERMERCADOS LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81854,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81856,
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
@@ -24252,9 +24292,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 24,
+          "abertos": 23,
           "atendidos": 12,
-          "pendentes": 12,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24276,7 +24316,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 80985,
@@ -24285,14 +24325,6 @@
                   "prazo": "2026-07-15",
                   "dataEntrega": "2026-07-27",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 81706,
-                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-07-31",
-                  "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 80796,
@@ -25481,9 +25513,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 7,
-          "pendentes": 17,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -25561,13 +25593,21 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81702,
                   "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81706,
+                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -27582,8 +27622,8 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 25,
-          "atendidos": 1,
+          "abertos": 27,
+          "atendidos": 3,
           "pendentes": 24,
           "categorias": [
             {
@@ -27723,6 +27763,38 @@
               ]
             },
             {
+              "nome": "Parcelamento PGFN",
+              "atendidosDentro": 1,
+              "atendidosFora": 0,
+              "pendentes": 0,
+              "chamados": [
+                {
+                  "id": 81845,
+                  "cliente": "MERCH LINK LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Parcelamento RFB",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81855,
+                  "cliente": "ALUSTOCK COMERCIO DE VIDROS E ESQUADRIAS DE ALUMINIO LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Processo de VISA",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -27796,9 +27868,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81736,
@@ -27845,8 +27917,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -28987,15 +29059,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 4,
+          "abertos": 5,
           "atendidos": 0,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81769,
@@ -29026,6 +29098,14 @@
                   "cliente": "SPJ MATERIAIS DE CONSTRUCAO LTDA ",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81846,
+                  "cliente": "LIFE SAFETY COMERCIO E SERVICOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -30141,15 +30221,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 1,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 81785,
@@ -30204,6 +30284,14 @@
                   "cliente": "SPJ MATERIAIS DE CONSTRUCAO LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81850,
+                  "cliente": "ATMS COMÉRCIO, SERVIÇOS E REPRESENTAÇÕES LTDA.",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -39954,9 +40042,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 38,
+          "abertos": 41,
           "atendidos": 0,
-          "pendentes": 38,
+          "pendentes": 41,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -40002,7 +40090,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 34,
+              "pendentes": 37,
               "chamados": [
                 {
                   "id": 81764,
@@ -40271,6 +40359,30 @@
                 {
                   "id": 81833,
                   "cliente": "GODINHO SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81847,
+                  "cliente": "LIFE SAFETY COMERCIO E SERVICOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81848,
+                  "cliente": "LIFE SAFETY COMERCIO E SERVICOS LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81849,
+                  "cliente": "ATMS COMÉRCIO, SERVIÇOS E REPRESENTAÇÕES LTDA.",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
                   "dataEntrega": null,
