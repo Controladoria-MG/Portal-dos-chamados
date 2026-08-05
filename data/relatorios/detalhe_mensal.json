@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "05/08/2026 11:00",
+  "atualizado_em": "05/08/2026 12:00",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 32,
-          "atendidos": 24,
-          "pendentes": 8,
+          "abertos": 34,
+          "atendidos": 28,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 24,
+              "atendidosDentro": 28,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81735,
@@ -17197,8 +17197,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81837,
@@ -17389,8 +17389,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81902,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81903,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -19441,8 +19457,8 @@
         {
           "mes": "2026-08",
           "abertos": 6,
-          "atendidos": 0,
-          "pendentes": 6,
+          "atendidos": 1,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -19494,17 +19510,17 @@
             },
             {
               "nome": "Pesquisa IBGE",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81872,
                   "cliente": "TSN TECHNICAL SERVICE NETWORK LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -22400,8 +22416,8 @@
         {
           "mes": "2026-06",
           "abertos": 58,
-          "atendidos": 54,
-          "pendentes": 4,
+          "atendidos": 55,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -22478,8 +22494,8 @@
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80137,
@@ -22494,8 +22510,8 @@
                   "cliente": "VALE CONCRETO LTDA",
                   "dataCadastro": "2026-06-30",
                   "prazo": "2026-07-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80509,
@@ -23488,8 +23504,8 @@
         {
           "mes": "2026-08",
           "abertos": 6,
-          "atendidos": 4,
-          "pendentes": 2,
+          "atendidos": 5,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
@@ -23541,9 +23557,9 @@
             },
             {
               "nome": "Saldo Credor Incorreto",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81782,
@@ -23566,8 +23582,8 @@
                   "cliente": "HEAD INFORMATICA MULTIMARCAS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -25810,8 +25826,8 @@
         {
           "mes": "2026-07",
           "abertos": 25,
-          "atendidos": 6,
-          "pendentes": 19,
+          "atendidos": 7,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -25920,16 +25936,16 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 6,
+              "atendidosFora": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80965,
                   "cliente": "CASA SANTA GEMMA SUPERMERCADOS LTDA",
                   "dataCadastro": "2026-07-13",
                   "prazo": "2026-07-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81061,
@@ -26065,9 +26081,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 7,
+          "abertos": 8,
           "atendidos": 0,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Arquivo",
@@ -26089,7 +26105,7 @@
               "nome": "Certificado",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81762,
@@ -26126,6 +26142,14 @@
                 {
                   "id": 81898,
                   "cliente": "DR Transportadora LTDA",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81907,
+                  "cliente": "MERCADINHO NIPPO LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
                   "dataEntrega": null,
@@ -26399,8 +26423,8 @@
         {
           "mes": "2026-07",
           "abertos": 169,
-          "atendidos": 89,
-          "pendentes": 80,
+          "atendidos": 90,
+          "pendentes": 79,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -26909,16 +26933,16 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 6,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81270,
                   "cliente": "GRAFICA TABOAO LTDA",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81343,
@@ -27958,9 +27982,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 35,
+          "abertos": 38,
           "atendidos": 5,
-          "pendentes": 30,
+          "pendentes": 33,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28062,13 +28086,53 @@
               "nome": "Arquivo",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81861,
                   "cliente": "SETE DE SETEMBRO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81901,
+                  "cliente": "Herael Participações Ltda.",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Cadastro de Cliente",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81905,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Certidão",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81904,
+                  "cliente": "DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS GATÃO LTDA",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
