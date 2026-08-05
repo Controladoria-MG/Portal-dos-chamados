@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "05/08/2026 10:00",
+  "atualizado_em": "05/08/2026 11:00",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 31,
-          "atendidos": 20,
-          "pendentes": 11,
+          "abertos": 32,
+          "atendidos": 24,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 20,
+              "atendidosDentro": 24,
               "atendidosFora": 0,
-              "pendentes": 11,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 81735,
@@ -17357,30 +17357,38 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81886,
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81887,
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81890,
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-10",
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81899,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -21413,9 +21421,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 5,
+          "abertos": 6,
           "atendidos": 2,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21437,8 +21445,16 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 81896,
+                  "cliente": "N. S. LAR SUPERMERCADO LTDA",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81889,
                   "cliente": "VARANDA FRUTAS E MERCEARIA LTDA ",
@@ -22976,8 +22992,8 @@
         {
           "mes": "2026-07",
           "abertos": 49,
-          "atendidos": 42,
-          "pendentes": 7,
+          "atendidos": 43,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -23334,8 +23350,8 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 2,
+              "atendidosFora": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81703,
@@ -23350,8 +23366,8 @@
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81036,
@@ -24541,8 +24557,8 @@
         {
           "mes": "2026-07",
           "abertos": 23,
-          "atendidos": 12,
-          "pendentes": 11,
+          "atendidos": 13,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24691,8 +24707,8 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81190,
@@ -24723,8 +24739,8 @@
                   "cliente": "H E F COMERCIO DE OPORTUNIDADES LTDA",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -24804,23 +24820,39 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 5,
-          "atendidos": 1,
+          "abertos": 6,
+          "atendidos": 2,
           "pendentes": 4,
           "categorias": [
             {
-              "nome": "Omissão de Obrigações Acessórias",
+              "nome": "MG Controle",
               "atendidosDentro": 0,
               "atendidosFora": 0,
               "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81894,
+                  "cliente": "DISTRIBUIDORA DE ALIMENTOS JAPÃO LTDA ",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Omissão de Obrigações Acessórias",
+              "atendidosDentro": 1,
+              "atendidosFora": 0,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81783,
                   "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -26033,9 +26065,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 5,
+          "abertos": 7,
           "atendidos": 0,
-          "pendentes": 5,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Arquivo",
@@ -26057,7 +26089,7 @@
               "nome": "Certificado",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81762,
@@ -26078,6 +26110,22 @@
                 {
                   "id": 81891,
                   "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81895,
+                  "cliente": "QUINTAL DA FAMILIA HORTIFRUTI LTDA",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81898,
+                  "cliente": "DR Transportadora LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
                   "dataEntrega": null,
@@ -27910,9 +27958,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 34,
+          "abertos": 35,
           "atendidos": 5,
-          "pendentes": 29,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28215,6 +28263,22 @@
                   "prazo": "2026-08-05",
                   "dataEntrega": "2026-08-04",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Restituição",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81900,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
