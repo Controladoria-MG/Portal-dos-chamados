@@ -669,8 +669,24 @@ function renderDeptRows(allDeptRows) {
   if ($deptCount) $deptCount.textContent = `${rows.length} registro${rows.length !== 1 ? 's' : ''}`;
 
   // Ambas as abas: agrupado por cliente com detalhamento expansível
+  const clients = agruparPorCliente(rows);
+
+  currentClientRowsMap = {};
+  clients.forEach(c => { currentClientRowsMap[c.id] = c.rows; });
+
+  // Restaura cabeçalho padrão
+  const thead = $clientBody.closest('table').querySelector('thead tr');
+  thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th class="date-cell">Data Cadastro</th><th class="previsao-cell">Previsão Atend.</th><th class="prazo-cell">Prazo Vencimento</th>';
+
+  renderClientTable(clients);
+}
+
+/* Agrupa chamados por cliente (Prazo/Previsão da linha = o mais urgente
+   entre todos os chamados do cliente). Usado pela tabela principal e
+   pelos prints de cobrança. */
+function agruparPorCliente(tickets) {
   const clientMap = {};
-  for (const r of rows) {
+  for (const r of tickets) {
     const id = String(col(r,'IdCliente','Id Cliente','ID Cliente','id_cliente')||'').trim();
     if (!clientMap[id]) {
       clientMap[id] = {
@@ -682,21 +698,11 @@ function renderDeptRows(allDeptRows) {
     }
     clientMap[id].rows.push(r);
   }
-  // Prazo Vencimento exibido na linha do cliente = o mais urgente entre
-  // todos os chamados dele (não apenas o primeiro encontrado nos dados).
   Object.values(clientMap).forEach(c => {
     c.prazoVenc = earliestPrazo(c.rows);
     c.previsao  = earliestPrevisao(c.rows);
   });
-
-  currentClientRowsMap = {};
-  Object.values(clientMap).forEach(c => { currentClientRowsMap[c.id] = c.rows; });
-
-  // Restaura cabeçalho padrão
-  const thead = $clientBody.closest('table').querySelector('thead tr');
-  thead.innerHTML = '<th>ID Cliente</th><th>Cliente</th><th class="date-cell">Data Cadastro</th><th class="previsao-cell">Previsão Atend.</th><th class="prazo-cell">Prazo Vencimento</th>';
-
-  const clients = Object.values(clientMap).sort((a, b) => {
+  return Object.values(clientMap).sort((a, b) => {
     const da = parsePrazoDate(a.prazoVenc);
     const db = parsePrazoDate(b.prazoVenc);
     if (!da && !db) return 0;
@@ -704,8 +710,6 @@ function renderDeptRows(allDeptRows) {
     if (!db) return -1;
     return da - db;
   });
-
-  renderClientTable(clients);
 }
 
 /* ─── RENDER CLIENT TABLE ────────────────────────────────────────── */
@@ -1350,13 +1354,12 @@ function buildHBarChart(container, itens) {
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   COBRANÇA DE CHAMADOS — print do placar/tabela do departamento +
-   texto pedindo conclusão dos chamados de hoje e preenchimento das
-   previsões em aberto. Números do texto vêm de currentVisibleTickets,
+   COBRANÇA DE CHAMADOS — um print por tópico (vencidos / vencendo hoje /
+   sem previsão), cada um com sua própria tabela de clientes, + texto
+   pedindo conclusão/preenchimento. Números vêm de currentVisibleTickets,
    os mesmos chamados que estão na tela no momento do clique (respeita
    filtros/busca/aba ativos).
 ═══════════════════════════════════════════════════════════════════ */
-let cobrancaBlobAtual = null;
 
 function chamadosVencendoHoje(tickets) {
   const today = new Date(); today.setHours(0, 0, 0, 0);
@@ -1390,10 +1393,60 @@ function gerarTextoCobranca(dept, tickets) {
     + `Agradeço a atenção!`;
 }
 
+/* Um print por tópico (vencidos / vencendo hoje / sem previsão), cada um
+   com sua própria tabela de clientes — em vez de um print único com a
+   tabela inteira do departamento. */
+const COBRANCA_TOPICOS = [
+  { key: 'vencidos',     titulo: 'Chamados vencidos',                    filtro: chamadosVencidos },
+  { key: 'vencendoHoje', titulo: 'Chamados vencendo hoje',                filtro: chamadosVencendoHoje },
+  { key: 'semPrevisao',  titulo: 'Chamados sem previsão de atendimento',  filtro: chamadosSemPrevisao },
+];
+
+function tabelaClientesHtml(clients) {
+  const linhas = clients.length
+    ? clients.map((c, i) => `
+        <tr class="${i % 2 === 1 ? 'row-even' : ''}">
+          <td class="id-cell">${escHtml(c.id)||'—'}</td>
+          <td class="name-cell">${escHtml(String(c.name))}</td>
+          <td class="date-cell">${fmt(c.dataCad)}</td>
+          <td class="date-cell previsao-cell">${fmt(c.previsao)}</td>
+          <td class="prazo-cell">${fmtPrazo(c.prazoVenc)}</td>
+        </tr>`).join('')
+    : `<tr><td colspan="5" class="empty">Nenhum registro encontrado.</td></tr>`;
+
+  return `
+    <div class="table-wrap">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>ID Cliente</th>
+              <th>Cliente</th>
+              <th class="date-cell">Data Cadastro</th>
+              <th class="previsao-cell">Previsão Atend.</th>
+              <th class="prazo-cell">Prazo Vencimento</th>
+            </tr>
+          </thead>
+          <tbody>${linhas}</tbody>
+        </table>
+      </div>
+    </div>`;
+}
+
+function blocoCobrancaHtml(titulo, tickets) {
+  return `
+    <div class="categoria-group-title">
+      ${escHtml(titulo)}
+      <span class="categoria-group-count">${tickets.length} chamado${tickets.length !== 1 ? 's' : ''}</span>
+    </div>
+    ${tabelaClientesHtml(agruparPorCliente(tickets))}`;
+}
+
+let cobrancaBlobs = {};
+
 async function abrirCobranca() {
-  const area = document.getElementById('cobranca-capture-area');
-  const btn  = document.getElementById('btn-cobranca');
-  if (!area || typeof html2canvas === 'undefined' || !btn) return;
+  const btn = document.getElementById('btn-cobranca');
+  if (typeof html2canvas === 'undefined' || !btn) return;
 
   const originalLabel = btn.textContent;
   btn.disabled = true;
@@ -1401,17 +1454,25 @@ async function abrirCobranca() {
 
   try {
     const bg = getComputedStyle(document.body).getPropertyValue('--bg-deep').trim() || '#ffffff';
-    const canvas = await html2canvas(area, { backgroundColor: bg, scale: 2 });
-    const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
-    cobrancaBlobAtual = blob;
+    cobrancaBlobs = {};
+
+    for (const { key, titulo, filtro } of COBRANCA_TOPICOS) {
+      const el = document.createElement('div');
+      el.className = 'cobranca-capture-block';
+      el.innerHTML = blocoCobrancaHtml(titulo, filtro(currentVisibleTickets));
+      document.body.appendChild(el);
+      const canvas = await html2canvas(el, { backgroundColor: bg, scale: 2 });
+      cobrancaBlobs[key] = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+      el.remove();
+    }
 
     document.getElementById('cobranca-texto').value = gerarTextoCobranca(currentDept, currentVisibleTickets);
-    document.getElementById('cobranca-preview-img').src = URL.createObjectURL(blob);
-    document.getElementById('cobranca-img-status').textContent   = '';
+    COBRANCA_TOPICOS.forEach(({ key }) => {
+      document.getElementById(`cobranca-preview-img-${key}`).src = URL.createObjectURL(cobrancaBlobs[key]);
+    });
+    document.querySelectorAll('.cobranca-status[data-status]').forEach(s => s.textContent = '');
     document.getElementById('cobranca-texto-status').textContent = '';
     document.getElementById('cobranca-modal').style.display = 'flex';
-
-    await copiarImagemCobranca();
   } catch (e) {
     alert('Não foi possível gerar o print da cobrança: ' + e.message);
   } finally {
@@ -1420,14 +1481,14 @@ async function abrirCobranca() {
   }
 }
 
-async function copiarImagemCobranca() {
-  const status = document.getElementById('cobranca-img-status');
-  if (!cobrancaBlobAtual) return;
+async function copiarImagemCobranca(key) {
+  const status = document.querySelector(`.cobranca-status[data-status="${key}"]`);
+  if (!cobrancaBlobs[key]) return;
   try {
-    await navigator.clipboard.write([new ClipboardItem({ 'image/png': cobrancaBlobAtual })]);
-    status.textContent = 'Imagem copiada! Já pode colar (Ctrl+V).';
+    await navigator.clipboard.write([new ClipboardItem({ 'image/png': cobrancaBlobs[key] })]);
+    if (status) status.textContent = 'Imagem copiada! Já pode colar (Ctrl+V).';
   } catch (e) {
-    status.textContent = 'Não copiou automaticamente — clique em "Copiar Imagem".';
+    if (status) status.textContent = 'Não foi possível copiar automaticamente.';
   }
 }
 
@@ -1447,7 +1508,9 @@ function fecharCobranca() {
 }
 
 document.getElementById('btn-cobranca')?.addEventListener('click', abrirCobranca);
-document.getElementById('btn-copiar-imagem')?.addEventListener('click', copiarImagemCobranca);
+document.querySelectorAll('.btn-copiar-imagem').forEach(b => {
+  b.addEventListener('click', () => copiarImagemCobranca(b.dataset.topic));
+});
 document.getElementById('btn-copiar-texto')?.addEventListener('click', copiarTextoCobranca);
 document.getElementById('cobranca-modal-close')?.addEventListener('click', fecharCobranca);
 document.getElementById('cobranca-modal')?.addEventListener('click', (e) => {

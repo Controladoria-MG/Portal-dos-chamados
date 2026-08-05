@@ -664,11 +664,30 @@ tr.rel-total-row td:not(:first-child) {
 }
 .modal-close:hover { color: var(--secondary); }
 
+.cobranca-preview-group {
+  display: flex; flex-direction: column; gap: 1.1rem; margin-bottom: 1.2rem;
+}
+.cobranca-preview-item-title {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.4rem;
+}
 .cobranca-preview {
   border: 1px solid var(--border); border-radius: var(--radius);
-  overflow: hidden; margin-bottom: 0.8rem; background: var(--bg-deep);
+  overflow: hidden; margin-bottom: 0.6rem; background: var(--bg-deep);
 }
 .cobranca-preview img { display: block; width: 100%; height: auto; }
+
+/* Bloco renderizado fora da tela só para virar screenshot (html2canvas) —
+   uma cópia isolada do tópico, fora do fluxo visível da página.
+   Largura generosa o bastante para as 5 colunas da tabela sem precisar de
+   scroll horizontal — com overflow-x:auto (usado na tela normal) o
+   html2canvas só captura a parte visível e corta a coluna Prazo Vencimento. */
+.cobranca-capture-block {
+  position: fixed; top: 0; left: -9999px;
+  width: 780px; background: var(--bg-deep); padding: 1.1rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.cobranca-capture-block .table-scroll { overflow: visible; }
 
 .cobranca-actions-row {
   display: flex; align-items: center; gap: 0.8rem;

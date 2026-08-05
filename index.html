@@ -83,7 +83,7 @@
         <button id="btn-cobranca" class="btn-cobranca">📢 Gerar Cobrança</button>
       </div>
 
-      <div id="cobranca-capture-area">
+      <div>
 
         <!-- Placar Total / Vencidos / Não Vencidos -->
         <div class="ticket-stats-row" id="ticket-stats-row">
@@ -132,7 +132,7 @@
           </div>
         </div>
 
-      </div><!-- /cobranca-capture-area -->
+      </div>
 
     </div><!-- /view-dept -->
 
@@ -235,12 +235,37 @@
       <button class="modal-close" id="cobranca-modal-close" type="button">✕</button>
       <h2 class="modal-title">Cobrança de Chamados</h2>
 
-      <div class="cobranca-preview">
-        <img id="cobranca-preview-img" alt="Print do placar de chamados em aberto" />
-      </div>
-      <div class="cobranca-actions-row">
-        <button id="btn-copiar-imagem" class="btn-modal-action" type="button">📋 Copiar Imagem</button>
-        <span id="cobranca-img-status" class="cobranca-status"></span>
+      <div class="cobranca-preview-group">
+        <div class="cobranca-preview-item">
+          <div class="cobranca-preview-item-title">Chamados vencidos</div>
+          <div class="cobranca-preview">
+            <img id="cobranca-preview-img-vencidos" alt="Print dos chamados vencidos" />
+          </div>
+          <div class="cobranca-actions-row">
+            <button class="btn-modal-action btn-copiar-imagem" data-topic="vencidos" type="button">📋 Copiar Imagem</button>
+            <span class="cobranca-status" data-status="vencidos"></span>
+          </div>
+        </div>
+        <div class="cobranca-preview-item">
+          <div class="cobranca-preview-item-title">Chamados vencendo hoje</div>
+          <div class="cobranca-preview">
+            <img id="cobranca-preview-img-vencendoHoje" alt="Print dos chamados vencendo hoje" />
+          </div>
+          <div class="cobranca-actions-row">
+            <button class="btn-modal-action btn-copiar-imagem" data-topic="vencendoHoje" type="button">📋 Copiar Imagem</button>
+            <span class="cobranca-status" data-status="vencendoHoje"></span>
+          </div>
+        </div>
+        <div class="cobranca-preview-item">
+          <div class="cobranca-preview-item-title">Chamados sem previsão de atendimento</div>
+          <div class="cobranca-preview">
+            <img id="cobranca-preview-img-semPrevisao" alt="Print dos chamados sem previsão de atendimento" />
+          </div>
+          <div class="cobranca-actions-row">
+            <button class="btn-modal-action btn-copiar-imagem" data-topic="semPrevisao" type="button">📋 Copiar Imagem</button>
+            <span class="cobranca-status" data-status="semPrevisao"></span>
+          </div>
+        </div>
       </div>
 
       <label class="cobranca-text-label" for="cobranca-texto">Texto de cobrança</label>
