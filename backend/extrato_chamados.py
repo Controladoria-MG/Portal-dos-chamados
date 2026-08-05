@@ -100,7 +100,8 @@ REPO_DIR          = r"C:\Users\gamaral\Desktop\Python\Portal-dos-chamados"
 
 TIMEOUT    = 40
 URL_LOGIN  = "https://aplicativo.mgcontecnica.com.br/#/login"
-DATA_INICIO = "01/01/2026"
+DATA_INICIO           = "01/01/2026"
+DATA_INICIO_SANTOS_RJ = "03/06/2026"  # Santos e RJ só passaram a usar o sistema a partir dessa data
 
 TIPOS_EXTRACAO = {
     "1": {
@@ -1106,8 +1107,10 @@ def executar(auto=False):
         opcao, label_extracao, departamentos = perguntar_extracao()
         headless = perguntar_modo()
 
-    data_inicio = DATA_INICIO
-    data_fim    = hoje_str()
+    data_fim = hoje_str()
+
+    def data_inicio_para(lbl: str) -> str:
+        return DATA_INICIO_SANTOS_RJ if ("Santos" in lbl or "RJ" in lbl) else DATA_INICIO
 
     if opcao == OPCAO_TODAS:
         extracoes = [(v["label"], v["departamentos"]) for v in TIPOS_EXTRACAO.values()]
@@ -1126,8 +1129,8 @@ def executar(auto=False):
             f"Departamentos: [bold cyan]{len(departamentos)}[/bold cyan][/dim]"
         )
     console.print(
-        f"  [dim]Período: [bold cyan]{data_inicio}[/bold cyan] → "
-        f"[bold cyan]{data_fim}[/bold cyan][/dim]"
+        f"  [dim]Período (SP/Geral): [bold cyan]{DATA_INICIO}[/bold cyan] → [bold cyan]{data_fim}[/bold cyan] | "
+        f"Período (Santos/RJ): [bold cyan]{DATA_INICIO_SANTOS_RJ}[/bold cyan] → [bold cyan]{data_fim}[/bold cyan][/dim]"
     )
     console.print()
     console.rule("[bold cyan]Executando[/bold cyan]")
@@ -1156,26 +1159,48 @@ def executar(auto=False):
 
             deptos_anteriores = 0
             for i, (lbl, deptos) in enumerate(extracoes):
-                if i > 0:
-                    limpar_departamentos(driver, deptos_anteriores, progress, task)
+                # Cada extração roda isolada: se uma falhar (timeout, elemento
+                # não encontrado, etc.), registra o erro e segue para a
+                # próxima em vez de abortar o restante da sequência. Antes,
+                # uma exceção aqui subia até o try/except externo e cancelava
+                # todas as extrações seguintes — foi o que deixou Santos/RJ
+                # (sempre as últimas da lista) paradas sem atualizar por
+                # semanas enquanto Geral/GC/Controladoria/Paralegal
+                # continuavam normalmente.
+                try:
+                    if i > 0:
+                        limpar_departamentos(driver, deptos_anteriores, progress, task)
 
-                progress.update(task,
-                                description=f"[cyan]Extração {i+1}/{len(extracoes)}: {lbl}...")
+                    progress.update(task,
+                                    description=f"[cyan]Extração {i+1}/{len(extracoes)}: {lbl}...")
 
-                selecionar_departamentos(driver, deptos, progress, task)
-                preencher_datas(driver, data_inicio, data_fim, progress, task)
-                marcar_encerrados(driver, progress, task)
+                    selecionar_departamentos(driver, deptos, progress, task)
+                    preencher_datas(driver, data_inicio_para(lbl), data_fim, progress, task)
+                    marcar_encerrados(driver, progress, task)
 
-                arquivo_bruto = gerar_relatorio(driver, PASTA_DOWNLOAD, progress, task)
+                    arquivo_bruto = gerar_relatorio(driver, PASTA_DOWNLOAD, progress, task)
 
-                if arquivo_bruto:
-                    progress.update(task, description="[cyan]Renomeando arquivo...")
-                    _, novo_nome = renomear_arquivo(arquivo_bruto, PASTA_DOWNLOAD, label=lbl)
-                    arquivos_gerados.append((lbl, novo_nome))
-                else:
+                    if arquivo_bruto:
+                        progress.update(task, description="[cyan]Renomeando arquivo...")
+                        _, novo_nome = renomear_arquivo(arquivo_bruto, PASTA_DOWNLOAD, label=lbl)
+                        arquivos_gerados.append((lbl, novo_nome))
+                    else:
+                        arquivos_gerados.append((lbl, None))
+
+                except Exception as erro_extracao:
+                    progress.stop()
+                    console.print()
+                    console.print(Panel(
+                        f"[red]{erro_extracao}[/red]",
+                        title=f"[red]Falha na extração — {lbl}[/red]",
+                        border_style="red",
+                    ))
+                    console.print_exception()
+                    progress.start()
                     arquivos_gerados.append((lbl, None))
 
-                deptos_anteriores = len(deptos)
+                finally:
+                    deptos_anteriores = len(deptos)
 
         except Exception as erro:
             progress.stop()
@@ -1204,8 +1229,9 @@ def executar(auto=False):
         info = Table(box=box.ROUNDED, border_style="dim", show_header=False, padding=(0, 2))
         info.add_column("Label", style="dim",       width=20)
         info.add_column("Valor", style="bold white")
-        info.add_row("Data início", data_inicio)
-        info.add_row("Data fim",    data_fim)
+        info.add_row("Início (SP/Geral)",   DATA_INICIO)
+        info.add_row("Início (Santos/RJ)",  DATA_INICIO_SANTOS_RJ)
+        info.add_row("Data fim",            data_fim)
         info.add_row("Pasta",       PASTA_DOWNLOAD)
         console.print(Align.center(info))
         console.print()
@@ -1222,7 +1248,7 @@ def executar(auto=False):
         console.print()
         for lbl, _ in falha:
             console.print(Panel(
-                "[yellow]Download não detectado dentro do tempo limite.[/yellow]",
+                "[yellow]Extração não concluída (timeout ou erro — ver detalhes acima).[/yellow]",
                 title=f"[yellow]Aviso — {lbl}[/yellow]",
                 border_style="yellow",
             ))
