@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "05/08/2026 16:58",
+  "atualizado_em": "05/08/2026 17:57",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19505,22 +19505,22 @@
         {
           "mes": "2026-08",
           "abertos": 8,
-          "atendidos": 4,
-          "pendentes": 4,
+          "atendidos": 5,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81775,
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81885,
@@ -28126,9 +28126,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 43,
-          "atendidos": 6,
-          "pendentes": 37,
+          "abertos": 46,
+          "atendidos": 7,
+          "pendentes": 39,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28166,7 +28166,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 81730,
@@ -28221,6 +28221,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81932,
+                  "cliente": "METALURGICA G3 LTDA",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-09-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -28278,11 +28286,19 @@
               "nome": "Certidão",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81904,
                   "cliente": "DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS GATÃO LTDA",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81933,
+                  "cliente": "AMANCIO S ELETRICA, HIDRAULICA E CONSTRUCAO EM GERAL LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
                   "dataEntrega": null,
@@ -28332,17 +28348,17 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81909,
                   "cliente": "LOURENCINI COMÉRCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -28407,6 +28423,22 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-05",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Processo de Prefeitura",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81934,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
