@@ -101,7 +101,7 @@ REPO_DIR          = r"C:\Users\gamaral\Desktop\Python\Portal-dos-chamados"
 TIMEOUT    = 40
 URL_LOGIN  = "https://aplicativo.mgcontecnica.com.br/#/login"
 DATA_INICIO           = "01/01/2026"
-DATA_INICIO_SANTOS_RJ = "03/06/2026"  # Santos e RJ só passaram a usar o sistema a partir dessa data
+DATA_INICIO_SANTOS_RJ = "03/08/2026"  # Santos e RJ só passaram a usar o sistema a partir dessa data
 
 TIPOS_EXTRACAO = {
     "1": {
