@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/08/2026 18:11",
+  "atualizado_em": "05/08/2026 09:19",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 22,
-          "atendidos": 12,
-          "pendentes": 10,
+          "abertos": 28,
+          "atendidos": 15,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 12,
+              "atendidosDentro": 15,
               "atendidosFora": 0,
-              "pendentes": 10,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 81735,
@@ -17221,7 +17221,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": "2026-08-04",
+                  "dataEntrega": "2026-08-05",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17293,22 +17293,70 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81873,
                   "cliente": "CONCEITO ESTRUTURA LOCADORA LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81874,
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81877,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81878,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81881,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81882,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81883,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81884,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -18806,8 +18854,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 3,
-              "atendidosFora": 10,
+              "atendidosDentro": 2,
+              "atendidosFora": 11,
               "pendentes": 0,
               "chamados": [
                 {
@@ -18839,8 +18887,8 @@
                   "cliente": "ESS INDUSTRIA E COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80790,
@@ -19344,9 +19392,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 3,
+          "abertos": 5,
           "atendidos": 0,
-          "pendentes": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -19359,6 +19407,30 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "DCTFWeb",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 81875,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81876,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27750,9 +27822,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 32,
+          "abertos": 34,
           "atendidos": 4,
-          "pendentes": 28,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -27907,6 +27979,22 @@
               ]
             },
             {
+              "nome": "Parcelamento Estadual",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81879,
+                  "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Parcelamento PGFN",
               "atendidosDentro": 1,
               "atendidosFora": 0,
@@ -27926,7 +28014,7 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81855,
@@ -27941,6 +28029,14 @@
                   "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81880,
+                  "cliente": "RICHETTI COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+                  "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
