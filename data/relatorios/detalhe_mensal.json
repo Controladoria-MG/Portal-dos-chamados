@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "06/08/2026 10:10",
+  "atualizado_em": "06/08/2026 11:12",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14812,8 +14812,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 173,
-              "atendidosFora": 111,
+              "atendidosDentro": 172,
+              "atendidosFora": 112,
               "pendentes": 0,
               "chamados": [
                 {
@@ -15621,8 +15621,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81015,
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 43,
-          "atendidos": 43,
-          "pendentes": 0,
+          "abertos": 45,
+          "atendidos": 44,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 43,
+              "atendidosDentro": 44,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -17479,6 +17479,22 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-06",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81954,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81957,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -17625,8 +17641,8 @@
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 1,
-              "atendidosFora": 1,
+              "atendidosDentro": 0,
+              "atendidosFora": 2,
               "pendentes": 1,
               "chamados": [
                 {
@@ -17634,8 +17650,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-07-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81577,
@@ -21534,8 +21550,8 @@
         {
           "mes": "2026-08",
           "abertos": 11,
-          "atendidos": 7,
-          "pendentes": 4,
+          "atendidos": 8,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21643,9 +21659,9 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81940,
@@ -21660,8 +21676,8 @@
                   "cliente": "EMPÓRIO SOLERA LTDA ",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -22934,7 +22950,7 @@
                   "cliente": "GENGIBRE ADMINISTRACAO E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-06-23",
                   "prazo": "2026-06-25",
-                  "dataEntrega": "2026-07-28",
+                  "dataEntrega": "2026-08-06",
                   "status": "atendido_fora"
                 },
                 {
@@ -26257,9 +26273,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 1,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Arquivo",
@@ -26281,7 +26297,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81762,
@@ -26328,6 +26344,14 @@
                   "cliente": "MERCADINHO NIPPO LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81949,
+                  "cliente": "INDART PUXADORES LTDA",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -26599,8 +26623,8 @@
         {
           "mes": "2026-07",
           "abertos": 169,
-          "atendidos": 96,
-          "pendentes": 73,
+          "atendidos": 95,
+          "pendentes": 74,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -26909,8 +26933,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 10,
+              "atendidosFora": 2,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 81019,
@@ -26941,8 +26965,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": "2026-08-06",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81217,
@@ -28158,9 +28182,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 54,
-          "atendidos": 7,
-          "pendentes": 47,
+          "abertos": 61,
+          "atendidos": 9,
+          "pendentes": 52,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28334,7 +28358,7 @@
               "nome": "Certidão",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 81904,
@@ -28379,6 +28403,38 @@
                 {
                   "id": 81947,
                   "cliente": "ZARELLI SUPERMERCADOS LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81948,
+                  "cliente": "HORTIFRUTI FAVARO LTDA",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81952,
+                  "cliente": "SERRO AZUL PARTICIPAÇÕES S.A ",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81953,
+                  "cliente": "ZARELLI SUPERMERCADOS LTDA (FILIAL 5)",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81955,
+                  "cliente": "ZARELLI SUPERMERCADOS LTDA (FILIAL 6)",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
                   "dataEntrega": null,
@@ -28452,17 +28508,17 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81879,
                   "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -28484,9 +28540,9 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81855,
@@ -28501,8 +28557,8 @@
                   "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81920,
@@ -28622,7 +28678,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 12,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 81736,
@@ -28731,6 +28787,30 @@
                 {
                   "id": 81943,
                   "cliente": "HLL LOCADORA DE GUINDASTES LTDA",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81951,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81956,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81958,
+                  "cliente": "DROGARIA MIX I LTDA (FILIAL 4)",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
                   "dataEntrega": null,
