@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "06/08/2026 08:52",
+  "atualizado_em": "06/08/2026 09:24",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 42,
-          "atendidos": 40,
+          "abertos": 43,
+          "atendidos": 41,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 40,
+              "atendidosDentro": 41,
               "atendidosFora": 0,
               "pendentes": 2,
               "chamados": [
@@ -17325,7 +17325,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": "2026-08-05",
+                  "dataEntrega": "2026-08-06",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17445,7 +17445,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": "2026-08-05",
+                  "dataEntrega": "2026-08-06",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17461,11 +17461,19 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81939,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
                 {
-                  "id": 81939,
+                  "id": 81941,
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
@@ -21525,9 +21533,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 10,
+          "abertos": 11,
           "atendidos": 7,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -21637,8 +21645,16 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 81940,
+                  "cliente": "GRAN MANJERONA COMERCIO DE ALIMENTOS EIRELI",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81931,
                   "cliente": "EMPÓRIO SOLERA LTDA ",
@@ -24997,8 +25013,8 @@
         {
           "mes": "2026-08",
           "abertos": 8,
-          "atendidos": 4,
-          "pendentes": 4,
+          "atendidos": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "MG Controle",
@@ -25066,17 +25082,17 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81870,
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": "2026-08-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25091,7 +25107,7 @@
                   "cliente": "ATENDE NSA COMERCIO E DISTRIBUIÇÃO LTDA ",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
-                  "dataEntrega": "2026-08-05",
+                  "dataEntrega": "2026-08-06",
                   "status": "atendido_fora"
                 }
               ]
