@@ -1364,8 +1364,10 @@ function buildHBarChart(container, itens) {
 function chamadosVencendoHoje(tickets) {
   const today = new Date(); today.setHours(0, 0, 0, 0);
   return tickets.filter(r => {
-    const d = parsePrazoDate(prazoVal(r));
-    return d && d.getTime() === today.getTime();
+    const prazo    = parsePrazoDate(prazoVal(r));
+    const previsao = parsePrazoDate(previsaoVal(r));
+    return (prazo && prazo.getTime() === today.getTime())
+        || (previsao && previsao.getTime() === today.getTime());
   });
 }
 
@@ -1373,8 +1375,17 @@ function chamadosSemPrevisao(tickets) {
   return tickets.filter(r => !parsePrazoDate(previsaoVal(r)));
 }
 
+/* Cobra chamados com Previsão de Atendimento vencida; chamados com previsão
+   preenchida para hoje ou depois não entram aqui mesmo que o Prazo
+   Vencimento já tenha passado. Chamados sem previsão preenchida continuam
+   usando o Prazo Vencimento (também aparecem em "sem previsão"). */
 function chamadosVencidos(tickets) {
-  return tickets.filter(r => vencimentoStatus(r) === 'Vencido');
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  return tickets.filter(r => {
+    const previsao = parsePrazoDate(previsaoVal(r));
+    if (previsao) return previsao < today;
+    return vencimentoStatus(r) === 'Vencido';
+  });
 }
 
 function gerarTextoCobranca(dept, tickets) {
