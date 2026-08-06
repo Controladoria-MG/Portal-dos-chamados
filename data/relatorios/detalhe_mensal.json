@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "06/08/2026 09:24",
+  "atualizado_em": "06/08/2026 10:10",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 43,
-          "atendidos": 41,
-          "pendentes": 2,
+          "atendidos": 43,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 41,
+              "atendidosDentro": 43,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81735,
@@ -17469,16 +17469,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81941,
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -17692,8 +17692,8 @@
         {
           "mes": "2026-08",
           "abertos": 2,
-          "atendidos": 1,
-          "pendentes": 1,
+          "atendidos": 2,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "DCTFWeb",
@@ -17713,17 +17713,17 @@
             },
             {
               "nome": "Material de Reunião - Solicitação Interna",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81888,
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -19543,7 +19543,7 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-04",
-                  "dataEntrega": "2026-08-05",
+                  "dataEntrega": "2026-08-06",
                   "status": "atendido_fora"
                 },
                 {
@@ -21604,7 +21604,7 @@
                   "cliente": "CASA DE CARNES J.R. GIMENEZ LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": "2026-08-05",
+                  "dataEntrega": "2026-08-06",
                   "status": "atendido_dentro"
                 }
               ]
@@ -23184,8 +23184,8 @@
         {
           "mes": "2026-07",
           "abertos": 49,
-          "atendidos": 43,
-          "pendentes": 6,
+          "atendidos": 44,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -23382,8 +23382,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
-              "atendidosFora": 7,
-              "pendentes": 1,
+              "atendidosFora": 8,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81552,
@@ -23406,8 +23406,8 @@
                   "cliente": "JARDIM ELÉTRICO PRODUÇÕES LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81277,
@@ -24141,8 +24141,8 @@
         {
           "mes": "2026-06",
           "abertos": 64,
-          "atendidos": 63,
-          "pendentes": 1,
+          "atendidos": 62,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -24666,9 +24666,9 @@
             },
             {
               "nome": "Saldo Credor Incorreto",
-              "atendidosDentro": 6,
+              "atendidosDentro": 5,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80566,
@@ -24715,8 +24715,8 @@
                   "cliente": "BARATÃO SÃO LUCAS LTDA",
                   "dataCadastro": "2026-06-22",
                   "prazo": "2026-06-30",
-                  "dataEntrega": "2026-06-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 79877,
@@ -26599,8 +26599,8 @@
         {
           "mes": "2026-07",
           "abertos": 169,
-          "atendidos": 93,
-          "pendentes": 76,
+          "atendidos": 96,
+          "pendentes": 73,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -26909,8 +26909,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 11,
+              "atendidosFora": 3,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 81019,
@@ -26941,8 +26941,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81217,
@@ -27445,8 +27445,8 @@
             {
               "nome": "Processo de VISA",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81601,
@@ -27461,8 +27461,8 @@
                   "cliente": "TERRA BRASIL HORTI FRUTI LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -27613,8 +27613,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 15,
-              "atendidosFora": 18,
-              "pendentes": 34,
+              "atendidosFora": 19,
+              "pendentes": 33,
               "chamados": [
                 {
                   "id": 80961,
@@ -28125,8 +28125,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81600,
@@ -28158,9 +28158,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 48,
+          "abertos": 54,
           "atendidos": 7,
-          "pendentes": 41,
+          "pendentes": 47,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28291,6 +28291,22 @@
               ]
             },
             {
+              "nome": "Auditoria",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81942,
+                  "cliente": "LUIZ GOMES DA SILVA - O GOIANO ",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -28318,7 +28334,7 @@
               "nome": "Certidão",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81904,
@@ -28332,6 +28348,38 @@
                   "id": 81933,
                   "cliente": "AMANCIO S ELETRICA, HIDRAULICA E CONSTRUCAO EM GERAL LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-05",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81944,
+                  "cliente": "AMARILDO DE OLIVEIRA ZARELLI ",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81945,
+                  "cliente": "ZARELLI SUPERMERCADOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81946,
+                  "cliente": "ZARELLI SUPERMERCADOS LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81947,
+                  "cliente": "ZARELLI SUPERMERCADOS LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -28572,9 +28620,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 11,
+              "atendidosDentro": 1,
+              "atendidosFora": 1,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 81736,
@@ -28597,16 +28645,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81758,
                   "cliente": null,
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
-                  "dataEntrega": "2026-08-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81759,
@@ -28677,6 +28725,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81943,
+                  "cliente": "HLL LOCADORA DE GUINDASTES LTDA",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-10",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
