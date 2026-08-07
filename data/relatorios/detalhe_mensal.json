@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/08/2026 10:32",
+  "atualizado_em": "07/08/2026 10:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 61,
-          "atendidos": 59,
+          "abertos": 63,
+          "atendidos": 61,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 53,
+              "atendidosDentro": 55,
               "atendidosFora": 6,
               "pendentes": 2,
               "chamados": [
@@ -17613,8 +17613,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82037,
@@ -17623,6 +17623,22 @@
                   "prazo": "2026-08-10",
                   "dataEntrega": "2026-08-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82045,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82049,
+                  "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -19672,15 +19688,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 9,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81775,
@@ -19705,6 +19721,14 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82047,
+                  "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -21685,19 +21709,27 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 19,
+          "abertos": 22,
           "atendidos": 8,
-          "pendentes": 11,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 82034,
                   "cliente": "RECANTO SANTA JÚLIA COMÉRCIO DE CONVENIÊNCIAS LTDA ",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82048,
+                  "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
                   "dataEntrega": null,
@@ -21712,12 +21744,28 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 82044,
+                  "cliente": "JK BURITI CAFETERIA E CONVENIENCIAS LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 81729,
                   "cliente": "L G Coelho Representacoes ",
                   "dataCadastro": "2026-08-02",
                   "prazo": "2026-08-05",
                   "dataEntrega": "2026-08-04",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82043,
+                  "cliente": "Madenik Solucoes Comercio de Madeiras e Ferragens LTDA ",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82040,
@@ -23408,8 +23456,8 @@
         {
           "mes": "2026-07",
           "abertos": 49,
-          "atendidos": 44,
-          "pendentes": 5,
+          "atendidos": 45,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -23446,16 +23494,16 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80663,
                   "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
                   "dataCadastro": "2026-07-01",
                   "prazo": "2026-07-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80916,
@@ -25252,15 +25300,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 11,
+          "abertos": 13,
           "atendidos": 3,
-          "pendentes": 8,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82038,
@@ -25273,6 +25321,14 @@
                 {
                   "id": 82036,
                   "cliente": "SUPERMERCADO CIAMDRIGHI LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82046,
+                  "cliente": "MERCADO, PADARIA ACOUGUE E RESTAURANTE OLIMPIA LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
                   "dataEntrega": null,
@@ -25293,6 +25349,22 @@
                   "prazo": "2026-08-10",
                   "dataEntrega": "2026-08-05",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Material de Reunião - Solicitação Interna",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82042,
+                  "cliente": "BARRETO & TONELLI DISTRIBUIDOIRA DE EQUIPAMENTOS DE SEGURANCA ELETRONICA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -28430,9 +28502,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 99,
+          "abertos": 100,
           "atendidos": 16,
-          "pendentes": 83,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28574,11 +28646,19 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82039,
                   "cliente": "NOHKER COMERCIO E REPRESENTACAO DE PRODUTOS PARA HIGIENE, LIMPEZA E COSMETICOS LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82050,
+                  "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
                   "dataEntrega": null,
