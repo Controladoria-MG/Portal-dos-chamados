@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/08/2026 09:35",
+  "atualizado_em": "07/08/2026 10:16",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 59,
-          "atendidos": 57,
+          "abertos": 60,
+          "atendidos": 58,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 51,
+              "atendidosDentro": 52,
               "atendidosFora": 6,
               "pendentes": 2,
               "chamados": [
@@ -17603,6 +17603,14 @@
                 {
                   "id": 82028,
                   "cliente": "FRRD ADMINISTRADORA DE IMOVEIS LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82029,
+                  "cliente": null,
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
                   "dataEntrega": null,
@@ -19657,14 +19665,14 @@
         {
           "mes": "2026-08",
           "abertos": 9,
-          "atendidos": 8,
-          "pendentes": 1,
+          "atendidos": 9,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81775,
@@ -19687,8 +19695,8 @@
                   "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -21669,16 +21677,24 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 8,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 82034,
+                  "cliente": "RECANTO SANTA JÚLIA COMÉRCIO DE CONVENIÊNCIAS LTDA ",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81729,
                   "cliente": "L G Coelho Representacoes ",
@@ -27820,8 +27836,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 14,
-              "atendidosFora": 22,
+              "atendidosDentro": 12,
+              "atendidosFora": 24,
               "pendentes": 31,
               "chamados": [
                 {
@@ -28293,16 +28309,16 @@
                   "cliente": "BARBU & MARQUES COMERCIO DE VIDROS EM GERAL LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81543,
                   "cliente": "RM DOS SANTOS – COMÉRCIO DE MOLDES E BORRACHA DE SILICONE LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81557,
@@ -28366,8 +28382,8 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 97,
-          "atendidos": 15,
+          "abertos": 98,
+          "atendidos": 16,
           "pendentes": 82,
           "categorias": [
             {
@@ -28916,7 +28932,7 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 4,
               "pendentes": 40,
               "chamados": [
@@ -29277,8 +29293,8 @@
                   "cliente": "BCLPER ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82023,
@@ -29291,6 +29307,14 @@
                 {
                   "id": 82027,
                   "cliente": null,
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82035,
+                  "cliente": "ALUSTOCK COMERCIO DE VIDROS E ESQUADRIAS DE ALUMINIO LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
                   "dataEntrega": null,
@@ -29469,21 +29493,53 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 43,
+          "abertos": 47,
           "atendidos": 0,
-          "pendentes": 43,
+          "pendentes": 47,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 10,
               "chamados": [
+                {
+                  "id": 82030,
+                  "cliente": "M.C. SOLUCOES LOGISTICAS LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82032,
+                  "cliente": "JEM TRUCK TRANSPORTE DE CARGAS E TERRAPLANAGEM LTDA ",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81742,
                   "cliente": "DELICIAS E SOBREMESAS DO RONALDO LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82033,
+                  "cliente": "JEM TRUCK TRANSPORTE DE CARGAS E TERRAPLANAGEM LTDA ",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82031,
+                  "cliente": "OAK MÍDIA DIGITAL SUBLIMAÇÃO E CENOGRAFIA LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -29576,8 +29632,24 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 81815,
-                  "cliente": "MERCADO TRES POCOS LTDA",
+                  "id": 81820,
+                  "cliente": "ASA FORTE COMERCIO DE RAÇÕES LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81774,
+                  "cliente": "MERCADO J R E DE LAGOINHA LTDA",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81817,
+                  "cliente": "V R MERCADO VITORIA CERTA LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
                   "dataEntrega": null,
@@ -29600,6 +29672,30 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 81822,
+                  "cliente": "Asa Servprime Servicos de Apoio LTDA ",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81831,
+                  "cliente": "WG DE ARARUAMA RESTAURANTE LTDA.",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81825,
+                  "cliente": "GRADIM SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 81819,
                   "cliente": "GAUCHOS PRESTAÇÃO DE SERVIÇOS LTDA",
                   "dataCadastro": "2026-08-04",
@@ -29616,24 +29712,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 81820,
-                  "cliente": "ASA FORTE COMERCIO DE RAÇÕES LTDA",
-                  "dataCadastro": "2026-08-04",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81774,
-                  "cliente": "MERCADO J R E DE LAGOINHA LTDA",
-                  "dataCadastro": "2026-08-03",
-                  "prazo": "2026-08-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81817,
-                  "cliente": "V R MERCADO VITORIA CERTA LTDA",
+                  "id": 81827,
+                  "cliente": "M. M. TOLEDO (FILIAL 01)",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
                   "dataEntrega": null,
@@ -29664,24 +29744,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 81822,
-                  "cliente": "Asa Servprime Servicos de Apoio LTDA ",
-                  "dataCadastro": "2026-08-04",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81831,
-                  "cliente": "WG DE ARARUAMA RESTAURANTE LTDA.",
-                  "dataCadastro": "2026-08-04",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81825,
-                  "cliente": "GRADIM SERVIÇOS DE APOIO LTDA",
+                  "id": 81815,
+                  "cliente": "MERCADO TRES POCOS LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
                   "dataEntrega": null,
@@ -29722,14 +29786,6 @@
                 {
                   "id": 81816,
                   "cliente": "VITORIA CERTA SERVICO E APOIO ADMINISTRATIVO LTDA",
-                  "dataCadastro": "2026-08-04",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81827,
-                  "cliente": "M. M. TOLEDO (FILIAL 01)",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
                   "dataEntrega": null,
