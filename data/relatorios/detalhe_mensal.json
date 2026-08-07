@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/08/2026 11:16",
+  "atualizado_em": "07/08/2026 12:16",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14812,8 +14812,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 169,
-              "atendidosFora": 115,
+              "atendidosDentro": 168,
+              "atendidosFora": 116,
               "pendentes": 0,
               "chamados": [
                 {
@@ -16309,8 +16309,8 @@
                   "cliente": "Parafutrecos Comercial LTDA ",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": "2026-07-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81262,
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 64,
-          "atendidos": 61,
+          "abertos": 65,
+          "atendidos": 62,
           "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 55,
+              "atendidosDentro": 56,
               "atendidosFora": 6,
               "pendentes": 3,
               "chamados": [
@@ -17642,6 +17642,14 @@
                 },
                 {
                   "id": 82051,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": "2026-08-07",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82064,
                   "cliente": null,
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
@@ -21717,15 +21725,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 8,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 82034,
@@ -21754,6 +21762,14 @@
                 {
                   "id": 82041,
                   "cliente": "SUPERMERCADO BARONESA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82062,
+                  "cliente": "WW JOTAW LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
                   "dataEntrega": null,
@@ -25380,19 +25396,27 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 13,
+          "abertos": 14,
           "atendidos": 3,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82038,
                   "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82061,
+                  "cliente": "Centro de Distribuição de Alimentos Penha Eireli",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
                   "dataEntrega": null,
@@ -28582,9 +28606,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 101,
+          "abertos": 102,
           "atendidos": 16,
-          "pendentes": 85,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28726,7 +28750,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82039,
@@ -28747,6 +28771,14 @@
                 {
                   "id": 82053,
                   "cliente": "CL COMERCIO VAREJISTA E ROTISSERIE LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82063,
+                  "cliente": "COMERCIO DE ALIMENTOS FELICIANO LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
                   "dataEntrega": null,
