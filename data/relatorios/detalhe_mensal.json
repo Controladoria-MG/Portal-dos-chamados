@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/08/2026 15:12",
+  "atualizado_em": "11/08/2026 16:45",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -12,8 +12,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 123,
-              "atendidosFora": 193,
+              "atendidosDentro": 122,
+              "atendidosFora": 194,
               "pendentes": 0,
               "chamados": [
                 {
@@ -1005,8 +1005,8 @@
                   "cliente": "SUPERMERCADO PIO BORGES LTDA ",
                   "dataCadastro": "2026-01-13",
                   "prazo": "2026-01-16",
-                  "dataEntrega": "2026-01-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 76589,
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 107,
-          "atendidos": 104,
-          "pendentes": 3,
+          "atendidos": 105,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 89,
+              "atendidosDentro": 90,
               "atendidosFora": 15,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81735,
@@ -17989,8 +17989,8 @@
                   "cliente": "WISPOT MARKETING DIGITAL E BIGDATA ANALYTICS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -20062,8 +20062,8 @@
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 3,
-              "atendidosFora": 1,
+              "atendidosDentro": 2,
+              "atendidosFora": 2,
               "pendentes": 1,
               "chamados": [
                 {
@@ -20079,8 +20079,8 @@
                   "cliente": "AEROINDUSTRIAL INSTALAÇÕES DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": "2026-08-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82017,
@@ -22954,9 +22954,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 7,
+          "abertos": 8,
           "atendidos": 2,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22994,8 +22994,16 @@
               "nome": "Documentação",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 82243,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 82126,
                   "cliente": "DUARTE E SILVA LTDA",
@@ -27265,9 +27273,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 27,
+          "abertos": 28,
           "atendidos": 2,
-          "pendentes": 25,
+          "pendentes": 26,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -27433,13 +27441,21 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82209,
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82242,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -28845,7 +28861,7 @@
                   "cliente": "JDM DISTRIBUIDORA DE PRODUTOS ALIMENTÍCIOS LTDA ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-20",
-                  "dataEntrega": "2026-08-05",
+                  "dataEntrega": "2026-08-11",
                   "status": "atendido_fora"
                 },
                 {
@@ -30212,8 +30228,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 35,
-              "atendidosFora": 13,
+              "atendidosDentro": 34,
+              "atendidosFora": 14,
               "pendentes": 27,
               "chamados": [
                 {
@@ -30501,8 +30517,8 @@
                   "cliente": "ATRIA CENOGRAFIA LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81995,
@@ -31053,15 +31069,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 62,
+          "abertos": 63,
           "atendidos": 5,
-          "pendentes": 57,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 15,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 81732,
@@ -31188,6 +31204,14 @@
                   "cliente": "CRUZEIRO DO SUL MERCADO LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82245,
+                  "cliente": "SUPERMIX 44 DISTRIBUIDORA DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
