@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/08/2026 16:45",
+  "atualizado_em": "11/08/2026 17:52",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,14 +17126,14 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 107,
-          "atendidos": 105,
+          "abertos": 108,
+          "atendidos": 106,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 90,
-              "atendidosFora": 15,
+              "atendidosFora": 16,
               "pendentes": 2,
               "chamados": [
                 {
@@ -17617,14 +17617,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 82037,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-07",
-                  "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-07",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 82045,
                   "cliente": null,
                   "dataCadastro": "2026-08-07",
@@ -17653,8 +17645,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82065,
@@ -17987,6 +17979,22 @@
                 {
                   "id": 82241,
                   "cliente": "WISPOT MARKETING DIGITAL E BIGDATA ANALYTICS LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-12",
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82244,
+                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-12",
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82251,
+                  "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
                   "dataEntrega": "2026-08-11",
@@ -20057,14 +20065,14 @@
         {
           "mes": "2026-08",
           "abertos": 16,
-          "atendidos": 11,
-          "pendentes": 5,
+          "atendidos": 15,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81775,
@@ -20095,8 +20103,8 @@
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82047,
@@ -20110,25 +20118,25 @@
             },
             {
               "nome": "Conciliação de Contas",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82208,
                   "cliente": "TDM TECNOLOGIA EM DOSAGEM E MISTURA DE INGREDIENTES LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 2,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81875,
@@ -20159,16 +20167,16 @@
                   "cliente": "DFG COMERCIO IMPORTACAO, EXPORTACAO E REPRESENTACAO LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82228,
                   "cliente": "DFG COMERCIO IMPORTACAO, EXPORTACAO E REPRESENTACAO LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -22219,8 +22227,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 7,
-              "atendidosFora": 5,
+              "atendidosDentro": 6,
+              "atendidosFora": 6,
               "pendentes": 1,
               "chamados": [
                 {
@@ -22324,8 +22332,8 @@
                   "cliente": "COMERCIAL LUZIA MEIRE DE GENEROS ALIMENTICIOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -22954,9 +22962,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 2,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22994,10 +23002,18 @@
               "nome": "Documentação",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 82243,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82255,
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-21",
@@ -29358,9 +29374,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 161,
-          "atendidos": 108,
-          "pendentes": 53,
+          "abertos": 167,
+          "atendidos": 109,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -29406,7 +29422,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 81730,
@@ -29501,6 +29517,14 @@
                   "cliente": "FFRA CONCRETOS LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82252,
+                  "cliente": "NOHKER COMERCIO E REPRESENTACAO DE PRODUTOS PARA HIGIENE, LIMPEZA E COSMETICOS LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-09-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -29797,16 +29821,16 @@
             {
               "nome": "Encerramento de Empresa",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81731,
                   "cliente": "E E F SERVICOS ADMINISTRATIVOS LTDA ",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81778,
@@ -29982,7 +30006,7 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 11,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81934,
@@ -30079,6 +30103,22 @@
                   "prazo": "2026-08-11",
                   "dataEntrega": "2026-08-10",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82253,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82254,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -30148,8 +30188,8 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 2,
-              "atendidosFora": 0,
+              "atendidosDentro": 1,
+              "atendidosFora": 1,
               "pendentes": 1,
               "chamados": [
                 {
@@ -30165,8 +30205,8 @@
                   "cliente": "ADM SERVICE ITAPETININGA E BOTUCATU LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82166,
@@ -30230,7 +30270,7 @@
               "nome": "Senha",
               "atendidosDentro": 34,
               "atendidosFora": 14,
-              "pendentes": 27,
+              "pendentes": 30,
               "chamados": [
                 {
                   "id": 81736,
@@ -30827,6 +30867,30 @@
                 {
                   "id": 82240,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 61)",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82246,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82256,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82257,
+                  "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
                   "dataEntrega": null,
