@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal de Chamados</title>
+  <link rel="stylesheet" href="static/style.css" />
+  <!-- SheetJS: leitura de .xlsx no browser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <!-- html2canvas: gera o print do placar para a cobrança -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <img src="data/imagens/logo.png" alt="MG Controle" class="topbar-logo" />
+    <div class="topbar-info">
+      <h1 class="topbar-title">Relatório dos chamados - MG Controle</h1>
+      <div class="topbar-meta">
+        <span class="topbar-atualizacao" id="header-date"></span>
+        <span class="topbar-meta-sep">|</span>
+        <span class="topbar-hint">Para atualizar seus dados recarregue a página usando "Ctrl+<span id="cobranca-hidden-trigger">F5</span>"</span>
+      </div>
+    </div>
+    <button id="btn-relatorios" class="btn-relatorios">Relatório de Chamados Entregues</button>
+    <button id="theme-toggle">Alterar tema</button>
+  </header>
+
+  <!-- BARRA DE NAVEGAÇÃO -->
+  <div class="unidade-bar" id="unidade-bar" style="display:none">
+    <span class="unidade-crumb" id="bc-home">Início</span>
+    <span id="bc-rest"></span>
+  </div>
+
+  <main>
+
+    <!-- ── HOME VIEW ─────────────────────────────────────── -->
+    <div id="view-home" class="view active">
+
+      <div class="page-title">
+        <h1>Painel de Controle</h1>
+      </div>
+
+      <!-- Loading -->
+      <div id="loading">
+        <div class="spinner"></div>
+        <p>Carregando base de dados...</p>
+      </div>
+
+      <!-- Error -->
+      <div id="error-msg"></div>
+
+      <!-- Filial cards -->
+      <div id="dept-grid"></div>
+
+    </div><!-- /view-home -->
+
+    <!-- ── FILIAL VIEW — DEPARTAMENTOS DA FILIAL ───────────────── -->
+    <div id="view-filial" class="view">
+
+      <button class="btn-back" id="btn-back-filial">← Voltar</button>
+
+      <div class="page-title">
+        <h1 id="filial-depts-title">Filial</h1>
+      </div>
+
+      <!-- Department cards -->
+      <div id="filial-dept-grid"></div>
+
+    </div><!-- /view-filial -->
+
+    <!-- ── DEPT VIEW ──────────────────────────────────────── -->
+    <div id="view-dept" class="view">
+
+      <button class="btn-back" id="btn-back">← Voltar</button>
+
+      <!-- Abas Pendentes / Retornados (visível só para GC) -->
+      <div id="dept-tabs"></div>
+
+      <!-- Cobrança de chamados -->
+      <div class="cobranca-bar" style="display:none">
+        <button id="btn-cobranca" class="btn-cobranca">📢 Gerar Cobrança</button>
+      </div>
+
+      <div>
+
+        <!-- Placar Total / Vencidos / Não Vencidos -->
+        <div class="ticket-stats-row" id="ticket-stats-row">
+          <div class="stat-box">
+            <span class="stat-box-label">Total</span>
+            <span class="stat-box-value" id="stat-total">0</span>
+          </div>
+          <div class="stat-box stat-box--danger">
+            <span class="stat-box-label">Vencidos</span>
+            <span class="stat-box-value" id="stat-vencidos">0</span>
+          </div>
+          <div class="stat-box stat-box--success">
+            <span class="stat-box-label">Não Vencidos</span>
+            <span class="stat-box-value" id="stat-nao-vencidos">0</span>
+          </div>
+        </div>
+
+        <!-- Client table -->
+        <div class="table-wrap">
+          <div class="table-header">
+            <div>
+              <div class="table-title">Chamados por cliente</div>
+              <div class="table-subtitle">Clique na linha para ver mais detalhes</div>
+            </div>
+            <input
+              class="search-input"
+              id="client-search"
+              type="search"
+              placeholder="Buscar cliente..."
+            />
+          </div>
+
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID Cliente</th>
+                  <th>Cliente</th>
+                  <th class="date-cell">Data Cadastro</th>
+                  <th class="previsao-cell">Previsão Atend.</th>
+                  <th class="prazo-cell">Prazo Vencimento</th>
+                </tr>
+              </thead>
+              <tbody id="client-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- /view-dept -->
+
+    <!-- ── RELATÓRIOS — ESCOLHA DE DEPARTAMENTO ────────────────── -->
+    <div id="view-relatorios-home" class="view">
+
+      <button class="btn-back" id="btn-back-relatorios-home">← Voltar</button>
+
+      <div class="page-title">
+        <h1>Relatório de Chamados Entregues</h1>
+      </div>
+
+      <div id="rel-home-empty" class="rel-empty" style="display:none">
+        Nenhum dado de relatório disponível ainda. Rode a atualização da base para gerar.
+      </div>
+
+      <!-- Filial cards -->
+      <div id="rel-dept-grid"></div>
+
+    </div><!-- /view-relatorios-home -->
+
+    <!-- ── RELATÓRIOS — DEPARTAMENTOS DA FILIAL ─────────────────── -->
+    <div id="view-relatorios-filial" class="view">
+
+      <button class="btn-back" id="btn-back-relatorios-filial">← Voltar</button>
+
+      <div class="page-title">
+        <h1 id="rel-filial-title">Relatório de Chamados Entregues</h1>
+      </div>
+
+      <!-- Department cards -->
+      <div id="rel-filial-dept-grid"></div>
+
+    </div><!-- /view-relatorios-filial -->
+
+    <!-- ── RELATÓRIOS — DEPARTAMENTO ────────────────────────────── -->
+    <div id="view-relatorios" class="view">
+
+      <button class="btn-back" id="btn-back-relatorios">← Voltar</button>
+
+      <div class="page-title">
+        <h1 id="rel-dept-title">Relatórios</h1>
+      </div>
+
+      <div id="rel-empty" class="rel-empty" style="display:none">
+        Nenhum dado de relatório mensal disponível ainda para este departamento.
+      </div>
+
+      <div id="rel-content" style="display:none">
+
+        <!-- Filtro de categoria -->
+        <div class="filters-row rel-filters-row" id="rel-filters-row"></div>
+
+        <!-- Gráfico dentro x fora do prazo -->
+        <div class="table-wrap chart-card">
+          <div class="table-header">
+            <div>
+              <div class="table-title" id="rel-chart-title">Atendidos dentro x fora do prazo</div>
+              <div class="table-subtitle" id="rel-chart-subtitle">Por mês — clique num mês na tabela para ver a quebra por categoria</div>
+            </div>
+            <div class="chart-legend" id="chart-legend"></div>
+          </div>
+          <div class="chart-wrap">
+            <div id="rel-chart-hbars" class="hbar-chart"></div>
+          </div>
+        </div>
+
+        <!-- Tabela resumo -->
+        <div class="table-wrap" style="margin-top:1.2rem">
+          <div class="table-header">
+            <div>
+              <div class="table-title">Resumo mensal</div>
+              <div class="table-subtitle">Clique num mês para ver os chamados agrupados por categoria</div>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Mês</th>
+                  <th class="num-cell">Abertos</th>
+                  <th class="num-cell">Atendidos</th>
+                  <th class="num-cell">Pendentes</th>
+                </tr>
+              </thead>
+              <tbody id="rel-table-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </div><!-- /rel-content -->
+
+    </div><!-- /view-relatorios -->
+
+  </main>
+
+  <!-- ── MODAL DE COBRANÇA ────────────────────────────────────── -->
+  <div id="cobranca-modal" class="modal-overlay" style="display:none">
+    <div class="modal-box">
+      <button class="modal-close" id="cobranca-modal-close" type="button">✕</button>
+      <h2 class="modal-title">Cobrança de Chamados</h2>
+
+      <div class="cobranca-pager">
+        <button class="cobranca-pager-arrow" id="cobranca-prev" type="button" aria-label="Página anterior">‹</button>
+        <div class="cobranca-preview-item">
+          <div class="cobranca-preview-item-title" id="cobranca-preview-title"></div>
+          <div class="cobranca-preview">
+            <img id="cobranca-preview-img" alt="Print da cobrança" />
+          </div>
+          <div class="cobranca-actions-row">
+            <button class="btn-modal-action" id="btn-copiar-imagem-atual" type="button">📋 Copiar Imagem</button>
+            <span class="cobranca-status" id="cobranca-status-atual"></span>
+          </div>
+        </div>
+        <button class="cobranca-pager-arrow" id="cobranca-next" type="button" aria-label="Próxima página">›</button>
+      </div>
+      <div class="cobranca-pager-dots" id="cobranca-pager-dots"></div>
+
+      <label class="cobranca-text-label" for="cobranca-texto">Texto de cobrança</label>
+      <textarea id="cobranca-texto" rows="8"></textarea>
+      <div class="cobranca-actions-row">
+        <button id="btn-copiar-texto" class="btn-modal-action" type="button">📋 Copiar Texto</button>
+        <span id="cobranca-texto-status" class="cobranca-status"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="static/script.js"></script>
+</body>
+</html>
