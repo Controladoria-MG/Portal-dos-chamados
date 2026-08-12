@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "12/08/2026 17:13",
+  "atualizado_em": "12/08/2026 18:12",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 118,
-          "atendidos": 117,
+          "abertos": 119,
+          "atendidos": 118,
           "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 99,
+              "atendidosDentro": 100,
               "atendidosFora": 18,
               "pendentes": 1,
               "chamados": [
@@ -17229,7 +17229,7 @@
                   "cliente": "HFARIAS NEGOCIOS E PARTICIPACOES LTDA",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-10",
+                  "dataEntrega": "2026-08-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -17245,7 +17245,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-05",
-                  "dataEntrega": "2026-08-10",
+                  "dataEntrega": "2026-08-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -18079,6 +18079,14 @@
                   "prazo": "2026-08-13",
                   "dataEntrega": "2026-08-12",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82299,
+                  "cliente": "B&SOLAR PARTICIPACOES LTDA",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -18329,8 +18337,8 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -18338,8 +18346,8 @@
                   "cliente": "ARZINDA ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -22245,9 +22253,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 33,
+          "abertos": 35,
           "atendidos": 31,
-          "pendentes": 2,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22260,7 +22268,7 @@
                   "cliente": "RECANTO SANTA JÚLIA COMÉRCIO DE CONVENIÊNCIAS LTDA ",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-10",
+                  "dataEntrega": "2026-08-12",
                   "status": "atendido_dentro"
                 },
                 {
@@ -22331,8 +22339,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 8,
-              "atendidosFora": 7,
+              "atendidosDentro": 7,
+              "atendidosFora": 8,
               "pendentes": 1,
               "chamados": [
                 {
@@ -22380,8 +22388,8 @@
                   "cliente": "DISTRIBUIDORA DE HORTIFRUTTI POMAR DO QUINTAS LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82293,
@@ -22485,7 +22493,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82088,
@@ -22502,6 +22510,22 @@
                   "prazo": "2026-08-10",
                   "dataEntrega": "2026-08-10",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82301,
+                  "cliente": "TOME AGROVETERINARIA LTDA",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82302,
+                  "cliente": "TOME AGROVETERINARIA LTDA",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -22564,7 +22588,7 @@
                   "cliente": "GRAN MANJERONA COMERCIO DE ALIMENTOS EIRELI",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-10",
+                  "dataEntrega": "2026-08-12",
                   "status": "atendido_fora"
                 },
                 {
@@ -23133,14 +23157,6 @@
               "pendentes": 1,
               "chamados": [
                 {
-                  "id": 82277,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-12",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 82243,
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
@@ -23152,6 +23168,14 @@
                   "id": 82255,
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82277,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-21",
                   "dataEntrega": "2026-08-12",
                   "status": "atendido_dentro"
@@ -24632,14 +24656,14 @@
         {
           "mes": "2026-08",
           "abertos": 16,
-          "atendidos": 12,
-          "pendentes": 4,
+          "atendidos": 14,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Autorregularização",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82110,
@@ -24678,8 +24702,8 @@
                   "cliente": "ARARAS ONLINE COMERCIO DIGITAL LTDA ",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -24774,8 +24798,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82016,
@@ -24794,20 +24818,20 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 81782,
-                  "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-08-03",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81864,
                   "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
                   "dataEntrega": "2026-08-04",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 81782,
+                  "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81893,
@@ -25805,8 +25829,8 @@
         {
           "mes": "2026-07",
           "abertos": 21,
-          "atendidos": 13,
-          "pendentes": 8,
+          "atendidos": 15,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25827,8 +25851,8 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 4,
+              "atendidosFora": 3,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 80985,
@@ -25859,8 +25883,8 @@
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80737,
@@ -25955,8 +25979,8 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81190,
@@ -25987,8 +26011,8 @@
                   "cliente": "H E F COMERCIO DE OPORTUNIDADES LTDA",
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -26044,16 +26068,24 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 19,
-          "atendidos": 6,
-          "pendentes": 13,
+          "abertos": 20,
+          "atendidos": 5,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 82038,
+                  "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 82061,
                   "cliente": "Centro de Distribuição de Alimentos Penha Eireli",
@@ -26123,16 +26155,16 @@
             {
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82042,
                   "cliente": "BARRETO & TONELLI DISTRIBUIDOIRA DE EQUIPAMENTOS DE SEGURANCA ELETRONICA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82186,
@@ -26231,18 +26263,18 @@
               "pendentes": 2,
               "chamados": [
                 {
-                  "id": 82066,
-                  "cliente": "FUNCHAL INDUSTRIA E COMERCIO DE PAPEIS LTDA",
-                  "dataCadastro": "2026-08-07",
-                  "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 82118,
                   "cliente": "FUNCHAL INDUSTRIA E COMERCIO DE PAPEIS LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82066,
+                  "cliente": "FUNCHAL INDUSTRIA E COMERCIO DE PAPEIS LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-10",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -27145,15 +27177,15 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 27,
-          "atendidos": 7,
-          "pendentes": 20,
+          "abertos": 24,
+          "atendidos": 8,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 7,
+              "atendidosFora": 1,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 80689,
@@ -27208,24 +27240,8 @@
                   "cliente": "H E F COMERCIO DE OPORTUNIDADES LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 81011,
-                  "cliente": "LIQUIM E-BIKE LTDA ",
-                  "dataCadastro": "2026-07-14",
-                  "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -27233,24 +27249,8 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
-                {
-                  "id": 81702,
-                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (MATRIZ)",
-                  "dataCadastro": "2026-07-31",
-                  "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81706,
-                  "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-07-31",
-                  "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 80685,
                   "cliente": "DALMEC SISTEMAS DE PONTO E ACESSO LTDA",
@@ -27425,9 +27425,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 31,
-          "atendidos": 2,
-          "pendentes": 29,
+          "abertos": 30,
+          "atendidos": 5,
+          "pendentes": 25,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -27518,26 +27518,10 @@
               ]
             },
             {
-              "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 82038,
-                  "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
-                  "dataCadastro": "2026-08-07",
-                  "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
               "nome": "Certificado",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 8,
+              "atendidosFora": 3,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 81762,
@@ -27576,8 +27560,8 @@
                   "cliente": "DR Transportadora LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81907,
@@ -27663,9 +27647,9 @@
             },
             {
               "nome": "Solicitação do cliente",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81892,
@@ -27696,8 +27680,8 @@
                   "cliente": "PADARIA VILA NOVA CONCEICAO LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82177,
@@ -27712,8 +27696,8 @@
                   "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 06)",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82199,
@@ -27991,8 +27975,8 @@
         {
           "mes": "2026-07",
           "abertos": 169,
-          "atendidos": 118,
-          "pendentes": 51,
+          "atendidos": 120,
+          "pendentes": 49,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28052,9 +28036,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 8,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 80919,
@@ -28117,8 +28101,8 @@
                   "cliente": "MIZUBRAS COMERCIAL LTDA",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81723,
@@ -28285,8 +28269,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 8,
-              "pendentes": 5,
+              "atendidosFora": 9,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81019,
@@ -28365,8 +28349,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81348,
@@ -29542,9 +29526,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 175,
-          "atendidos": 125,
-          "pendentes": 50,
+          "abertos": 176,
+          "atendidos": 127,
+          "pendentes": 49,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -29996,17 +29980,17 @@
             },
             {
               "nome": "Docs Implantação novos Clientes",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82295,
                   "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -30108,8 +30092,8 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 4,
-              "atendidosFora": 0,
+              "atendidosDentro": 3,
+              "atendidosFora": 1,
               "pendentes": 1,
               "chamados": [
                 {
@@ -30117,8 +30101,8 @@
                   "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82168,
@@ -30174,7 +30158,7 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 0,
               "atendidosFora": 4,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81855,
@@ -30207,6 +30191,14 @@
                   "prazo": "2026-08-10",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82304,
+                  "cliente": "HN LEONE ADMINISTRAÇÃO DE BENS LTDA",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -30396,9 +30388,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81777,
@@ -30429,8 +30421,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82288,
@@ -31439,15 +31431,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 70,
+          "abertos": 72,
           "atendidos": 6,
-          "pendentes": 64,
+          "pendentes": 66,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 22,
+              "pendentes": 23,
               "chamados": [
                 {
                   "id": 81732,
@@ -31640,6 +31632,14 @@
                   "prazo": "2026-08-14",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82300,
+                  "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -31647,7 +31647,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 4,
-              "pendentes": 42,
+              "pendentes": 43,
               "chamados": [
                 {
                   "id": 81764,
@@ -32014,6 +32014,14 @@
                   "cliente": "MERCADO PONTO CERTO DE TERESOPOLIS LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82303,
+                  "cliente": "LABOR SERVIÇOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-13",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
