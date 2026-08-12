@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "12/08/2026 14:18",
+  "atualizado_em": "12/08/2026 14:54",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 118,
-          "atendidos": 112,
-          "pendentes": 6,
+          "atendidos": 117,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 94,
+              "atendidosDentro": 99,
               "atendidosFora": 18,
-              "pendentes": 6,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -18037,8 +18037,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82285,
@@ -18053,32 +18053,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82287,
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82289,
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82291,
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -18292,22 +18292,22 @@
         {
           "mes": "2026-08",
           "abertos": 4,
-          "atendidos": 3,
-          "pendentes": 1,
+          "atendidos": 4,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82278,
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -22245,9 +22245,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 32,
+          "abertos": 33,
           "atendidos": 31,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22333,7 +22333,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 8,
               "atendidosFora": 7,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82279,
@@ -22382,6 +22382,14 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82293,
+                  "cliente": "COMERCIO DE ALIMENTOS VICALI LTDA",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82187,
@@ -29526,8 +29534,8 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 172,
-          "atendidos": 119,
+          "abertos": 173,
+          "atendidos": 120,
           "pendentes": 53,
           "categorias": [
             {
@@ -29971,6 +29979,22 @@
               ]
             },
             {
+              "nome": "Docs Implantação novos Clientes",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82295,
+                  "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Encerramento de Empresa",
               "atendidosDentro": 0,
               "atendidosFora": 1,
@@ -30164,9 +30188,9 @@
             },
             {
               "nome": "Processo de Prefeitura",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 10,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81934,
@@ -30277,8 +30301,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -31196,6 +31220,35 @@
                   "prazo": "2026-08-13",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_dentro"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "RJ - DP",
+      "meses": [
+        {
+          "mes": "2026-08",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "Documentação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82294,
+                  "cliente": "COUTINHO PAIS SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
