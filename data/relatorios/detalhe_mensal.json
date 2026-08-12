@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "12/08/2026 15:56",
+  "atualizado_em": "12/08/2026 16:27",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -29543,8 +29543,8 @@
         {
           "mes": "2026-08",
           "abertos": 175,
-          "atendidos": 123,
-          "pendentes": 52,
+          "atendidos": 124,
+          "pendentes": 51,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30444,9 +30444,9 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81836,
@@ -30461,8 +30461,8 @@
                   "cliente": "BOMBEIROS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANÇA LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 }
               ]
             },
