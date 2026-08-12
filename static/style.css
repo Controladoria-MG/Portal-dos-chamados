@@ -472,6 +472,16 @@ td.num-cell, th.num-cell { text-align: center; font-variant-numeric: tabular-num
   font-size: 0.78rem; color: var(--text-dim); line-height: 1.45;
   font-family: 'Segoe UI', Arial, sans-serif;
 }
+.ticket-historico {
+  display: flex; flex-direction: column; gap: 0.3rem;
+  margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px solid var(--border);
+}
+.hist-lista { list-style: none; display: flex; flex-direction: column; gap: 0.2rem; }
+.hist-item {
+  font-size: 0.78rem; color: var(--text-dim);
+  border-left: 2px solid var(--secondary); padding-left: 8px;
+}
+.hist-em { color: var(--muted); font-size: 0.7rem; }
 
 /* ─── BADGES ─────────────────────────────────────────────────────── */
 .badge {

@@ -2,6 +2,7 @@
 
 const DATA_PATH = 'data/base.xlsx';
 const INFO_PATH = 'data/base_info.json';
+const HISTORICO_PREVISAO_PATH = 'data/historico_previsao.json';
 
 /* ─── STATE ──────────────────────────────────────────────────────── */
 let allData          = [];
@@ -11,6 +12,7 @@ let openClientRow    = null;
 let activeTab        = 'pendentes'; // 'pendentes' | 'retornados'
 let currentDeptTemDeptoAnterior = false; // dept atual tem chamados "Devolvido para Solicitante"?
 let currentClientRowsMap = {}; // IdCliente -> chamados do cliente (dept/aba atuais) — usado por applyFilters
+let historicoPrevisao    = {}; // Id do chamado -> [{em, de, para}, ...]
 
 /* ─── FILTROS (CATEGORIA / RESPONSÁVEL / STATUS / VENCIMENTO) ────── */
 const FILTER_DEFS = [
@@ -170,6 +172,21 @@ async function carregarDataAtualizacao() {
   }
 }
 
+/* ─── HISTÓRICO DE PREVISÃO ──────────────────────────────────────────
+   Lê data/historico_previsao.json (gravado pelo pipeline a cada rodada
+   em que a Previsão de Atendimento de um chamado aberto muda) para
+   exibir, no card do chamado, quando e de que data pra que data a
+   previsão foi alterada. */
+async function carregarHistoricoPrevisao() {
+  try {
+    const res = await fetch(HISTORICO_PREVISAO_PATH);
+    if (!res.ok) throw new Error('historico_previsao.json não encontrado');
+    historicoPrevisao = await res.json();
+  } catch (e) {
+    historicoPrevisao = {};
+  }
+}
+
 /* ─── INIT ───────────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
@@ -179,6 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadData();
   buildFilterDropdowns();
   carregarDetalheMensal();
+  carregarHistoricoPrevisao();
 });
 
 /* ─── LOAD XLSX ──────────────────────────────────────────────────── */
@@ -771,10 +789,20 @@ function toggleClientDetail(tr, client) {
   td.innerHTML = `
     <div class="detail-inner">
       <div class="ticket-list">
-        ${visibleRows.map(r => `
+        ${visibleRows.map(r => {
+          const chamadoId = String(col(r,'Id','ID','id')||'');
+          const hist = historicoPrevisao[chamadoId] || [];
+          const histHtml = hist.length ? `
+            <div class="ticket-historico">
+              <span class="f-label">Histórico de previsão</span>
+              <ul class="hist-lista">
+                ${hist.map(h => `<li class="hist-item">${escHtml(h.de || '—')} → ${escHtml(h.para || '—')} <span class="hist-em">(em ${escHtml(h.em || '—')})</span></li>`).join('')}
+              </ul>
+            </div>` : '';
+          return `
           <div class="ticket-card">
             <div class="ticket-top">
-              <div class="ticket-field"><span class="f-label">ID</span><span class="f-value f-id">${escHtml(String(col(r,'Id','ID','id')||'—'))}</span></div>
+              <div class="ticket-field"><span class="f-label">ID</span><span class="f-value f-id">${escHtml(chamadoId||'—')}</span></div>
               <div class="ticket-field"><span class="f-label">Categoria</span><span class="f-value">${escHtml(String(col(r,'Categoria','categoria')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Responsável</span><span class="f-value">${escHtml(String(col(r,'Responsavel','Responsável','responsavel')||'—'))}</span></div>
               <div class="ticket-field"><span class="f-label">Coordenador</span><span class="f-value">${escHtml(String(col(r,'Coordenador','coordenador')||'—'))}</span></div>
@@ -791,7 +819,9 @@ function toggleClientDetail(tr, client) {
               <span class="f-label">Solicitação</span>
               <p class="f-solicitacao">${escHtml(String(col(r,'Solicitacao','Solicitação','solicitacao','solicitação')||'—'))}</p>
             </div>
-          </div>`).join('')}
+            ${histHtml}
+          </div>`;
+        }).join('')}
       </div>
     </div>`;
 
