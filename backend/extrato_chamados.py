@@ -151,6 +151,11 @@ TIPOS_EXTRACAO = {
         "descricao":    "Gerência de Contas do Rio de Janeiro",
         "departamentos": ["RJ - GC", "RJ - GC ADMINISTRATIVO"],
     },
+    "9": {
+        "label":        "RJ Paralegal",
+        "descricao":    "Apenas Paralegal do Rio de Janeiro",
+        "departamentos": ["RJ - PARALEGAL"],
+    },
 }
 
 # Opção "Todas (seq.)" do menu de extração — sempre a próxima chave livre
