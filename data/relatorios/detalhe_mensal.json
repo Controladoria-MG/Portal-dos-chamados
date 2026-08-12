@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/08/2026 17:52",
+  "atualizado_em": "12/08/2026 08:45",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,14 +17126,14 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 108,
-          "atendidos": 106,
+          "abertos": 109,
+          "atendidos": 107,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 90,
-              "atendidosFora": 16,
+              "atendidosFora": 17,
               "pendentes": 2,
               "chamados": [
                 {
@@ -17709,8 +17709,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82130,
@@ -17999,6 +17999,14 @@
                   "prazo": "2026-08-12",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82259,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -20065,13 +20073,13 @@
         {
           "mes": "2026-08",
           "abertos": 16,
-          "atendidos": 15,
-          "pendentes": 1,
+          "atendidos": 16,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 3,
-              "atendidosFora": 2,
+              "atendidosDentro": 2,
+              "atendidosFora": 3,
               "pendentes": 0,
               "chamados": [
                 {
@@ -20103,8 +20111,8 @@
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82047,
@@ -20134,9 +20142,9 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81875,
@@ -20159,8 +20167,8 @@
                   "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82213,
@@ -24000,8 +24008,8 @@
         {
           "mes": "2026-07",
           "abertos": 49,
-          "atendidos": 47,
-          "pendentes": 2,
+          "atendidos": 48,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -24446,8 +24454,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 1,
+              "atendidosFora": 5,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81502,
@@ -24462,8 +24470,8 @@
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81284,
@@ -24496,8 +24504,8 @@
         {
           "mes": "2026-08",
           "abertos": 16,
-          "atendidos": 9,
-          "pendentes": 7,
+          "atendidos": 12,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -24565,41 +24573,41 @@
             },
             {
               "nome": "Multas Diversas",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82210,
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82211,
                   "cliente": "AEROINDUSTRIAL INSTALAÇÕES DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "PER/DCOMP - Intimação/Comunicado",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82195,
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -25908,24 +25916,16 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 19,
-          "atendidos": 4,
-          "pendentes": 15,
+          "abertos": 18,
+          "atendidos": 6,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 2,
               "chamados": [
-                {
-                  "id": 82038,
-                  "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
-                  "dataCadastro": "2026-08-07",
-                  "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 82061,
                   "cliente": "Centro de Distribuição de Alimentos Penha Eireli",
@@ -25939,8 +25939,8 @@
                   "cliente": "SUPERMERCADO CIAMDRIGHI LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82046,
@@ -26035,8 +26035,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81930,
@@ -26059,8 +26059,8 @@
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-08-04",
                   "prazo": "2026-08-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81989,
@@ -27289,9 +27289,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 28,
+          "abertos": 29,
           "atendidos": 2,
-          "pendentes": 26,
+          "pendentes": 27,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -27360,6 +27360,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82038,
+                  "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -29374,9 +29390,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 167,
-          "atendidos": 109,
-          "pendentes": 58,
+          "abertos": 168,
+          "atendidos": 112,
+          "pendentes": 56,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -29878,7 +29894,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81909,
@@ -29903,6 +29919,14 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82258,
+                  "cliente": "PROMOTORAS GYN LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -30268,9 +30292,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 34,
+              "atendidosDentro": 37,
               "atendidosFora": 14,
-              "pendentes": 30,
+              "pendentes": 27,
               "chamados": [
                 {
                   "id": 81736,
@@ -30773,8 +30797,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82220,
@@ -30821,8 +30845,8 @@
                   "cliente": "MERCADINHO RIZARDI CAJAMAR LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82227,
@@ -30861,8 +30885,8 @@
                   "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 02)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82240,
@@ -31133,15 +31157,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 63,
-          "atendidos": 5,
-          "pendentes": 58,
+          "abertos": 67,
+          "atendidos": 6,
+          "pendentes": 61,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 16,
+              "atendidosFora": 2,
+              "pendentes": 19,
               "chamados": [
                 {
                   "id": 81732,
@@ -31204,8 +31228,8 @@
                   "cliente": "OAK MÍDIA DIGITAL SUBLIMAÇÃO E CENOGRAFIA LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82032,
@@ -31273,6 +31297,38 @@
                 },
                 {
                   "id": 82245,
+                  "cliente": "SUPERMIX 44 DISTRIBUIDORA DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82260,
+                  "cliente": "VEGRA COMERCIO DE DOCES LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82261,
+                  "cliente": "JUMA SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82262,
+                  "cliente": "JF RIO ALIMENTOS LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82263,
                   "cliente": "SUPERMIX 44 DISTRIBUIDORA DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-14",
