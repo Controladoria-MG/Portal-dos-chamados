@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "12/08/2026 10:05",
+  "atualizado_em": "12/08/2026 10:29",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 111,
-          "atendidos": 107,
-          "pendentes": 4,
+          "atendidos": 110,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 90,
+              "atendidosDentro": 93,
               "atendidosFora": 17,
-              "pendentes": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -18005,24 +18005,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82269,
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82272,
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-12",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -31197,15 +31197,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 69,
+          "abertos": 70,
           "atendidos": 6,
-          "pendentes": 63,
+          "pendentes": 64,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 21,
+              "pendentes": 22,
               "chamados": [
                 {
                   "id": 81732,
@@ -31388,6 +31388,14 @@
                   "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82274,
+                  "cliente": "CRUZEIRO DO SUL MERCADO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
