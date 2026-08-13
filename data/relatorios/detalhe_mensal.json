@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/08/2026 16:25",
+  "atualizado_em": "13/08/2026 17:22",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 130,
-          "atendidos": 129,
-          "pendentes": 1,
+          "atendidos": 130,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 105,
+              "atendidosDentro": 106,
               "atendidosFora": 24,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81735,
@@ -18082,7 +18082,7 @@
                 },
                 {
                   "id": 82299,
-                  "cliente": "B&SOLAR PARTICIPACOES LTDA",
+                  "cliente": "B&SOLAR PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
                   "dataEntrega": "2026-08-12",
@@ -18173,8 +18173,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -29742,9 +29742,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 213,
+          "abertos": 214,
           "atendidos": 128,
-          "pendentes": 85,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30422,7 +30422,7 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 0,
               "atendidosFora": 4,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81855,
@@ -30461,6 +30461,14 @@
                   "cliente": "HN LEONE ADMINISTRAÇÃO DE BENS LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82395,
+                  "cliente": " SUPERMERCADOS BANDEIRA LTDA.",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -32007,9 +32015,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 81,
+          "abertos": 93,
           "atendidos": 8,
-          "pendentes": 73,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -32287,7 +32295,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 4,
-              "pendentes": 44,
+              "pendentes": 56,
               "chamados": [
                 {
                   "id": 81764,
@@ -32670,6 +32678,102 @@
                   "cliente": "JEM TRUCK TRANSPORTE DE CARGAS E TERRAPLANAGEM LTDA ",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82388,
+                  "cliente": "RENASCER SERVIÇOS DE APOIO ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82389,
+                  "cliente": "MERCADO EBENEZER COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82390,
+                  "cliente": "RENASCER SERVIÇOS DE APOIO ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82391,
+                  "cliente": "RENASCER SERVIÇOS DE APOIO ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82392,
+                  "cliente": "ACE FRUIT COMERCIO DE ALIMENTOS LTDA - ME",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82393,
+                  "cliente": "ACE FRUIT COMERCIO DE ALIMENTOS LTDA (Filial 2)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82394,
+                  "cliente": "DBM APOIO ADMINISTRATIVO EIRELI",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82396,
+                  "cliente": "ASA FORTE COMERCIO DE RAÇÕES LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82397,
+                  "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82398,
+                  "cliente": "Asa Servprime Servicos de Apoio LTDA ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82399,
+                  "cliente": "MACROZÃO STRATEGY SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82400,
+                  "cliente": "ZHAO CENTER COMERCIO LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
