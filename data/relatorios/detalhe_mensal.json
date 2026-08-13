@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/08/2026 13:38",
+  "atualizado_em": "13/08/2026 15:54",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,14 +17126,14 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 126,
-          "atendidos": 125,
+          "abertos": 129,
+          "atendidos": 128,
           "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 102,
-              "atendidosFora": 23,
+              "atendidosDentro": 104,
+              "atendidosFora": 24,
               "pendentes": 1,
               "chamados": [
                 {
@@ -17709,7 +17709,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-12",
+                  "dataEntrega": "2026-08-13",
                   "status": "atendido_fora"
                 },
                 {
@@ -17861,8 +17861,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82193,
@@ -18138,6 +18138,30 @@
                 },
                 {
                   "id": 82356,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82369,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82377,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82378,
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
@@ -20224,9 +20248,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 20,
+          "abertos": 21,
           "atendidos": 17,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -20312,7 +20336,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81875,
@@ -20337,6 +20361,14 @@
                   "prazo": "2026-08-12",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82365,
+                  "cliente": "J D COMERCIO DE ARTES E EXPOSIÇÕES LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82213,
@@ -23210,9 +23242,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 13,
+          "abertos": 14,
           "atendidos": 8,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23250,7 +23282,7 @@
               "nome": "Documentação",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82243,
@@ -23323,6 +23355,14 @@
                   "prazo": "2026-08-11",
                   "dataEntrega": "2026-08-12",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82374,
+                  "cliente": "ERS PRINT SOLUÇÕES GRAFICAS E VISUAIS LTDA ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -24775,9 +24815,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 15,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -24896,6 +24936,22 @@
                   "prazo": "2026-08-06",
                   "dataEntrega": "2026-08-04",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82367,
+                  "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27521,15 +27577,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 33,
+          "abertos": 34,
           "atendidos": 4,
-          "pendentes": 29,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 82144,
@@ -27592,6 +27648,14 @@
                   "cliente": "INTERCAP PUBLICIDADE E PROPAGANDA LTDA ",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82370,
+                  "cliente": "TOME AGROVETERINARIA LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -28111,8 +28175,8 @@
         {
           "mes": "2026-07",
           "abertos": 169,
-          "atendidos": 120,
-          "pendentes": 49,
+          "atendidos": 119,
+          "pendentes": 50,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28405,8 +28469,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 8,
-              "pendentes": 5,
+              "atendidosFora": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81019,
@@ -28509,8 +28573,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -29662,9 +29726,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 211,
+          "abertos": 213,
           "atendidos": 128,
-          "pendentes": 83,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -29934,7 +29998,7 @@
               "nome": "Ata de Reunião de Sócios",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82191,
@@ -29943,6 +30007,14 @@
                   "prazo": "2026-08-13",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82368,
+                  "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -29982,7 +30054,7 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81905,
@@ -29999,6 +30071,14 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-10",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82366,
+                  "cliente": "FILM FACIL LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -31701,15 +31781,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 11,
+          "abertos": 12,
           "atendidos": 1,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 81785,
@@ -31782,6 +31862,14 @@
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82380,
+                  "cliente": "LABOR SERVIÇOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -31822,19 +31910,72 @@
       ]
     },
     {
+      "nome": "RJ - PARALEGAL",
+      "meses": [
+        {
+          "mes": "2026-08",
+          "abertos": 4,
+          "atendidos": 1,
+          "pendentes": 3,
+          "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 1,
+              "atendidosFora": 0,
+              "pendentes": 3,
+              "chamados": [
+                {
+                  "id": 81834,
+                  "cliente": "GODINHO SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82153,
+                  "cliente": "PONTO CERTO ACOUGUE LTDA",
+                  "dataCadastro": "2026-08-10",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82329,
+                  "cliente": "JEM TRUCK TRANSPORTE DE CARGAS E TERRAPLANAGEM LTDA ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82332,
+                  "cliente": "OAK MÍDIA DIGITAL SUBLIMAÇÃO E CENOGRAFIA LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "nome": "RJ GERENCIA DE CONTAS",
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 76,
+          "abertos": 81,
           "atendidos": 8,
-          "pendentes": 68,
+          "pendentes": 73,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 24,
+              "pendentes": 29,
               "chamados": [
                 {
                   "id": 81732,
@@ -32057,6 +32198,46 @@
                   "cliente": "TESIP SERVIÇOS OPERACIONAIS LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82372,
+                  "cliente": "EQUIPLEVE COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82373,
+                  "cliente": "EQUIP SERVICES LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82375,
+                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82376,
+                  "cliente": "LABOR SP SERVIÇOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82379,
+                  "cliente": "LFOP SERVICOS DE APOIO LTDA ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
