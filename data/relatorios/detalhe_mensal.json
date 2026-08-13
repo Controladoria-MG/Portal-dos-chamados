@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/08/2026 17:22",
+  "atualizado_em": "13/08/2026 18:14",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -5660,8 +5660,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 126,
-              "atendidosFora": 177,
+              "atendidosDentro": 125,
+              "atendidosFora": 178,
               "pendentes": 0,
               "chamados": [
                 {
@@ -8029,8 +8029,8 @@
                   "cliente": "ALDEBARAN DISTRIBUIDORA E COMÉRCIO DE MATERIAL MÉDICO E HOSPITALAR LTDA",
                   "dataCadastro": "2026-03-31",
                   "prazo": "2026-04-02",
-                  "dataEntrega": "2026-03-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 78360,
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 130,
-          "atendidos": 130,
-          "pendentes": 0,
+          "abertos": 135,
+          "atendidos": 134,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 106,
+              "atendidosDentro": 110,
               "atendidosFora": 24,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -18175,6 +18175,46 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": "2026-08-13",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82401,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82402,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82403,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82406,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82407,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -29743,8 +29783,8 @@
         {
           "mes": "2026-08",
           "abertos": 214,
-          "atendidos": 128,
-          "pendentes": 86,
+          "atendidos": 130,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30660,9 +30700,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81777,
@@ -30701,8 +30741,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -30765,8 +30805,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 43,
-              "atendidosFora": 16,
-              "pendentes": 52,
+              "atendidosFora": 17,
+              "pendentes": 51,
               "chamados": [
                 {
                   "id": 81736,
@@ -31221,8 +31261,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82108,
@@ -32015,15 +32055,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 93,
+          "abertos": 96,
           "atendidos": 8,
-          "pendentes": 85,
+          "pendentes": 88,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 29,
+              "pendentes": 32,
               "chamados": [
                 {
                   "id": 81732,
@@ -32286,6 +32326,30 @@
                   "cliente": "LFOP SERVICOS DE APOIO LTDA ",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82404,
+                  "cliente": "ROCHA E FILHO LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82405,
+                  "cliente": "ROCHA E BORGES SERVICOS OPERACIONAIS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82408,
+                  "cliente": "ROCHA E FILHO LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
