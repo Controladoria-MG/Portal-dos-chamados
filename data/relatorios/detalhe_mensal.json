@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/08/2026 10:42",
+  "atualizado_em": "13/08/2026 12:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14812,8 +14812,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 160,
-              "atendidosFora": 124,
+              "atendidosDentro": 159,
+              "atendidosFora": 125,
               "pendentes": 0,
               "chamados": [
                 {
@@ -15397,8 +15397,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-10",
                   "prazo": "2026-07-13",
-                  "dataEntrega": "2026-07-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80950,
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 122,
-          "atendidos": 121,
-          "pendentes": 1,
+          "abertos": 126,
+          "atendidos": 124,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 102,
-              "atendidosFora": 19,
-              "pendentes": 1,
+              "atendidosDentro": 101,
+              "atendidosFora": 23,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81735,
@@ -17437,8 +17437,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81923,
@@ -17549,8 +17549,8 @@
                   "cliente": "BF COMERCIO DE ARTIGOS PARA FESTAS, EMBALAGENS E ALIMENTOS LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82012,
@@ -17813,15 +17813,15 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82172,
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-10",
+                  "dataEntrega": "2026-08-13",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17901,7 +17901,7 @@
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-11",
+                  "dataEntrega": "2026-08-13",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17909,7 +17909,7 @@
                   "cliente": "CZLOC LOCACAO DE EQUIPAMENTOS PARA CONSTRUCAO CIVIL LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-11",
+                  "dataEntrega": "2026-08-13",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17917,7 +17917,7 @@
                   "cliente": "CONCEITO ESTRUTURA LOCADORA LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-11",
+                  "dataEntrega": "2026-08-13",
                   "status": "atendido_dentro"
                 },
                 {
@@ -17925,8 +17925,8 @@
                   "cliente": "FB COMERCIO DE PRODUTOS E ARTIGOS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82205,
@@ -18111,6 +18111,38 @@
                   "prazo": "2026-08-14",
                   "dataEntrega": "2026-08-13",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82333,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82346,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82349,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82356,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -20192,9 +20224,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 17,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -20360,8 +20392,16 @@
               "nome": "Pesquisa IBGE",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 82335,
+                  "cliente": "CALIMAN'S COMERCIO DE ARTESANATOS EM GERAL LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81872,
                   "cliente": "TSN TECHNICAL SERVICE NETWORK LTDA",
@@ -27482,8 +27522,8 @@
         {
           "mes": "2026-08",
           "abertos": 33,
-          "atendidos": 5,
-          "pendentes": 28,
+          "atendidos": 4,
+          "pendentes": 29,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -27743,9 +27783,9 @@
             },
             {
               "nome": "Solicitação do cliente",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81892,
@@ -27792,8 +27832,8 @@
                   "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 06)",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82199,
@@ -28071,8 +28111,8 @@
         {
           "mes": "2026-07",
           "abertos": 169,
-          "atendidos": 119,
-          "pendentes": 50,
+          "atendidos": 121,
+          "pendentes": 48,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28365,8 +28405,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 7,
-              "pendentes": 6,
+              "atendidosFora": 9,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81019,
@@ -28381,8 +28421,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81055,
@@ -28429,24 +28469,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81247,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81248,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81348,
@@ -28461,16 +28501,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81423,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -29622,9 +29662,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 187,
+          "abertos": 209,
           "atendidos": 129,
-          "pendentes": 58,
+          "pendentes": 80,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -29790,7 +29830,7 @@
               "nome": "Alteração de Contabilista",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82107,
@@ -29815,6 +29855,14 @@
                   "prazo": "2026-08-12",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82359,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -30612,9 +30660,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 44,
-              "atendidosFora": 15,
-              "pendentes": 29,
+              "atendidosDentro": 43,
+              "atendidosFora": 16,
+              "pendentes": 50,
               "chamados": [
                 {
                   "id": 81736,
@@ -30965,8 +31013,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82022,
@@ -31319,6 +31367,174 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82336,
+                  "cliente": "MARTINICA COMERCIAL LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82337,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82338,
+                  "cliente": "SUPERMERCADO CAMILÓPOLIS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82339,
+                  "cliente": "SUPERMERCADO MATRIZ LTDA ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82340,
+                  "cliente": "COMÉRCIO DE HORTI FRUTTI LEONILDA LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82341,
+                  "cliente": "ABS DISTRIBUIDORA LTDA ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82342,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F9)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82343,
+                  "cliente": "EMPORIUM SAN GENNARO DO ABC EIRELI ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82344,
+                  "cliente": "MIKAIL APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82345,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 47)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82347,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 49)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82348,
+                  "cliente": "Cucinare Pro Alimentaçao Ltda (FL 51)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82350,
+                  "cliente": "YUKO COMÉRCIO DE ALIMENTOS E SERVIÇOS EIRELI",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82351,
+                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 14)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82352,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 65)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82353,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 74)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82354,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 72)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82355,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 73)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82357,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 75)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82358,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 76)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82362,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 63)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -31332,30 +31548,30 @@
         {
           "mes": "2026-08",
           "abertos": 9,
-          "atendidos": 1,
-          "pendentes": 8,
+          "atendidos": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 7,
+              "atendidosFora": 2,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81769,
                   "cliente": "RIO SÃO PAULO MAXIMO DROGARIAS LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81773,
                   "cliente": "ACADEMIA MAXIMAFITNESS NOVA IGUAÇU LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81788,
@@ -31401,17 +31617,17 @@
             },
             {
               "nome": "Conciliação de Contas",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82115,
                   "cliente": "DISTRIBUIDORA BRAZLIMP LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -31595,14 +31811,14 @@
         {
           "mes": "2026-08",
           "abertos": 4,
-          "atendidos": 0,
-          "pendentes": 4,
+          "atendidos": 1,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81834,
@@ -31617,8 +31833,8 @@
                   "cliente": "PONTO CERTO ACOUGUE LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82329,
@@ -31647,15 +31863,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 73,
-          "atendidos": 6,
-          "pendentes": 67,
+          "abertos": 76,
+          "atendidos": 8,
+          "pendentes": 68,
           "categorias": [
             {
               "nome": "Apontamentos",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 23,
+              "pendentes": 24,
               "chamados": [
                 {
                   "id": 81732,
@@ -31774,16 +31990,16 @@
                   "cliente": "CRUZEIRO DO SUL MERCADO LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82225,
                   "cliente": "CRUZEIRO DO SUL MERCADO LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82245,
@@ -31854,6 +32070,30 @@
                   "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82334,
+                  "cliente": "ALL MASTER FORNECIMENTO DE MAO DE OBRA LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82360,
+                  "cliente": "ENERFLUX SERVICOS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82361,
+                  "cliente": "TESIP SERVIÇOS OPERACIONAIS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
