@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/08/2026 15:54",
+  "atualizado_em": "13/08/2026 16:25",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 129,
-          "atendidos": 128,
+          "abertos": 130,
+          "atendidos": 129,
           "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 104,
+              "atendidosDentro": 105,
               "atendidosFora": 24,
               "pendentes": 1,
               "chamados": [
@@ -17941,8 +17941,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82216,
@@ -18167,6 +18167,14 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": "2026-08-13",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82387,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -22374,8 +22382,8 @@
         {
           "mes": "2026-08",
           "abertos": 36,
-          "atendidos": 32,
-          "pendentes": 4,
+          "atendidos": 34,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22611,9 +22619,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82088,
@@ -22644,16 +22652,16 @@
                   "cliente": "TOME AGROVETERINARIA LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82302,
                   "cliente": "TOME AGROVETERINARIA LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -23242,9 +23250,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 14,
+          "abertos": 15,
           "atendidos": 8,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23282,7 +23290,7 @@
               "nome": "Documentação",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 82243,
@@ -23359,6 +23367,14 @@
                 {
                   "id": 82374,
                   "cliente": "ERS PRINT SOLUÇÕES GRAFICAS E VISUAIS LTDA ",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82381,
+                  "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-21",
                   "dataEntrega": null,
@@ -31643,9 +31659,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 9,
+          "abertos": 11,
           "atendidos": 4,
-          "pendentes": 5,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31731,7 +31747,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82164,
@@ -31740,6 +31756,30 @@
                   "prazo": "2026-08-13",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82383,
+                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Documentação Contábil",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82382,
+                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
