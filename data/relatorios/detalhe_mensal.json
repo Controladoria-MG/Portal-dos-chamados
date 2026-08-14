@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/08/2026 12:21",
+  "atualizado_em": "14/08/2026 12:43",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -28295,8 +28295,8 @@
         {
           "mes": "2026-07",
           "abertos": 169,
-          "atendidos": 119,
-          "pendentes": 50,
+          "atendidos": 121,
+          "pendentes": 48,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -29293,8 +29293,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 6,
-              "atendidosFora": 41,
-              "pendentes": 21,
+              "atendidosFora": 43,
+              "pendentes": 19,
               "chamados": [
                 {
                   "id": 80961,
@@ -29485,16 +29485,16 @@
                   "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 02)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81364,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 61)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81365,
@@ -29846,9 +29846,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 227,
-          "atendidos": 137,
-          "pendentes": 90,
+          "abertos": 228,
+          "atendidos": 139,
+          "pendentes": 89,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30940,9 +30940,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 48,
+              "atendidosDentro": 50,
               "atendidosFora": 17,
-              "pendentes": 50,
+              "pendentes": 49,
               "chamados": [
                 {
                   "id": 81736,
@@ -31645,16 +31645,16 @@
                   "cliente": "GHOST KITCHENS ALIMENTOS LTDA (FILIAL)",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82336,
                   "cliente": "MARTINICA COMERCIAL LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82337,
@@ -31859,6 +31859,14 @@
                 {
                   "id": 82438,
                   "cliente": "DISTRIBUIDORA GESSO 3000 LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82440,
+                  "cliente": "J MATERIAIS DE CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
                   "dataEntrega": null,
@@ -32240,8 +32248,8 @@
         {
           "mes": "2026-08",
           "abertos": 100,
-          "atendidos": 8,
-          "pendentes": 92,
+          "atendidos": 10,
+          "pendentes": 90,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -32549,9 +32557,9 @@
             },
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 4,
-              "pendentes": 59,
+              "pendentes": 57,
               "chamados": [
                 {
                   "id": 81764,
@@ -33038,16 +33046,16 @@
                   "cliente": "G TOMAZ COMERCIO DE MADEIRAS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82432,
                   "cliente": "DIBRAMASUL MADEIRAS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82433,
