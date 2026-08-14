@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/08/2026 18:14",
+  "atualizado_em": "14/08/2026 09:08",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 135,
-          "atendidos": 134,
-          "pendentes": 1,
+          "abertos": 137,
+          "atendidos": 137,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 110,
+              "atendidosDentro": 113,
               "atendidosFora": 24,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81735,
@@ -18213,8 +18213,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82409,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82410,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -20297,8 +20313,8 @@
         {
           "mes": "2026-08",
           "abertos": 21,
-          "atendidos": 17,
-          "pendentes": 4,
+          "atendidos": 18,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -20382,9 +20398,9 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81875,
@@ -20415,8 +20431,8 @@
                   "cliente": "J D COMERCIO DE ARTES E EXPOSIÇÕES LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82213,
@@ -23227,8 +23243,8 @@
         {
           "mes": "2026-07",
           "abertos": 4,
-          "atendidos": 3,
-          "pendentes": 1,
+          "atendidos": 4,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Documentação",
@@ -23273,16 +23289,16 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81115,
                   "cliente": "ASSOCIAÇÃO PORTUGUESA DE DESPORTOS ",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -23291,22 +23307,22 @@
         {
           "mes": "2026-08",
           "abertos": 15,
-          "atendidos": 8,
-          "pendentes": 7,
+          "atendidos": 9,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82052,
                   "cliente": "Comércio de Horti Frutti Catroque Ltda.",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82054,
@@ -29782,9 +29798,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 214,
+          "abertos": 215,
           "atendidos": 130,
-          "pendentes": 84,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30398,7 +30414,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81879,
@@ -30437,6 +30453,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82411,
+                  "cliente": "SUPERMERCADO SANTA MARIA LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
