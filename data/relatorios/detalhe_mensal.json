@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/08/2026 15:48",
+  "atualizado_em": "14/08/2026 16:00",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -29894,9 +29894,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 231,
+          "abertos": 232,
           "atendidos": 142,
-          "pendentes": 89,
+          "pendentes": 90,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30942,7 +30942,7 @@
               "nome": "Regularização de Débitos",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81836,
@@ -30959,6 +30959,14 @@
                   "prazo": "2026-08-14",
                   "dataEntrega": "2026-08-12",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82466,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -30996,8 +31004,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 53,
-              "atendidosFora": 17,
+              "atendidosDentro": 52,
+              "atendidosFora": 18,
               "pendentes": 48,
               "chamados": [
                 {
@@ -31141,8 +31149,8 @@
                   "cliente": "A Estancia Morro Grande Centro de Reabilitacao Social (Filial 1)",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81963,
@@ -32125,15 +32133,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 1,
-          "pendentes": 15,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 14,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 81785,
@@ -32246,6 +32254,14 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82464,
+                  "cliente": "M.PAIS ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32351,9 +32367,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 103,
+          "abertos": 109,
           "atendidos": 10,
-          "pendentes": 93,
+          "pendentes": 99,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -32639,7 +32655,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
               "atendidosFora": 4,
-              "pendentes": 63,
+              "pendentes": 69,
               "chamados": [
                 {
                   "id": 81764,
@@ -33188,6 +33204,54 @@
                 {
                   "id": 82458,
                   "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA FILIAL 01",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82459,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82460,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO E PRODUTOS ALIMENTICIOS LTDA (FILIAL 04)",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82461,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA (FILIAL 5)",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82462,
+                  "cliente": "COUTINHO PAIS SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82463,
+                  "cliente": "M.PAIS ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82465,
+                  "cliente": "Santos & Pais Servicos de Apoio LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
                   "dataEntrega": null,
