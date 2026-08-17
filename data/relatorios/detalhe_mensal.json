@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 14:42",
+  "atualizado_em": "17/08/2026 14:55",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17132,8 +17132,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 119,
-              "atendidosFora": 31,
+              "atendidosDentro": 117,
+              "atendidosFora": 33,
               "pendentes": 3,
               "chamados": [
                 {
@@ -18069,8 +18069,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82291,
@@ -18189,8 +18189,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82403,
@@ -30143,8 +30143,8 @@
         {
           "mes": "2026-08",
           "abertos": 235,
-          "atendidos": 148,
-          "pendentes": 87,
+          "atendidos": 147,
+          "pendentes": 88,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31260,9 +31260,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 53,
+              "atendidosDentro": 52,
               "atendidosFora": 22,
-              "pendentes": 45,
+              "pendentes": 46,
               "chamados": [
                 {
                   "id": 81736,
@@ -31981,8 +31981,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82338,
