@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 14:55",
+  "atualizado_em": "17/08/2026 15:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -26541,14 +26541,14 @@
         {
           "mes": "2026-08",
           "abertos": 20,
-          "atendidos": 5,
-          "pendentes": 15,
+          "atendidos": 7,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82038,
@@ -26587,16 +26587,16 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82453,
@@ -26611,8 +26611,8 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 }
               ]
             },
