@@ -1598,6 +1598,18 @@ function chamadosCobrados(tickets) {
   return linhas;
 }
 
+/* Converte um Date (já normalizado para meia-noite LOCAL pelo parsePrazoDate)
+   para o número de série do Excel, sem passar pelo conversor de Date da
+   xlsx-js-style — que tem um bug e grava ~28s antes do esperado, fazendo a
+   data cair no dia anterior às 23:59 quando formatada como dd/mm/yyyy. */
+function dateParaSerialExcel(date) {
+  if (!date) return null;
+  const utcMidnight = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
+  return Math.round(utcMidnight / 86400000) + 25569;
+}
+
+const PLANILHA_COBRANCA_COLS_DATA = new Set(['Data Cadastro', 'Data Previsao Atendimento']);
+
 function linhaPlanilhaCobranca(r) {
   return {
     'Id':                          col(r, 'Id', 'ID', 'id'),
@@ -1607,9 +1619,9 @@ function linhaPlanilhaCobranca(r) {
     'Cliente':                     col(r, 'Cliente', 'cliente'),
     'Responsavel':                 col(r, 'Responsavel', 'Responsável', 'responsavel'),
     'Departamento Responsavel':    col(r, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento'),
-    'Data Cadastro':               parsePrazoDate(col(r, 'Data Cadastro', 'DataCadastro', 'Data_Cadastro')),
+    'Data Cadastro':               dateParaSerialExcel(parsePrazoDate(col(r, 'Data Cadastro', 'DataCadastro', 'Data_Cadastro'))),
     'Situacao':                    col(r, 'Status', 'status'),
-    'Data Previsao Atendimento':   parsePrazoDate(previsaoVal(r)),
+    'Data Previsao Atendimento':   dateParaSerialExcel(parsePrazoDate(previsaoVal(r))),
   };
 }
 
@@ -1657,7 +1669,7 @@ function baixarPlanilhaCobranca() {
         continue;
       }
 
-      const isDate = cell.t === 'd';
+      const isDate = cell.t === 'n' && PLANILHA_COBRANCA_COLS_DATA.has(headers[C]);
       cell.s = {
         font: { sz: 11 },
         alignment: { vertical: 'center', wrapText: C === 2, ...(isDate ? { horizontal: 'center' } : {}) },
