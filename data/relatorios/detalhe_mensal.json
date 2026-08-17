@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 10:47",
+  "atualizado_em": "17/08/2026 11:46",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,14 +17126,14 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 147,
-          "atendidos": 147,
+          "abertos": 148,
+          "atendidos": 148,
           "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 120,
-              "atendidosFora": 27,
+              "atendidosDentro": 117,
+              "atendidosFora": 31,
               "pendentes": 0,
               "chamados": [
                 {
@@ -17957,16 +17957,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82235,
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82239,
@@ -18045,8 +18045,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82286,
@@ -18133,8 +18133,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82356,
@@ -18306,6 +18306,14 @@
                 },
                 {
                   "id": 82499,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82512,
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
@@ -22228,7 +22236,7 @@
                   "cliente": "SOUZA & AZEVEDO ADMINISTRADORA DE BENS LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
-                  "dataEntrega": "2026-08-10",
+                  "dataEntrega": "2026-08-17",
                   "status": "atendido_fora"
                 },
                 {
@@ -22525,9 +22533,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 39,
-          "atendidos": 36,
-          "pendentes": 3,
+          "abertos": 41,
+          "atendidos": 37,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22620,8 +22628,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 8,
-              "atendidosFora": 9,
-              "pendentes": 1,
+              "atendidosFora": 10,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82279,
@@ -22632,12 +22640,28 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 82507,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
                   "id": 81896,
                   "cliente": "N. S. LAR SUPERMERCADO LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82515,
+                  "cliente": "LOURENCINI COMÉRCIO DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82280,
@@ -22684,8 +22708,8 @@
                   "cliente": "COMERCIO DE ALIMENTOS VICALI LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82455,
@@ -22867,8 +22891,8 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -22876,8 +22900,8 @@
                   "cliente": "CR & P COMERCIO DE HORTIFRUTIGRANJEIROS LTDA ",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -27809,9 +27833,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 45,
+          "abertos": 46,
           "atendidos": 4,
-          "pendentes": 41,
+          "pendentes": 42,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28068,14 +28092,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 82080,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-07",
-                  "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 82154,
                   "cliente": "PRADO & COMPANHIA SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-08-10",
@@ -28101,6 +28117,14 @@
                 },
                 {
                   "id": 82494,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82516,
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
@@ -28233,13 +28257,21 @@
               "nome": "Solicitação sem retorno",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82212,
                   "cliente": "MERCADINHO NIPPO LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82514,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -30628,8 +30660,8 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 2,
-              "atendidosFora": 1,
+              "atendidosDentro": 1,
+              "atendidosFora": 2,
               "pendentes": 1,
               "chamados": [
                 {
@@ -30645,8 +30677,8 @@
                   "cliente": "SUPERMERCADOS KAÇULA LTDA (FILIAL 02)",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82005,
@@ -31164,8 +31196,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 52,
-              "atendidosFora": 20,
+              "atendidosDentro": 50,
+              "atendidosFora": 22,
               "pendentes": 47,
               "chamados": [
                 {
@@ -31725,16 +31757,16 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 37)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82229,
                   "cliente": "Cucinare Pro Alimentação ",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82231,
