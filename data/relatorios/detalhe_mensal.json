@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 14:30",
+  "atualizado_em": "17/08/2026 14:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 152,
+          "abertos": 153,
           "atendidos": 150,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 119,
               "atendidosFora": 31,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81735,
@@ -18349,6 +18349,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82527,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
