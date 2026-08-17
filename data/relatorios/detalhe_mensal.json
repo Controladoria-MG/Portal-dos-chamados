@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 17:51",
+  "atualizado_em": "17/08/2026 18:12",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 160,
-          "atendidos": 159,
-          "pendentes": 1,
+          "abertos": 162,
+          "atendidos": 160,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 126,
+              "atendidosDentro": 127,
               "atendidosFora": 33,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81735,
@@ -18413,6 +18413,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82548,
+                  "cliente": "PROTECTION SHIELD LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82549,
+                  "cliente": "NOVA BOSTON GRILL RESTAURANTE LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -23482,26 +23498,10 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 5,
+          "abertos": 4,
           "atendidos": 4,
-          "pendentes": 1,
+          "pendentes": 0,
           "categorias": [
-            {
-              "nome": "Auditoria",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 81423,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
             {
               "nome": "Documentação",
               "atendidosDentro": 0,
@@ -25175,9 +25175,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 20,
+          "abertos": 21,
           "atendidos": 16,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25264,6 +25264,22 @@
                   "prazo": "2026-08-10",
                   "dataEntrega": "2026-08-03",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Material de Reunião - Solicitação Interna",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82550,
+                  "cliente": "CAF LOG TRANSPORTES RODOVIARIOS E ARMAZENS LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
