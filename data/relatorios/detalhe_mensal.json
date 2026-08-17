@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 09:14",
+  "atualizado_em": "17/08/2026 09:48",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -23403,8 +23403,8 @@
         {
           "mes": "2026-08",
           "abertos": 18,
-          "atendidos": 9,
-          "pendentes": 9,
+          "atendidos": 10,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23561,16 +23561,16 @@
             {
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82143,
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -30014,9 +30014,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 233,
+          "abertos": 234,
           "atendidos": 143,
-          "pendentes": 90,
+          "pendentes": 91,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31134,7 +31134,7 @@
               "nome": "Senha",
               "atendidosDentro": 53,
               "atendidosFora": 18,
-              "pendentes": 47,
+              "pendentes": 48,
               "chamados": [
                 {
                   "id": 81736,
@@ -32077,6 +32077,14 @@
                   "cliente": "M. Cavichiolli Comércio de Roupas Eireli - EPP  (Filial 1)",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82498,
+                  "cliente": "Supermercado Fenícia Ltda - Filial",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
