@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/08/2026 17:28",
+  "atualizado_em": "17/08/2026 09:14",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 145,
+          "abertos": 146,
           "atendidos": 145,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 118,
               "atendidosFora": 27,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -18295,6 +18295,14 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": "2026-08-14",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82496,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -27769,9 +27777,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 44,
+          "abertos": 45,
           "atendidos": 4,
-          "pendentes": 40,
+          "pendentes": 41,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -27969,7 +27977,7 @@
               "nome": "Certificado",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 81762,
@@ -28056,6 +28064,14 @@
                   "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82494,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
