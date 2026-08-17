@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 17:28",
+  "atualizado_em": "17/08/2026 17:51",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -22630,8 +22630,8 @@
         {
           "mes": "2026-08",
           "abertos": 42,
-          "atendidos": 40,
-          "pendentes": 2,
+          "atendidos": 41,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22908,8 +22908,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 3,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82523,
@@ -22940,8 +22940,8 @@
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82301,
@@ -22972,7 +22972,7 @@
                   "cliente": "BARRETO & TONELLI DISTRIBUIDOIRA DE EQUIPAMENTOS DE SEGURANCA ELETRONICA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-03",
-                  "dataEntrega": "2026-08-05",
+                  "dataEntrega": "2026-08-17",
                   "status": "atendido_fora"
                 }
               ]
@@ -32549,15 +32549,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 1,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 15,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 81785,
@@ -32678,6 +32678,14 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82547,
+                  "cliente": "ACOUGUE E MERCEARIA N SRA APARECIDA DE BRASILIA LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32791,9 +32799,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 122,
+          "abertos": 124,
           "atendidos": 10,
-          "pendentes": 112,
+          "pendentes": 114,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33127,7 +33135,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
               "atendidosFora": 4,
-              "pendentes": 73,
+              "pendentes": 75,
               "chamados": [
                 {
                   "id": 81764,
@@ -33758,6 +33766,22 @@
                   "cliente": "CARDIOVENT COMERCIO E SERVICOS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82545,
+                  "cliente": "ACOUGUE E MERCEARIA N SRA APARECIDA DE BRASILIA LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82546,
+                  "cliente": "ACOUGUE E MERCEARIA N SRA APARECIDA DE BRASILIA LTDA (1)",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
