@@ -1579,6 +1579,107 @@ async function copiarTextoCobranca() {
   }
 }
 
+/* ─── PLANILHA DE COBRANÇA ───────────────────────────────────────────
+   Exporta os chamados cobrados (vencidos + vencendo hoje + sem previsão)
+   num .xlsx no mesmo formato do molde "Molde planilha de chamados.xlsx":
+   colunas Id / Problema / Descricao / IdCliente / Cliente / Responsavel /
+   Departamento Responsavel / Data Cadastro / Situacao /
+   Data Previsao Atendimento — preenchidas com os dados reais da base. */
+function chamadosCobrados(tickets) {
+  const vistos = new Set();
+  const linhas = [];
+  [...chamadosVencidos(tickets), ...chamadosVencendoHoje(tickets), ...chamadosSemPrevisao(tickets)]
+    .forEach(r => {
+      const id = String(col(r, 'Id', 'ID', 'id') || '');
+      if (vistos.has(id)) return;
+      vistos.add(id);
+      linhas.push(r);
+    });
+  return linhas;
+}
+
+function linhaPlanilhaCobranca(r) {
+  return {
+    'Id':                          col(r, 'Id', 'ID', 'id'),
+    'Problema':                    col(r, 'Categoria', 'categoria'),
+    'Descricao':                   col(r, 'Solicitacao', 'Solicitação', 'solicitacao', 'solicitação'),
+    'IdCliente':                   col(r, 'IdCliente', 'Id Cliente', 'ID Cliente', 'id_cliente'),
+    'Cliente':                     col(r, 'Cliente', 'cliente'),
+    'Responsavel':                 col(r, 'Responsavel', 'Responsável', 'responsavel'),
+    'Departamento Responsavel':    col(r, 'Departamento Responsavel', 'Departamento Responsável', 'Departamento'),
+    'Data Cadastro':               parsePrazoDate(col(r, 'Data Cadastro', 'DataCadastro', 'Data_Cadastro')),
+    'Situacao':                    col(r, 'Status', 'status'),
+    'Data Previsao Atendimento':   parsePrazoDate(previsaoVal(r)),
+  };
+}
+
+/* Larguras de coluna (em caracteres) na mesma ordem dos cabeçalhos */
+const PLANILHA_COBRANCA_COLS = [
+  { header: 'Id',                        wch: 9  },
+  { header: 'Problema',                  wch: 24 },
+  { header: 'Descricao',                 wch: 48 },
+  { header: 'IdCliente',                 wch: 10 },
+  { header: 'Cliente',                   wch: 34 },
+  { header: 'Responsavel',               wch: 20 },
+  { header: 'Departamento Responsavel',  wch: 26 },
+  { header: 'Data Cadastro',             wch: 13 },
+  { header: 'Situacao',                  wch: 22 },
+  { header: 'Data Previsao Atendimento', wch: 15 },
+];
+
+function baixarPlanilhaCobranca() {
+  const btn = document.getElementById('btn-baixar-planilha');
+  if (typeof XLSX === 'undefined' || !btn) return;
+
+  const headers = PLANILHA_COBRANCA_COLS.map(c => c.header);
+  const linhas  = chamadosCobrados(currentVisibleTickets).map(linhaPlanilhaCobranca);
+  const aoa     = [headers, ...linhas.map(l => headers.map(h => {
+    const v = l[h];
+    return (v === '' || v === null || v === undefined) ? '—' : v;
+  }))];
+
+  const ws    = XLSX.utils.aoa_to_sheet(aoa);
+  const borda = { style: 'thin', color: { rgb: 'DDDDDD' } };
+
+  const range = XLSX.utils.decode_range(ws['!ref']);
+  for (let R = range.s.r; R <= range.e.r; R++) {
+    for (let C = range.s.c; C <= range.e.c; C++) {
+      const cell = ws[XLSX.utils.encode_cell({ r: R, c: C })];
+      if (!cell) continue;
+
+      if (R === 0) {
+        cell.s = {
+          font: { bold: true, sz: 11, color: { rgb: 'FFFFFF' } },
+          fill: { patternType: 'solid', fgColor: { rgb: 'C0392B' } },
+          alignment: { horizontal: 'center', vertical: 'center', wrapText: true },
+          border: { top: borda, bottom: borda, left: borda, right: borda },
+        };
+        continue;
+      }
+
+      const isDate = cell.t === 'd';
+      cell.s = {
+        font: { sz: 11 },
+        alignment: { vertical: 'center', wrapText: C === 2, ...(isDate ? { horizontal: 'center' } : {}) },
+        border: { top: borda, bottom: borda, left: borda, right: borda },
+        ...(R % 2 === 0 ? { fill: { patternType: 'solid', fgColor: { rgb: 'F4F4F4' } } } : {}),
+        ...(isDate ? { numFmt: 'dd/mm/yyyy' } : {}),
+      };
+    }
+  }
+
+  ws['!cols']       = PLANILHA_COBRANCA_COLS.map(c => ({ wch: c.wch }));
+  ws['!rows']       = [{ hpx: 28 }];
+  ws['!autofilter'] = { ref: ws['!ref'] };
+
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Relatório');
+
+  const dept = String(currentDept || 'Departamento').replace(/[\\/:*?"<>|]/g, '-');
+  const hoje = new Date().toLocaleDateString('pt-BR').split('/').join('-');
+  XLSX.writeFile(wb, `Cobranca de Chamados - ${dept} - ${hoje}.xlsx`, { cellStyles: true });
+}
+
 function fecharCobranca() {
   document.getElementById('cobranca-modal').style.display = 'none';
 }
@@ -1597,6 +1698,7 @@ document.getElementById('cobranca-next')?.addEventListener('click', () => {
 });
 document.getElementById('btn-copiar-imagem-atual')?.addEventListener('click', copiarImagemCobrancaAtual);
 document.getElementById('btn-copiar-texto')?.addEventListener('click', copiarTextoCobranca);
+document.getElementById('btn-baixar-planilha')?.addEventListener('click', baixarPlanilhaCobranca);
 document.getElementById('cobranca-modal-close')?.addEventListener('click', fecharCobranca);
 document.getElementById('cobranca-modal')?.addEventListener('click', (e) => {
   if (e.target.id === 'cobranca-modal') fecharCobranca();

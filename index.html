@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portal de Chamados</title>
   <link rel="stylesheet" href="static/style.css" />
-  <!-- SheetJS: leitura de .xlsx no browser -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <!-- xlsx-js-style: fork da SheetJS com suporte a estilo de célula na escrita
+       (a SheetJS gratuita não grava cor/negrito/borda — só a versão paga) -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.min.js"></script>
   <!-- html2canvas: gera o print do placar para a cobrança -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
@@ -255,6 +256,7 @@
       <textarea id="cobranca-texto" rows="8"></textarea>
       <div class="cobranca-actions-row">
         <button id="btn-copiar-texto" class="btn-modal-action" type="button">📋 Copiar Texto</button>
+        <button id="btn-baixar-planilha" class="btn-modal-action" type="button">⬇️ Baixar Planilha</button>
         <span id="cobranca-texto-status" class="cobranca-status"></span>
       </div>
     </div>
