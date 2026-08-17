@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 16:38",
+  "atualizado_em": "17/08/2026 17:28",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 158,
-          "atendidos": 155,
-          "pendentes": 3,
+          "abertos": 160,
+          "atendidos": 159,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 122,
+              "atendidosDentro": 126,
               "atendidosFora": 33,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -18365,8 +18365,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82529,
@@ -18389,11 +18389,27 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82535,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82543,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82544,
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
@@ -22614,8 +22630,8 @@
         {
           "mes": "2026-08",
           "abertos": 42,
-          "atendidos": 39,
-          "pendentes": 3,
+          "atendidos": 40,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22891,17 +22907,17 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82523,
                   "cliente": "Supermercado Kanashiro Ltda",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82088,
@@ -23466,10 +23482,26 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 4,
+          "abertos": 5,
           "atendidos": 4,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
+            {
+              "nome": "Auditoria",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 81423,
+                  "cliente": null,
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Documentação",
               "atendidosDentro": 0,
@@ -27953,15 +27985,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 48,
+          "abertos": 49,
           "atendidos": 4,
-          "pendentes": 44,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 19,
+              "pendentes": 20,
               "chamados": [
                 {
                   "id": 82144,
@@ -28112,6 +28144,14 @@
                   "cliente": "GMP DISTRIBUIDORA DE DOCES LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82542,
+                  "cliente": "J R BARROS COMERCIO LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -28662,9 +28702,9 @@
         },
         {
           "mes": "2026-07",
-          "abertos": 169,
-          "atendidos": 121,
-          "pendentes": 48,
+          "abertos": 168,
+          "atendidos": 123,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28958,7 +28998,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 7,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81019,
@@ -29050,14 +29090,6 @@
                 },
                 {
                   "id": 81422,
-                  "cliente": null,
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81423,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
@@ -29661,8 +29693,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 5,
-              "atendidosFora": 44,
-              "pendentes": 19,
+              "atendidosFora": 46,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 80961,
@@ -29949,16 +29981,16 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 01)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81377,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 12)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81378,
@@ -30214,9 +30246,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 235,
-          "atendidos": 149,
-          "pendentes": 86,
+          "abertos": 237,
+          "atendidos": 155,
+          "pendentes": 82,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30261,8 +30293,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 2,
-              "atendidosFora": 3,
-              "pendentes": 10,
+              "atendidosFora": 4,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 81730,
@@ -30333,8 +30365,8 @@
                   "cliente": "PROTECTION SHIELD LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82091,
@@ -30990,7 +31022,7 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 3,
               "atendidosFora": 10,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81934,
@@ -31111,6 +31143,14 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82541,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -31181,7 +31221,7 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 3,
-              "atendidosFora": 1,
+              "atendidosFora": 2,
               "pendentes": 6,
               "chamados": [
                 {
@@ -31221,8 +31261,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82421,
@@ -31263,6 +31303,14 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82540,
+                  "cliente": "CLINICA DE PSICOLOGIA LAILA TAHA LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -31333,8 +31381,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 53,
-              "atendidosFora": 22,
-              "pendentes": 45,
+              "atendidosFora": 26,
+              "pendentes": 41,
               "chamados": [
                 {
                   "id": 81736,
@@ -31845,32 +31893,32 @@
                   "cliente": "Supermercado Alta Rotação Ltda (Filial 3)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82221,
                   "cliente": "Supermercado Alta Rotação Ltda (Filial 4)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82222,
                   "cliente": "Supermercado Alta Rotação Ltda (Filial 6)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82223,
                   "cliente": "SUL LEÃO PARTICIPAÇÕES EIRELI",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82224,
@@ -32245,7 +32293,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-14",
+                  "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
                 },
                 {
