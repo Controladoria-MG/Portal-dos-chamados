@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 15:04",
+  "atualizado_em": "17/08/2026 16:38",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 153,
-          "atendidos": 150,
+          "abertos": 158,
+          "atendidos": 155,
           "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 117,
+              "atendidosDentro": 122,
               "atendidosFora": 33,
               "pendentes": 3,
               "chamados": [
@@ -17677,7 +17677,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-10",
+                  "dataEntrega": "2026-08-17",
                   "status": "atendido_fora"
                 },
                 {
@@ -18341,22 +18341,62 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82522,
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82527,
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82528,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82529,
+                  "cliente": "RCHISTO SOLUCOES COMERCIO IMPORTACAO E EXPORTACAO DE PRODUTOS E SERVICOS LABORATORIAIS LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82530,
+                  "cliente": "ENS EMPRESA NATURAL DE SAÚDE SUPLEMENTOS E COSMÉTICOS E PRODUTOS EM GERAL LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82531,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82535,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-18",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25103,15 +25143,31 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 18,
+          "abertos": 20,
           "atendidos": 16,
-          "pendentes": 2,
+          "pendentes": 4,
           "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82533,
+                  "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Autorregularização",
               "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82110,
@@ -25152,6 +25208,14 @@
                   "prazo": "2026-08-12",
                   "dataEntrega": "2026-08-12",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82532,
+                  "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27889,9 +27953,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 47,
+          "abertos": 48,
           "atendidos": 4,
-          "pendentes": 43,
+          "pendentes": 44,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28321,7 +28385,7 @@
               "nome": "Solicitação sem retorno",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82212,
@@ -28333,6 +28397,14 @@
                 },
                 {
                   "id": 82514,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82536,
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-19",
@@ -30143,8 +30215,8 @@
         {
           "mes": "2026-08",
           "abertos": 235,
-          "atendidos": 147,
-          "pendentes": 88,
+          "atendidos": 149,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30188,9 +30260,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 3,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 81730,
@@ -30269,8 +30341,8 @@
                   "cliente": "PROTECTION SHIELD LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82133,
@@ -30420,9 +30492,9 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82191,
@@ -30437,8 +30509,8 @@
                   "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -30788,9 +30860,9 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 3,
+              "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81879,
@@ -30829,8 +30901,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82411,
@@ -31260,9 +31332,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 52,
+              "atendidosDentro": 53,
               "atendidosFora": 22,
-              "pendentes": 46,
+              "pendentes": 45,
               "chamados": [
                 {
                   "id": 81736,
@@ -31981,8 +32053,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82338,
@@ -32290,7 +32362,7 @@
                   "cliente": "MERCADO PONTO CERTO DE TERESOPOLIS LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-14",
+                  "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
                 },
                 {
@@ -32298,7 +32370,7 @@
                   "cliente": "PONTO CERTO ACOUGUE LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-14",
+                  "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
                 },
                 {
@@ -32306,7 +32378,7 @@
                   "cliente": "DIBRAMASUL MADEIRAS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-08-14",
+                  "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
                 }
               ]
@@ -32346,7 +32418,7 @@
                   "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-14",
+                  "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
                 }
               ]
@@ -32671,15 +32743,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 118,
+          "abertos": 122,
           "atendidos": 10,
-          "pendentes": 108,
+          "pendentes": 112,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 32,
+              "pendentes": 36,
               "chamados": [
                 {
                   "id": 81732,
@@ -32966,6 +33038,38 @@
                   "cliente": "RESENDE SERVICOS DE APOIO LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82534,
+                  "cliente": "ACMA SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82537,
+                  "cliente": "PANIFICAÇÃO E BAR ITUVERAVA LTDA ",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82538,
+                  "cliente": "A.A.S SERVIÇOS DE APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82539,
+                  "cliente": "D M F SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
