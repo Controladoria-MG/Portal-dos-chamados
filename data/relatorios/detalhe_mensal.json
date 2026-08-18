@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/08/2026 15:06",
+  "atualizado_em": "18/08/2026 15:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 171,
+          "abertos": 172,
           "atendidos": 170,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 137,
               "atendidosFora": 33,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81735,
@@ -18503,6 +18503,14 @@
                   "prazo": "2026-08-19",
                   "dataEntrega": "2026-08-18",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82583,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -23658,9 +23666,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 15,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23835,6 +23843,22 @@
                   "prazo": "2026-08-12",
                   "dataEntrega": "2026-08-17",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82581,
+                  "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -26756,15 +26780,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 20,
+          "abertos": 21,
           "atendidos": 10,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82038,
@@ -26805,6 +26829,14 @@
                   "prazo": "2026-08-24",
                   "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82580,
+                  "cliente": "TOME AGROVETERINARIA LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -28831,8 +28863,8 @@
         {
           "mes": "2026-07",
           "abertos": 168,
-          "atendidos": 132,
-          "pendentes": 36,
+          "atendidos": 134,
+          "pendentes": 34,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28981,8 +29013,8 @@
             {
               "nome": "Alteração de Contabilista",
               "atendidosDentro": 0,
-              "atendidosFora": 8,
-              "pendentes": 1,
+              "atendidosFora": 9,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81402,
@@ -29053,8 +29085,8 @@
                   "cliente": "JDM DISTRIBUIDORA DE PRODUTOS ALIMENTÍCIOS LTDA ",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -29245,8 +29277,8 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 2,
-              "atendidosFora": 5,
-              "pendentes": 1,
+              "atendidosFora": 6,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81004,
@@ -29301,8 +29333,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81713,
@@ -30374,9 +30406,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 244,
+          "abertos": 245,
           "atendidos": 175,
-          "pendentes": 69,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30990,7 +31022,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81909,
@@ -31021,6 +31053,14 @@
                   "cliente": "PROMOTORAS GYN LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82582,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
