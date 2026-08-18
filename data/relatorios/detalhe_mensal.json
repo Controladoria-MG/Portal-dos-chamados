@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/08/2026 12:41",
+  "atualizado_em": "18/08/2026 13:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -22811,8 +22811,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 10,
-              "atendidosFora": 10,
+              "atendidosDentro": 8,
+              "atendidosFora": 12,
               "pendentes": 0,
               "chamados": [
                 {
@@ -22820,8 +22820,8 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82507,
@@ -22844,8 +22844,8 @@
                   "cliente": "MAIS VERDE DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82004,
@@ -22860,7 +22860,7 @@
                   "cliente": "SUPERMERCADO PRECITO LTDA",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
                   "status": "atendido_dentro"
                 },
                 {
@@ -30351,8 +30351,8 @@
         {
           "mes": "2026-08",
           "abertos": 242,
-          "atendidos": 170,
-          "pendentes": 72,
+          "atendidos": 173,
+          "pendentes": 69,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30537,10 +30537,10 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 82567,
-                  "cliente": "G. M. OMINE - QUITANDAO LTDA",
+                  "id": 82573,
+                  "cliente": "GT Oshiro Distribuidora de Hortifrutigranjeiros Ltda",
                   "dataCadastro": "2026-08-18",
-                  "prazo": "2026-09-08",
+                  "prazo": "2026-09-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -30548,9 +30548,9 @@
             },
             {
               "nome": "Alteração de Contabilista",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82107,
@@ -30589,8 +30589,8 @@
                   "cliente": "GTG EMPREENDIMENTOS SERVIÇOS E COMERCIO LTDA",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -31516,9 +31516,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 51,
-              "atendidosFora": 31,
-              "pendentes": 39,
+              "atendidosDentro": 49,
+              "atendidosFora": 35,
+              "pendentes": 37,
               "chamados": [
                 {
                   "id": 81736,
@@ -32069,8 +32069,8 @@
                   "cliente": "MERCADINHO RIZARDI CAJAMAR LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82227,
@@ -32437,8 +32437,8 @@
                   "cliente": "DISTRIBUIDORA GESSO 3000 LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82440,
@@ -32453,16 +32453,16 @@
                   "cliente": "M CAVICHIOLLI COMÉRCIO DE ROUPAS EIRELI",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82442,
                   "cliente": "M. Cavichiolli Comércio de Roupas Eireli - EPP  (Filial 1)",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82498,
@@ -32477,8 +32477,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82553,
@@ -32901,22 +32901,6 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 82448,
-                  "cliente": "LAB BELL APOIO ADMINISTRATIVO LTDA",
-                  "dataCadastro": "2026-08-14",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82472,
-                  "cliente": "MINIMERCADO PAG LEV DE ITAGUAI LTDA",
-                  "dataCadastro": "2026-08-14",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 82329,
                   "cliente": "JEM TRUCK TRANSPORTE DE CARGAS E TERRAPLANAGEM LTDA ",
                   "dataCadastro": "2026-08-13",
@@ -32931,6 +32915,22 @@
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82448,
+                  "cliente": "LAB BELL APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82472,
+                  "cliente": "MINIMERCADO PAG LEV DE ITAGUAI LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -32943,15 +32943,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 126,
-          "atendidos": 10,
-          "pendentes": 116,
+          "abertos": 131,
+          "atendidos": 11,
+          "pendentes": 120,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 38,
+              "atendidosFora": 3,
+              "pendentes": 37,
               "chamados": [
                 {
                   "id": 81732,
@@ -33118,8 +33118,8 @@
                   "cliente": "CRUZEIRO DO SUL MERCADO LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82300,
@@ -33295,7 +33295,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
               "atendidosFora": 4,
-              "pendentes": 75,
+              "pendentes": 80,
               "chamados": [
                 {
                   "id": 81764,
@@ -33942,6 +33942,46 @@
                   "cliente": "ACOUGUE E MERCEARIA N SRA APARECIDA DE BRASILIA LTDA (1)",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82568,
+                  "cliente": "COMINDRE MANGUEIRAS E CONEXOES LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82569,
+                  "cliente": "COMINDRE MANGUEIRAS E CONEXOES LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82570,
+                  "cliente": "COMINDRE MANGUEIRAS E CONEXOES LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82571,
+                  "cliente": "RESENDE SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82572,
+                  "cliente": "MERCADINHO BAMBINA LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
