@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/08/2026 09:41",
+  "atualizado_em": "18/08/2026 10:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 165,
+          "abertos": 166,
           "atendidos": 163,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 130,
               "atendidosFora": 33,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81735,
@@ -18301,7 +18301,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
                   "status": "atendido_dentro"
                 },
                 {
@@ -18453,6 +18453,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82557,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -20542,8 +20550,8 @@
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 4,
-              "atendidosFora": 3,
+              "atendidosDentro": 3,
+              "atendidosFora": 4,
               "pendentes": 1,
               "chamados": [
                 {
@@ -20599,8 +20607,8 @@
                   "cliente": "ALUSTOCK COMERCIO DE VIDROS E ESQUADRIAS DE ALUMINIO LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82276,
@@ -25309,8 +25317,8 @@
             },
             {
               "nome": "Multas Diversas",
-              "atendidosDentro": 2,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 2,
               "pendentes": 0,
               "chamados": [
                 {
@@ -25318,16 +25326,16 @@
                   "cliente": "AERODUTO EQUIPAMENTOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82211,
                   "cliente": "AEROINDUSTRIAL INSTALAÇÕES DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -25365,8 +25373,8 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -25374,8 +25382,8 @@
                   "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -28743,8 +28751,8 @@
         {
           "mes": "2026-07",
           "abertos": 168,
-          "atendidos": 123,
-          "pendentes": 45,
+          "atendidos": 131,
+          "pendentes": 37,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28893,8 +28901,8 @@
             {
               "nome": "Alteração de Contabilista",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 7,
+              "atendidosFora": 8,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81402,
@@ -28917,48 +28925,48 @@
                   "cliente": "COLÉGIO JOAQUIM MARIA MACHADO DE ASSIS LTDA",
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81513,
                   "cliente": "FORT LACE CONFECCOES LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81514,
                   "cliente": "HUGO DELEON CONFECCOES LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81515,
                   "cliente": "H9 CONFECCOES LTDA",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81517,
                   "cliente": "VICTOR PANUCCI CONFECÇOES LTDA (FILIAL 1)",
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81694,
                   "cliente": "VICTOR PANUCCI CONFECÇOES LTDA",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81695,
@@ -29157,24 +29165,24 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 2,
-              "atendidosFora": 3,
-              "pendentes": 3,
+              "atendidosFora": 5,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81004,
                   "cliente": "PET HOME EXPRESS COMERCIO DE RACOES LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81005,
                   "cliente": "AC HOME PET RAÇÕES LTDA",
                   "dataCadastro": "2026-07-14",
                   "prazo": "2026-07-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81161,
@@ -30287,8 +30295,8 @@
         {
           "mes": "2026-08",
           "abertos": 238,
-          "atendidos": 157,
-          "pendentes": 81,
+          "atendidos": 160,
+          "pendentes": 78,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -30564,8 +30572,8 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 2,
-              "atendidosFora": 0,
+              "atendidosDentro": 1,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -30581,8 +30589,8 @@
                   "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -31420,9 +31428,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 51,
-              "atendidosFora": 26,
-              "pendentes": 44,
+              "atendidosDentro": 50,
+              "atendidosFora": 30,
+              "pendentes": 41,
               "chamados": [
                 {
                   "id": 81736,
@@ -31725,24 +31733,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82008,
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82009,
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82018,
@@ -31933,7 +31941,7 @@
                   "cliente": "Supermercado Alta Rotação Ltda (Filial 3)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
                   "status": "atendido_fora"
                 },
                 {
@@ -31941,7 +31949,7 @@
                   "cliente": "Supermercado Alta Rotação Ltda (Filial 4)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
                   "status": "atendido_fora"
                 },
                 {
@@ -31949,7 +31957,7 @@
                   "cliente": "Supermercado Alta Rotação Ltda (Filial 6)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
                   "status": "atendido_fora"
                 },
                 {
@@ -31957,7 +31965,7 @@
                   "cliente": "SUL LEÃO PARTICIPAÇÕES EIRELI",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
                   "status": "atendido_fora"
                 },
                 {
@@ -32069,8 +32077,8 @@
                   "cliente": "PAULO S. DA SILVA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82317,
