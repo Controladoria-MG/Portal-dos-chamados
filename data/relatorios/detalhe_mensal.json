@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/08/2026 10:42",
+  "atualizado_em": "18/08/2026 11:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 166,
-          "atendidos": 163,
+          "abertos": 168,
+          "atendidos": 165,
           "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 130,
+              "atendidosDentro": 132,
               "atendidosFora": 33,
               "pendentes": 3,
               "chamados": [
@@ -18429,8 +18429,8 @@
                   "cliente": "NOVA BOSTON GRILL RESTAURANTE LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82552,
@@ -18458,6 +18458,22 @@
                 },
                 {
                   "id": 82557,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82559,
+                  "cliente": "LEGUME S/A (FILIAL 1)",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82560,
                   "cliente": null,
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-19",
@@ -20544,9 +20560,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 20,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -20761,6 +20777,22 @@
                   "prazo": "2026-08-04",
                   "dataEntrega": "2026-08-06",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "SPED",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82558,
+                  "cliente": "DM COMERCIO ALIMENTICIO LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -28033,15 +28065,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 49,
+          "abertos": 50,
           "atendidos": 4,
-          "pendentes": 45,
+          "pendentes": 46,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 20,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 82144,
@@ -28200,6 +28232,14 @@
                   "cliente": "J R BARROS COMERCIO LTDA",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82561,
+                  "cliente": "SUPERMERCADO FLAMENGO LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -30295,8 +30335,8 @@
         {
           "mes": "2026-08",
           "abertos": 238,
-          "atendidos": 160,
-          "pendentes": 78,
+          "atendidos": 162,
+          "pendentes": 76,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31013,8 +31053,8 @@
             {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 2,
+              "atendidosFora": 5,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81855,
@@ -31053,8 +31093,8 @@
                   "cliente": "HN LEONE ADMINISTRAÇÃO DE BENS LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82395,
@@ -31429,8 +31469,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 50,
-              "atendidosFora": 30,
-              "pendentes": 41,
+              "atendidosFora": 31,
+              "pendentes": 40,
               "chamados": [
                 {
                   "id": 81736,
@@ -31973,8 +32013,8 @@
                   "cliente": "NELSINHO ASSESSORIA E SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82226,
