@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/08/2026 08:57",
+  "atualizado_em": "18/08/2026 09:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 164,
-          "atendidos": 161,
-          "pendentes": 3,
+          "abertos": 165,
+          "atendidos": 163,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 128,
+              "atendidosDentro": 130,
               "atendidosFora": 33,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81735,
@@ -18437,14 +18437,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82554,
                   "cliente": null,
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-19",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82556,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -22939,8 +22947,8 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 3,
-              "atendidosFora": 3,
+              "atendidosDentro": 1,
+              "atendidosFora": 5,
               "pendentes": 0,
               "chamados": [
                 {
@@ -22980,16 +22988,16 @@
                   "cliente": "TOME AGROVETERINARIA LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82302,
                   "cliente": "TOME AGROVETERINARIA LTDA",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -25821,8 +25829,8 @@
         {
           "mes": "2026-06",
           "abertos": 64,
-          "atendidos": 62,
-          "pendentes": 2,
+          "atendidos": 63,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -26347,8 +26355,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 5,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80566,
@@ -26395,8 +26403,8 @@
                   "cliente": "BARATÃO SÃO LUCAS LTDA",
                   "dataCadastro": "2026-06-22",
                   "prazo": "2026-06-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79877,
@@ -26669,8 +26677,8 @@
         {
           "mes": "2026-08",
           "abertos": 20,
-          "atendidos": 9,
-          "pendentes": 11,
+          "atendidos": 10,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26763,16 +26771,16 @@
             {
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82042,
                   "cliente": "BARRETO & TONELLI DISTRIBUIDOIRA DE EQUIPAMENTOS DE SEGURANCA ELETRONICA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82186,
@@ -26875,7 +26883,7 @@
                   "cliente": "FUNCHAL INDUSTRIA E COMERCIO DE PAPEIS LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
                   "status": "atendido_fora"
                 },
                 {
@@ -28725,7 +28733,7 @@
                   "cliente": "VANESSA DUARTE RODRIGUES",
                   "dataCadastro": "2026-06-09",
                   "prazo": "2026-06-12",
-                  "dataEntrega": "2026-08-11",
+                  "dataEntrega": "2026-08-18",
                   "status": "atendido_fora"
                 }
               ]
@@ -30279,8 +30287,8 @@
         {
           "mes": "2026-08",
           "abertos": 238,
-          "atendidos": 155,
-          "pendentes": 83,
+          "atendidos": 157,
+          "pendentes": 81,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31253,8 +31261,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 3,
-              "atendidosFora": 2,
-              "pendentes": 6,
+              "atendidosFora": 6,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81777,
@@ -31301,32 +31309,32 @@
                   "cliente": "J K CAFETERIA E CONVENIÊNCIAS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82422,
                   "cliente": "JK BURITI CAFETERIA E CONVENIENCIAS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82423,
                   "cliente": "JK BURITI CAFETERIA E CONVENIENCIAS LTDA (FILIAL 01)",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82424,
                   "cliente": "4R Alimentos e Conveniencias LTDA ",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82491,
@@ -31412,9 +31420,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 53,
+              "atendidosDentro": 51,
               "atendidosFora": 26,
-              "pendentes": 42,
+              "pendentes": 44,
               "chamados": [
                 {
                   "id": 81736,
@@ -31957,16 +31965,16 @@
                   "cliente": "NELSINHO ASSESSORIA E SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82226,
                   "cliente": "MERCADINHO RIZARDI CAJAMAR LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82227,
@@ -32839,15 +32847,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 125,
+          "abertos": 126,
           "atendidos": 10,
-          "pendentes": 115,
+          "pendentes": 116,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 37,
+              "pendentes": 38,
               "chamados": [
                 {
                   "id": 81732,
@@ -33174,6 +33182,14 @@
                   "cliente": "JCR LOCACAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82555,
+                  "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
