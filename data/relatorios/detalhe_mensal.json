@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/08/2026 15:41",
+  "atualizado_em": "18/08/2026 16:45",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 172,
-          "atendidos": 170,
-          "pendentes": 2,
+          "abertos": 175,
+          "atendidos": 172,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 137,
+              "atendidosDentro": 139,
               "atendidosFora": 33,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81735,
@@ -18469,8 +18469,8 @@
                   "cliente": "LEGUME S/A (FILIAL 1)",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82560,
@@ -18506,6 +18506,30 @@
                 },
                 {
                   "id": 82583,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82584,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82585,
+                  "cliente": "TOME AGROVETERINARIA LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82588,
                   "cliente": null,
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-19",
@@ -25296,8 +25320,8 @@
         {
           "mes": "2026-08",
           "abertos": 22,
-          "atendidos": 16,
-          "pendentes": 6,
+          "atendidos": 17,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25389,17 +25413,17 @@
             },
             {
               "nome": "Material de Reunião - Solicitação Interna",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82550,
                   "cliente": "CAF LOG TRANSPORTES RODOVIARIOS E ARMAZENS LTDA",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -26780,15 +26804,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 21,
+          "abertos": 20,
           "atendidos": 10,
-          "pendentes": 11,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82038,
@@ -26829,14 +26853,6 @@
                   "prazo": "2026-08-24",
                   "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 82580,
-                  "cliente": "TOME AGROVETERINARIA LTDA",
-                  "dataCadastro": "2026-08-18",
-                  "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -33023,15 +33039,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 131,
+          "abertos": 133,
           "atendidos": 21,
-          "pendentes": 110,
+          "pendentes": 112,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 3,
-              "pendentes": 37,
+              "pendentes": 39,
               "chamados": [
                 {
                   "id": 81732,
@@ -33366,6 +33382,22 @@
                   "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82586,
+                  "cliente": "TRANSLOG TRANSPORTES E LOGÍSTICA LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82587,
+                  "cliente": "P L F 4 REPRESENTACOES LTDA ",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-31",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
