@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/08/2026 18:12",
+  "atualizado_em": "18/08/2026 08:57",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 162,
-          "atendidos": 160,
-          "pendentes": 2,
+          "abertos": 164,
+          "atendidos": 161,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 127,
+              "atendidosDentro": 128,
               "atendidosFora": 33,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81735,
@@ -18421,14 +18421,30 @@
                   "cliente": "PROTECTION SHIELD LTDA",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82549,
                   "cliente": "NOVA BOSTON GRILL RESTAURANTE LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82552,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82554,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -23563,8 +23579,8 @@
         {
           "mes": "2026-08",
           "abertos": 19,
-          "atendidos": 10,
-          "pendentes": 9,
+          "atendidos": 15,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23608,9 +23624,9 @@
             },
             {
               "nome": "Documentação",
-              "atendidosDentro": 3,
+              "atendidosDentro": 8,
               "atendidosFora": 3,
-              "pendentes": 8,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82243,
@@ -23641,16 +23657,16 @@
                   "cliente": "ASSOC RETIRO DE RECUP DA SAUDE DE ITAPECERICA DA SERRA (FILIAL 01)",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82321,
                   "cliente": "ORVALHO DO SOL INDÚSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82414,
@@ -23665,8 +23681,8 @@
                   "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82126,
@@ -23697,16 +23713,16 @@
                   "cliente": "ERS PRINT SOLUÇÕES GRAFICAS E VISUAIS LTDA ",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82381,
                   "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82469,
@@ -26653,8 +26669,8 @@
         {
           "mes": "2026-08",
           "abertos": 20,
-          "atendidos": 7,
-          "pendentes": 13,
+          "atendidos": 9,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26851,24 +26867,24 @@
             {
               "nome": "SPED",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82118,
                   "cliente": "FUNCHAL INDUSTRIA E COMERCIO DE PAPEIS LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82066,
                   "cliente": "FUNCHAL INDUSTRIA E COMERCIO DE PAPEIS LTDA",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81781,
@@ -30262,9 +30278,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 237,
+          "abertos": 238,
           "atendidos": 155,
-          "pendentes": 82,
+          "pendentes": 83,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31398,7 +31414,7 @@
               "nome": "Senha",
               "atendidosDentro": 53,
               "atendidosFora": 26,
-              "pendentes": 41,
+              "pendentes": 42,
               "chamados": [
                 {
                   "id": 81736,
@@ -32359,6 +32375,14 @@
                   "prazo": "2026-08-19",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82553,
+                  "cliente": "SUPERMERCADO KIYOMOTO LTDA",
+                  "dataCadastro": "2026-08-18",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -32815,15 +32839,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 124,
+          "abertos": 125,
           "atendidos": 10,
-          "pendentes": 114,
+          "pendentes": 115,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 36,
+              "pendentes": 37,
               "chamados": [
                 {
                   "id": 81732,
@@ -33142,6 +33166,14 @@
                   "cliente": "D M F SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82551,
+                  "cliente": "JCR LOCACAO DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
