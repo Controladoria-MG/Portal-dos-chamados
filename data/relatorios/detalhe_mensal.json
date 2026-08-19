@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/08/2026 10:44",
+  "atualizado_em": "19/08/2026 11:43",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14812,8 +14812,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 159,
-              "atendidosFora": 125,
+              "atendidosDentro": 158,
+              "atendidosFora": 126,
               "pendentes": 0,
               "chamados": [
                 {
@@ -16597,8 +16597,8 @@
                   "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-24",
-                  "dataEntrega": "2026-07-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81374,
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 181,
-          "atendidos": 175,
-          "pendentes": 6,
+          "abertos": 183,
+          "atendidos": 179,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 142,
+              "atendidosDentro": 146,
               "atendidosFora": 33,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81735,
@@ -18565,19 +18565,35 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82623,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82630,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82639,
+                  "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82647,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
@@ -30510,9 +30526,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 251,
+          "abertos": 253,
           "atendidos": 185,
-          "pendentes": 66,
+          "pendentes": 68,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31203,6 +31219,22 @@
               ]
             },
             {
+              "nome": "Levantamento de Débitos Anual",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82652,
+                  "cliente": "COMERCIAL DE ALIMENTOS ALLEGRA LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Notificação",
               "atendidosDentro": 1,
               "atendidosFora": 1,
@@ -31302,7 +31334,7 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 0,
               "atendidosFora": 6,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82304,
@@ -31311,6 +31343,14 @@
                   "prazo": "2026-08-14",
                   "dataEntrega": "2026-08-18",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82651,
+                  "cliente": "COMERCIAL DE ALIMENTOS ALLEGRA LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81920,
@@ -32731,15 +32771,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 16,
-          "atendidos": 12,
-          "pendentes": 4,
+          "abertos": 18,
+          "atendidos": 13,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81769,
@@ -32810,6 +32850,22 @@
                   "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-26",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82644,
+                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82648,
+                  "cliente": "WC COMPRAS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -32912,20 +32968,28 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 0,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82327,
                   "cliente": "JEM TRUCK TRANSPORTE DE CARGAS E TERRAPLANAGEM LTDA ",
                   "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82646,
+                  "cliente": "WCS APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -32973,15 +33037,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 20,
+          "abertos": 22,
           "atendidos": 3,
-          "pendentes": 17,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 14,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 81785,
@@ -33110,6 +33174,22 @@
                   "prazo": "2026-08-24",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82642,
+                  "cliente": "WC COMPRAS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82645,
+                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -33186,15 +33266,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 7,
+          "abertos": 8,
           "atendidos": 1,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 81834,
@@ -33237,6 +33317,14 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 82650,
+                  "cliente": "WCS APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 82448,
                   "cliente": "LAB BELL APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-08-14",
@@ -33263,9 +33351,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 157,
+          "abertos": 160,
           "atendidos": 48,
-          "pendentes": 109,
+          "pendentes": 112,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33639,7 +33727,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 30,
               "atendidosFora": 8,
-              "pendentes": 71,
+              "pendentes": 74,
               "chamados": [
                 {
                   "id": 81764,
@@ -34512,6 +34600,30 @@
                   "prazo": "2026-08-20",
                   "dataEntrega": "2026-08-19",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82641,
+                  "cliente": "WC COMPRAS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82643,
+                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82653,
+                  "cliente": "H P T COMERCIO E INDUSTRIA DE MÓVEIS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
