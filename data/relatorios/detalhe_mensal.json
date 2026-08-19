@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/08/2026 11:43",
+  "atualizado_em": "19/08/2026 12:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17132,8 +17132,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 146,
-              "atendidosFora": 33,
+              "atendidosDentro": 145,
+              "atendidosFora": 34,
               "pendentes": 4,
               "chamados": [
                 {
@@ -18101,8 +18101,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82308,
@@ -30527,8 +30527,8 @@
         {
           "mes": "2026-08",
           "abertos": 253,
-          "atendidos": 185,
-          "pendentes": 68,
+          "atendidos": 186,
+          "pendentes": 67,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31332,9 +31332,9 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 6,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82304,
@@ -31349,8 +31349,8 @@
                   "cliente": "COMERCIAL DE ALIMENTOS ALLEGRA LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81920,
@@ -32771,9 +32771,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 13,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32891,7 +32891,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82164,
@@ -32908,6 +32908,14 @@
                   "prazo": "2026-08-17",
                   "dataEntrega": "2026-08-17",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82659,
+                  "cliente": "FHGM SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32968,15 +32976,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 4,
+          "abertos": 7,
           "atendidos": 0,
-          "pendentes": 4,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82327,
@@ -32993,6 +33001,14 @@
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82654,
+                  "cliente": "H P T COMERCIO E INDUSTRIA DE MÓVEIS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -33000,13 +33016,29 @@
               "nome": "Documentação",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82490,
                   "cliente": "DMG DRIVES SERVIÇOS DE AUTOMAÇÃO INDUSTRIAL LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82657,
+                  "cliente": "H P T COMERCIO E INDUSTRIA DE MÓVEIS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82658,
+                  "cliente": "FHGM SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -33037,15 +33069,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 22,
+          "abertos": 24,
           "atendidos": 3,
-          "pendentes": 19,
+          "pendentes": 21,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 16,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 81785,
@@ -33190,6 +33222,14 @@
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82655,
+                  "cliente": "H P T COMERCIO E INDUSTRIA DE MÓVEIS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -33245,13 +33285,21 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82593,
                   "cliente": "SHOP MACROZÃO LTDA",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82660,
+                  "cliente": "FHGM SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -33351,9 +33399,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 160,
+          "abertos": 163,
           "atendidos": 48,
-          "pendentes": 112,
+          "pendentes": 115,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33727,7 +33775,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 30,
               "atendidosFora": 8,
-              "pendentes": 74,
+              "pendentes": 77,
               "chamados": [
                 {
                   "id": 81764,
@@ -34620,6 +34668,30 @@
                 {
                   "id": 82653,
                   "cliente": "H P T COMERCIO E INDUSTRIA DE MÓVEIS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82656,
+                  "cliente": "H P T COMÉRCIO E INDÚSTRIA DE MÓVEIS LTDA (FILIAL 01) ",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82661,
+                  "cliente": "H P T COMERCIO E INDUSTRIA DE MÓVEIS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82662,
+                  "cliente": "FHGM SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
