@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/08/2026 09:11",
+  "atualizado_em": "19/08/2026 09:43",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 178,
+          "abertos": 180,
           "atendidos": 175,
-          "pendentes": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 142,
               "atendidosFora": 33,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81735,
@@ -18557,6 +18557,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82613,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82623,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -20695,7 +20711,7 @@
                   "cliente": "SPEEDY REFRIGERAÇÃO LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-18",
+                  "dataEntrega": "2026-08-19",
                   "status": "atendido_fora"
                 },
                 {
@@ -28185,9 +28201,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 51,
+          "abertos": 52,
           "atendidos": 4,
-          "pendentes": 47,
+          "pendentes": 48,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28521,7 +28537,7 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82209,
@@ -28544,6 +28560,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82606,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -28927,8 +28951,8 @@
         {
           "mes": "2026-07",
           "abertos": 168,
-          "atendidos": 134,
-          "pendentes": 34,
+          "atendidos": 136,
+          "pendentes": 32,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -28988,9 +29012,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81579,
@@ -29069,8 +29093,8 @@
                   "cliente": "PROMOTORAS GYN LTDA",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -29917,8 +29941,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 5,
-              "atendidosFora": 47,
-              "pendentes": 16,
+              "atendidosFora": 48,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 81470,
@@ -30421,8 +30445,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81354,
@@ -30470,15 +30494,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 247,
-          "atendidos": 177,
-          "pendentes": 70,
+          "abertos": 248,
+          "atendidos": 182,
+          "pendentes": 66,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82182,
@@ -30501,8 +30525,8 @@
                   "cliente": "PROMOTORAS GYN LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81753,
@@ -30516,9 +30540,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 3,
+              "atendidosDentro": 5,
               "atendidosFora": 4,
-              "pendentes": 11,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 81838,
@@ -30581,8 +30605,8 @@
                   "cliente": "CARTAO DE TODOS ITAPETININGA LTDA ",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82564,
@@ -30629,8 +30653,8 @@
                   "cliente": "INOVAR CONSULTORIA EM VAREJO LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82091,
@@ -30846,7 +30870,7 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81905,
@@ -30863,6 +30887,14 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-10",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82628,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82429,
@@ -31484,9 +31516,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 3,
+              "atendidosDentro": 5,
               "atendidosFora": 6,
-              "pendentes": 5,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81777,
@@ -31533,8 +31565,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82491,
@@ -31589,8 +31621,8 @@
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81994,
@@ -32659,9 +32691,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 14,
+          "abertos": 16,
           "atendidos": 11,
-          "pendentes": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32814,6 +32846,30 @@
                   "status": "pendente"
                 }
               ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 82605,
+                  "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82626,
+                  "cliente": "LABORATÓRIO TOSTES DE ANALISES CLÍNICAS LTDA ",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
             }
           ]
         }
@@ -32824,9 +32880,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 2,
+          "abertos": 3,
           "atendidos": 0,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32859,6 +32915,22 @@
                   "status": "pendente"
                 }
               ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82602,
+                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
             }
           ]
         }
@@ -32869,9 +32941,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 3,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33026,6 +33098,22 @@
               ]
             },
             {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82603,
+                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "SPED",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -33135,9 +33223,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 136,
+          "abertos": 155,
           "atendidos": 26,
-          "pendentes": 110,
+          "pendentes": 129,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33511,7 +33599,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 9,
               "atendidosFora": 8,
-              "pendentes": 71,
+              "pendentes": 90,
               "chamados": [
                 {
                   "id": 81764,
@@ -34214,6 +34302,158 @@
                   "cliente": "ZHAO CENTER COMERCIO LTDA",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82604,
+                  "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82607,
+                  "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (FILIAL 10)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82608,
+                  "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (FILIAL 11)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82609,
+                  "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (FILIAL 12)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82610,
+                  "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (FILIAL 13)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82611,
+                  "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (FILIAL 15)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82612,
+                  "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (FILIAL 16)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82614,
+                  "cliente": "LABORATORIO BLESSING ANALISES CLINICAS E ANATOMIA PATOLOGICA LTDA (FILIAL 17)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82615,
+                  "cliente": "LABORATORIO BLESSING ANALISES CLINICAS E ANATOMIA PATOLOGICA LTDA (FILIAL 19)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82616,
+                  "cliente": "LABORATORIO BLESSING ANALISES CLINICAS E ANATOMIA PATOLOGICA LTDA (FILIAL 20)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82617,
+                  "cliente": "LABORATORIO BLESSING ANALISES CLINICAS E ANATOMIA PATOLOGICA LTDA (FILIAL 21)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82618,
+                  "cliente": "LABORATORIO BLESSING ANALISES CLINICAS E ANATOMIA PATOLOGICA LTDA (FILIAL 22)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82619,
+                  "cliente": "BLESSING MEDICINA LABORATORIAL E DIAGNOSTICA LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82620,
+                  "cliente": "SAFETY MEDICINA DIAGNOSTICA LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82621,
+                  "cliente": "BLESSING TESTE LEGAL MEDICINA LABORATORIAL LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82622,
+                  "cliente": "CLICOR SERVIÇOS DE IMAGEM LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82624,
+                  "cliente": "CIÊNCIA E VIDA SERVIÇOS ADMINISTRATIVOS LTDA ",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82625,
+                  "cliente": "LV PATRIMONIAL E PARTICIPACOES LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82627,
+                  "cliente": "LABORATÓRIO TOSTES DE ANALISES CLÍNICAS LTDA ",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
