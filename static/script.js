@@ -24,6 +24,7 @@ const FILTER_DEFS = [
   { key: 'status',          label: 'Status',              cols: ['Status','status'] },
   { key: 'vencimento',      label: 'Vencimento',          value: vencimentoStatus, sort: ['Vencido','Não Vencido'] },
   { key: 'previsao',        label: 'Previsão Atend.',     value: previsaoLabel, sortFn: sortDateLabelsBR },
+  { key: 'comentario',      label: 'Comentário',          value: comentarioStatus, sort: ['Com comentário','Sem comentário'] },
 ];
 const activeFilters = {
   categoria:        new Set(),
@@ -34,6 +35,7 @@ const activeFilters = {
   status:           new Set(),
   vencimento:       new Set(),
   previsao:         new Set(),
+  comentario:       new Set(),
 };
 function resetFilters() {
   FILTER_DEFS.forEach(def => activeFilters[def.key].clear());
@@ -102,6 +104,11 @@ function earliestPrevisao(rows) {
     if (date && (!best || date < best.date)) best = { raw, date };
   }
   return best ? best.raw : '';
+}
+/* Classifica o chamado em 'Com comentário' / 'Sem comentário' a partir do Último Comentário */
+function comentarioStatus(row) {
+  const v = String(col(row,'Ultimo Comentário','Ultimo Comentario','Último Comentário','ultimo comentario')||'').trim();
+  return v ? 'Com comentário' : 'Sem comentário';
 }
 function rowMatchesFilters(row) {
   return FILTER_DEFS.every(def => {
