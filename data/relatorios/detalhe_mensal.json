@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/08/2026 12:44",
+  "atualizado_em": "19/08/2026 15:02",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 183,
-          "atendidos": 179,
+          "abertos": 188,
+          "atendidos": 184,
           "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 145,
+              "atendidosDentro": 150,
               "atendidosFora": 34,
               "pendentes": 4,
               "chamados": [
@@ -18599,6 +18599,46 @@
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 82663,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82664,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82666,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82667,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82670,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -20680,9 +20720,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 24,
+          "abertos": 26,
           "atendidos": 22,
-          "pendentes": 2,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -20704,7 +20744,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 3,
               "atendidosFora": 5,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81775,
@@ -20769,6 +20809,22 @@
                   "prazo": "2026-08-13",
                   "dataEntrega": "2026-08-12",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82683,
+                  "cliente": "HPLAST EMBALAGENS FLEXIVEIS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82684,
+                  "cliente": "GERST EMBALAGENS FLEXIVEIS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -28233,15 +28289,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 52,
+          "abertos": 54,
           "atendidos": 4,
-          "pendentes": 48,
+          "pendentes": 50,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 21,
+              "pendentes": 23,
               "chamados": [
                 {
                   "id": 82144,
@@ -28408,6 +28464,22 @@
                   "cliente": "SUPERMERCADO FLAMENGO LTDA",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82665,
+                  "cliente": "HFARIAS NEGOCIOS E PARTICIPACOES LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82680,
+                  "cliente": "MERCADINHO BARCELONA LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -29413,7 +29485,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-28",
-                  "dataEntrega": "2026-08-18",
+                  "dataEntrega": "2026-08-19",
                   "status": "atendido_fora"
                 },
                 {
@@ -32771,9 +32843,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 19,
-          "atendidos": 13,
-          "pendentes": 6,
+          "abertos": 18,
+          "atendidos": 15,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32921,9 +32993,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82382,
@@ -32938,32 +33010,24 @@
                   "cliente": "CARDIOVENT COMERCIO E SERVICOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82605,
                   "cliente": "LABORATÓRIO BLESSING ANALISES CLÍNICAS E ANATOMIA PATOLÓGICA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82626,
-                  "cliente": "LABORATÓRIO TOSTES DE ANALISES CLÍNICAS LTDA ",
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -33399,9 +33463,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 163,
+          "abertos": 176,
           "atendidos": 48,
-          "pendentes": 115,
+          "pendentes": 128,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33775,7 +33839,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 30,
               "atendidosFora": 8,
-              "pendentes": 77,
+              "pendentes": 89,
               "chamados": [
                 {
                   "id": 81764,
@@ -34694,6 +34758,118 @@
                   "cliente": "FHGM SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82668,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA ",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82669,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA ",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82671,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA FILIAL 01",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82672,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82673,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO E PRODUTOS ALIMENTICIOS LTDA (FILIAL 04)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82674,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA (FILIAL 5)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82675,
+                  "cliente": "COUTINHO PAIS SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82676,
+                  "cliente": "M.PAIS ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82677,
+                  "cliente": "M.PAIS ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82678,
+                  "cliente": "Santos & Pais Servicos de Apoio LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82681,
+                  "cliente": "STOCK FRANGO DISTRIBUIDORA DE GÊNEROS ALIMENTÍCIOS E TRANSPORTE LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82682,
+                  "cliente": "S.K. UEHARA CIA LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82626,
+                  "cliente": "LABORATÓRIO TOSTES DE ANALISES CLÍNICAS LTDA ",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
