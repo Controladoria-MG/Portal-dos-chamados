@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/08/2026 18:04",
+  "atualizado_em": "19/08/2026 18:57",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 194,
+          "abertos": 196,
           "atendidos": 187,
-          "pendentes": 7,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 153,
               "atendidosFora": 34,
-              "pendentes": 7,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 81735,
@@ -18349,7 +18349,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-19",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-19",
                   "status": "atendido_dentro"
                 },
                 {
@@ -18682,6 +18682,22 @@
                 },
                 {
                   "id": 82708,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82711,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82713,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
@@ -24049,7 +24065,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-12",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-19",
                   "status": "atendido_fora"
                 }
               ]
@@ -27028,9 +27044,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 10,
-          "pendentes": 13,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27084,7 +27100,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 82703,
@@ -27105,6 +27121,14 @@
                 {
                   "id": 82709,
                   "cliente": "DEL NERO E MIRANDEZ RESTAURANTE, PIZZARIA E CONVENIENCIAS LTDA (F1)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82712,
+                  "cliente": "SALGADO E ANGÉLICO RESTAURANTE E LANCHONETE LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
                   "dataEntrega": null,
@@ -28402,8 +28426,8 @@
         {
           "mes": "2026-08",
           "abertos": 61,
-          "atendidos": 12,
-          "pendentes": 49,
+          "atendidos": 16,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28751,9 +28775,9 @@
             },
             {
               "nome": "Procurações DP",
-              "atendidosDentro": 3,
+              "atendidosDentro": 7,
               "atendidosFora": 1,
-              "pendentes": 7,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82209,
@@ -28800,8 +28824,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82691,
@@ -28816,24 +28840,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82693,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82695,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82696,
@@ -33051,9 +33075,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 16,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33227,7 +33251,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82605,
@@ -33236,6 +33260,14 @@
                   "prazo": "2026-08-26",
                   "dataEntrega": "2026-08-19",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82626,
+                  "cliente": "LABORATÓRIO TOSTES DE ANALISES CLÍNICAS LTDA ",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -33671,9 +33703,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 176,
+          "abertos": 175,
           "atendidos": 48,
-          "pendentes": 128,
+          "pendentes": 127,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -35062,22 +35094,6 @@
                   "cliente": "S.K. UEHARA CIA LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 82626,
-                  "cliente": "LABORATÓRIO TOSTES DE ANALISES CLÍNICAS LTDA ",
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
