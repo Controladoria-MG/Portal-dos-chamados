@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/08/2026 18:57",
+  "atualizado_em": "20/08/2026 09:18",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 196,
-          "atendidos": 187,
-          "pendentes": 9,
+          "abertos": 197,
+          "atendidos": 194,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 153,
-              "atendidosFora": 34,
-              "pendentes": 9,
+              "atendidosDentro": 159,
+              "atendidosFora": 35,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81735,
@@ -18525,8 +18525,8 @@
                   "cliente": "TOME AGROVETERINARIA LTDA",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82588,
@@ -18653,16 +18653,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82694,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82698,
@@ -18685,24 +18685,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82711,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82713,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82714,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -20785,22 +20793,22 @@
         {
           "mes": "2026-08",
           "abertos": 27,
-          "atendidos": 22,
-          "pendentes": 5,
+          "atendidos": 23,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82576,
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -26805,8 +26813,8 @@
         {
           "mes": "2026-07",
           "abertos": 21,
-          "atendidos": 15,
-          "pendentes": 6,
+          "atendidos": 16,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26827,8 +26835,8 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 3,
+              "atendidosFora": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 80985,
@@ -26851,8 +26859,8 @@
                   "cliente": "SUPER DOCES MARINGÁ LTDA (FILIAL 02)",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80752,
@@ -28426,8 +28434,8 @@
         {
           "mes": "2026-08",
           "abertos": 61,
-          "atendidos": 16,
-          "pendentes": 45,
+          "atendidos": 15,
+          "pendentes": 46,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28775,9 +28783,9 @@
             },
             {
               "nome": "Procurações DP",
-              "atendidosDentro": 7,
+              "atendidosDentro": 6,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82209,
@@ -28802,14 +28810,6 @@
                   "prazo": "2026-08-18",
                   "dataEntrega": "2026-08-19",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 82606,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-20",
-                  "dataEntrega": "2026-08-19",
-                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82688,
@@ -28863,6 +28863,14 @@
                   "id": 82696,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82715,
+                  "cliente": "DR Transportadora LTDA",
+                  "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -31557,7 +31565,7 @@
                   "cliente": "ASSOC RETIRO DE RECUP DA SAUDE DE ITAPECERICA DA SERRA (MATRIZ)",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-20",
-                  "dataEntrega": "2026-08-18",
+                  "dataEntrega": "2026-08-20",
                   "status": "atendido_dentro"
                 }
               ]
@@ -33703,13 +33711,13 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 175,
-          "atendidos": 48,
+          "abertos": 176,
+          "atendidos": 49,
           "pendentes": 127,
           "categorias": [
             {
               "nome": "Apontamentos",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 6,
               "pendentes": 35,
               "chamados": [
@@ -33888,6 +33896,14 @@
                   "prazo": "2026-08-14",
                   "dataEntrega": "2026-08-18",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82300,
+                  "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-27",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82300,
