@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/08/2026 11:50",
+  "atualizado_em": "20/08/2026 13:57",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 202,
-          "atendidos": 199,
-          "pendentes": 3,
+          "atendidos": 200,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 162,
+              "atendidosDentro": 163,
               "atendidosFora": 37,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81735,
@@ -18749,8 +18749,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -20832,8 +20832,8 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 27,
-          "atendidos": 23,
+          "abertos": 28,
+          "atendidos": 24,
           "pendentes": 4,
           "categorias": [
             {
@@ -20856,7 +20856,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 3,
               "atendidosFora": 5,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81775,
@@ -20881,6 +20881,14 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82733,
+                  "cliente": "TRYNOVA CONSULTORIA IMOBILIARIA LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82418,
@@ -21046,9 +21054,9 @@
             },
             {
               "nome": "Pesquisa IBGE",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82335,
@@ -21063,8 +21071,8 @@
                   "cliente": "ENBRAGEO ENGENHARIA LTDA ",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81872,
@@ -28473,9 +28481,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 62,
+          "abertos": 60,
           "atendidos": 15,
-          "pendentes": 47,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28969,7 +28977,7 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81892,
@@ -29004,25 +29012,9 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 82177,
-                  "cliente": "SUPERMERCADO BEIRA ALTA LTDA (MATRIZ)",
-                  "dataCadastro": "2026-08-10",
-                  "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 82179,
                   "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 06)",
                   "dataCadastro": "2026-08-10",
-                  "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82199,
-                  "cliente": "IKIGAI SERVICE LTDA ",
-                  "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-14",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -29409,19 +29401,19 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 81722,
-                  "cliente": "MIZUBRAS COMERCIAL LTDA",
-                  "dataCadastro": "2026-07-31",
-                  "prazo": "2026-08-28",
-                  "dataEntrega": "2026-08-12",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 81724,
                   "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-28",
                   "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81722,
+                  "cliente": "MIZUBRAS COMERCIAL LTDA",
+                  "dataCadastro": "2026-07-31",
+                  "prazo": "2026-08-28",
+                  "dataEntrega": "2026-08-12",
                   "status": "atendido_dentro"
                 },
                 {
@@ -30105,20 +30097,20 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 81209,
-                  "cliente": "CLINICA SAUDE & VIDA LTDA ",
-                  "dataCadastro": "2026-07-20",
-                  "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81583,
                   "cliente": "ASMG INSTALAÇÕES E SERVIÇOS LTDA",
                   "dataCadastro": "2026-07-29",
                   "prazo": "2026-07-30",
                   "dataEntrega": "2026-07-31",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 81209,
+                  "cliente": "CLINICA SAUDE & VIDA LTDA ",
+                  "dataCadastro": "2026-07-20",
+                  "prazo": "2026-07-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81267,
@@ -30193,6 +30185,14 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 81498,
+                  "cliente": "TRONICS DO BRASIL INDUSTRIA DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-07-27",
+                  "prazo": "2026-07-30",
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_dentro"
+                },
+                {
                   "id": 81477,
                   "cliente": "SUPERMERCADO PICCIN LIMITADA",
                   "dataCadastro": "2026-07-27",
@@ -30206,14 +30206,6 @@
                   "dataCadastro": "2026-07-27",
                   "prazo": "2026-07-29",
                   "dataEntrega": "2026-07-27",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 81498,
-                  "cliente": "TRONICS DO BRASIL INDUSTRIA DE EQUIPAMENTOS LTDA",
-                  "dataCadastro": "2026-07-27",
-                  "prazo": "2026-07-30",
-                  "dataEntrega": "2026-07-28",
                   "status": "atendido_dentro"
                 },
                 {
@@ -30453,7 +30445,7 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 01)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -30477,7 +30469,7 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 12)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-17",
+                  "dataEntrega": "2026-08-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -30577,6 +30569,86 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 81362,
+                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 07) ",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81363,
+                  "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 02)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81382,
+                  "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81364,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 61)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-08-14",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81365,
+                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 24)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81394,
+                  "cliente": "CENTRAL DISTRIBUIDORA DE GESSO LTDA (FILIAL 01) ",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-07-28",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81366,
+                  "cliente": "PAULO S. DA SILVA",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81385,
+                  "cliente": "OLIMPIA ADMINISTRADORA DE SERVIÇOS LTDA",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81367,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (66)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81368,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 67)",
+                  "dataCadastro": "2026-07-23",
+                  "prazo": "2026-07-27",
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_fora"
+                },
+                {
                   "id": 81370,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 68)",
                   "dataCadastro": "2026-07-23",
@@ -30605,7 +30677,7 @@
                   "cliente": "ALEXANDRA LIBRAZI GIUNGI BARRETO",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-10",
+                  "dataEntrega": "2026-08-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -30721,86 +30793,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 81362,
-                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 07) ",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81363,
-                  "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 02)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-14",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81382,
-                  "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 03)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-07-28",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81364,
-                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 61)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-14",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81365,
-                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 24)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81394,
-                  "cliente": "CENTRAL DISTRIBUIDORA DE GESSO LTDA (FILIAL 01) ",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-07-28",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81366,
-                  "cliente": "PAULO S. DA SILVA",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81385,
-                  "cliente": "OLIMPIA ADMINISTRADORA DE SERVIÇOS LTDA",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81367,
-                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (66)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81368,
-                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 67)",
-                  "dataCadastro": "2026-07-23",
-                  "prazo": "2026-07-27",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 81274,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
@@ -30854,9 +30846,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 260,
+          "abertos": 261,
           "atendidos": 190,
-          "pendentes": 70,
+          "pendentes": 71,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31329,6 +31321,14 @@
               "pendentes": 2,
               "chamados": [
                 {
+                  "id": 82637,
+                  "cliente": "ECAPAC ADMINISTRAÇÃO E PARTICIPAÇÃO S.A",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 81944,
                   "cliente": "AMARILDO DE OLIVEIRA ZARELLI ",
                   "dataCadastro": "2026-08-06",
@@ -31377,12 +31377,12 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 82637,
-                  "cliente": "ECAPAC ADMINISTRAÇÃO E PARTICIPAÇÃO S.A",
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "id": 82171,
+                  "cliente": "COMERCIO DE ALIMENTOS VICALI LTDA (FILIAL 06)",
+                  "dataCadastro": "2026-08-10",
+                  "prazo": "2026-08-11",
+                  "dataEntrega": "2026-08-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81953,
@@ -31391,14 +31391,6 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 82171,
-                  "cliente": "COMERCIO DE ALIMENTOS VICALI LTDA (FILIAL 06)",
-                  "dataCadastro": "2026-08-10",
-                  "prazo": "2026-08-11",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81904,
@@ -31609,20 +31601,20 @@
               "pendentes": 1,
               "chamados": [
                 {
-                  "id": 82426,
-                  "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
-                  "dataCadastro": "2026-08-14",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 82315,
                   "cliente": "ASSOC RETIRO DE RECUP DA SAUDE DE ITAPECERICA DA SERRA (MATRIZ)",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-20",
                   "dataEntrega": "2026-08-20",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82426,
+                  "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82721,
@@ -31974,7 +31966,7 @@
               "nome": "Regularização",
               "atendidosDentro": 5,
               "atendidosFora": 7,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81777,
@@ -32013,16 +32005,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82598,
                   "cliente": null,
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-08-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82732,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82491,
@@ -32035,6 +32035,22 @@
                 {
                   "id": 82421,
                   "cliente": "J K CAFETERIA E CONVENIÊNCIAS LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82540,
+                  "cliente": "CLINICA DE PSICOLOGIA LAILA TAHA LTDA",
+                  "dataCadastro": "2026-08-17",
+                  "prazo": "2026-08-20",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82422,
+                  "cliente": "JK BURITI CAFETERIA E CONVENIENCIAS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
                   "dataEntrega": "2026-08-18",
@@ -32063,22 +32079,6 @@
                   "prazo": "2026-08-20",
                   "dataEntrega": "2026-08-19",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 82540,
-                  "cliente": "CLINICA DE PSICOLOGIA LAILA TAHA LTDA",
-                  "dataCadastro": "2026-08-17",
-                  "prazo": "2026-08-20",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 82422,
-                  "cliente": "JK BURITI CAFETERIA E CONVENIENCIAS LTDA",
-                  "dataCadastro": "2026-08-14",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
                 },
                 {
                   "id": 81994,
@@ -32449,198 +32449,6 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 82344,
-                  "cliente": "MIKAIL APOIO ADMINISTRATIVO LTDA",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 82221,
-                  "cliente": "Supermercado Alta Rotação Ltda (Filial 4)",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82440,
-                  "cliente": "J MATERIAIS DE CONSTRUÇÃO LTDA",
-                  "dataCadastro": "2026-08-14",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81977,
-                  "cliente": "CEOS EMPREENDIMENTOS S.A.",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 81978,
-                  "cliente": "SCANBER PARTICIPAÇÕES LTDA",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-20",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81979,
-                  "cliente": "SORELLO EMPRENDIMENTOS S.A",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-20",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81980,
-                  "cliente": "INSPIRATE PARTICIPAÇÕES LTDA",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-20",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81981,
-                  "cliente": "B3R EMPREENDIMENTOS S.A.",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-20",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82441,
-                  "cliente": "M CAVICHIOLLI COMÉRCIO DE ROUPAS EIRELI",
-                  "dataCadastro": "2026-08-14",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82222,
-                  "cliente": "Supermercado Alta Rotação Ltda (Filial 6)",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82223,
-                  "cliente": "SUL LEÃO PARTICIPAÇÕES EIRELI",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82086,
-                  "cliente": "EMPORIO RT CARVALHO LTDA",
-                  "dataCadastro": "2026-08-07",
-                  "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 82442,
-                  "cliente": "M. Cavichiolli Comércio de Roupas Eireli - EPP  (Filial 1)",
-                  "dataCadastro": "2026-08-14",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82224,
-                  "cliente": "NELSINHO ASSESSORIA E SERVICOS ADMINISTRATIVOS LTDA",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82342,
-                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F9)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82226,
-                  "cliente": "MERCADINHO RIZARDI CAJAMAR LTDA",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81982,
-                  "cliente": "MGT Administração de Bens e Participações Ltda",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 82227,
-                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 37)",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82229,
-                  "cliente": "Cucinare Pro Alimentação ",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82345,
-                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 47)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 81972,
-                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-20",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81973,
-                  "cliente": "Comercial Glassutil - Eireli",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-20",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82347,
-                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 49)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82348,
-                  "cliente": "Cucinare Pro Alimentaçao Ltda (FL 51)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 82727,
                   "cliente": null,
                   "dataCadastro": "2026-08-20",
@@ -32777,6 +32585,198 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 82344,
+                  "cliente": "MIKAIL APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82221,
+                  "cliente": "Supermercado Alta Rotação Ltda (Filial 4)",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82440,
+                  "cliente": "J MATERIAIS DE CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81977,
+                  "cliente": "CEOS EMPREENDIMENTOS S.A.",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-10",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 81978,
+                  "cliente": "SCANBER PARTICIPAÇÕES LTDA",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81979,
+                  "cliente": "SORELLO EMPRENDIMENTOS S.A",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81980,
+                  "cliente": "INSPIRATE PARTICIPAÇÕES LTDA",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81981,
+                  "cliente": "B3R EMPREENDIMENTOS S.A.",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82441,
+                  "cliente": "M CAVICHIOLLI COMÉRCIO DE ROUPAS EIRELI",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82222,
+                  "cliente": "Supermercado Alta Rotação Ltda (Filial 6)",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82223,
+                  "cliente": "SUL LEÃO PARTICIPAÇÕES EIRELI",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82086,
+                  "cliente": "EMPORIO RT CARVALHO LTDA",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": "2026-08-10",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82442,
+                  "cliente": "M. Cavichiolli Comércio de Roupas Eireli - EPP  (Filial 1)",
+                  "dataCadastro": "2026-08-14",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82224,
+                  "cliente": "NELSINHO ASSESSORIA E SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82342,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F9)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82226,
+                  "cliente": "MERCADINHO RIZARDI CAJAMAR LTDA",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81982,
+                  "cliente": "MGT Administração de Bens e Participações Ltda",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-10",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82227,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 37)",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82229,
+                  "cliente": "Cucinare Pro Alimentação ",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82345,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 47)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81972,
+                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81973,
+                  "cliente": "Comercial Glassutil - Eireli",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82347,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 49)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82348,
+                  "cliente": "Cucinare Pro Alimentaçao Ltda (FL 51)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 82290,
                   "cliente": "MERCADINHO J. SILVA - EIRELI",
                   "dataCadastro": "2026-08-12",
@@ -32815,6 +32815,110 @@
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82232,
+                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 07) ",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82238,
+                  "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 02)",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81971,
+                  "cliente": "SMDA PARTICIPAÇÕES S.A.",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-10",
+                  "dataEntrega": "2026-08-10",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82351,
+                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 14)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82240,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 61)",
+                  "dataCadastro": "2026-08-11",
+                  "prazo": "2026-08-13",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82314,
+                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 23)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82316,
+                  "cliente": "PAULO S. DA SILVA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81871,
+                  "cliente": "A P SOARES DA SILVA MERCADO E PADARIA",
+                  "dataCadastro": "2026-08-04",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82317,
+                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 28)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82362,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 63)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82352,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 65)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82363,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (66)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-08-17",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82318,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 67)",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82320,
@@ -32927,110 +33031,6 @@
                   "prazo": "2026-08-10",
                   "dataEntrega": "2026-08-10",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 82232,
-                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 07) ",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82238,
-                  "cliente": "MERCADINHO REILAR DE ITAQUA LTDA (FILIAL 02)",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81971,
-                  "cliente": "SMDA PARTICIPAÇÕES S.A.",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 82351,
-                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 14)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82240,
-                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 61)",
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-13",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82314,
-                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 23)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82316,
-                  "cliente": "PAULO S. DA SILVA",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81871,
-                  "cliente": "A P SOARES DA SILVA MERCADO E PADARIA",
-                  "dataCadastro": "2026-08-04",
-                  "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82317,
-                  "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 28)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82362,
-                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 63)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82352,
-                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 65)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82363,
-                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (66)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-17",
-                  "status": "atendido_dentro"
-                },
-                {
-                  "id": 82318,
-                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 67)",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 81967,
@@ -33454,8 +33454,8 @@
         {
           "mes": "2026-08",
           "abertos": 24,
-          "atendidos": 3,
-          "pendentes": 21,
+          "atendidos": 4,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33667,9 +33667,9 @@
             },
             {
               "nome": "Solicitação do cliente",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82593,
@@ -33684,8 +33684,8 @@
                   "cliente": "FHGM SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-20",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -35243,7 +35243,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-12",
-                  "dataEntrega": "2026-08-14",
+                  "dataEntrega": "2026-08-20",
                   "status": "atendido_fora"
                 }
               ]
