@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/08/2026 16:08",
+  "atualizado_em": "21/08/2026 16:26",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 210,
+          "abertos": 211,
           "atendidos": 210,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 170,
-              "atendidosFora": 40,
-              "pendentes": 0,
+              "atendidosDentro": 169,
+              "atendidosFora": 41,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -18221,8 +18221,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82410,
@@ -18815,6 +18815,14 @@
                   "prazo": "2026-08-24",
                   "dataEntrega": "2026-08-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82816,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -28617,9 +28625,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 62,
+          "abertos": 61,
           "atendidos": 8,
-          "pendentes": 54,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28993,16 +29001,8 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 10,
+              "pendentes": 9,
               "chamados": [
-                {
-                  "id": 82209,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-11",
-                  "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 82242,
                   "cliente": null,
@@ -30990,9 +30990,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 287,
+          "abertos": 288,
           "atendidos": 203,
-          "pendentes": 84,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31038,7 +31038,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 5,
               "atendidosFora": 5,
-              "pendentes": 11,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 81838,
@@ -31119,6 +31119,14 @@
                   "prazo": "2026-08-31",
                   "dataEntrega": "2026-08-19",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82820,
+                  "cliente": "PEGPAN COMERCIO DE EMBALAGENS E PRODUTOS DE CONFEITARIA LTDA ",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82771,
