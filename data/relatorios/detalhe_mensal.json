@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/08/2026 14:48",
+  "atualizado_em": "21/08/2026 15:16",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 210,
-          "atendidos": 208,
-          "pendentes": 2,
+          "atendidos": 210,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 168,
+              "atendidosDentro": 170,
               "atendidosFora": 40,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81735,
@@ -18805,16 +18805,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82804,
                   "cliente": "Parafutrecos Comercial LTDA ",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -24090,9 +24090,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 20,
+          "abertos": 22,
           "atendidos": 18,
-          "pendentes": 2,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24129,6 +24129,30 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Auditoria",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 82755,
+                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82756,
+                  "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -28617,15 +28641,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 61,
+          "abertos": 62,
           "atendidos": 8,
-          "pendentes": 53,
+          "pendentes": 54,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 24,
+              "pendentes": 25,
               "chamados": [
                 {
                   "id": 82144,
@@ -28816,6 +28840,14 @@
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82808,
+                  "cliente": "Catroque Mercadinho Ltda ",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -30982,9 +31014,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 281,
+          "abertos": 279,
           "atendidos": 203,
-          "pendentes": 78,
+          "pendentes": 76,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31342,24 +31374,8 @@
               "nome": "Auditoria",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 12,
+              "pendentes": 10,
               "chamados": [
-                {
-                  "id": 82755,
-                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82756,
-                  "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 82754,
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
@@ -34143,15 +34159,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 189,
+          "abertos": 192,
           "atendidos": 66,
-          "pendentes": 123,
+          "pendentes": 126,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 5,
               "atendidosFora": 11,
-              "pendentes": 32,
+              "pendentes": 35,
               "chamados": [
                 {
                   "id": 81732,
@@ -34534,6 +34550,30 @@
                   "cliente": "GLOBAL TABS S.A. (MATRIZ)",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82805,
+                  "cliente": "SERVI SUPERMERCADOS LTDA",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82806,
+                  "cliente": "Servi Supermercados LTDA (Filial 8)",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82807,
+                  "cliente": "Servi Supermercados LTDA (Filial 9)",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
