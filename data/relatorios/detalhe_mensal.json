@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/08/2026 15:16",
+  "atualizado_em": "21/08/2026 16:08",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24090,15 +24090,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 22,
-          "atendidos": 18,
-          "pendentes": 4,
+          "abertos": 20,
+          "atendidos": 19,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82052,
@@ -24129,32 +24129,8 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Auditoria",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
-              "chamados": [
-                {
-                  "id": 82755,
-                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82756,
-                  "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -31014,9 +30990,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 279,
+          "abertos": 287,
           "atendidos": 203,
-          "pendentes": 76,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31374,8 +31350,24 @@
               "nome": "Auditoria",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 10,
+              "pendentes": 12,
               "chamados": [
+                {
+                  "id": 82755,
+                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82756,
+                  "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 82754,
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
@@ -32150,7 +32142,7 @@
               "nome": "Processo de VISA",
               "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 82094,
@@ -32191,6 +32183,54 @@
                   "prazo": "2026-08-14",
                   "dataEntrega": "2026-08-10",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82810,
+                  "cliente": "MEDIC NET LTDA ",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82809,
+                  "cliente": "MED ALPHA DISTRIBUIDORA DE PRODUTOS MÉDICOS E HOSPITALARES EM GERAL LTDA ",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82811,
+                  "cliente": "ALUSMEDESTHETK DISTRIBUIDORA E COMERCIO DE PRODUTOS LTDA",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82812,
+                  "cliente": "LUSMEDESTHETK DISTRIBUIDORA E COMERCIO DE PRODUTOS LTDA",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82813,
+                  "cliente": "LIVMEDESTHETK DISTRIBUIDORA E COMERCIO DE PRODUTOS LTDA",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82814,
+                  "cliente": "HHMEDESTHETK DISTRIBUIDORA E COMERCIO DE PRODUTOS LTDA",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
