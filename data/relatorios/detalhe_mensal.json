@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/08/2026 10:32",
+  "atualizado_em": "21/08/2026 10:49",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17127,14 +17127,14 @@
         {
           "mes": "2026-08",
           "abertos": 207,
-          "atendidos": 206,
-          "pendentes": 1,
+          "atendidos": 207,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 166,
+              "atendidosDentro": 167,
               "atendidosFora": 40,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81735,
@@ -18789,8 +18789,8 @@
                   "cliente": "Rone Participações Ltda.",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -30950,9 +30950,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 278,
-          "atendidos": 200,
-          "pendentes": 78,
+          "abertos": 280,
+          "atendidos": 199,
+          "pendentes": 81,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -32349,8 +32349,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 44,
-              "atendidosFora": 48,
-              "pendentes": 37,
+              "atendidosFora": 47,
+              "pendentes": 40,
               "chamados": [
                 {
                   "id": 81736,
@@ -32621,8 +32621,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-21",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82428,
@@ -33257,6 +33257,22 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 82780,
+                  "cliente": "Cucinare Pro Alimentacao LTDA (Filial 86)",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82781,
+                  "cliente": "Cucinare Pro Alimentacao LTDA (Filial 90)",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 81943,
                   "cliente": "HLL LOCADORA DE GUINDASTES LTDA",
                   "dataCadastro": "2026-08-06",
@@ -33702,8 +33718,8 @@
         {
           "mes": "2026-08",
           "abertos": 24,
-          "atendidos": 5,
-          "pendentes": 19,
+          "atendidos": 6,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33883,17 +33899,17 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82603,
                   "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
