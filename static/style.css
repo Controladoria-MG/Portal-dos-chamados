@@ -26,11 +26,15 @@
   --ret-border:     rgba(192,57,43,0.30);
   --ret-color:      #e05050;
   --chart-grid:     #444444;
-  /* Rampa de vermelho (leve → crítico) — cards totalizadores/status.
-     Nunca verde/âmbar aqui, mesmo pra "sem risco": identidade MG. */
-  --red-leve:       #ff6b5b;
-  --red-profundo:   #ff3355;
-  --red-suave:      rgba(192,57,43,0.16);
+  /* Status (Em Atraso / Vencendo Hoje / Em Aberto) — mesma paleta do
+     Portal de Tarefas (dep-dot), pedido explícito do usuário; cores fixas,
+     iguais em claro/escuro. */
+  --status-atraso:      #C00000;
+  --status-hoje:        #D03D00;
+  --status-aberto:      #E07B00;
+  --status-atraso-soft: rgba(192,0,0,0.13);
+  --status-hoje-soft:   rgba(208,61,0,0.13);
+  --status-aberto-soft: rgba(224,123,0,0.13);
 }
 
 /* ══════════════════════════════════════════════════════════════════
@@ -58,9 +62,6 @@
   --ret-border:     rgba(192,57,43,0.25);
   --ret-color:      #c0392b;
   --chart-grid:     #e0e0e0;
-  --red-leve:       #d13a3a;
-  --red-profundo:   #8e1b0f;
-  --red-suave:      #fbdedc;
 }
 
 /* ─── RESET ──────────────────────────────────────────────────────── */
@@ -255,24 +256,42 @@ main {
   font-weight: 600; margin-left: 2px;
 }
 .summary-card-info:hover { color: var(--secondary); }
-.summary-card--atraso .summary-card-icon { background: var(--red-suave); color: var(--red-profundo); }
-.summary-card--atraso .summary-card-value { color: var(--red-profundo); }
-.summary-card--hoje   .summary-card-icon { background: var(--secondary-dim); color: var(--secondary); }
-.summary-card--hoje   .summary-card-value { color: var(--secondary); }
-.summary-card--aberto .summary-card-icon { background: var(--red-suave); color: var(--red-leve); }
-.summary-card--aberto .summary-card-value { color: var(--red-leve); }
+.summary-card--atraso .summary-card-icon { background: var(--status-atraso-soft); color: var(--status-atraso); }
+.summary-card--atraso .summary-card-value { color: var(--status-atraso); }
+.summary-card--hoje   .summary-card-icon { background: var(--status-hoje-soft); color: var(--status-hoje); }
+.summary-card--hoje   .summary-card-value { color: var(--status-hoje); }
+.summary-card--aberto .summary-card-icon { background: var(--status-aberto-soft); color: var(--status-aberto); }
+.summary-card--aberto .summary-card-value { color: var(--status-aberto); }
 
-/* ─── STATUS LINHAS (dentro de cada .dept-card) — layout copiado do card de
-   departamento do Portal de Tarefas: linhas com bolinha colorida, label à
-   esquerda e valor à direita. Cores na rampa de vermelho da MG. ─────── */
+/* ─── CARD DIVIDIDO AO MEIO (Em Atraso: Operação x GC/Paralegal) ────── */
+.summary-card--split .summary-card-body { flex: 1; min-width: 0; }
+.summary-card-halves { display: flex; margin-top: 4px; }
+.summary-card-half {
+  flex: 1; min-width: 0; text-align: center; padding: 0 8px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.summary-card-half + .summary-card-half { border-left: 1px solid var(--border); }
+.summary-card-half:first-child { padding-left: 0; }
+.summary-card-half-value {
+  font-size: 1.15rem; font-weight: 800; line-height: 1.1;
+  color: var(--status-atraso); font-variant-numeric: tabular-nums;
+}
+.summary-card-half-label {
+  font-size: 0.58rem; font-weight: 600; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.04em;
+}
+
+/* ─── STATUS LINHAS (dentro de cada .dept-card) — layout e paleta copiados
+   do card de departamento do Portal de Tarefas: bolinha colorida, label à
+   esquerda e valor à direita. ─────────────────────────────────────────── */
 .status-linhas { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 14px; }
 .status-linha { display: flex; align-items: center; gap: 8px; font-size: 0.8rem; }
 .status-linha-texto { flex: 1; text-align: left; color: var(--text-dim); }
 .status-linha-valor { font-weight: 700; text-align: right; color: var(--text); font-variant-numeric: tabular-nums; }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-.status-dot--atraso { background: var(--red-profundo); }
-.status-dot--hoje   { background: var(--secondary); }
-.status-dot--aberto { background: var(--red-leve); }
+.status-dot--atraso { background: var(--status-atraso); }
+.status-dot--hoje   { background: var(--status-hoje); }
+.status-dot--aberto { background: var(--status-aberto); }
 
 /* ─── FILIAL GRID (São Paulo / Rio de Janeiro / Santos, centralizado) ─ */
 #dept-grid, #rel-dept-grid {

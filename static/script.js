@@ -89,6 +89,14 @@ function contarStatusVencimento(rows) {
   return { total: rows.length, atraso, hoje, aberto: rows.length - atraso - hoje };
 }
 
+/* Gerência (GC/Paralegal, cliente) x Operação (CTB/EF/DP, back-office) —
+   usado só para dividir o card "Em Atraso" da filial ao meio. */
+function grupoOperacional(deptName) {
+  const upper = String(deptName || '').toUpperCase();
+  if (upper.includes('GERENCIA DE CONTAS') || upper.includes('PARALEGAL')) return 'Gerência';
+  return 'Operação';
+}
+
 /* Prazo Vencimento mais urgente (data mais antiga) entre um conjunto de chamados */
 function earliestPrazo(rows) {
   let best = null;
@@ -401,9 +409,14 @@ function renderFilialDepts(filialNome) {
   // Cards totalizadores da filial (Total / Em Atraso / Vencendo Hoje / Em Aberto).
   const filialStatus = contarStatusVencimento(filialRows);
   document.getElementById('filial-card-total').textContent  = filialStatus.total.toLocaleString('pt-BR');
-  document.getElementById('filial-card-atraso').textContent = filialStatus.atraso.toLocaleString('pt-BR');
   document.getElementById('filial-card-hoje').textContent   = filialStatus.hoje.toLocaleString('pt-BR');
   document.getElementById('filial-card-aberto').textContent = filialStatus.aberto.toLocaleString('pt-BR');
+
+  // Em Atraso, dividido ao meio: Operação x GC/Paralegal.
+  const operacaoRows = filialRows.filter(r => grupoOperacional(deptGroupName(r)) === 'Operação');
+  const gcRows        = filialRows.filter(r => grupoOperacional(deptGroupName(r)) === 'Gerência');
+  document.getElementById('filial-card-atraso-operacao').textContent = contarStatusVencimento(operacaoRows).atraso.toLocaleString('pt-BR');
+  document.getElementById('filial-card-atraso-gc').textContent       = contarStatusVencimento(gcRows).atraso.toLocaleString('pt-BR');
 
   // Garante que a Gerência de Contas (e Paralegal, só em SP) da filial
   // aparece mesmo sem pendentes no momento.

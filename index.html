@@ -81,7 +81,7 @@
           </div>
         </div>
 
-        <div class="summary-card summary-card--atraso">
+        <div class="summary-card summary-card--atraso summary-card--split">
           <div class="summary-card-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M12 9v4"/><path d="M10.3 3.9 2.3 18a1.8 1.8 0 0 0 1.6 2.7h16.2a1.8 1.8 0 0 0 1.6-2.7l-8-14.1a1.8 1.8 0 0 0-3.2 0z"/>
@@ -92,7 +92,16 @@
             <span class="summary-card-label">Em Atraso
               <span class="summary-card-info" title="Chamados com Prazo Vencimento já vencido, em todos os departamentos da filial.">ⓘ</span>
             </span>
-            <span class="summary-card-value" id="filial-card-atraso">0</span>
+            <div class="summary-card-halves">
+              <div class="summary-card-half">
+                <span class="summary-card-half-value" id="filial-card-atraso-operacao">0</span>
+                <span class="summary-card-half-label">Operação</span>
+              </div>
+              <div class="summary-card-half">
+                <span class="summary-card-half-value" id="filial-card-atraso-gc">0</span>
+                <span class="summary-card-half-label">GC/Paralegal</span>
+              </div>
+            </div>
           </div>
         </div>
 
