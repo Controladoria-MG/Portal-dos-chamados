@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/08/2026 12:38",
+  "atualizado_em": "21/08/2026 13:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 166,
-              "atendidosFora": 149,
+              "atendidosDentro": 165,
+              "atendidosFora": 150,
               "pendentes": 0,
               "chamados": [
                 {
@@ -14285,8 +14285,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-23",
                   "prazo": "2026-06-24",
-                  "dataEntrega": "2026-06-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80432,
@@ -17126,15 +17126,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 208,
+          "abertos": 209,
           "atendidos": 208,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 168,
               "atendidosFora": 40,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81735,
@@ -18799,6 +18799,14 @@
                   "prazo": "2026-08-24",
                   "dataEntrega": "2026-08-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82785,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -30967,8 +30975,8 @@
         {
           "mes": "2026-08",
           "abertos": 280,
-          "atendidos": 202,
-          "pendentes": 78,
+          "atendidos": 201,
+          "pendentes": 79,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -32364,9 +32372,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 45,
+              "atendidosDentro": 44,
               "atendidosFora": 48,
-              "pendentes": 38,
+              "pendentes": 39,
               "chamados": [
                 {
                   "id": 81736,
@@ -32661,8 +32669,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-24",
-                  "dataEntrega": "2026-08-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82768,
@@ -34063,15 +34071,15 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 177,
-          "atendidos": 49,
-          "pendentes": 128,
+          "abertos": 178,
+          "atendidos": 52,
+          "pendentes": 126,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 5,
-              "atendidosFora": 6,
-              "pendentes": 37,
+              "atendidosFora": 9,
+              "pendentes": 34,
               "chamados": [
                 {
                   "id": 81732,
@@ -34334,24 +34342,24 @@
                   "cliente": "ROCHA E FILHO LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82405,
                   "cliente": "ROCHA E BORGES SERVICOS OPERACIONAIS LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82408,
                   "cliente": "ROCHA E FILHO LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82416,
@@ -34463,7 +34471,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 30,
               "atendidosFora": 8,
-              "pendentes": 88,
+              "pendentes": 89,
               "chamados": [
                 {
                   "id": 81764,
@@ -35470,6 +35478,14 @@
                   "cliente": "ZHAO CENTER COMERCIO LTDA",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82786,
+                  "cliente": "ROCHA E FILHO LTDA",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
