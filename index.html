@@ -66,6 +66,66 @@
         <h1 id="filial-depts-title">Filial</h1>
       </div>
 
+      <!-- Cards totalizadores da filial (Total / Em Atraso / Vencendo Hoje / Em Aberto) -->
+      <section class="cards-section" id="filial-cards-section">
+        <div class="summary-card summary-card--total">
+          <div class="summary-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="4" y="4" width="16" height="16" rx="2"/><line x1="8" y1="9" x2="16" y2="9"/>
+              <line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="12" y2="17"/>
+            </svg>
+          </div>
+          <div class="summary-card-body">
+            <span class="summary-card-label">Total de Chamados</span>
+            <span class="summary-card-value" id="filial-card-total">0</span>
+          </div>
+        </div>
+
+        <div class="summary-card summary-card--atraso">
+          <div class="summary-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 9v4"/><path d="M10.3 3.9 2.3 18a1.8 1.8 0 0 0 1.6 2.7h16.2a1.8 1.8 0 0 0 1.6-2.7l-8-14.1a1.8 1.8 0 0 0-3.2 0z"/>
+              <circle cx="12" cy="16.3" r=".6" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <div class="summary-card-body">
+            <span class="summary-card-label">Em Atraso
+              <span class="summary-card-info" title="Chamados com Prazo Vencimento já vencido, em todos os departamentos da filial.">ⓘ</span>
+            </span>
+            <span class="summary-card-value" id="filial-card-atraso">0</span>
+          </div>
+        </div>
+
+        <div class="summary-card summary-card--hoje">
+          <div class="summary-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="17" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/>
+              <line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/>
+            </svg>
+          </div>
+          <div class="summary-card-body">
+            <span class="summary-card-label">Vencendo Hoje
+              <span class="summary-card-info" title="Chamados cujo Prazo Vencimento é hoje, em todos os departamentos da filial.">ⓘ</span>
+            </span>
+            <span class="summary-card-value" id="filial-card-hoje">0</span>
+          </div>
+        </div>
+
+        <div class="summary-card summary-card--aberto">
+          <div class="summary-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/>
+            </svg>
+          </div>
+          <div class="summary-card-body">
+            <span class="summary-card-label">Em Aberto
+              <span class="summary-card-info" title="Chamados com Prazo Vencimento futuro (ou sem prazo definido), em todos os departamentos da filial.">ⓘ</span>
+            </span>
+            <span class="summary-card-value" id="filial-card-aberto">0</span>
+          </div>
+        </div>
+      </section>
+
       <!-- Department cards -->
       <div id="filial-dept-grid"></div>
 

@@ -69,6 +69,26 @@ function updateTicketStats(tickets) {
   $statVencidos.textContent    = vencidos.toLocaleString('pt-BR');
   $statNaoVencidos.textContent = naoVencidos.toLocaleString('pt-BR');
 }
+/* Classifica pelo Prazo Vencimento em 3 baldes: atraso (já venceu), hoje
+   (vence hoje) ou aberto (vence depois ou sem prazo definido). Usado nos
+   cards totalizadores da filial e no detalhamento de cada card de depto. */
+function prazoBucket(row) {
+  const date = parsePrazoDate(prazoVal(row));
+  if (!date) return 'aberto';
+  const today = new Date(); today.setHours(0,0,0,0);
+  if (date.getTime() === today.getTime()) return 'hoje';
+  return date < today ? 'atraso' : 'aberto';
+}
+function contarStatusVencimento(rows) {
+  let atraso = 0, hoje = 0;
+  rows.forEach(r => {
+    const b = prazoBucket(r);
+    if (b === 'atraso') atraso++;
+    else if (b === 'hoje') hoje++;
+  });
+  return { total: rows.length, atraso, hoje, aberto: rows.length - atraso - hoje };
+}
+
 /* Prazo Vencimento mais urgente (data mais antiga) entre um conjunto de chamados */
 function earliestPrazo(rows) {
   let best = null;
@@ -339,7 +359,9 @@ function badge(status) {
 function renderHome() {
   $loading.style.display = 'none';
 
-  if ($totalRecs) $totalRecs.textContent = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM').length.toLocaleString('pt-BR');
+  const pendentes = allData.filter(r => String(col(r,'Retornado')).toUpperCase() !== 'SIM');
+
+  if ($totalRecs) $totalRecs.textContent = pendentes.length.toLocaleString('pt-BR');
   if ($totalDeps) $totalDeps.textContent = FILIAIS.length;
 
   // Cards de filial sem número — igual à tela de escolha de unidade do
@@ -366,25 +388,41 @@ function openFilial(filialNome) {
 }
 
 function renderFilialDepts(filialNome) {
-  const deptMap = {};
+  const deptRowsMap = {};
+  const filialRows  = [];
   for (const row of allData) {
     if (String(col(row, 'Retornado')).toUpperCase() === 'SIM') continue; // retornados não contam nos cards normais
     const dept = deptGroupName(row);
     if (filialDoDept(dept) !== filialNome) continue;
-    deptMap[dept] = (deptMap[dept] || 0) + 1;
+    (deptRowsMap[dept] = deptRowsMap[dept] || []).push(row);
+    filialRows.push(row);
   }
+
+  // Cards totalizadores da filial (Total / Em Atraso / Vencendo Hoje / Em Aberto).
+  const filialStatus = contarStatusVencimento(filialRows);
+  document.getElementById('filial-card-total').textContent  = filialStatus.total.toLocaleString('pt-BR');
+  document.getElementById('filial-card-atraso').textContent = filialStatus.atraso.toLocaleString('pt-BR');
+  document.getElementById('filial-card-hoje').textContent   = filialStatus.hoje.toLocaleString('pt-BR');
+  document.getElementById('filial-card-aberto').textContent = filialStatus.aberto.toLocaleString('pt-BR');
+
   // Garante que a Gerência de Contas (e Paralegal, só em SP) da filial
   // aparece mesmo sem pendentes no momento.
   if (filialNome === 'São Paulo') {
-    if (!deptMap['GERENCIA DE CONTAS']) deptMap['GERENCIA DE CONTAS'] = 0;
-    if (!deptMap['PARALEGAL']) deptMap['PARALEGAL'] = 0;
+    if (!deptRowsMap['GERENCIA DE CONTAS']) deptRowsMap['GERENCIA DE CONTAS'] = [];
+    if (!deptRowsMap['PARALEGAL']) deptRowsMap['PARALEGAL'] = [];
   } else if (filialNome === 'Santos') {
-    if (!deptMap['SANTOS GERENCIA DE CONTAS']) deptMap['SANTOS GERENCIA DE CONTAS'] = 0;
+    if (!deptRowsMap['SANTOS GERENCIA DE CONTAS']) deptRowsMap['SANTOS GERENCIA DE CONTAS'] = [];
   } else if (filialNome === 'Rio de Janeiro') {
-    if (!deptMap['RJ GERENCIA DE CONTAS']) deptMap['RJ GERENCIA DE CONTAS'] = 0;
+    if (!deptRowsMap['RJ GERENCIA DE CONTAS']) deptRowsMap['RJ GERENCIA DE CONTAS'] = [];
   }
 
-  const depts = Object.entries(deptMap).sort((a, b) => b[1] - a[1]);
+  // Detalhamento por departamento: Em Atraso / Vencendo Hoje / Em Aberto,
+  // pelo Prazo Vencimento — igual ao layout do card de departamento do
+  // Portal de Tarefas.
+  const deptStats = {};
+  for (const [name, rows] of Object.entries(deptRowsMap)) deptStats[name] = contarStatusVencimento(rows);
+
+  const depts = Object.entries(deptStats).sort((a, b) => b[1].total - a[1].total);
 
   const $title = document.getElementById('filial-depts-title');
   if ($title) $title.textContent = filialNome;
@@ -395,12 +433,29 @@ function renderFilialDepts(filialNome) {
     $grid.innerHTML = `<p class="empty">Nenhum departamento encontrado para esta filial.</p>`;
     return;
   }
-  for (const [name, count] of depts) {
+  for (const [name, stats] of depts) {
     const card = document.createElement('div');
     card.className = 'dept-card';
     card.innerHTML = `
       <div class="card-name">${escHtml(name)}</div>
-      <div class="card-count">${count.toLocaleString('pt-BR')}</div>
+      <div class="card-count">${stats.total.toLocaleString('pt-BR')}</div>
+      <div class="status-linhas">
+        <div class="status-linha">
+          <span class="status-dot status-dot--atraso"></span>
+          <span class="status-linha-texto">Em Atraso</span>
+          <span class="status-linha-valor">${stats.atraso.toLocaleString('pt-BR')}</span>
+        </div>
+        <div class="status-linha">
+          <span class="status-dot status-dot--hoje"></span>
+          <span class="status-linha-texto">Vencendo Hoje</span>
+          <span class="status-linha-valor">${stats.hoje.toLocaleString('pt-BR')}</span>
+        </div>
+        <div class="status-linha">
+          <span class="status-dot status-dot--aberto"></span>
+          <span class="status-linha-texto">Em Aberto</span>
+          <span class="status-linha-valor">${stats.aberto.toLocaleString('pt-BR')}</span>
+        </div>
+      </div>
       <div class="card-hint">Clique para ver os detalhes</div>`;
     card.addEventListener('click', () => openDept(name));
     $grid.appendChild(card);
