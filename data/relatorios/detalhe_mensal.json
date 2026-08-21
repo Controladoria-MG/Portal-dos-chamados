@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/08/2026 10:49",
+  "atualizado_em": "21/08/2026 12:38",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17126,13 +17126,13 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 207,
-          "atendidos": 207,
+          "abertos": 208,
+          "atendidos": 208,
           "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 167,
+              "atendidosDentro": 168,
               "atendidosFora": 40,
               "pendentes": 0,
               "chamados": [
@@ -18787,6 +18787,14 @@
                 {
                   "id": 82774,
                   "cliente": "Rone Participações Ltda.",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82782,
+                  "cliente": null,
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-24",
                   "dataEntrega": "2026-08-21",
@@ -23109,8 +23117,8 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 46,
-          "atendidos": 43,
+          "abertos": 47,
+          "atendidos": 44,
           "pendentes": 3,
           "categorias": [
             {
@@ -23195,17 +23203,17 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 9,
+              "atendidosDentro": 10,
               "atendidosFora": 12,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82739,
                   "cliente": null,
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82279,
@@ -23509,8 +23517,16 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 82783,
+                  "cliente": "ZARELLI SUPERMERCADOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 81999,
                   "cliente": "CR & P COMERCIO DE HORTIFRUTIGRANJEIROS LTDA ",
@@ -30951,8 +30967,8 @@
         {
           "mes": "2026-08",
           "abertos": 280,
-          "atendidos": 199,
-          "pendentes": 81,
+          "atendidos": 202,
+          "pendentes": 78,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31476,9 +31492,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 10,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82637,
@@ -31549,8 +31565,8 @@
                   "cliente": "COMERCIAL PRADO - MATERIAL DE CONSTRUCAO LTDA",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 81953,
@@ -32348,9 +32364,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 44,
-              "atendidosFora": 47,
-              "pendentes": 40,
+              "atendidosDentro": 45,
+              "atendidosFora": 48,
+              "pendentes": 38,
               "chamados": [
                 {
                   "id": 81736,
@@ -32621,8 +32637,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82428,
@@ -32645,8 +32661,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-08-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82768,
