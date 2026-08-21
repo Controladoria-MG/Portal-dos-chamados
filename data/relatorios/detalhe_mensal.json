@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/08/2026 16:26",
+  "atualizado_em": "21/08/2026 16:56",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -30990,9 +30990,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 288,
+          "abertos": 289,
           "atendidos": 203,
-          "pendentes": 85,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -31038,7 +31038,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 5,
               "atendidosFora": 5,
-              "pendentes": 12,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 81838,
@@ -31173,6 +31173,14 @@
                   "cliente": "NOHKER COMERCIO E REPRESENTACAO DE PRODUTOS PARA HIGIENE, LIMPEZA E COSMETICOS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82821,
+                  "cliente": "ALCANTARA LOGÍSTICA E TRANSPORTE LTDA",
+                  "dataCadastro": "2026-08-21",
+                  "prazo": "2026-09-18",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
