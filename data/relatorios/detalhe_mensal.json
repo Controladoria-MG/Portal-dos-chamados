@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/09/2026 17:26",
+  "atualizado_em": "02/09/2026 18:01",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -7,8 +7,8 @@
         {
           "mes": "2026-08",
           "abertos": 39,
-          "atendidos": 21,
-          "pendentes": 18,
+          "atendidos": 26,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36,9 +36,9 @@
             },
             {
               "nome": "Cadastro de Produtos",
-              "atendidosDentro": 19,
+              "atendidosDentro": 24,
               "atendidosFora": 0,
-              "pendentes": 18,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 82881,
@@ -221,8 +221,8 @@
                   "cliente": "GEMF COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83096,
@@ -245,16 +245,16 @@
                   "cliente": "ELETRO MAQUINAS E FERRAGENS LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83099,
                   "cliente": "ELETRO MAQUINAS COMERCIO DISTRIBUIDORA LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83184,
@@ -293,16 +293,16 @@
                   "cliente": "RESTAURANTE PICANHA DO ZE LTDA ",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83160,
                   "cliente": "DESLIMPEX DISTRIBUIDORA DE DESCARTAVEIS E MATERIAIS DE LIMPEZA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83161,
@@ -17521,8 +17521,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 217,
-              "atendidosFora": 79,
+              "atendidosDentro": 216,
+              "atendidosFora": 80,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19442,8 +19442,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-08-26",
-                  "dataEntrega": "2026-08-25",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82973,
@@ -26087,10 +26087,26 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 1,
+          "abertos": 2,
           "atendidos": 0,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
+            {
+              "nome": "Documentação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83525,
+                  "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Levantamento Divergências",
               "atendidosDentro": 0,
@@ -29226,8 +29242,8 @@
         {
           "mes": "2026-08",
           "abertos": 41,
-          "atendidos": 26,
-          "pendentes": 15,
+          "atendidos": 27,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29488,8 +29504,8 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81870,
@@ -29512,8 +29528,8 @@
                   "cliente": "MARINGÁ MANUTENÇÃO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83037,
@@ -31542,15 +31558,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 114,
+          "abertos": 115,
           "atendidos": 14,
-          "pendentes": 100,
+          "pendentes": 101,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 8,
               "atendidosFora": 0,
-              "pendentes": 95,
+              "pendentes": 96,
               "chamados": [
                 {
                   "id": 83321,
@@ -32371,6 +32387,14 @@
                 {
                   "id": 83510,
                   "cliente": "DISTRIBUIDORA DE HORT FRUIT SEMPRE VERDE LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83523,
+                  "cliente": "Empório Catroque Ltda",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
@@ -37915,9 +37939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 37,
+          "abertos": 38,
           "atendidos": 5,
-          "pendentes": 32,
+          "pendentes": 33,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38028,6 +38052,22 @@
                   "prazo": "2026-09-02",
                   "dataEntrega": "2026-09-01",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Cadastro de Cliente",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83524,
+                  "cliente": "NT TECNOLOGIA DA INFORMACAO LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -39284,9 +39324,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 239,
+          "abertos": 237,
           "atendidos": 125,
-          "pendentes": 114,
+          "pendentes": 112,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -41171,30 +41211,6 @@
                   "cliente": "LAB ACRILICOS LTDA",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Cadastro de Produtos",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
-              "chamados": [
-                {
-                  "id": 83046,
-                  "cliente": "SHOP MACROZÃO LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-08-26",
-                  "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83050,
-                  "cliente": "SARAU BAR E RESTAURANTE LTDA",
-                  "dataCadastro": "2026-08-26",
-                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
