@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/09/2026 15:46",
+  "atualizado_em": "02/09/2026 16:17",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19899,15 +19899,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 12,
+          "abertos": 13,
           "atendidos": 8,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 8,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20002,6 +20002,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83515,
+                  "cliente": "Pro Seg Servicos de Seguranca LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -36385,8 +36393,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 79,
-              "atendidosFora": 87,
+              "atendidosDentro": 77,
+              "atendidosFora": 89,
               "pendentes": 19,
               "chamados": [
                 {
@@ -37394,8 +37402,8 @@
                   "cliente": "H. T. COMERCIO DE SUCATAS E APARAS DE PAPEL BARAO LTDA (FILIAL 01)",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-08-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81960,
@@ -37682,8 +37690,8 @@
                   "cliente": "RDF VEICULOS LTDA  ",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-08-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82579,
