@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/09/2026 16:17",
+  "atualizado_em": "02/09/2026 17:26",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19900,14 +19900,14 @@
         {
           "mes": "2026-09",
           "abertos": 13,
-          "atendidos": 8,
-          "pendentes": 5,
+          "atendidos": 9,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 8,
+              "atendidosDentro": 9,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20010,8 +20010,8 @@
                   "cliente": "Pro Seg Servicos de Seguranca LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -24603,22 +24603,22 @@
         {
           "mes": "2026-08",
           "abertos": 72,
-          "atendidos": 65,
-          "pendentes": 7,
+          "atendidos": 67,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 11,
-              "atendidosFora": 4,
-              "pendentes": 2,
+              "atendidosFora": 6,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83176,
                   "cliente": "SUPERMERCADO CATANDUVA LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82034,
@@ -24681,8 +24681,8 @@
                   "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82041,
@@ -25266,10 +25266,26 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 3,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83517,
+                  "cliente": "ÁGUA LIMPA DISTRIBUIDORA DE HORTIFRUTI, ALIMENTOS E SERVIÇOS DE TRANSPORTES LTDA.",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 3,
@@ -34252,8 +34268,8 @@
         {
           "mes": "2026-08",
           "abertos": 425,
-          "atendidos": 334,
-          "pendentes": 91,
+          "atendidos": 337,
+          "pendentes": 88,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -34586,8 +34602,8 @@
             {
               "nome": "Alteração de Contabilista",
               "atendidosDentro": 3,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82107,
@@ -34618,8 +34634,8 @@
                   "cliente": "VALQUET SJC COMERCIO ALIMENTOS E BEBIDAS LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82563,
@@ -34986,8 +35002,8 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 2,
-              "atendidosFora": 4,
-              "pendentes": 1,
+              "atendidosFora": 5,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81905,
@@ -35018,8 +35034,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82835,
@@ -36394,8 +36410,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 77,
-              "atendidosFora": 89,
-              "pendentes": 19,
+              "atendidosFora": 90,
+              "pendentes": 18,
               "chamados": [
                 {
                   "id": 81736,
@@ -37562,8 +37578,8 @@
                   "cliente": "RN MUROS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82882,
@@ -37899,9 +37915,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 32,
-          "atendidos": 4,
-          "pendentes": 28,
+          "abertos": 37,
+          "atendidos": 5,
+          "pendentes": 32,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -37923,8 +37939,24 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 7,
               "chamados": [
+                {
+                  "id": 83516,
+                  "cliente": "SUPERMERCADO CATROQUE LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83518,
+                  "cliente": "Catroque Mercadinho Ltda ",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83339,
                   "cliente": "ACS COMÉRCIO E SERVIÇOS DE MANUTENÇÃO LTDA",
@@ -37938,6 +37970,22 @@
                   "cliente": "UNIVERSO DAS COISINHAS E-COMMERCE LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83520,
+                  "cliente": "TAITI COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83521,
+                  "cliente": "LOJA DE FABRICA PISOS E REVESTIMENTOS LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -37980,6 +38028,22 @@
                   "prazo": "2026-09-02",
                   "dataEntrega": "2026-09-01",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Certidão",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83519,
+                  "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -38153,9 +38217,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83368,
@@ -38186,8 +38250,8 @@
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83373,
@@ -38265,14 +38329,14 @@
         {
           "mes": "2026-08",
           "abertos": 26,
-          "atendidos": 22,
-          "pendentes": 4,
+          "atendidos": 23,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 8,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81769,
@@ -38399,8 +38463,8 @@
                   "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -38521,14 +38585,14 @@
         {
           "mes": "2026-09",
           "abertos": 5,
-          "atendidos": 0,
-          "pendentes": 5,
+          "atendidos": 4,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 0,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83317,
@@ -38543,32 +38607,32 @@
                   "cliente": "WJS COMUNICAÇÃO VISUAL LTDA ",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83327,
                   "cliente": "SOUZA REVESTIMENTOS E FACHADAS LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83328,
                   "cliente": "CRIATIVA COMUNICAÇÃO VISUAL LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83329,
                   "cliente": "CRIART COMUNICAÇÃO VISUAL LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-02",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -41172,15 +41236,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 10,
+          "abertos": 11,
           "atendidos": 0,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83310,
@@ -41241,6 +41305,14 @@
                 {
                   "id": 83514,
                   "cliente": "STOCK FRANGO DISTRIBUIDORA DE GÊNEROS ALIMENTÍCIOS E TRANSPORTE LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83522,
+                  "cliente": "DISTRIBUIDORA BRAZLIMP LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
