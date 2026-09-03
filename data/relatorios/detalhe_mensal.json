@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/09/2026 09:29",
+  "atualizado_em": "03/09/2026 10:01",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -17521,8 +17521,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 216,
-              "atendidosFora": 80,
+              "atendidosDentro": 214,
+              "atendidosFora": 82,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19714,8 +19714,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-08-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83226,
@@ -19834,8 +19834,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-02",
-                  "dataEntrega": "2026-08-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83292,
@@ -19899,15 +19899,31 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 14,
-          "atendidos": 9,
+          "abertos": 15,
+          "atendidos": 10,
           "pendentes": 5,
           "categorias": [
             {
-              "nome": "MG Controle",
-              "atendidosDentro": 9,
+              "nome": "Fechamento Fiscal",
+              "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83536,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "MG Controle",
+              "atendidosDentro": 10,
+              "atendidosFora": 0,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20018,8 +20034,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -22142,8 +22158,8 @@
         {
           "mes": "2026-08",
           "abertos": 51,
-          "atendidos": 47,
-          "pendentes": 4,
+          "atendidos": 48,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22412,8 +22428,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 10,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82072,
@@ -22452,8 +22468,8 @@
                   "cliente": "Nilcap Renovadora de Pneus LTDA ",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81914,
@@ -23458,9 +23474,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 78,
+          "abertos": 79,
           "atendidos": 77,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -23507,6 +23523,22 @@
                   "prazo": "2026-06-15",
                   "dataEntrega": "2026-06-24",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Apontamentos",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 79830,
+                  "cliente": "R.T CARVALHO ALUGUEL DE IMOVEIS PROPRIOS LTDA ",
+                  "dataCadastro": "2026-06-10",
+                  "prazo": "2026-06-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -30126,24 +30158,16 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 45,
+          "abertos": 44,
           "atendidos": 26,
-          "pendentes": 19,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 4,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
-                {
-                  "id": 79830,
-                  "cliente": "R.T CARVALHO ALUGUEL DE IMOVEIS PROPRIOS LTDA ",
-                  "dataCadastro": "2026-06-10",
-                  "prazo": "2026-06-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 79832,
                   "cliente": "DISTRIBUIDORA FERRAZ GUERRA LTDA",
@@ -30591,14 +30615,14 @@
         {
           "mes": "2026-07",
           "abertos": 22,
-          "atendidos": 12,
-          "pendentes": 10,
+          "atendidos": 13,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 6,
+              "atendidosFora": 2,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 80689,
@@ -30645,8 +30669,8 @@
                   "cliente": "DFG COMERCIO IMPORTACAO, EXPORTACAO E REPRESENTACAO LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81629,
@@ -30815,8 +30839,8 @@
         {
           "mes": "2026-08",
           "abertos": 86,
-          "atendidos": 26,
-          "pendentes": 60,
+          "atendidos": 27,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -31061,8 +31085,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 0,
-              "atendidosFora": 10,
-              "pendentes": 8,
+              "atendidosFora": 11,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 81762,
@@ -31173,8 +31197,8 @@
                   "cliente": "Gualtieri Servicos Administrativos LTDA ",
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-08-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82969,
@@ -36489,8 +36513,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 77,
-              "atendidosFora": 90,
+              "atendidosDentro": 76,
+              "atendidosFora": 91,
               "pendentes": 18,
               "chamados": [
                 {
@@ -36842,7 +36866,7 @@
                   "cliente": "SUPERMERCADO CAMILÓPOLIS LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_fora"
                 },
                 {
@@ -36866,7 +36890,7 @@
                   "cliente": "SUPERMERCADO MATRIZ LTDA ",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_fora"
                 },
                 {
@@ -37154,8 +37178,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-08-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83162,
@@ -37634,7 +37658,7 @@
                   "cliente": "SUPERMERCADO MATRIZ LTDA (FILIAL 01)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_fora"
                 },
                 {
@@ -37996,8 +38020,8 @@
         {
           "mes": "2026-09",
           "abertos": 41,
-          "atendidos": 9,
-          "pendentes": 32,
+          "atendidos": 10,
+          "pendentes": 31,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38337,9 +38361,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 6,
+              "atendidosDentro": 7,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83368,
@@ -38410,8 +38434,8 @@
                   "cliente": "3L COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83325,
