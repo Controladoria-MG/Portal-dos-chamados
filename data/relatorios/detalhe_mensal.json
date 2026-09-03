@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/09/2026 14:07",
+  "atualizado_em": "03/09/2026 15:28",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19932,8 +19932,8 @@
         {
           "mes": "2026-09",
           "abertos": 18,
-          "atendidos": 11,
-          "pendentes": 7,
+          "atendidos": 13,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19953,9 +19953,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 11,
+              "atendidosDentro": 13,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20082,16 +20082,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83566,
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -25386,9 +25386,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 9,
+          "abertos": 13,
           "atendidos": 3,
-          "pendentes": 6,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25442,7 +25442,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83556,
@@ -25453,8 +25453,24 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 83572,
+                  "cliente": "ZARELLI SUPERMERCADOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83555,
                   "cliente": "ZARELLI SUPERMERCADOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83573,
+                  "cliente": "HORTIFRUTI FAVARO LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
@@ -25471,6 +25487,22 @@
                 {
                   "id": 83558,
                   "cliente": "TAPEJARA PARTICIPAÇÕES S.A",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83574,
+                  "cliente": "TAPEJARA PARTICIPAÇÕES S.A",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83575,
+                  "cliente": "SERRO AZUL PARTICIPAÇÕES S.A ",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
@@ -31237,7 +31269,7 @@
                   "cliente": "QUINTAL DA FAMILIA HORTIFRUTI LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_fora"
                 },
                 {
@@ -31734,9 +31766,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 120,
+          "abertos": 121,
           "atendidos": 25,
-          "pendentes": 95,
+          "pendentes": 96,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -32614,7 +32646,7 @@
               "nome": "Certificado",
               "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83336,
@@ -32701,12 +32733,20 @@
                   "cliente": "RECANTO SUPERMERCADO E HORTIFRUTTI LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
                 },
                 {
                   "id": 83549,
                   "cliente": "ROCA DISTRIBUIDORA E TRANSPORTES DE ALIMENTOS LTDA ",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83577,
+                  "cliente": "ELETRICA IPOJUCA LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
@@ -36001,8 +36041,8 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 1,
-              "atendidosFora": 7,
+              "atendidosDentro": 0,
+              "atendidosFora": 8,
               "pendentes": 0,
               "chamados": [
                 {
@@ -36042,8 +36082,8 @@
                   "cliente": "ASHTAR COMERCIAL E INCORPORADORA LTDA",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-02",
-                  "dataEntrega": "2026-09-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81855,
@@ -38155,9 +38195,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 50,
-          "atendidos": 13,
-          "pendentes": 37,
+          "abertos": 52,
+          "atendidos": 14,
+          "pendentes": 38,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38457,17 +38497,17 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83530,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83485,
@@ -38579,7 +38619,7 @@
               "nome": "Senha",
               "atendidosDentro": 7,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83368,
@@ -38626,6 +38666,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83576,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83579,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
