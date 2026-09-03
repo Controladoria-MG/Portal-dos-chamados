@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/09/2026 16:08",
+  "atualizado_em": "03/09/2026 16:51",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -7,8 +7,8 @@
         {
           "mes": "2026-08",
           "abertos": 39,
-          "atendidos": 30,
-          "pendentes": 9,
+          "atendidos": 32,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36,9 +36,9 @@
             },
             {
               "nome": "Cadastro de Produtos",
-              "atendidosDentro": 28,
+              "atendidosDentro": 30,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 82881,
@@ -205,16 +205,16 @@
                   "cliente": "A CUNHA DOS SANTOS BAR E RESTAURANTE EIRELI",
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83005,
                   "cliente": "PARADA DOS PAES LTDA",
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83081,
@@ -17553,8 +17553,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 213,
-              "atendidosFora": 83,
+              "atendidosDentro": 211,
+              "atendidosFora": 85,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19634,16 +19634,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-27",
-                  "dataEntrega": "2026-08-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83079,
                   "cliente": null,
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-27",
-                  "dataEntrega": "2026-08-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83082,
@@ -24291,8 +24291,8 @@
         {
           "mes": "2026-07",
           "abertos": 42,
-          "atendidos": 41,
-          "pendentes": 1,
+          "atendidos": 42,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Antecipação de ECF",
@@ -24361,8 +24361,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
-              "atendidosFora": 16,
-              "pendentes": 1,
+              "atendidosFora": 17,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81588,
@@ -24481,8 +24481,8 @@
                   "cliente": "ROCHDALE DISTRIBUIDORA DE GESSO LTDA",
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80948,
@@ -29458,8 +29458,8 @@
         {
           "mes": "2026-08",
           "abertos": 41,
-          "atendidos": 27,
-          "pendentes": 14,
+          "atendidos": 28,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29672,8 +29672,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 1,
+              "atendidosFora": 5,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81930,
@@ -29704,8 +29704,8 @@
                   "cliente": "SUPER MERCADO SOROCABA LTDA ",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82267,
@@ -33004,8 +33004,8 @@
         {
           "mes": "2026-07",
           "abertos": 168,
-          "atendidos": 151,
-          "pendentes": 17,
+          "atendidos": 153,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -33994,8 +33994,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 1,
-              "atendidosFora": 61,
-              "pendentes": 6,
+              "atendidosFora": 63,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81470,
@@ -34098,8 +34098,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 04)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81351,
@@ -34354,8 +34354,8 @@
                   "cliente": "Cucinare Pro Alimentacao (Filial 84)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81395,
@@ -34548,8 +34548,8 @@
         {
           "mes": "2026-08",
           "abertos": 425,
-          "atendidos": 336,
-          "pendentes": 89,
+          "atendidos": 338,
+          "pendentes": 87,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36690,8 +36690,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 76,
-              "atendidosFora": 91,
-              "pendentes": 18,
+              "atendidosFora": 93,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 81736,
@@ -36986,16 +36986,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83235,
                   "cliente": null,
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83241,
@@ -38195,9 +38195,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 54,
-          "atendidos": 14,
-          "pendentes": 40,
+          "abertos": 56,
+          "atendidos": 17,
+          "pendentes": 39,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38217,9 +38217,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83516,
@@ -38274,8 +38274,8 @@
                   "cliente": "NOVA BOSTON GRILL RESTAURANTE LTDA (FILIAL 1)",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -38401,17 +38401,17 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83512,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83507,
@@ -38425,17 +38425,17 @@
             },
             {
               "nome": "Levantamento de Débitos Mensal",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83511,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -38563,7 +38563,7 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83563,
@@ -38588,6 +38588,14 @@
                   "prazo": "2026-09-08",
                   "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83583,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -38595,7 +38603,7 @@
               "nome": "Regularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83526,
@@ -38610,6 +38618,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83582,
+                  "cliente": "DISTRIBUIDORA DE ALIMENTOS JAPÃO LTDA ",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
