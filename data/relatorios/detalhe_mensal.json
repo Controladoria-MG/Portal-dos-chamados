@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/09/2026 16:51",
+  "atualizado_em": "03/09/2026 17:51",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -7,8 +7,8 @@
         {
           "mes": "2026-08",
           "abertos": 39,
-          "atendidos": 32,
-          "pendentes": 7,
+          "atendidos": 34,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36,9 +36,9 @@
             },
             {
               "nome": "Cadastro de Produtos",
-              "atendidosDentro": 30,
+              "atendidosDentro": 32,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 82881,
@@ -229,8 +229,8 @@
                   "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83097,
@@ -333,8 +333,8 @@
                   "cliente": "V. C. M. DOS SANTOS REFEIÇÕES",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -19931,9 +19931,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 18,
+          "abertos": 22,
           "atendidos": 13,
-          "pendentes": 5,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19955,7 +19955,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 13,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83308,
@@ -20092,6 +20092,38 @@
                   "prazo": "2026-09-04",
                   "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83584,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83585,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83587,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83588,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -22725,23 +22757,23 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 5,
-          "atendidos": 1,
+          "abertos": 6,
+          "atendidos": 2,
           "pendentes": 4,
           "categorias": [
             {
               "nome": "Autorregularização",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83309,
                   "cliente": "PRISTELA PIZZARIA LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -22749,8 +22781,16 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 83589,
+                  "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83349,
                   "cliente": "REMARCA COMÉRCIO DE MAQUINAS E ACESSÓRIOS LTDA",
@@ -26287,9 +26327,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 2,
+          "abertos": 3,
           "atendidos": 1,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Documentação",
@@ -26318,6 +26358,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Parametrização",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83586,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27741,22 +27797,22 @@
         {
           "mes": "2026-08",
           "abertos": 44,
-          "atendidos": 40,
-          "pendentes": 4,
+          "atendidos": 39,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83173,
                   "cliente": "GOKU CONSULTORIA E GESTÃO PATRIMONIAL LTDA ",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-09-01",
-                  "dataEntrega": "2026-09-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82533,
@@ -34548,8 +34604,8 @@
         {
           "mes": "2026-08",
           "abertos": 425,
-          "atendidos": 338,
-          "pendentes": 87,
+          "atendidos": 339,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -34610,8 +34666,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 9,
-              "atendidosFora": 6,
-              "pendentes": 18,
+              "atendidosFora": 7,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 82133,
@@ -34634,8 +34690,8 @@
                   "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-08-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83171,
@@ -38196,8 +38252,8 @@
         {
           "mes": "2026-09",
           "abertos": 56,
-          "atendidos": 17,
-          "pendentes": 39,
+          "atendidos": 26,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38217,25 +38273,25 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 1,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83516,
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83518,
                   "cliente": "Catroque Mercadinho Ltda ",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83339,
@@ -38281,17 +38337,17 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83306,
                   "cliente": "Guves Investimentos e Participações S.A.",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -38369,17 +38425,17 @@
             },
             {
               "nome": "Encerramento de Empresa",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83452,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -38489,33 +38545,33 @@
             },
             {
               "nome": "Parcelamento Previdenciário",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83487,
                   "cliente": "LRJ COMERCIAL DE HORTIFRUTIGRANJEIRO LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83488,
                   "cliente": "SSC RESTAURANTES E ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83530,
@@ -38530,8 +38586,8 @@
                   "cliente": "SANTANA COMÉRCIO DE PEÇAS LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83424,
@@ -38601,25 +38657,25 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83526,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83550,
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83582,
