@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/09/2026 18:01",
+  "atualizado_em": "03/09/2026 09:29",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -6049,8 +6049,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 125,
-              "atendidosFora": 178,
+              "atendidosDentro": 124,
+              "atendidosFora": 179,
               "pendentes": 0,
               "chamados": [
                 {
@@ -6818,8 +6818,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-03-11",
                   "prazo": "2026-03-12",
-                  "dataEntrega": "2026-03-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 77909,
@@ -9914,7 +9914,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-04-20",
                   "prazo": "2026-04-22",
-                  "dataEntrega": "2026-04-23",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_fora"
                 },
                 {
@@ -19899,15 +19899,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 13,
+          "abertos": 14,
           "atendidos": 9,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 9,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -19970,7 +19970,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
                 },
                 {
@@ -20012,6 +20012,14 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-02",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83534,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -22316,7 +22324,7 @@
                   "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_fora"
                 }
               ]
@@ -22645,9 +22653,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 3,
+          "abertos": 5,
           "atendidos": 1,
-          "pendentes": 2,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -22669,7 +22677,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83349,
@@ -22678,6 +22686,14 @@
                   "prazo": "2026-09-02",
                   "dataEntrega": "2026-09-01",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83532,
+                  "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -22692,6 +22708,22 @@
                   "cliente": "BONNARO COMERCIO E REPRESENTAÇÃO LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83531,
+                  "cliente": "Nilcap Renovadora de Pneus LTDA ",
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-04",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -31558,15 +31590,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 115,
+          "abertos": 118,
           "atendidos": 14,
-          "pendentes": 101,
+          "pendentes": 104,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 8,
               "atendidosFora": 0,
-              "pendentes": 96,
+              "pendentes": 99,
               "chamados": [
                 {
                   "id": 83321,
@@ -32397,6 +32429,30 @@
                   "cliente": "Empório Catroque Ltda",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83527,
+                  "cliente": "MAIS VERDE DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83528,
+                  "cliente": "LEVA + ATACADISTA LTDA ",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83529,
+                  "cliente": "AGRO COMERCIAL VILA VERDE LTDA",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -34292,8 +34348,8 @@
         {
           "mes": "2026-08",
           "abertos": 425,
-          "atendidos": 337,
-          "pendentes": 88,
+          "atendidos": 336,
+          "pendentes": 89,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35306,8 +35362,8 @@
             {
               "nome": "Docs Implantação novos Clientes",
               "atendidosDentro": 2,
-              "atendidosFora": 1,
-              "pendentes": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82295,
@@ -35330,8 +35386,8 @@
                   "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-02",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -35546,7 +35602,7 @@
                   "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-27",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_fora"
                 },
                 {
@@ -37939,9 +37995,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 38,
-          "atendidos": 5,
-          "pendentes": 33,
+          "abertos": 41,
+          "atendidos": 9,
+          "pendentes": 32,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38203,8 +38259,16 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 83530,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83485,
                   "cliente": "SANTANA COMÉRCIO DE PEÇAS LTDA",
@@ -38226,7 +38290,7 @@
                   "cliente": "INOVAR CONSULTORIA EM VAREJO LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
                 },
                 {
@@ -38234,8 +38298,24 @@
                   "cliente": "PROMOTORAS GYN LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Regularização",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83526,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -38257,9 +38337,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 2,
+              "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 10,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83368,
@@ -38286,11 +38366,19 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 83535,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-03",
+                  "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83330,
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-18",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
                 },
                 {
@@ -38298,24 +38386,24 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F18)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83374,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 23)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83331,
                   "cliente": "Cucinare Pro Alimentação ",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83324,
@@ -38330,7 +38418,7 @@
                   "cliente": "AUTOSSERVIÇO FRANCO DA ROCHA TRANSPORTES EIRELI",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-18",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
                 },
                 {
@@ -38338,8 +38426,8 @@
                   "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 79)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-03",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83369,
