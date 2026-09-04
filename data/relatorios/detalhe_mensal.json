@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/09/2026 09:45",
+  "atualizado_em": "04/09/2026 10:45",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -17553,8 +17553,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 209,
-              "atendidosFora": 87,
+              "atendidosDentro": 206,
+              "atendidosFora": 90,
               "pendentes": 0,
               "chamados": [
                 {
@@ -18266,8 +18266,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82188,
@@ -18418,8 +18418,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": "2026-08-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82259,
@@ -19570,8 +19570,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-08-26",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83056,
@@ -19931,9 +19931,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 19,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19955,7 +19955,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 19,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20140,6 +20140,14 @@
                   "prazo": "2026-09-07",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83602,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -20457,6 +20465,30 @@
                   "prazo": "2026-08-06",
                   "dataEntrega": "2026-08-06",
                   "status": "atendido_dentro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-09",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "Balanço e DRE",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83600,
+                  "cliente": "ECKM ADMINISTRAÇÃO DE BENS PRÓPRIOS S.A",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -24784,8 +24816,8 @@
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 11,
-              "atendidosFora": 6,
+              "atendidosDentro": 10,
+              "atendidosFora": 7,
               "pendentes": 0,
               "chamados": [
                 {
@@ -24833,8 +24865,8 @@
                   "cliente": "BERTON SUPERMERCADOS COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-08-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83179,
@@ -27821,8 +27853,8 @@
         {
           "mes": "2026-08",
           "abertos": 44,
-          "atendidos": 40,
-          "pendentes": 4,
+          "atendidos": 41,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27987,8 +28019,8 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 6,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83132,
@@ -28027,8 +28059,8 @@
                   "cliente": "PRISTELA PIZZARIA LTDA",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82955,
@@ -28277,8 +28309,8 @@
         {
           "mes": "2026-09",
           "abertos": 3,
-          "atendidos": 1,
-          "pendentes": 2,
+          "atendidos": 2,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Omissão de Obrigações Acessórias",
@@ -28299,16 +28331,16 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83443,
                   "cliente": "VALE CONCRETO LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -31054,9 +31086,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 86,
+          "abertos": 85,
           "atendidos": 29,
-          "pendentes": 57,
+          "pendentes": 56,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -31659,22 +31691,6 @@
               ]
             },
             {
-              "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 83059,
-                  "cliente": "ATENDE NSA COMERCIO E DISTRIBUIÇÃO LTDA ",
-                  "dataCadastro": "2026-08-26",
-                  "prazo": "2026-08-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
               "nome": "Reembolso",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -31830,9 +31846,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 124,
+          "abertos": 126,
           "atendidos": 25,
-          "pendentes": 99,
+          "pendentes": 101,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -32837,6 +32853,30 @@
                   "cliente": "4R Alimentos e Conveniencias LTDA ",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Solicitação do cliente",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 83601,
+                  "cliente": "NOVA CANADÁ PÃES E DOCES EIRELI",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83603,
+                  "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 06)",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-18",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -34636,8 +34676,8 @@
         {
           "mes": "2026-08",
           "abertos": 425,
-          "atendidos": 339,
-          "pendentes": 86,
+          "atendidos": 340,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35378,7 +35418,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-06",
-                  "dataEntrega": "2026-08-20",
+                  "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
                 },
                 {
@@ -36778,8 +36818,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 76,
-              "atendidosFora": 93,
-              "pendentes": 16,
+              "atendidosFora": 94,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 81736,
@@ -37090,8 +37130,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-09-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82336,
@@ -38284,8 +38324,8 @@
         {
           "mes": "2026-09",
           "abertos": 56,
-          "atendidos": 25,
-          "pendentes": 31,
+          "atendidos": 26,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38601,17 +38641,17 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83530,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83485,
