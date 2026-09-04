@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/09/2026 09:08",
+  "atualizado_em": "04/09/2026 09:45",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -17553,8 +17553,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 210,
-              "atendidosFora": 86,
+              "atendidosDentro": 209,
+              "atendidosFora": 87,
               "pendentes": 0,
               "chamados": [
                 {
@@ -18562,8 +18562,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82369,
@@ -19932,8 +19932,8 @@
         {
           "mes": "2026-09",
           "abertos": 24,
-          "atendidos": 17,
-          "pendentes": 7,
+          "atendidos": 19,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19953,9 +19953,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 17,
+              "atendidosDentro": 19,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20114,8 +20114,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83588,
@@ -20138,8 +20138,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -27821,8 +27821,8 @@
         {
           "mes": "2026-08",
           "abertos": 44,
-          "atendidos": 39,
-          "pendentes": 5,
+          "atendidos": 40,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -28115,16 +28115,16 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83152,
                   "cliente": "XAMBRENSE PARTICIPAÇÕES S.A",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83251,
@@ -31830,15 +31830,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 121,
+          "abertos": 124,
           "atendidos": 25,
-          "pendentes": 96,
+          "pendentes": 99,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 19,
               "atendidosFora": 0,
-              "pendentes": 89,
+              "pendentes": 91,
               "chamados": [
                 {
                   "id": 83321,
@@ -32703,6 +32703,22 @@
                   "prazo": "2026-09-07",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 83593,
+                  "cliente": "OFELIA SARRI MORETE (MATRIZ)",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83594,
+                  "cliente": "POPPY SUPERMERCADO LTDA",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32710,7 +32726,7 @@
               "nome": "Certificado",
               "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83336,
@@ -32813,6 +32829,14 @@
                   "cliente": "ELETRICA IPOJUCA LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83599,
+                  "cliente": "4R Alimentos e Conveniencias LTDA ",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -34162,7 +34186,7 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 04)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
                 },
                 {
@@ -34418,7 +34442,7 @@
                   "cliente": "Cucinare Pro Alimentacao (Filial 84)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
                 },
                 {
@@ -34450,7 +34474,7 @@
                   "cliente": "Cucinare Pro Alimentacao LTDA (Filial 89)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
                 },
                 {
@@ -34612,8 +34636,8 @@
         {
           "mes": "2026-08",
           "abertos": 425,
-          "atendidos": 338,
-          "pendentes": 87,
+          "atendidos": 339,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35970,16 +35994,16 @@
             {
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 6,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82194,
                   "cliente": null,
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82296,
@@ -38345,8 +38369,8 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -38354,8 +38378,8 @@
                   "cliente": "Guves Investimentos e Participações S.A.",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -41788,15 +41812,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 0,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 11,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 83310,
@@ -41883,6 +41907,14 @@
                   "cliente": "SUPERMIX 44 DISTRIBUIDORA DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83598,
+                  "cliente": "CHARM MODA COMERCIO DE ROUPAS, CALÇADOS E ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
