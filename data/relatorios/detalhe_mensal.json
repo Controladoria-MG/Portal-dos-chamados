@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/09/2026 14:55",
+  "atualizado_em": "04/09/2026 15:46",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -7,8 +7,8 @@
         {
           "mes": "2026-08",
           "abertos": 39,
-          "atendidos": 34,
-          "pendentes": 5,
+          "atendidos": 35,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36,9 +36,9 @@
             },
             {
               "nome": "Cadastro de Produtos",
-              "atendidosDentro": 32,
+              "atendidosDentro": 33,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82881,
@@ -277,8 +277,8 @@
                   "cliente": "REI DOS GRÃOS LTDA ",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83139,
@@ -19932,8 +19932,8 @@
         {
           "mes": "2026-09",
           "abertos": 29,
-          "atendidos": 20,
-          "pendentes": 9,
+          "atendidos": 23,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19953,9 +19953,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 19,
+              "atendidosDentro": 22,
               "atendidosFora": 1,
-              "pendentes": 8,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20154,24 +20154,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83610,
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83618,
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83619,
@@ -27884,9 +27884,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 44,
+          "abertos": 45,
           "atendidos": 42,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -28333,6 +28333,22 @@
                   "prazo": "2026-08-19",
                   "dataEntrega": "2026-08-27",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Senha",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82866,
+                  "cliente": "MIRACOR GRAFICA LTDA",
+                  "dataCadastro": "2026-08-24",
+                  "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -29993,16 +30009,24 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 2,
+          "abertos": 3,
           "atendidos": 0,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 83620,
+                  "cliente": "Padaria e Restaurante Valentina Ltda.",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83481,
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
@@ -34707,9 +34731,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 425,
+          "abertos": 424,
           "atendidos": 339,
-          "pendentes": 86,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36851,7 +36875,7 @@
               "nome": "Senha",
               "atendidosDentro": 76,
               "atendidosFora": 94,
-              "pendentes": 15,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 81736,
@@ -38228,14 +38252,6 @@
                   "prazo": "2026-08-20",
                   "dataEntrega": "2026-08-31",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 82866,
-                  "cliente": "MIRACOR GRAFICA LTDA",
-                  "dataCadastro": "2026-08-24",
-                  "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 81926,
