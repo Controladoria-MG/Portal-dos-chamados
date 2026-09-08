@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/09/2026 11:25",
+  "atualizado_em": "08/09/2026 12:26",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -17561,8 +17561,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 202,
-              "atendidosFora": 94,
+              "atendidosDentro": 201,
+              "atendidosFora": 95,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19762,8 +19762,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-08-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83232,
@@ -19939,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 37,
+          "abertos": 39,
           "atendidos": 33,
-          "pendentes": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19963,7 +19963,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 28,
               "atendidosFora": 4,
-              "pendentes": 4,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83308,
@@ -20252,6 +20252,22 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83645,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83646,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -22925,9 +22941,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 6,
+          "abertos": 7,
           "atendidos": 6,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -22949,8 +22965,16 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 83649,
+                  "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83589,
                   "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
@@ -25545,7 +25569,7 @@
                   "cliente": "BARRETO & TONELLI DISTRIBUIDOIRA DE EQUIPAMENTOS DE SEGURANCA ELETRONICA LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-01",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_fora"
                 }
               ]
@@ -26263,9 +26287,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 27,
+          "abertos": 28,
           "atendidos": 22,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26319,11 +26343,19 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82931,
                   "cliente": "55.609.458 ELIANE DIAS DA SILVA MATOS",
+                  "dataCadastro": "2026-08-24",
+                  "prazo": "2026-08-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82928,
+                  "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
                   "dataEntrega": null,
@@ -34891,9 +34923,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 423,
+          "abertos": 421,
           "atendidos": 343,
-          "pendentes": 80,
+          "pendentes": 78,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35371,19 +35403,11 @@
               "nome": "Auditoria",
               "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 25,
+              "pendentes": 24,
               "chamados": [
                 {
                   "id": 82905,
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
-                  "dataCadastro": "2026-08-24",
-                  "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82928,
-                  "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
                   "dataEntrega": null,
@@ -36242,8 +36266,8 @@
             {
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 6,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82194,
@@ -36258,8 +36282,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82934,
@@ -36914,7 +36938,7 @@
             {
               "nome": "Regularização de Débitos",
               "atendidosDentro": 4,
-              "atendidosFora": 3,
+              "atendidosFora": 2,
               "pendentes": 1,
               "chamados": [
                 {
@@ -36924,14 +36948,6 @@
                   "prazo": "2026-08-31",
                   "dataEntrega": "2026-08-28",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 82466,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-14",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
                 },
                 {
                   "id": 82914,
@@ -38523,16 +38539,24 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 65,
+          "abertos": 67,
           "atendidos": 34,
-          "pendentes": 31,
+          "pendentes": 33,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 83650,
+                  "cliente": "HIPERMERCADO MARECHAL LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83375,
                   "cliente": "HUGO DELEON CONFECCOES LTDA",
@@ -38657,8 +38681,8 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 1,
-              "atendidosFora": 2,
+              "atendidosDentro": 0,
+              "atendidosFora": 3,
               "pendentes": 0,
               "chamados": [
                 {
@@ -38674,8 +38698,8 @@
                   "cliente": "ENBRAGEO ENGENHARIA LTDA ",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83617,
@@ -38947,7 +38971,7 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83563,
@@ -38978,6 +39002,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83647,
+                  "cliente": "ORVALHO DO SOL INDÚSTRIA E COMÉRCIO LTDA ",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -39464,10 +39496,26 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 4,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83651,
+                  "cliente": "DISTRIBUIDORA BRAZLIMP LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 4,
@@ -42140,15 +42188,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 17,
-          "atendidos": 0,
-          "pendentes": 17,
+          "abertos": 19,
+          "atendidos": 1,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 12,
+              "atendidosFora": 1,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 83310,
@@ -42219,8 +42267,8 @@
                   "cliente": "DISTRIBUIDORA BRAZLIMP LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83543,
@@ -42243,6 +42291,22 @@
                   "cliente": "CHARM MODA COMERCIO DE ROUPAS, CALÇADOS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83648,
+                  "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA ",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83652,
+                  "cliente": "SARAU BAR E RESTAURANTE LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
