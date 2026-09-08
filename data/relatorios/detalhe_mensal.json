@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/09/2026 10:25",
+  "atualizado_em": "08/09/2026 11:25",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -109,7 +109,7 @@
                   "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
                 },
                 {
@@ -117,7 +117,7 @@
                   "cliente": "Union Supply Comercio e Servicos de Manutencao de Maquinas LTDA ",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
                 },
                 {
@@ -205,7 +205,7 @@
                   "cliente": "A CUNHA DOS SANTOS BAR E RESTAURANTE EIRELI",
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
                 },
                 {
@@ -229,7 +229,7 @@
                   "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
                 },
                 {
@@ -309,7 +309,7 @@
                   "cliente": "DISTRIBUIDORA BRAZLIMP LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
                 },
                 {
@@ -333,7 +333,7 @@
                   "cliente": "V. C. M. DOS SANTOS REFEIÇÕES",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-10-01",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
                 }
               ]
@@ -342,13 +342,13 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 8,
-          "atendidos": 2,
+          "abertos": 9,
+          "atendidos": 3,
           "pendentes": 6,
           "categorias": [
             {
               "nome": "Cadastro de Produtos",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
               "pendentes": 6,
               "chamados": [
@@ -381,8 +381,8 @@
                   "cliente": "JPS MATERIAIS DE CONSTRUÇÃO E DECORAÇÕES LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83542,
@@ -413,6 +413,14 @@
                   "cliente": "KI PRECO SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83644,
+                  "cliente": "MERCADINHO KI PREÇO BAIXO LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-10-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -19931,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 36,
-          "atendidos": 30,
-          "pendentes": 6,
+          "abertos": 37,
+          "atendidos": 33,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19953,9 +19961,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 25,
+              "atendidosDentro": 28,
               "atendidosFora": 4,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20210,8 +20218,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83630,
@@ -20234,8 +20242,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83640,
+                  "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -20560,9 +20576,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 1,
+          "abertos": 2,
           "atendidos": 1,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -20577,6 +20593,22 @@
                   "prazo": "2026-09-08",
                   "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Documentação Contábil",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83643,
+                  "cliente": "ABM PARTICIPACOES E EMPREENDIMENTOS LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -26231,9 +26263,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 26,
+          "abertos": 27,
           "atendidos": 22,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26287,13 +26319,21 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82931,
                   "cliente": "55.609.458 ELIANE DIAS DA SILVA MATOS",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82706,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -32014,9 +32054,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 126,
+          "abertos": 127,
           "atendidos": 26,
-          "pendentes": 100,
+          "pendentes": 101,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -32910,7 +32950,7 @@
               "nome": "Certificado",
               "atendidosDentro": 6,
               "atendidosFora": 1,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83336,
@@ -33021,6 +33061,14 @@
                   "cliente": "4R Alimentos e Conveniencias LTDA ",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83641,
+                  "cliente": " SUPERMERCADOS BANDEIRA LTDA.",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -34843,9 +34891,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 424,
-          "atendidos": 342,
-          "pendentes": 82,
+          "abertos": 423,
+          "atendidos": 343,
+          "pendentes": 80,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35322,8 +35370,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 1,
-              "pendentes": 27,
+              "atendidosFora": 2,
+              "pendentes": 25,
               "chamados": [
                 {
                   "id": 82905,
@@ -35354,8 +35402,8 @@
                   "cliente": "BIANCA EMBREAGENS LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83115,
@@ -35551,14 +35599,6 @@
                 },
                 {
                   "id": 82704,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82706,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
@@ -38483,9 +38523,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 64,
+          "abertos": 65,
           "atendidos": 34,
-          "pendentes": 30,
+          "pendentes": 31,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38779,13 +38819,21 @@
               "nome": "Notificação",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83540,
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83642,
+                  "cliente": "ALM GESTAO TECH RETAIL LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
