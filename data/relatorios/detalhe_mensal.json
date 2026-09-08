@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/09/2026 14:24",
+  "atualizado_em": "08/09/2026 15:25",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -7,8 +7,8 @@
         {
           "mes": "2026-08",
           "abertos": 39,
-          "atendidos": 35,
-          "pendentes": 4,
+          "atendidos": 36,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36,9 +36,9 @@
             },
             {
               "nome": "Cadastro de Produtos",
-              "atendidosDentro": 33,
+              "atendidosDentro": 34,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82881,
@@ -317,8 +317,8 @@
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83262,
@@ -17569,8 +17569,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 198,
-              "atendidosFora": 98,
+              "atendidosDentro": 197,
+              "atendidosFora": 99,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19746,8 +19746,8 @@
                   "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-08-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83151,
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 42,
+          "abertos": 48,
           "atendidos": 35,
-          "pendentes": 7,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19971,7 +19971,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 30,
               "atendidosFora": 4,
-              "pendentes": 7,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 83308,
@@ -20298,6 +20298,54 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83661,
+                  "cliente": "D A SAVEGNAGO - ASSESSORIA EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83662,
+                  "cliente": "D A SAVEGNAGO - ASSESSORIA EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83663,
+                  "cliente": "M GOMES CONSULTORIA LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83664,
+                  "cliente": "TGN GESTÃO EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83665,
+                  "cliente": "MANU SAVE LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83667,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -24987,21 +25035,21 @@
         {
           "mes": "2026-08",
           "abertos": 72,
-          "atendidos": 68,
-          "pendentes": 4,
+          "atendidos": 67,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 10,
-              "atendidosFora": 7,
-              "pendentes": 0,
+              "atendidosFora": 6,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83176,
                   "cliente": "SUPERMERCADO CATANDUVA LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_fora"
                 },
                 {
@@ -25049,8 +25097,8 @@
                   "cliente": "ÁGUA LIMPA DISTRIBUIDORA DE HORTIFRUTI, ALIMENTOS E SERVIÇOS DE TRANSPORTES LTDA.",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-01",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83180,
@@ -25065,7 +25113,7 @@
                   "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_fora"
                 },
                 {
@@ -25650,9 +25698,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 17,
+          "abertos": 19,
           "atendidos": 3,
-          "pendentes": 14,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25682,11 +25730,19 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83655,
                   "cliente": null,
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83666,
+                  "cliente": "SUPERMERCADO CATANDUVA LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
                   "dataEntrega": null,
@@ -25723,6 +25779,14 @@
                   "prazo": "2026-09-02",
                   "dataEntrega": "2026-09-02",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83668,
+                  "cliente": "SUPER CENTER ZATTÃO LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83621,
@@ -26327,9 +26391,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 28,
+          "abertos": 29,
           "atendidos": 22,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26383,7 +26447,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82931,
@@ -26398,6 +26462,14 @@
                   "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82754,
+                  "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -28091,7 +28163,7 @@
                   "cliente": "GOKU CONSULTORIA E GESTÃO PATRIMONIAL LTDA ",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-09-01",
-                  "dataEntrega": "2026-09-04",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_fora"
                 },
                 {
@@ -34979,9 +35051,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 421,
+          "abertos": 420,
           "atendidos": 343,
-          "pendentes": 78,
+          "pendentes": 77,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35459,7 +35531,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 24,
+              "pendentes": 23,
               "chamados": [
                 {
                   "id": 82905,
@@ -35584,14 +35656,6 @@
                 {
                   "id": 82756,
                   "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82754,
-                  "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
                   "dataEntrega": null,
@@ -38595,9 +38659,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 69,
+          "abertos": 70,
           "atendidos": 34,
-          "pendentes": 35,
+          "pendentes": 36,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39090,6 +39154,22 @@
                   "cliente": "ORVALHO DO SOL INDÚSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Processo de VISA",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83669,
+                  "cliente": "NETTRACKER SOLUÇÕES EM TECNOLOGIA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-10",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
