@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/09/2026 16:48",
+  "atualizado_em": "08/09/2026 08:53",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19932,30 +19932,30 @@
         {
           "mes": "2026-09",
           "abertos": 32,
-          "atendidos": 23,
-          "pendentes": 9,
+          "atendidos": 28,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83536,
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 22,
-              "atendidosFora": 1,
-              "pendentes": 8,
+              "atendidosDentro": 24,
+              "atendidosFora": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20138,8 +20138,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83602,
@@ -20186,24 +20186,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83624,
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83625,
                   "cliente": "FRRD ADMINISTRADORA DE IMOVEIS LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -24867,8 +24867,8 @@
         {
           "mes": "2026-08",
           "abertos": 72,
-          "atendidos": 67,
-          "pendentes": 5,
+          "atendidos": 68,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25017,8 +25017,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 7,
-              "atendidosFora": 24,
-              "pendentes": 1,
+              "atendidosFora": 25,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82739,
@@ -25209,8 +25209,8 @@
                   "cliente": "BARATÃO SÃO LUCAS LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82011,
@@ -28396,10 +28396,26 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 2,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
+            {
+              "nome": "MG Controle",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83626,
+                  "cliente": "ACCESS EVENTOS E VIAGENS LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
@@ -34772,8 +34788,8 @@
         {
           "mes": "2026-08",
           "abertos": 424,
-          "atendidos": 340,
-          "pendentes": 84,
+          "atendidos": 341,
+          "pendentes": 83,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -34833,9 +34849,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 9,
+              "atendidosDentro": 10,
               "atendidosFora": 7,
-              "pendentes": 17,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 82133,
@@ -34978,8 +34994,8 @@
                   "cliente": "OLIMPIA ADMINISTRADORA DE SERVIÇOS LTDA",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83168,
@@ -36642,7 +36658,7 @@
                   "cliente": "MARINGÁ MANUTENÇÃO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-26",
-                  "dataEntrega": "2026-08-28",
+                  "dataEntrega": "2026-09-08",
                   "status": "atendido_fora"
                 },
                 {
@@ -38412,8 +38428,8 @@
         {
           "mes": "2026-09",
           "abertos": 63,
-          "atendidos": 30,
-          "pendentes": 33,
+          "atendidos": 33,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38625,9 +38641,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 3,
+              "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83512,
@@ -38650,8 +38666,8 @@
                   "cliente": "ELETRICA IPOJUCA LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83611,
@@ -38666,8 +38682,8 @@
                   "cliente": "COMERCIAL DE MATERIAIS ELETRICOS MM LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83614,
@@ -38682,8 +38698,8 @@
                   "cliente": "PC GAMER GOIANIA LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-04",
+                  "status": "atendido_dentro"
                 }
               ]
             },
