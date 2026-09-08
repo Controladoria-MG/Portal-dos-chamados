@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/09/2026 16:25",
+  "atualizado_em": "08/09/2026 17:25",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 51,
-          "atendidos": 45,
-          "pendentes": 6,
+          "abertos": 54,
+          "atendidos": 47,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19969,9 +19969,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 40,
-              "atendidosFora": 4,
-              "pendentes": 6,
+              "atendidosDentro": 41,
+              "atendidosFora": 5,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83308,
@@ -20066,8 +20066,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83515,
@@ -20368,6 +20368,30 @@
                 {
                   "id": 83675,
                   "cliente": null,
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83680,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83681,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83682,
+                  "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
                   "dataEntrega": null,
@@ -22534,8 +22558,8 @@
         {
           "mes": "2026-08",
           "abertos": 51,
-          "atendidos": 49,
-          "pendentes": 2,
+          "atendidos": 50,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22804,8 +22828,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 10,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82072,
@@ -22868,8 +22892,8 @@
                   "cliente": "DANESES HOLDING DE PARTICIPACOES LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83127,
@@ -32230,9 +32254,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 129,
+          "abertos": 131,
           "atendidos": 25,
-          "pendentes": 104,
+          "pendentes": 106,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33126,7 +33150,7 @@
               "nome": "Certificado",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 10,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 83336,
@@ -33255,6 +33279,14 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 83683,
+                  "cliente": "EMPORIO RT CARVALHO LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -33262,11 +33294,19 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83660,
                   "cliente": "VARANDA FRUTAS E MERCEARIA LTDA ",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83678,
+                  "cliente": "FILM FACIL LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
                   "dataEntrega": null,
@@ -38707,8 +38747,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 71,
-          "atendidos": 34,
+          "abertos": 72,
+          "atendidos": 35,
           "pendentes": 37,
           "categorias": [
             {
@@ -39273,7 +39313,7 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 8,
+              "atendidosDentro": 9,
               "atendidosFora": 0,
               "pendentes": 13,
               "chamados": [
@@ -39351,6 +39391,14 @@
                 },
                 {
                   "id": 83673,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": "2026-09-08",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83679,
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-10",
