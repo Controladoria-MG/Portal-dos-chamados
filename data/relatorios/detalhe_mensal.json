@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/09/2026 11:52",
+  "atualizado_em": "09/09/2026 12:52",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 64,
-          "atendidos": 58,
-          "pendentes": 6,
+          "abertos": 65,
+          "atendidos": 62,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19969,9 +19969,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 47,
+              "atendidosDentro": 51,
               "atendidosFora": 10,
-              "pendentes": 6,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83308,
@@ -20458,24 +20458,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83715,
                   "cliente": "DON MARCHÊ SERVIÇOS DE ALIMENTAÇÃO LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83718,
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83726,
+                  "cliente": "AGROPECO - AGROPECUARIA COMERCIAL LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -28373,8 +28381,8 @@
         {
           "mes": "2026-08",
           "abertos": 45,
-          "atendidos": 43,
-          "pendentes": 2,
+          "atendidos": 42,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -28763,8 +28771,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 3,
-              "atendidosFora": 4,
-              "pendentes": 0,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82016,
@@ -28819,8 +28827,8 @@
                   "cliente": "DM COMERCIO ALIMENTICIO LTDA",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-08-19",
-                  "dataEntrega": "2026-08-27",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -33804,8 +33812,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 155,
-          "pendentes": 12,
+          "atendidos": 156,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -34786,8 +34794,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 1,
-              "atendidosFora": 65,
-              "pendentes": 2,
+              "atendidosFora": 66,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81470,
@@ -34850,8 +34858,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81704,
@@ -38940,8 +38948,8 @@
         {
           "mes": "2026-09",
           "abertos": 86,
-          "atendidos": 45,
-          "pendentes": 41,
+          "atendidos": 47,
+          "pendentes": 39,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39225,9 +39233,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 6,
+              "atendidosDentro": 7,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83512,
@@ -39250,7 +39258,7 @@
                   "cliente": "ELETRICA IPOJUCA LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-04",
+                  "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
                 },
                 {
@@ -39258,8 +39266,8 @@
                   "cliente": "ELETRICA IPOJUCA LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83613,
@@ -39274,7 +39282,7 @@
                   "cliente": "COMERCIAL DE MATERIAIS ELETRICOS MM LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-04",
+                  "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
                 },
                 {
@@ -39586,8 +39594,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 10,
-              "atendidosFora": 5,
-              "pendentes": 11,
+              "atendidosFora": 6,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83368,
@@ -39786,8 +39794,8 @@
                   "cliente": "SANTOS & DIAN MATERIAIS PARA CONSTRUCAO LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83370,
