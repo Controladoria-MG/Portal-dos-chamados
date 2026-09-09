@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/09/2026 14:50",
+  "atualizado_em": "09/09/2026 15:18",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -23221,9 +23221,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 10,
+          "abertos": 11,
           "atendidos": 7,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -23310,6 +23310,22 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Malha Fiscal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83735,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25930,9 +25946,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 17,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25953,6 +25969,22 @@
                   "cliente": "POPPY SUPERMERCADO LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Autorregularização",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83738,
+                  "cliente": "BAR E RESTAURANTE 1566 LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -39019,9 +39051,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 87,
+          "abertos": 89,
           "atendidos": 49,
-          "pendentes": 38,
+          "pendentes": 40,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39368,6 +39400,22 @@
               ]
             },
             {
+              "nome": "Levantamento de Débitos Anual",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83739,
+                  "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Levantamento de Débitos Mensal",
               "atendidosDentro": 1,
               "atendidosFora": 0,
@@ -39667,7 +39715,7 @@
               "nome": "Senha",
               "atendidosDentro": 10,
               "atendidosFora": 7,
-              "pendentes": 10,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 83368,
@@ -39775,6 +39823,14 @@
                 },
                 {
                   "id": 83731,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83737,
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
@@ -42844,15 +42900,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 1,
-          "pendentes": 17,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 13,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 83310,
@@ -42963,6 +43019,14 @@
                   "cliente": "SARAU BAR E RESTAURANTE LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83736,
+                  "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA ",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
