@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/09/2026 17:19",
+  "atualizado_em": "09/09/2026 17:49",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 73,
+          "abertos": 75,
           "atendidos": 70,
-          "pendentes": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19971,7 +19971,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 59,
               "atendidosFora": 10,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20548,6 +20548,22 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83753,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83755,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -25946,9 +25962,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 17,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26002,7 +26018,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83655,
@@ -26057,6 +26073,14 @@
                   "cliente": "SUPER CENTER ZATTÃO LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83754,
+                  "cliente": "VARANDA VILA OLÍMPIA MERCEARIA LTDA ",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -35508,8 +35532,8 @@
         {
           "mes": "2026-08",
           "abertos": 421,
-          "atendidos": 345,
-          "pendentes": 76,
+          "atendidos": 343,
+          "pendentes": 78,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36610,8 +36634,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 15,
-              "pendentes": 1,
+              "atendidosFora": 14,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82005,
@@ -36658,8 +36682,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81936,
@@ -36850,8 +36874,8 @@
             {
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 6,
-              "atendidosFora": 4,
-              "pendentes": 0,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82194,
@@ -36866,8 +36890,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-09-08",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82934,
@@ -42980,15 +43004,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 1,
-          "pendentes": 18,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 14,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 83310,
@@ -43107,6 +43131,14 @@
                   "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA ",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83757,
+                  "cliente": "O PAOZIN CONGELADOS E PRONTOS LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
