@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/09/2026 12:52",
+  "atualizado_em": "09/09/2026 14:50",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 65,
-          "atendidos": 62,
-          "pendentes": 3,
+          "abertos": 67,
+          "atendidos": 63,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19969,9 +19969,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 51,
+              "atendidosDentro": 52,
               "atendidosFora": 10,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20362,7 +20362,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-08",
+                  "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
                 },
                 {
@@ -20484,6 +20484,22 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83728,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83733,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -20808,15 +20824,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 6,
+          "abertos": 7,
           "atendidos": 2,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83710,
@@ -20829,6 +20845,14 @@
                 {
                   "id": 83711,
                   "cliente": "Asmj Investimentos e Participações S.A.",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83729,
+                  "cliente": "AVINV PARTICIPAÇÕES S.A",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
                   "dataEntrega": null,
@@ -23197,9 +23221,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 7,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -23221,7 +23245,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83649,
@@ -23262,6 +23286,14 @@
                   "prazo": "2026-09-04",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83732,
+                  "cliente": "GOIAS SILAGEM LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -26591,9 +26623,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 30,
+          "abertos": 27,
           "atendidos": 22,
-          "pendentes": 8,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26647,24 +26679,8 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 3,
               "chamados": [
-                {
-                  "id": 82755,
-                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82756,
-                  "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 82931,
                   "cliente": "55.609.458 ELIANE DIAS DA SILVA MATOS",
@@ -26855,21 +26871,13 @@
               "nome": "Reunião externa",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82689,
                   "cliente": "TOME AGROVETERINARIA LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83305,
-                  "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
-                  "dataCadastro": "2026-08-31",
-                  "prazo": "2026-09-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -28852,9 +28860,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 7,
+          "abertos": 8,
           "atendidos": 2,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "MG Controle",
@@ -28867,6 +28875,22 @@
                   "cliente": "ACCESS EVENTOS E VIAGENS LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Malha Fiscal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83734,
+                  "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -29938,8 +29962,8 @@
         {
           "mes": "2026-07",
           "abertos": 20,
-          "atendidos": 16,
-          "pendentes": 4,
+          "atendidos": 17,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29960,8 +29984,8 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 1,
-              "atendidosFora": 4,
-              "pendentes": 2,
+              "atendidosFora": 5,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 80985,
@@ -30016,8 +30040,8 @@
                   "cliente": "DISTRIBUIDORA  AGRICOLA BALBINOT LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -31686,9 +31710,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 84,
+          "abertos": 85,
           "atendidos": 28,
-          "pendentes": 56,
+          "pendentes": 57,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -32307,6 +32331,22 @@
               ]
             },
             {
+              "nome": "Reunião externa",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83305,
+                  "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-08-31",
+                  "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -32438,9 +32478,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 135,
+          "abertos": 137,
           "atendidos": 29,
-          "pendentes": 106,
+          "pendentes": 108,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33342,7 +33382,7 @@
               "nome": "Certificado",
               "atendidosDentro": 5,
               "atendidosFora": 4,
-              "pendentes": 10,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 83336,
@@ -33491,6 +33531,22 @@
                 {
                   "id": 83717,
                   "cliente": "GUILHERME A KL GUNNEWIEK & CIA LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83727,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83730,
+                  "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
                   "dataEntrega": null,
@@ -35347,9 +35403,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 419,
+          "abertos": 421,
           "atendidos": 345,
-          "pendentes": 74,
+          "pendentes": 76,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35827,8 +35883,24 @@
               "nome": "Auditoria",
               "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 22,
+              "pendentes": 24,
               "chamados": [
+                {
+                  "id": 82755,
+                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82756,
+                  "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 82754,
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
@@ -38947,9 +39019,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 86,
-          "atendidos": 47,
-          "pendentes": 39,
+          "abertos": 87,
+          "atendidos": 49,
+          "pendentes": 38,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39065,17 +39137,17 @@
             },
             {
               "nome": "Alteração de Contabilista",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83658,
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -39594,7 +39666,7 @@
             {
               "nome": "Senha",
               "atendidosDentro": 10,
-              "atendidosFora": 6,
+              "atendidosFora": 7,
               "pendentes": 10,
               "chamados": [
                 {
@@ -39650,8 +39722,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83579,
@@ -39695,6 +39767,14 @@
                 },
                 {
                   "id": 83695,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83731,
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
@@ -42764,9 +42844,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 19,
+          "abertos": 18,
           "atendidos": 1,
-          "pendentes": 18,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -42899,22 +42979,6 @@
                   "cliente": "PRODUTOS CIRÚRGICO SERRA DA ESTRELA LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Documentação Contábil",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 83318,
-                  "cliente": "BRUCAR RESTAURANTE E PIZZARIA LTDA",
-                  "dataCadastro": "2026-09-01",
-                  "prazo": "2026-09-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
