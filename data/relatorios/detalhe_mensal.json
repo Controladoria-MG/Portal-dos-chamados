@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/09/2026 09:12",
+  "atualizado_em": "09/09/2026 09:54",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19947,8 +19947,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 59,
-          "atendidos": 53,
+          "abertos": 61,
+          "atendidos": 55,
           "pendentes": 6,
           "categorias": [
             {
@@ -19969,8 +19969,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 45,
-              "atendidosFora": 7,
+              "atendidosDentro": 46,
+              "atendidosFora": 8,
               "pendentes": 6,
               "chamados": [
                 {
@@ -20186,8 +20186,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83619,
@@ -20410,8 +20410,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83688,
@@ -20432,6 +20432,22 @@
                 {
                   "id": 83692,
                   "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83699,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83700,
+                  "cliente": "ANGELA MARIA DE LIMA BENETASSO",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
                   "dataEntrega": null,
@@ -22598,8 +22614,8 @@
         {
           "mes": "2026-08",
           "abertos": 51,
-          "atendidos": 49,
-          "pendentes": 2,
+          "atendidos": 50,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -22868,8 +22884,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 10,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82072,
@@ -22932,8 +22948,8 @@
                   "cliente": "DANESES HOLDING DE PARTICIPACOES LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83127,
@@ -25795,8 +25811,8 @@
         {
           "mes": "2026-09",
           "abertos": 19,
-          "atendidos": 9,
-          "pendentes": 10,
+          "atendidos": 12,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25824,9 +25840,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83655,
@@ -25849,8 +25865,8 @@
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83363,
@@ -25897,8 +25913,8 @@
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 7,
+              "atendidosFora": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83556,
@@ -25913,8 +25929,8 @@
                   "cliente": "ZARELLI SUPERMERCADOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83555,
@@ -25929,8 +25945,8 @@
                   "cliente": "HORTIFRUTI FAVARO LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83557,
@@ -26759,9 +26775,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 5,
+          "abertos": 7,
           "atendidos": 1,
-          "pendentes": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Documentação",
@@ -26799,13 +26815,29 @@
               "nome": "Levantamento Divergências",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83486,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83696,
+                  "cliente": "DISTRIBUIDOR DE MORANGOS LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83697,
+                  "cliente": "SWEET BERRY COMERCIO DE FRUTAS LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -31534,8 +31566,8 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 85,
-          "atendidos": 29,
+          "abertos": 84,
+          "atendidos": 28,
           "pendentes": 56,
           "categorias": [
             {
@@ -32252,7 +32284,7 @@
             },
             {
               "nome": "Solicitação sem retorno",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 1,
               "pendentes": 2,
               "chamados": [
@@ -32273,14 +32305,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 82536,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-17",
-                  "prazo": "2026-08-19",
-                  "dataEntrega": "2026-08-19",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 83240,
                   "cliente": "DISTRIBUIDOR DE MORANGOS LTDA",
                   "dataCadastro": "2026-08-28",
@@ -32294,9 +32318,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 132,
+          "abertos": 133,
           "atendidos": 29,
-          "pendentes": 103,
+          "pendentes": 104,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33381,6 +33405,22 @@
                   "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 06)",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Solicitação sem retorno",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83698,
+                  "cliente": "SWEET BERRY COMERCIO DE FRUTAS LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -38796,8 +38836,8 @@
         {
           "mes": "2026-09",
           "abertos": 77,
-          "atendidos": 42,
-          "pendentes": 35,
+          "atendidos": 41,
+          "pendentes": 36,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38826,24 +38866,24 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 6,
+              "atendidosFora": 0,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83516,
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-08",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83518,
                   "cliente": "Catroque Mercadinho Ltda ",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-08",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83339,
@@ -39369,9 +39409,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 9,
+              "atendidosDentro": 10,
               "atendidosFora": 3,
-              "pendentes": 14,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 83368,
@@ -39458,8 +39498,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83693,
