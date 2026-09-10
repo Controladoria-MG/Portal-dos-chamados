@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/09/2026 15:23",
+  "atualizado_em": "10/09/2026 15:57",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -317,7 +317,7 @@
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-08",
+                  "dataEntrega": "2026-09-10",
                   "status": "atendido_dentro"
                 },
                 {
@@ -19969,8 +19969,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 64,
-              "atendidosFora": 14,
+              "atendidosDentro": 62,
+              "atendidosFora": 16,
               "pendentes": 5,
               "chamados": [
                 {
@@ -20242,8 +20242,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83637,
@@ -20370,8 +20370,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83680,
@@ -29132,9 +29132,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 11,
+          "abertos": 13,
           "atendidos": 2,
-          "pendentes": 9,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -29188,8 +29188,16 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 83817,
+                  "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83427,
                   "cliente": "LEGUME S/A (FILIAL 1)",
@@ -29204,7 +29212,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83762,
@@ -29218,6 +29226,14 @@
                   "id": 83760,
                   "cliente": "LUSINDE INVEST EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83815,
+                  "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -30873,9 +30889,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 4,
+          "abertos": 5,
           "atendidos": 0,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -30920,6 +30936,22 @@
                   "cliente": "CL COMERCIO VAREJISTA E ROTISSERIE LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83816,
+                  "cliente": "POPPY SUPERMERCADO LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -35732,8 +35764,8 @@
         {
           "mes": "2026-08",
           "abertos": 421,
-          "atendidos": 347,
-          "pendentes": 74,
+          "atendidos": 349,
+          "pendentes": 72,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35794,8 +35826,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 7,
-              "pendentes": 15,
+              "atendidosFora": 8,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 81838,
@@ -35994,8 +36026,8 @@
                   "cliente": "BRASIL DISTRIBUIDORA DE PEÇAS LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82149,
@@ -37858,8 +37890,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 71,
-              "atendidosFora": 103,
-              "pendentes": 10,
+              "atendidosFora": 104,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 81736,
@@ -38050,8 +38082,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82123,
@@ -39356,8 +39388,8 @@
         {
           "mes": "2026-09",
           "abertos": 107,
-          "atendidos": 60,
-          "pendentes": 47,
+          "atendidos": 62,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40018,24 +40050,24 @@
             {
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83563,
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83564,
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83565,
@@ -40298,8 +40330,8 @@
                   "cliente": "CEOS EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-17",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83373,
@@ -40370,8 +40402,8 @@
                   "cliente": "SUPER DIJAN COMERCIAL LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83634,
@@ -41354,22 +41386,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 82629,
-                  "cliente": "SHOP MACROZÃO LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82650,
-                  "cliente": "WCS APOIO ADMINISTRATIVO LTDA",
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 82448,
                   "cliente": "LAB BELL APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-08-14",
@@ -41386,6 +41402,30 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 82629,
+                  "cliente": "SHOP MACROZÃO LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82650,
+                  "cliente": "WCS APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82977,
+                  "cliente": "MERCADO DCM EIRELI",
+                  "dataCadastro": "2026-08-25",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83288,
                   "cliente": "ACZ SERVICOS DE APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-08-31",
@@ -41398,14 +41438,6 @@
                   "cliente": "LAB ACRILICOS LTDA",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82977,
-                  "cliente": "MERCADO DCM EIRELI",
-                  "dataCadastro": "2026-08-25",
-                  "prazo": "2026-08-31",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
