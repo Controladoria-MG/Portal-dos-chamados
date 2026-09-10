@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/09/2026 09:59",
+  "atualizado_em": "10/09/2026 10:59",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 76,
+          "abertos": 77,
           "atendidos": 72,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19971,7 +19971,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 59,
               "atendidosFora": 12,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20490,7 +20490,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": "2026-09-09",
+                  "dataEntrega": "2026-09-10",
                   "status": "atendido_dentro"
                 },
                 {
@@ -20572,6 +20572,14 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83774,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -25472,8 +25480,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 7,
-              "atendidosFora": 25,
+              "atendidosDentro": 6,
+              "atendidosFora": 26,
               "pendentes": 0,
               "chamados": [
                 {
@@ -25505,8 +25513,8 @@
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-27",
-                  "dataEntrega": "2026-08-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81896,
@@ -25986,9 +25994,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 17,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26211,6 +26219,22 @@
                   "prazo": "2026-09-04",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83772,
+                  "cliente": "HARVEST HORTIFRUTTI LTDA ",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -26786,14 +26810,6 @@
               "pendentes": 4,
               "chamados": [
                 {
-                  "id": 82754,
-                  "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 82931,
                   "cliente": "55.609.458 ELIANE DIAS DA SILVA MATOS",
                   "dataCadastro": "2026-08-24",
@@ -26806,6 +26822,14 @@
                   "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82754,
+                  "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -35596,8 +35620,8 @@
         {
           "mes": "2026-08",
           "abertos": 420,
-          "atendidos": 343,
-          "pendentes": 77,
+          "atendidos": 344,
+          "pendentes": 76,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35657,9 +35681,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 10,
+              "atendidosDentro": 11,
               "atendidosFora": 7,
-              "pendentes": 16,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 82133,
@@ -35786,8 +35810,8 @@
                   "cliente": "PEGPAN COMERCIO DE EMBALAGENS E PRODUTOS DE CONFEITARIA LTDA ",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82909,
@@ -35910,18 +35934,18 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 83261,
-                  "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
-                  "dataCadastro": "2026-08-31",
-                  "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 81780,
                   "cliente": "GOMES SERVIÇOS - LTDA",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83261,
+                  "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
+                  "dataCadastro": "2026-08-31",
+                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -36078,22 +36102,6 @@
               "pendentes": 23,
               "chamados": [
                 {
-                  "id": 82755,
-                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82756,
-                  "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 82905,
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
                   "dataCadastro": "2026-08-24",
@@ -36206,6 +36214,30 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 82755,
+                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82756,
+                  "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 81942,
+                  "cliente": "LUIZ GOMES DA SILVA - O GOIANO ",
+                  "dataCadastro": "2026-08-06",
+                  "prazo": "2026-08-07",
+                  "dataEntrega": "2026-08-13",
+                  "status": "atendido_fora"
+                },
+                {
                   "id": 82752,
                   "cliente": "ALDENIR VENANCIO DE OLIVEIRA LTDA",
                   "dataCadastro": "2026-08-20",
@@ -36220,14 +36252,6 @@
                   "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 81942,
-                  "cliente": "LUIZ GOMES DA SILVA - O GOIANO ",
-                  "dataCadastro": "2026-08-06",
-                  "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-13",
-                  "status": "atendido_fora"
                 },
                 {
                   "id": 82310,
@@ -37582,19 +37606,19 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 82737,
-                  "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-24",
-                  "dataEntrega": "2026-08-24",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 82961,
                   "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-08-27",
                   "dataEntrega": "2026-08-26",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 82737,
+                  "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": "2026-08-24",
                   "status": "atendido_dentro"
                 }
               ]
@@ -38042,7 +38066,7 @@
                   "cliente": "SUPERMERCADO KIYOMOTO LTDA",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-25",
+                  "dataEntrega": "2026-09-10",
                   "status": "atendido_fora"
                 },
                 {
@@ -38490,7 +38514,7 @@
                   "cliente": "EMPÓRIO SOLERA LTDA ",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-08-25",
+                  "dataEntrega": "2026-09-10",
                   "status": "atendido_fora"
                 },
                 {
@@ -39158,20 +39182,20 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 82113,
-                  "cliente": "PROTECTION SHIELD LTDA",
-                  "dataCadastro": "2026-08-10",
-                  "prazo": "2026-08-12",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 81985,
                   "cliente": "ATRIA CENOGRAFIA LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
                   "dataEntrega": "2026-08-11",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82113,
+                  "cliente": "PROTECTION SHIELD LTDA",
+                  "dataCadastro": "2026-08-10",
+                  "prazo": "2026-08-12",
+                  "dataEntrega": "2026-08-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 82773,
@@ -39203,9 +39227,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 96,
+          "abertos": 101,
           "atendidos": 56,
-          "pendentes": 40,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39539,7 +39563,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 7,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83512,
@@ -39588,6 +39612,30 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83775,
+                  "cliente": "M GOMES CONSULTORIA LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83776,
+                  "cliente": "M GOMES CONSULTORIA LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83777,
+                  "cliente": "M GOMES CONSULTORIA LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83615,
@@ -39931,7 +39979,7 @@
               "nome": "Senha",
               "atendidosDentro": 13,
               "atendidosFora": 7,
-              "pendentes": 8,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83368,
@@ -40054,6 +40102,14 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 83782,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83330,
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-09-01",
@@ -40126,6 +40182,14 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 83778,
+                  "cliente": "SUPER DIJAN COMERCIAL LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83634,
                   "cliente": " SUPERMERCADOS BANDEIRA LTDA.",
                   "dataCadastro": "2026-09-08",
@@ -40142,20 +40206,20 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 83616,
-                  "cliente": "SANTOS & DIAN MATERIAIS PARA CONSTRUCAO LTDA",
-                  "dataCadastro": "2026-09-04",
-                  "prazo": "2026-09-08",
-                  "dataEntrega": "2026-09-09",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 83370,
                   "cliente": "GOMES SERVIÇOS - LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 83616,
+                  "cliente": "SANTOS & DIAN MATERIAIS PARA CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": "2026-09-09",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -40424,9 +40488,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 10,
+          "abertos": 11,
           "atendidos": 4,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -40448,7 +40512,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83317,
@@ -40519,6 +40583,14 @@
                   "cliente": "RESTAURANTE POINT DE GRUMARI LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83780,
+                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -41010,9 +41082,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 1,
+          "abertos": 2,
           "atendidos": 0,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -41025,6 +41097,22 @@
                   "cliente": "CRIS MAR MERCADO LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Solicitação do cliente",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83779,
+                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -41143,15 +41231,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 0,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83406,
@@ -41176,6 +41264,14 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 83781,
+                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -41189,14 +41285,14 @@
         {
           "mes": "2026-08",
           "abertos": 237,
-          "atendidos": 125,
-          "pendentes": 112,
+          "atendidos": 126,
+          "pendentes": 111,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 13,
-              "atendidosFora": 30,
-              "pendentes": 40,
+              "atendidosFora": 31,
+              "pendentes": 39,
               "chamados": [
                 {
                   "id": 81732,
@@ -41827,8 +41923,8 @@
                   "cliente": "GLOBAL SOLUCOES DE SERVICOS INDUSTRIAIS LTDA",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83279,
@@ -43117,14 +43213,14 @@
         {
           "mes": "2026-09",
           "abertos": 20,
-          "atendidos": 1,
-          "pendentes": 19,
+          "atendidos": 4,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Apontamentos",
-              "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 15,
+              "atendidosDentro": 1,
+              "atendidosFora": 3,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 83310,
@@ -43139,16 +43235,16 @@
                   "cliente": "COGUMELO MAGICO CRECHE E MATERNAL LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83323,
                   "cliente": "CHAMPIGNON SISTEMA DE ENSINO LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83333,
@@ -43219,8 +43315,8 @@
                   "cliente": "CHARM MODA COMERCIO DE ROUPAS, CALÇADOS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83648,
