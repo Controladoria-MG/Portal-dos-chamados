@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/09/2026 09:25",
+  "atualizado_em": "10/09/2026 09:59",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -25987,8 +25987,8 @@
         {
           "mes": "2026-09",
           "abertos": 23,
-          "atendidos": 18,
-          "pendentes": 5,
+          "atendidos": 17,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26120,17 +26120,17 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83748,
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": "2026-09-09",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -26999,9 +26999,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 9,
+          "abertos": 8,
           "atendidos": 1,
-          "pendentes": 8,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -27023,16 +27023,8 @@
               "nome": "Documentação",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
-                {
-                  "id": 83676,
-                  "cliente": "RODRIGUES SERVICE SOLUTIONS LTDA",
-                  "dataCadastro": "2026-09-08",
-                  "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 83525,
                   "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
@@ -39211,8 +39203,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 95,
-          "atendidos": 55,
+          "abertos": 96,
+          "atendidos": 56,
           "pendentes": 40,
           "categorias": [
             {
@@ -39490,6 +39482,22 @@
                   "cliente": "PROMOTORAS GYN LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Documentação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83676,
+                  "cliente": "RODRIGUES SERVICE SOLUTIONS LTDA",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -39921,9 +39929,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 12,
+              "atendidosDentro": 13,
               "atendidosFora": 7,
-              "pendentes": 9,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83368,
@@ -40034,8 +40042,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83737,
