@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/09/2026 14:44",
+  "atualizado_em": "10/09/2026 15:23",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19948,8 +19948,8 @@
         {
           "mes": "2026-09",
           "abertos": 84,
-          "atendidos": 77,
-          "pendentes": 7,
+          "atendidos": 79,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19969,9 +19969,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 62,
+              "atendidosDentro": 64,
               "atendidosFora": 14,
-              "pendentes": 7,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20610,8 +20610,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83807,
@@ -20634,8 +20634,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -23309,9 +23309,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 13,
-          "atendidos": 9,
-          "pendentes": 4,
+          "abertos": 14,
+          "atendidos": 11,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -23332,7 +23332,7 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
+              "atendidosFora": 3,
               "pendentes": 3,
               "chamados": [
                 {
@@ -23356,8 +23356,8 @@
                   "cliente": "VTZZ INDUSTRIA E COMÉRCIO LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83349,
@@ -23378,6 +23378,14 @@
                 {
                   "id": 83788,
                   "cliente": "VIANA & CIA LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83814,
+                  "cliente": "ENBRAGEO ENGENHARIA LTDA ",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
                   "dataEntrega": null,
@@ -23460,16 +23468,16 @@
             {
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83721,
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -26058,9 +26066,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 28,
+          "abertos": 29,
           "atendidos": 18,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26242,7 +26250,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 9,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83556,
@@ -26315,6 +26323,14 @@
                   "prazo": "2026-09-04",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 83812,
+                  "cliente": "SAMPA ATACADO DE GENEROS ALIMENTICIOS E BEBIDAS LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83789,
@@ -39340,8 +39356,8 @@
         {
           "mes": "2026-09",
           "abertos": 107,
-          "atendidos": 59,
-          "pendentes": 48,
+          "atendidos": 60,
+          "pendentes": 47,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40137,9 +40153,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 15,
+              "atendidosDentro": 16,
               "atendidosFora": 7,
-              "pendentes": 9,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83368,
@@ -40282,8 +40298,8 @@
                   "cliente": "CEOS EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83373,
