@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/09/2026 15:57",
+  "atualizado_em": "10/09/2026 16:57",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 84,
-          "atendidos": 79,
-          "pendentes": 5,
+          "abertos": 86,
+          "atendidos": 80,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19969,9 +19969,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 62,
+              "atendidosDentro": 63,
               "atendidosFora": 16,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83308,
@@ -20626,8 +20626,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83809,
@@ -20636,6 +20636,22 @@
                   "prazo": "2026-09-11",
                   "dataEntrega": "2026-09-10",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83818,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83819,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -22798,8 +22814,8 @@
         {
           "mes": "2026-08",
           "abertos": 51,
-          "atendidos": 50,
-          "pendentes": 1,
+          "atendidos": 51,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -23276,16 +23292,16 @@
             {
               "nome": "Termos de Intimação",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82305,
                   "cliente": "ASSOC RETIRO DE RECUP DA SAUDE DE ITAPECERICA DA SERRA (MATRIZ)",
                   "dataCadastro": "2026-08-12",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -28661,8 +28677,8 @@
         {
           "mes": "2026-08",
           "abertos": 45,
-          "atendidos": 40,
-          "pendentes": 5,
+          "atendidos": 39,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -28922,9 +28938,9 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83101,
@@ -28947,8 +28963,8 @@
                   "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-26",
-                  "dataEntrega": "2026-08-26",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
