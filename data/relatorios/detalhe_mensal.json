@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/09/2026 12:00",
+  "atualizado_em": "10/09/2026 12:59",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 80,
-          "atendidos": 72,
-          "pendentes": 8,
+          "abertos": 82,
+          "atendidos": 76,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19969,9 +19969,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 58,
+              "atendidosDentro": 62,
               "atendidosFora": 13,
-              "pendentes": 8,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83308,
@@ -20578,28 +20578,44 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83785,
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83786,
                   "cliente": "CZLOC LOCACAO DE EQUIPAMENTOS PARA CONSTRUCAO CIVIL LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83787,
                   "cliente": "CONCEITO ESTRUTURA LOCADORA LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83804,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83807,
+                  "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
                   "dataEntrega": null,
@@ -26026,9 +26042,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 27,
+          "abertos": 28,
           "atendidos": 17,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26167,6 +26183,22 @@
                 {
                   "id": 83798,
                   "cliente": "SOLAR INVESTIMENTOS LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Conciliação de Contas",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83806,
+                  "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
                   "dataEntrega": null,
@@ -35660,8 +35692,8 @@
         {
           "mes": "2026-08",
           "abertos": 420,
-          "atendidos": 344,
-          "pendentes": 76,
+          "atendidos": 345,
+          "pendentes": 75,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -37770,8 +37802,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 71,
-              "atendidosFora": 100,
-              "pendentes": 13,
+              "atendidosFora": 101,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 81736,
@@ -39058,8 +39090,8 @@
                   "cliente": "ARMS TERCERIZACAO DE SERVICOS",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83153,
@@ -39267,9 +39299,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 105,
+          "abertos": 106,
           "atendidos": 57,
-          "pendentes": 48,
+          "pendentes": 49,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39459,7 +39491,7 @@
               "nome": "Certidão",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83706,
@@ -39532,6 +39564,14 @@
                   "prazo": "2026-09-07",
                   "dataEntrega": "2026-09-08",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 83805,
+                  "cliente": "TAITI COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
