@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/09/2026 17:53",
+  "atualizado_em": "10/09/2026 18:16",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -17569,8 +17569,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 187,
-              "atendidosFora": 109,
+              "atendidosDentro": 186,
+              "atendidosFora": 110,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19154,8 +19154,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-08-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82723,
@@ -19947,9 +19947,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 86,
-          "atendidos": 81,
-          "pendentes": 5,
+          "abertos": 89,
+          "atendidos": 83,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19969,9 +19969,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 64,
+              "atendidosDentro": 66,
               "atendidosFora": 16,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83308,
@@ -20652,6 +20652,30 @@
                   "prazo": "2026-09-11",
                   "dataEntrega": "2026-09-10",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83821,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83822,
+                  "cliente": "UP SEA SOLUÇÕES MARITIMAS E ENGENHARIA NAVAL LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83824,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -26887,9 +26911,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 25,
+          "abertos": 23,
           "atendidos": 23,
-          "pendentes": 2,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26936,30 +26960,6 @@
                   "prazo": "2026-08-26",
                   "dataEntrega": "2026-08-31",
                   "status": "atendido_fora"
-                }
-              ]
-            },
-            {
-              "nome": "Auditoria",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
-              "chamados": [
-                {
-                  "id": 82931,
-                  "cliente": "55.609.458 ELIANE DIAS DA SILVA MATOS",
-                  "dataCadastro": "2026-08-24",
-                  "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82928,
-                  "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
-                  "dataCadastro": "2026-08-24",
-                  "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -35771,9 +35771,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 423,
+          "abertos": 424,
           "atendidos": 349,
-          "pendentes": 74,
+          "pendentes": 75,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36251,8 +36251,16 @@
               "nome": "Auditoria",
               "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 25,
+              "pendentes": 26,
               "chamados": [
+                {
+                  "id": 82928,
+                  "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
+                  "dataCadastro": "2026-08-24",
+                  "prazo": "2026-08-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83112,
                   "cliente": "EMBRASIL COMERCIO DE AUTO PECAS LTDA",
@@ -39411,8 +39419,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 107,
-          "atendidos": 63,
+          "abertos": 108,
+          "atendidos": 64,
           "pendentes": 44,
           "categorias": [
             {
@@ -39921,9 +39929,9 @@
             },
             {
               "nome": "Notificação",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83540,
@@ -39938,8 +39946,8 @@
                   "cliente": "ALM GESTAO TECH RETAIL LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -40188,6 +40196,22 @@
                   "prazo": "2026-09-14",
                   "dataEntrega": "2026-09-10",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Regularização de Débitos",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83823,
+                  "cliente": "JANAE PAES E DOCES LTDA",
+                  "dataCadastro": "2026-09-10",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
