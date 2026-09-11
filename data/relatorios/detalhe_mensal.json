@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/09/2026 10:00",
+  "atualizado_em": "11/09/2026 11:00",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19939,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 94,
-          "atendidos": 88,
-          "pendentes": 6,
+          "abertos": 95,
+          "atendidos": 90,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19961,9 +19961,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 71,
+              "atendidosDentro": 73,
               "atendidosFora": 16,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20698,11 +20698,19 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83837,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 83839,
                   "cliente": null,
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
@@ -23365,9 +23373,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 14,
+          "abertos": 15,
           "atendidos": 13,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -23389,7 +23397,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 3,
               "atendidosFora": 4,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83649,
@@ -23446,6 +23454,14 @@
                   "prazo": "2026-09-11",
                   "dataEntrega": "2026-09-11",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83842,
+                  "cliente": "DELLON DIOVANI SOARES ",
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83732,
@@ -25459,14 +25475,14 @@
         {
           "mes": "2026-08",
           "abertos": 72,
-          "atendidos": 67,
-          "pendentes": 5,
+          "atendidos": 68,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 3,
-              "atendidosFora": 13,
-              "pendentes": 1,
+              "atendidosFora": 14,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83176,
@@ -25505,8 +25521,8 @@
                   "cliente": "Centro de Distribuição Butantã Ltda.",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83174,
@@ -34260,8 +34276,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 159,
-          "pendentes": 8,
+          "atendidos": 160,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -34930,16 +34946,16 @@
             {
               "nome": "Parcelamento Municipal",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81250,
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81251,
@@ -39411,9 +39427,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 108,
+          "abertos": 110,
           "atendidos": 73,
-          "pendentes": 35,
+          "pendentes": 37,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39451,7 +39467,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83702,
@@ -39498,6 +39514,14 @@
                   "cliente": "UNIVERSO DAS COISINHAS E-COMMERCE LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83844,
+                  "cliente": "OHMEGA CONSULTORIA E TREINAMENTO LTDA",
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -39619,7 +39643,7 @@
               "nome": "Certidão",
               "atendidosDentro": 4,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83708,
@@ -39636,6 +39660,14 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 83845,
+                  "cliente": "COMERCIO DE ALIMENTOS VICALI LTDA",
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83706,
