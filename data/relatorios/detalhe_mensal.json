@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/09/2026 13:54",
+  "atualizado_em": "11/09/2026 14:54",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -17569,8 +17569,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 185,
-              "atendidosFora": 110,
+              "atendidosDentro": 184,
+              "atendidosFora": 111,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19258,8 +19258,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-24",
-                  "dataEntrega": "2026-08-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82832,
@@ -19939,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 97,
-          "atendidos": 91,
-          "pendentes": 6,
+          "abertos": 99,
+          "atendidos": 92,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19961,9 +19961,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 73,
+              "atendidosDentro": 74,
               "atendidosFora": 17,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83308,
@@ -20722,12 +20722,28 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83856,
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83858,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83860,
+                  "cliente": null,
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
                   "dataEntrega": null,
@@ -26154,9 +26170,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 30,
+          "abertos": 31,
           "atendidos": 23,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26218,7 +26234,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83655,
@@ -26235,6 +26251,14 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83857,
+                  "cliente": "Supermercado Kanashiro Ltda",
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83633,
@@ -27174,7 +27198,7 @@
                   "cliente": "TOME AGROVETERINARIA LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-09-10",
+                  "dataEntrega": "2026-09-11",
                   "status": "atendido_fora"
                 }
               ]
@@ -32823,8 +32847,8 @@
         {
           "mes": "2026-09",
           "abertos": 145,
-          "atendidos": 37,
-          "pendentes": 108,
+          "atendidos": 40,
+          "pendentes": 105,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33757,8 +33781,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 8,
-              "atendidosFora": 9,
-              "pendentes": 7,
+              "atendidosFora": 11,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83336,
@@ -33781,16 +33805,16 @@
                   "cliente": "ALDENIR VENANCIO DE OLIVEIRA LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83372,
                   "cliente": "GOMES SERVIÇOS - LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83401,
@@ -34004,17 +34028,17 @@
             },
             {
               "nome": "Solicitação do cliente",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83601,
                   "cliente": "NOVA CANADÁ PÃES E DOCES EIRELI",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83603,
@@ -39443,23 +39467,23 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 112,
-          "atendidos": 74,
-          "pendentes": 38,
+          "abertos": 113,
+          "atendidos": 76,
+          "pendentes": 37,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83752,
                   "cliente": "BAR E RESTAURANTE 1566 LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83650,
@@ -39657,9 +39681,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 4,
+              "atendidosDentro": 6,
               "atendidosFora": 3,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83708,
@@ -39676,6 +39700,14 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 83859,
+                  "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA (FILIAL 02)",
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83845,
@@ -39706,8 +39738,8 @@
                   "cliente": "ENBRAGEO LOCACAO DE MAQUINAS E EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83765,
@@ -39793,8 +39825,8 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 9,
-              "atendidosFora": 1,
+              "atendidosDentro": 8,
+              "atendidosFora": 2,
               "pendentes": 5,
               "chamados": [
                 {
@@ -39914,8 +39946,8 @@
                   "cliente": "PC GAMER GOIANIA LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -40233,17 +40265,17 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83823,
                   "cliente": "JANAE PAES E DOCES LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
