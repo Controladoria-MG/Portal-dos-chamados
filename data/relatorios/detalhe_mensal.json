@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/09/2026 15:54",
+  "atualizado_em": "11/09/2026 16:55",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -343,14 +343,14 @@
         {
           "mes": "2026-09",
           "abertos": 10,
-          "atendidos": 3,
-          "pendentes": 7,
+          "atendidos": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Cadastro de Produtos",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83367,
@@ -429,8 +429,8 @@
                   "cliente": "DIBRAMASUL MADEIRAS LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -17569,8 +17569,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 184,
-              "atendidosFora": 111,
+              "atendidosDentro": 183,
+              "atendidosFora": 112,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19602,8 +19602,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-27",
-                  "dataEntrega": "2026-08-26",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83061,
@@ -19939,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 100,
+          "abertos": 106,
           "atendidos": 94,
-          "pendentes": 6,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19963,7 +19963,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 76,
               "atendidosFora": 17,
-              "pendentes": 6,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 83308,
@@ -20751,6 +20751,54 @@
                 },
                 {
                   "id": 83862,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83863,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83864,
+                  "cliente": "ANGELA MARIA DE LIMA BENETASSO",
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83865,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83866,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83867,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83868,
                   "cliente": null,
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
@@ -26224,17 +26272,17 @@
             },
             {
               "nome": "Autorregularização",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83738,
                   "cliente": "BAR E RESTAURANTE 1566 LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-15",
-                  "dataEntrega": "2026-09-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -26352,9 +26400,9 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83748,
@@ -26369,8 +26417,8 @@
                   "cliente": "MARIA CECILIA SANTOS COSTA CELANI HIPOLITO DO CARMO",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -34020,8 +34068,8 @@
             },
             {
               "nome": "Procurações DP",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 2,
               "chamados": [
                 {
@@ -34029,8 +34077,8 @@
                   "cliente": "VARANDA FRUTAS E MERCEARIA LTDA ",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-09",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83678,
@@ -39491,9 +39539,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 113,
-          "atendidos": 76,
-          "pendentes": 37,
+          "abertos": 114,
+          "atendidos": 78,
+          "pendentes": 36,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39849,9 +39897,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 8,
+              "atendidosDentro": 9,
               "atendidosFora": 2,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83512,
@@ -39914,8 +39962,8 @@
                   "cliente": "CORA SERVIÇOS EMPRESARIAIS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83775,
@@ -40289,17 +40337,17 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83823,
                   "cliente": "JANAE PAES E DOCES LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -40323,7 +40371,7 @@
               "nome": "Senha",
               "atendidosDentro": 16,
               "atendidosFora": 7,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83368,
@@ -40516,6 +40564,14 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83869,
+                  "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA (FILIA L 01)",
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83332,
