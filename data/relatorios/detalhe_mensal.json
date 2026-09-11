@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/09/2026 12:00",
+  "atualizado_em": "11/09/2026 13:11",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19939,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 96,
+          "abertos": 97,
           "atendidos": 91,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19961,9 +19961,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 74,
-              "atendidosFora": 16,
-              "pendentes": 5,
+              "atendidosDentro": 73,
+              "atendidosFora": 17,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83308,
@@ -20386,8 +20386,8 @@
                   "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83686,
@@ -20720,6 +20720,14 @@
                 {
                   "id": 83853,
                   "cliente": null,
+                  "dataCadastro": "2026-09-11",
+                  "prazo": "2026-09-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83856,
+                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
                   "dataEntrega": null,
@@ -39436,8 +39444,8 @@
         {
           "mes": "2026-09",
           "abertos": 112,
-          "atendidos": 73,
-          "pendentes": 39,
+          "atendidos": 74,
+          "pendentes": 38,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40225,17 +40233,17 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83823,
                   "cliente": "JANAE PAES E DOCES LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-11",
+                  "status": "atendido_dentro"
                 }
               ]
             },
