@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/09/2026 13:14",
+  "atualizado_em": "14/09/2026 14:14",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -26371,8 +26371,8 @@
         {
           "mes": "2026-09",
           "abertos": 31,
-          "atendidos": 25,
-          "pendentes": 6,
+          "atendidos": 26,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26432,9 +26432,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 7,
+              "atendidosDentro": 8,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83655,
@@ -26457,8 +26457,8 @@
                   "cliente": "Supermercado Kanashiro Ltda",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83633,
@@ -33111,8 +33111,8 @@
         {
           "mes": "2026-09",
           "abertos": 148,
-          "atendidos": 40,
-          "pendentes": 108,
+          "atendidos": 41,
+          "pendentes": 107,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -34324,9 +34324,9 @@
             },
             {
               "nome": "Solicitação do cliente",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83601,
@@ -34341,8 +34341,8 @@
                   "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (FILIAL 06)",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -36148,8 +36148,8 @@
         {
           "mes": "2026-08",
           "abertos": 419,
-          "atendidos": 350,
-          "pendentes": 69,
+          "atendidos": 349,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38250,8 +38250,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 71,
-              "atendidosFora": 107,
-              "pendentes": 6,
+              "atendidosFora": 106,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 81736,
@@ -39322,8 +39322,8 @@
                   "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 23)",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": "2026-09-14",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82316,
@@ -39748,8 +39748,8 @@
         {
           "mes": "2026-09",
           "abertos": 159,
-          "atendidos": 82,
-          "pendentes": 77,
+          "atendidos": 84,
+          "pendentes": 75,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40593,9 +40593,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 17,
+              "atendidosDentro": 19,
               "atendidosFora": 8,
-              "pendentes": 51,
+              "pendentes": 49,
               "chamados": [
                 {
                   "id": 83368,
@@ -40802,8 +40802,8 @@
                   "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA (FILIA L 01)",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83332,
@@ -40842,8 +40842,8 @@
                   "cliente": "REPIC COMERCIAL ELETRONICA LTDA (FILIAL 1)",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83875,
