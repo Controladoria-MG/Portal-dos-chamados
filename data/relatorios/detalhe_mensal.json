@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/09/2026 11:15",
+  "atualizado_em": "14/09/2026 12:15",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19940,8 +19940,8 @@
         {
           "mes": "2026-09",
           "abertos": 120,
-          "atendidos": 108,
-          "pendentes": 12,
+          "atendidos": 115,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19961,9 +19961,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 87,
+              "atendidosDentro": 94,
               "atendidosFora": 20,
-              "pendentes": 12,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20858,40 +20858,40 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83928,
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83930,
                   "cliente": "CZLOC LOCACAO DE EQUIPAMENTOS PARA CONSTRUCAO CIVIL LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83931,
                   "cliente": "CONCEITO ESTRUTURA LOCADORA LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83932,
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83933,
@@ -20906,16 +20906,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83940,
                   "cliente": null,
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -23589,8 +23589,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 16,
-          "atendidos": 15,
+          "abertos": 17,
+          "atendidos": 16,
           "pendentes": 1,
           "categorias": [
             {
@@ -23611,8 +23611,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 5,
-              "atendidosFora": 4,
+              "atendidosDentro": 4,
+              "atendidosFora": 5,
               "pendentes": 0,
               "chamados": [
                 {
@@ -23668,8 +23668,8 @@
                   "cliente": "ENBRAGEO ENGENHARIA LTDA ",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83842,
@@ -23709,8 +23709,16 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 83944,
+                  "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
+                  "dataCadastro": "2026-09-14",
+                  "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83445,
                   "cliente": "BONNARO COMERCIO E REPRESENTAÇÃO LTDA",
@@ -23755,9 +23763,9 @@
             },
             {
               "nome": "Verificação Lançamentos Contábeis",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83721,
@@ -23772,8 +23780,8 @@
                   "cliente": "DELLON DIOVANI SOARES ",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -28933,8 +28941,8 @@
         {
           "mes": "2026-08",
           "abertos": 44,
-          "atendidos": 38,
-          "pendentes": 6,
+          "atendidos": 41,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29091,8 +29099,8 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 4,
-              "atendidosFora": 3,
-              "pendentes": 2,
+              "atendidosFora": 5,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83132,
@@ -29147,8 +29155,8 @@
                   "cliente": "PIZZA CREK FAST FOOD LTDA (FILIAL 7)",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82833,
@@ -29163,8 +29171,8 @@
                   "cliente": "JDM DISTRIBUIDORA DE PRODUTOS ALIMENTÍCIOS LTDA ",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -29187,8 +29195,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83101,
@@ -29211,8 +29219,8 @@
                   "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -33102,9 +33110,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 147,
+          "abertos": 148,
           "atendidos": 40,
-          "pendentes": 107,
+          "pendentes": 108,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -34046,7 +34054,7 @@
               "nome": "Certificado",
               "atendidosDentro": 8,
               "atendidosFora": 11,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83336,
@@ -34237,6 +34245,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83945,
+                  "cliente": "MARIA CECILIA SANTOS COSTA CELANI HIPOLITO DO CARMO",
+                  "dataCadastro": "2026-09-14",
+                  "prazo": "2026-09-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -36132,8 +36148,8 @@
         {
           "mes": "2026-08",
           "abertos": 419,
-          "atendidos": 349,
-          "pendentes": 70,
+          "atendidos": 348,
+          "pendentes": 71,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36298,7 +36314,7 @@
                   "cliente": "LAVI STORE LTDA ",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": "2026-08-27",
+                  "dataEntrega": "2026-09-14",
                   "status": "atendido_fora"
                 },
                 {
@@ -37170,7 +37186,7 @@
                   "cliente": "SAON LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": "2026-09-08",
+                  "dataEntrega": "2026-09-14",
                   "status": "atendido_fora"
                 }
               ]
@@ -37913,9 +37929,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 10,
+              "atendidosDentro": 9,
               "atendidosFora": 14,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81777,
@@ -38050,8 +38066,8 @@
                   "cliente": "LAVI STORE LTDA ",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-08-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82574,
@@ -39732,8 +39748,8 @@
         {
           "mes": "2026-09",
           "abertos": 159,
-          "atendidos": 81,
-          "pendentes": 78,
+          "atendidos": 80,
+          "pendentes": 79,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40114,7 +40130,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": "2026-09-11",
+                  "dataEntrega": "2026-09-14",
                   "status": "atendido_dentro"
                 },
                 {
@@ -40361,17 +40377,17 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 5,
+              "atendidosDentro": 4,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83530,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-07",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83485,
