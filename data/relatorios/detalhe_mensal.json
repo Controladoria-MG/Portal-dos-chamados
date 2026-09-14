@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/09/2026 12:15",
+  "atualizado_em": "14/09/2026 13:14",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -36148,8 +36148,8 @@
         {
           "mes": "2026-08",
           "abertos": 419,
-          "atendidos": 348,
-          "pendentes": 71,
+          "atendidos": 350,
+          "pendentes": 69,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38250,8 +38250,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 71,
-              "atendidosFora": 105,
-              "pendentes": 8,
+              "atendidosFora": 107,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81736,
@@ -39322,8 +39322,8 @@
                   "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 23)",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82316,
@@ -39346,8 +39346,8 @@
                   "cliente": "FLV 7 RESTAURANTES LTDA (FILIAL 28)",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82362,
@@ -39748,8 +39748,8 @@
         {
           "mes": "2026-09",
           "abertos": 159,
-          "atendidos": 80,
-          "pendentes": 79,
+          "atendidos": 82,
+          "pendentes": 77,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40593,9 +40593,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 16,
-              "atendidosFora": 7,
-              "pendentes": 53,
+              "atendidosDentro": 17,
+              "atendidosFora": 8,
+              "pendentes": 51,
               "chamados": [
                 {
                   "id": 83368,
@@ -40754,8 +40754,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 22)",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83374,
@@ -40794,8 +40794,8 @@
                   "cliente": "PEREGRINUS COMERCIO VAREJISTA ARTIGOS ELETRONICOS LTDA (FILIAL)",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83869,
