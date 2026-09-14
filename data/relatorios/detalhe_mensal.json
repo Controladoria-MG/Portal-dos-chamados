@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/09/2026 15:15",
+  "atualizado_em": "14/09/2026 16:15",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19939,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 121,
+          "abertos": 122,
           "atendidos": 117,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19963,7 +19963,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 96,
               "atendidosFora": 20,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20924,6 +20924,14 @@
                   "prazo": "2026-09-15",
                   "dataEntrega": "2026-09-14",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 83959,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-14",
+                  "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -23597,9 +23605,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 16,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -23766,6 +23774,22 @@
                   "prazo": "2026-09-04",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Termos de Intimação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83953,
+                  "cliente": "ACCESS EVENTOS E VIAGENS LTDA",
+                  "dataCadastro": "2026-09-14",
+                  "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -38346,7 +38370,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-27",
+                  "dataEntrega": "2026-09-14",
                   "status": "atendido_fora"
                 },
                 {
@@ -39755,9 +39779,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 159,
+          "abertos": 161,
           "atendidos": 84,
-          "pendentes": 75,
+          "pendentes": 77,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40587,8 +40611,16 @@
               "nome": "Restituição",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 83960,
+                  "cliente": "VITTA SALAD - PRODUTOS NATURAIS COMÉRCIO DE HORTI FRUTI LTDA",
+                  "dataCadastro": "2026-09-14",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83319,
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
@@ -40596,6 +40628,14 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 83956,
+                  "cliente": "RIACHO VERDE DISTRIBUIDORA DE HORTTI FRUTTI LTDA ",
+                  "dataCadastro": "2026-09-14",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -44172,15 +44212,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 4,
-          "pendentes": 18,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 14,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 83310,
@@ -44321,6 +44361,14 @@
                 {
                   "id": 83943,
                   "cliente": "D M F SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-09-14",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83958,
+                  "cliente": "LFOP SERVICOS DE APOIO LTDA ",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-30",
                   "dataEntrega": null,
