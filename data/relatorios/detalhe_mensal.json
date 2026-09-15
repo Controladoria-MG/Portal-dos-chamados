@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/09/2026 15:03",
+  "atualizado_em": "15/09/2026 16:03",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19939,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 146,
-          "atendidos": 137,
-          "pendentes": 9,
+          "abertos": 148,
+          "atendidos": 144,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19961,9 +19961,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 110,
-              "atendidosFora": 26,
-              "pendentes": 9,
+              "atendidosDentro": 116,
+              "atendidosFora": 27,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20658,8 +20658,8 @@
                   "cliente": "UP SEA SOLUÇÕES MARITIMAS E ENGENHARIA NAVAL LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83824,
@@ -21090,40 +21090,56 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84029,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84030,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84031,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84032,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84035,
+                  "cliente": "GREEN BEL SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84036,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -26610,9 +26626,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 36,
+          "abertos": 38,
           "atendidos": 30,
-          "pendentes": 6,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26674,7 +26690,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
               "atendidosFora": 4,
-              "pendentes": 4,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83655,
@@ -26741,12 +26757,28 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 84033,
+                  "cliente": "M.S. KURODA & CIA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83754,
                   "cliente": "VARANDA VILA OLÍMPIA MERCEARIA LTDA ",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-15",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84034,
+                  "cliente": "ÁGUA LIMPA DISTRIBUIDORA DE HORTIFRUTI, ALIMENTOS E SERVIÇOS DE TRANSPORTES LTDA.",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84026,
@@ -27479,9 +27511,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 27,
+          "abertos": 26,
           "atendidos": 22,
-          "pendentes": 5,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27519,7 +27551,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 82928,
@@ -27541,14 +27573,6 @@
                   "id": 82752,
                   "cliente": "ALDENIR VENANCIO DE OLIVEIRA LTDA",
                   "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82699,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -28611,7 +28635,7 @@
                   "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-06-17",
                   "prazo": "2026-06-19",
-                  "dataEntrega": "2026-09-04",
+                  "dataEntrega": "2026-09-15",
                   "status": "atendido_fora"
                 },
                 {
@@ -36475,9 +36499,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 416,
+          "abertos": 417,
           "atendidos": 352,
-          "pendentes": 64,
+          "pendentes": 65,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36939,7 +36963,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 20,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 82754,
@@ -37116,6 +37140,14 @@
                   "prazo": "2026-08-31",
                   "dataEntrega": "2026-08-31",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 82699,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82700,
