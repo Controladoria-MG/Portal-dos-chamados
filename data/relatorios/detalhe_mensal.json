@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/09/2026 12:02",
+  "atualizado_em": "15/09/2026 13:03",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19939,8 +19939,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 140,
-          "atendidos": 136,
+          "abertos": 141,
+          "atendidos": 137,
           "pendentes": 4,
           "categorias": [
             {
@@ -19961,7 +19961,7 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 110,
+              "atendidosDentro": 111,
               "atendidosFora": 25,
               "pendentes": 4,
               "chamados": [
@@ -21074,6 +21074,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-17",
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84023,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
                   "dataEntrega": "2026-09-15",
                   "status": "atendido_dentro"
                 }
@@ -31442,8 +31450,8 @@
         {
           "mes": "2026-09",
           "abertos": 9,
-          "atendidos": 1,
-          "pendentes": 8,
+          "atendidos": 2,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -31544,16 +31552,16 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83861,
                   "cliente": "RICHETTI COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -32638,9 +32646,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 84,
+          "abertos": 85,
           "atendidos": 30,
-          "pendentes": 54,
+          "pendentes": 55,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33029,6 +33037,22 @@
                   "cliente": "ARMERINA IMÓVEIS LTDA",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Docs Implantação novos Clientes",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83190,
+                  "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -34868,8 +34892,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 159,
-          "pendentes": 8,
+          "atendidos": 160,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35154,8 +35178,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 9,
-              "pendentes": 3,
+              "atendidosFora": 10,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81422,
@@ -35242,8 +35266,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81055,
@@ -36403,9 +36427,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 417,
-          "atendidos": 351,
-          "pendentes": 66,
+          "abertos": 416,
+          "atendidos": 352,
+          "pendentes": 64,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36866,8 +36890,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 2,
-              "pendentes": 22,
+              "atendidosFora": 3,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 82754,
@@ -37082,8 +37106,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -37371,7 +37395,7 @@
               "nome": "Docs Implantação novos Clientes",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82295,
@@ -37388,14 +37412,6 @@
                   "prazo": "2026-08-24",
                   "dataEntrega": "2026-09-10",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 83190,
-                  "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -40243,8 +40259,16 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 84022,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83524,
                   "cliente": "NT TECNOLOGIA DA INFORMACAO LTDA",
@@ -40900,22 +40924,6 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-14",
                   "status": "atendido_fora"
-                }
-              ]
-            },
-            {
-              "nome": "Procuração",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 83985,
-                  "cliente": null,
-                  "dataCadastro": "2026-09-15",
-                  "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
