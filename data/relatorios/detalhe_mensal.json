@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/09/2026 13:03",
+  "atualizado_em": "15/09/2026 14:02",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19939,9 +19939,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 141,
+          "abertos": 142,
           "atendidos": 137,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19963,7 +19963,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 111,
               "atendidosFora": 25,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -21084,6 +21084,14 @@
                   "prazo": "2026-09-16",
                   "dataEntrega": "2026-09-15",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84024,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -29661,8 +29669,8 @@
         {
           "mes": "2026-09",
           "abertos": 17,
-          "atendidos": 3,
-          "pendentes": 14,
+          "atendidos": 5,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -29682,17 +29690,17 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83936,
                   "cliente": "DON MARCHÊ SERVIÇOS DE ALIMENTAÇÃO LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83626,
@@ -29763,8 +29771,8 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 3,
+              "atendidosFora": 2,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83762,
@@ -29779,8 +29787,8 @@
                   "cliente": "LUSINDE INVEST EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83815,
@@ -31066,8 +31074,8 @@
         {
           "mes": "2026-08",
           "abertos": 38,
-          "atendidos": 31,
-          "pendentes": 7,
+          "atendidos": 32,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31384,8 +31392,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 3,
+              "atendidosFora": 5,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81809,
@@ -31432,8 +31440,8 @@
                   "cliente": "FORT FRUIT LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83185,
@@ -44596,15 +44604,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 25,
+          "abertos": 26,
           "atendidos": 4,
-          "pendentes": 21,
+          "pendentes": 22,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 17,
+              "pendentes": 18,
               "chamados": [
                 {
                   "id": 83310,
@@ -44771,6 +44779,14 @@
                   "cliente": "P L F 4 REPRESENTACOES LTDA ",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84025,
+                  "cliente": "LAAN SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
