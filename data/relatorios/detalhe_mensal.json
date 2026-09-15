@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/09/2026 11:03",
+  "atualizado_em": "15/09/2026 12:02",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19940,8 +19940,8 @@
         {
           "mes": "2026-09",
           "abertos": 140,
-          "atendidos": 127,
-          "pendentes": 13,
+          "atendidos": 136,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19961,9 +19961,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 101,
+              "atendidosDentro": 110,
               "atendidosFora": 25,
-              "pendentes": 13,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -21010,72 +21010,72 @@
                   "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83986,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83988,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83991,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83994,
                   "cliente": "CRISTALIA  ALIMENTAÇÃO E SERVIÇOS LTDA ",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83995,
                   "cliente": "DON MARCHÊ SERVIÇOS DE ALIMENTAÇÃO LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83996,
                   "cliente": "EKIIM RESTAURANTE LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83998,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84001,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -26562,9 +26562,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 33,
-          "atendidos": 28,
-          "pendentes": 5,
+          "abertos": 34,
+          "atendidos": 30,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26625,8 +26625,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
-              "atendidosFora": 3,
-              "pendentes": 3,
+              "atendidosFora": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83655,
@@ -26689,8 +26689,8 @@
                   "cliente": "SUPER CENTER ZATTÃO LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83754,
@@ -26729,16 +26729,16 @@
             {
               "nome": "Conciliação de Contas",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83806,
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -26746,7 +26746,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83748,
@@ -26763,6 +26763,14 @@
                   "prazo": "2026-09-14",
                   "dataEntrega": "2026-09-11",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84002,
+                  "cliente": "TRANSPORTE FORT FRUIT LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -29644,9 +29652,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 3,
-          "pendentes": 13,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -29812,7 +29820,7 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83639,
@@ -29821,6 +29829,14 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-15",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84020,
+                  "cliente": "ALUMITRE COMERCIO DE ESQUADRIAS LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83677,
@@ -31042,8 +31058,8 @@
         {
           "mes": "2026-08",
           "abertos": 38,
-          "atendidos": 30,
-          "pendentes": 8,
+          "atendidos": 31,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31360,8 +31376,8 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 4,
+              "atendidosFora": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81809,
@@ -31384,8 +31400,8 @@
                   "cliente": "SUPERMERCADO QUEIROZ LTDA (FILIAL2)",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83181,
@@ -31425,23 +31441,23 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 8,
-          "atendidos": 0,
+          "abertos": 9,
+          "atendidos": 1,
           "pendentes": 8,
           "categorias": [
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83723,
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83620,
@@ -31505,8 +31521,16 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84017,
+                  "cliente": "COMERCIAL SHITSU LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83942,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA  (MATRIZ)",
@@ -39963,9 +39987,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 166,
+          "abertos": 179,
           "atendidos": 83,
-          "pendentes": 83,
+          "pendentes": 96,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40379,7 +40403,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 10,
               "atendidosFora": 2,
-              "pendentes": 4,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 83512,
@@ -40398,6 +40422,38 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 84015,
+                  "cliente": "L. A. TAHA - ESTACIONAMENTO",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84006,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA (FILIAL 02)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84016,
+                  "cliente": "OLANA ADMINISTRAÇÃO E PARTICIPAÇÕES S.A.",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84014,
+                  "cliente": "SERFARMA DROGARIA LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83851,
                   "cliente": null,
                   "dataCadastro": "2026-09-11",
@@ -40406,12 +40462,68 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 84003,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83507,
                   "cliente": "LOURENCINI COMÉRCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84013,
+                  "cliente": "MAIS VERDE DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84005,
+                  "cliente": "Supermercado Castelo da Serra Ltda (Filial)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84004,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 04)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84008,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84009,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 05)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84011,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 07)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83611,
@@ -40478,6 +40590,14 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 84010,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 06)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83800,
                   "cliente": "MPJ - PRODUTOS, EQUIPAMENTOS E SERVICOS LTDA",
                   "dataCadastro": "2026-09-10",
@@ -40508,6 +40628,14 @@
                   "prazo": "2026-09-07",
                   "dataEntrega": "2026-09-11",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84012,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 8)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -42346,9 +42474,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 2,
+          "abertos": 3,
           "atendidos": 0,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -42361,6 +42489,22 @@
                   "cliente": "CRIS MAR MERCADO LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84021,
+                  "cliente": "MERCADO RIO SÃO PAULO LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -44444,15 +44588,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 4,
-          "pendentes": 20,
+          "pendentes": 21,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 16,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 83310,
@@ -44611,6 +44755,14 @@
                   "cliente": "GREEN BEL SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84018,
+                  "cliente": "P L F 4 REPRESENTACOES LTDA ",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
