@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/09/2026 08:56",
+  "atualizado_em": "15/09/2026 09:09",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19961,8 +19961,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 99,
-              "atendidosFora": 23,
+              "atendidosDentro": 98,
+              "atendidosFora": 24,
               "pendentes": 8,
               "chamados": [
                 {
@@ -20898,8 +20898,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-14",
-                  "dataEntrega": "2026-09-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83934,
@@ -23812,7 +23812,7 @@
                   "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-15",
-                  "dataEntrega": "2026-09-14",
+                  "dataEntrega": "2026-09-15",
                   "status": "atendido_dentro"
                 },
                 {
@@ -29339,7 +29339,7 @@
                   "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-26",
-                  "dataEntrega": "2026-09-14",
+                  "dataEntrega": "2026-09-15",
                   "status": "atendido_fora"
                 }
               ]
@@ -29691,7 +29691,7 @@
                   "cliente": "JARDIM ELÉTRICO PRODUÇÕES LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-14",
+                  "dataEntrega": "2026-09-15",
                   "status": "atendido_fora"
                 },
                 {
@@ -40970,7 +40970,7 @@
                   "cliente": "PEREGRINUS COMERCIO VAREJISTA ARTIGOS ELETRONICOS LTDA (FILIAL)",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-14",
+                  "dataEntrega": "2026-09-15",
                   "status": "atendido_dentro"
                 },
                 {
@@ -40978,7 +40978,7 @@
                   "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA (FILIA L 01)",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": "2026-09-14",
+                  "dataEntrega": "2026-09-15",
                   "status": "atendido_dentro"
                 },
                 {
@@ -41018,7 +41018,7 @@
                   "cliente": "REPIC COMERCIAL ELETRONICA LTDA (FILIAL 1)",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": "2026-09-14",
+                  "dataEntrega": "2026-09-15",
                   "status": "atendido_dentro"
                 },
                 {
