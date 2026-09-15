@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/09/2026 16:03",
+  "atualizado_em": "15/09/2026 17:03",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -27511,9 +27511,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 26,
+          "abertos": 27,
           "atendidos": 22,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27551,8 +27551,16 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
+                {
+                  "id": 83205,
+                  "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 82928,
                   "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
@@ -32735,14 +32743,14 @@
         {
           "mes": "2026-08",
           "abertos": 84,
-          "atendidos": 30,
-          "pendentes": 54,
+          "atendidos": 34,
+          "pendentes": 50,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
-              "atendidosFora": 6,
-              "pendentes": 21,
+              "atendidosFora": 5,
+              "pendentes": 22,
               "chamados": [
                 {
                   "id": 82144,
@@ -32789,8 +32797,8 @@
                   "cliente": "COMERCIAL LUZIA MEIRE DE GENEROS ALIMENTICIOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": "2026-09-01",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82292,
@@ -33149,8 +33157,8 @@
             {
               "nome": "Procurações DP",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 19,
+              "atendidosFora": 9,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 82242,
@@ -33229,8 +33237,8 @@
                   "cliente": "NANDAMATOS STORE LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82921,
@@ -33261,32 +33269,32 @@
                   "cliente": "BIANCA EMBREAGENS LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83109,
                   "cliente": "KADOSH DISTRIBUIDOR COMERCIO E SERVICO DIGITAL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83110,
                   "cliente": "YURI CESTARI DA SILVA EMBREAGENS OSASCO",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83111,
                   "cliente": "AUTO CENTER EMBRASIL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83204,
@@ -33487,14 +33495,14 @@
         {
           "mes": "2026-09",
           "abertos": 147,
-          "atendidos": 41,
-          "pendentes": 106,
+          "atendidos": 36,
+          "pendentes": 111,
           "categorias": [
             {
               "nome": "Apontamentos",
-              "atendidosDentro": 19,
+              "atendidosDentro": 13,
               "atendidosFora": 0,
-              "pendentes": 94,
+              "pendentes": 99,
               "chamados": [
                 {
                   "id": 83321,
@@ -33645,8 +33653,8 @@
                   "cliente": "S H DE ARAUJO & CIA LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83379,
@@ -33701,8 +33709,8 @@
                   "cliente": "PC GAMER GOIANIA LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83386,
@@ -33725,8 +33733,8 @@
                   "cliente": "MT MIL CONSULTORIA LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83389,
@@ -33749,8 +33757,8 @@
                   "cliente": "E C MIL CONSULTORIA ",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83392,
@@ -33765,8 +33773,8 @@
                   "cliente": "TOME AGROVETERINARIA LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83394,
@@ -33797,8 +33805,8 @@
                   "cliente": "BASEFORTE SERVICOS E TERRAPLENAGEM LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83398,
@@ -34019,14 +34027,6 @@
                 {
                   "id": 83442,
                   "cliente": "CORA SERVIÇOS EMPRESARIAIS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83448,
-                  "cliente": "COMERCIAL LUZIA MEIRE DE GENEROS ALIMENTICIOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
@@ -34430,7 +34430,7 @@
               "nome": "Certificado",
               "atendidosDentro": 8,
               "atendidosFora": 11,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83336,
@@ -34631,14 +34631,22 @@
                   "prazo": "2026-09-15",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 84037,
+                  "cliente": "COSTA & SILVA MATERIAIS DE CONSTRUÇÃO, ELÉTRICO E HIDRÁULICO LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
             {
               "nome": "Procurações DP",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83660,
@@ -34653,8 +34661,8 @@
                   "cliente": "FILM FACIL LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83741,
@@ -36499,9 +36507,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 417,
+          "abertos": 416,
           "atendidos": 352,
-          "pendentes": 65,
+          "pendentes": 64,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36963,7 +36971,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 21,
+              "pendentes": 20,
               "chamados": [
                 {
                   "id": 82754,
@@ -36976,14 +36984,6 @@
                 {
                   "id": 83218,
                   "cliente": "CR LOCACAO E VENDAS DE EQUIPAMENTOS LTDA",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83205,
-                  "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
                   "dataEntrega": null,
@@ -40083,9 +40083,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 179,
-          "atendidos": 84,
-          "pendentes": 95,
+          "abertos": 180,
+          "atendidos": 86,
+          "pendentes": 94,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40747,8 +40747,16 @@
               "nome": "Levantamento de Débitos Anual",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84038,
+                  "cliente": "M.S. KURODA & CIA LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83739,
                   "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
@@ -41121,9 +41129,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 20,
+              "atendidosDentro": 22,
               "atendidosFora": 8,
-              "pendentes": 44,
+              "pendentes": 42,
               "chamados": [
                 {
                   "id": 83368,
@@ -41482,8 +41490,8 @@
                   "cliente": "PRO ADVANCED SOLUCOES EM T.I. LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83778,
@@ -41690,8 +41698,8 @@
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83922,
