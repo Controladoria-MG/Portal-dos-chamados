@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/09/2026 18:07",
+  "atualizado_em": "15/09/2026 18:33",
   "departamentos": [
     {
       "nome": "CADASTRO DE PRODUTOS",
@@ -19940,8 +19940,8 @@
         {
           "mes": "2026-09",
           "abertos": 154,
-          "atendidos": 148,
-          "pendentes": 6,
+          "atendidos": 150,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19961,9 +19961,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 120,
+              "atendidosDentro": 122,
               "atendidosFora": 27,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -21178,16 +21178,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84047,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -31561,15 +31561,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 9,
+          "abertos": 11,
           "atendidos": 2,
-          "pendentes": 7,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83723,
@@ -31580,10 +31580,26 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 84050,
+                  "cliente": "RECANTO SUPERMERCADO E HORTIFRUTTI LTDA",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83620,
                   "cliente": "Padaria e Restaurante Valentina Ltda.",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84051,
+                  "cliente": "VARANDA FRUTAS E MERCEARIA LTDA ",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -34988,8 +35004,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 159,
-          "pendentes": 8,
+          "atendidos": 160,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35970,8 +35986,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 1,
-              "atendidosFora": 66,
-              "pendentes": 1,
+              "atendidosFora": 67,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81470,
@@ -36346,8 +36362,8 @@
                   "cliente": "Cucinare Pro Alimentacao LTDA (Filial 86)",
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81397,
@@ -36524,8 +36540,8 @@
         {
           "mes": "2026-08",
           "abertos": 421,
-          "atendidos": 352,
-          "pendentes": 69,
+          "atendidos": 354,
+          "pendentes": 67,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -37626,8 +37642,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 14,
-              "pendentes": 2,
+              "atendidosFora": 15,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82005,
@@ -37674,8 +37690,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81936,
@@ -38642,8 +38658,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 68,
-              "atendidosFora": 110,
-              "pendentes": 6,
+              "atendidosFora": 111,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81736,
@@ -39602,8 +39618,8 @@
                   "cliente": "Cucinare Pro Alimentacao LTDA (Filial 86)",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82781,
@@ -40139,9 +40155,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 181,
-          "atendidos": 88,
-          "pendentes": 93,
+          "abertos": 182,
+          "atendidos": 90,
+          "pendentes": 92,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40393,17 +40409,17 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84022,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83524,
@@ -40419,7 +40435,7 @@
               "nome": "Certidão",
               "atendidosDentro": 6,
               "atendidosFora": 4,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83708,
@@ -40452,6 +40468,14 @@
                   "prazo": "2026-09-14",
                   "dataEntrega": "2026-09-15",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84048,
+                  "cliente": "Montezanno Administração de Bens S.A.",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83706,
@@ -41073,9 +41097,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83924,
@@ -41130,8 +41154,8 @@
                   "cliente": "J R BARROS COMERCIO LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83759,
