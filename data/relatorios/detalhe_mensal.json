@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 11:30",
+  "atualizado_em": "16/09/2026 12:46",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19502,9 +19502,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 163,
-          "atendidos": 150,
-          "pendentes": 13,
+          "abertos": 164,
+          "atendidos": 159,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19524,9 +19524,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 121,
+              "atendidosDentro": 130,
               "atendidosFora": 28,
-              "pendentes": 13,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -20757,67 +20757,75 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84056,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84059,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84062,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84065,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84069,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84070,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84071,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84072,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84075,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
@@ -34679,8 +34687,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 160,
-          "pendentes": 7,
+          "atendidos": 161,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -34965,16 +34973,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 9,
-              "pendentes": 3,
+              "atendidosFora": 10,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81422,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81348,
@@ -36215,8 +36223,8 @@
         {
           "mes": "2026-08",
           "abertos": 419,
-          "atendidos": 355,
-          "pendentes": 64,
+          "atendidos": 361,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36677,8 +36685,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 3,
-              "pendentes": 23,
+              "atendidosFora": 8,
+              "pendentes": 18,
               "chamados": [
                 {
                   "id": 83218,
@@ -36789,8 +36797,8 @@
                   "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83112,
@@ -36821,8 +36829,8 @@
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81942,
@@ -36869,16 +36877,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82700,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82701,
@@ -36893,8 +36901,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82706,
@@ -37197,8 +37205,8 @@
             {
               "nome": "Docs Implantação novos Clientes",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82295,
@@ -37221,8 +37229,8 @@
                   "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -39814,9 +39822,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 185,
-          "atendidos": 108,
-          "pendentes": 77,
+          "abertos": 186,
+          "atendidos": 114,
+          "pendentes": 72,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40862,7 +40870,7 @@
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83823,
@@ -40871,6 +40879,14 @@
                   "prazo": "2026-09-11",
                   "dataEntrega": "2026-09-14",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84074,
+                  "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -40908,9 +40924,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 28,
-              "atendidosFora": 11,
-              "pendentes": 33,
+              "atendidosDentro": 32,
+              "atendidosFora": 13,
+              "pendentes": 27,
               "chamados": [
                 {
                   "id": 83368,
@@ -41141,8 +41157,8 @@
                   "cliente": "RN MUROS LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83838,
@@ -41173,8 +41189,8 @@
                   "cliente": "MIRACOR GRAFICA LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83884,
@@ -41213,32 +41229,32 @@
                   "cliente": "FORT LACE CONFECCOES LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83889,
                   "cliente": "HUGO DELEON CONFECCOES LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83890,
                   "cliente": "H9 CONFECCOES LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83891,
                   "cliente": "VICTOR PANUCCI CONFECÇOES LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83893,
