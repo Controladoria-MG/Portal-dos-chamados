@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 15:22",
+  "atualizado_em": "16/09/2026 16:57",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19502,9 +19502,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 170,
+          "abertos": 172,
           "atendidos": 164,
-          "pendentes": 6,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19524,9 +19524,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 134,
-              "atendidosFora": 29,
-              "pendentes": 6,
+              "atendidosDentro": 133,
+              "atendidosFora": 30,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83308,
@@ -20133,8 +20133,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83785,
@@ -20874,6 +20874,22 @@
                 },
                 {
                   "id": 84086,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84088,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84089,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
@@ -29479,9 +29495,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 6,
-          "pendentes": 12,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -29623,7 +29639,7 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84046,
@@ -29640,6 +29656,14 @@
                   "prazo": "2026-09-07",
                   "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84087,
+                  "cliente": "NOVAIS IT SOLUCOES TECNOLOGICAS LTDA",
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83724,
@@ -34727,8 +34751,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 161,
-          "pendentes": 6,
+          "atendidos": 160,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -35013,16 +35037,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 10,
-              "pendentes": 2,
+              "atendidosFora": 9,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81422,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-09-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81348,
@@ -36262,8 +36286,8 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 420,
-          "atendidos": 363,
+          "abertos": 419,
+          "atendidos": 362,
           "pendentes": 57,
           "categorias": [
             {
@@ -36725,7 +36749,7 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 9,
+              "atendidosFora": 8,
               "pendentes": 17,
               "chamados": [
                 {
@@ -36935,14 +36959,6 @@
                   "prazo": "2026-08-21",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 82704,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": "2026-09-16",
-                  "status": "atendido_fora"
                 },
                 {
                   "id": 82706,
@@ -39871,8 +39887,8 @@
         {
           "mes": "2026-09",
           "abertos": 187,
-          "atendidos": 117,
-          "pendentes": 70,
+          "atendidos": 121,
+          "pendentes": 66,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40148,8 +40164,8 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 4,
-              "atendidosFora": 9,
+              "atendidosDentro": 3,
+              "atendidosFora": 10,
               "pendentes": 2,
               "chamados": [
                 {
@@ -40173,8 +40189,8 @@
                   "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA (FILIAL 02)",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": "2026-09-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83845,
@@ -40308,9 +40324,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 13,
+              "atendidosDentro": 14,
               "atendidosFora": 5,
-              "pendentes": 12,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 83512,
@@ -40325,8 +40341,8 @@
                   "cliente": "GT Oshiro Distribuidora de Hortifrutigranjeiros Ltda",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84015,
@@ -40980,9 +40996,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 33,
-              "atendidosFora": 13,
-              "pendentes": 26,
+              "atendidosDentro": 34,
+              "atendidosFora": 15,
+              "pendentes": 23,
               "chamados": [
                 {
                   "id": 83368,
@@ -41021,8 +41037,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83561,
@@ -41125,8 +41141,8 @@
                   "cliente": "CEOS EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83373,
@@ -41205,8 +41221,8 @@
                   "cliente": "TRYNOVA CONSULTORIA IMOBILIARIA LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83871,
