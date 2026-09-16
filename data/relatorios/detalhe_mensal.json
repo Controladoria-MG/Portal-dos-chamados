@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 17:42",
+  "atualizado_em": "16/09/2026 18:20",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19524,8 +19524,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 133,
-              "atendidosFora": 30,
+              "atendidosDentro": 130,
+              "atendidosFora": 33,
               "pendentes": 8,
               "chamados": [
                 {
@@ -19725,8 +19725,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83610,
@@ -20053,16 +20053,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": "2026-09-09",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83744,
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": "2026-09-09",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83745,
@@ -32352,7 +32352,7 @@
                   "cliente": "DFG COMERCIO IMPORTACAO, EXPORTACAO E REPRESENTACAO LTDA",
                   "dataCadastro": "2026-07-16",
                   "prazo": "2026-07-17",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-09-16",
                   "status": "atendido_fora"
                 },
                 {
@@ -39887,8 +39887,8 @@
         {
           "mes": "2026-09",
           "abertos": 187,
-          "atendidos": 121,
-          "pendentes": 66,
+          "atendidos": 123,
+          "pendentes": 64,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40092,8 +40092,8 @@
             },
             {
               "nome": "Arquivo",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -40101,8 +40101,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -40324,9 +40324,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 14,
+              "atendidosDentro": 15,
               "atendidosFora": 5,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83512,
@@ -40365,8 +40365,8 @@
                   "cliente": "OLANA ADMINISTRAÇÃO E PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84014,
@@ -40573,8 +40573,8 @@
             {
               "nome": "Levantamento de Débitos Anual",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84038,
@@ -40589,8 +40589,8 @@
                   "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 }
               ]
             },
