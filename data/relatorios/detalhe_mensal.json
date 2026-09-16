@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 10:24",
+  "atualizado_em": "16/09/2026 11:30",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19502,9 +19502,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 159,
+          "abertos": 163,
           "atendidos": 150,
-          "pendentes": 9,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19526,7 +19526,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 121,
               "atendidosFora": 28,
-              "pendentes": 9,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 83308,
@@ -20786,6 +20786,38 @@
                 },
                 {
                   "id": 84065,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84069,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84070,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84071,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84072,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
@@ -23473,8 +23505,8 @@
         {
           "mes": "2026-09",
           "abertos": 20,
-          "atendidos": 19,
-          "pendentes": 1,
+          "atendidos": 18,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -23494,9 +23526,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 4,
-              "atendidosFora": 5,
-              "pendentes": 0,
+              "atendidosDentro": 2,
+              "atendidosFora": 6,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83649,
@@ -23527,16 +23559,16 @@
                   "cliente": "REMARCA COMÉRCIO DE MAQUINAS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-02",
-                  "dataEntrega": "2026-09-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83532,
                   "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83788,
@@ -23646,8 +23678,8 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -23655,8 +23687,8 @@
                   "cliente": "Nilcap Renovadora de Pneus LTDA ",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -26285,9 +26317,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 39,
+          "abertos": 40,
           "atendidos": 30,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26349,7 +26381,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
               "atendidosFora": 4,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83655,
@@ -26382,6 +26414,14 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84073,
+                  "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83363,
@@ -33162,8 +33202,8 @@
         {
           "mes": "2026-09",
           "abertos": 147,
-          "atendidos": 36,
-          "pendentes": 111,
+          "atendidos": 37,
+          "pendentes": 110,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -34072,8 +34112,8 @@
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83763,
@@ -34088,8 +34128,8 @@
                   "cliente": "MERCEARIA SÃO GEORGE ALEXCAR LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -39775,8 +39815,8 @@
         {
           "mes": "2026-09",
           "abertos": 185,
-          "atendidos": 104,
-          "pendentes": 81,
+          "atendidos": 108,
+          "pendentes": 77,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40052,8 +40092,8 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 5,
-              "atendidosFora": 7,
+              "atendidosDentro": 4,
+              "atendidosFora": 8,
               "pendentes": 2,
               "chamados": [
                 {
@@ -40133,8 +40173,8 @@
                   "cliente": "LINHARES E FONTOURA CONSTRUCAO CIVIL LTDA ",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83767,
@@ -40204,9 +40244,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 12,
+              "atendidosDentro": 13,
               "atendidosFora": 5,
-              "pendentes": 13,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 83512,
@@ -40325,8 +40365,8 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 05)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84011,
@@ -40868,9 +40908,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 27,
-              "atendidosFora": 9,
-              "pendentes": 36,
+              "atendidosDentro": 28,
+              "atendidosFora": 11,
+              "pendentes": 33,
               "chamados": [
                 {
                   "id": 83368,
@@ -41213,8 +41253,8 @@
                   "cliente": "FFRA CONCRETOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83895,
@@ -41301,16 +41341,16 @@
                   "cliente": "ALDENIR VENANCIO DE OLIVEIRA LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83370,
                   "cliente": "GOMES SERVIÇOS - LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83903,
@@ -44423,15 +44463,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 26,
+          "abertos": 27,
           "atendidos": 4,
-          "pendentes": 22,
+          "pendentes": 23,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 18,
+              "pendentes": 19,
               "chamados": [
                 {
                   "id": 83310,
@@ -44606,6 +44646,14 @@
                   "cliente": "LAAN SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84068,
+                  "cliente": "TRANSLOG TRANSPORTES E LOGÍSTICA LTDA",
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
