@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 18:20",
+  "atualizado_em": "16/09/2026 18:46",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19502,9 +19502,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 172,
+          "abertos": 173,
           "atendidos": 164,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19526,7 +19526,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 130,
               "atendidosFora": 33,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83308,
@@ -20890,6 +20890,14 @@
                 },
                 {
                   "id": 84089,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84090,
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
@@ -26397,9 +26405,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 40,
+          "abertos": 41,
           "atendidos": 30,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26461,7 +26469,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
               "atendidosFora": 4,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83655,
@@ -26500,6 +26508,14 @@
                   "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84091,
+                  "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-18",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -36466,7 +36482,7 @@
                 },
                 {
                   "id": 82820,
-                  "cliente": "PEGPAN COMERCIO DE EMBALAGENS E PRODUTOS DE CONFEITARIA LTDA ",
+                  "cliente": "PEGPAN DISTRIBUIDORA DE EMBALAGENS E PRODUTOS DE CONFEITARIA LTDA",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-10",
