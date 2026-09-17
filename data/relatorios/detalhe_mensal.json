@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 18:46",
+  "atualizado_em": "17/09/2026 08:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -26405,9 +26405,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 41,
+          "abertos": 42,
           "atendidos": 30,
-          "pendentes": 11,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26469,7 +26469,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
               "atendidosFora": 4,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83655,
@@ -26514,6 +26514,14 @@
                 {
                   "id": 84091,
                   "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-09-16",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84092,
+                  "cliente": "RODOBLOC - ARTEFATOS DE CIMENTOS LTDA - ME",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-18",
                   "dataEntrega": null,
@@ -32538,14 +32546,14 @@
         {
           "mes": "2026-08",
           "abertos": 84,
-          "atendidos": 34,
-          "pendentes": 50,
+          "atendidos": 36,
+          "pendentes": 48,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
-              "atendidosFora": 5,
-              "pendentes": 22,
+              "atendidosFora": 7,
+              "pendentes": 20,
               "chamados": [
                 {
                   "id": 82144,
@@ -32680,8 +32688,8 @@
                   "cliente": "ALMEIDA & AMARAL COMERCIO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82482,
@@ -32744,8 +32752,8 @@
                   "cliente": "Catroque Mercadinho Ltda ",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82884,
@@ -33290,14 +33298,14 @@
         {
           "mes": "2026-09",
           "abertos": 147,
-          "atendidos": 37,
-          "pendentes": 110,
+          "atendidos": 52,
+          "pendentes": 95,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 13,
-              "atendidosFora": 0,
-              "pendentes": 99,
+              "atendidosFora": 14,
+              "pendentes": 85,
               "chamados": [
                 {
                   "id": 83321,
@@ -33336,32 +33344,32 @@
                   "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83348,
                   "cliente": "MANO´S COMÉRCIO DE DOCES LTDA (FILIAL 01)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83350,
                   "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83351,
                   "cliente": "MANOS MARKETING E PROPAGANDA LTDA ",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83352,
@@ -33624,8 +33632,8 @@
                   "cliente": "BOMBEIROS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANÇA LTDA",
                   "dataCadastro": "2026-09-01",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83409,
@@ -33768,8 +33776,8 @@
                   "cliente": "HIPER DOCES EMBU LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83435,
@@ -33784,8 +33792,8 @@
                   "cliente": "HIPER DOCES ITAPECERICA DA SERRA LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83437,
@@ -33856,8 +33864,8 @@
                   "cliente": "A Lareira Restaurante, Pães, Doces e Conveniencias Ltda",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83456,
@@ -33896,8 +33904,8 @@
                   "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83462,
@@ -33912,24 +33920,24 @@
                   "cliente": "COMBATEAINCENDIOS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANCA LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83468,
                   "cliente": "ATENDE NSA COMERCIO E DISTRIBUIÇÃO LTDA ",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83469,
                   "cliente": "EFICAZ GESTÃO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83470,
@@ -34048,8 +34056,8 @@
                   "cliente": "SUPERMERCADO CIAMDRIGHI LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83499,
@@ -34120,8 +34128,8 @@
                   "cliente": "Empório Catroque Ltda",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83527,
@@ -34471,9 +34479,9 @@
             },
             {
               "nome": "Solicitação do cliente",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83601,
@@ -34496,8 +34504,8 @@
                   "cliente": "PADARIA VILA NOVA CONCEICAO LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-17",
+                  "status": "atendido_dentro"
                 }
               ]
             },
