@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 13:54",
+  "atualizado_em": "17/09/2026 14:52",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 176,
+          "abertos": 178,
           "atendidos": 175,
-          "pendentes": 1,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 138,
               "atendidosFora": 36,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83308,
@@ -20797,7 +20797,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": "2026-09-16",
+                  "dataEntrega": "2026-09-17",
                   "status": "atendido_dentro"
                 },
                 {
@@ -20919,6 +20919,22 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-17",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84111,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-17",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84112,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-17",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -21243,9 +21259,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 5,
+          "abertos": 6,
           "atendidos": 5,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -21291,7 +21307,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83643,
@@ -21300,6 +21316,14 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-08",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84110,
+                  "cliente": "Guves Investimentos e Participações S.A.",
+                  "dataCadastro": "2026-09-17",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -33353,9 +33377,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 149,
+          "abertos": 150,
           "atendidos": 52,
-          "pendentes": 97,
+          "pendentes": 98,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -34297,7 +34321,7 @@
               "nome": "Certificado",
               "atendidosDentro": 8,
               "atendidosFora": 11,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83336,
@@ -34514,6 +34538,14 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 84109,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-17",
+                  "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -34536,7 +34568,7 @@
                   "cliente": "FILM FACIL LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-15",
+                  "dataEntrega": "2026-09-17",
                   "status": "atendido_fora"
                 },
                 {
@@ -35221,7 +35253,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-09-15",
+                  "dataEntrega": "2026-09-17",
                   "status": "atendido_fora"
                 },
                 {
@@ -36881,14 +36913,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 83212,
-                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 83213,
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-28",
@@ -36913,6 +36937,30 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 83117,
+                  "cliente": "AUTO CENTER EMBRASIL LTDA",
+                  "dataCadastro": "2026-08-27",
+                  "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83212,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83115,
+                  "cliente": "KADOSH DISTRIBUIDOR COMERCIO E SERVICO DIGITAL LTDA",
+                  "dataCadastro": "2026-08-27",
+                  "prazo": "2026-08-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83116,
                   "cliente": "YURI CESTARI DA SILVA EMBREAGENS OSASCO",
                   "dataCadastro": "2026-08-27",
@@ -36921,8 +36969,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 83117,
-                  "cliente": "AUTO CENTER EMBRASIL LTDA",
+                  "id": 83112,
+                  "cliente": "EMBRASIL COMERCIO DE AUTO PECAS LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
                   "dataEntrega": null,
@@ -36935,14 +36983,6 @@
                   "prazo": "2026-08-28",
                   "dataEntrega": "2026-09-08",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 83115,
-                  "cliente": "KADOSH DISTRIBUIDOR COMERCIO E SERVICO DIGITAL LTDA",
-                  "dataCadastro": "2026-08-27",
-                  "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 82905,
@@ -36959,14 +36999,6 @@
                   "prazo": "2026-08-25",
                   "dataEntrega": "2026-09-16",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 83112,
-                  "cliente": "EMBRASIL COMERCIO DE AUTO PECAS LTDA",
-                  "dataCadastro": "2026-08-27",
-                  "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 82755,
@@ -39982,9 +40014,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 189,
+          "abertos": 191,
           "atendidos": 124,
-          "pendentes": 65,
+          "pendentes": 67,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40436,9 +40468,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 14,
+              "atendidosDentro": 13,
               "atendidosFora": 6,
-              "pendentes": 10,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 83512,
@@ -40605,8 +40637,8 @@
                   "cliente": "CORA SERVIÇOS EMPRESARIAIS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": "2026-09-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83775,
@@ -40637,6 +40669,14 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 06)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84108,
+                  "cliente": "LP GESTAO EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-09-17",
+                  "prazo": "2026-09-18",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -40982,7 +41022,7 @@
               "nome": "Regularização",
               "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83924,
@@ -41055,6 +41095,14 @@
                   "prazo": "2026-09-14",
                   "dataEntrega": "2026-09-14",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84107,
+                  "cliente": "TODOS ADMINISTRADORA DE CARTAO DE DESCONTOS BOTUCATU LTDA",
+                  "dataCadastro": "2026-09-17",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -41117,8 +41165,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 27,
-              "atendidosFora": 22,
-              "pendentes": 23,
+              "atendidosFora": 23,
+              "pendentes": 22,
               "chamados": [
                 {
                   "id": 83368,
@@ -41189,8 +41237,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-17",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83673,
