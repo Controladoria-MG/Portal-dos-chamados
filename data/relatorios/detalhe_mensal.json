@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 12:41",
+  "atualizado_em": "18/09/2026 13:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19495,8 +19495,8 @@
         {
           "mes": "2026-09",
           "abertos": 186,
-          "atendidos": 184,
-          "pendentes": 2,
+          "atendidos": 185,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 139,
+              "atendidosDentro": 140,
               "atendidosFora": 44,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83308,
@@ -20997,8 +20997,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-18",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -40150,16 +40150,24 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 206,
-          "atendidos": 135,
-          "pendentes": 71,
+          "abertos": 207,
+          "atendidos": 137,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
+                {
+                  "id": 84156,
+                  "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83929,
                   "cliente": "FERROS COMÉRCIO DE DOCES E DERIVADOS LTDA (MATRIZ)",
@@ -41332,9 +41340,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 23,
+              "atendidosDentro": 25,
               "atendidosFora": 28,
-              "pendentes": 32,
+              "pendentes": 30,
               "chamados": [
                 {
                   "id": 83368,
@@ -41493,16 +41501,16 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F19)",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-18",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84119,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 21)",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-18",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83691,
