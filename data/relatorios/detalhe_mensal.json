@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 16:48",
+  "atualizado_em": "18/09/2026 17:13",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,8 +19494,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 192,
-          "atendidos": 190,
+          "abertos": 193,
+          "atendidos": 191,
           "pendentes": 2,
           "categorias": [
             {
@@ -19516,7 +19516,7 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 145,
+              "atendidosDentro": 146,
               "atendidosFora": 44,
               "pendentes": 2,
               "chamados": [
@@ -21042,6 +21042,14 @@
                 },
                 {
                   "id": 84169,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": "2026-09-18",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84172,
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
@@ -26621,9 +26629,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 44,
+          "abertos": 45,
           "atendidos": 40,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26685,7 +26693,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 10,
               "atendidosFora": 9,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83655,
@@ -26836,6 +26844,14 @@
                   "cliente": "EMPÓRIO SOLERA LTDA ",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-18",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84170,
+                  "cliente": "DISTRIBUIDORA FERRAZ GUERRA LTDA",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -29823,9 +29839,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 21,
+          "abertos": 22,
           "atendidos": 8,
-          "pendentes": 13,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -29895,7 +29911,7 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83817,
@@ -29904,6 +29920,14 @@
                   "prazo": "2026-09-14",
                   "dataEntrega": "2026-09-15",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84171,
+                  "cliente": "CAF LOG TRANSPORTES RODOVIARIOS E ARMAZENS LTDA",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83427,
@@ -32194,8 +32218,8 @@
         {
           "mes": "2026-06",
           "abertos": 43,
-          "atendidos": 28,
-          "pendentes": 15,
+          "atendidos": 29,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -32608,8 +32632,8 @@
             {
               "nome": "Solicitação sem retorno",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 79888,
@@ -32632,8 +32656,8 @@
                   "cliente": "Supermercado Kanashiro Ltda",
                   "dataCadastro": "2026-06-11",
                   "prazo": "2026-06-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-18",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -40239,8 +40263,8 @@
         {
           "mes": "2026-09",
           "abertos": 209,
-          "atendidos": 137,
-          "pendentes": 72,
+          "atendidos": 139,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41076,9 +41100,9 @@
             },
             {
               "nome": "Parcelamento PGFN",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83709,
@@ -41125,8 +41149,8 @@
                   "cliente": "ACJ COMERCIO DE EMBALAGENS LTDA",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-18",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -41436,9 +41460,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 25,
+              "atendidosDentro": 26,
               "atendidosFora": 28,
-              "pendentes": 31,
+              "pendentes": 30,
               "chamados": [
                 {
                   "id": 83368,
@@ -41637,8 +41661,8 @@
                   "cliente": "Cucinare Pro Alimentação (FL 41)",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-18",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84128,
