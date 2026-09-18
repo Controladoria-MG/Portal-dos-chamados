@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 13:42",
+  "atualizado_em": "18/09/2026 14:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21323,9 +21323,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 6,
+          "abertos": 8,
           "atendidos": 6,
-          "pendentes": 0,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -21368,6 +21368,22 @@
               ]
             },
             {
+              "nome": "DCTFWeb",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84157,
+                  "cliente": "GACAMA PARTICIPAÇÕES LTDA",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Documentação Contábil",
               "atendidosDentro": 2,
               "atendidosFora": 0,
@@ -21388,6 +21404,22 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-18",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84158,
+                  "cliente": "SAVYS EMPREENDIMENTOS E PARTICIPAÇÕES S.A",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
