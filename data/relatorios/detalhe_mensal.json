@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 14:44",
+  "atualizado_em": "18/09/2026 15:45",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 186,
-          "atendidos": 185,
-          "pendentes": 1,
+          "abertos": 189,
+          "atendidos": 186,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 140,
+              "atendidosDentro": 141,
               "atendidosFora": 44,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83308,
@@ -20949,7 +20949,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-18",
-                  "dataEntrega": "2026-09-17",
+                  "dataEntrega": "2026-09-18",
                   "status": "atendido_dentro"
                 },
                 {
@@ -20999,6 +20999,30 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-18",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84159,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": "2026-09-18",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84162,
+                  "cliente": "CHAMPIGNON SISTEMA DE ENSINO LTDA",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84165,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -21323,9 +21347,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 6,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -21411,8 +21435,16 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84164,
+                  "cliente": "Asmj Investimentos e Participações S.A.",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84158,
                   "cliente": "SAVYS EMPREENDIMENTOS E PARTICIPAÇÕES S.A",
@@ -40182,9 +40214,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 207,
+          "abertos": 209,
           "atendidos": 137,
-          "pendentes": 70,
+          "pendentes": 72,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40382,7 +40414,7 @@
               "nome": "Alteração de Contabilista",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83658,
@@ -40391,6 +40423,14 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84163,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -41374,7 +41414,7 @@
               "nome": "Senha",
               "atendidosDentro": 25,
               "atendidosFora": 28,
-              "pendentes": 30,
+              "pendentes": 31,
               "chamados": [
                 {
                   "id": 83368,
@@ -41559,6 +41599,14 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84161,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 24)",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84125,
@@ -45063,15 +45111,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 28,
+          "abertos": 29,
           "atendidos": 4,
-          "pendentes": 24,
+          "pendentes": 25,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 20,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 83310,
@@ -45262,6 +45310,14 @@
                   "cliente": "WCS APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84167,
+                  "cliente": "TRANSLOG TRANSPORTES E LOGÍSTICA LTDA",
+                  "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
