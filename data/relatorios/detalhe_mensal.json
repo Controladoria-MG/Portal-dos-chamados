@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/09/2026 14:45",
+  "atualizado_em": "21/09/2026 15:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -26856,6 +26856,14 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 84221,
+                  "cliente": "Jolão Materiais para Construção Ltda. - ME",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84064,
                   "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
                   "dataCadastro": "2026-09-16",
@@ -26918,14 +26926,6 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-21",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 84170,
-                  "cliente": "DISTRIBUIDORA FERRAZ GUERRA LTDA",
-                  "dataCadastro": "2026-09-18",
-                  "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 83983,
@@ -29912,8 +29912,8 @@
         {
           "mes": "2026-09",
           "abertos": 24,
-          "atendidos": 8,
-          "pendentes": 16,
+          "atendidos": 15,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -29965,25 +29965,25 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83734,
                   "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Omissão de Obrigações Acessórias",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83817,
@@ -29998,8 +29998,8 @@
                   "cliente": "CAF LOG TRANSPORTES RODOVIARIOS E ARMAZENS LTDA",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83427,
@@ -30021,33 +30021,33 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84132,
                   "cliente": "Garbatella Administração de Bens S.A.",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84179,
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83762,
@@ -30070,8 +30070,8 @@
                   "cliente": "Nilcap Renovadora de Pneus LTDA ",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83815,
@@ -30094,8 +30094,8 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84046,
@@ -30118,8 +30118,8 @@
                   "cliente": "NOVAIS IT SOLUCOES TECNOLOGICAS LTDA",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83724,
@@ -30165,17 +30165,17 @@
             },
             {
               "nome": "Termos de Intimação",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84178,
                   "cliente": "I2 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA.",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -31773,8 +31773,8 @@
         {
           "mes": "2026-09",
           "abertos": 12,
-          "atendidos": 4,
-          "pendentes": 8,
+          "atendidos": 5,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -31843,8 +31843,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84055,
@@ -31859,8 +31859,8 @@
                   "cliente": "CL COMERCIO VAREJISTA E ROTISSERIE LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -37773,7 +37773,7 @@
                   "cliente": "TEC GRUA LOCAÇÃO E COMERCIO DE EQUIPAMENTOS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-16",
+                  "dataEntrega": "2026-09-21",
                   "status": "atendido_fora"
                 }
               ]
@@ -40375,8 +40375,8 @@
         {
           "mes": "2026-09",
           "abertos": 216,
-          "atendidos": 150,
-          "pendentes": 66,
+          "atendidos": 151,
+          "pendentes": 65,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41548,9 +41548,9 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83823,
@@ -41573,8 +41573,8 @@
                   "cliente": "PALLADY PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84074,
