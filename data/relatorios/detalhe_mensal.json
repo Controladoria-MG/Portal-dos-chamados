@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/09/2026 09:45",
+  "atualizado_em": "21/09/2026 10:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19495,8 +19495,8 @@
         {
           "mes": "2026-09",
           "abertos": 199,
-          "atendidos": 192,
-          "pendentes": 7,
+          "atendidos": 196,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 145,
-              "atendidosFora": 46,
-              "pendentes": 7,
+              "atendidosDentro": 146,
+              "atendidosFora": 49,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83308,
@@ -20645,8 +20645,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84030,
@@ -20661,16 +20661,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84032,
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84035,
@@ -21077,32 +21077,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84183,
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84185,
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84187,
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -33705,15 +33705,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 152,
+          "abertos": 153,
           "atendidos": 52,
-          "pendentes": 100,
+          "pendentes": 101,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 13,
               "atendidosFora": 13,
-              "pendentes": 87,
+              "pendentes": 88,
               "chamados": [
                 {
                   "id": 83321,
@@ -34616,6 +34616,14 @@
                   "cliente": "SUPERMERCADO BEMBOM EIRELI",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84198,
+                  "cliente": "FILM FACIL LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -40335,8 +40343,8 @@
         {
           "mes": "2026-09",
           "abertos": 213,
-          "atendidos": 143,
-          "pendentes": 70,
+          "atendidos": 144,
+          "pendentes": 69,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41260,9 +41268,9 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83530,
@@ -41293,8 +41301,8 @@
                   "cliente": "PS3 INSTALACOES E MONTAGENS LTDA ",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83424,
@@ -42507,9 +42515,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 14,
+          "abertos": 15,
           "atendidos": 4,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -42634,6 +42642,22 @@
                   "cliente": "Mercado Romano Ltda. ",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84195,
+                  "cliente": "LAB BELL APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -43149,21 +43173,37 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 3,
+          "abertos": 5,
           "atendidos": 0,
-          "pendentes": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83506,
                   "cliente": "CRIS MAR MERCADO LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84196,
+                  "cliente": "LAB BELL APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84197,
+                  "cliente": "CF CARE MATERIAL HOSPITALAR LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -43314,15 +43354,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 4,
+          "abertos": 6,
           "atendidos": 0,
-          "pendentes": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83406,
@@ -43353,6 +43393,22 @@
                   "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84192,
+                  "cliente": "EMBRATEC ENVASO LTDA ",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84193,
+                  "cliente": "LAB LINE COMÉRCIO DE COSMÉTICOS LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45263,9 +45319,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 29,
+          "abertos": 30,
           "atendidos": 4,
-          "pendentes": 25,
+          "pendentes": 26,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -45479,13 +45535,21 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83569,
                   "cliente": "PRODUTOS CIRÚRGICO SERRA DA ESTRELA LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84194,
+                  "cliente": "LAB LINE COMÉRCIO DE COSMÉTICOS LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
