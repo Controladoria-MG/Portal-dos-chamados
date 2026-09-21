@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/09/2026 08:50",
+  "atualizado_em": "21/09/2026 09:21",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17124,8 +17124,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 169,
-              "atendidosFora": 126,
+              "atendidosDentro": 168,
+              "atendidosFora": 127,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19021,8 +19021,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-08-25",
-                  "dataEntrega": "2026-08-25",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82967,
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 195,
+          "abertos": 196,
           "atendidos": 192,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 147,
-              "atendidosFora": 44,
-              "pendentes": 3,
+              "atendidosDentro": 146,
+              "atendidosFora": 45,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -20085,8 +20085,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": "2026-09-09",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83750,
@@ -21068,6 +21068,14 @@
                   "id": 84174,
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
+                  "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84182,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-21",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -29855,9 +29863,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 22,
+          "abertos": 24,
           "atendidos": 8,
-          "pendentes": 14,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -29967,13 +29975,21 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84132,
                   "cliente": "Garbatella Administração de Bens S.A.",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84179,
+                  "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -30094,6 +30110,22 @@
                   "cliente": "HEAD INFORMATICA MULTIMARCAS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Termos de Intimação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84178,
+                  "cliente": "I2 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA.",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -40278,9 +40310,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 211,
-          "atendidos": 139,
-          "pendentes": 72,
+          "abertos": 212,
+          "atendidos": 141,
+          "pendentes": 71,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40382,13 +40414,21 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83516,
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84181,
+                  "cliente": "CHAVEIRO MULTIPLIC LTDA ",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -40773,8 +40813,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 10,
-              "atendidosFora": 17,
-              "pendentes": 4,
+              "atendidosFora": 19,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83512,
@@ -40973,16 +41013,16 @@
                   "cliente": "CORA SERVIÇOS EMPRESARIAIS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84108,
                   "cliente": "LP GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83800,
