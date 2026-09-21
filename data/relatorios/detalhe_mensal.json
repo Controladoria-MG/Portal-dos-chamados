@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/09/2026 11:44",
+  "atualizado_em": "21/09/2026 12:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 200,
+          "abertos": 201,
           "atendidos": 199,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 149,
               "atendidosFora": 49,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83308,
@@ -21111,6 +21111,14 @@
                   "prazo": "2026-09-22",
                   "dataEntrega": "2026-09-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84209,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -31756,9 +31764,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 11,
+          "abertos": 12,
           "atendidos": 5,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -31803,6 +31811,22 @@
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Certificado",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83945,
+                  "cliente": "MARIA CECILIA SANTOS COSTA CELANI HIPOLITO DO CARMO",
+                  "dataCadastro": "2026-09-14",
+                  "prazo": "2026-09-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -33713,9 +33737,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 154,
+          "abertos": 153,
           "atendidos": 52,
-          "pendentes": 102,
+          "pendentes": 101,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -34689,7 +34713,7 @@
               "nome": "Certificado",
               "atendidosDentro": 9,
               "atendidosFora": 11,
-              "pendentes": 9,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83336,
@@ -34880,14 +34904,6 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83945,
-                  "cliente": "MARIA CECILIA SANTOS COSTA CELANI HIPOLITO DO CARMO",
-                  "dataCadastro": "2026-09-14",
-                  "prazo": "2026-09-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -40359,8 +40375,8 @@
         {
           "mes": "2026-09",
           "abertos": 215,
-          "atendidos": 144,
-          "pendentes": 71,
+          "atendidos": 147,
+          "pendentes": 68,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40461,8 +40477,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 11,
+              "atendidosFora": 3,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83702,
@@ -40477,8 +40493,8 @@
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84181,
@@ -40493,8 +40509,8 @@
                   "cliente": "Catroque Mercadinho Ltda ",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84201,
@@ -40572,9 +40588,9 @@
             },
             {
               "nome": "Alteração de Contabilista",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83658,
@@ -40589,8 +40605,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
