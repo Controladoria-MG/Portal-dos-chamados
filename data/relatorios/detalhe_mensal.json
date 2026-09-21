@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/09/2026 12:44",
+  "atualizado_em": "21/09/2026 13:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19495,8 +19495,8 @@
         {
           "mes": "2026-09",
           "abertos": 201,
-          "atendidos": 199,
-          "pendentes": 2,
+          "atendidos": 200,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 149,
+              "atendidosDentro": 150,
               "atendidosFora": 49,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83308,
@@ -21117,8 +21117,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -40374,9 +40374,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 215,
-          "atendidos": 147,
-          "pendentes": 68,
+          "abertos": 216,
+          "atendidos": 149,
+          "pendentes": 67,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40477,7 +40477,7 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
+              "atendidosFora": 4,
               "pendentes": 9,
               "chamados": [
                 {
@@ -40577,12 +40577,20 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 84210,
+                  "cliente": "MERCADO VIOLETA LTDA (FILIAL 11)",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83447,
                   "cliente": "NOVA BOSTON GRILL RESTAURANTE LTDA (FILIAL 1)",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -40709,8 +40717,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 4,
-              "atendidosFora": 11,
-              "pendentes": 2,
+              "atendidosFora": 12,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83708,
@@ -40765,8 +40773,8 @@
                   "cliente": "J K PANE PANIFICAÇÃO E CONFEITARIA LTDA",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84133,
@@ -43237,15 +43245,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 6,
+          "abertos": 9,
           "atendidos": 0,
-          "pendentes": 6,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83506,
@@ -43268,6 +43276,22 @@
                   "cliente": "CF CARE MATERIAL HOSPITALAR LTDA (FILIAL 3)",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84211,
+                  "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA ",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84212,
+                  "cliente": "ACF SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -43293,7 +43317,7 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83779,
@@ -43308,6 +43332,14 @@
                   "cliente": "EQUIPLEVE COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84215,
+                  "cliente": "EQUIPLEVE COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45407,9 +45439,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 31,
+          "abertos": 32,
           "atendidos": 4,
-          "pendentes": 27,
+          "pendentes": 28,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -45623,7 +45655,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83569,
@@ -45638,6 +45670,14 @@
                   "cliente": "LAB LINE COMÉRCIO DE COSMÉTICOS LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84213,
+                  "cliente": "RESTAURANTE ROMANELLA GRILL SANTA CRUZ DA SERRA LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
