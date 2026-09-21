@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/09/2026 16:44",
+  "atualizado_em": "21/09/2026 17:43",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 203,
-          "atendidos": 201,
-          "pendentes": 2,
+          "abertos": 205,
+          "atendidos": 204,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 148,
+              "atendidosDentro": 151,
               "atendidosFora": 52,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83308,
@@ -21133,8 +21133,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84231,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84234,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -21460,8 +21476,8 @@
         {
           "mes": "2026-09",
           "abertos": 9,
-          "atendidos": 6,
-          "pendentes": 3,
+          "atendidos": 9,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -21505,17 +21521,17 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84157,
                   "cliente": "GACAMA PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -21545,25 +21561,25 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84164,
                   "cliente": "Asmj Investimentos e Participações S.A.",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84158,
                   "cliente": "SAVYS EMPREENDIMENTOS E PARTICIPAÇÕES S.A",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -29951,9 +29967,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 23,
+          "abertos": 22,
           "atendidos": 18,
-          "pendentes": 5,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -30167,7 +30183,7 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83639,
@@ -30184,14 +30200,6 @@
                   "prazo": "2026-09-16",
                   "dataEntrega": "2026-09-21",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 83677,
-                  "cliente": "HEAD INFORMATICA MULTIMARCAS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-09-08",
-                  "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -33785,9 +33793,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 154,
+          "abertos": 155,
           "atendidos": 52,
-          "pendentes": 102,
+          "pendentes": 103,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -35032,6 +35040,22 @@
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Saldo Credor Incorreto",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83677,
+                  "cliente": "HEAD INFORMATICA MULTIMARCAS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-08",
+                  "prazo": "2026-09-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -40438,9 +40462,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 218,
-          "atendidos": 151,
-          "pendentes": 67,
+          "abertos": 219,
+          "atendidos": 153,
+          "pendentes": 66,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40740,9 +40764,9 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84022,
@@ -40757,8 +40781,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83524,
@@ -41708,7 +41732,7 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 25,
+              "atendidosDentro": 26,
               "atendidosFora": 29,
               "pendentes": 31,
               "chamados": [
@@ -41993,6 +42017,14 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 84233,
+                  "cliente": "Naoloc Participações  S.A",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84121,
                   "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 102)",
                   "dataCadastro": "2026-09-17",
@@ -42173,8 +42205,8 @@
                   "cliente": "SUPER DIJAN COMERCIAL LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83897,
@@ -42968,9 +43000,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 0,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -43007,6 +43039,22 @@
                   "cliente": "ACE FRUIT COMERCIO DE ALIMENTOS LTDA - ME",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Retificação de Obrigação Acessória",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84232,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
