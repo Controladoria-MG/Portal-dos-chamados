@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/09/2026 12:31",
+  "atualizado_em": "22/09/2026 13:32",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -40815,8 +40815,8 @@
         {
           "mes": "2026-09",
           "abertos": 223,
-          "atendidos": 164,
-          "pendentes": 59,
+          "atendidos": 165,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42109,8 +42109,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 28,
-              "atendidosFora": 37,
-              "pendentes": 22,
+              "atendidosFora": 38,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 83368,
@@ -42309,8 +42309,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 24)",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84125,
