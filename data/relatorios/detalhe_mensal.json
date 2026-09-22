@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/09/2026 17:43",
+  "atualizado_em": "22/09/2026 08:25",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 205,
-          "atendidos": 204,
-          "pendentes": 1,
+          "abertos": 208,
+          "atendidos": 206,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 151,
+              "atendidosDentro": 153,
               "atendidosFora": 52,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83308,
@@ -21151,6 +21151,30 @@
                   "prazo": "2026-09-22",
                   "dataEntrega": "2026-09-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84236,
+                  "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84237,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84239,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -27939,8 +27963,8 @@
         {
           "mes": "2026-09",
           "abertos": 14,
-          "atendidos": 2,
-          "pendentes": 12,
+          "atendidos": 4,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Cadastro",
@@ -27985,8 +28009,8 @@
             {
               "nome": "Documentação",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83676,
@@ -28009,8 +28033,8 @@
                   "cliente": "JMS CADEIRAS LTDA",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83622,
@@ -28072,17 +28096,17 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84224,
                   "cliente": "P L REPRESENTAÇÕES E CONSULTORIA DE VENDAS S.A.",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -40462,9 +40486,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 219,
+          "abertos": 220,
           "atendidos": 153,
-          "pendentes": 66,
+          "pendentes": 67,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41734,7 +41758,7 @@
               "nome": "Senha",
               "atendidosDentro": 26,
               "atendidosFora": 29,
-              "pendentes": 31,
+              "pendentes": 32,
               "chamados": [
                 {
                   "id": 83368,
@@ -41967,6 +41991,14 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-03",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84240,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83920,
@@ -45607,15 +45639,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 33,
+          "abertos": 34,
           "atendidos": 6,
-          "pendentes": 27,
+          "pendentes": 28,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 20,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 83310,
@@ -45814,6 +45846,14 @@
                   "cliente": "TRANSLOG TRANSPORTES E LOGÍSTICA LTDA",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84238,
+                  "cliente": "LANCHONETE CAMACHA LTDA",
+                  "dataCadastro": "2026-09-21",
+                  "prazo": "2026-10-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
