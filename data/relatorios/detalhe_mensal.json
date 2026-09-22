@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/09/2026 14:32",
+  "atualizado_em": "22/09/2026 15:32",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 220,
-          "atendidos": 217,
-          "pendentes": 3,
+          "abertos": 221,
+          "atendidos": 220,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 163,
+              "atendidosDentro": 166,
               "atendidosFora": 53,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83308,
@@ -21261,16 +21261,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84301,
                   "cliente": "TRYNOVA CONSULTORIA IMOBILIARIA LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84302,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -32213,8 +32221,8 @@
         {
           "mes": "2026-09",
           "abertos": 13,
-          "atendidos": 6,
-          "pendentes": 7,
+          "atendidos": 7,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32299,16 +32307,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84055,
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83480,
@@ -40870,9 +40878,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 224,
-          "atendidos": 165,
-          "pendentes": 59,
+          "abertos": 225,
+          "atendidos": 167,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41221,8 +41229,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 4,
-              "atendidosFora": 12,
-              "pendentes": 1,
+              "atendidosFora": 13,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83706,
@@ -41277,8 +41285,8 @@
                   "cliente": "PROGRESSO ADMINISTRADORA DE BENS PROPRIOS LTDA",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83551,
@@ -42181,7 +42189,7 @@
             {
               "nome": "Senha",
               "atendidosDentro": 28,
-              "atendidosFora": 38,
+              "atendidosFora": 39,
               "pendentes": 21,
               "chamados": [
                 {
@@ -42311,6 +42319,14 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-10",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84303,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84233,
@@ -42717,8 +42733,8 @@
                   "cliente": " SUPERMERCADOS BANDEIRA LTDA.",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83902,
