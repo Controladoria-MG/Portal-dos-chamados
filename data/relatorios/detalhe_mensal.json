@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/09/2026 09:32",
+  "atualizado_em": "22/09/2026 10:32",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 210,
-          "atendidos": 207,
-          "pendentes": 3,
+          "abertos": 212,
+          "atendidos": 210,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 154,
-              "atendidosFora": 52,
-              "pendentes": 3,
+              "atendidosDentro": 156,
+              "atendidosFora": 53,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83308,
@@ -20077,8 +20077,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": "2026-09-09",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83749,
@@ -21181,11 +21181,27 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84243,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84247,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84251,
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
@@ -21515,9 +21531,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 9,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -21603,7 +21619,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84164,
@@ -21620,6 +21636,14 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84245,
+                  "cliente": "P L REPRESENTAÇÕES E CONSULTORIA DE VENDAS S.A.",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -23920,9 +23944,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 19,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -24120,8 +24144,16 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 84246,
+                  "cliente": "DON MARCHÊ SERVIÇOS DE ALIMENTAÇÃO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83531,
                   "cliente": "Nilcap Renovadora de Pneus LTDA ",
@@ -26765,9 +26797,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 46,
+          "abertos": 47,
           "atendidos": 42,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26829,7 +26861,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 10,
               "atendidosFora": 11,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83655,
@@ -27006,6 +27038,14 @@
                   "prazo": "2026-09-11",
                   "dataEntrega": "2026-09-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84250,
+                  "cliente": "VARANDA FRUTAS E MERCEARIA LTDA (FILIAL 6)",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -36943,8 +36983,8 @@
         {
           "mes": "2026-08",
           "abertos": 415,
-          "atendidos": 369,
-          "pendentes": 46,
+          "atendidos": 374,
+          "pendentes": 41,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -37405,16 +37445,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 8,
-              "pendentes": 13,
+              "atendidosFora": 13,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83218,
                   "cliente": "CR LOCACAO E VENDAS DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83205,
@@ -37429,16 +37469,16 @@
                   "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83215,
                   "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83117,
@@ -37453,8 +37493,8 @@
                   "cliente": "KADOSH DISTRIBUIDOR COMERCIO E SERVICO DIGITAL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83116,
@@ -37485,8 +37525,8 @@
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82928,
@@ -40511,8 +40551,8 @@
         {
           "mes": "2026-09",
           "abertos": 221,
-          "atendidos": 156,
-          "pendentes": 65,
+          "atendidos": 158,
+          "pendentes": 63,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41789,8 +41829,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 26,
-              "atendidosFora": 31,
-              "pendentes": 30,
+              "atendidosFora": 33,
+              "pendentes": 28,
               "chamados": [
                 {
                   "id": 83368,
@@ -42365,8 +42405,8 @@
                   "cliente": "VANLOG SERVICOS DE EMBALAGEM E GALPAO LOGISTICO LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83904,
@@ -42485,8 +42525,8 @@
                   "cliente": "GRANUA AGROINDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -45203,7 +45243,7 @@
                 },
                 {
                   "id": 82618,
-                  "cliente": "LABORATORIO BLESSING ANALISES CLINICAS E ANATOMIA PATOLOGICA LTDA (FILIAL 22)",
+                  "cliente": "LABORATORIO BLESSING ANALISES CLINICAS E ANATOMIA PATOLOGICA LTDA (FILIAL 23)",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
                   "dataEntrega": "2026-08-19",
