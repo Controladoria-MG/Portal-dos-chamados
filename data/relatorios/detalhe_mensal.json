@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/09/2026 10:32",
+  "atualizado_em": "22/09/2026 11:32",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,8 +19494,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 212,
-          "atendidos": 210,
+          "abertos": 215,
+          "atendidos": 213,
           "pendentes": 2,
           "categorias": [
             {
@@ -19516,7 +19516,7 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 156,
+              "atendidosDentro": 159,
               "atendidosFora": 53,
               "pendentes": 2,
               "chamados": [
@@ -21202,6 +21202,30 @@
                 },
                 {
                   "id": 84251,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84253,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84256,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-22",
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84261,
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
@@ -26196,7 +26220,7 @@
                   "cliente": "ÁGUA LIMPA DISTRIBUIDORA DE HORTIFRUTI, ALIMENTOS E SERVIÇOS DE TRANSPORTES LTDA.",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-09",
+                  "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -26797,9 +26821,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 47,
+          "abertos": 50,
           "atendidos": 42,
-          "pendentes": 5,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26828,7 +26852,7 @@
                   "cliente": "POPPY SUPERMERCADO LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-11",
+                  "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -26861,7 +26885,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 10,
               "atendidosFora": 11,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83655,
@@ -26972,7 +26996,7 @@
                   "cliente": "M.S. KURODA & CIA LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -26988,7 +27012,7 @@
                   "cliente": "ÁGUA LIMPA DISTRIBUIDORA DE HORTIFRUTI, ALIMENTOS E SERVIÇOS DE TRANSPORTES LTDA.",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -26996,7 +27020,7 @@
                   "cliente": "VIT FRUT DISTRIBUIDORA DE FRUTAS LTDA.",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -27004,7 +27028,7 @@
                   "cliente": "TAV FRUT DISTRIBUIDORA DE FRUTAS EIRELI",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -27030,6 +27054,14 @@
                   "prazo": "2026-09-16",
                   "dataEntrega": "2026-09-18",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84252,
+                  "cliente": "Caete Comunicacao Visual LTDA",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83798,
@@ -27237,8 +27269,24 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 84262,
+                  "cliente": "COSTA & SILVA MATERIAIS DE CONSTRUÇÃO, ELÉTRICO E HIDRÁULICO LTDA",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84263,
+                  "cliente": "COSTA & SILVA MATERIAIS DE CONSTRUÇÃO, ELÉTRICO E HIDRÁULICO LTDA",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84229,
                   "cliente": "CL COMERCIO VAREJISTA E ROTISSERIE LTDA",
@@ -30047,9 +30095,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 23,
+          "abertos": 27,
           "atendidos": 18,
-          "pendentes": 5,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -30159,7 +30207,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84132,
@@ -30168,6 +30216,38 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84257,
+                  "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84259,
+                  "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84260,
+                  "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84255,
+                  "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84179,
@@ -31900,15 +31980,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 13,
-          "atendidos": 5,
-          "pendentes": 8,
+          "abertos": 12,
+          "atendidos": 6,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 3,
+              "atendidosFora": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83723,
@@ -31947,8 +32027,8 @@
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -31996,7 +32076,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83816,
@@ -32005,14 +32085,6 @@
                   "prazo": "2026-09-11",
                   "dataEntrega": "2026-09-16",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 84223,
-                  "cliente": "Parafutrecos Comercial LTDA ",
-                  "dataCadastro": "2026-09-21",
-                  "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -40551,8 +40623,8 @@
         {
           "mes": "2026-09",
           "abertos": 221,
-          "atendidos": 158,
-          "pendentes": 63,
+          "atendidos": 161,
+          "pendentes": 60,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41829,8 +41901,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 26,
-              "atendidosFora": 33,
-              "pendentes": 28,
+              "atendidosFora": 36,
+              "pendentes": 25,
               "chamados": [
                 {
                   "id": 83368,
@@ -42157,24 +42229,24 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA  (FILIAL 104)",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84124,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA  (FILIAL 104)",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84126,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA  (FILIAL 105)",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83872,
@@ -42197,7 +42269,7 @@
                   "cliente": "MIRACOR GRAFICA LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-15",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
                 },
                 {
