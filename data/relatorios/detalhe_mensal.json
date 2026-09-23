@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/09/2026 16:41",
+  "atualizado_em": "23/09/2026 17:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24136,9 +24136,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 31,
+          "abertos": 32,
           "atendidos": 29,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24289,6 +24289,22 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-11",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Conciliação de Contas",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84396,
+                  "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27046,8 +27062,8 @@
         {
           "mes": "2026-09",
           "abertos": 56,
-          "atendidos": 45,
-          "pendentes": 11,
+          "atendidos": 46,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27571,17 +27587,17 @@
             },
             {
               "nome": "SPED",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84377,
                   "cliente": "ITALO BRASILEIRA AGRO COMERCIAL LTDA",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -30359,9 +30375,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 27,
+          "abertos": 25,
           "atendidos": 17,
-          "pendentes": 10,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30471,7 +30487,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84132,
@@ -30483,22 +30499,6 @@
                 },
                 {
                   "id": 84257,
-                  "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
-                  "dataCadastro": "2026-09-22",
-                  "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 84259,
-                  "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
-                  "dataCadastro": "2026-09-22",
-                  "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 84260,
                   "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
@@ -32244,9 +32244,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 5,
-          "pendentes": 11,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32411,6 +32411,22 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA  (MATRIZ)",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "SPED",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84394,
+                  "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-24",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -34257,9 +34273,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 158,
+          "abertos": 159,
           "atendidos": 53,
-          "pendentes": 105,
+          "pendentes": 106,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -35193,7 +35209,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83763,
@@ -35210,6 +35226,14 @@
                   "prazo": "2026-09-14",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84395,
+                  "cliente": "VARANDA FRUTAS E MERCEARIA LTDA ",
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -40959,8 +40983,8 @@
         {
           "mes": "2026-09",
           "abertos": 248,
-          "atendidos": 184,
-          "pendentes": 64,
+          "atendidos": 188,
+          "pendentes": 60,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42397,8 +42421,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 33,
-              "atendidosFora": 46,
-              "pendentes": 17,
+              "atendidosFora": 50,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 83368,
@@ -42877,8 +42901,8 @@
                   "cliente": "METALURGICA G3 LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83887,
@@ -43053,16 +43077,16 @@
                   "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83905,
                   "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83616,
@@ -43093,8 +43117,8 @@
                   "cliente": "BIANCA EMBREAGENS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83910,
