@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/09/2026 10:23",
+  "atualizado_em": "23/09/2026 10:40",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19495,8 +19495,8 @@
         {
           "mes": "2026-09",
           "abertos": 231,
-          "atendidos": 229,
-          "pendentes": 2,
+          "atendidos": 230,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19517,8 +19517,8 @@
             {
               "nome": "MG Controle",
               "atendidosDentro": 172,
-              "atendidosFora": 56,
-              "pendentes": 2,
+              "atendidosFora": 57,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83308,
@@ -20221,8 +20221,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83825,
@@ -21357,8 +21357,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -40887,8 +40887,8 @@
         {
           "mes": "2026-09",
           "abertos": 240,
-          "atendidos": 179,
-          "pendentes": 61,
+          "atendidos": 178,
+          "pendentes": 62,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41924,9 +41924,9 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 5,
+              "atendidosDentro": 4,
               "atendidosFora": 3,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83530,
@@ -41965,8 +41965,8 @@
                   "cliente": "PS3 INSTALACOES E MONTAGENS LTDA ",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": "2026-09-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83424,
