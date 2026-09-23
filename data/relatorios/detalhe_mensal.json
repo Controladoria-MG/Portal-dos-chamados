@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/09/2026 09:39",
+  "atualizado_em": "23/09/2026 10:23",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 228,
-          "atendidos": 227,
-          "pendentes": 1,
+          "abertos": 231,
+          "atendidos": 229,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 170,
+              "atendidosDentro": 172,
               "atendidosFora": 56,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83308,
@@ -21335,6 +21335,30 @@
                   "prazo": "2026-09-24",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84360,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84361,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84365,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -24080,9 +24104,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 29,
+          "abertos": 30,
           "atendidos": 23,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -24104,7 +24128,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 2,
               "atendidosFora": 8,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83649,
@@ -24169,6 +24193,14 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84364,
+                  "cliente": "GRAFICA TABOAO LTDA",
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83788,
@@ -26965,9 +26997,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 57,
+          "abertos": 56,
           "atendidos": 42,
-          "pendentes": 15,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27059,8 +27091,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 10,
-              "atendidosFora": 11,
+              "atendidosDentro": 9,
+              "atendidosFora": 12,
               "pendentes": 4,
               "chamados": [
                 {
@@ -27164,8 +27196,8 @@
                   "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": "2026-09-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84033,
@@ -27180,7 +27212,7 @@
                   "cliente": "VARANDA VILA OLÍMPIA MERCEARIA LTDA ",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": "2026-09-15",
+                  "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
                 },
                 {
@@ -27477,18 +27509,10 @@
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84262,
-                  "cliente": "COSTA & SILVA MATERIAIS DE CONSTRUÇÃO, ELÉTRICO E HIDRÁULICO LTDA",
-                  "dataCadastro": "2026-09-22",
-                  "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 84263,
                   "cliente": "COSTA & SILVA MATERIAIS DE CONSTRUÇÃO, ELÉTRICO E HIDRÁULICO LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
@@ -31789,8 +31813,8 @@
         {
           "mes": "2026-08",
           "abertos": 38,
-          "atendidos": 33,
-          "pendentes": 5,
+          "atendidos": 32,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31939,8 +31963,8 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 0,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83242,
@@ -31971,8 +31995,8 @@
                   "cliente": "SUPER DOCES MARINGA LTDA (FILIAL 6)",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-02",
-                  "dataEntrega": "2026-09-17",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32172,9 +32196,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 14,
+          "abertos": 15,
           "atendidos": 5,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32252,8 +32276,16 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 84363,
+                  "cliente": "EMPORIUM SAN GENNARO DO ABC EIRELI ",
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84055,
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
@@ -32299,7 +32331,7 @@
                   "cliente": "POPPY SUPERMERCADO LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-16",
+                  "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
                 }
               ]
@@ -35120,7 +35152,7 @@
                   "cliente": "MERCEARIA SÃO GEORGE ALEXCAR LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": "2026-09-16",
+                  "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
                 }
               ]
@@ -40854,8 +40886,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 239,
-          "atendidos": 178,
+          "abertos": 240,
+          "atendidos": 179,
           "pendentes": 61,
           "categorias": [
             {
@@ -41422,7 +41454,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 10,
               "atendidosFora": 19,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83512,
@@ -41447,6 +41479,14 @@
                   "prazo": "2026-09-17",
                   "dataEntrega": "2026-09-18",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84359,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84003,
@@ -42228,9 +42268,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 29,
+              "atendidosDentro": 30,
               "atendidosFora": 45,
-              "pendentes": 21,
+              "pendentes": 20,
               "chamados": [
                 {
                   "id": 83368,
@@ -42365,8 +42405,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84305,
