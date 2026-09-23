@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/09/2026 09:11",
+  "atualizado_em": "23/09/2026 09:39",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21705,8 +21705,8 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -21714,8 +21714,8 @@
                   "cliente": "GACAMA PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": "2026-09-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -21753,8 +21753,8 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 2,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 2,
               "pendentes": 1,
               "chamados": [
                 {
@@ -21762,16 +21762,16 @@
                   "cliente": "Asmj Investimentos e Participações S.A.",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": "2026-09-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84158,
                   "cliente": "SAVYS EMPREENDIMENTOS E PARTICIPAÇÕES S.A",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": "2026-09-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84245,
@@ -37287,22 +37287,22 @@
         {
           "mes": "2026-08",
           "abertos": 415,
-          "atendidos": 375,
-          "pendentes": 40,
+          "atendidos": 378,
+          "pendentes": 37,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 2,
-              "atendidosFora": 1,
-              "pendentes": 3,
+              "atendidosFora": 2,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 82182,
                   "cliente": "MERCADINHO KI PREÇO BAIXO LTDA",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83030,
@@ -37349,8 +37349,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 9,
-              "pendentes": 13,
+              "atendidosFora": 11,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 81838,
@@ -37397,8 +37397,8 @@
                   "cliente": "G. M. OMINE - QUITANDAO LTDA",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82452,
@@ -37429,8 +37429,8 @@
                   "cliente": "GT OSHIRO DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS LTDA",
                   "dataCadastro": "2026-08-18",
                   "prazo": "2026-09-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81730,
@@ -40854,8 +40854,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 238,
-          "atendidos": 177,
+          "abertos": 239,
+          "atendidos": 178,
           "pendentes": 61,
           "categorias": [
             {
@@ -42228,7 +42228,7 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 28,
+              "atendidosDentro": 29,
               "atendidosFora": 45,
               "pendentes": 21,
               "chamados": [
@@ -42417,6 +42417,14 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 84349,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83330,
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-09-01",
@@ -42525,8 +42533,8 @@
                   "cliente": "CUCINARE PRO ALIMENTACAO LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83803,
