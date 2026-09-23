@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/09/2026 15:42",
+  "atualizado_em": "23/09/2026 16:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 172,
-              "atendidosFora": 60,
+              "atendidosDentro": 171,
+              "atendidosFora": 61,
               "pendentes": 2,
               "chamados": [
                 {
@@ -20781,8 +20781,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": "2026-09-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84070,
@@ -21716,8 +21716,8 @@
         {
           "mes": "2026-09",
           "abertos": 11,
-          "atendidos": 9,
-          "pendentes": 2,
+          "atendidos": 10,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -21777,9 +21777,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83643,
@@ -21802,8 +21802,8 @@
                   "cliente": "ECKM ADMINISTRAÇÃO DE BENS PRÓPRIOS S.A",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -27046,8 +27046,8 @@
         {
           "mes": "2026-09",
           "abertos": 56,
-          "atendidos": 44,
-          "pendentes": 12,
+          "atendidos": 45,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27547,9 +27547,9 @@
             },
             {
               "nome": "Retificação de Obrigação Acessória",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84262,
@@ -27564,8 +27564,8 @@
                   "cliente": "CL COMERCIO VAREJISTA E ROTISSERIE LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -28354,9 +28354,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 13,
+          "abertos": 12,
           "atendidos": 3,
-          "pendentes": 10,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Cadastro",
@@ -28491,22 +28491,6 @@
                   "prazo": "2026-09-22",
                   "dataEntrega": "2026-09-22",
                   "status": "atendido_dentro"
-                }
-              ]
-            },
-            {
-              "nome": "Reunião externa",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 83761,
-                  "cliente": "MERCADINHO DAVILLA LTDA",
-                  "dataCadastro": "2026-09-09",
-                  "prazo": "2026-09-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             }
@@ -30376,8 +30360,8 @@
         {
           "mes": "2026-09",
           "abertos": 27,
-          "atendidos": 16,
-          "pendentes": 11,
+          "atendidos": 17,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30478,7 +30462,7 @@
                   "cliente": "INTEGRAÇÃO DE SERVIÇOS EDUCACIONAIS LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-17",
-                  "dataEntrega": "2026-09-21",
+                  "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
                 }
               ]
@@ -30590,8 +30574,8 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84046,
@@ -30614,8 +30598,8 @@
                   "cliente": "NOVAIS IT SOLUCOES TECNOLOGICAS LTDA",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83724,
@@ -34273,9 +34257,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 157,
+          "abertos": 158,
           "atendidos": 53,
-          "pendentes": 104,
+          "pendentes": 105,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -35536,6 +35520,22 @@
                   "cliente": "PABLO HENRIQUE CONINCK PACHECO LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Reunião externa",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83761,
+                  "cliente": "MERCADINHO DAVILLA LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -40958,8 +40958,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 247,
-          "atendidos": 183,
+          "abertos": 248,
+          "atendidos": 184,
           "pendentes": 64,
           "categorias": [
             {
@@ -41254,7 +41254,7 @@
               "nome": "Ata de Reunião de Sócios",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84148,
@@ -41271,14 +41271,6 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 84387,
-                  "cliente": "VYTADM Administração e Participação Ltda.",
-                  "dataCadastro": "2026-09-23",
-                  "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -42030,7 +42022,7 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 4,
               "atendidosFora": 4,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83530,
@@ -42079,6 +42071,14 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84393,
+                  "cliente": "CABO FRIO PEÇAS LTDA",
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83316,
@@ -42182,7 +42182,7 @@
               "nome": "Regularização",
               "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83526,
@@ -42229,6 +42229,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84392,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -42388,9 +42396,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 32,
+              "atendidosDentro": 33,
               "atendidosFora": 46,
-              "pendentes": 18,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 83368,
@@ -42565,8 +42573,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84348,
