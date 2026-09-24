@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/09/2026 09:09",
+  "atualizado_em": "24/09/2026 09:37",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 237,
+          "abertos": 238,
           "atendidos": 234,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 171,
               "atendidosFora": 62,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -21402,6 +21402,14 @@
                 },
                 {
                   "id": 84399,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84403,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
@@ -40999,8 +41007,8 @@
         {
           "mes": "2026-09",
           "abertos": 249,
-          "atendidos": 191,
-          "pendentes": 58,
+          "atendidos": 192,
+          "pendentes": 57,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42444,9 +42452,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 33,
+              "atendidosDentro": 34,
               "atendidosFora": 51,
-              "pendentes": 12,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 83368,
@@ -42589,8 +42597,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84307,
