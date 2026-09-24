@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/09/2026 11:36",
+  "atualizado_em": "24/09/2026 12:37",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 240,
+          "abertos": 248,
           "atendidos": 234,
-          "pendentes": 6,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 163,
               "atendidosFora": 70,
-              "pendentes": 6,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 83308,
@@ -21431,6 +21431,70 @@
                   "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 84423,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84425,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84426,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84427,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84428,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84429,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84431,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84434,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -21755,9 +21819,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 11,
+          "abertos": 10,
           "atendidos": 10,
-          "pendentes": 1,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -21851,7 +21915,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84164,
@@ -21868,14 +21932,6 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 84245,
-                  "cliente": "P L REPRESENTAÇÕES E CONSULTORIA DE VENDAS S.A.",
-                  "dataCadastro": "2026-09-22",
-                  "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             }
@@ -24447,7 +24503,7 @@
                   "cliente": "DM COMERCIO ALIMENTICIO LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-23",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_dentro"
                 }
               ]
@@ -32308,9 +32364,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 20,
+          "abertos": 21,
           "atendidos": 5,
-          "pendentes": 15,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32412,7 +32468,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84363,
@@ -32429,6 +32485,14 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84424,
+                  "cliente": "J R BARROS COMERCIO LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83480,
@@ -34184,7 +34248,7 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-22",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -34208,7 +34272,7 @@
                   "cliente": "ALFA MAQUINAS LOCACAO E SERVICOS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-23",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -34369,9 +34433,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 161,
+          "abertos": 162,
           "atendidos": 53,
-          "pendentes": 108,
+          "pendentes": 109,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -35630,6 +35694,22 @@
               ]
             },
             {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84245,
+                  "cliente": "P L REPRESENTAÇÕES E CONSULTORIA DE VENDAS S.A.",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 2,
@@ -36381,7 +36461,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-15",
                   "prazo": "2026-07-16",
-                  "dataEntrega": "2026-09-22",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 }
               ]
@@ -41102,9 +41182,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 248,
-          "atendidos": 196,
-          "pendentes": 52,
+          "abertos": 251,
+          "atendidos": 197,
+          "pendentes": 54,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41206,7 +41286,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 12,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84372,
@@ -41303,6 +41383,14 @@
                   "prazo": "2026-09-15",
                   "dataEntrega": "2026-09-15",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84432,
+                  "cliente": "NOR - IMPORT COMERCIAL DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83653,
@@ -41659,6 +41747,22 @@
               ]
             },
             {
+              "nome": "Envio de Proposta",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84430,
+                  "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 11,
               "atendidosFora": 19,
@@ -42006,7 +42110,7 @@
               "nome": "Notificação",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83540,
@@ -42015,6 +42119,14 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-11",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84433,
+                  "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84290,
@@ -42525,8 +42637,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 35,
-              "atendidosFora": 51,
-              "pendentes": 10,
+              "atendidosFora": 52,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83368,
@@ -43269,8 +43381,8 @@
                   "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83918,
