@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/09/2026 12:37",
+  "atualizado_em": "24/09/2026 13:37",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 248,
+          "abertos": 249,
           "atendidos": 234,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 163,
               "atendidosFora": 70,
-              "pendentes": 14,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 83308,
@@ -21490,6 +21490,14 @@
                 },
                 {
                   "id": 84434,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84435,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
@@ -30495,9 +30503,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 25,
+          "abertos": 26,
           "atendidos": 16,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30647,7 +30655,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83762,
@@ -30688,6 +30696,14 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84436,
+                  "cliente": "G4 LINHA VIVA LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
