@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/09/2026 15:37",
+  "atualizado_em": "24/09/2026 16:37",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21835,8 +21835,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 11,
-          "atendidos": 10,
+          "abertos": 12,
+          "atendidos": 11,
           "pendentes": 1,
           "categorias": [
             {
@@ -21881,17 +21881,25 @@
             },
             {
               "nome": "Conciliação de Contas",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
               "pendentes": 1,
               "chamados": [
+                {
+                  "id": 84449,
+                  "cliente": "QUINTAS DO SALGUEIRO LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84447,
                   "cliente": "CELORICO HOLDING E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -24265,8 +24273,8 @@
         {
           "mes": "2026-09",
           "abertos": 41,
-          "atendidos": 29,
-          "pendentes": 12,
+          "atendidos": 31,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24302,9 +24310,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 8,
-              "pendentes": 9,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83649,
@@ -24471,8 +24479,8 @@
                   "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83732,
@@ -24486,9 +24494,9 @@
             },
             {
               "nome": "Conciliação de Contas",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84396,
@@ -24503,8 +24511,8 @@
                   "cliente": "VPS COMERCIO DE AUTO PECAS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -27262,8 +27270,8 @@
         {
           "mes": "2026-09",
           "abertos": 55,
-          "atendidos": 49,
-          "pendentes": 6,
+          "atendidos": 51,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27348,8 +27356,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 9,
-              "atendidosFora": 13,
-              "pendentes": 1,
+              "atendidosFora": 14,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83655,
@@ -27532,8 +27540,8 @@
                   "cliente": "VARANDA FRUTAS E MERCEARIA LTDA (FILIAL 6)",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -27556,8 +27564,8 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83748,
@@ -27596,8 +27604,8 @@
                   "cliente": "TRANSPORTE FORT FRUIT LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -28306,9 +28314,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 26,
+          "abertos": 22,
           "atendidos": 22,
-          "pendentes": 4,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -28339,46 +28347,6 @@
                   "prazo": "2026-08-24",
                   "dataEntrega": "2026-08-21",
                   "status": "atendido_dentro"
-                }
-              ]
-            },
-            {
-              "nome": "Auditoria",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
-              "chamados": [
-                {
-                  "id": 83217,
-                  "cliente": "ALFA MAQUINAS LOCACAO E SERVICOS LTDA",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83213,
-                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83214,
-                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 2)",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83212,
-                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -30583,9 +30551,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 26,
+          "abertos": 27,
           "atendidos": 16,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30598,6 +30566,22 @@
                   "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Autorregularização",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84450,
+                  "cliente": "SJC FAST FOOD LTDA ",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -32460,8 +32444,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 21,
-          "atendidos": 5,
+          "abertos": 23,
+          "atendidos": 7,
           "pendentes": 16,
           "categorias": [
             {
@@ -32564,7 +32548,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84363,
@@ -32581,6 +32565,14 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84453,
+                  "cliente": "EMPORIO RT CARVALHO LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84424,
@@ -32602,25 +32594,25 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84340,
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84341,
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83816,
@@ -32684,8 +32676,16 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84452,
+                  "cliente": "Distribuidora de Alimentos SM Carvalho Ltda.",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83861,
                   "cliente": "RICHETTI COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
@@ -36175,8 +36175,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 163,
-          "pendentes": 4,
+          "atendidos": 162,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36461,16 +36461,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 12,
-              "pendentes": 0,
+              "atendidosFora": 11,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81422,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-09-22",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81348,
@@ -36509,7 +36509,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-09-17",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -37710,9 +37710,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 415,
+          "abertos": 419,
           "atendidos": 377,
-          "pendentes": 38,
+          "pendentes": 42,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38174,7 +38174,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 3,
               "atendidosFora": 12,
-              "pendentes": 9,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 83218,
@@ -38201,6 +38201,30 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 83217,
+                  "cliente": "ALFA MAQUINAS LOCACAO E SERVICOS LTDA",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83213,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83214,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83215,
                   "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-28",
@@ -38217,12 +38241,20 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 83212,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83115,
                   "cliente": "KADOSH DISTRIBUIDOR COMERCIO E SERVICO DIGITAL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83116,
@@ -38261,8 +38293,8 @@
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": "2026-09-22",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82755,
@@ -41278,9 +41310,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 253,
-          "atendidos": 197,
-          "pendentes": 56,
+          "abertos": 255,
+          "atendidos": 198,
+          "pendentes": 57,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41668,9 +41700,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 13,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83706,
@@ -41725,8 +41757,8 @@
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84081,
@@ -41846,8 +41878,16 @@
               "nome": "Envio de Proposta",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84451,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84430,
                   "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
@@ -42750,7 +42790,7 @@
               "nome": "Senha",
               "atendidosDentro": 35,
               "atendidosFora": 52,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83368,
@@ -42983,6 +43023,14 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-18",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84448,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F20)",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84119,
