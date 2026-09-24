@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/09/2026 08:46",
+  "atualizado_em": "24/09/2026 09:09",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 236,
+          "abertos": 237,
           "atendidos": 234,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 171,
               "atendidosFora": 62,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83308,
@@ -21399,6 +21399,14 @@
                   "prazo": "2026-09-25",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84399,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -27062,8 +27070,8 @@
         {
           "mes": "2026-09",
           "abertos": 56,
-          "atendidos": 46,
-          "pendentes": 10,
+          "atendidos": 47,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27156,8 +27164,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 9,
-              "atendidosFora": 12,
-              "pendentes": 3,
+              "atendidosFora": 13,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83655,
@@ -27252,8 +27260,8 @@
                   "cliente": "Jolão Materiais para Construção Ltda. - ME",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84064,
@@ -40990,9 +40998,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 248,
+          "abertos": 249,
           "atendidos": 191,
-          "pendentes": 57,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42414,12 +42422,20 @@
               "nome": "Retificação de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84230,
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84400,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -42909,7 +42925,7 @@
                   "cliente": "METALURGICA G3 LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-23",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -43085,7 +43101,7 @@
                   "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-23",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -43093,7 +43109,7 @@
                   "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-23",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -43125,7 +43141,7 @@
                   "cliente": "BIANCA EMBREAGENS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-23",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -43133,7 +43149,7 @@
                   "cliente": "KADOSH DISTRIBUIDOR COMERCIO E SERVICO DIGITAL LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-23",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
