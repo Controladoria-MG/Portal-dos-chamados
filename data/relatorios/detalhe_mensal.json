@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/09/2026 13:37",
+  "atualizado_em": "24/09/2026 14:37",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 249,
-          "atendidos": 234,
-          "pendentes": 15,
+          "abertos": 250,
+          "atendidos": 246,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 163,
+              "atendidosDentro": 175,
               "atendidosFora": 70,
-              "pendentes": 15,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -21405,8 +21405,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84403,
@@ -21421,84 +21421,92 @@
                   "cliente": "CASA DA CRIANCA ELISA VERARDI",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84415,
                   "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84423,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84425,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84426,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84427,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84428,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84429,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84431,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84434,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84435,
                   "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84437,
+                  "cliente": "RESENDE SERVICOS DE APOIO LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
                   "dataEntrega": null,
@@ -24241,8 +24249,8 @@
         {
           "mes": "2026-09",
           "abertos": 35,
-          "atendidos": 29,
-          "pendentes": 6,
+          "atendidos": 30,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24278,9 +24286,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 8,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83649,
@@ -24407,8 +24415,8 @@
                   "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83732,
@@ -28226,9 +28234,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 26,
+          "abertos": 22,
           "atendidos": 22,
-          "pendentes": 4,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -28259,46 +28267,6 @@
                   "prazo": "2026-08-24",
                   "dataEntrega": "2026-08-21",
                   "status": "atendido_dentro"
-                }
-              ]
-            },
-            {
-              "nome": "Auditoria",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
-              "chamados": [
-                {
-                  "id": 83217,
-                  "cliente": "ALFA MAQUINAS LOCACAO E SERVICOS LTDA",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83213,
-                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83214,
-                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 2)",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83212,
-                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -37630,9 +37598,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 415,
-          "atendidos": 379,
-          "pendentes": 36,
+          "abertos": 419,
+          "atendidos": 377,
+          "pendentes": 42,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -38093,15 +38061,15 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 14,
-              "pendentes": 7,
+              "atendidosFora": 12,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 83218,
                   "cliente": "CR LOCACAO E VENDAS DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-22",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -38117,15 +38085,39 @@
                   "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-22",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 83217,
+                  "cliente": "ALFA MAQUINAS LOCACAO E SERVICOS LTDA",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83213,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83214,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83215,
                   "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-22",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -38133,16 +38125,24 @@
                   "cliente": "AUTO CENTER EMBRASIL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-09-22",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83212,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83115,
                   "cliente": "KADOSH DISTRIBUIDOR COMERCIO E SERVICO DIGITAL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-09-22",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83116,
