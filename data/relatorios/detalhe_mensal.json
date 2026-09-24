@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/09/2026 16:37",
+  "atualizado_em": "24/09/2026 17:37",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 250,
+          "abertos": 251,
           "atendidos": 249,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 178,
               "atendidosFora": 70,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83308,
@@ -21511,6 +21511,14 @@
                   "prazo": "2026-09-25",
                   "dataEntrega": "2026-09-24",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84455,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -21835,8 +21843,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 12,
-          "atendidos": 11,
+          "abertos": 13,
+          "atendidos": 12,
           "pendentes": 1,
           "categorias": [
             {
@@ -21881,17 +21889,17 @@
             },
             {
               "nome": "Conciliação de Contas",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84449,
                   "cliente": "QUINTAS DO SALGUEIRO LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84447,
@@ -21955,7 +21963,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84164,
@@ -21972,6 +21980,14 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84245,
+                  "cliente": "P L REPRESENTAÇÕES E CONSULTORIA DE VENDAS S.A.",
+                  "dataCadastro": "2026-09-22",
+                  "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -24273,8 +24289,8 @@
         {
           "mes": "2026-09",
           "abertos": 41,
-          "atendidos": 31,
-          "pendentes": 10,
+          "atendidos": 33,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24310,9 +24326,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 6,
+              "atendidosDentro": 8,
               "atendidosFora": 8,
-              "pendentes": 8,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83649,
@@ -24343,16 +24359,16 @@
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84445,
                   "cliente": "JDG CONSTRUTORA LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83349,
@@ -27269,9 +27285,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 55,
+          "abertos": 58,
           "atendidos": 51,
-          "pendentes": 4,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27565,7 +27581,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83748,
@@ -27592,8 +27608,32 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 84458,
+                  "cliente": "V.B. MOREIRA LAVANDERIA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84454,
+                  "cliente": "COSTA & SILVA MATERIAIS DE CONSTRUÇÃO, ELÉTRICO E HIDRÁULICO LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84440,
                   "cliente": "GAMA SOLUÇÕES ADMINISTRATIVAS LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84456,
+                  "cliente": "BOMBEIROS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANÇA LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
                   "dataEntrega": null,
@@ -34529,9 +34569,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 162,
+          "abertos": 161,
           "atendidos": 53,
-          "pendentes": 109,
+          "pendentes": 108,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -35790,22 +35830,6 @@
               ]
             },
             {
-              "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 84245,
-                  "cliente": "P L REPRESENTAÇÕES E CONSULTORIA DE VENDAS S.A.",
-                  "dataCadastro": "2026-09-22",
-                  "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 2,
@@ -36175,8 +36199,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 162,
-          "pendentes": 5,
+          "atendidos": 161,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -36461,8 +36485,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 11,
-              "pendentes": 1,
+              "atendidosFora": 10,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81422,
@@ -36485,8 +36509,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-09-22",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81245,
@@ -41310,9 +41334,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 255,
+          "abertos": 256,
           "atendidos": 198,
-          "pendentes": 57,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41437,7 +41461,7 @@
                   "cliente": "SUPERMERCADO CATROQUE LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-03",
-                  "dataEntrega": "2026-09-21",
+                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -41631,6 +41655,22 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Auditoria",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84457,
+                  "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
