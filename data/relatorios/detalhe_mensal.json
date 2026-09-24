@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/09/2026 18:13",
+  "atualizado_em": "24/09/2026 08:46",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24144,9 +24144,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 32,
+          "abertos": 31,
           "atendidos": 29,
-          "pendentes": 3,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24184,7 +24184,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 5,
               "atendidosFora": 8,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83649,
@@ -24225,14 +24225,6 @@
                   "prazo": "2026-09-23",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 84337,
-                  "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
-                  "dataCadastro": "2026-09-22",
-                  "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 83532,
@@ -32252,9 +32244,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 5,
-          "pendentes": 12,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32444,7 +32436,7 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83861,
@@ -32453,6 +32445,14 @@
                   "prazo": "2026-09-14",
                   "dataEntrega": "2026-09-15",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84398,
+                  "cliente": "ESPETINHO VILA MARIANA LTDA",
+                  "dataCadastro": "2026-09-23",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -40991,8 +40991,8 @@
         {
           "mes": "2026-09",
           "abertos": 248,
-          "atendidos": 189,
-          "pendentes": 59,
+          "atendidos": 191,
+          "pendentes": 57,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42373,8 +42373,8 @@
             {
               "nome": "Restituição",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83319,
@@ -42389,16 +42389,16 @@
                   "cliente": "VITTA SALAD - PRODUTOS NATURAIS COMÉRCIO DE HORTI FRUTI LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83956,
                   "cliente": "RIACHO VERDE DISTRIBUIDORA DE HORTTI FRUTTI LTDA ",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84293,
