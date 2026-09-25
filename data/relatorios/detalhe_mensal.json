@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "25/09/2026 10:34",
+  "atualizado_em": "25/09/2026 11:36",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 256,
+          "abertos": 257,
           "atendidos": 254,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 182,
               "atendidosFora": 71,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83308,
@@ -19597,8 +19597,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83482,
@@ -19797,8 +19797,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83640,
@@ -21559,6 +21559,14 @@
                   "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 84474,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -28674,9 +28682,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 13,
+          "abertos": 14,
           "atendidos": 3,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Auditoria",
@@ -28730,7 +28738,7 @@
               "nome": "Documentação",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83676,
@@ -28755,6 +28763,14 @@
                   "prazo": "2026-09-18",
                   "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84477,
+                  "cliente": "INFINITY UTILIDADES LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83622,
@@ -41446,9 +41462,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 256,
+          "abertos": 257,
           "atendidos": 198,
-          "pendentes": 58,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42710,7 +42726,7 @@
               "nome": "Regularização",
               "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 10,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 83526,
@@ -42823,6 +42839,14 @@
                   "prazo": "2026-09-17",
                   "dataEntrega": "2026-09-17",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84475,
+                  "cliente": "RM HOLANDA CORDEIRO LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84107,
