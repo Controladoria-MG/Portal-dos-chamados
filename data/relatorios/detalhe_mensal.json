@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "25/09/2026 13:34",
+  "atualizado_em": "25/09/2026 15:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19495,8 +19495,8 @@
         {
           "mes": "2026-09",
           "abertos": 261,
-          "atendidos": 255,
-          "pendentes": 6,
+          "atendidos": 257,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 183,
+              "atendidosDentro": 185,
               "atendidosFora": 71,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83308,
@@ -21485,7 +21485,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-24",
+                  "dataEntrega": "2026-09-25",
                   "status": "atendido_dentro"
                 },
                 {
@@ -21517,7 +21517,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-24",
+                  "dataEntrega": "2026-09-25",
                   "status": "atendido_dentro"
                 },
                 {
@@ -21577,23 +21577,23 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 84481,
-                  "cliente": null,
-                  "dataCadastro": "2026-09-25",
-                  "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 84482,
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84485,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84488,
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
@@ -21924,8 +21924,8 @@
         {
           "mes": "2026-09",
           "abertos": 14,
-          "atendidos": 12,
-          "pendentes": 2,
+          "atendidos": 13,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -21978,7 +21978,7 @@
                   "cliente": "QUINTAS DO SALGUEIRO LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-24",
+                  "dataEntrega": "2026-09-25",
                   "status": "atendido_dentro"
                 },
                 {
@@ -21986,24 +21986,24 @@
                   "cliente": "CELORICO HOLDING E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-24",
+                  "dataEntrega": "2026-09-25",
                   "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84460,
                   "cliente": "JMHOLD PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84157,
@@ -27398,14 +27398,14 @@
         {
           "mes": "2026-09",
           "abertos": 61,
-          "atendidos": 51,
-          "pendentes": 10,
+          "atendidos": 52,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84464,
@@ -27452,8 +27452,8 @@
                   "cliente": "RIO DAS PEDRAS COMERCIO DE HORTIFRUTIGRANJEIROS E MERCEARIA LIMITADA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84300,
@@ -37895,14 +37895,14 @@
         {
           "mes": "2026-08",
           "abertos": 419,
-          "atendidos": 377,
-          "pendentes": 42,
+          "atendidos": 378,
+          "pendentes": 41,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82182,
@@ -37917,8 +37917,8 @@
                   "cliente": "COMÉRCIO DE ALIMENTOS ALVES E FARIAS LTDA",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82949,
@@ -41495,8 +41495,8 @@
         {
           "mes": "2026-09",
           "abertos": 259,
-          "atendidos": 199,
-          "pendentes": 60,
+          "atendidos": 200,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41900,9 +41900,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 13,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83706,
@@ -41973,8 +41973,8 @@
                   "cliente": "NETTRACKER SOLUÇÕES EM TECNOLOGIA",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83714,
@@ -46991,15 +46991,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 50,
+          "abertos": 51,
           "atendidos": 6,
-          "pendentes": 44,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 36,
+              "pendentes": 37,
               "chamados": [
                 {
                   "id": 83310,
@@ -47326,6 +47326,14 @@
                   "cliente": "TRAUME - AGRIBUSINESS UND OUTSOURCING LTDA",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84487,
+                  "cliente": "ICRM SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-10-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
