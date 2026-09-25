@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "25/09/2026 09:07",
+  "atualizado_em": "25/09/2026 09:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 254,
+          "abertos": 255,
           "atendidos": 253,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 181,
               "atendidosFora": 71,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83308,
@@ -21543,6 +21543,14 @@
                   "prazo": "2026-09-25",
                   "dataEntrega": "2026-09-24",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84468,
+                  "cliente": "MDB COMERCIAL LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -24320,9 +24328,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 41,
+          "abertos": 42,
           "atendidos": 33,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24360,7 +24368,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 8,
               "atendidosFora": 8,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83649,
@@ -24529,6 +24537,14 @@
                   "prazo": "2026-09-25",
                   "dataEntrega": "2026-09-24",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84467,
+                  "cliente": "TECHFEED ADITIVOS PARA NUTRICAO ANIMAL LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83732,
