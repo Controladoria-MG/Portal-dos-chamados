@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "25/09/2026 09:34",
+  "atualizado_em": "25/09/2026 10:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,8 +19494,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 255,
-          "atendidos": 253,
+          "abertos": 256,
+          "atendidos": 254,
           "pendentes": 2,
           "categorias": [
             {
@@ -19516,7 +19516,7 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 181,
+              "atendidosDentro": 182,
               "atendidosFora": 71,
               "pendentes": 2,
               "chamados": [
@@ -21547,6 +21547,14 @@
                 {
                   "id": 84468,
                   "cliente": "MDB COMERCIAL LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84470,
+                  "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
                   "dataEntrega": null,
@@ -24328,9 +24336,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 42,
+          "abertos": 44,
           "atendidos": 33,
-          "pendentes": 9,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24608,7 +24616,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83964,
@@ -24641,6 +24649,22 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84471,
+                  "cliente": "L.S.V COMERCIO , LOCACAO ,MONTAGENS E REPRESENTACAO COMERCIAL LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84472,
+                  "cliente": "LSV GESTAO COMERCIO LOCACAO MANUTENCAO DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83445,
@@ -27333,9 +27357,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 60,
+          "abertos": 61,
           "atendidos": 51,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27902,6 +27926,22 @@
                   "prazo": "2026-09-24",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Verificação Lançamentos Contábeis",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84473,
+                  "cliente": "CANAÃ COMERCIAL DE ALIMENTOS LTDA ",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
