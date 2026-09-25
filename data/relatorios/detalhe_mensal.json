@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "25/09/2026 11:36",
+  "atualizado_em": "25/09/2026 12:35",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 257,
+          "abertos": 260,
           "atendidos": 254,
-          "pendentes": 3,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 182,
               "atendidosFora": 71,
-              "pendentes": 3,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83308,
@@ -21567,6 +21567,30 @@
                   "prazo": "2026-09-28",
                   "dataEntrega": "2026-09-25",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84478,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84481,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84482,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -41462,8 +41486,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 257,
-          "atendidos": 198,
+          "abertos": 258,
+          "atendidos": 199,
           "pendentes": 59,
           "categorias": [
             {
@@ -42556,9 +42580,9 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 4,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83530,
@@ -42605,8 +42629,8 @@
                   "cliente": "TDM TECNOLOGIA EM DOSAGEM E MISTURA DE INGREDIENTES LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84393,
@@ -42966,7 +42990,7 @@
               "nome": "Senha",
               "atendidosDentro": 35,
               "atendidosFora": 52,
-              "pendentes": 10,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 83368,
@@ -43183,6 +43207,14 @@
                   "prazo": "2026-09-17",
                   "dataEntrega": "2026-09-16",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84480,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 07)",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83373,
@@ -46943,15 +46975,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 47,
+          "abertos": 48,
           "atendidos": 6,
-          "pendentes": 41,
+          "pendentes": 42,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 33,
+              "pendentes": 34,
               "chamados": [
                 {
                   "id": 83310,
@@ -47254,6 +47286,14 @@
                   "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84479,
+                  "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
