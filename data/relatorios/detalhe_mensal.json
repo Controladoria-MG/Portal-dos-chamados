@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "25/09/2026 12:35",
+  "atualizado_em": "25/09/2026 13:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,8 +19494,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 260,
-          "atendidos": 254,
+          "abertos": 261,
+          "atendidos": 255,
           "pendentes": 6,
           "categorias": [
             {
@@ -19516,7 +19516,7 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 182,
+              "atendidosDentro": 183,
               "atendidosFora": 71,
               "pendentes": 6,
               "chamados": [
@@ -21573,8 +21573,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84481,
@@ -21586,6 +21586,14 @@
                 },
                 {
                   "id": 84482,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84485,
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
@@ -41486,9 +41494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 258,
+          "abertos": 259,
           "atendidos": 199,
-          "pendentes": 59,
+          "pendentes": 60,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41894,7 +41902,7 @@
               "nome": "Certidão",
               "atendidosDentro": 5,
               "atendidosFora": 13,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83706,
@@ -41959,6 +41967,14 @@
                   "prazo": "2026-09-17",
                   "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84484,
+                  "cliente": "NETTRACKER SOLUÇÕES EM TECNOLOGIA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83714,
@@ -46975,15 +46991,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 48,
+          "abertos": 50,
           "atendidos": 6,
-          "pendentes": 42,
+          "pendentes": 44,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 34,
+              "pendentes": 36,
               "chamados": [
                 {
                   "id": 83310,
@@ -47292,6 +47308,22 @@
                 {
                   "id": 84479,
                   "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84483,
+                  "cliente": "ECONOMIZAPLAST COMERCIO LTDA",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84486,
+                  "cliente": "TRAUME - AGRIBUSINESS UND OUTSOURCING LTDA",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-30",
                   "dataEntrega": null,
