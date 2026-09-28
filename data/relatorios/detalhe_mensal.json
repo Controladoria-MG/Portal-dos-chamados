@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "25/09/2026 15:34",
+  "atualizado_em": "28/09/2026 08:46",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 261,
-          "atendidos": 257,
-          "pendentes": 4,
+          "abertos": 266,
+          "atendidos": 259,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 185,
+              "atendidosDentro": 187,
               "atendidosFora": 71,
-              "pendentes": 4,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83308,
@@ -21597,6 +21597,46 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84489,
+                  "cliente": "NOVA BOSTON GRILL RESTAURANTE LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84491,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84492,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84495,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84499,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -24376,9 +24416,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 44,
+          "abertos": 46,
           "atendidos": 33,
-          "pendentes": 11,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24608,13 +24648,29 @@
               "nome": "Conciliação de Contas",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 84496,
+                  "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
+                  "dataCadastro": "2026-09-27",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84396,
                   "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84497,
+                  "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
+                  "dataCadastro": "2026-09-27",
+                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -27398,22 +27454,22 @@
         {
           "mes": "2026-09",
           "abertos": 61,
-          "atendidos": 52,
-          "pendentes": 9,
+          "atendidos": 54,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 5,
+              "atendidosDentro": 6,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84464,
                   "cliente": "DISTRIBUIDORA DE ALIMENTOS JAPÃO LTDA ",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83799,
@@ -27932,16 +27988,16 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84262,
                   "cliente": "COSTA & SILVA MATERIAIS DE CONSTRUÇÃO, ELÉTRICO E HIDRÁULICO LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84229,
@@ -30295,9 +30351,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 43,
+          "abertos": 44,
           "atendidos": 42,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30628,6 +30684,22 @@
               ]
             },
             {
+              "nome": "Regularização de Débitos",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83052,
+                  "cliente": null,
+                  "dataCadastro": "2026-08-26",
+                  "prazo": "2026-08-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
               "atendidosFora": 2,
@@ -30743,9 +30815,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 27,
+          "abertos": 28,
           "atendidos": 16,
-          "pendentes": 11,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30824,6 +30896,22 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-21",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Material de Reunião - Solicitação Interna",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84498,
+                  "cliente": "ANTOCON GALVANOPLASTIA LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32253,8 +32341,8 @@
         {
           "mes": "2026-08",
           "abertos": 38,
-          "atendidos": 32,
-          "pendentes": 6,
+          "atendidos": 33,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32403,8 +32491,8 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83242,
@@ -32435,8 +32523,8 @@
                   "cliente": "SUPER DOCES MARINGA LTDA (FILIAL 6)",
                   "dataCadastro": "2026-08-31",
                   "prazo": "2026-09-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -37894,9 +37982,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 419,
+          "abertos": 418,
           "atendidos": 378,
-          "pendentes": 41,
+          "pendentes": 40,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39886,7 +39974,7 @@
               "nome": "Regularização de Débitos",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82914,
@@ -39895,14 +39983,6 @@
                   "prazo": "2026-08-25",
                   "dataEntrega": "2026-08-31",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 83052,
-                  "cliente": null,
-                  "dataCadastro": "2026-08-26",
-                  "prazo": "2026-08-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 82888,
@@ -41494,9 +41574,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 259,
-          "atendidos": 200,
-          "pendentes": 59,
+          "abertos": 262,
+          "atendidos": 201,
+          "pendentes": 61,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41796,7 +41876,7 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
@@ -41815,6 +41895,14 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-04",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84493,
+                  "cliente": "ESQUINA DOS POMARES COMERCIO DE HORTI FRUTI LTDA ",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": "2026-09-25",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -42110,7 +42198,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 11,
               "atendidosFora": 19,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83512,
@@ -42319,6 +42407,14 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84490,
+                  "cliente": "RENOVACAO EMPREENDIMENTOS HOTELEIROS LTDA ",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84108,
@@ -43006,7 +43102,7 @@
               "nome": "Senha",
               "atendidosDentro": 35,
               "atendidosFora": 52,
-              "pendentes": 11,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 83368,
@@ -43455,6 +43551,14 @@
                   "prazo": "2026-09-15",
                   "dataEntrega": "2026-09-16",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84494,
+                  "cliente": "RRW DISTRIBUIDORA E IMPORTADORA DE PECAS LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-09-25",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83877,
