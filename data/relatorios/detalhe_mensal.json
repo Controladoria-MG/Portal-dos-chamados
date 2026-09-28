@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/09/2026 16:35",
+  "atualizado_em": "28/09/2026 17:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14804,8 +14804,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 144,
-              "atendidosFora": 140,
+              "atendidosDentro": 143,
+              "atendidosFora": 141,
               "pendentes": 0,
               "chamados": [
                 {
@@ -16853,8 +16853,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-28",
                   "prazo": "2026-07-29",
-                  "dataEntrega": "2026-07-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81544,
@@ -22113,8 +22113,8 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 3,
-              "atendidosFora": 0,
+              "atendidosDentro": 2,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -22138,8 +22138,8 @@
                   "cliente": "ECKM ADMINISTRAÇÃO DE BENS PRÓPRIOS S.A",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -24472,9 +24472,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 51,
-          "atendidos": 38,
-          "pendentes": 13,
+          "abertos": 52,
+          "atendidos": 41,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24510,9 +24510,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 8,
-              "atendidosFora": 11,
-              "pendentes": 4,
+              "atendidosDentro": 9,
+              "atendidosFora": 13,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83649,
@@ -24615,8 +24615,8 @@
                   "cliente": "DELLON DIOVANI SOARES ",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83842,
@@ -24631,8 +24631,8 @@
                   "cliente": "LSDESK COMERCIO DE MOVEIS LTDA ",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84419,
@@ -24697,6 +24697,14 @@
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-09-11",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84548,
+                  "cliente": "HEAD INFORMATICA MULTIMARCAS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -27549,9 +27557,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 63,
-          "atendidos": 55,
-          "pendentes": 8,
+          "abertos": 65,
+          "atendidos": 56,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27651,8 +27659,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 9,
-              "atendidosFora": 14,
+              "atendidosDentro": 6,
+              "atendidosFora": 17,
               "pendentes": 0,
               "chamados": [
                 {
@@ -27692,24 +27700,24 @@
                   "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-17",
-                  "dataEntrega": "2026-09-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84091,
                   "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-18",
-                  "dataEntrega": "2026-09-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84092,
                   "cliente": "RODOBLOC - ARTEFATOS DE CIMENTOS LTDA - ME",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-18",
-                  "dataEntrega": "2026-09-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83363,
@@ -27861,7 +27869,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83748,
@@ -27908,6 +27916,22 @@
                   "cliente": "GAMA SOLUÇÕES ADMINISTRATIVAS LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84549,
+                  "cliente": "C A R MINIMERCADO E SERVIÇOS LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84550,
+                  "cliente": "C A R MINIMERCADO E SERVIÇOS LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -28131,9 +28155,9 @@
             },
             {
               "nome": "Verificação Lançamentos Contábeis",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84473,
@@ -28148,8 +28172,8 @@
                   "cliente": "J R BARROS COMERCIO LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -28883,8 +28907,8 @@
         {
           "mes": "2026-09",
           "abertos": 15,
-          "atendidos": 5,
-          "pendentes": 10,
+          "atendidos": 6,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Auditoria",
@@ -29032,17 +29056,17 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84523,
                   "cliente": "Zibetto Pizzaria Eireli",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84224,
@@ -34234,8 +34258,8 @@
         {
           "mes": "2026-08",
           "abertos": 82,
-          "atendidos": 41,
-          "pendentes": 41,
+          "atendidos": 43,
+          "pendentes": 39,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -34632,8 +34656,8 @@
             {
               "nome": "Procurações DP",
               "atendidosDentro": 0,
-              "atendidosFora": 13,
-              "pendentes": 10,
+              "atendidosFora": 15,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 82242,
@@ -34792,16 +34816,16 @@
                   "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83209,
                   "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83210,
@@ -41750,9 +41774,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 274,
+          "abertos": 276,
           "atendidos": 211,
-          "pendentes": 63,
+          "pendentes": 65,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42140,9 +42164,9 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 3,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosDentro": 2,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84022,
@@ -42157,8 +42181,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": "2026-09-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 84552,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83524,
@@ -43118,7 +43150,7 @@
               "nome": "Regularização",
               "atendidosDentro": 4,
               "atendidosFora": 4,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83526,
@@ -43233,6 +43265,14 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 84551,
+                  "cliente": "J R BARROS COMERCIO LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84386,
                   "cliente": "CLINICA MEDICA E ODONTOLOGICA AMOR SAUDE BOTUCATU LTDA",
                   "dataCadastro": "2026-09-23",
@@ -43340,8 +43380,8 @@
             },
             {
               "nome": "Retificação de Guia",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
               "pendentes": 1,
               "chamados": [
                 {
@@ -43349,8 +43389,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84400,
