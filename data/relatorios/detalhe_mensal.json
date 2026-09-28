@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/09/2026 17:34",
+  "atualizado_em": "28/09/2026 18:17",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 272,
+          "abertos": 273,
           "atendidos": 267,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 190,
               "atendidosFora": 76,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83308,
@@ -21687,6 +21687,14 @@
                   "prazo": "2026-09-29",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 84553,
+                  "cliente": "SUPERMERCADOS KAÇULA LTDA (FILIAL 02)",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -22584,9 +22592,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 85,
+          "abertos": 86,
           "atendidos": 85,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -22976,8 +22984,16 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 4,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 79955,
+                  "cliente": "DON MARCHÊ SERVIÇOS DE ALIMENTAÇÃO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-06-12",
+                  "prazo": "2026-06-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 80219,
                   "cliente": "DISTRIBUIDOR DE MORANGOS LTDA",
@@ -30959,9 +30975,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 31,
+          "abertos": 32,
           "atendidos": 16,
-          "pendentes": 15,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31087,7 +31103,7 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83817,
@@ -31110,6 +31126,14 @@
                   "cliente": "POWER FINANCIAL DO BRASIL S.A. (FILIAL 1)",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83427,
+                  "cliente": "LEGUME S/A (FILIAL 1)",
+                  "dataCadastro": "2026-09-01",
+                  "prazo": "2026-09-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -33585,9 +33609,9 @@
         },
         {
           "mes": "2026-06",
-          "abertos": 43,
+          "abertos": 42,
           "atendidos": 29,
-          "pendentes": 14,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -33866,22 +33890,6 @@
                   "prazo": "2026-06-22",
                   "dataEntrega": "2026-07-22",
                   "status": "atendido_fora"
-                }
-              ]
-            },
-            {
-              "nome": "Documentação Contábil",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 79955,
-                  "cliente": "DON MARCHÊ SERVIÇOS DE ALIMENTAÇÃO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-06-12",
-                  "prazo": "2026-06-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -34993,9 +35001,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 165,
+          "abertos": 164,
           "atendidos": 54,
-          "pendentes": 111,
+          "pendentes": 110,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -36224,22 +36232,6 @@
                   "cliente": "MARINGÁ MANUTENÇÃO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Omissão de Obrigações Acessórias",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 83427,
-                  "cliente": "LEGUME S/A (FILIAL 1)",
-                  "dataCadastro": "2026-09-01",
-                  "prazo": "2026-09-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -47415,15 +47407,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 56,
+          "abertos": 58,
           "atendidos": 6,
-          "pendentes": 50,
+          "pendentes": 52,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 42,
+              "pendentes": 44,
               "chamados": [
                 {
                   "id": 83310,
@@ -47798,6 +47790,22 @@
                   "cliente": "B.N. RODRIGUES",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84555,
+                  "cliente": "BOMFRIOS COMÉRCIO DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84556,
+                  "cliente": "BOMFRIOS PRIME SUPERMERCADOS LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
