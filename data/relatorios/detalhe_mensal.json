@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/09/2026 15:47",
+  "atualizado_em": "28/09/2026 16:35",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 271,
+          "abertos": 272,
           "atendidos": 267,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 190,
               "atendidosFora": 76,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -21674,6 +21674,14 @@
                 },
                 {
                   "id": 84540,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84545,
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
@@ -24465,8 +24473,8 @@
         {
           "mes": "2026-09",
           "abertos": 51,
-          "atendidos": 40,
-          "pendentes": 11,
+          "atendidos": 38,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24694,17 +24702,17 @@
             },
             {
               "nome": "Conciliação de Contas",
-              "atendidosDentro": 3,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84496,
                   "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
                   "dataCadastro": "2026-09-27",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84396,
@@ -24719,8 +24727,8 @@
                   "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
                   "dataCadastro": "2026-09-27",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84446,
@@ -30927,9 +30935,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 30,
+          "abertos": 31,
           "atendidos": 16,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30951,13 +30959,21 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84450,
                   "cliente": "SJC FAST FOOD LTDA ",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84546,
+                  "cliente": "DM COMERCIO ALIMENTICIO LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -31078,7 +31094,7 @@
                   "cliente": "INTEGRAÇÃO DE SERVIÇOS EDUCACIONAIS LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-17",
-                  "dataEntrega": "2026-09-23",
+                  "dataEntrega": "2026-09-28",
                   "status": "atendido_fora"
                 }
               ]
@@ -38143,8 +38159,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 377,
-          "pendentes": 41,
+          "atendidos": 378,
+          "pendentes": 40,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39461,8 +39477,8 @@
             {
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 1,
-              "atendidosFora": 8,
-              "pendentes": 1,
+              "atendidosFora": 9,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82194,
@@ -39493,8 +39509,8 @@
                   "cliente": "Zibetto Pizzaria Eireli",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82411,
@@ -41734,9 +41750,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 272,
-          "atendidos": 212,
-          "pendentes": 60,
+          "abertos": 274,
+          "atendidos": 211,
+          "pendentes": 63,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42069,7 +42085,7 @@
                   "cliente": "ESQUINA DOS POMARES COMERCIO DE HORTI FRUTI LTDA ",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-25",
+                  "dataEntrega": "2026-09-28",
                   "status": "atendido_dentro"
                 }
               ]
@@ -42414,7 +42430,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 11,
               "atendidosFora": 19,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83512,
@@ -42461,6 +42477,14 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84544,
+                  "cliente": "GENGIBRE ADMINISTRACAO E PARTICIPACOES S.A.",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -42918,7 +42942,7 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 4,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83530,
@@ -42959,6 +42983,14 @@
                   "prazo": "2026-09-21",
                   "dataEntrega": "2026-09-23",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84547,
+                  "cliente": "MTEC INSTALACOES ELETRICAS LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84444,
@@ -43005,8 +43037,8 @@
             {
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 1,
-              "atendidosFora": 5,
-              "pendentes": 0,
+              "atendidosFora": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83563,
@@ -43045,8 +43077,8 @@
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83647,
