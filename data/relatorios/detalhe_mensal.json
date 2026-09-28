@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/09/2026 11:48",
+  "atualizado_em": "28/09/2026 13:33",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24433,8 +24433,8 @@
         {
           "mes": "2026-09",
           "abertos": 46,
-          "atendidos": 38,
-          "pendentes": 8,
+          "atendidos": 40,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24726,9 +24726,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 3,
+              "atendidosDentro": 5,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83964,
@@ -24767,16 +24767,16 @@
                   "cliente": "L.S.V COMERCIO , LOCACAO ,MONTAGENS E REPRESENTACAO COMERCIAL LTDA",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84472,
                   "cliente": "LSV GESTAO COMERCIO LOCACAO MANUTENCAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83445,
@@ -27469,9 +27469,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 62,
+          "abertos": 63,
           "atendidos": 55,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27949,7 +27949,7 @@
               "nome": "Malha Fiscal",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84314,
@@ -27958,6 +27958,14 @@
                   "prazo": "2026-10-02",
                   "dataEntrega": "2026-09-24",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84527,
+                  "cliente": "RICHETTI COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-10-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32772,9 +32780,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 7,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32804,7 +32812,7 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84050,
@@ -32819,6 +32827,14 @@
                   "cliente": "Padaria e Restaurante Valentina Ltda.",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84051,
+                  "cliente": "VARANDA FRUTAS E MERCEARIA LTDA ",
+                  "dataCadastro": "2026-09-15",
+                  "prazo": "2026-09-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -34857,15 +34873,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 166,
-          "atendidos": 53,
-          "pendentes": 113,
+          "abertos": 165,
+          "atendidos": 54,
+          "pendentes": 111,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 13,
-              "atendidosFora": 14,
-              "pendentes": 88,
+              "atendidosFora": 15,
+              "pendentes": 87,
               "chamados": [
                 {
                   "id": 83321,
@@ -35768,8 +35784,8 @@
                   "cliente": "SUPERMERCADO BEMBOM EIRELI",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84198,
@@ -35824,22 +35840,6 @@
                   "cliente": "TAV FRUT DISTRIBUIDORA DE FRUTAS EIRELI",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Autorregularização",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 84051,
-                  "cliente": "VARANDA FRUTAS E MERCEARIA LTDA ",
-                  "dataCadastro": "2026-09-15",
-                  "prazo": "2026-09-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -38063,8 +38063,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 378,
-          "pendentes": 40,
+          "atendidos": 377,
+          "pendentes": 41,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39380,9 +39380,9 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 8,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82194,
@@ -39413,8 +39413,8 @@
                   "cliente": "Zibetto Pizzaria Eireli",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-08-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82411,
@@ -41654,15 +41654,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 271,
-          "atendidos": 208,
-          "pendentes": 63,
+          "abertos": 272,
+          "atendidos": 213,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84156,
@@ -41685,8 +41685,8 @@
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83967,
@@ -41764,25 +41764,25 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 2,
-              "atendidosFora": 4,
-              "pendentes": 12,
+              "atendidosDentro": 1,
+              "atendidosFora": 6,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84372,
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84373,
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83516,
@@ -41853,8 +41853,8 @@
                   "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-10-20",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83844,
@@ -42100,8 +42100,8 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 8,
-              "atendidosFora": 13,
+              "atendidosDentro": 7,
+              "atendidosFora": 14,
               "pendentes": 0,
               "chamados": [
                 {
@@ -42165,8 +42165,8 @@
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84081,
@@ -42308,9 +42308,9 @@
             },
             {
               "nome": "Envio de Proposta",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84451,
@@ -42325,8 +42325,8 @@
                   "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -42693,8 +42693,8 @@
             {
               "nome": "Notificação",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83540,
@@ -42709,8 +42709,8 @@
                   "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84290,
@@ -42925,8 +42925,8 @@
             {
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 1,
-              "atendidosFora": 4,
-              "pendentes": 1,
+              "atendidosFora": 5,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83563,
@@ -42965,8 +42965,8 @@
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83647,
@@ -43006,7 +43006,7 @@
               "nome": "Regularização",
               "atendidosDentro": 4,
               "atendidosFora": 4,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83526,
@@ -43061,6 +43061,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84528,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -44315,9 +44323,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 6,
-          "pendentes": 11,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -44347,7 +44355,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 4,
               "atendidosFora": 2,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83317,
@@ -44450,6 +44458,14 @@
                   "cliente": "Mercado Romano Ltda. ",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84531,
+                  "cliente": "BRUCAR RESTAURANTE E PIZZARIA LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-10-12",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -47247,15 +47263,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 51,
+          "abertos": 53,
           "atendidos": 6,
-          "pendentes": 45,
+          "pendentes": 47,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 37,
+              "pendentes": 39,
               "chamados": [
                 {
                   "id": 83310,
@@ -47590,6 +47606,22 @@
                   "cliente": "ICRM SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84529,
+                  "cliente": "MINIMERCADO PAG LEV DE ITAGUAI LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84530,
+                  "cliente": "UNION SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
