@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/09/2026 18:17",
+  "atualizado_em": "29/09/2026 08:50",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24489,8 +24489,8 @@
         {
           "mes": "2026-09",
           "abertos": 52,
-          "atendidos": 41,
-          "pendentes": 11,
+          "atendidos": 42,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24526,8 +24526,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 9,
-              "atendidosFora": 13,
+              "atendidosDentro": 8,
+              "atendidosFora": 14,
               "pendentes": 2,
               "chamados": [
                 {
@@ -24583,8 +24583,8 @@
                   "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": "2026-09-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83532,
@@ -24766,9 +24766,9 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84045,
@@ -24807,8 +24807,8 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84535,
@@ -27573,9 +27573,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 65,
+          "abertos": 66,
           "atendidos": 56,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27885,7 +27885,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83748,
@@ -27916,6 +27916,14 @@
                   "cliente": "V.B. MOREIRA LAVANDERIA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84558,
+                  "cliente": "YARA DESIGN E DECORAÇÃO LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -30975,9 +30983,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 32,
+          "abertos": 33,
           "atendidos": 16,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30999,8 +31007,16 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 84557,
+                  "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84450,
                   "cliente": "SJC FAST FOOD LTDA ",
@@ -44173,7 +44189,7 @@
                   "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-24",
+                  "dataEntrega": "2026-09-28",
                   "status": "atendido_fora"
                 },
                 {
@@ -44467,9 +44483,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 6,
-          "pendentes": 12,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -44499,7 +44515,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 4,
               "atendidosFora": 2,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83317,
@@ -44610,6 +44626,14 @@
                   "cliente": "BRUCAR RESTAURANTE E PIZZARIA LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84560,
+                  "cliente": "DEGUST ALIMENTOS E BEBIDAS INDÚSTRIA E COMÉRCIO LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-01",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45426,15 +45450,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 0,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83406,
@@ -45497,6 +45521,14 @@
                   "cliente": "WCS APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84559,
+                  "cliente": "MERCADO QZ DO BARRETO LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-13",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
