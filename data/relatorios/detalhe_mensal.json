@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/09/2026 17:21",
+  "atualizado_em": "29/09/2026 18:23",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -29050,9 +29050,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 16,
+          "abertos": 15,
           "atendidos": 7,
-          "pendentes": 9,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Auditoria",
@@ -29106,7 +29106,7 @@
               "nome": "Documentação",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83676,
@@ -29147,14 +29147,6 @@
                   "prazo": "2026-09-28",
                   "dataEntrega": "2026-09-28",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 83622,
-                  "cliente": "INFINITY UTILIDADES LTDA",
-                  "dataCadastro": "2026-09-04",
-                  "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -35145,9 +35137,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 166,
+          "abertos": 167,
           "atendidos": 57,
-          "pendentes": 109,
+          "pendentes": 110,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -36360,6 +36352,22 @@
                   "cliente": "BRASIL ADMINISTRADORA DE SERVICOS LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Documentação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 83622,
+                  "cliente": "INFINITY UTILIDADES LTDA",
+                  "dataCadastro": "2026-09-04",
+                  "prazo": "2026-09-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
