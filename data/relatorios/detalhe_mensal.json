@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/09/2026 18:23",
+  "atualizado_em": "29/09/2026 18:53",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -33084,9 +33084,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 10,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33244,8 +33244,16 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 84647,
+                  "cliente": "PARRACHO COMÉRCIO DE DOCES E ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84340,
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
