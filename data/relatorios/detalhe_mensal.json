@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/09/2026 08:50",
+  "atualizado_em": "29/09/2026 09:39",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19495,8 +19495,8 @@
         {
           "mes": "2026-09",
           "abertos": 273,
-          "atendidos": 267,
-          "pendentes": 6,
+          "atendidos": 270,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 190,
-              "atendidosFora": 76,
-              "pendentes": 6,
+              "atendidosDentro": 191,
+              "atendidosFora": 78,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83308,
@@ -20709,8 +20709,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84042,
@@ -20997,8 +20997,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": "2026-09-18",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84159,
@@ -21677,24 +21677,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84545,
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84553,
                   "cliente": "SUPERMERCADOS KAÇULA LTDA (FILIAL 02)",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -24489,8 +24489,8 @@
         {
           "mes": "2026-09",
           "abertos": 52,
-          "atendidos": 42,
-          "pendentes": 10,
+          "atendidos": 41,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24766,9 +24766,9 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84045,
@@ -24803,12 +24803,12 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 84539,
+                  "id": 84569,
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
-                  "dataCadastro": "2026-09-28",
-                  "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84535,
@@ -37693,7 +37693,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-08-03",
-                  "dataEntrega": "2026-09-04",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_fora"
                 },
                 {
@@ -40637,7 +40637,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_fora"
                 },
                 {
@@ -41782,15 +41782,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 276,
+          "abertos": 278,
           "atendidos": 211,
-          "pendentes": 65,
+          "pendentes": 67,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 10,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84156,
@@ -41805,8 +41805,8 @@
                   "cliente": "FERROS COMÉRCIO DE DOCES E DERIVADOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84524,
@@ -42172,8 +42172,8 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 2,
-              "atendidosFora": 1,
+              "atendidosDentro": 1,
+              "atendidosFora": 2,
               "pendentes": 2,
               "chamados": [
                 {
@@ -42181,8 +42181,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84227,
@@ -43155,6 +43155,22 @@
               ]
             },
             {
+              "nome": "Procuração",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84570,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Regularização",
               "atendidosDentro": 4,
               "atendidosFora": 4,
@@ -43412,9 +43428,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 34,
+              "atendidosDentro": 33,
               "atendidosFora": 53,
-              "pendentes": 13,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 83368,
@@ -43429,8 +43445,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83484,
@@ -43621,6 +43637,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84568,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -44483,9 +44507,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 19,
+          "abertos": 21,
           "atendidos": 6,
-          "pendentes": 13,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -44512,10 +44536,26 @@
               ]
             },
             {
+              "nome": "DCTFWeb",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84561,
+                  "cliente": "MARCUS ALBERTO CARLINI LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Documentação Contábil",
               "atendidosDentro": 4,
               "atendidosFora": 2,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83317,
@@ -44634,6 +44674,14 @@
                   "cliente": "DEGUST ALIMENTOS E BEBIDAS INDÚSTRIA E COMÉRCIO LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84563,
+                  "cliente": "LANCHONETE CAMACHA LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -44808,9 +44856,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 5,
+          "abertos": 7,
           "atendidos": 0,
-          "pendentes": 5,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -44840,7 +44888,7 @@
               "nome": "Documentação",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83341,
@@ -44855,6 +44903,22 @@
                   "cliente": "ACE FRUIT COMERCIO DE ALIMENTOS LTDA - ME",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84565,
+                  "cliente": "H P T COMERCIO E INDUSTRIA DE MÓVEIS LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84566,
+                  "cliente": "FHGM SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45221,9 +45285,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 11,
+          "abertos": 12,
           "atendidos": 9,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -45309,7 +45373,7 @@
               "nome": "Solicitação do cliente",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83779,
@@ -45334,6 +45398,14 @@
                   "prazo": "2026-09-28",
                   "dataEntrega": "2026-09-28",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84564,
+                  "cliente": "DEGUST ALIMENTOS E BEBIDAS LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
