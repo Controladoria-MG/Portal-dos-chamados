@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/09/2026 16:32",
+  "atualizado_em": "29/09/2026 17:21",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 279,
+          "abertos": 280,
           "atendidos": 273,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 192,
               "atendidosFora": 80,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83308,
@@ -21739,6 +21739,14 @@
                 {
                   "id": 84641,
                   "cliente": null,
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84645,
+                  "cliente": "GLOBAL ENGENHARIA E MANUTENCAO INDUSTRIAL LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
                   "dataEntrega": null,
@@ -31112,38 +31120,38 @@
         {
           "mes": "2026-09",
           "abertos": 34,
-          "atendidos": 25,
-          "pendentes": 9,
+          "atendidos": 27,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84379,
                   "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "Autorregularização",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84557,
                   "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84450,
@@ -41934,9 +41942,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 300,
-          "atendidos": 220,
-          "pendentes": 80,
+          "abertos": 301,
+          "atendidos": 218,
+          "pendentes": 83,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42654,7 +42662,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 13,
               "atendidosFora": 21,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83512,
@@ -42791,6 +42799,14 @@
                   "prazo": "2026-09-16",
                   "dataEntrega": "2026-09-18",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84646,
+                  "cliente": "MERCADAO NATURAL LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84009,
@@ -43053,7 +43069,7 @@
                   "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-28",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_fora"
                 },
                 {
@@ -43181,8 +43197,8 @@
             {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 4,
-              "atendidosFora": 5,
-              "pendentes": 2,
+              "atendidosFora": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83530,
@@ -43245,8 +43261,8 @@
                   "cliente": "CABO FRIO PEÇAS LTDA",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83424,
@@ -43373,8 +43389,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 5,
-              "atendidosFora": 5,
-              "pendentes": 8,
+              "atendidosFora": 4,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83526,
@@ -43501,8 +43517,8 @@
                   "cliente": "CLINICA MEDICA E ODONTOLOGICA AMOR SAUDE BOTUCATU LTDA",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84475,
