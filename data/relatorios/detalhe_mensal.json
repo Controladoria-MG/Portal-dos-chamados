@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/09/2026 15:56",
+  "atualizado_em": "30/09/2026 16:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 282,
+          "abertos": 283,
           "atendidos": 276,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 192,
               "atendidosFora": 83,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83308,
@@ -21765,6 +21765,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-09-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84687,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27638,8 +27646,8 @@
         {
           "mes": "2026-09",
           "abertos": 75,
-          "atendidos": 66,
-          "pendentes": 9,
+          "atendidos": 67,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -28300,8 +28308,8 @@
             {
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84638,
@@ -28316,8 +28324,8 @@
                   "cliente": "NALLINI MANUTENÇÃO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84473,
@@ -42014,9 +42022,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 317,
-          "atendidos": 224,
-          "pendentes": 93,
+          "abertos": 318,
+          "atendidos": 228,
+          "pendentes": 90,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -43100,17 +43108,17 @@
             },
             {
               "nome": "Levantamento de Débitos Anual",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84640,
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84038,
@@ -43244,17 +43252,17 @@
             },
             {
               "nome": "Parcelamento Municipal",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84675,
                   "cliente": "F. MARQUES DE SA LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -43438,7 +43446,7 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83563,
@@ -43487,6 +43495,14 @@
                   "prazo": "2026-09-09",
                   "dataEntrega": "2026-09-11",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84686,
+                  "cliente": "FFRA CONCRETOS LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -43533,8 +43549,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 5,
-              "atendidosFora": 5,
-              "pendentes": 9,
+              "atendidosFora": 6,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83526,
@@ -43621,8 +43637,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83769,
@@ -43797,8 +43813,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 33,
-              "atendidosFora": 56,
-              "pendentes": 35,
+              "atendidosFora": 57,
+              "pendentes": 34,
               "chamados": [
                 {
                   "id": 83368,
@@ -44189,8 +44205,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84240,
