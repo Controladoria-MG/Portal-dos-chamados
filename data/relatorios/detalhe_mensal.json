@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/09/2026 08:48",
+  "atualizado_em": "30/09/2026 09:48",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 280,
-          "atendidos": 273,
-          "pendentes": 7,
+          "abertos": 281,
+          "atendidos": 276,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19516,9 +19516,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 192,
-              "atendidosFora": 80,
-              "pendentes": 7,
+              "atendidosDentro": 193,
+              "atendidosFora": 82,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83308,
@@ -21381,8 +21381,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84383,
@@ -21557,8 +21557,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84474,
@@ -21701,8 +21701,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84607,
@@ -21725,30 +21725,38 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84639,
                   "cliente": "SM ADMINISTRAÇÃO DE BENS PRÓPRIOS S.A. ",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84641,
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84645,
                   "cliente": "GLOBAL ENGENHARIA E MANUTENCAO INDUSTRIAL LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84657,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -29050,9 +29058,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 15,
+          "abertos": 16,
           "atendidos": 7,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Auditoria",
@@ -29113,7 +29121,7 @@
                   "cliente": "RODRIGUES SERVICE SOLUTIONS LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-09-30",
                   "status": "atendido_fora"
                 },
                 {
@@ -29177,6 +29185,22 @@
                   "cliente": "SWEET BERRY COMERCIO DE FRUTAS LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Material de Reunião - Solicitação Interna",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84654,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -31221,8 +31245,8 @@
             },
             {
               "nome": "Material de Reunião - Solicitação Interna",
-              "atendidosDentro": 3,
-              "atendidosFora": 0,
+              "atendidosDentro": 1,
+              "atendidosFora": 2,
               "pendentes": 0,
               "chamados": [
                 {
@@ -31238,16 +31262,16 @@
                   "cliente": "L.S.V COMERCIO , LOCACAO ,MONTAGENS E REPRESENTACAO COMERCIAL LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84501,
                   "cliente": "LSV GESTAO COMERCIO LOCACAO MANUTENCAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -41958,9 +41982,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 301,
+          "abertos": 304,
           "atendidos": 220,
-          "pendentes": 81,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42374,7 +42398,7 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84022,
@@ -42397,6 +42421,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84652,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -43660,9 +43692,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 33,
-              "atendidosFora": 53,
-              "pendentes": 31,
+              "atendidosDentro": 32,
+              "atendidosFora": 54,
+              "pendentes": 33,
               "chamados": [
                 {
                   "id": 83368,
@@ -43757,8 +43789,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83695,
@@ -43876,6 +43908,22 @@
                   "id": 84568,
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84650,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84651,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -45374,8 +45422,8 @@
         {
           "mes": "2026-08",
           "abertos": 29,
-          "atendidos": 20,
-          "pendentes": 9,
+          "atendidos": 21,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -45572,8 +45620,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82603,
@@ -45588,8 +45636,8 @@
                   "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -45662,8 +45710,8 @@
         {
           "mes": "2026-09",
           "abertos": 13,
-          "atendidos": 12,
-          "pendentes": 1,
+          "atendidos": 13,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -45756,8 +45804,8 @@
             {
               "nome": "Solicitação do cliente",
               "atendidosDentro": 2,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83779,
@@ -45772,8 +45820,8 @@
                   "cliente": "EQUIPLEVE COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84215,
@@ -47919,15 +47967,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 61,
+          "abertos": 63,
           "atendidos": 6,
-          "pendentes": 55,
+          "pendentes": 57,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 45,
+              "pendentes": 47,
               "chamados": [
                 {
                   "id": 83310,
@@ -48326,6 +48374,22 @@
                   "cliente": "A CUNHA DOS SANTOS BAR E RESTAURANTE EIRELI",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84649,
+                  "cliente": "BLACK WOOD BURGER LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84655,
+                  "cliente": "VEGRA COMERCIO DE DOCES LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
