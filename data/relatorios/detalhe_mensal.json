@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/09/2026 11:51",
+  "atualizado_em": "30/09/2026 12:30",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -41998,8 +41998,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 309,
-          "atendidos": 221,
+          "abertos": 310,
+          "atendidos": 222,
           "pendentes": 88,
           "categorias": [
             {
@@ -43717,7 +43717,7 @@
             {
               "nome": "Senha",
               "atendidosDentro": 33,
-              "atendidosFora": 54,
+              "atendidosFora": 55,
               "pendentes": 36,
               "chamados": [
                 {
@@ -43913,6 +43913,14 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 84674,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83330,
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-09-01",
@@ -43957,8 +43965,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F20)",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84119,
