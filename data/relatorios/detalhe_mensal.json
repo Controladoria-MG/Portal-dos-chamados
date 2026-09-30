@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/09/2026 12:30",
+  "atualizado_em": "30/09/2026 15:01",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19494,9 +19494,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 281,
+          "abertos": 282,
           "atendidos": 276,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19518,7 +19518,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 192,
               "atendidosFora": 83,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83308,
@@ -21717,7 +21717,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-01",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-09-30",
                   "status": "atendido_dentro"
                 },
                 {
@@ -21757,6 +21757,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84676,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-09-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -24545,8 +24553,8 @@
         {
           "mes": "2026-09",
           "abertos": 52,
-          "atendidos": 48,
-          "pendentes": 4,
+          "atendidos": 49,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24583,8 +24591,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 10,
-              "atendidosFora": 14,
-              "pendentes": 2,
+              "atendidosFora": 15,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83649,
@@ -24727,8 +24735,8 @@
                   "cliente": "JMS CADEIRAS LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84441,
@@ -27630,14 +27638,14 @@
         {
           "mes": "2026-09",
           "abertos": 75,
-          "atendidos": 61,
-          "pendentes": 14,
+          "atendidos": 65,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 6,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84464,
@@ -27692,8 +27700,8 @@
                   "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83590,
@@ -28075,9 +28083,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 2,
+              "atendidosDentro": 4,
               "atendidosFora": 9,
-              "pendentes": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83556,
@@ -28172,16 +28180,16 @@
                   "cliente": "BOMBEIROS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANÇA LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84629,
                   "cliente": "COMBATEAINCENDIOS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANCA LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -28228,8 +28236,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83772,
@@ -28244,8 +28252,8 @@
                   "cliente": "FB COMERCIO DE PRODUTOS E ARTIGOS LTDA",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -33109,8 +33117,8 @@
         {
           "mes": "2026-09",
           "abertos": 27,
-          "atendidos": 10,
-          "pendentes": 17,
+          "atendidos": 14,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33266,33 +33274,33 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 2,
+              "atendidosDentro": 5,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84660,
                   "cliente": "N. S. LAR SUPERMERCADO LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84647,
                   "cliente": "PARRACHO COMÉRCIO DE DOCES E ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84661,
                   "cliente": "N. S. LAR SUPERMERCADO LTDA (FILIAL 01)",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84340,
@@ -33347,16 +33355,16 @@
             {
               "nome": "SPED",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84394,
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84410,
@@ -38873,27 +38881,11 @@
               "pendentes": 13,
               "chamados": [
                 {
-                  "id": 83218,
-                  "cliente": "CR LOCACAO E VENDAS DE EQUIPAMENTOS LTDA",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 83205,
                   "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
                   "dataEntrega": "2026-09-16",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 83216,
-                  "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -38903,6 +38895,30 @@
                   "prazo": "2026-08-31",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 83218,
+                  "cliente": "CR LOCACAO E VENDAS DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 83215,
+                  "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 83216,
+                  "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-08-31",
+                  "dataEntrega": "2026-09-24",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83213,
@@ -38919,14 +38935,6 @@
                   "prazo": "2026-08-31",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 83215,
-                  "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_fora"
                 },
                 {
                   "id": 83117,
@@ -41998,9 +42006,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 310,
-          "atendidos": 222,
-          "pendentes": 88,
+          "abertos": 317,
+          "atendidos": 223,
+          "pendentes": 94,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42417,18 +42425,18 @@
               "pendentes": 3,
               "chamados": [
                 {
-                  "id": 84552,
-                  "cliente": null,
-                  "dataCadastro": "2026-09-28",
-                  "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 84652,
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84552,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-28",
+                  "prazo": "2026-10-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -42486,7 +42494,7 @@
               "nome": "Certidão",
               "atendidosDentro": 8,
               "atendidosFora": 14,
-              "pendentes": 0,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83706,
@@ -42663,6 +42671,54 @@
                   "prazo": "2026-09-11",
                   "dataEntrega": "2026-09-10",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84678,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84679,
+                  "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84680,
+                  "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84681,
+                  "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84682,
+                  "cliente": "ALFA MAQUINAS LOCACAO E SERVICOS LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84684,
+                  "cliente": "CR LOCACAO E VENDAS DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -43179,6 +43235,22 @@
               ]
             },
             {
+              "nome": "Parcelamento Municipal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84675,
+                  "cliente": "F. MARQUES DE SA LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Parcelamento PGFN",
               "atendidosDentro": 2,
               "atendidosFora": 4,
@@ -43453,8 +43525,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 5,
-              "atendidosFora": 4,
-              "pendentes": 10,
+              "atendidosFora": 5,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83526,
@@ -43605,8 +43677,8 @@
                   "cliente": "TODOS ADMINISTRADORA DE CARTAO DE DESCONTOS BOTUCATU LTDA",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -43857,14 +43929,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 84568,
-                  "cliente": null,
-                  "dataCadastro": "2026-09-29",
-                  "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 84650,
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
@@ -43916,6 +43980,14 @@
                   "id": 84674,
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84568,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -44979,15 +45051,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 14,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83651,
@@ -45026,8 +45098,16 @@
                   "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-09-30",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84677,
+                  "cliente": "DIBRAMASUL MADEIRAS LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -45485,9 +45565,9 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 29,
+          "abertos": 30,
           "atendidos": 21,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -45580,7 +45660,7 @@
                   "cliente": "DIBRAMASUL MADEIRAS LTDA",
                   "dataCadastro": "2026-08-14",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-09-30",
                   "status": "atendido_fora"
                 },
                 {
@@ -45730,6 +45810,22 @@
               ]
             },
             {
+              "nome": "SPED",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 82068,
+                  "cliente": "M. M. TOLEDO (FILIAL 01)",
+                  "dataCadastro": "2026-08-07",
+                  "prazo": "2026-08-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 1,
@@ -45820,7 +45916,7 @@
                   "cliente": "ACF SERVICOS DE APOIO LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-09-30",
                   "status": "atendido_fora"
                 },
                 {
@@ -45844,7 +45940,7 @@
                   "cliente": "VOM SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-09-30",
                   "status": "atendido_dentro"
                 }
               ]
@@ -46111,9 +46207,9 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 235,
+          "abertos": 234,
           "atendidos": 126,
-          "pendentes": 109,
+          "pendentes": 108,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -47974,22 +48070,6 @@
                   "cliente": "H P T COMERCIO E INDUSTRIA DE MÓVEIS LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "SPED",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 82068,
-                  "cliente": "M. M. TOLEDO (FILIAL 01)",
-                  "dataCadastro": "2026-08-07",
-                  "prazo": "2026-08-12",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
