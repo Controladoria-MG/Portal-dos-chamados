@@ -842,3 +842,14 @@ tr.rel-total-row td:not(:first-child) {
   th, td { padding: 0.6rem 0.8rem; }
   .mg-topbar-hint { display: none; }
 }
+/* Linha de status do topbar nunca quebra linha (2026-09-30): sem espaço,
+   corta com reticências em vez de jogar o resto pra baixo. */
+.mg-topbar-info { min-width: 0; }
+.mg-topbar-status { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mg-topbar-btn { flex-shrink: 0; }
+/* Chamados tem 2 botões no topbar: aperta um pouco pra caber em 1366px. */
+@media (max-width: 1500px) {
+  .mg-topbar { padding: 12px 18px; }
+  .mg-topbar-linha { gap: 10px; }
+  .mg-topbar-sep { margin: 0 6px; }
+}
