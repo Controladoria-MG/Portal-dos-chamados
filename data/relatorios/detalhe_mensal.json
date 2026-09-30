@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/09/2026 16:59",
+  "atualizado_em": "30/09/2026 17:57",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -22099,9 +22099,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 14,
+          "abertos": 15,
           "atendidos": 14,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -22195,7 +22195,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83643,
@@ -22220,6 +22220,14 @@
                   "prazo": "2026-09-24",
                   "dataEntrega": "2026-09-28",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84691,
+                  "cliente": "AROEIRA ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27425,7 +27433,7 @@
                 },
                 {
                   "id": 82718,
-                  "cliente": "OFELIA SARRI MORETE ( FILIAL 1)",
+                  "cliente": "MORETE SUPERMERCADOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
                   "dataEntrega": "2026-08-24",
@@ -31151,9 +31159,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 34,
+          "abertos": 36,
           "atendidos": 27,
-          "pendentes": 7,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31462,6 +31470,30 @@
                   "cliente": "DM COMERCIO ALIMENTICIO LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "SPED",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 84689,
+                  "cliente": "H.T. COMERCIO DE SUCATAS E APARAS DE PAPEL BARAO LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84690,
+                  "cliente": "RECICLA MUNDO COMERCIO DE APARAS DE PAPEL LTDA",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-01",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -36077,7 +36109,7 @@
                 },
                 {
                   "id": 83593,
-                  "cliente": "OFELIA SARRI MORETE (MATRIZ)",
+                  "cliente": "MORETE SUPERMERCADOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
                   "dataEntrega": null,
@@ -42022,9 +42054,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 318,
+          "abertos": 319,
           "atendidos": 228,
-          "pendentes": 90,
+          "pendentes": 91,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42917,7 +42949,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-09-30",
                   "status": "atendido_fora"
                 },
                 {
@@ -43550,7 +43582,7 @@
               "nome": "Regularização",
               "atendidosDentro": 5,
               "atendidosFora": 6,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83526,
@@ -43639,6 +43671,14 @@
                   "prazo": "2026-09-24",
                   "dataEntrega": "2026-09-30",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84688,
+                  "cliente": "MERCADINHO J. SILVA - EIRELI",
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83769,
