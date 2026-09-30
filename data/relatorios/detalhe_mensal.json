@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/09/2026 09:48",
+  "atualizado_em": "30/09/2026 10:33",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24545,8 +24545,8 @@
         {
           "mes": "2026-09",
           "abertos": 52,
-          "atendidos": 46,
-          "pendentes": 6,
+          "atendidos": 47,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24582,9 +24582,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 8,
+              "atendidosDentro": 9,
               "atendidosFora": 14,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83649,
@@ -24695,8 +24695,8 @@
                   "cliente": "OBA OBA MIX LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84417,
@@ -41982,9 +41982,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 304,
+          "abertos": 305,
           "atendidos": 220,
-          "pendentes": 84,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -43694,7 +43694,7 @@
               "nome": "Senha",
               "atendidosDentro": 32,
               "atendidosFora": 54,
-              "pendentes": 33,
+              "pendentes": 34,
               "chamados": [
                 {
                   "id": 83368,
@@ -43922,6 +43922,14 @@
                 },
                 {
                   "id": 84651,
+                  "cliente": null,
+                  "dataCadastro": "2026-09-30",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84659,
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
