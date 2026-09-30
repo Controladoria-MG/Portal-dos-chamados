@@ -14,18 +14,18 @@
 <body>
 
   <!-- HEADER -->
-  <header class="topbar">
-    <img src="data/imagens/logo.png" alt="MG Controle" class="topbar-logo" />
-    <div class="topbar-info">
-      <h1 class="topbar-title">Relatório dos chamados - MG Controle</h1>
-      <div class="topbar-meta">
-        <span class="topbar-atualizacao" id="header-date"></span>
-        <span class="topbar-meta-sep">|</span>
-        <span class="topbar-hint">Para atualizar seus dados recarregue a página usando "Ctrl+<span id="cobranca-hidden-trigger">F5</span>"</span>
+  <header class="mg-topbar">
+    <div class="mg-topbar-linha">
+      <div class="mg-topbar-logo-wrap">
+        <img src="data/imagens/logo.png" alt="MG Controle" class="mg-topbar-logo" />
       </div>
+      <div class="mg-topbar-info">
+        <h1 class="mg-topbar-titulo">Relatório dos chamados - MG Controle</h1>
+        <div class="mg-topbar-status" id="header-status"><span id="header-date"></span><span class="mg-topbar-sep">|</span><span id="header-periodo"></span><span class="mg-topbar-sep" id="header-periodo-sep">|</span><span class="mg-topbar-hint">Para atualizar seus dados recarregue a página usando "Ctrl+<span id="cobranca-hidden-trigger">F5</span>"</span></div>
+      </div>
+      <button id="btn-relatorios" class="mg-topbar-btn" type="button">Relatório de Chamados Entregues</button>
+      <button id="theme-toggle" class="mg-topbar-btn" type="button">Alterar tema para Escuro</button>
     </div>
-    <button id="btn-relatorios" class="btn-relatorios">Relatório de Chamados Entregues</button>
-    <button id="theme-toggle">Alterar tema</button>
   </header>
 
   <!-- BARRA DE NAVEGAÇÃO -->

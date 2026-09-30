@@ -165,7 +165,7 @@ function toggleTheme() {
 }
 function updateThemeBtn(theme) {
   const btn = document.getElementById('theme-toggle');
-  if (btn) btn.textContent = theme === 'light' ? 'Alterar Tema: Claro' : 'Alterar Tema: Escuro';
+  if (btn) btn.textContent = theme === 'light' ? 'Alterar tema para Escuro' : 'Alterar tema para Claro';
 }
 
 /* ─── DOM REFS ───────────────────────────────────────────────────── */
@@ -200,11 +200,23 @@ function deptTemDeptoAnterior(rows) {
   return rows.some(r => String(col(r,'Departamento Responsavel Original','Departamento Responsável Original')||'').trim() !== '');
 }
 
-/* ─── DATA DE ATUALIZAÇÃO DA BASE ───────────────────────────────────
-   Lê data/base_info.json (gravado pelo pipeline toda vez que base.xlsx
-   é regerado) para mostrar quando os dados foram atualizados de fato -
-   a data de hoje sozinha não diz nada sobre isso. */
-async function carregarDataAtualizacao() {
+/* ─── DATA DE ATUALIZAÇÃO DA BASE + PERÍODO ─────────────────────────
+   Mesmo cabeçalho do Controle de Tarefas: "Base atualizada em
+   dd/mm/aaaa hh:mm | Chamados cadastrados de ... a ...". A data vem do
+   Last-Modified do próprio base.xlsx (o botão "Atualizar base" do
+   servidor só troca o .xlsx, então o base_info.json fica velho); o
+   base_info.json só entra se o servidor não mandar esse cabeçalho.
+   O período vai de 01/01 do ano atual até hoje. */
+function fmtDataHora(d) {
+  return d.toLocaleDateString('pt-BR') + ' ' +
+         d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+}
+
+async function carregarDataAtualizacao(lastMod) {
+  if (lastMod && !isNaN(new Date(lastMod))) {
+    $headerDate.textContent = `Base atualizada em ${fmtDataHora(new Date(lastMod))}`;
+    return;
+  }
   try {
     const res = await fetch(INFO_PATH);
     if (!res.ok) throw new Error('base_info.json não encontrado');
@@ -213,6 +225,13 @@ async function carregarDataAtualizacao() {
   } catch (e) {
     $headerDate.textContent = '';
   }
+}
+
+function mostrarPeriodo() {
+  const hoje = new Date();
+  const inicioAno = new Date(hoje.getFullYear(), 0, 1);
+  document.getElementById('header-periodo').textContent =
+    `Chamados cadastrados de ${inicioAno.toLocaleDateString('pt-BR')} até ${hoje.toLocaleDateString('pt-BR')}`;
 }
 
 /* ─── HISTÓRICO DE PREVISÃO ──────────────────────────────────────────
@@ -235,7 +254,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
 
-  carregarDataAtualizacao();
   loadData();
   buildFilterDropdowns();
   carregarDetalheMensal();
@@ -247,10 +265,12 @@ async function loadData() {
   try {
     const res = await fetch(DATA_PATH);
     if (!res.ok) throw new Error(`Arquivo não encontrado: ${DATA_PATH} (HTTP ${res.status})`);
+    carregarDataAtualizacao(res.headers.get('Last-Modified'));
     const buf = await res.arrayBuffer();
     const wb  = XLSX.read(new Uint8Array(buf), { type: 'array', cellDates: true });
     const ws  = wb.Sheets[wb.SheetNames[0]];
     allData   = XLSX.utils.sheet_to_json(ws, { defval: '' });
+    mostrarPeriodo();
     renderHome();
   } catch (e) {
     showError(e.message);
