@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/09/2026 18:53",
+  "atualizado_em": "30/09/2026 08:48",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -27004,7 +27004,7 @@
                   "cliente": "Centro de Distribuição Butantã Ltda.",
                   "dataCadastro": "2026-08-07",
                   "prazo": "2026-08-14",
-                  "dataEntrega": "2026-09-11",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_fora"
                 },
                 {
@@ -27948,7 +27948,7 @@
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-15",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_fora"
                 }
               ]
@@ -30670,7 +30670,7 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-24",
-                  "dataEntrega": "2026-08-26",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_fora"
                 }
               ]
@@ -31038,7 +31038,7 @@
                   "cliente": "VALQUET SJC COMERCIO ALIMENTOS E BEBIDAS LTDA",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-09-02",
-                  "dataEntrega": "2026-09-14",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_fora"
                 }
               ]
@@ -33211,7 +33211,7 @@
                   "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-18",
-                  "dataEntrega": "2026-09-22",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_fora"
                 },
                 {
@@ -41959,8 +41959,8 @@
         {
           "mes": "2026-09",
           "abertos": 301,
-          "atendidos": 218,
-          "pendentes": 83,
+          "atendidos": 220,
+          "pendentes": 81,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42436,9 +42436,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 7,
+              "atendidosDentro": 8,
               "atendidosFora": 14,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83706,
@@ -42597,8 +42597,8 @@
                   "cliente": "INFINITY UTILIDADES LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83617,
@@ -42676,9 +42676,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 13,
+              "atendidosDentro": 14,
               "atendidosFora": 21,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83512,
@@ -42877,8 +42877,8 @@
                   "cliente": "CARLOS ANTUNES BERNARDO ADMINISTRACAO DE BENS LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84347,
@@ -45374,14 +45374,14 @@
         {
           "mes": "2026-08",
           "abertos": 29,
-          "atendidos": 19,
-          "pendentes": 10,
+          "atendidos": 20,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
-              "atendidosFora": 13,
-              "pendentes": 8,
+              "atendidosFora": 14,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 81785,
@@ -45540,8 +45540,8 @@
                   "cliente": "Mercearia Doce Bom Ltda. ",
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-08-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83268,
