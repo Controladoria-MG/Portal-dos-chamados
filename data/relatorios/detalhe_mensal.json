@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/10/2026 13:00",
+  "atualizado_em": "02/10/2026 14:53",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 5,
+          "abertos": 6,
           "atendidos": 0,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -21826,6 +21826,14 @@
                 },
                 {
                   "id": 84739,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84741,
                   "cliente": null,
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
@@ -24625,8 +24633,8 @@
         {
           "mes": "2026-09",
           "abertos": 52,
-          "atendidos": 49,
-          "pendentes": 3,
+          "atendidos": 50,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -24879,8 +24887,8 @@
             {
               "nome": "Conciliação de Contas",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84496,
@@ -24903,8 +24911,8 @@
                   "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84497,
@@ -42223,14 +42231,14 @@
         {
           "mes": "2026-09",
           "abertos": 320,
-          "atendidos": 238,
-          "pendentes": 82,
+          "atendidos": 241,
+          "pendentes": 79,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 3,
+              "atendidosDentro": 6,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84156,
@@ -42261,8 +42269,8 @@
                   "cliente": "BERTON SUPERMERCADOS COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83969,
@@ -42285,16 +42293,16 @@
                   "cliente": "BERTON SUPERMERCADOS COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83974,
                   "cliente": "BERTON SUPERMERCADOS COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83752,
@@ -45030,9 +45038,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 10,
-          "atendidos": 0,
-          "pendentes": 10,
+          "abertos": 12,
+          "atendidos": 1,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Alteração Contratual",
@@ -45053,6 +45061,30 @@
                   "cliente": "FIXO LOCACOES DE BENS LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Ata de Reunião de Sócios",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 84742,
+                  "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84743,
+                  "cliente": "MAIS VERDE DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45100,17 +45132,17 @@
             },
             {
               "nome": "Notificação",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84727,
                   "cliente": "L2 LAVAGEM E ESTETICA AUTOMOTIVA LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -49079,15 +49111,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 0,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84697,
@@ -49158,6 +49190,14 @@
                   "cliente": "FHGM SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84740,
+                  "cliente": "G TOMAZ COMERCIO DE MADEIRAS LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
