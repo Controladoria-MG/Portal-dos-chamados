@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/10/2026 09:50",
+  "atualizado_em": "02/10/2026 11:11",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -31400,8 +31400,8 @@
         {
           "mes": "2026-09",
           "abertos": 36,
-          "atendidos": 27,
-          "pendentes": 9,
+          "atendidos": 29,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31717,25 +31717,25 @@
             },
             {
               "nome": "SPED",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosDentro": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84689,
                   "cliente": "H.T. COMERCIO DE SUCATAS E APARAS DE PAPEL BARAO LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84690,
                   "cliente": "RECICLA MUNDO COMERCIO DE APARAS DE PAPEL LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -42215,8 +42215,8 @@
         {
           "mes": "2026-09",
           "abertos": 320,
-          "atendidos": 228,
-          "pendentes": 92,
+          "atendidos": 230,
+          "pendentes": 90,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42325,8 +42325,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
-              "atendidosFora": 6,
-              "pendentes": 14,
+              "atendidosFora": 7,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 83516,
@@ -42453,8 +42453,8 @@
                   "cliente": "ERS PRINT SOLUÇÕES GRAFICAS E VISUAIS LTDA ",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83653,
@@ -42637,8 +42637,8 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 3,
+              "atendidosFora": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84652,
@@ -42685,8 +42685,8 @@
                   "cliente": "SUPER DIJAN COMERCIAL LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -45022,9 +45022,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 7,
+          "abertos": 10,
           "atendidos": 0,
-          "pendentes": 7,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Alteração Contratual",
@@ -45091,6 +45091,22 @@
               ]
             },
             {
+              "nome": "Notificação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84727,
+                  "cliente": "L2 LAVAGEM E ESTETICA AUTOMOTIVA LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 0,
               "atendidosFora": 0,
@@ -45101,6 +45117,30 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-01",
                   "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Regularização de Débitos",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 84730,
+                  "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84731,
+                  "cliente": "MT MIL CONSULTORIA LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
