@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/10/2026 09:03",
+  "atualizado_em": "02/10/2026 09:50",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 189,
-              "atendidosFora": 85,
+              "atendidosDentro": 186,
+              "atendidosFora": 88,
               "pendentes": 8,
               "chamados": [
                 {
@@ -20749,8 +20749,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84059,
@@ -21445,16 +21445,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84426,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84427,
@@ -27741,16 +27741,32 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 86,
+          "abertos": 89,
           "atendidos": 68,
-          "pendentes": 18,
+          "pendentes": 21,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 10,
+              "pendentes": 13,
               "chamados": [
+                {
+                  "id": 83343,
+                  "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
+                  "dataCadastro": "2026-09-01",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83344,
+                  "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
+                  "dataCadastro": "2026-09-01",
+                  "prazo": "2026-09-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 83346,
                   "cliente": "GRAN MANJERONA COMERCIO DE ALIMENTOS EIRELI",
@@ -27826,6 +27842,14 @@
                 {
                   "id": 83500,
                   "cliente": "SUPER DOCES MARINGÁ LTDA (FILIAL 03)",
+                  "dataCadastro": "2026-09-02",
+                  "prazo": "2026-09-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83501,
+                  "cliente": "SUPER DOCES MARINGA LTDA (FILIAL 5)",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
@@ -28534,6 +28558,30 @@
                   "prazo": "2026-09-28",
                   "dataEntrega": "2026-09-28",
                   "status": "atendido_dentro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-10",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "DCTFWeb",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84720,
+                  "cliente": "FB COMERCIO DE PRODUTOS E ARTIGOS LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -35401,15 +35449,15 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 157,
+          "abertos": 154,
           "atendidos": 58,
-          "pendentes": 99,
+          "pendentes": 96,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 12,
               "atendidosFora": 19,
-              "pendentes": 74,
+              "pendentes": 71,
               "chamados": [
                 {
                   "id": 83321,
@@ -35418,22 +35466,6 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-09-28",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 83343,
-                  "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
-                  "dataCadastro": "2026-09-01",
-                  "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83344,
-                  "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
-                  "dataCadastro": "2026-09-01",
-                  "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 83347,
@@ -36094,14 +36126,6 @@
                 {
                   "id": 83499,
                   "cliente": "RRW DISTRIBUIDORA E IMPORTADORA DE PECAS LTDA",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83501,
-                  "cliente": "SUPER DOCES MARINGA LTDA (FILIAL 5)",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
                   "dataEntrega": null,
@@ -44998,21 +45022,29 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 5,
+          "abertos": 7,
           "atendidos": 0,
-          "pendentes": 5,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84698,
                   "cliente": null,
                   "dataCadastro": "2026-10-01",
                   "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84723,
+                  "cliente": "FIXO LOCACOES DE BENS LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45036,6 +45068,22 @@
                   "id": 84696,
                   "cliente": "KAREN CRISTINE PACHECO MARKETING & COMUNICACAO",
                   "dataCadastro": "2026-10-01",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Cadastro de Cliente",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84726,
+                  "cliente": "UNIVERSO DAS COISINHAS E-COMMERCE LTDA",
+                  "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
                   "dataEntrega": null,
                   "status": "pendente"
