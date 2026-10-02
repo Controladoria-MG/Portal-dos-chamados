@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/10/2026 15:30",
+  "atualizado_em": "02/10/2026 16:16",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 6,
+          "abertos": 7,
           "atendidos": 5,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84707,
@@ -21839,6 +21839,14 @@
                   "prazo": "2026-10-05",
                   "dataEntrega": "2026-10-02",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84761,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -28606,22 +28614,22 @@
         {
           "mes": "2026-10",
           "abertos": 1,
-          "atendidos": 0,
-          "pendentes": 1,
+          "atendidos": 1,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84720,
                   "cliente": "FB COMERCIO DE PRODUTOS E ARTIGOS LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -33437,8 +33445,8 @@
         {
           "mes": "2026-09",
           "abertos": 28,
-          "atendidos": 16,
-          "pendentes": 12,
+          "atendidos": 17,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33539,16 +33547,16 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84422,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA  ( FILIAL 71 )",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -41141,7 +41149,7 @@
                   "cliente": "FPKHOLD INVESTIMENTOS E PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-09-17",
+                  "dataEntrega": "2026-10-02",
                   "status": "atendido_fora"
                 },
                 {
@@ -42897,19 +42905,19 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 84577,
-                  "cliente": "INFINITY UTILIDADES LTDA",
-                  "dataCadastro": "2026-09-29",
-                  "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 84520,
                   "cliente": "INFINITY UTILIDADES LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
                   "dataEntrega": "2026-09-28",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84577,
+                  "cliente": "INFINITY UTILIDADES LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": "2026-09-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -44060,8 +44068,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 38,
-              "atendidosFora": 58,
+              "atendidosDentro": 37,
+              "atendidosFora": 59,
               "pendentes": 28,
               "chamados": [
                 {
@@ -44301,8 +44309,8 @@
                   "cliente": "CEOS EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-17",
-                  "dataEntrega": "2026-09-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84480,
@@ -45062,9 +45070,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 16,
+          "abertos": 27,
           "atendidos": 1,
-          "pendentes": 15,
+          "pendentes": 26,
           "categorias": [
             {
               "nome": "Alteração Contratual",
@@ -45155,6 +45163,22 @@
               ]
             },
             {
+              "nome": "Certidão",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84760,
+                  "cliente": "MPJ - PRODUTOS, EQUIPAMENTOS E SERVICOS LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Notificação",
               "atendidosDentro": 1,
               "atendidosFora": 0,
@@ -45181,6 +45205,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-01",
                   "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Processo de VISA",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84763,
+                  "cliente": "TAITI COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45214,7 +45254,7 @@
               "nome": "Senha",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84703,
@@ -45249,10 +45289,82 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 84752,
+                  "cliente": "ECAPAC ADMINISTRAÇÃO E PARTICIPAÇÃO S.A",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84753,
+                  "cliente": "BECAPAC PARTICIPAÇÕES S.A",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84762,
+                  "cliente": "ERF EMPREENDIMENTOS E PARTICIPACOES S/A",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84754,
+                  "cliente": "AJSF PARTICIPAÇÕES LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84755,
+                  "cliente": "LUSINDE INVEST ADMINISTRACAO DE BENS PROPRIOS S.A.",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84756,
+                  "cliente": "MONUMENTUM INVESTIMENTOS E PARTICIPAÇÕES LTDA ",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84757,
+                  "cliente": "BEIRA ALTA PARTICIPAÇÕES S.A ",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84759,
+                  "cliente": "LC 2 EMPREENDIMENTOS E PARTICIPACOES S.A.",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84751,
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84758,
+                  "cliente": "HOLDING RODRIGUES PEREIRA EMPREENDIMENTOS E PARTICIPAÇÕES LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
