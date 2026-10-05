@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "05/10/2026 10:20",
+  "atualizado_em": "05/10/2026 11:15",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 186,
-              "atendidosFora": 92,
+              "atendidosDentro": 185,
+              "atendidosFora": 93,
               "pendentes": 4,
               "chamados": [
                 {
@@ -21709,8 +21709,8 @@
                   "cliente": "MERCADO VIOLETA LTDA (FILIAL 11)",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84623,
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 10,
+          "abertos": 11,
           "atendidos": 5,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -21866,6 +21866,14 @@
                 },
                 {
                   "id": 84781,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-05",
+                  "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84794,
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
@@ -24755,6 +24763,14 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 84642,
+                  "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-09-30",
+                  "dataEntrega": "2026-09-30",
+                  "status": "atendido_dentro"
+                },
+                {
                   "id": 84336,
                   "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-22",
@@ -24769,14 +24785,6 @@
                   "prazo": "2026-09-04",
                   "dataEntrega": "2026-09-22",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 84642,
-                  "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
-                  "dataCadastro": "2026-09-29",
-                  "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-30",
-                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84145,
@@ -29602,10 +29610,26 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 1,
+          "abertos": 2,
           "atendidos": 0,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
+            {
+              "nome": "Documentação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84790,
+                  "cliente": "UNIFORTE DO BRASIL COMÉRCIO ATACADISTA DE EMBALAGENS LTDA",
+                  "dataCadastro": "2026-10-05",
+                  "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
@@ -36913,15 +36937,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 4,
+          "abertos": 5,
           "atendidos": 2,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Certificado",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84708,
@@ -36938,6 +36962,14 @@
                   "prazo": "2026-10-02",
                   "dataEntrega": "2026-10-05",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84786,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-05",
+                  "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -42343,8 +42375,8 @@
         {
           "mes": "2026-09",
           "abertos": 320,
-          "atendidos": 243,
-          "pendentes": 77,
+          "atendidos": 244,
+          "pendentes": 76,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42837,8 +42869,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 8,
-              "atendidosFora": 14,
-              "pendentes": 6,
+              "atendidosFora": 15,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83706,
@@ -43029,8 +43061,8 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 2)",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84680,
@@ -45995,15 +46027,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 2,
+          "abertos": 4,
           "atendidos": 0,
-          "pendentes": 2,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84775,
@@ -46016,6 +46048,22 @@
                 {
                   "id": 84779,
                   "cliente": "GODINHO SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-10-05",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84787,
+                  "cliente": "UP SEA SOLUÇÕES MARITIMAS E ENGENHARIA NAVAL LTDA",
+                  "dataCadastro": "2026-10-05",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84793,
+                  "cliente": "TESIP SERVIÇOS OPERACIONAIS LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
                   "dataEntrega": null,
@@ -49471,15 +49519,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 12,
-          "atendidos": 0,
-          "pendentes": 12,
+          "abertos": 14,
+          "atendidos": 1,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 12,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84697,
@@ -49576,6 +49624,30 @@
                   "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 84792,
+                  "cliente": "DISTRIBUIDORA BRAZLIMP LTDA",
+                  "dataCadastro": "2026-10-05",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 1,
+              "atendidosFora": 0,
+              "pendentes": 0,
+              "chamados": [
+                {
+                  "id": 84788,
+                  "cliente": "C&L TREINAMENTOS E ENGENHARIA OFFSHORE LTDA",
+                  "dataCadastro": "2026-10-05",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_dentro"
                 }
               ]
             }
