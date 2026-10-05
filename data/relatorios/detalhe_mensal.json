@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/10/2026 16:16",
+  "atualizado_em": "05/10/2026 08:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 7,
+          "abertos": 9,
           "atendidos": 5,
-          "pendentes": 2,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -21842,6 +21842,22 @@
                 },
                 {
                   "id": 84761,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84767,
+                  "cliente": "GABRIELA TORQUATO FERNANDEZ LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84768,
                   "cliente": null,
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
@@ -25144,9 +25160,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 1,
+          "abertos": 2,
           "atendidos": 0,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Multas Diversas",
@@ -25159,6 +25175,22 @@
                   "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84769,
+                  "cliente": "FILM FACIL LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27085,15 +27117,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 76,
+          "abertos": 75,
           "atendidos": 68,
-          "pendentes": 8,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 82161,
@@ -27116,14 +27148,6 @@
                   "cliente": "MERCADINHO BARCELONA LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83244,
-                  "cliente": "BERTON SUPERMERCADOS COMERCIO DE ALIMENTOS LTDA",
-                  "dataCadastro": "2026-08-28",
-                  "prazo": "2026-09-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -29759,10 +29783,90 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 5,
+          "abertos": 14,
           "atendidos": 5,
-          "pendentes": 0,
+          "pendentes": 9,
           "categorias": [
+            {
+              "nome": "Apontamentos",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 9,
+              "chamados": [
+                {
+                  "id": 78294,
+                  "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78301,
+                  "cliente": "ALUMINIO IMPERIAL LTDA ",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78306,
+                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78308,
+                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78309,
+                  "cliente": "Emplaca Automação e Tecnologia Ltda. ",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78313,
+                  "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78316,
+                  "cliente": "METALBRAS INDUSTRIA E COMERCIO DE METAIS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78324,
+                  "cliente": "V8 INDUSTRIA E COMERCIO DE PRODUTOS ABRASIVOS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78326,
+                  "cliente": "VTZZ INDUSTRIA E COMÉRCIO LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
@@ -33445,14 +33549,14 @@
         {
           "mes": "2026-09",
           "abertos": 28,
-          "atendidos": 17,
-          "pendentes": 11,
+          "atendidos": 19,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84298,
@@ -33475,8 +33579,8 @@
                   "cliente": "A P SOARES DA SILVA MERCADO E PADARIA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -33714,17 +33818,17 @@
             },
             {
               "nome": "Saldo Credor Incorreto",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84452,
                   "cliente": "Distribuidora de Alimentos SM Carvalho Ltda.",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-02",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83861,
@@ -33857,15 +33961,15 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 29,
+          "abertos": 20,
           "atendidos": 19,
-          "pendentes": 10,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 19,
-              "pendentes": 10,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 77683,
@@ -33908,22 +34012,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 78294,
-                  "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78301,
-                  "cliente": "ALUMINIO IMPERIAL LTDA ",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78304,
                   "cliente": "ANTOCON GALVANOPLASTIA LTDA",
                   "dataCadastro": "2026-03-30",
@@ -33940,36 +34028,12 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 78306,
-                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78307,
                   "cliente": "Caete Comunicacao Visual LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 78308,
-                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78309,
-                  "cliente": "Emplaca Automação e Tecnologia Ltda. ",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 78310,
@@ -33988,14 +34052,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 78313,
-                  "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78314,
                   "cliente": "LEANDRO SEBASTIAO SIQUEIRA LTDA",
                   "dataCadastro": "2026-03-30",
@@ -34010,14 +34066,6 @@
                   "prazo": "2026-04-10",
                   "dataEntrega": "2026-07-16",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 78316,
-                  "cliente": "METALBRAS INDUSTRIA E COMERCIO DE METAIS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 78317,
@@ -34076,28 +34124,12 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 78324,
-                  "cliente": "V8 INDUSTRIA E COMERCIO DE PRODUTOS ABRASIVOS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78325,
                   "cliente": "VALE CONCRETO LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
                   "dataEntrega": "2026-09-02",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 78326,
-                  "cliente": "VTZZ INDUSTRIA E COMÉRCIO LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             }
@@ -34793,15 +34825,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 78,
+          "abertos": 79,
           "atendidos": 44,
-          "pendentes": 34,
+          "pendentes": 35,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 7,
-              "pendentes": 15,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 82144,
@@ -34978,6 +35010,14 @@
                   "prazo": "2026-08-26",
                   "dataEntrega": "2026-09-01",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 83244,
+                  "cliente": "BERTON SUPERMERCADOS COMERCIO DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-08-28",
+                  "prazo": "2026-09-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -35498,8 +35538,8 @@
         {
           "mes": "2026-09",
           "abertos": 154,
-          "atendidos": 58,
-          "pendentes": 96,
+          "atendidos": 62,
+          "pendentes": 92,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -36368,8 +36408,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 9,
-              "atendidosFora": 12,
-              "pendentes": 9,
+              "atendidosFora": 16,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83336,
@@ -36552,16 +36592,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83820,
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84037,
@@ -36584,16 +36624,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84225,
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84306,
@@ -36834,30 +36874,30 @@
         {
           "mes": "2026-10",
           "abertos": 4,
-          "atendidos": 0,
-          "pendentes": 4,
+          "atendidos": 2,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Certificado",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84708,
                   "cliente": null,
                   "dataCadastro": "2026-10-01",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84709,
                   "cliente": null,
                   "dataCadastro": "2026-10-01",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-05",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -45070,9 +45110,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 27,
+          "abertos": 30,
           "atendidos": 1,
-          "pendentes": 26,
+          "pendentes": 29,
           "categorias": [
             {
               "nome": "Alteração Contratual",
@@ -45198,13 +45238,21 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84704,
                   "cliente": null,
                   "dataCadastro": "2026-10-01",
                   "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84766,
+                  "cliente": "TERRA BRASIL HORTI FRUTI LTDA",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45254,7 +45302,7 @@
               "nome": "Senha",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 14,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 84703,
@@ -45307,6 +45355,22 @@
                 {
                   "id": 84762,
                   "cliente": "ERF EMPREENDIMENTOS E PARTICIPACOES S/A",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84764,
+                  "cliente": "PANTOJA HOLDING E PARTICIPACOES LTDA. ",
+                  "dataCadastro": "2026-10-02",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84765,
+                  "cliente": "Aleta Participações Ltda",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
                   "dataEntrega": null,
