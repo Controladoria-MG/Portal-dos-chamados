@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "06/10/2026 13:37",
+  "atualizado_em": "06/10/2026 14:43",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 25,
-          "atendidos": 16,
-          "pendentes": 9,
+          "abertos": 26,
+          "atendidos": 26,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 14,
+              "atendidosDentro": 24,
               "atendidosFora": 2,
-              "pendentes": 9,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84707,
@@ -21909,8 +21909,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84850,
@@ -21933,64 +21933,72 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84872,
                   "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84874,
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84883,
                   "cliente": "SJC FAST FOOD LTDA ",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84891,
                   "cliente": "D A SAVEGNAGO - ASSESSORIA EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84892,
                   "cliente": "M GOMES CONSULTORIA LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84893,
                   "cliente": "TGN GESTÃO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84894,
                   "cliente": "MANU SAVE LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84896,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -25288,9 +25296,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 7,
+          "abertos": 8,
           "atendidos": 3,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -25384,8 +25392,16 @@
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84895,
+                  "cliente": "POWER FINANCIAL DO BRASIL S.A.",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84831,
                   "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
@@ -34177,6 +34193,54 @@
               ]
             }
           ]
+        },
+        {
+          "mes": "2026-10",
+          "abertos": 4,
+          "atendidos": 0,
+          "pendentes": 4,
+          "categorias": [
+            {
+              "nome": "SPED",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 4,
+              "chamados": [
+                {
+                  "id": 84900,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F10)",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84897,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 117)",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84898,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 127)",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84899,
+                  "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 129)",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -42783,8 +42847,8 @@
         {
           "mes": "2026-09",
           "abertos": 320,
-          "atendidos": 252,
-          "pendentes": 68,
+          "atendidos": 253,
+          "pendentes": 67,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42893,8 +42957,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
-              "atendidosFora": 9,
-              "pendentes": 11,
+              "atendidosFora": 10,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83702,
@@ -42909,8 +42973,8 @@
                   "cliente": "ASSOCIAÇÃO PORTUGUESA DE DESPORTOS ",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84584,
@@ -45590,23 +45654,31 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 64,
-          "atendidos": 10,
+          "abertos": 65,
+          "atendidos": 11,
           "pendentes": 54,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
               "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84901,
+                  "cliente": "ATALAIA COMERCIO ATACADISTA DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84878,
                   "cliente": "RC MINIMERCADO E SERVICOS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84861,
