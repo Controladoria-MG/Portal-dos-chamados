@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "05/10/2026 18:20",
+  "atualizado_em": "06/10/2026 08:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24255,7 +24255,7 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-08-26",
                   "prazo": "2026-08-26",
-                  "dataEntrega": "2026-09-11",
+                  "dataEntrega": "2026-10-06",
                   "status": "atendido_fora"
                 }
               ]
@@ -27933,8 +27933,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 87,
-          "atendidos": 68,
+          "abertos": 86,
+          "atendidos": 67,
           "pendentes": 19,
           "categorias": [
             {
@@ -28491,8 +28491,8 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 4,
-              "atendidosFora": 9,
+              "atendidosDentro": 2,
+              "atendidosFora": 10,
               "pendentes": 0,
               "chamados": [
                 {
@@ -28584,20 +28584,12 @@
                   "status": "atendido_dentro"
                 },
                 {
-                  "id": 84628,
-                  "cliente": "BOMBEIROS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANÇA LTDA",
-                  "dataCadastro": "2026-09-29",
-                  "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-30",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 84629,
                   "cliente": "COMBATEAINCENDIOS.COM.BR COMERCIO DE EQUIPAMENTOS DE SEGURANCA LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -29967,16 +29959,24 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 14,
+          "abertos": 20,
           "atendidos": 5,
-          "pendentes": 9,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 15,
               "chamados": [
+                {
+                  "id": 78294,
+                  "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 78294,
                   "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
@@ -30002,6 +30002,22 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 78306,
+                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78308,
+                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 78308,
                   "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
                   "dataCadastro": "2026-03-30",
@@ -30018,8 +30034,32 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 78309,
+                  "cliente": "Emplaca Automação e Tecnologia Ltda. ",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 78313,
                   "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78313,
+                  "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78316,
+                  "cliente": "METALBRAS INDUSTRIA E COMERCIO DE METAIS LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
                   "dataEntrega": null,
@@ -31358,7 +31398,7 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-08-17",
                   "prazo": "2026-08-24",
-                  "dataEntrega": "2026-10-05",
+                  "dataEntrega": "2026-10-06",
                   "status": "atendido_fora"
                 }
               ]
@@ -44101,7 +44141,7 @@
                   "cliente": "FFRA CONCRETOS LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": "2026-10-05",
+                  "dataEntrega": "2026-10-06",
                   "status": "atendido_fora"
                 }
               ]
@@ -45422,8 +45462,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 51,
-          "atendidos": 10,
+          "abertos": 50,
+          "atendidos": 9,
           "pendentes": 41,
           "categorias": [
             {
@@ -45636,7 +45676,7 @@
             },
             {
               "nome": "Notificação",
-              "atendidosDentro": 3,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
               "pendentes": 1,
               "chamados": [
@@ -45647,14 +45687,6 @@
                   "prazo": "2026-10-06",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 84830,
-                  "cliente": "SUPERMERCADO BARONESA LTDA (MATRIZ)",
-                  "dataCadastro": "2026-10-05",
-                  "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-05",
-                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84727,
