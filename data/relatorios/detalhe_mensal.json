@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "06/10/2026 16:50",
+  "atualizado_em": "06/10/2026 17:20",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 181,
-              "atendidosFora": 99,
+              "atendidosDentro": 180,
+              "atendidosFora": 100,
               "pendentes": 2,
               "chamados": [
                 {
@@ -20557,8 +20557,8 @@
                   "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83986,
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 27,
+          "abertos": 28,
           "atendidos": 26,
-          "pendentes": 1,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 24,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84707,
@@ -22003,6 +22003,14 @@
                 {
                   "id": 84909,
                   "cliente": null,
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84912,
+                  "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
                   "dataEntrega": null,
@@ -25304,9 +25312,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 5,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Balanço e DRE",
@@ -25400,8 +25408,16 @@
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84913,
+                  "cliente": "ESS INDUSTRIA E COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84895,
                   "cliente": "POWER FINANCIAL DO BRASIL S.A.",
@@ -45686,9 +45702,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 70,
+          "abertos": 72,
           "atendidos": 17,
-          "pendentes": 53,
+          "pendentes": 55,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46094,7 +46110,7 @@
               "nome": "Regularização",
               "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84885,
@@ -46103,6 +46119,14 @@
                   "prazo": "2026-10-08",
                   "dataEntrega": "2026-10-06",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84911,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84888,
@@ -46119,6 +46143,14 @@
                   "prazo": "2026-10-08",
                   "dataEntrega": "2026-10-06",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84914,
+                  "cliente": "B G N INDUSTRIA E COMERCIO LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
