@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "06/10/2026 10:42",
+  "atualizado_em": "06/10/2026 11:41",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 183,
-              "atendidosFora": 97,
+              "atendidosDentro": 182,
+              "atendidosFora": 98,
               "pendentes": 2,
               "chamados": [
                 {
@@ -20509,8 +20509,8 @@
                   "cliente": "FANAN MATERIAIS PARA CONSTRUÇÃO LTDA (FILIAL 1)",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-15",
-                  "dataEntrega": "2026-09-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83973,
@@ -21765,7 +21765,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-10-02",
+                  "dataEntrega": "2026-10-06",
                   "status": "atendido_fora"
                 },
                 {
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 16,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 14,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -21941,6 +21941,14 @@
                   "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84874,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -37129,9 +37137,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 2,
-          "pendentes": 22,
+          "pendentes": 23,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -37233,7 +37241,7 @@
               "nome": "Certificado",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84708,
@@ -37296,6 +37304,14 @@
                   "cliente": "FERRO & FAMILIA COMERCIO DE DOCES E DERIVADOS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84876,
+                  "cliente": "FANAN MATERIAIS PARA CONSTRUÇÃO LTDA ",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -42727,8 +42743,8 @@
         {
           "mes": "2026-09",
           "abertos": 320,
-          "atendidos": 251,
-          "pendentes": 69,
+          "atendidos": 252,
+          "pendentes": 68,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -44157,8 +44173,8 @@
             {
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 0,
-              "atendidosFora": 6,
-              "pendentes": 1,
+              "atendidosFora": 7,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83563,
@@ -44197,8 +44213,8 @@
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83647,
@@ -44260,8 +44276,8 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 5,
-              "atendidosFora": 6,
+              "atendidosDentro": 4,
+              "atendidosFora": 7,
               "pendentes": 9,
               "chamados": [
                 {
@@ -44293,8 +44309,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83526,
@@ -45534,16 +45550,24 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 53,
+          "abertos": 55,
           "atendidos": 10,
-          "pendentes": 43,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84878,
+                  "cliente": "RC MINIMERCADO E SERVICOS LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84861,
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
@@ -45861,7 +45885,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-05",
+                  "dataEntrega": "2026-10-06",
                   "status": "atendido_dentro"
                 }
               ]
@@ -45910,7 +45934,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 22,
+              "pendentes": 23,
               "chamados": [
                 {
                   "id": 84802,
@@ -46029,6 +46053,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84879,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -50159,15 +50191,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 21,
+          "abertos": 22,
           "atendidos": 2,
-          "pendentes": 19,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 17,
+              "pendentes": 18,
               "chamados": [
                 {
                   "id": 84697,
@@ -50310,6 +50342,14 @@
                   "cliente": "ECONOMIZAPLAST COMERCIO LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84877,
+                  "cliente": "MAPA DISTRIBUIDORA DE ALIMENTOS IMPORTACAO E EXPORTACAO LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-13",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
