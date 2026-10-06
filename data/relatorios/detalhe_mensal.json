@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "06/10/2026 12:27",
+  "atualizado_em": "06/10/2026 13:37",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 20,
+          "abertos": 25,
           "atendidos": 16,
-          "pendentes": 4,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 14,
               "atendidosFora": 2,
-              "pendentes": 4,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84707,
@@ -21949,6 +21949,46 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84883,
+                  "cliente": "SJC FAST FOOD LTDA ",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84891,
+                  "cliente": "D A SAVEGNAGO - ASSESSORIA EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84892,
+                  "cliente": "M GOMES CONSULTORIA LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84893,
+                  "cliente": "TGN GESTÃO EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84894,
+                  "cliente": "MANU SAVE LTDA",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -42981,7 +43021,7 @@
                   "cliente": "ERS PRINT SOLUÇÕES GRAFICAS E VISUAIS LTDA ",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-10-02",
+                  "dataEntrega": "2026-10-06",
                   "status": "atendido_fora"
                 },
                 {
@@ -45550,9 +45590,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 57,
+          "abertos": 64,
           "atendidos": 10,
-          "pendentes": 47,
+          "pendentes": 54,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -45766,8 +45806,16 @@
               "nome": "Levantamento de Débitos Anual",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84890,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84842,
                   "cliente": "PERFORMANCE PROTECTION LTDA",
@@ -45907,6 +45955,38 @@
               ]
             },
             {
+              "nome": "Regularização",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 3,
+              "chamados": [
+                {
+                  "id": 84885,
+                  "cliente": "MORETE SUPERMERCADOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84888,
+                  "cliente": "MORETE SUPERMERCADOS LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84886,
+                  "cliente": "MORETE SUPERMERCADOS LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 1,
@@ -45934,7 +46014,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 25,
+              "pendentes": 28,
               "chamados": [
                 {
                   "id": 84802,
@@ -45949,6 +46029,30 @@
                   "cliente": "Lindele Participações S.A.",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84884,
+                  "cliente": "ROFHASAR ADMINISTRAÇÃO E PARTICIPAÇÃO S.A",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84887,
+                  "cliente": "Fhasel Administração e Participação S.A.",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84889,
+                  "cliente": "AR4 PARTICIPAÇÕES LTDA ",
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
