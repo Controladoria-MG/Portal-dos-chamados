@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/10/2026 10:54",
+  "atualizado_em": "07/10/2026 12:28",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21757,7 +21757,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": "2026-10-02",
+                  "dataEntrega": "2026-10-07",
                   "status": "atendido_fora"
                 },
                 {
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 31,
+          "abertos": 32,
           "atendidos": 31,
-          "pendentes": 0,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 29,
-              "atendidosFora": 2,
-              "pendentes": 0,
+              "atendidosDentro": 28,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84707,
@@ -21925,8 +21925,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84864,
@@ -22039,6 +22039,14 @@
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84941,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -25336,15 +25344,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 9,
-          "atendidos": 7,
+          "abertos": 10,
+          "atendidos": 8,
           "pendentes": 2,
           "categorias": [
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84862,
@@ -25361,6 +25369,14 @@
                   "prazo": "2026-10-06",
                   "dataEntrega": "2026-10-05",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84939,
+                  "cliente": "MAESTRO DISTRIBUIDORA E SERVIÇOS LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25383,16 +25399,16 @@
             {
               "nome": "Multas Diversas",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84745,
                   "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -28869,9 +28885,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 1,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -28933,7 +28949,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84720,
@@ -28942,6 +28958,14 @@
                   "prazo": "2026-10-05",
                   "dataEntrega": "2026-10-02",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84943,
+                  "cliente": "PADARIA VILA NOVA CONCEICAO LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -31710,7 +31734,7 @@
                   "cliente": "PIZZA CREK FAST FOOD LTDA (FILIAL 7)",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-09-14",
+                  "dataEntrega": "2026-10-07",
                   "status": "atendido_fora"
                 },
                 {
@@ -32367,16 +32391,24 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 0,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 84936,
+                  "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84903,
                   "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
@@ -34155,7 +34187,7 @@
                   "cliente": "J R BARROS COMERCIO LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-10-07",
                   "status": "atendido_fora"
                 },
                 {
@@ -45742,9 +45774,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 83,
+          "abertos": 84,
           "atendidos": 19,
-          "pendentes": 64,
+          "pendentes": 65,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46165,7 +46197,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-01",
                   "prazo": "2026-10-02",
-                  "dataEntrega": "2026-10-05",
+                  "dataEntrega": "2026-10-07",
                   "status": "atendido_fora"
                 },
                 {
@@ -46278,7 +46310,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 36,
+              "pendentes": 37,
               "chamados": [
                 {
                   "id": 84802,
@@ -46557,6 +46589,14 @@
                   "cliente": "VALQUET SJC COMERCIO ALIMENTOS E BEBIDAS LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84945,
+                  "cliente": "CENTRO COMERCIAL DE FERRAMENTAS LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -50647,15 +50687,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 2,
-          "pendentes": 20,
+          "pendentes": 21,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 18,
+              "pendentes": 19,
               "chamados": [
                 {
                   "id": 84697,
@@ -50806,6 +50846,14 @@
                   "cliente": "MAPA DISTRIBUIDORA DE ALIMENTOS IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84942,
+                  "cliente": "SUPERMIX 44 DISTRIBUIDORA DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-12",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
