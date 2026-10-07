@@ -1604,31 +1604,19 @@ function buildHBarChart(container, itens) {
    filtros/busca/aba ativos).
 ═══════════════════════════════════════════════════════════════════ */
 
+/* Mesma regra dos cards "Em Atraso" / "Vencendo Hoje" (prazoBucket, pelo
+   Prazo Vencimento) — a cobrança precisa bater com os números da tela. A
+   Previsão de Atendimento não tira nem põe chamado nesses dois tópicos. */
 function chamadosVencendoHoje(tickets) {
-  const today = new Date(); today.setHours(0, 0, 0, 0);
-  return tickets.filter(r => {
-    const prazo    = parsePrazoDate(prazoVal(r));
-    const previsao = parsePrazoDate(previsaoVal(r));
-    return (prazo && prazo.getTime() === today.getTime())
-        || (previsao && previsao.getTime() === today.getTime());
-  });
+  return tickets.filter(r => prazoBucket(r) === 'hoje');
 }
 
 function chamadosSemPrevisao(tickets) {
   return tickets.filter(r => !parsePrazoDate(previsaoVal(r)));
 }
 
-/* Cobra chamados com Previsão de Atendimento vencida; chamados com previsão
-   preenchida para hoje ou depois não entram aqui mesmo que o Prazo
-   Vencimento já tenha passado. Chamados sem previsão preenchida continuam
-   usando o Prazo Vencimento (também aparecem em "sem previsão"). */
 function chamadosVencidos(tickets) {
-  const today = new Date(); today.setHours(0, 0, 0, 0);
-  return tickets.filter(r => {
-    const previsao = parsePrazoDate(previsaoVal(r));
-    if (previsao) return previsao < today;
-    return vencimentoStatus(r) === 'Vencido';
-  });
+  return tickets.filter(r => prazoBucket(r) === 'atraso');
 }
 
 function gerarTextoCobranca(dept, tickets) {
