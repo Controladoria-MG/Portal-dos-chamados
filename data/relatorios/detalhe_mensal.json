@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/10/2026 16:58",
+  "atualizado_em": "07/10/2026 18:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17124,8 +17124,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 160,
-              "atendidosFora": 135,
+              "atendidosDentro": 159,
+              "atendidosFora": 136,
               "pendentes": 0,
               "chamados": [
                 {
@@ -18765,8 +18765,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-08-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82774,
@@ -21782,13 +21782,13 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 35,
-          "atendidos": 31,
+          "abertos": 37,
+          "atendidos": 33,
           "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 28,
+              "atendidosDentro": 30,
               "atendidosFora": 3,
               "pendentes": 4,
               "chamados": [
@@ -22045,16 +22045,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84946,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84956,
@@ -22069,6 +22069,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84964,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84967,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -28134,8 +28150,8 @@
         {
           "mes": "2026-09",
           "abertos": 86,
-          "atendidos": 68,
-          "pendentes": 18,
+          "atendidos": 69,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28331,9 +28347,9 @@
             },
             {
               "nome": "Autorregularização",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84599,
@@ -28364,8 +28380,8 @@
                   "cliente": "ESPETINHO VILA MARIANA LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -28933,9 +28949,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 4,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29012,6 +29028,22 @@
                   "cliente": "PADARIA VILA NOVA CONCEICAO LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Retificação de Obrigação Acessória",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84963,
+                  "cliente": "CLUBE DO CONFEITEIRO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45830,9 +45862,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 91,
+          "abertos": 94,
           "atendidos": 19,
-          "pendentes": 72,
+          "pendentes": 75,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46070,13 +46102,21 @@
               "nome": "Certidão",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84760,
                   "cliente": "MPJ - PRODUTOS, EQUIPAMENTOS E SERVICOS LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84965,
+                  "cliente": "PRO ADVANCED SOLUCOES EM T.I. LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -46349,7 +46389,7 @@
                   "cliente": "MORETE SUPERMERCADOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
-                  "dataEntrega": "2026-10-06",
+                  "dataEntrega": "2026-10-07",
                   "status": "atendido_dentro"
                 },
                 {
@@ -46365,7 +46405,7 @@
                   "cliente": "MORETE SUPERMERCADOS LTDA (FILIAL 2)",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
-                  "dataEntrega": "2026-10-06",
+                  "dataEntrega": "2026-10-07",
                   "status": "atendido_dentro"
                 },
                 {
@@ -46373,7 +46413,7 @@
                   "cliente": "MORETE SUPERMERCADOS LTDA (FILIAL 3)",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
-                  "dataEntrega": "2026-10-06",
+                  "dataEntrega": "2026-10-07",
                   "status": "atendido_dentro"
                 },
                 {
@@ -46422,7 +46462,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 39,
+              "pendentes": 41,
               "chamados": [
                 {
                   "id": 84802,
@@ -46617,6 +46657,14 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 84935,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84957,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
@@ -46625,7 +46673,15 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 84935,
+                  "id": 84961,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84962,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
