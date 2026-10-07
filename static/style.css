@@ -801,6 +801,11 @@ tr.rel-total-row td:not(:first-child) {
   font-family: 'Segoe UI', Arial, sans-serif;
 }
 .cobranca-capture-block .table-scroll { overflow: visible; }
+.cobranca-print-title {
+  font-size: 0.9rem; font-weight: 700; color: var(--primary);
+  text-transform: uppercase; letter-spacing: 0.04em;
+  margin-bottom: 0.8rem;
+}
 
 .cobranca-actions-row {
   display: flex; align-items: center; gap: 0.8rem;

@@ -1658,6 +1658,37 @@ function gerarTextoCobranca(dept, tickets) {
     + `Agradeço a atenção!`;
 }
 
+/* Status mostrados no tópico "Chamados por status", nesta ordem — cada um
+   vira uma seção com sua própria tabela de clientes. Comparação sem
+   acento/maiúsculas (a base às vezes traz "Responsavel" sem acento). */
+const COBRANCA_STATUS = [
+  'Devolvido para Solicitante',
+  'Em Atendimento',
+  'Esperando Atendimento',
+  'Devolvido',
+  'Devolvido para Responsável',
+];
+
+function chamadosDoStatus(tickets, status) {
+  const alvo = normalizeSearch(status);
+  return tickets.filter(r => normalizeSearch(col(r, 'Status', 'status')).trim() === alvo);
+}
+
+function blocoPorStatusHtml(titulo, tickets) {
+  const secoes = COBRANCA_STATUS.map(status => {
+    const doStatus = chamadosDoStatus(tickets, status);
+    return `
+      <div class="categoria-group">
+        <div class="categoria-group-title">
+          ${escHtml(status)}
+          <span class="categoria-group-count">${doStatus.length} chamado${doStatus.length !== 1 ? 's' : ''}</span>
+        </div>
+        ${doStatus.length ? tabelaClientesHtml(agruparPorCliente(doStatus)) : ''}
+      </div>`;
+  }).join('');
+  return `<div class="cobranca-print-title">${escHtml(titulo)}</div>${secoes}`;
+}
+
 /* Um print por tópico (vencidos / vencendo hoje / sem previsão), cada um
    com sua própria tabela de clientes — em vez de um print único com a
    tabela inteira do departamento. */
@@ -1665,6 +1696,7 @@ const COBRANCA_TOPICOS = [
   { key: 'vencidos',     titulo: 'Chamados vencidos',                    filtro: chamadosVencidos },
   { key: 'vencendoHoje', titulo: 'Chamados vencendo hoje',                filtro: chamadosVencendoHoje },
   { key: 'semPrevisao',  titulo: 'Chamados sem previsão de atendimento',  filtro: chamadosSemPrevisao },
+  { key: 'porStatus',    titulo: 'Chamados por status',                   filtro: t => t, bloco: blocoPorStatusHtml },
 ];
 
 function tabelaClientesHtml(clients) {
@@ -1745,10 +1777,10 @@ async function abrirCobranca() {
     const bg = getComputedStyle(document.body).getPropertyValue('--bg-deep').trim() || '#ffffff';
     cobrancaBlobs = {};
 
-    for (const { key, titulo, filtro } of COBRANCA_TOPICOS) {
+    for (const { key, titulo, filtro, bloco = blocoCobrancaHtml } of COBRANCA_TOPICOS) {
       const el = document.createElement('div');
       el.className = 'cobranca-capture-block';
-      el.innerHTML = blocoCobrancaHtml(titulo, filtro(currentVisibleTickets));
+      el.innerHTML = bloco(titulo, filtro(currentVisibleTickets));
       document.body.appendChild(el);
       const canvas = await html2canvas(el, { backgroundColor: bg, scale: 2 });
       cobrancaBlobs[key] = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
