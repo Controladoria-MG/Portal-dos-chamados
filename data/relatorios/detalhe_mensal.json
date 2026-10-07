@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "06/10/2026 17:20",
+  "atualizado_em": "07/10/2026 09:19",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 28,
+          "abertos": 31,
           "atendidos": 26,
-          "pendentes": 2,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 24,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -22012,6 +22012,30 @@
                   "id": 84912,
                   "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84915,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84916,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-06",
+                  "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84923,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-07",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -25313,22 +25337,22 @@
         {
           "mes": "2026-10",
           "abertos": 9,
-          "atendidos": 5,
-          "pendentes": 4,
+          "atendidos": 7,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84862,
                   "cliente": "TENDAS PROMOCIONAIS INDUSTRIA E COMÉRCIO LTDA ",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84835,
@@ -25407,8 +25431,8 @@
             {
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84913,
@@ -25431,8 +25455,8 @@
                   "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -29658,9 +29682,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 16,
+          "abertos": 15,
           "atendidos": 7,
-          "pendentes": 9,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Cadastro",
@@ -29698,7 +29722,7 @@
               "nome": "Documentação",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83676,
@@ -29739,14 +29763,6 @@
                   "prazo": "2026-09-28",
                   "dataEntrega": "2026-09-28",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 83622,
-                  "cliente": "INFINITY UTILIDADES LTDA",
-                  "dataCadastro": "2026-09-04",
-                  "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -29843,8 +29859,8 @@
         {
           "mes": "2026-10",
           "abertos": 4,
-          "atendidos": 0,
-          "pendentes": 4,
+          "atendidos": 1,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Cadastro",
@@ -29896,17 +29912,17 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84905,
                   "cliente": "ANDERSON JULIO FERNANDES",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -33997,8 +34013,8 @@
         {
           "mes": "2026-09",
           "abertos": 26,
-          "atendidos": 18,
-          "pendentes": 8,
+          "atendidos": 19,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -34035,8 +34051,8 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 4,
+              "atendidosFora": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84050,
@@ -34067,8 +34083,8 @@
                   "cliente": "RICHETTI COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-06",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83481,
@@ -39303,8 +39319,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 378,
-          "pendentes": 40,
+          "atendidos": 377,
+          "pendentes": 41,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40581,8 +40597,8 @@
             {
               "nome": "Notificação",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 0,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82426,
@@ -40613,8 +40629,8 @@
                   "cliente": "ERS PRINT SOLUÇÕES GRAFICAS E VISUAIS LTDA ",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-10-05",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -45702,9 +45718,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 72,
-          "atendidos": 17,
-          "pendentes": 55,
+          "abertos": 76,
+          "atendidos": 18,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -45877,16 +45893,16 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84726,
                   "cliente": "UNIVERSO DAS COISINHAS E-COMMERCE LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -46182,7 +46198,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 30,
+              "pendentes": 34,
               "chamados": [
                 {
                   "id": 84802,
@@ -46353,6 +46369,22 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 84918,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84922,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84752,
                   "cliente": "ECAPAC ADMINISTRAÇÃO E PARTICIPAÇÃO S.A",
                   "dataCadastro": "2026-10-02",
@@ -46381,6 +46413,14 @@
                   "cliente": "Stantuer Participações Ltda",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84921,
+                  "cliente": "HERLOS EMPREENDIMENTOS S.A.",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -46429,6 +46469,14 @@
                   "cliente": "FILM FACIL LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84917,
+                  "cliente": "DROGARIA MIX I LTDA (FILIAL 4)",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -46939,15 +46987,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 3,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84775,
@@ -46994,6 +47042,14 @@
                   "cliente": "DIBRAMASUL MADEIRAS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84920,
+                  "cliente": "ESTACAO DO PEIXE RESTAURANTE LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
