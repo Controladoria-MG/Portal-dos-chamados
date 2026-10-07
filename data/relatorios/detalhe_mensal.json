@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/10/2026 16:01",
+  "atualizado_em": "07/10/2026 16:58",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -10156,8 +10156,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 98,
-              "atendidosFora": 165,
+              "atendidosDentro": 97,
+              "atendidosFora": 166,
               "pendentes": 0,
               "chamados": [
                 {
@@ -11741,8 +11741,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-25",
                   "prazo": "2026-05-26",
-                  "dataEntrega": "2026-05-25",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79446,
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 158,
-              "atendidosFora": 156,
+              "atendidosDentro": 157,
+              "atendidosFora": 157,
               "pendentes": 0,
               "chamados": [
                 {
@@ -13893,8 +13893,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-06-17",
                   "prazo": "2026-06-18",
-                  "dataEntrega": "2026-06-17",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80160,
@@ -14804,8 +14804,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 143,
-              "atendidosFora": 141,
+              "atendidosDentro": 142,
+              "atendidosFora": 142,
               "pendentes": 0,
               "chamados": [
                 {
@@ -14925,8 +14925,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-01",
                   "prazo": "2026-07-02",
-                  "dataEntrega": "2026-07-01",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80692,
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 34,
+          "abertos": 35,
           "atendidos": 31,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 28,
               "atendidosFora": 3,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -22058,6 +22058,14 @@
                 },
                 {
                   "id": 84956,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84960,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
@@ -28126,8 +28134,8 @@
         {
           "mes": "2026-09",
           "abertos": 86,
-          "atendidos": 67,
-          "pendentes": 19,
+          "atendidos": 68,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -28787,9 +28795,9 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84314,
@@ -28804,8 +28812,8 @@
                   "cliente": "RICHETTI COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -28926,22 +28934,22 @@
         {
           "mes": "2026-10",
           "abertos": 9,
-          "atendidos": 3,
-          "pendentes": 6,
+          "atendidos": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84827,
                   "cliente": "Pantoja & Cia Ltda.",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84924,
@@ -36121,9 +36129,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 149,
+          "abertos": 148,
           "atendidos": 62,
-          "pendentes": 87,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -37257,7 +37265,7 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83660,
@@ -37280,14 +37288,6 @@
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 84330,
-                  "cliente": "PABLO HENRIQUE CONINCK PACHECO LTDA",
-                  "dataCadastro": "2026-09-22",
-                  "prazo": "2026-09-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -45830,9 +45830,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 90,
+          "abertos": 91,
           "atendidos": 19,
-          "pendentes": 71,
+          "pendentes": 72,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46422,7 +46422,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 38,
+              "pendentes": 39,
               "chamados": [
                 {
                   "id": 84802,
@@ -46617,7 +46617,7 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 84935,
+                  "id": 84957,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
@@ -46625,7 +46625,7 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 84957,
+                  "id": 84935,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
@@ -46695,6 +46695,14 @@
                   "prazo": "2026-10-06",
                   "dataEntrega": "2026-10-05",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84959,
+                  "cliente": "CLINICA SAUDE & VIDA LTDA (FILIAL)",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84758,
