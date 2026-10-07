@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/10/2026 15:12",
+  "atualizado_em": "07/10/2026 16:01",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -45830,9 +45830,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 88,
+          "abertos": 90,
           "atendidos": 19,
-          "pendentes": 69,
+          "pendentes": 71,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46243,6 +46243,22 @@
               ]
             },
             {
+              "nome": "Parcelamento Estadual",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84958,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 1,
               "atendidosFora": 0,
@@ -46406,7 +46422,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 37,
+              "pendentes": 38,
               "chamados": [
                 {
                   "id": 84802,
@@ -46602,6 +46618,14 @@
                 },
                 {
                   "id": 84935,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84957,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
