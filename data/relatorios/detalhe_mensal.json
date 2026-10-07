@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/10/2026 12:28",
+  "atualizado_em": "07/10/2026 15:12",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 32,
+          "abertos": 34,
           "atendidos": 31,
-          "pendentes": 1,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 28,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84707,
@@ -22042,6 +22042,22 @@
                 },
                 {
                   "id": 84941,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84946,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84956,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
@@ -22532,6 +22548,30 @@
                   "prazo": "2026-09-24",
                   "dataEntrega": "2026-09-28",
                   "status": "atendido_fora"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-10",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "Balanço e DRE",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84954,
+                  "cliente": "KEITEI LOCAÇÃO E ADMINISTRAÇÃO DE IMÓVEIS LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -25345,14 +25385,14 @@
         {
           "mes": "2026-10",
           "abertos": 10,
-          "atendidos": 8,
-          "pendentes": 2,
+          "atendidos": 9,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84862,
@@ -25375,8 +25415,8 @@
                   "cliente": "MAESTRO DISTRIBUIDORA E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -28886,14 +28926,14 @@
         {
           "mes": "2026-10",
           "abertos": 9,
-          "atendidos": 1,
-          "pendentes": 8,
+          "atendidos": 3,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84827,
@@ -28908,16 +28948,16 @@
                   "cliente": "COMERCIO VAREJISTA DE MERCADORIAS 3M LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84925,
                   "cliente": "COMERCIO VAREJISTA DE MERCADORIAS 3M LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-07",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -37353,9 +37393,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 26,
+          "abertos": 28,
           "atendidos": 2,
-          "pendentes": 24,
+          "pendentes": 26,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -37545,7 +37585,7 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84693,
@@ -37584,6 +37624,22 @@
                   "cliente": "SUPERMERCADO UMUARAMA LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84949,
+                  "cliente": "DIMENSAO 3 LOG - TRANSPORTES & LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84951,
+                  "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-08",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -43337,6 +43393,14 @@
               "pendentes": 4,
               "chamados": [
                 {
+                  "id": 84457,
+                  "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84516,
                   "cliente": "MINI SUPERMERCADO TULIO LTDA",
                   "dataCadastro": "2026-09-28",
@@ -43349,14 +43413,6 @@
                   "cliente": "GOIAS SERVICE LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 84457,
-                  "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
-                  "dataCadastro": "2026-09-24",
-                  "prazo": "2026-09-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -45729,6 +45785,14 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 84630,
+                  "cliente": "PABLO HENRIQUE CONINCK PACHECO LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 83922,
                   "cliente": "GRANUA AGROINDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-14",
@@ -45759,14 +45823,6 @@
                   "prazo": "2026-10-02",
                   "dataEntrega": "2026-10-02",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 84630,
-                  "cliente": "PABLO HENRIQUE CONINCK PACHECO LTDA",
-                  "dataCadastro": "2026-09-29",
-                  "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             }
@@ -45774,9 +45830,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 84,
+          "abertos": 88,
           "atendidos": 19,
-          "pendentes": 65,
+          "pendentes": 69,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -45926,7 +45982,7 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84694,
@@ -45957,6 +46013,22 @@
                   "cliente": "ALFAMAX LOCADORA LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84950,
+                  "cliente": "DIMENSAO 3 LOG - TRANSPORTES & LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84953,
+                  "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -46014,7 +46086,7 @@
               "nome": "Docs Implantação novos Clientes",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84931,
@@ -46031,6 +46103,30 @@
                   "prazo": "2026-10-08",
                   "dataEntrega": "2026-10-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84948,
+                  "cliente": "EXPAND COMERCIO E SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Envio de Proposta",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84955,
+                  "cliente": "NRL COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -46593,7 +46689,7 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 84945,
+                  "id": 84947,
                   "cliente": "CENTRO COMERCIAL DE FERRAMENTAS LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
@@ -47123,9 +47219,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 9,
+          "abertos": 10,
           "atendidos": 3,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -47195,7 +47291,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84812,
@@ -47210,6 +47306,14 @@
                   "cliente": "Mercado Romano Ltda. ",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84952,
+                  "cliente": "STOCK FRANGO DISTRIBUIDORA DE GÊNEROS ALIMENTÍCIOS E TRANSPORTE LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-14",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
