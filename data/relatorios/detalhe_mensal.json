@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/10/2026 18:42",
+  "atualizado_em": "08/10/2026 08:47",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -28950,8 +28950,8 @@
         {
           "mes": "2026-10",
           "abertos": 10,
-          "atendidos": 4,
-          "pendentes": 6,
+          "atendidos": 5,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29011,9 +29011,9 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84720,
@@ -29028,8 +29028,8 @@
                   "cliente": "PADARIA VILA NOVA CONCEICAO LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -45862,9 +45862,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 94,
+          "abertos": 95,
           "atendidos": 19,
-          "pendentes": 75,
+          "pendentes": 76,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46462,7 +46462,7 @@
               "nome": "Senha",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 41,
+              "pendentes": 42,
               "chamados": [
                 {
                   "id": 84802,
@@ -46685,6 +46685,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84968,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-12",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
