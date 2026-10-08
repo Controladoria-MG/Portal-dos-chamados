@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/10/2026 09:18",
+  "atualizado_em": "08/10/2026 10:40",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 37,
-          "atendidos": 33,
-          "pendentes": 4,
+          "abertos": 42,
+          "atendidos": 41,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 30,
-              "atendidosFora": 3,
-              "pendentes": 4,
+              "atendidosDentro": 35,
+              "atendidosFora": 6,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84707,
@@ -21901,8 +21901,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84844,
@@ -22021,16 +22021,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84916,
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84923,
@@ -22045,7 +22045,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": "2026-10-07",
+                  "dataEntrega": "2026-10-08",
                   "status": "atendido_dentro"
                 },
                 {
@@ -22061,29 +22061,69 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84960,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84964,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84967,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84969,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84970,
+                  "cliente": "JL DISTRIBUIDORA DE PAPELARIA LTDA",
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84972,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84976,
+                  "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 84979,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -25383,7 +25423,7 @@
                   "cliente": "REMARCA COMÉRCIO DE MAQUINAS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-10-05",
+                  "dataEntrega": "2026-10-08",
                   "status": "atendido_fora"
                 },
                 {
@@ -31470,7 +31510,7 @@
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-07-31",
                   "prazo": "2026-08-03",
-                  "dataEntrega": "2026-09-21",
+                  "dataEntrega": "2026-10-08",
                   "status": "atendido_fora"
                 },
                 {
@@ -43055,8 +43095,8 @@
         {
           "mes": "2026-09",
           "abertos": 320,
-          "atendidos": 255,
-          "pendentes": 65,
+          "atendidos": 261,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -43477,8 +43517,8 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 2,
+              "atendidosFora": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84652,
@@ -43493,8 +43533,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84022,
@@ -43749,7 +43789,7 @@
                   "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": "2026-10-05",
+                  "dataEntrega": "2026-10-08",
                   "status": "atendido_fora"
                 },
                 {
@@ -44861,8 +44901,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 36,
-              "atendidosFora": 65,
-              "pendentes": 23,
+              "atendidosFora": 70,
+              "pendentes": 18,
               "chamados": [
                 {
                   "id": 83368,
@@ -45189,16 +45229,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84674,
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84568,
@@ -45701,8 +45741,8 @@
                   "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83908,
@@ -45749,8 +45789,8 @@
                   "cliente": "YURI CESTARI DA SILVA EMBREAGENS OSASCO",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84621,
@@ -45821,8 +45861,8 @@
                   "cliente": "PABLO HENRIQUE CONINCK PACHECO LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83922,
@@ -45862,8 +45902,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 95,
-          "atendidos": 19,
+          "abertos": 97,
+          "atendidos": 21,
           "pendentes": 76,
           "categorias": [
             {
@@ -46380,9 +46420,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84885,
@@ -46429,8 +46469,8 @@
                   "cliente": "SUPER DOCES MARINGA LTDA (FILIAL 6)",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -46460,9 +46500,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 42,
+              "pendentes": 43,
               "chamados": [
                 {
                   "id": 84802,
@@ -46673,6 +46713,22 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 84968,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84974,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84961,
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
@@ -46685,16 +46741,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 84968,
-                  "cliente": null,
-                  "dataCadastro": "2026-10-08",
-                  "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84752,
@@ -46733,6 +46781,14 @@
                   "cliente": "HERLOS EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84975,
+                  "cliente": "ACCESS EVENTOS E VIAGENS LTDA",
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-13",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -50887,15 +50943,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 2,
-          "pendentes": 21,
+          "pendentes": 22,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 19,
+              "pendentes": 20,
               "chamados": [
                 {
                   "id": 84697,
@@ -51054,6 +51110,14 @@
                   "cliente": "SUPERMIX 44 DISTRIBUIDORA DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84978,
+                  "cliente": "HFRUTI DCM COMERCIO LTDA ",
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-11-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
