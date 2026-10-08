@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/10/2026 08:47",
+  "atualizado_em": "08/10/2026 09:18",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -43055,8 +43055,8 @@
         {
           "mes": "2026-09",
           "abertos": 320,
-          "atendidos": 254,
-          "pendentes": 66,
+          "atendidos": 255,
+          "pendentes": 65,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -44573,16 +44573,16 @@
             {
               "nome": "Procuração",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84570,
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 }
               ]
             },
