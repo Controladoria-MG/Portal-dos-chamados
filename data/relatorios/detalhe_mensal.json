@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/10/2026 16:23",
+  "atualizado_em": "08/10/2026 17:11",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 51,
-          "atendidos": 45,
-          "pendentes": 6,
+          "abertos": 56,
+          "atendidos": 46,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 39,
+              "atendidosDentro": 40,
               "atendidosFora": 6,
-              "pendentes": 6,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84707,
@@ -22157,8 +22157,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84991,
@@ -22194,6 +22194,46 @@
                 },
                 {
                   "id": 85001,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85005,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85006,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85007,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85008,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85010,
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
@@ -29077,9 +29117,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 10,
+          "abertos": 12,
           "atendidos": 7,
-          "pendentes": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29117,8 +29157,16 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85002,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84847,
                   "cliente": "SUPERMERCADO BARONESA LTDA (MATRIZ)",
@@ -29141,7 +29189,7 @@
               "nome": "DCTFWeb",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84720,
@@ -29150,6 +29198,14 @@
                   "prazo": "2026-10-05",
                   "dataEntrega": "2026-10-02",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85003,
+                  "cliente": "BENTA RESTAURANTE LTDA",
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84943,
@@ -37561,9 +37617,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 29,
+          "abertos": 30,
           "atendidos": 2,
-          "pendentes": 27,
+          "pendentes": 28,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -37673,7 +37729,7 @@
               "nome": "Certificado",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84708,
@@ -37744,6 +37800,14 @@
                   "cliente": "FANAN MATERIAIS PARA CONSTRUÇÃO LTDA ",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85009,
+                  "cliente": "COMERCIAL DE MATERIAIS ELETRICOS MM LTDA",
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -46014,15 +46078,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 101,
-          "atendidos": 31,
+          "abertos": 102,
+          "atendidos": 32,
           "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84901,
@@ -46053,8 +46117,8 @@
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -46406,13 +46470,21 @@
               "nome": "Notificação",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84838,
                   "cliente": "PIZZA CREK FAST FOOD LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85004,
+                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
+                  "dataCadastro": "2026-10-08",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
