@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/10/2026 10:42",
+  "atualizado_em": "09/10/2026 12:25",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21788,8 +21788,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 52,
-              "atendidosFora": 6,
+              "atendidosDentro": 49,
+              "atendidosFora": 9,
               "pendentes": 2,
               "chamados": [
                 {
@@ -21845,8 +21845,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": "2026-10-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84767,
@@ -21861,8 +21861,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": "2026-10-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84781,
@@ -21917,8 +21917,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84855,
@@ -22205,7 +22205,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-08",
+                  "dataEntrega": "2026-10-09",
                   "status": "atendido_dentro"
                 },
                 {
@@ -22756,6 +22756,30 @@
                   "prazo": "2026-09-24",
                   "dataEntrega": "2026-10-08",
                   "status": "atendido_fora"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mes": "2026-10",
+          "abertos": 1,
+          "atendidos": 0,
+          "pendentes": 1,
+          "categorias": [
+            {
+              "nome": "Documentação Contábil",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85027,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -34389,8 +34413,8 @@
         {
           "mes": "2026-09",
           "abertos": 25,
-          "atendidos": 18,
-          "pendentes": 7,
+          "atendidos": 19,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -34427,8 +34451,8 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 3,
+              "atendidosFora": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84050,
@@ -34443,8 +34467,8 @@
                   "cliente": "Padaria e Restaurante Valentina Ltda.",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84051,
@@ -44100,8 +44124,8 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 14,
-              "atendidosFora": 22,
+              "atendidosDentro": 13,
+              "atendidosFora": 23,
               "pendentes": 2,
               "chamados": [
                 {
@@ -44181,8 +44205,8 @@
                   "cliente": "GENGIBRE ADMINISTRACAO E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83507,
@@ -44852,8 +44876,8 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 4,
-              "atendidosFora": 7,
+              "atendidosDentro": 3,
+              "atendidosFora": 8,
               "pendentes": 9,
               "chamados": [
                 {
@@ -44861,8 +44885,8 @@
                   "cliente": "COMERCIO DE ALIMENTOS VICALI LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84392,
@@ -46126,23 +46150,23 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 109,
-          "atendidos": 39,
-          "pendentes": 70,
+          "abertos": 111,
+          "atendidos": 38,
+          "pendentes": 73,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84901,
                   "cliente": "ATALAIA COMERCIO ATACADISTA DE PRODUTOS ALIMENTÍCIOS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
-                  "dataEntrega": "2026-10-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84878,
@@ -46260,8 +46284,8 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 2,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 2,
               "pendentes": 0,
               "chamados": [
                 {
@@ -46269,16 +46293,16 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": "2026-10-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84743,
                   "cliente": "MAIS VERDE DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": "2026-10-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -46382,8 +46406,16 @@
               "nome": "Certidão",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 85029,
+                  "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85021,
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
@@ -46437,7 +46469,7 @@
                   "cliente": "EXPAND COMERCIO E SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-08",
+                  "dataEntrega": "2026-10-09",
                   "status": "atendido_dentro"
                 }
               ]
@@ -46462,8 +46494,16 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 85028,
+                  "cliente": "Oslo Comercial de Alimentos Ltda",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85026,
                   "cliente": "NRCA CONSULTORIA E TREINAMENTO - LTDA",
