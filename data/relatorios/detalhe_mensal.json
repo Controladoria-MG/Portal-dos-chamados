@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/10/2026 09:35",
+  "atualizado_em": "09/10/2026 10:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 59,
-          "atendidos": 54,
-          "pendentes": 5,
+          "abertos": 60,
+          "atendidos": 58,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 48,
+              "atendidosDentro": 52,
               "atendidosFora": 6,
-              "pendentes": 5,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84707,
@@ -22245,24 +22245,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85013,
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85014,
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85019,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -25560,15 +25568,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 12,
-          "atendidos": 10,
-          "pendentes": 2,
+          "abertos": 14,
+          "atendidos": 11,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84862,
@@ -25591,8 +25599,8 @@
                   "cliente": "Parafutrecos Comercial LTDA ",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84939,
@@ -25617,6 +25625,30 @@
                   "prazo": "2026-10-06",
                   "dataEntrega": "2026-10-06",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Malha Fiscal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 85022,
+                  "cliente": "PIZZA CREK FAST FOOD LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85024,
+                  "cliente": "SJC FAST FOOD LTDA ",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -29117,9 +29149,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 12,
+          "abertos": 13,
           "atendidos": 7,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29214,6 +29246,22 @@
                   "prazo": "2026-10-08",
                   "dataEntrega": "2026-10-08",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Malha Fiscal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85025,
+                  "cliente": "Padaria e Restaurante Valentina Ltda.",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -46078,9 +46126,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 107,
+          "abertos": 109,
           "atendidos": 39,
-          "pendentes": 68,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46334,8 +46382,16 @@
               "nome": "Certidão",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 85021,
+                  "cliente": "CLINICA SAUDE & VIDA LTDA ",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84760,
                   "cliente": "MPJ - PRODUTOS, EQUIPAMENTOS E SERVICOS LTDA",
@@ -46406,8 +46462,16 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 85026,
+                  "cliente": "NRCA CONSULTORIA E TREINAMENTO - LTDA",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84848,
                   "cliente": "A & BNK FACILITIES LTDA",
@@ -51199,15 +51263,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 2,
-          "pendentes": 22,
+          "pendentes": 23,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 20,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 84697,
@@ -51374,6 +51438,14 @@
                   "cliente": "HFRUTI DCM COMERCIO LTDA ",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-11-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85023,
+                  "cliente": "PARADA DOS PAES LTDA",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
