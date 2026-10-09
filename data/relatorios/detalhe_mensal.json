@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/10/2026 16:13",
+  "atualizado_em": "09/10/2026 16:50",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 65,
+          "abertos": 67,
           "atendidos": 58,
-          "pendentes": 7,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 47,
               "atendidosFora": 11,
-              "pendentes": 7,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84707,
@@ -22306,6 +22306,22 @@
                 },
                 {
                   "id": 85054,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85055,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85056,
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
@@ -37778,8 +37794,8 @@
         {
           "mes": "2026-10",
           "abertos": 38,
-          "atendidos": 2,
-          "pendentes": 36,
+          "atendidos": 3,
+          "pendentes": 35,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -37887,9 +37903,9 @@
             },
             {
               "nome": "Certificado",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 9,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84708,
@@ -37968,8 +37984,8 @@
                   "cliente": "COMERCIAL DE MATERIAIS ELETRICOS MM LTDA",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85038,
@@ -44253,16 +44269,16 @@
             {
               "nome": "Envio de Proposta",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84451,
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-10-09",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84430,
@@ -44588,9 +44604,9 @@
             },
             {
               "nome": "Levantamento de Débitos Anual",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84038,
@@ -44605,8 +44621,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83739,
@@ -45301,8 +45317,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 36,
-              "atendidosFora": 71,
-              "pendentes": 17,
+              "atendidosFora": 73,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 83368,
@@ -45565,8 +45581,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84369,
@@ -45581,8 +45597,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84650,
@@ -46302,9 +46318,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 117,
+          "abertos": 118,
           "atendidos": 39,
-          "pendentes": 78,
+          "pendentes": 79,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46885,6 +46901,22 @@
                   "cliente": "TAITI COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Procuração",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85057,
+                  "cliente": "FCR SERVICO DE APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-10-09",
+                  "prazo": "2026-10-13",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
