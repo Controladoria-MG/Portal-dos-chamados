@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/10/2026 14:40",
+  "atualizado_em": "13/10/2026 15:40",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 72,
+          "abertos": 73,
           "atendidos": 69,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 52,
               "atendidosFora": 17,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -22362,6 +22362,14 @@
                 },
                 {
                   "id": 85092,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85096,
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
@@ -46502,9 +46510,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 123,
+          "abertos": 126,
           "atendidos": 43,
-          "pendentes": 80,
+          "pendentes": 83,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46831,6 +46839,22 @@
                   "prazo": "2026-10-09",
                   "dataEntrega": "2026-10-09",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Encerramento de Empresa",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85094,
+                  "cliente": "BAR E LANCHES JUVENTUDE DE PRAIA GRANDE- EIRELI ",
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-11-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -47246,7 +47270,7 @@
               "nome": "Senha",
               "atendidosDentro": 7,
               "atendidosFora": 4,
-              "pendentes": 44,
+              "pendentes": 46,
               "chamados": [
                 {
                   "id": 84703,
@@ -47649,6 +47673,14 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 85095,
+                  "cliente": "MERCADO VIOLETA LTDA (FILIAL 11)",
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84881,
                   "cliente": "FILM FACIL LTDA",
                   "dataCadastro": "2026-10-06",
@@ -47669,6 +47701,14 @@
                   "cliente": "CENTRO COMERCIAL DE FERRAMENTAS LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85093,
+                  "cliente": "SANTOS & DIAN MATERIAIS PARA CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-10-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
