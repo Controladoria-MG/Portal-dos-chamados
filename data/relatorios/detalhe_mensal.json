@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/10/2026 15:40",
+  "atualizado_em": "13/10/2026 16:28",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,15 +21782,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 73,
+          "abertos": 74,
           "atendidos": 69,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "MG Controle",
               "atendidosDentro": 52,
               "atendidosFora": 17,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -22371,6 +22371,14 @@
                 {
                   "id": 85096,
                   "cliente": null,
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85099,
+                  "cliente": "POINT GRUMA COMERCIO E SERVICOS LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
                   "dataEntrega": null,
@@ -37905,9 +37913,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 48,
+          "abertos": 50,
           "atendidos": 3,
-          "pendentes": 45,
+          "pendentes": 47,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -38025,7 +38033,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 9,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84708,
@@ -38118,6 +38126,22 @@
                 {
                   "id": 85078,
                   "cliente": "FCR SERVICO DE APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85097,
+                  "cliente": "Mega Adega Kanguru LTDA ",
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85098,
+                  "cliente": "C. K. UEHARA MATERIAIS PARA CONSTRUCAO LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
                   "dataEntrega": null,
@@ -48236,14 +48260,14 @@
         {
           "mes": "2026-10",
           "abertos": 11,
-          "atendidos": 4,
-          "pendentes": 7,
+          "atendidos": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84775,
@@ -48306,8 +48330,8 @@
                   "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-13",
+                  "status": "atendido_dentro"
                 }
               ]
             },
