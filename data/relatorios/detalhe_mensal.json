@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/10/2026 16:50",
+  "atualizado_em": "13/10/2026 09:28",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -30306,21 +30306,29 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 7,
+          "abertos": 8,
           "atendidos": 3,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85051,
                   "cliente": "MERCADINHO KI PREÇO BAIXO LTDA",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85058,
+                  "cliente": "T C DE CASTRO EMPREENDIMENTOS LTDA",
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-10-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -43511,8 +43519,8 @@
         {
           "mes": "2026-09",
           "abertos": 320,
-          "atendidos": 267,
-          "pendentes": 53,
+          "atendidos": 270,
+          "pendentes": 50,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -43877,8 +43885,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84516,
@@ -43909,8 +43917,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-13",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -44005,8 +44013,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 7,
-              "atendidosFora": 17,
-              "pendentes": 4,
+              "atendidosFora": 18,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83708,
@@ -44189,8 +44197,8 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84679,
@@ -44605,8 +44613,8 @@
             {
               "nome": "Levantamento de Débitos Anual",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84038,
@@ -44621,8 +44629,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83739,
@@ -46318,9 +46326,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 118,
-          "atendidos": 39,
-          "pendentes": 79,
+          "abertos": 119,
+          "atendidos": 44,
+          "pendentes": 75,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46476,17 +46484,17 @@
             },
             {
               "nome": "Auditoria",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84953,
                   "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84694,
@@ -46525,8 +46533,8 @@
                   "cliente": "DIMENSAO 3 LOG - TRANSPORTES & LOGISTICA LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-09",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -46660,9 +46668,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85028,
@@ -46693,8 +46701,8 @@
                   "cliente": "AMANCIO S ELETRICA, HIDRAULICA E CONSTRUCAO EM GERAL LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-13",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -46757,8 +46765,8 @@
             {
               "nome": "Notificação",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84838,
@@ -46773,8 +46781,8 @@
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84937,
@@ -46806,7 +46814,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84958,
@@ -46815,6 +46823,14 @@
                   "prazo": "2026-10-09",
                   "dataEntrega": "2026-10-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85059,
+                  "cliente": "ATENDE NSA COMERCIO E DISTRIBUIÇÃO LTDA ",
+                  "dataCadastro": "2026-10-13",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -47021,8 +47037,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 7,
-              "atendidosFora": 3,
-              "pendentes": 44,
+              "atendidosFora": 4,
+              "pendentes": 43,
               "chamados": [
                 {
                   "id": 84802,
@@ -47333,8 +47349,8 @@
                   "cliente": "CONSTEVES CONSTRUÇÕES ESTEVES LTDA",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-13",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85016,
