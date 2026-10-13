@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/10/2026 12:33",
+  "atualizado_em": "13/10/2026 13:07",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -29294,8 +29294,8 @@
         {
           "mes": "2026-10",
           "abertos": 15,
-          "atendidos": 8,
-          "pendentes": 7,
+          "atendidos": 9,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29444,8 +29444,8 @@
             {
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84783,
@@ -29460,8 +29460,8 @@
                   "cliente": "DISTRIBUIDORA FERRAZ GUERRA LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-13",
+                  "status": "atendido_fora"
                 }
               ]
             }
