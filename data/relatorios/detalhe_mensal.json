@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/10/2026 18:06",
+  "atualizado_em": "14/10/2026 19:12",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21804,8 +21804,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 60,
-              "atendidosFora": 21,
+              "atendidosDentro": 59,
+              "atendidosFora": 22,
               "pendentes": 20,
               "chamados": [
                 {
@@ -22173,8 +22173,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84991,
@@ -33296,8 +33296,8 @@
         {
           "mes": "2026-10",
           "abertos": 10,
-          "atendidos": 3,
-          "pendentes": 7,
+          "atendidos": 7,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -33325,25 +33325,25 @@
             },
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85063,
                   "cliente": "RJR INDUSTRIA DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85066,
                   "cliente": "AQUAPROOF IMPERMEABILIZACAO E CONSTRUCAO LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84817,
@@ -33357,33 +33357,33 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85161,
                   "cliente": "Parafutrecos Comercial LTDA ",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Reembolso",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85116,
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -47046,9 +47046,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 136,
+          "abertos": 137,
           "atendidos": 52,
-          "pendentes": 84,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47742,13 +47742,21 @@
               "nome": "Regularização",
               "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84911,
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85196,
+                  "cliente": "FAGUNDES, TONELO, FERRO, DOMINGUES E BARROS ADVOGADOS",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -52495,15 +52503,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 42,
+          "abertos": 44,
           "atendidos": 2,
-          "pendentes": 40,
+          "pendentes": 42,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 34,
+              "pendentes": 36,
               "chamados": [
                 {
                   "id": 84697,
@@ -52782,6 +52790,22 @@
                   "cliente": "PLASTLIMP COMERCIO DESCARTAVEIS E LIMPEZA LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85197,
+                  "cliente": "A.A.S SERVIÇOS DE APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-11-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85198,
+                  "cliente": "D M F SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-11-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
