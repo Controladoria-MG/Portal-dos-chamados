@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/10/2026 11:09",
+  "atualizado_em": "14/10/2026 12:11",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 83,
-          "atendidos": 79,
-          "pendentes": 4,
+          "abertos": 84,
+          "atendidos": 82,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 58,
+              "atendidosDentro": 61,
               "atendidosFora": 20,
-              "pendentes": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84707,
@@ -22421,16 +22421,16 @@
                   "cliente": "TYKINV ADMINISTRAÇÃO E PARTICIPAÇÕES S.A",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85114,
                   "cliente": "GENGIBRE ADMINISTRACAO E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85122,
@@ -22459,6 +22459,14 @@
                 {
                   "id": 85138,
                   "cliente": null,
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85146,
+                  "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
                   "dataEntrega": null,
@@ -25792,9 +25800,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 17,
+          "abertos": 20,
           "atendidos": 12,
-          "pendentes": 5,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -25824,7 +25832,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84862,
@@ -25851,6 +25859,14 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 85142,
+                  "cliente": "MONTE CARLO LAB SERVICOS ADMINISTRATIVOS E COMERCIO LTDA ",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84939,
                   "cliente": "MAESTRO DISTRIBUIDORA E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-07",
@@ -25873,6 +25889,22 @@
                   "prazo": "2026-10-06",
                   "dataEntrega": "2026-10-06",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Documentação Contábil",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85158,
+                  "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -25945,6 +25977,22 @@
                   "prazo": "2026-10-06",
                   "dataEntrega": "2026-10-05",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Saldo Credor Incorreto",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85154,
+                  "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -29405,9 +29453,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 10,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29461,13 +29509,21 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85002,
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85143,
+                  "cliente": "LASER ALL TRANSPORTES LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -46766,15 +46822,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 132,
-          "atendidos": 45,
-          "pendentes": 87,
+          "abertos": 134,
+          "atendidos": 46,
+          "pendentes": 88,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84901,
@@ -46789,8 +46845,8 @@
                   "cliente": "RC MINIMERCADO E SERVICOS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
-                  "dataEntrega": "2026-10-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84861,
@@ -46814,7 +46870,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84698,
@@ -46845,6 +46901,14 @@
                   "cliente": "FIXO LOCACOES DE BENS LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85156,
+                  "cliente": "D. M. DAMASCENO",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -47045,8 +47109,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85029,
@@ -47061,8 +47125,8 @@
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84760,
@@ -47149,16 +47213,16 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85028,
                   "cliente": "Oslo Comercial de Alimentos Ltda",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85026,
@@ -47310,7 +47374,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84958,
@@ -47325,6 +47389,14 @@
                   "cliente": "ATENDE NSA COMERCIO E DISTRIBUIÇÃO LTDA ",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85153,
+                  "cliente": "KAUA RIBEIRO TIAGO 46375356890",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48539,9 +48611,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 11,
+          "abertos": 15,
           "atendidos": 5,
-          "pendentes": 6,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -48619,7 +48691,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84812,
@@ -48642,6 +48714,38 @@
                   "cliente": "STOCK FRANGO DISTRIBUIDORA DE GÊNEROS ALIMENTÍCIOS E TRANSPORTE LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85145,
+                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85149,
+                  "cliente": "TUTTI QUITUTE PRODUTOS ALIMENTICIOS LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85150,
+                  "cliente": "TUTTI QUITUTE PRODUTOS ALIMENTICIOS LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85152,
+                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -49610,15 +49714,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 4,
+          "abertos": 8,
           "atendidos": 0,
-          "pendentes": 4,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84705,
@@ -49649,6 +49753,38 @@
                   "cliente": "BLACK WOOD BURGER LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85144,
+                  "cliente": "EQUIPLEVE SP COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS S.A.",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85147,
+                  "cliente": "MERCADO QZ DO BARRETO LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85151,
+                  "cliente": "WC COMPRAS LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85155,
+                  "cliente": "WCS APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
