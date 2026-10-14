@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/10/2026 12:11",
+  "atualizado_em": "14/10/2026 12:49",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 84,
+          "abertos": 85,
           "atendidos": 82,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 61,
-              "atendidosFora": 20,
-              "pendentes": 2,
+              "atendidosDentro": 60,
+              "atendidosFora": 21,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84707,
@@ -22029,8 +22029,8 @@
                   "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-07",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84915,
@@ -22469,6 +22469,14 @@
                   "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85159,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -46823,8 +46831,8 @@
         {
           "mes": "2026-10",
           "abertos": 134,
-          "atendidos": 46,
-          "pendentes": 88,
+          "atendidos": 47,
+          "pendentes": 87,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47629,8 +47637,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 9,
-              "atendidosFora": 4,
-              "pendentes": 46,
+              "atendidosFora": 5,
+              "pendentes": 45,
               "chamados": [
                 {
                   "id": 84703,
@@ -47821,8 +47829,8 @@
                   "cliente": "CONSTECA - CONSTRUÇÕES FONSECA ESTEVES LTDA ",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84834,
