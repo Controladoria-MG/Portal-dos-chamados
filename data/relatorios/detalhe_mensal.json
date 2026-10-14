@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/10/2026 09:06",
+  "atualizado_em": "14/10/2026 10:20",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 171,
-              "atendidosFora": 109,
+              "atendidosDentro": 170,
+              "atendidosFora": 110,
               "pendentes": 2,
               "chamados": [
                 {
@@ -20205,8 +20205,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83822,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 80,
+          "abertos": 81,
           "atendidos": 74,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 56,
               "atendidosFora": 18,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -22439,6 +22439,14 @@
                   "prazo": "2026-10-14",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 85133,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -22946,7 +22954,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-13",
+                  "dataEntrega": "2026-10-14",
                   "status": "atendido_fora"
                 },
                 {
@@ -29444,7 +29452,7 @@
                   "cliente": "YARA DESIGN E DECORAÇÃO LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": "2026-10-13",
+                  "dataEntrega": "2026-10-14",
                   "status": "atendido_dentro"
                 },
                 {
@@ -38049,9 +38057,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 55,
+          "abertos": 56,
           "atendidos": 3,
-          "pendentes": 52,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -38185,7 +38193,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 14,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 84708,
@@ -38320,6 +38328,14 @@
                   "cliente": "GABRIELA TORQUATO FERNANDEZ LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85132,
+                  "cliente": "MERCADAO NATURAL LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -43911,8 +43927,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 270,
-          "pendentes": 49,
+          "atendidos": 271,
+          "pendentes": 48,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -45709,8 +45725,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 33,
-              "atendidosFora": 76,
-              "pendentes": 15,
+              "atendidosFora": 77,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 83368,
@@ -46173,8 +46189,8 @@
                   "cliente": "CUCINARE PRO ALIMENTACAO LTDA (FILIAL 102)",
                   "dataCadastro": "2026-09-17",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83838,
@@ -52063,15 +52079,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 29,
+          "abertos": 36,
           "atendidos": 2,
-          "pendentes": 27,
+          "pendentes": 34,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 24,
+              "pendentes": 31,
               "chamados": [
                 {
                   "id": 84697,
@@ -52270,6 +52286,62 @@
                   "cliente": "RMB SUPERMERCADO EIRELI",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85125,
+                  "cliente": "CHARM MODA COMERCIO DE ROUPAS, CALÇADOS E ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85126,
+                  "cliente": "LOFT DA MODA LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85127,
+                  "cliente": "TRIBOS DO ESTILO LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85128,
+                  "cliente": "ITRIBOS 5 MULTIMARCAS LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85129,
+                  "cliente": "VISTA CHIC LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85130,
+                  "cliente": "AURA FASHION LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85131,
+                  "cliente": "MODA FASHION COMERCIO DE ROUPAS, CALÇADOS E ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
