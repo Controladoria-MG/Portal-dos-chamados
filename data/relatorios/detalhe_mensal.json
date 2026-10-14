@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/10/2026 17:16",
+  "atualizado_em": "14/10/2026 18:06",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 166,
-              "atendidosFora": 114,
+              "atendidosDentro": 164,
+              "atendidosFora": 116,
               "pendentes": 2,
               "chamados": [
                 {
@@ -21581,8 +21581,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-25",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84485,
@@ -21621,8 +21621,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-09-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84495,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 99,
+          "abertos": 102,
           "atendidos": 82,
-          "pendentes": 17,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 60,
               "atendidosFora": 21,
-              "pendentes": 17,
+              "pendentes": 20,
               "chamados": [
                 {
                   "id": 84707,
@@ -22586,6 +22586,30 @@
                 },
                 {
                   "id": 85189,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85193,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85194,
+                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85195,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
@@ -45797,7 +45821,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-30",
+                  "dataEntrega": "2026-10-14",
                   "status": "atendido_fora"
                 },
                 {
@@ -47023,8 +47047,8 @@
         {
           "mes": "2026-10",
           "abertos": 136,
-          "atendidos": 51,
-          "pendentes": 85,
+          "atendidos": 52,
+          "pendentes": 84,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47829,8 +47853,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 9,
-              "atendidosFora": 9,
-              "pendentes": 43,
+              "atendidosFora": 10,
+              "pendentes": 42,
               "chamados": [
                 {
                   "id": 84703,
@@ -48165,8 +48189,8 @@
                   "cliente": "LUSINDE INVEST ADMINISTRACAO DE BENS PROPRIOS S.A.",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84928,
@@ -52471,15 +52495,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 40,
+          "abertos": 42,
           "atendidos": 2,
-          "pendentes": 38,
+          "pendentes": 40,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 32,
+              "pendentes": 34,
               "chamados": [
                 {
                   "id": 84697,
@@ -52740,6 +52764,22 @@
                 {
                   "id": 85190,
                   "cliente": "DESLIMPEX DISTRIBUIDORA DE DESCARTAVEIS E MATERIAIS DE LIMPEZA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85191,
+                  "cliente": "DSX SERVICOS E COMERCIO LTDA ",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85192,
+                  "cliente": "PLASTLIMP COMERCIO DESCARTAVEIS E LIMPEZA LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-21",
                   "dataEntrega": null,
