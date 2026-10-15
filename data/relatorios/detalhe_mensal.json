@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 16:53",
+  "atualizado_em": "15/10/2026 17:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 114,
+          "abertos": 118,
           "atendidos": 104,
-          "pendentes": 10,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 79,
-              "atendidosFora": 24,
-              "pendentes": 10,
+              "atendidosDentro": 78,
+              "atendidosFora": 25,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84707,
@@ -21885,8 +21885,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-05",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84794,
@@ -22706,6 +22706,38 @@
                 },
                 {
                   "id": 85232,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85233,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85237,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85238,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85240,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
@@ -30699,8 +30731,8 @@
         {
           "mes": "2026-09",
           "abertos": 15,
-          "atendidos": 7,
-          "pendentes": 8,
+          "atendidos": 8,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Cadastro",
@@ -30817,16 +30849,16 @@
             {
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84654,
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -30875,8 +30907,8 @@
         {
           "mes": "2026-10",
           "abertos": 9,
-          "atendidos": 3,
-          "pendentes": 6,
+          "atendidos": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30905,16 +30937,16 @@
             {
               "nome": "Cadastro",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84860,
                   "cliente": "NOVA BOSTON GRILL RESTAURANTE LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -38513,9 +38545,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 57,
+          "abertos": 58,
           "atendidos": 3,
-          "pendentes": 54,
+          "pendentes": 55,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -38649,7 +38681,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 16,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 84708,
@@ -38800,6 +38832,14 @@
                   "cliente": "ATENDE NSA COMERCIO E DISTRIBUIÇÃO LTDA ",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85236,
+                  "cliente": "RESTAURANTE E LANCHONETE BENTA LTDA",
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -47190,9 +47230,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 145,
+          "abertos": 147,
           "atendidos": 53,
-          "pendentes": 92,
+          "pendentes": 94,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47886,7 +47926,7 @@
               "nome": "Procuração",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85064,
@@ -47901,6 +47941,14 @@
                   "cliente": "FCR SERVICO DE APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85234,
+                  "cliente": "FCR SERVICO DE APOIO ADMINISTRATIVO LTDA",
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48054,7 +48102,7 @@
               "nome": "Senha",
               "atendidosDentro": 10,
               "atendidosFora": 10,
-              "pendentes": 44,
+              "pendentes": 45,
               "chamados": [
                 {
                   "id": 84703,
@@ -48234,6 +48282,14 @@
                 },
                 {
                   "id": 85225,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85235,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
