@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 17:42",
+  "atualizado_em": "15/10/2026 18:48",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 118,
-          "atendidos": 104,
-          "pendentes": 14,
+          "abertos": 121,
+          "atendidos": 103,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21805,8 +21805,8 @@
             {
               "nome": "MG Controle",
               "atendidosDentro": 78,
-              "atendidosFora": 25,
-              "pendentes": 14,
+              "atendidosFora": 24,
+              "pendentes": 18,
               "chamados": [
                 {
                   "id": 84707,
@@ -22293,15 +22293,15 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-13",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85048,
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-13",
+                  "dataEntrega": "2026-10-15",
                   "status": "atendido_fora"
                 },
                 {
@@ -22738,6 +22738,30 @@
                 },
                 {
                   "id": 85240,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85241,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85242,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85243,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
@@ -30731,8 +30755,8 @@
         {
           "mes": "2026-09",
           "abertos": 15,
-          "atendidos": 8,
-          "pendentes": 7,
+          "atendidos": 9,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Cadastro",
@@ -30769,8 +30793,8 @@
             {
               "nome": "Documentação",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83676,
@@ -30785,8 +30809,8 @@
                   "cliente": "OBA OBA MIX LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83525,
@@ -33047,9 +33071,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 38,
+          "abertos": 39,
           "atendidos": 34,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33287,7 +33311,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83762,
@@ -33328,6 +33352,14 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-10-06",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 84436,
+                  "cliente": "G4 LINHA VIVA LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -37281,9 +37313,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 148,
+          "abertos": 147,
           "atendidos": 62,
-          "pendentes": 86,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -38456,22 +38488,6 @@
                   "cliente": "GOIAS SERVICE LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 84436,
-                  "cliente": "G4 LINHA VIVA LTDA",
-                  "dataCadastro": "2026-09-24",
-                  "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
