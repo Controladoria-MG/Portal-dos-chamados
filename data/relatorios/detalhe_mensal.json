@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 09:52",
+  "atualizado_em": "15/10/2026 10:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 104,
-          "atendidos": 100,
-          "pendentes": 4,
+          "abertos": 105,
+          "atendidos": 102,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 76,
-              "atendidosFora": 23,
-              "pendentes": 4,
+              "atendidosDentro": 77,
+              "atendidosFora": 24,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84707,
@@ -21949,8 +21949,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84872,
@@ -22621,11 +22621,19 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85202,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85204,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
@@ -31360,8 +31368,8 @@
         {
           "mes": "2026-06",
           "abertos": 58,
-          "atendidos": 56,
-          "pendentes": 2,
+          "atendidos": 57,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Alteração de Regime Tributário",
@@ -31534,16 +31542,16 @@
             {
               "nome": "MG Controle",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 79769,
                   "cliente": "P.E Latina Maquinas para Rotulagem Ltda.",
                   "dataCadastro": "2026-06-08",
                   "prazo": "2026-06-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -47063,8 +47071,8 @@
         {
           "mes": "2026-10",
           "abertos": 138,
-          "atendidos": 51,
-          "pendentes": 87,
+          "atendidos": 52,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47884,9 +47892,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 9,
+              "atendidosDentro": 10,
               "atendidosFora": 10,
-              "pendentes": 42,
+              "pendentes": 41,
               "chamados": [
                 {
                   "id": 84703,
@@ -48373,8 +48381,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 134)",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -52527,15 +52535,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 45,
+          "abertos": 46,
           "atendidos": 2,
-          "pendentes": 43,
+          "pendentes": 44,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 37,
+              "pendentes": 38,
               "chamados": [
                 {
                   "id": 84697,
@@ -52838,6 +52846,14 @@
                   "cliente": "LFOP SERVICOS DE APOIO LTDA ",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-11-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85203,
+                  "cliente": "ASA FORTE COMERCIO DE RAÇÕES LTDA",
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
