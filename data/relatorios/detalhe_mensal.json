@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 08:49",
+  "atualizado_em": "15/10/2026 09:52",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 102,
-          "atendidos": 82,
-          "pendentes": 20,
+          "abertos": 104,
+          "atendidos": 100,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 59,
-              "atendidosFora": 22,
-              "pendentes": 20,
+              "atendidosDentro": 76,
+              "atendidosFora": 23,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -22285,7 +22285,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-14",
+                  "dataEntrega": "2026-10-15",
                   "status": "atendido_fora"
                 },
                 {
@@ -22469,8 +22469,8 @@
                   "cliente": "SUPERMERCADO ROSSI NEW LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85159,
@@ -22485,134 +22485,150 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85166,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85169,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85170,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85171,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85172,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85175,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85178,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85179,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85182,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85184,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85185,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85187,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85189,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85193,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85194,
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85195,
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85200,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85202,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -25945,8 +25961,8 @@
         {
           "mes": "2026-10",
           "abertos": 20,
-          "atendidos": 13,
-          "pendentes": 7,
+          "atendidos": 14,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26054,17 +26070,17 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85022,
                   "cliente": "PIZZA CREK FAST FOOD LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85024,
@@ -29598,8 +29614,8 @@
         {
           "mes": "2026-10",
           "abertos": 22,
-          "atendidos": 15,
-          "pendentes": 7,
+          "atendidos": 16,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29707,17 +29723,17 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85188,
                   "cliente": "FLV COMÉRCIO DE HORTIFRUTO LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85180,
@@ -47046,9 +47062,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 137,
-          "atendidos": 52,
-          "pendentes": 85,
+          "abertos": 138,
+          "atendidos": 51,
+          "pendentes": 87,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47333,16 +47349,16 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 3,
+              "atendidosFora": 2,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85029,
                   "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85021,
@@ -47549,16 +47565,16 @@
             {
               "nome": "Notificação",
               "atendidosDentro": 2,
-              "atendidosFora": 3,
-              "pendentes": 0,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84838,
                   "cliente": "PIZZA CREK FAST FOOD LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-09",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85004,
@@ -47573,8 +47589,8 @@
                   "cliente": "SJC FAST FOOD LTDA ",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": "2026-10-09",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84727,
@@ -47742,13 +47758,21 @@
               "nome": "Regularização",
               "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84911,
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85201,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
