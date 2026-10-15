@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 15:35",
+  "atualizado_em": "15/10/2026 16:53",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 164,
-              "atendidosFora": 116,
+              "atendidosDentro": 162,
+              "atendidosFora": 118,
               "pendentes": 2,
               "chamados": [
                 {
@@ -21061,16 +21061,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": "2026-09-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84174,
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-21",
-                  "dataEntrega": "2026-09-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84182,
@@ -21629,7 +21629,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-10-06",
+                  "dataEntrega": "2026-10-15",
                   "status": "atendido_fora"
                 },
                 {
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 108,
+          "abertos": 114,
           "atendidos": 104,
-          "pendentes": 4,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 79,
               "atendidosFora": 24,
-              "pendentes": 4,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84707,
@@ -22253,7 +22253,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-13",
+                  "dataEntrega": "2026-10-15",
                   "status": "atendido_fora"
                 },
                 {
@@ -22658,6 +22658,54 @@
                 },
                 {
                   "id": 85223,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85226,
+                  "cliente": "ALUSTOCK COMERCIO DE VIDROS E ESQUADRIAS DE ALUMINIO LTDA",
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85228,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85229,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85230,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85231,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85232,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
@@ -29662,8 +29710,8 @@
         {
           "mes": "2026-10",
           "abertos": 23,
-          "atendidos": 17,
-          "pendentes": 6,
+          "atendidos": 18,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29843,17 +29891,17 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85224,
                   "cliente": "MERCADINHO IAZUL LTDA ",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -47142,9 +47190,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 143,
-          "atendidos": 52,
-          "pendentes": 91,
+          "abertos": 145,
+          "atendidos": 53,
+          "pendentes": 92,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47325,16 +47373,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 6,
+              "atendidosFora": 1,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84953,
                   "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84694,
@@ -47630,8 +47678,16 @@
               "nome": "Levantamento de Débitos Mensal",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85227,
+                  "cliente": "NRCA CONSULTORIA E TREINAMENTO - LTDA",
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84840,
                   "cliente": "PERFORMANCE PROTECTION LTDA",
@@ -47998,7 +48054,7 @@
               "nome": "Senha",
               "atendidosDentro": 10,
               "atendidosFora": 10,
-              "pendentes": 43,
+              "pendentes": 44,
               "chamados": [
                 {
                   "id": 84703,
@@ -48173,6 +48229,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85225,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -52672,8 +52736,8 @@
         {
           "mes": "2026-10",
           "abertos": 49,
-          "atendidos": 2,
-          "pendentes": 47,
+          "atendidos": 3,
+          "pendentes": 46,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -53053,9 +53117,9 @@
             },
             {
               "nome": "Solicitação do cliente",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84811,
@@ -53086,8 +53150,8 @@
                   "cliente": "ACE FRUIT COMERCIO DE ALIMENTOS LTDA (Filial 2)",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 }
               ]
             }
