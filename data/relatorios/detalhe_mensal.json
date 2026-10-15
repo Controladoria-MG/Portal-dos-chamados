@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 14:24",
+  "atualizado_em": "15/10/2026 15:35",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 106,
+          "abertos": 108,
           "atendidos": 104,
-          "pendentes": 2,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 79,
               "atendidosFora": 24,
-              "pendentes": 2,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -22647,6 +22647,22 @@
                   "prazo": "2026-10-16",
                   "dataEntrega": "2026-10-15",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85222,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85223,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -29645,8 +29661,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 22,
-          "atendidos": 16,
+          "abertos": 23,
+          "atendidos": 17,
           "pendentes": 6,
           "categorias": [
             {
@@ -29803,17 +29819,17 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85037,
                   "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85025,
@@ -29822,6 +29838,22 @@
                   "prazo": "2026-10-19",
                   "dataEntrega": "2026-10-13",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85224,
+                  "cliente": "MERCADINHO IAZUL LTDA ",
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -47110,9 +47142,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 142,
+          "abertos": 143,
           "atendidos": 52,
-          "pendentes": 90,
+          "pendentes": 91,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47947,6 +47979,22 @@
               ]
             },
             {
+              "nome": "Retificação de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85221,
+                  "cliente": "BRIGER ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
               "nome": "Senha",
               "atendidosDentro": 10,
               "atendidosFora": 10,
@@ -48381,7 +48429,7 @@
                   "cliente": "VALQUET SJC COMERCIO ALIMENTOS E BEBIDAS LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-14",
+                  "dataEntrega": "2026-10-15",
                   "status": "atendido_fora"
                 },
                 {
