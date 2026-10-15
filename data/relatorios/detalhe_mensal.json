@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/10/2026 19:12",
+  "atualizado_em": "15/10/2026 08:49",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -25742,8 +25742,8 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 2,
-              "atendidosFora": 1,
+              "atendidosDentro": 1,
+              "atendidosFora": 2,
               "pendentes": 0,
               "chamados": [
                 {
@@ -25759,8 +25759,8 @@
                   "cliente": "MEGACAR DISTRIBUIDORA AUTOMOTIVA LTDA ",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83764,
@@ -25945,8 +25945,8 @@
         {
           "mes": "2026-10",
           "abertos": 20,
-          "atendidos": 12,
-          "pendentes": 8,
+          "atendidos": 13,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26054,9 +26054,9 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85022,
@@ -26071,8 +26071,8 @@
                   "cliente": "SJC FAST FOOD LTDA ",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -29243,8 +29243,8 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 4,
-              "atendidosFora": 7,
+              "atendidosDentro": 3,
+              "atendidosFora": 8,
               "pendentes": 2,
               "chamados": [
                 {
@@ -29292,7 +29292,7 @@
                   "cliente": "YARA DESIGN E DECORAÇÃO LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-10-05",
+                  "dataEntrega": "2026-10-15",
                   "status": "atendido_fora"
                 },
                 {
@@ -29316,8 +29316,8 @@
                   "cliente": "C A R MINIMERCADO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84550,
@@ -29598,8 +29598,8 @@
         {
           "mes": "2026-10",
           "abertos": 22,
-          "atendidos": 12,
-          "pendentes": 10,
+          "atendidos": 15,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29635,25 +29635,25 @@
             },
             {
               "nome": "Autorregularização",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85118,
                   "cliente": "FLV COMÉRCIO DE HORTIFRUTO LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-14",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85002,
@@ -29700,16 +29700,16 @@
                   "cliente": "TECHFEED ADITIVOS PARA NUTRICAO ANIMAL LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85188,
@@ -29724,8 +29724,8 @@
                   "cliente": "PORTAL COMÉRCIO E INDÚSTRIA LTDA ",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-15",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84720,
@@ -52503,15 +52503,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 44,
+          "abertos": 45,
           "atendidos": 2,
-          "pendentes": 42,
+          "pendentes": 43,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 36,
+              "pendentes": 37,
               "chamados": [
                 {
                   "id": 84697,
@@ -52804,6 +52804,14 @@
                 {
                   "id": 85198,
                   "cliente": "D M F SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-10-14",
+                  "prazo": "2026-11-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85199,
+                  "cliente": "LFOP SERVICOS DE APOIO LTDA ",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-11-06",
                   "dataEntrega": null,
