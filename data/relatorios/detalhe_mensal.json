@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/10/2026 09:33",
+  "atualizado_em": "16/10/2026 11:18",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 123,
+          "abertos": 128,
           "atendidos": 119,
-          "pendentes": 4,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 93,
-              "atendidosFora": 25,
-              "pendentes": 4,
+              "atendidosDentro": 91,
+              "atendidosFora": 27,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84707,
@@ -22293,8 +22293,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85048,
@@ -22501,8 +22501,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85170,
@@ -22685,8 +22685,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85230,
@@ -22709,8 +22709,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85233,
@@ -22773,8 +22773,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85246,
@@ -22783,6 +22783,46 @@
                   "prazo": "2026-10-20",
                   "dataEntrega": "2026-10-16",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85252,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85253,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85257,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85259,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85260,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -24659,19 +24699,19 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 80715,
-                  "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
-                  "dataCadastro": "2026-07-03",
-                  "prazo": "2026-07-07",
-                  "dataEntrega": "2026-07-14",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 80707,
                   "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
                   "dataCadastro": "2026-07-02",
                   "prazo": "2026-07-03",
                   "dataEntrega": "2026-07-22",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 80715,
+                  "cliente": "NAKABOX - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS E MOTOCICLETAS LTDA  ",
+                  "dataCadastro": "2026-07-03",
+                  "prazo": "2026-07-07",
+                  "dataEntrega": "2026-07-14",
                   "status": "atendido_fora"
                 },
                 {
@@ -29965,7 +30005,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85224,
@@ -29974,6 +30014,14 @@
                   "prazo": "2026-10-19",
                   "dataEntrega": "2026-10-15",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85250,
+                  "cliente": "IAZUL SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -29988,22 +30036,6 @@
                   "cliente": "CASA DE CARNES J.R. GIMENEZ LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 85247,
-                  "cliente": "S H DE ARAUJO & CIA LTDA (MATRIZ)",
-                  "dataCadastro": "2026-10-16",
-                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -35540,8 +35572,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 9,
-          "atendidos": 4,
+          "abertos": 10,
+          "atendidos": 5,
           "pendentes": 5,
           "categorias": [
             {
@@ -35594,10 +35626,18 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
               "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85251,
+                  "cliente": "S H DE ARAUJO & CIA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
+                },
                 {
                   "id": 85208,
                   "cliente": "MISSIONARIA COMERCIO DE BEBIDAS E EMPORIO LTDA.",
@@ -47278,9 +47318,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 149,
+          "abertos": 151,
           "atendidos": 53,
-          "pendentes": 96,
+          "pendentes": 98,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47886,13 +47926,21 @@
               "nome": "Parcelamento RFB",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84982,
                   "cliente": "A & BNK FACILITIES LTDA",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-14",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85262,
+                  "cliente": "V. J. ALMEIDA ADMINISTRAÇÃO DE BENS LTDA",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -48110,8 +48158,16 @@
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85256,
+                  "cliente": "MERCADINHO IAZUL LTDA ",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84730,
                   "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
