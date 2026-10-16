@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 18:48",
+  "atualizado_em": "16/10/2026 08:29",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 121,
+          "abertos": 122,
           "atendidos": 103,
-          "pendentes": 18,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 78,
               "atendidosFora": 24,
-              "pendentes": 18,
+              "pendentes": 19,
               "chamados": [
                 {
                   "id": 84707,
@@ -22765,6 +22765,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85244,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-15",
+                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
