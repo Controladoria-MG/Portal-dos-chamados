@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/10/2026 16:07",
+  "atualizado_em": "16/10/2026 16:24",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 140,
+          "abertos": 143,
           "atendidos": 136,
-          "pendentes": 4,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 105,
               "atendidosFora": 30,
-              "pendentes": 4,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84707,
@@ -22914,6 +22914,30 @@
                 },
                 {
                   "id": 85293,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85295,
+                  "cliente": "GABRIELA TORQUATO FERNANDEZ LTDA",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85296,
+                  "cliente": "O.L.R. PRESTADORA DE SERVICOS LTDA ",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85297,
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
@@ -41084,8 +41108,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 397,
-          "pendentes": 21,
+          "atendidos": 389,
+          "pendentes": 29,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41546,8 +41570,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 24,
-              "pendentes": 1,
+              "atendidosFora": 16,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83205,
@@ -41610,8 +41634,8 @@
                   "cliente": "AUTO CENTER EMBRASIL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83212,
@@ -41634,16 +41658,16 @@
                   "cliente": "YURI CESTARI DA SILVA EMBREAGENS OSASCO",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83112,
                   "cliente": "EMBRASIL COMERCIO DE AUTO PECAS LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83113,
@@ -41666,24 +41690,24 @@
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82755,
                   "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82756,
                   "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82754,
@@ -41754,16 +41778,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82706,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82430,
@@ -44676,8 +44700,8 @@
         {
           "mes": "2026-09",
           "abertos": 318,
-          "atendidos": 273,
-          "pendentes": 45,
+          "atendidos": 274,
+          "pendentes": 44,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46466,8 +46490,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 33,
-              "atendidosFora": 78,
-              "pendentes": 13,
+              "atendidosFora": 79,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 83368,
@@ -47186,8 +47210,8 @@
                   "cliente": "HEPA FILTROS LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83634,
