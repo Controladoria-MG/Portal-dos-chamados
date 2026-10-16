@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/10/2026 12:20",
+  "atualizado_em": "16/10/2026 12:29",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21804,8 +21804,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 96,
-              "atendidosFora": 27,
+              "atendidosDentro": 95,
+              "atendidosFora": 28,
               "pendentes": 6,
               "chamados": [
                 {
@@ -22589,8 +22589,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85193,
