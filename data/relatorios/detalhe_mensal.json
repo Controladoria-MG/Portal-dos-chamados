@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/10/2026 08:29",
+  "atualizado_em": "16/10/2026 09:27",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 122,
-          "atendidos": 103,
-          "pendentes": 19,
+          "abertos": 123,
+          "atendidos": 117,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 78,
-              "atendidosFora": 24,
-              "pendentes": 19,
+              "atendidosDentro": 91,
+              "atendidosFora": 25,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -22541,8 +22541,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85179,
@@ -22653,8 +22653,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85223,
@@ -22669,24 +22669,24 @@
                   "cliente": "ALUSTOCK COMERCIO DE VIDROS E ESQUADRIAS DE ALUMINIO LTDA",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85228,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85229,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85230,
@@ -22701,8 +22701,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85232,
@@ -22717,64 +22717,72 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85237,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85238,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85240,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85241,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 85242,
-                  "cliente": null,
-                  "dataCadastro": "2026-10-15",
-                  "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85243,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85244,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85245,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85246,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -26134,8 +26142,8 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 4,
-              "atendidosFora": 0,
+              "atendidosDentro": 3,
+              "atendidosFora": 1,
               "pendentes": 1,
               "chamados": [
                 {
@@ -26159,8 +26167,8 @@
                   "cliente": "Parafutrecos Comercial LTDA ",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-09",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85142,
@@ -29773,9 +29781,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 18,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -29820,7 +29828,7 @@
                   "cliente": "FLV COMÉRCIO DE HORTIFRUTO LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-14",
+                  "dataEntrega": "2026-10-16",
                   "status": "atendido_dentro"
                 }
               ]
@@ -29940,7 +29948,7 @@
                   "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-15",
+                  "dataEntrega": "2026-10-16",
                   "status": "atendido_dentro"
                 },
                 {
@@ -29980,6 +29988,22 @@
                   "cliente": "CASA DE CARNES J.R. GIMENEZ LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85247,
+                  "cliente": "S H DE ARAUJO & CIA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -40863,8 +40887,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 390,
-          "pendentes": 28,
+          "atendidos": 391,
+          "pendentes": 27,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42949,8 +42973,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 40,
-              "atendidosFora": 143,
-              "pendentes": 2,
+              "atendidosFora": 144,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81736,
@@ -43789,8 +43813,8 @@
                   "cliente": "Cucinare Pro Alimentacao LTDA (Filial 86)",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82781,
@@ -47254,9 +47278,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 147,
+          "abertos": 149,
           "atendidos": 53,
-          "pendentes": 94,
+          "pendentes": 96,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47982,7 +48006,7 @@
               "nome": "Regularização",
               "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 5,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84911,
@@ -48021,6 +48045,22 @@
                   "cliente": "GUILHERME A KL GUNNEWIEK & CIA LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85248,
+                  "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85249,
+                  "cliente": "PEREGRINUS COMERCIO VAREJISTA ARTIGOS ELETRONICOS LTDA",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
