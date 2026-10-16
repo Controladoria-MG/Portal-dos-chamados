@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/10/2026 13:33",
+  "atualizado_em": "16/10/2026 15:04",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 130,
+          "abertos": 138,
           "atendidos": 124,
-          "pendentes": 6,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 95,
-              "atendidosFora": 28,
-              "pendentes": 6,
+              "atendidosDentro": 93,
+              "atendidosFora": 30,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84707,
@@ -22205,8 +22205,8 @@
                   "cliente": "PONHOCA PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85001,
@@ -22453,8 +22453,8 @@
                   "cliente": "PONHOCA PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85138,
@@ -22835,6 +22835,70 @@
                 {
                   "id": 85273,
                   "cliente": "GOMES SERVIÇOS - LTDA",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85280,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85281,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85282,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85283,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85284,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85285,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85286,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85288,
+                  "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
                   "dataEntrega": null,
@@ -23354,7 +23418,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-13",
+                  "dataEntrega": "2026-10-16",
                   "status": "atendido_fora"
                 }
               ]
@@ -35605,8 +35669,8 @@
         {
           "mes": "2026-10",
           "abertos": 11,
-          "atendidos": 5,
-          "pendentes": 6,
+          "atendidos": 6,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -35682,9 +35746,9 @@
             },
             {
               "nome": "SPED",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84900,
@@ -35699,8 +35763,8 @@
                   "cliente": "INFINITY UTILIDADES LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84897,
@@ -40996,8 +41060,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 393,
-          "pendentes": 25,
+          "atendidos": 394,
+          "pendentes": 24,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41458,8 +41522,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 20,
-              "pendentes": 5,
+              "atendidosFora": 21,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83205,
@@ -41578,8 +41642,8 @@
                   "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82755,
@@ -47379,15 +47443,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 159,
-          "atendidos": 61,
-          "pendentes": 98,
+          "abertos": 160,
+          "atendidos": 63,
+          "pendentes": 97,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84901,
@@ -47402,6 +47466,14 @@
                   "cliente": "RC MINIMERCADO E SERVICOS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85287,
+                  "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
+                  "dataCadastro": "2026-10-16",
+                  "prazo": "2026-11-13",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -47618,8 +47690,8 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 3,
+              "atendidosFora": 2,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85018,
@@ -47658,8 +47730,8 @@
                   "cliente": "Madenik Solucoes Comercio de Madeiras e Ferragens LTDA ",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -47682,8 +47754,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 3,
+              "atendidosFora": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85029,
@@ -47714,8 +47786,8 @@
                   "cliente": "PRO ADVANCED SOLUCOES EM T.I. LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85220,
