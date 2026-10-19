@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/10/2026 11:05",
+  "atualizado_em": "19/10/2026 12:58",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 159,
+          "abertos": 163,
           "atendidos": 152,
-          "pendentes": 7,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 118,
-              "atendidosFora": 33,
-              "pendentes": 7,
+              "atendidosDentro": 117,
+              "atendidosFora": 34,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84707,
@@ -22365,8 +22365,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": "2026-10-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85082,
@@ -23069,6 +23069,38 @@
                   "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85325,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85326,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85327,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85333,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -26400,9 +26432,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 18,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26481,6 +26513,22 @@
                   "prazo": "2026-10-08",
                   "dataEntrega": "2026-10-07",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Conciliação de Contas",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85330,
+                  "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -33622,7 +33670,7 @@
                   "cliente": "G13 IMPORTAÇÃO E EXPORTAÇÃO LTDA (FILIAL 3)",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-10-19",
                   "status": "atendido_fora"
                 },
                 {
@@ -33630,7 +33678,7 @@
                   "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-29",
+                  "dataEntrega": "2026-10-19",
                   "status": "atendido_fora"
                 },
                 {
@@ -38913,9 +38961,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 58,
+          "abertos": 59,
           "atendidos": 3,
-          "pendentes": 55,
+          "pendentes": 56,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39049,7 +39097,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 18,
+              "pendentes": 19,
               "chamados": [
                 {
                   "id": 84708,
@@ -39214,6 +39262,14 @@
                 {
                   "id": 85313,
                   "cliente": "VILLA AZUL LOCAÇÕES DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85322,
+                  "cliente": "MARIA CECILIA SANTOS COSTA CELANI HIPOLITO DO CARMO",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
                   "dataEntrega": null,
@@ -44828,8 +44884,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 279,
-          "pendentes": 40,
+          "atendidos": 280,
+          "pendentes": 39,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -45194,16 +45250,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84457,
                   "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84516,
@@ -47635,9 +47691,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 163,
-          "atendidos": 79,
-          "pendentes": 84,
+          "abertos": 168,
+          "atendidos": 78,
+          "pendentes": 90,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47699,7 +47755,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 10,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 84698,
@@ -47730,6 +47786,22 @@
                   "cliente": "PIRANA - AUTO SERVIÇO LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-11-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85329,
+                  "cliente": "Air Sea Apoio Gestao de Saude LTDA ",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-11-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85332,
+                  "cliente": "A ESTANCIA MORRO GRANDE - CENTRO DE REABILITACAO SOCIAL LTDA",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-11-16",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -48082,8 +48154,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 4,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85028,
@@ -48098,8 +48170,8 @@
                   "cliente": "NRCA CONSULTORIA E TREINAMENTO - LTDA",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84848,
@@ -48130,8 +48202,8 @@
                   "cliente": "ARN COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85000,
@@ -48219,7 +48291,7 @@
               "nome": "Notificação",
               "atendidosDentro": 2,
               "atendidosFora": 3,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84838,
@@ -48252,6 +48324,14 @@
                   "prazo": "2026-10-05",
                   "dataEntrega": "2026-10-02",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85328,
+                  "cliente": "SINZATO ENTERTAINMENT LTDA ",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84826,
@@ -48329,7 +48409,7 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
               "pendentes": 3,
               "chamados": [
@@ -48340,6 +48420,14 @@
                   "prazo": "2026-10-14",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 85323,
+                  "cliente": "LA DESIGN METALÚRGICA EIRELI",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85262,
@@ -48395,7 +48483,7 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84704,
@@ -48418,6 +48506,14 @@
                   "cliente": "TERRA BRASIL HORTI FRUTI LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85324,
+                  "cliente": "ALINE SIQUEIRA DE VILHENA SANTOS FREITAS GUIMARAIS FERREIRA ",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48473,8 +48569,8 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 7,
-              "atendidosFora": 2,
+              "atendidosDentro": 6,
+              "atendidosFora": 3,
               "pendentes": 3,
               "chamados": [
                 {
@@ -48498,8 +48594,8 @@
                   "cliente": "FAGUNDES, TONELO, FERRO, DOMINGUES E BARROS ADVOGADOS",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84885,
