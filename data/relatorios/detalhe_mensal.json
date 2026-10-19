@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/10/2026 09:03",
+  "atualizado_em": "19/10/2026 10:02",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19495,8 +19495,8 @@
         {
           "mes": "2026-09",
           "abertos": 283,
-          "atendidos": 281,
-          "pendentes": 2,
+          "atendidos": 282,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -19517,8 +19517,8 @@
             {
               "nome": "MG Controle",
               "atendidosDentro": 162,
-              "atendidosFora": 118,
-              "pendentes": 2,
+              "atendidosFora": 119,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83308,
@@ -20101,8 +20101,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83755,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 155,
-          "atendidos": 143,
-          "pendentes": 12,
+          "abertos": 157,
+          "atendidos": 152,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 111,
-              "atendidosFora": 31,
-              "pendentes": 12,
+              "atendidosDentro": 119,
+              "atendidosFora": 32,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -22181,8 +22181,8 @@
                   "cliente": "SUPERMERCADOS DALBEN LTDA. (MATRIZ)",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84992,
@@ -22941,7 +22941,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
+                  "dataEntrega": "2026-10-19",
                   "status": "atendido_dentro"
                 },
                 {
@@ -22957,8 +22957,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85300,
@@ -22981,32 +22981,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85305,
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85306,
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85307,
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85309,
@@ -23021,22 +23021,38 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85311,
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85312,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-19",
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85317,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85319,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -39692,8 +39708,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 162,
-          "pendentes": 5,
+          "atendidos": 164,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -39978,16 +39994,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 10,
-              "pendentes": 2,
+              "atendidosFora": 12,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81422,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81348,
@@ -40002,8 +40018,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81245,
@@ -44820,8 +44836,8 @@
         {
           "mes": "2026-09",
           "abertos": 318,
-          "atendidos": 274,
-          "pendentes": 44,
+          "atendidos": 277,
+          "pendentes": 41,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -45306,8 +45322,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 7,
-              "atendidosFora": 17,
-              "pendentes": 4,
+              "atendidosFora": 20,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83706,
@@ -45498,16 +45514,16 @@
                   "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84682,
                   "cliente": "ALFA MAQUINAS LOCACAO E SERVICOS LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84679,
@@ -45530,8 +45546,8 @@
                   "cliente": "CR LOCACAO E VENDAS DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-01",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 }
               ]
             },
