@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/10/2026 15:48",
+  "atualizado_em": "19/10/2026 16:28",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 166,
-          "atendidos": 153,
-          "pendentes": 13,
+          "abertos": 167,
+          "atendidos": 161,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 117,
+              "atendidosDentro": 125,
               "atendidosFora": 35,
-              "pendentes": 13,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -23045,24 +23045,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85319,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85320,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85321,
@@ -23077,32 +23077,32 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85326,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85327,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85333,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85334,
@@ -23122,6 +23122,14 @@
                 },
                 {
                   "id": 85336,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85338,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
@@ -26457,8 +26465,8 @@
         {
           "mes": "2026-10",
           "abertos": 23,
-          "atendidos": 18,
-          "pendentes": 5,
+          "atendidos": 19,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26486,17 +26494,17 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85304,
                   "cliente": "MQ PRODUSERV COMÉRCIO E EMPREENDIMENTOS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84862,
@@ -41332,8 +41340,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 388,
-          "pendentes": 30,
+          "atendidos": 389,
+          "pendentes": 29,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41394,8 +41402,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 16,
-              "pendentes": 6,
+              "atendidosFora": 17,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81838,
@@ -41530,8 +41538,8 @@
                   "cliente": "UNIFORTE DO BRASIL COMÉRCIO ATACADISTA DE EMBALAGENS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83259,
@@ -44924,8 +44932,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 281,
-          "pendentes": 38,
+          "atendidos": 284,
+          "pendentes": 35,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46730,8 +46738,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 33,
-              "atendidosFora": 80,
-              "pendentes": 11,
+              "atendidosFora": 83,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83368,
@@ -47498,8 +47506,8 @@
                   "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83921,
@@ -47530,8 +47538,8 @@
                   "cliente": "RK - INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83616,
@@ -47554,8 +47562,8 @@
                   "cliente": "NANDAMATOS STORE LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84617,
@@ -47732,8 +47740,8 @@
         {
           "mes": "2026-10",
           "abertos": 168,
-          "atendidos": 78,
-          "pendentes": 90,
+          "atendidos": 79,
+          "pendentes": 89,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48778,8 +48786,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 11,
-              "atendidosFora": 13,
-              "pendentes": 41,
+              "atendidosFora": 14,
+              "pendentes": 40,
               "chamados": [
                 {
                   "id": 84703,
@@ -48802,8 +48810,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84749,
