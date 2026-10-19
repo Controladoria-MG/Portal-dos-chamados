@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/10/2026 16:28",
+  "atualizado_em": "19/10/2026 18:08",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 167,
-          "atendidos": 161,
-          "pendentes": 6,
+          "atendidos": 162,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21805,8 +21805,8 @@
             {
               "nome": "MG Controle",
               "atendidosDentro": 125,
-              "atendidosFora": 35,
-              "pendentes": 6,
+              "atendidosFora": 36,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -22557,8 +22557,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85184,
@@ -22989,8 +22989,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85306,
@@ -23069,8 +23069,8 @@
                   "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85325,
@@ -23109,8 +23109,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85335,
@@ -31354,9 +31354,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 10,
+          "abertos": 11,
           "atendidos": 4,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31434,8 +31434,16 @@
               "nome": "Material de Reunião - Solicitação Interna",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85339,
+                  "cliente": "NATURAL NUTS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84715,
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
@@ -41340,8 +41348,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 389,
-          "pendentes": 29,
+          "atendidos": 392,
+          "pendentes": 26,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41802,8 +41810,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 15,
-              "pendentes": 10,
+              "atendidosFora": 18,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83205,
@@ -41850,16 +41858,16 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83214,
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 2)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83117,
@@ -41874,8 +41882,8 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83115,
@@ -44932,8 +44940,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 284,
-          "pendentes": 35,
+          "atendidos": 285,
+          "pendentes": 34,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46738,8 +46746,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 33,
-              "atendidosFora": 83,
-              "pendentes": 8,
+              "atendidosFora": 84,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 83368,
@@ -47378,8 +47386,8 @@
                   "cliente": "F. MARQUES DE SA LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83895,
@@ -47739,9 +47747,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 168,
+          "abertos": 171,
           "atendidos": 79,
-          "pendentes": 89,
+          "pendentes": 92,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48787,7 +48795,7 @@
               "nome": "Senha",
               "atendidosDentro": 11,
               "atendidosFora": 14,
-              "pendentes": 40,
+              "pendentes": 43,
               "chamados": [
                 {
                   "id": 84703,
@@ -49086,10 +49094,26 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 85342,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F10)",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84762,
                   "cliente": "ERF EMPREENDIMENTOS E PARTICIPACOES S/A",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85341,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F16)",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -49106,6 +49130,14 @@
                   "cliente": "PANTOJA HOLDING E PARTICIPACOES LTDA. ",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85340,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 36)",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
