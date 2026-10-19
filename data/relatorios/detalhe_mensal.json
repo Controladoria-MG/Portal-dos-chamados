@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/10/2026 14:50",
+  "atualizado_em": "19/10/2026 15:48",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 164,
+          "abertos": 166,
           "atendidos": 153,
-          "pendentes": 11,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 118,
-              "atendidosFora": 34,
-              "pendentes": 11,
+              "atendidosDentro": 117,
+              "atendidosFora": 35,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84707,
@@ -22405,8 +22405,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": "2026-10-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85101,
@@ -23106,6 +23106,22 @@
                 },
                 {
                   "id": 85334,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85335,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85336,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
@@ -30133,9 +30149,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 25,
+          "abertos": 26,
           "atendidos": 20,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30358,6 +30374,22 @@
                   "prazo": "2026-10-16",
                   "dataEntrega": "2026-10-16",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85337,
+                  "cliente": "MERCADO, PADARIA ACOUGUE E RESTAURANTE OLIMPIA LTDA",
+                  "dataCadastro": "2026-10-19",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -41300,8 +41332,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 386,
-          "pendentes": 32,
+          "atendidos": 388,
+          "pendentes": 30,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41762,8 +41794,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 13,
-              "pendentes": 12,
+              "atendidosFora": 15,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 83205,
@@ -41970,16 +42002,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82706,
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82430,
@@ -44892,8 +44924,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 280,
-          "pendentes": 39,
+          "atendidos": 281,
+          "pendentes": 38,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46698,8 +46730,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 33,
-              "atendidosFora": 79,
-              "pendentes": 12,
+              "atendidosFora": 80,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 83368,
@@ -47562,8 +47594,8 @@
                   "cliente": "BIANCA EMBREAGENS LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83910,
