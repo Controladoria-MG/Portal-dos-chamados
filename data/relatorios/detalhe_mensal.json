@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/10/2026 13:47",
+  "atualizado_em": "19/10/2026 14:50",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 164,
-          "atendidos": 151,
-          "pendentes": 13,
+          "atendidos": 153,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 116,
+              "atendidosDentro": 118,
               "atendidosFora": 34,
-              "pendentes": 13,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84707,
@@ -22957,8 +22957,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85300,
@@ -23013,8 +23013,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85310,
@@ -30134,8 +30134,8 @@
         {
           "mes": "2026-10",
           "abertos": 25,
-          "atendidos": 19,
-          "pendentes": 6,
+          "atendidos": 20,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30244,8 +30244,8 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 3,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85308,
@@ -30284,8 +30284,8 @@
                   "cliente": "BENTA RESTAURANTE LTDA",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-19",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84943,
