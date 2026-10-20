@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 10:14",
+  "atualizado_em": "20/10/2026 10:53",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 179,
-          "atendidos": 162,
-          "pendentes": 17,
+          "atendidos": 175,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 124,
+              "atendidosDentro": 137,
               "atendidosFora": 37,
-              "pendentes": 17,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -23133,104 +23133,104 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85344,
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85346,
                   "cliente": "GOIAS SILAGEM LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85351,
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85353,
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85354,
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85357,
                   "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85358,
                   "cliente": "Universal Comércio de Embalagens e Descartáveis Ltda - EPP",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85360,
                   "cliente": "Força Plastic Comércio de Descartáveis Ltda - ME",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85361,
                   "cliente": "HotPlast Comércio de Descartáveis Ltda - ME.",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85362,
                   "cliente": "Super Plastic Comércio de Descaráveis Ltda.",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85363,
                   "cliente": "On Line Embalagens Eireli - EPP",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85364,
                   "cliente": "GALO HORTIFRUTI EIRELI ",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -34023,9 +34023,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 12,
+          "abertos": 13,
           "atendidos": 8,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34158,6 +34158,22 @@
                   "cliente": "G4 LINHA VIVA LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "SPED",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85365,
+                  "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
