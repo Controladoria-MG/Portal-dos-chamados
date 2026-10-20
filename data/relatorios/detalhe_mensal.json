@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 14:32",
+  "atualizado_em": "20/10/2026 15:25",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -26592,9 +26592,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 19,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26712,8 +26712,16 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85379,
+                  "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85158,
                   "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
@@ -28797,34 +28805,10 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 74,
+          "abertos": 72,
           "atendidos": 72,
-          "pendentes": 2,
+          "pendentes": 0,
           "categorias": [
-            {
-              "nome": "Apontamentos",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
-              "chamados": [
-                {
-                  "id": 82161,
-                  "cliente": "A. DE S. JANOCA MERCADO",
-                  "dataCadastro": "2026-08-10",
-                  "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 82680,
-                  "cliente": "MERCADINHO BARCELONA LTDA",
-                  "dataCadastro": "2026-08-19",
-                  "prazo": "2026-08-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 3,
@@ -29485,122 +29469,10 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 86,
+          "abertos": 73,
           "atendidos": 69,
-          "pendentes": 17,
+          "pendentes": 4,
           "categorias": [
-            {
-              "nome": "Apontamentos",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 13,
-              "chamados": [
-                {
-                  "id": 83343,
-                  "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
-                  "dataCadastro": "2026-09-01",
-                  "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83344,
-                  "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
-                  "dataCadastro": "2026-09-01",
-                  "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83346,
-                  "cliente": "GRAN MANJERONA COMERCIO DE ALIMENTOS EIRELI",
-                  "dataCadastro": "2026-09-01",
-                  "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83470,
-                  "cliente": "ROCA DISTRIBUIDORA E TRANSPORTES DE ALIMENTOS LTDA ",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83474,
-                  "cliente": "3 F DISTRIBUIDORA E TRANSPORTADORA DE ALIMENTOS LTDA  ",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83477,
-                  "cliente": "TAV FRUT DISTRIBUIDORA DE FRUTAS EIRELI",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83478,
-                  "cliente": "AR4 TAVARES PARTICIPAÇÕES LTDA",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83490,
-                  "cliente": "SUPER DOCES MARINGÁ LTDA (MATRIZ)",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83491,
-                  "cliente": "MARINGÁ MANUTENÇÃO DE EQUIPAMENTOS LTDA",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83494,
-                  "cliente": "SUPER DOCES MARINGÁ LTDA (FILIAL 01)",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83496,
-                  "cliente": "SUPER DOCES MARINGÁ LTDA (FILIAL 02)",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83500,
-                  "cliente": "SUPER DOCES MARINGÁ LTDA (FILIAL 03)",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83501,
-                  "cliente": "SUPER DOCES MARINGA LTDA (FILIAL 5)",
-                  "dataCadastro": "2026-09-02",
-                  "prazo": "2026-09-04",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 6,
@@ -37273,15 +37145,15 @@
         },
         {
           "mes": "2026-08",
-          "abertos": 80,
+          "abertos": 82,
           "atendidos": 43,
-          "pendentes": 37,
+          "pendentes": 39,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 6,
-              "pendentes": 18,
+              "pendentes": 20,
               "chamados": [
                 {
                   "id": 82144,
@@ -37294,6 +37166,14 @@
                 {
                   "id": 82160,
                   "cliente": "MERCADINHO NIPPO LTDA",
+                  "dataCadastro": "2026-08-10",
+                  "prazo": "2026-08-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 82161,
+                  "cliente": "A. DE S. JANOCA MERCADO",
                   "dataCadastro": "2026-08-10",
                   "prazo": "2026-08-12",
                   "dataEntrega": null,
@@ -37450,6 +37330,14 @@
                   "prazo": "2026-08-21",
                   "dataEntrega": "2026-08-26",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 82680,
+                  "cliente": "MERCADINHO BARCELONA LTDA",
+                  "dataCadastro": "2026-08-19",
+                  "prazo": "2026-08-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 82808,
@@ -47988,8 +47876,8 @@
         {
           "mes": "2026-10",
           "abertos": 174,
-          "atendidos": 81,
-          "pendentes": 93,
+          "atendidos": 82,
+          "pendentes": 92,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48290,8 +48178,8 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85018,
@@ -48306,8 +48194,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85279,
@@ -48466,8 +48354,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 3,
+              "atendidosFora": 1,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 85028,
@@ -48498,8 +48386,8 @@
                   "cliente": "POWER FINANCIAL DO BRASIL S.A.",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85263,
@@ -49050,8 +48938,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 10,
-              "atendidosFora": 15,
-              "pendentes": 44,
+              "atendidosFora": 16,
+              "pendentes": 43,
               "chamados": [
                 {
                   "id": 84703,
@@ -49546,8 +49434,8 @@
                   "cliente": "FILM FACIL LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85102,
