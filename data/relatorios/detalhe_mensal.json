@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 17:38",
+  "atualizado_em": "20/10/2026 18:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21804,8 +21804,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 142,
-              "atendidosFora": 39,
+              "atendidosDentro": 141,
+              "atendidosFora": 40,
               "pendentes": 8,
               "chamados": [
                 {
@@ -22973,8 +22973,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85303,
@@ -23061,7 +23061,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_dentro"
                 },
                 {
@@ -26648,9 +26648,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 22,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26680,7 +26680,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 4,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85304,
@@ -26697,6 +26697,14 @@
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85390,
+                  "cliente": "ASSOCIAÇÃO COMERCIAL INDUSTRIAL E SERVIÇOS DE EMBU ",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84835,
@@ -30213,9 +30221,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 28,
+          "abertos": 29,
           "atendidos": 20,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30269,7 +30277,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85002,
@@ -30310,6 +30318,14 @@
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-13",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85391,
+                  "cliente": "MONTE CARLO LAB SERVICOS ADMINISTRATIVOS E COMERCIO LTDA ",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85186,
@@ -31465,7 +31481,7 @@
                   "cliente": "NOVA BOSTON GRILL RESTAURANTE LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-15",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 }
               ]
@@ -47956,8 +47972,8 @@
         {
           "mes": "2026-10",
           "abertos": 175,
-          "atendidos": 83,
-          "pendentes": 92,
+          "atendidos": 84,
+          "pendentes": 91,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48329,8 +48345,8 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 1,
-              "atendidosFora": 3,
+              "atendidosDentro": 0,
+              "atendidosFora": 4,
               "pendentes": 1,
               "chamados": [
                 {
@@ -48370,8 +48386,8 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -49025,9 +49041,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 10,
+              "atendidosDentro": 11,
               "atendidosFora": 16,
-              "pendentes": 43,
+              "pendentes": 42,
               "chamados": [
                 {
                   "id": 84703,
@@ -49346,8 +49362,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F16)",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84843,
