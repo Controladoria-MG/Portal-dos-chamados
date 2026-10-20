@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 12:59",
+  "atualizado_em": "20/10/2026 13:37",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -50080,9 +50080,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 20,
+          "abertos": 22,
           "atendidos": 5,
-          "pendentes": 15,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -50200,7 +50200,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84812,
@@ -50255,6 +50255,22 @@
                   "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85371,
+                  "cliente": "DISTRIBUIDORA S J PRODUTOS DE LIMPEZA LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85374,
+                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -51002,9 +51018,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 3,
+          "abertos": 4,
           "atendidos": 0,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -51033,6 +51049,22 @@
                   "cliente": "ACMA SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Solicitação do cliente",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85373,
+                  "cliente": "SHOP MACROZÃO LTDA",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -51239,15 +51271,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 8,
+          "abertos": 10,
           "atendidos": 0,
-          "pendentes": 8,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84705,
@@ -51310,6 +51342,22 @@
                   "cliente": "WCS APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85372,
+                  "cliente": "SHOP MACROZÃO LTDA",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85375,
+                  "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
