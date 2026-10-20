@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 10:53",
+  "atualizado_em": "20/10/2026 12:12",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 179,
-          "atendidos": 175,
-          "pendentes": 4,
+          "abertos": 180,
+          "atendidos": 177,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 137,
-              "atendidosFora": 37,
-              "pendentes": 4,
+              "atendidosDentro": 138,
+              "atendidosFora": 38,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84707,
@@ -22989,8 +22989,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85306,
@@ -23227,6 +23227,14 @@
                 {
                   "id": 85364,
                   "cliente": "GALO HORTIFRUTI EIRELI ",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85367,
+                  "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
                   "dataEntrega": "2026-10-20",
@@ -39185,9 +39193,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 60,
+          "abertos": 61,
           "atendidos": 3,
-          "pendentes": 57,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39321,7 +39329,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 20,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 84708,
@@ -39504,6 +39512,14 @@
                   "cliente": "ANJOS DO FERRO COMERCIO DE DOCES E DERIVADOS LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85368,
+                  "cliente": "SUPER MERCADO ESTRELA AZUL",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -39988,8 +40004,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 164,
-          "pendentes": 3,
+          "atendidos": 163,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40274,16 +40290,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 12,
-              "pendentes": 0,
+              "atendidosFora": 11,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81422,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81348,
@@ -40298,7 +40314,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-23",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -41524,8 +41540,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 392,
-          "pendentes": 26,
+          "atendidos": 390,
+          "pendentes": 28,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41986,8 +42002,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 18,
-              "pendentes": 7,
+              "atendidosFora": 16,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 83205,
@@ -42034,15 +42050,15 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83214,
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 2)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -42058,8 +42074,8 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83115,
@@ -42194,7 +42210,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -42202,7 +42218,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -45116,8 +45132,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 285,
-          "pendentes": 34,
+          "atendidos": 286,
+          "pendentes": 33,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -45490,7 +45506,7 @@
                   "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-28",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -46921,9 +46937,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 33,
-              "atendidosFora": 84,
-              "pendentes": 7,
+              "atendidosDentro": 32,
+              "atendidosFora": 86,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83368,
@@ -47162,8 +47178,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": "2026-10-02",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84672,
@@ -47610,8 +47626,8 @@
                   "cliente": "FILM FACIL LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83898,
@@ -47923,9 +47939,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 173,
+          "abertos": 174,
           "atendidos": 78,
-          "pendentes": 95,
+          "pendentes": 96,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47987,7 +48003,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 12,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84698,
@@ -48066,6 +48082,14 @@
                   "cliente": "BARATÃO SÃO LUCAS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85366,
+                  "cliente": "G & S COMERCIO DE MADEIRAS LTDA",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-11-17",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
