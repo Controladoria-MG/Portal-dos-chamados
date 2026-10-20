@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 09:07",
+  "atualizado_em": "20/10/2026 10:14",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 172,
+          "abertos": 179,
           "atendidos": 162,
-          "pendentes": 10,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 124,
               "atendidosFora": 37,
-              "pendentes": 10,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 84707,
@@ -23173,6 +23173,62 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85357,
+                  "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85358,
+                  "cliente": "Universal Comércio de Embalagens e Descartáveis Ltda - EPP",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85360,
+                  "cliente": "Força Plastic Comércio de Descartáveis Ltda - ME",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85361,
+                  "cliente": "HotPlast Comércio de Descartáveis Ltda - ME.",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85362,
+                  "cliente": "Super Plastic Comércio de Descaráveis Ltda.",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85363,
+                  "cliente": "On Line Embalagens Eireli - EPP",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85364,
+                  "cliente": "GALO HORTIFRUTI EIRELI ",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -33559,9 +33615,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 39,
+          "abertos": 38,
           "atendidos": 34,
-          "pendentes": 5,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -33799,7 +33855,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83762,
@@ -33840,14 +33896,6 @@
                   "prazo": "2026-09-03",
                   "dataEntrega": "2026-10-06",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 84436,
-                  "cliente": "G4 LINHA VIVA LTDA",
-                  "dataCadastro": "2026-09-24",
-                  "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -33976,8 +34024,8 @@
         {
           "mes": "2026-10",
           "abertos": 12,
-          "atendidos": 7,
-          "pendentes": 5,
+          "atendidos": 8,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34053,17 +34101,17 @@
             },
             {
               "nome": "Omissão de Obrigações Acessórias",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85343,
                   "cliente": "POWER FINANCIAL DO BRASIL S.A. (FILIAL 1)",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -36028,9 +36076,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 12,
+          "abertos": 13,
           "atendidos": 6,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -36100,8 +36148,16 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85356,
+                  "cliente": "V.B. MOREIRA LAVANDERIA",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85251,
                   "cliente": "S H DE ARAUJO & CIA LTDA (MATRIZ)",
@@ -37865,9 +37921,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 146,
+          "abertos": 147,
           "atendidos": 62,
-          "pendentes": 84,
+          "pendentes": 85,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39024,6 +39080,22 @@
                   "cliente": "GOIAS SERVICE LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 84436,
+                  "cliente": "G4 LINHA VIVA LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-25",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -47835,8 +47907,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 174,
-          "atendidos": 79,
+          "abertos": 173,
+          "atendidos": 78,
           "pendentes": 95,
           "categorias": [
             {
@@ -48690,7 +48762,7 @@
             {
               "nome": "Procuração",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
+              "atendidosFora": 1,
               "pendentes": 0,
               "chamados": [
                 {
@@ -48698,14 +48770,6 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 85057,
-                  "cliente": "FCR SERVICO DE APOIO ADMINISTRATIVO LTDA",
-                  "dataCadastro": "2026-10-09",
-                  "prazo": "2026-10-13",
                   "dataEntrega": "2026-10-16",
                   "status": "atendido_fora"
                 },
@@ -49960,15 +50024,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 5,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 4,
               "atendidosFora": 1,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84775,
@@ -50063,6 +50127,14 @@
                   "cliente": "RMB SUPERMERCADO EIRELI",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85355,
+                  "cliente": "RAMAR COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
