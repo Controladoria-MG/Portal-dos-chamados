@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 13:37",
+  "atualizado_em": "20/10/2026 14:32",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 182,
+          "abertos": 183,
           "atendidos": 177,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 137,
               "atendidosFora": 39,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -23253,6 +23253,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85378,
+                  "cliente": "MERCH LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -30277,9 +30285,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 27,
+          "abertos": 28,
           "atendidos": 20,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30549,7 +30557,7 @@
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84783,
@@ -30558,6 +30566,14 @@
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-14",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85377,
+                  "cliente": "Supermercado Feliciano Itapetininga Ltda",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85091,
@@ -34047,9 +34063,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 13,
+          "abertos": 14,
           "atendidos": 8,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34136,6 +34152,22 @@
                   "prazo": "2026-10-21",
                   "dataEntrega": "2026-10-20",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "PER/DCOMP - Intimação/Comunicado",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85376,
+                  "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
