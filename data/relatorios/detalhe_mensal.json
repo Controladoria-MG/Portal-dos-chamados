@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 15:25",
+  "atualizado_em": "20/10/2026 16:39",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 183,
-          "atendidos": 177,
-          "pendentes": 6,
+          "abertos": 185,
+          "atendidos": 181,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 137,
+              "atendidosDentro": 141,
               "atendidosFora": 39,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -23245,20 +23245,36 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85370,
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85378,
                   "cliente": "MERCH LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85380,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85382,
+                  "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
                   "dataEntrega": null,
@@ -26593,8 +26609,8 @@
         {
           "mes": "2026-10",
           "abertos": 24,
-          "atendidos": 19,
-          "pendentes": 5,
+          "atendidos": 22,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26623,8 +26639,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 4,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85304,
@@ -26663,8 +26679,8 @@
                   "cliente": "MONTE CARLO LAB SERVICOS ADMINISTRATIVOS E COMERCIO LTDA ",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84939,
@@ -26679,16 +26695,16 @@
             {
               "nome": "Conciliação de Contas",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85330,
                   "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -26775,16 +26791,16 @@
             {
               "nome": "Multas Diversas",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84745,
                   "cliente": "DUO CENOGRAFIA E ESTANDES LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -33935,9 +33951,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 14,
+          "abertos": 15,
           "atendidos": 8,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34006,6 +34022,22 @@
                   "cliente": "DM COMERCIO ALIMENTICIO LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Malha Fiscal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85381,
+                  "cliente": "I2 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA.",
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -50001,8 +50033,8 @@
         {
           "mes": "2026-10",
           "abertos": 22,
-          "atendidos": 5,
-          "pendentes": 17,
+          "atendidos": 6,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -50118,9 +50150,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84812,
@@ -50183,8 +50215,8 @@
                   "cliente": "DISTRIBUIDORA S J PRODUTOS DE LIMPEZA LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-11-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85374,
