@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 12:12",
+  "atualizado_em": "20/10/2026 12:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 162,
-              "atendidosFora": 119,
+              "atendidosDentro": 161,
+              "atendidosFora": 120,
               "pendentes": 1,
               "chamados": [
                 {
@@ -21741,8 +21741,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-09-30",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84645,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 180,
+          "abertos": 182,
           "atendidos": 177,
-          "pendentes": 3,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 138,
-              "atendidosFora": 38,
-              "pendentes": 3,
+              "atendidosDentro": 137,
+              "atendidosFora": 39,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -21909,8 +21909,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-06",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84833,
@@ -23239,6 +23239,22 @@
                   "prazo": "2026-10-21",
                   "dataEntrega": "2026-10-20",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85369,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85370,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-20",
+                  "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -38904,7 +38920,7 @@
                   "cliente": "ROCA DISTRIBUIDORA E TRANSPORTES DE ALIMENTOS LTDA ",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-08",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -38920,7 +38936,7 @@
                   "cliente": "4R Alimentos e Conveniencias LTDA ",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-07",
-                  "dataEntrega": "2026-09-09",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -41738,7 +41754,7 @@
                   "cliente": "UNIFORTE DO BRASIL COMÉRCIO ATACADISTA DE EMBALAGENS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -46954,7 +46970,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-10-05",
+                  "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
                 },
                 {
@@ -47940,8 +47956,8 @@
         {
           "mes": "2026-10",
           "abertos": 174,
-          "atendidos": 78,
-          "pendentes": 96,
+          "atendidos": 81,
+          "pendentes": 93,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48137,17 +48153,17 @@
             },
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85352,
                   "cliente": "MEDICAL DISCOVERY TREINAMENTOS & DESENVOLVIMENTO LTDA.",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84926,
@@ -48553,9 +48569,9 @@
             },
             {
               "nome": "Notificação",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84838,
@@ -48594,8 +48610,8 @@
                   "cliente": "SINZATO ENTERTAINMENT LTDA ",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84826,
@@ -48745,9 +48761,9 @@
             },
             {
               "nome": "Processo de Prefeitura",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84704,
@@ -48778,8 +48794,8 @@
                   "cliente": "ALINE SIQUEIRA DE VILHENA SANTOS FREITAS GUIMARAIS FERREIRA ",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 }
               ]
             },
