@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 09:02",
+  "atualizado_em": "21/10/2026 10:09",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -45204,8 +45204,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 284,
-          "pendentes": 35,
+          "atendidos": 286,
+          "pendentes": 33,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46546,8 +46546,8 @@
             {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 4,
-              "atendidosFora": 5,
-              "pendentes": 2,
+              "atendidosFora": 6,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83530,
@@ -46594,8 +46594,8 @@
                   "cliente": "MTEC INSTALACOES ELETRICAS LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84444,
@@ -47010,8 +47010,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 32,
-              "atendidosFora": 85,
-              "pendentes": 7,
+              "atendidosFora": 86,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83368,
@@ -47234,8 +47234,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84659,
@@ -48012,8 +48012,8 @@
         {
           "mes": "2026-10",
           "abertos": 175,
-          "atendidos": 86,
-          "pendentes": 89,
+          "atendidos": 87,
+          "pendentes": 88,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49082,8 +49082,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 12,
-              "atendidosFora": 17,
-              "pendentes": 40,
+              "atendidosFora": 18,
+              "pendentes": 39,
               "chamados": [
                 {
                   "id": 84703,
@@ -49274,8 +49274,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84752,
@@ -49402,7 +49402,7 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F16)",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-20",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
                 },
                 {
