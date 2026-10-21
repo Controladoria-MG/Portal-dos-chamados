@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 10:09",
+  "atualizado_em": "21/10/2026 10:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17124,8 +17124,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 158,
-              "atendidosFora": 137,
+              "atendidosDentro": 157,
+              "atendidosFora": 138,
               "pendentes": 0,
               "chamados": [
                 {
@@ -19349,8 +19349,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-08-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83254,
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 161,
-              "atendidosFora": 120,
+              "atendidosDentro": 159,
+              "atendidosFora": 122,
               "pendentes": 1,
               "chamados": [
                 {
@@ -21405,8 +21405,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84403,
@@ -21421,8 +21421,8 @@
                   "cliente": "CASA DA CRIANCA ELISA VERARDI",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84415,
@@ -21782,8 +21782,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 191,
-          "atendidos": 187,
+          "abertos": 192,
+          "atendidos": 188,
           "pendentes": 4,
           "categorias": [
             {
@@ -21804,8 +21804,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 146,
-              "atendidosFora": 40,
+              "atendidosDentro": 144,
+              "atendidosFora": 43,
               "pendentes": 4,
               "chamados": [
                 {
@@ -21954,7 +21954,7 @@
                 },
                 {
                   "id": 84872,
-                  "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
+                  "cliente": "BEM COMPLETO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-09",
@@ -22621,8 +22621,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85202,
@@ -22853,8 +22853,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85282,
@@ -23077,8 +23077,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85326,
@@ -23322,6 +23322,14 @@
                 },
                 {
                   "id": 85395,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85405,
                   "cliente": null,
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
@@ -26656,9 +26664,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 28,
+          "abertos": 29,
           "atendidos": 22,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26936,7 +26944,7 @@
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 2,
               "atendidosFora": 3,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84913,
@@ -26961,6 +26969,14 @@
                   "prazo": "2026-10-06",
                   "dataEntrega": "2026-10-06",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85404,
+                  "cliente": "BONNARO COMERCIO E REPRESENTAÇÃO LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84831,
@@ -30253,9 +30269,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 29,
+          "abertos": 30,
           "atendidos": 20,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30446,6 +30462,22 @@
                   "prazo": "2026-10-19",
                   "dataEntrega": "2026-10-13",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Omissão de Obrigações Acessórias",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85402,
+                  "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -34039,9 +34071,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 8,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34119,13 +34151,21 @@
               "nome": "Malha Fiscal",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85381,
                   "cliente": "I2 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA.",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85400,
+                  "cliente": "VL CONCRETO BOMBAS LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -36018,8 +36058,8 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 3,
-              "atendidosFora": 2,
+              "atendidosDentro": 1,
+              "atendidosFora": 4,
               "pendentes": 0,
               "chamados": [
                 {
@@ -36043,16 +36083,16 @@
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84341,
                   "cliente": "SMART BREAK COMERCIO LANCHES S.A.",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-24",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83816,
@@ -36149,8 +36189,8 @@
         {
           "mes": "2026-10",
           "abertos": 14,
-          "atendidos": 6,
-          "pendentes": 8,
+          "atendidos": 8,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -36218,17 +36258,17 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85356,
                   "cliente": "V.B. MOREIRA LAVANDERIA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85251,
@@ -36243,8 +36283,8 @@
                   "cliente": "IAZUL SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85208,
@@ -37821,7 +37861,7 @@
                 },
                 {
                   "id": 83204,
-                  "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
+                  "cliente": "BEM COMPLETO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
                   "dataEntrega": "2026-09-24",
@@ -39266,8 +39306,8 @@
         {
           "mes": "2026-10",
           "abertos": 61,
-          "atendidos": 3,
-          "pendentes": 58,
+          "atendidos": 5,
+          "pendentes": 56,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39400,8 +39440,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 21,
+              "atendidosFora": 4,
+              "pendentes": 19,
               "chamados": [
                 {
                   "id": 84708,
@@ -39432,8 +39472,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84828,
@@ -39456,8 +39496,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84869,
@@ -41612,8 +41652,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 389,
-          "pendentes": 29,
+          "atendidos": 392,
+          "pendentes": 26,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42074,12 +42114,12 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 16,
-              "pendentes": 9,
+              "atendidosFora": 19,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83205,
-                  "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
+                  "cliente": "BEM COMPLETO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
                   "dataEntrega": "2026-09-16",
@@ -42138,8 +42178,8 @@
                   "cliente": "AUTO CENTER EMBRASIL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83212,
@@ -42162,16 +42202,16 @@
                   "cliente": "YURI CESTARI DA SILVA EMBREAGENS OSASCO",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83112,
                   "cliente": "EMBRASIL COMERCIO DE AUTO PECAS LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83113,
@@ -45303,7 +45343,7 @@
                 },
                 {
                   "id": 83982,
-                  "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
+                  "cliente": "BEM COMPLETO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-10-13",
                   "dataEntrega": null,
@@ -45967,7 +46007,7 @@
                 },
                 {
                   "id": 84430,
-                  "cliente": "BISPO E CARVALHO SUPERMERCADO LTDA",
+                  "cliente": "BEM COMPLETO SUPERMERCADO LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-10-01",
                   "dataEntrega": "2026-09-28",
@@ -48012,8 +48052,8 @@
         {
           "mes": "2026-10",
           "abertos": 175,
-          "atendidos": 87,
-          "pendentes": 88,
+          "atendidos": 88,
+          "pendentes": 87,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48506,7 +48546,7 @@
                   "cliente": "Oslo Comercial de Alimentos Ltda",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-14",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -49081,9 +49121,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 12,
+              "atendidosDentro": 13,
               "atendidosFora": 18,
-              "pendentes": 39,
+              "pendentes": 38,
               "chamados": [
                 {
                   "id": 84703,
@@ -49426,8 +49466,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 36)",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84765,
