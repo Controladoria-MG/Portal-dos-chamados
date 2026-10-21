@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 10:59",
+  "atualizado_em": "21/10/2026 11:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 192,
+          "abertos": 193,
           "atendidos": 188,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 144,
               "atendidosFora": 43,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -23330,6 +23330,14 @@
                 },
                 {
                   "id": 85405,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85409,
                   "cliente": null,
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
@@ -41652,8 +41660,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 392,
-          "pendentes": 26,
+          "atendidos": 394,
+          "pendentes": 24,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42114,8 +42122,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 19,
-              "pendentes": 6,
+              "atendidosFora": 21,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83205,
@@ -42162,8 +42170,8 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83214,
@@ -42186,8 +42194,8 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83115,
@@ -46130,7 +46138,7 @@
                   "cliente": "L. A. TAHA - ESTACIONAMENTO",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -48051,9 +48059,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 175,
-          "atendidos": 88,
-          "pendentes": 87,
+          "abertos": 177,
+          "atendidos": 91,
+          "pendentes": 86,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48115,7 +48123,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 13,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84698,
@@ -48194,6 +48202,14 @@
                   "cliente": "BARATÃO SÃO LUCAS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85408,
+                  "cliente": "RC MINIMERCADO E SERVICOS LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -48426,8 +48442,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 0,
-              "atendidosFora": 4,
-              "pendentes": 1,
+              "atendidosFora": 5,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85029,
@@ -48450,8 +48466,8 @@
                   "cliente": "MPJ - PRODUTOS, EQUIPAMENTOS E SERVICOS LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84965,
@@ -48538,8 +48554,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 1,
-              "pendentes": 4,
+              "atendidosFora": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85028,
@@ -48586,8 +48602,8 @@
                   "cliente": "ARN COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85000,
@@ -48627,7 +48643,7 @@
               "nome": "Levantamento de Débitos Mensal",
               "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85227,
@@ -48650,6 +48666,14 @@
                   "cliente": "ALMEIDA & AMARAL COMERCIO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85407,
+                  "cliente": "MPJ - PRODUTOS, EQUIPAMENTOS E SERVICOS LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -49121,9 +49145,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 13,
+              "atendidosDentro": 14,
               "atendidosFora": 18,
-              "pendentes": 38,
+              "pendentes": 37,
               "chamados": [
                 {
                   "id": 84703,
@@ -49490,7 +49514,7 @@
                   "cliente": "AJSF PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-16",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -49498,7 +49522,7 @@
                   "cliente": "LUSINDE INVEST ADMINISTRACAO DE BENS PROPRIOS S.A.",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-14",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -49514,7 +49538,7 @@
                   "cliente": "MONUMENTUM INVESTIMENTOS E PARTICIPAÇÕES LTDA ",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-16",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -49634,7 +49658,7 @@
                   "cliente": "HFARIAS NEGOCIOS E PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-16",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -49674,8 +49698,8 @@
                   "cliente": "HEORA PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
