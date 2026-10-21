@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 15:57",
+  "atualizado_em": "21/10/2026 16:44",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -31895,24 +31895,16 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 20,
+          "abertos": 14,
           "atendidos": 5,
-          "pendentes": 15,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 15,
+              "pendentes": 9,
               "chamados": [
-                {
-                  "id": 78294,
-                  "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 78294,
                   "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
@@ -31938,22 +31930,6 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78306,
-                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78308,
-                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78308,
                   "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
                   "dataCadastro": "2026-03-30",
@@ -31970,32 +31946,8 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 78309,
-                  "cliente": "Emplaca Automação e Tecnologia Ltda. ",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 78313,
                   "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78313,
-                  "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78316,
-                  "cliente": "METALBRAS INDUSTRIA E COMERCIO DE METAIS LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
                   "dataEntrega": null,
@@ -40167,8 +40119,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 163,
-          "pendentes": 4,
+          "atendidos": 166,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40933,8 +40885,8 @@
             {
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81638,
@@ -40957,8 +40909,8 @@
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81583,
@@ -40973,8 +40925,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -41077,8 +41029,8 @@
             {
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80989,
@@ -41093,8 +41045,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-20",
                   "prazo": "2026-07-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81347,
@@ -41703,8 +41655,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 397,
-          "pendentes": 21,
+          "atendidos": 400,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42781,8 +42733,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 15,
-              "pendentes": 1,
+              "atendidosFora": 16,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82005,
@@ -42917,8 +42869,8 @@
                   "cliente": "PROMOTORAS GYN LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83073,
@@ -43477,16 +43429,16 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 9,
-              "atendidosFora": 16,
-              "pendentes": 1,
+              "atendidosFora": 17,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81777,
                   "cliente": null,
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82166,
@@ -43749,16 +43701,16 @@
             {
               "nome": "Restituição",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82000,
                   "cliente": "INSTITUTO DE TECNOLOGIA ASSISTIVA LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82831,
@@ -48102,9 +48054,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 185,
-          "atendidos": 114,
-          "pendentes": 71,
+          "abertos": 186,
+          "atendidos": 118,
+          "pendentes": 68,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48484,9 +48436,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 5,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85029,
@@ -48501,8 +48453,8 @@
                   "cliente": "FERROS COMÉRCIO DE DOCES E DERIVADOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85021,
@@ -48549,8 +48501,8 @@
                   "cliente": "FERRO & FAMILIA COMERCIO DE DOCES E DERIVADOS LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -48964,7 +48916,7 @@
             },
             {
               "nome": "Processo de Prefeitura",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
               "pendentes": 1,
               "chamados": [
@@ -48991,6 +48943,14 @@
                   "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 85427,
+                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85324,
@@ -49229,8 +49189,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 16,
-              "atendidosFora": 31,
-              "pendentes": 25,
+              "atendidosFora": 32,
+              "pendentes": 24,
               "chamados": [
                 {
                   "id": 84703,
@@ -49317,8 +49277,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84962,
@@ -51607,24 +51567,16 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 234,
-          "atendidos": 126,
+          "abertos": 226,
+          "atendidos": 118,
           "pendentes": 108,
           "categorias": [
             {
               "nome": "Apontamentos",
-              "atendidosDentro": 13,
-              "atendidosFora": 31,
+              "atendidosDentro": 12,
+              "atendidosFora": 24,
               "pendentes": 35,
               "chamados": [
-                {
-                  "id": 81732,
-                  "cliente": "MERCADO PONTO CERTO DE TERESOPOLIS LTDA",
-                  "dataCadastro": "2026-08-03",
-                  "prazo": "2026-08-03",
-                  "dataEntrega": "2026-09-01",
-                  "status": "atendido_fora"
-                },
                 {
                   "id": 81732,
                   "cliente": "MERCADO PONTO CERTO DE TERESOPOLIS LTDA",
@@ -51644,22 +51596,6 @@
                 {
                   "id": 81810,
                   "cliente": "CS SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-08-03",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81810,
-                  "cliente": "CS SERVIÇOS DE APOIO LTDA",
-                  "dataCadastro": "2026-08-03",
-                  "prazo": "2026-08-05",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 81812,
-                  "cliente": "A CUNHA DOS SANTOS BAR E RESTAURANTE EIRELI",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
                   "dataEntrega": "2026-09-10",
@@ -51794,22 +51730,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 82274,
-                  "cliente": "CRUZEIRO DO SUL MERCADO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-08-12",
-                  "prazo": "2026-08-14",
-                  "dataEntrega": "2026-08-18",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82300,
-                  "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
-                  "dataCadastro": "2026-08-12",
-                  "prazo": "2026-08-27",
-                  "dataEntrega": "2026-08-19",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 82300,
                   "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
                   "dataCadastro": "2026-08-12",
@@ -51890,32 +51810,8 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 82404,
-                  "cliente": "ROCHA E FILHO LTDA",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 82405,
                   "cliente": "ROCHA E BORGES SERVICOS OPERACIONAIS LTDA",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82405,
-                  "cliente": "ROCHA E BORGES SERVICOS OPERACIONAIS LTDA",
-                  "dataCadastro": "2026-08-13",
-                  "prazo": "2026-08-17",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_fora"
-                },
-                {
-                  "id": 82408,
-                  "cliente": "ROCHA E FILHO LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
                   "dataEntrega": "2026-09-10",
