@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 17:12",
+  "atualizado_em": "21/10/2026 18:23",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -14594,7 +14594,7 @@
                 },
                 {
                   "id": 80594,
-                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "cliente": "WCS SOUZA LOCAÇÃO LTDA",
                   "dataCadastro": "2026-06-26",
                   "prazo": "2026-06-29",
                   "dataEntrega": "2026-06-26",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 193,
+          "abertos": 195,
           "atendidos": 189,
-          "pendentes": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 143,
               "atendidosFora": 45,
-              "pendentes": 4,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -23343,6 +23343,22 @@
                   "prazo": "2026-10-22",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85429,
+                  "cliente": " SUPERMERCADOS BANDEIRA LTDA.",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85430,
+                  "cliente": " SUPERMERCADOS BANDEIRA LTDA.",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -26846,8 +26862,8 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 2,
-              "atendidosFora": 0,
+              "atendidosDentro": 0,
+              "atendidosFora": 2,
               "pendentes": 0,
               "chamados": [
                 {
@@ -26855,16 +26871,16 @@
                   "cliente": "PIZZA CREK FAST FOOD LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85024,
                   "cliente": "SJC FAST FOOD LTDA ",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -29923,8 +29939,8 @@
             },
             {
               "nome": "DCTFWeb",
-              "atendidosDentro": 3,
-              "atendidosFora": 8,
+              "atendidosDentro": 2,
+              "atendidosFora": 9,
               "pendentes": 2,
               "chamados": [
                 {
@@ -30004,8 +30020,8 @@
                   "cliente": "C A R MINIMERCADO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84572,
@@ -30277,9 +30293,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 34,
+          "abertos": 35,
           "atendidos": 21,
-          "pendentes": 13,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30468,7 +30484,7 @@
                   "cliente": "BENTA RESTAURANTE LTDA",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -30525,7 +30541,7 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85224,
@@ -30540,6 +30556,14 @@
                   "cliente": "IAZUL SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85432,
+                  "cliente": "LIMA MOTA LOCAÇÕES, SERVIÇOS E COMERCIO LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -34119,9 +34143,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 8,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34223,7 +34247,7 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85343,
@@ -34232,6 +34256,14 @@
                   "prazo": "2026-10-21",
                   "dataEntrega": "2026-10-20",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85431,
+                  "cliente": "T.T.S PATRIMONIAL LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -37384,7 +37416,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-07-08",
-                  "dataEntrega": "2026-09-08",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -48103,8 +48135,8 @@
         {
           "mes": "2026-10",
           "abertos": 186,
-          "atendidos": 121,
-          "pendentes": 65,
+          "atendidos": 123,
+          "pendentes": 63,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48461,7 +48493,7 @@
                   "cliente": "Madenik Solucoes Comercio de Madeiras e Ferragens LTDA ",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": "2026-10-16",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 }
               ]
@@ -48484,9 +48516,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85029,
@@ -48525,8 +48557,8 @@
                   "cliente": "ANJOS DO FERRO COMERCIO DE DOCES E DERIVADOS LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84965,
@@ -48765,8 +48797,8 @@
             {
               "nome": "Notificação",
               "atendidosDentro": 3,
-              "atendidosFora": 3,
-              "pendentes": 0,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84838,
@@ -48789,8 +48821,8 @@
                   "cliente": "SJC FAST FOOD LTDA ",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84727,
@@ -49037,7 +49069,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-16",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -49221,24 +49253,24 @@
             {
               "nome": "Retificação de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85221,
                   "cliente": "BRIGER ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "Senha",
               "atendidosDentro": 16,
-              "atendidosFora": 32,
-              "pendentes": 24,
+              "atendidosFora": 33,
+              "pendentes": 23,
               "chamados": [
                 {
                   "id": 84703,
@@ -49261,7 +49293,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -49661,8 +49693,8 @@
                   "cliente": "HERLOS EMPREENDIMENTOS S.A.",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84975,
@@ -49911,7 +49943,7 @@
                 },
                 {
                   "id": 82644,
-                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "cliente": "WCS SOUZA LOCAÇÃO LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
                   "dataEntrega": "2026-10-05",
@@ -50295,7 +50327,7 @@
               "chamados": [
                 {
                   "id": 84207,
-                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "cliente": "WCS SOUZA LOCAÇÃO LTDA",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-29",
                   "dataEntrega": null,
@@ -50495,7 +50527,7 @@
                 },
                 {
                   "id": 85152,
-                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "cliente": "WCS SOUZA LOCAÇÃO LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-21",
                   "dataEntrega": null,
@@ -50969,7 +51001,7 @@
                 },
                 {
                   "id": 82645,
-                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "cliente": "WCS SOUZA LOCAÇÃO LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
@@ -53131,7 +53163,7 @@
                 },
                 {
                   "id": 82643,
-                  "cliente": "WCS SOUZA GESTAO DE RECURSOS HUMANOS LTDA",
+                  "cliente": "WCS SOUZA LOCAÇÃO LTDA",
                   "dataCadastro": "2026-08-19",
                   "prazo": "2026-08-20",
                   "dataEntrega": null,
