@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 12:57",
+  "atualizado_em": "21/10/2026 13:38",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -26673,8 +26673,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 22,
-          "pendentes": 7,
+          "atendidos": 24,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26798,9 +26798,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 1,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85392,
@@ -26815,16 +26815,16 @@
                   "cliente": "LINHARES E FONTOURA CONSTRUCAO CIVIL LTDA ",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85394,
                   "cliente": "FONTOURA E LINHARES CONSTRUCOES CIVIS LTDA ",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85379,
@@ -30278,8 +30278,8 @@
         {
           "mes": "2026-10",
           "abertos": 30,
-          "atendidos": 20,
-          "pendentes": 10,
+          "atendidos": 21,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30475,17 +30475,17 @@
             },
             {
               "nome": "Omissão de Obrigações Acessórias",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85402,
                   "cliente": "MERCADO DOS DOCES VILA FORMOSA COMERCIAL LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -41631,8 +41631,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 396,
-          "pendentes": 22,
+          "atendidos": 397,
+          "pendentes": 21,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41693,8 +41693,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 16,
-              "pendentes": 6,
+              "atendidosFora": 17,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 81838,
@@ -41757,8 +41757,8 @@
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-08-25",
                   "prazo": "2026-09-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82573,
@@ -45223,22 +45223,22 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 287,
-          "pendentes": 32,
+          "atendidos": 294,
+          "pendentes": 25,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 6,
-              "atendidosFora": 1,
-              "pendentes": 5,
+              "atendidosDentro": 7,
+              "atendidosFora": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84156,
                   "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83929,
@@ -45253,8 +45253,8 @@
                   "cliente": "HORTIFRUTI BOM DO CAMPO LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 83967,
@@ -45277,8 +45277,8 @@
                   "cliente": "BERTON SUPERMERCADOS COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83972,
@@ -45309,8 +45309,8 @@
                   "cliente": "HIPERMERCADO MARECHAL LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83375,
@@ -45333,8 +45333,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
-              "atendidosFora": 12,
-              "pendentes": 8,
+              "atendidosFora": 14,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84372,
@@ -45477,16 +45477,16 @@
                   "cliente": "TAITI COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83521,
                   "cliente": "LOJA DE FABRICA PISOS E REVESTIMENTOS LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84210,
@@ -46765,8 +46765,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 3,
-              "atendidosFora": 9,
-              "pendentes": 7,
+              "atendidosFora": 10,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 83526,
@@ -46869,8 +46869,8 @@
                   "cliente": "MERCADINHO J. SILVA - EIRELI",
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84205,
@@ -48031,8 +48031,8 @@
         {
           "mes": "2026-10",
           "abertos": 180,
-          "atendidos": 105,
-          "pendentes": 75,
+          "atendidos": 110,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48092,9 +48092,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 14,
+              "atendidosDentro": 2,
+              "atendidosFora": 4,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84698,
@@ -48165,16 +48165,16 @@
                   "cliente": "D. M. DAMASCENO",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84906,
                   "cliente": "BARATÃO SÃO LUCAS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85408,
@@ -48213,8 +48213,8 @@
                   "cliente": "DROGARIA MIX I LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-11-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85219,
@@ -48901,16 +48901,16 @@
             {
               "nome": "Processo de VISA",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84763,
                   "cliente": "TAITI COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -48940,9 +48940,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 6,
+              "atendidosDentro": 7,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84911,
@@ -48965,8 +48965,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85196,
