@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 13:38",
+  "atualizado_em": "21/10/2026 14:20",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21804,8 +21804,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 144,
-              "atendidosFora": 43,
+              "atendidosDentro": 142,
+              "atendidosFora": 45,
               "pendentes": 5,
               "chamados": [
                 {
@@ -22293,7 +22293,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-16",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -22749,16 +22749,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85243,
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85244,
@@ -26673,8 +26673,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 24,
-          "pendentes": 5,
+          "atendidos": 25,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26798,17 +26798,17 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85392,
                   "cliente": "PS3 INSTALACOES E MONTAGENS LTDA ",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85393,
@@ -48031,8 +48031,8 @@
         {
           "mes": "2026-10",
           "abertos": 180,
-          "atendidos": 110,
-          "pendentes": 70,
+          "atendidos": 111,
+          "pendentes": 69,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49117,8 +49117,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 16,
-              "atendidosFora": 30,
-              "pendentes": 26,
+              "atendidosFora": 31,
+              "pendentes": 25,
               "chamados": [
                 {
                   "id": 84703,
@@ -49133,8 +49133,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84748,
