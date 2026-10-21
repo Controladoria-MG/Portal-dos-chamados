@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 14:20",
+  "atualizado_em": "21/10/2026 14:49",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -48030,9 +48030,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 180,
+          "abertos": 181,
           "atendidos": 111,
-          "pendentes": 69,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48726,7 +48726,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84958,
@@ -48743,6 +48743,14 @@
                   "prazo": "2026-10-15",
                   "dataEntrega": "2026-10-16",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85413,
+                  "cliente": "COMERCIAL LUZIA MEIRE DE GENEROS ALIMENTICIOS LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85153,
