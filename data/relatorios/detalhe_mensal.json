@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 16:44",
+  "atualizado_em": "21/10/2026 17:12",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -31895,16 +31895,24 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 14,
+          "abertos": 20,
           "atendidos": 5,
-          "pendentes": 9,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 9,
+              "pendentes": 15,
               "chamados": [
+                {
+                  "id": 78294,
+                  "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 78294,
                   "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
@@ -31930,6 +31938,22 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 78306,
+                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78308,
+                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 78308,
                   "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
                   "dataCadastro": "2026-03-30",
@@ -31946,8 +31970,32 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 78309,
+                  "cliente": "Emplaca Automação e Tecnologia Ltda. ",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 78313,
                   "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78313,
+                  "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
+                  "dataCadastro": "2026-03-30",
+                  "prazo": "2026-04-10",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 78316,
+                  "cliente": "METALBRAS INDUSTRIA E COMERCIO DE METAIS LTDA",
                   "dataCadastro": "2026-03-30",
                   "prazo": "2026-04-10",
                   "dataEntrega": null,
@@ -41655,8 +41703,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 400,
-          "pendentes": 18,
+          "atendidos": 401,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -43701,8 +43749,8 @@
             {
               "nome": "Restituição",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 82000,
@@ -43733,8 +43781,8 @@
                   "cliente": "SALDAO CASA & LAR MOVEIS E ELETRODOMESTICOS LTDA",
                   "dataCadastro": "2026-08-11",
                   "prazo": "2026-08-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -45247,8 +45295,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 294,
-          "pendentes": 25,
+          "atendidos": 299,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46037,8 +46085,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 13,
-              "atendidosFora": 23,
-              "pendentes": 2,
+              "atendidosFora": 25,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83512,
@@ -46085,8 +46133,8 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84544,
@@ -46165,8 +46213,8 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 07)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84611,
@@ -46589,8 +46637,8 @@
             {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 4,
-              "atendidosFora": 6,
-              "pendentes": 1,
+              "atendidosFora": 7,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83530,
@@ -46653,8 +46701,8 @@
                   "cliente": "CABO FRIO PEÇAS LTDA",
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83424,
@@ -46789,8 +46837,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 3,
-              "atendidosFora": 10,
-              "pendentes": 6,
+              "atendidosFora": 12,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83526,
@@ -46829,8 +46877,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-16",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84308,
@@ -46933,8 +46981,8 @@
                   "cliente": "J R BARROS COMERCIO LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84107,
@@ -48055,8 +48103,8 @@
         {
           "mes": "2026-10",
           "abertos": 186,
-          "atendidos": 118,
-          "pendentes": 68,
+          "atendidos": 121,
+          "pendentes": 65,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48116,9 +48164,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 4,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84698,
@@ -48205,8 +48253,8 @@
                   "cliente": "RC MINIMERCADO E SERVICOS LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85366,
@@ -48773,8 +48821,8 @@
             {
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84958,
@@ -48805,8 +48853,8 @@
                   "cliente": "KAUA RIBEIRO TIAGO 46375356890",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -49125,8 +49173,8 @@
             {
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85256,
@@ -49141,8 +49189,8 @@
                   "cliente": "MIHARA MATERIAIS PARA CONSTRUÇÃO LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84731,
@@ -51567,16 +51615,24 @@
       "meses": [
         {
           "mes": "2026-08",
-          "abertos": 226,
-          "atendidos": 118,
+          "abertos": 234,
+          "atendidos": 126,
           "pendentes": 108,
           "categorias": [
             {
               "nome": "Apontamentos",
-              "atendidosDentro": 12,
-              "atendidosFora": 24,
+              "atendidosDentro": 13,
+              "atendidosFora": 31,
               "pendentes": 35,
               "chamados": [
+                {
+                  "id": 81732,
+                  "cliente": "MERCADO PONTO CERTO DE TERESOPOLIS LTDA",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-03",
+                  "dataEntrega": "2026-09-01",
+                  "status": "atendido_fora"
+                },
                 {
                   "id": 81732,
                   "cliente": "MERCADO PONTO CERTO DE TERESOPOLIS LTDA",
@@ -51596,6 +51652,22 @@
                 {
                   "id": 81810,
                   "cliente": "CS SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81810,
+                  "cliente": "CS SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-08-03",
+                  "prazo": "2026-08-05",
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 81812,
+                  "cliente": "A CUNHA DOS SANTOS BAR E RESTAURANTE EIRELI",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
                   "dataEntrega": "2026-09-10",
@@ -51730,6 +51802,22 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 82274,
+                  "cliente": "CRUZEIRO DO SUL MERCADO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-14",
+                  "dataEntrega": "2026-08-18",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82300,
+                  "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
+                  "dataCadastro": "2026-08-12",
+                  "prazo": "2026-08-27",
+                  "dataEntrega": "2026-08-19",
+                  "status": "atendido_dentro"
+                },
+                {
                   "id": 82300,
                   "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
                   "dataCadastro": "2026-08-12",
@@ -51810,8 +51898,32 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 82404,
+                  "cliente": "ROCHA E FILHO LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
+                },
+                {
                   "id": 82405,
                   "cliente": "ROCHA E BORGES SERVICOS OPERACIONAIS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82405,
+                  "cliente": "ROCHA E BORGES SERVICOS OPERACIONAIS LTDA",
+                  "dataCadastro": "2026-08-13",
+                  "prazo": "2026-08-17",
+                  "dataEntrega": "2026-09-10",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82408,
+                  "cliente": "ROCHA E FILHO LTDA",
                   "dataCadastro": "2026-08-13",
                   "prazo": "2026-08-17",
                   "dataEntrega": "2026-09-10",
