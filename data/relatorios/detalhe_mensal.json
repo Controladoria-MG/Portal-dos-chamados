@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 14:49",
+  "atualizado_em": "21/10/2026 15:57",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 193,
-          "atendidos": 188,
-          "pendentes": 5,
+          "atendidos": 189,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 142,
+              "atendidosDentro": 143,
               "atendidosFora": 45,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -23341,8 +23341,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -26673,8 +26673,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 25,
-          "pendentes": 4,
+          "atendidos": 26,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26798,9 +26798,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85392,
@@ -26831,8 +26831,8 @@
                   "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85158,
@@ -30277,16 +30277,32 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 30,
+          "abertos": 34,
           "atendidos": 21,
-          "pendentes": 9,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 85419,
+                  "cliente": "SUPERMERCADO CATANDUVA LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85418,
+                  "cliente": "SUPER MERCADO ESTRELA AZUL",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84827,
                   "cliente": "Pantoja & Cia Ltda.",
@@ -30294,6 +30310,22 @@
                   "prazo": "2026-10-06",
                   "dataEntrega": "2026-10-07",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85425,
+                  "cliente": "SUPER MERCADO SANTA LUZIA LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85423,
+                  "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84924,
@@ -31514,21 +31546,29 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 11,
+          "abertos": 12,
           "atendidos": 4,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85051,
                   "cliente": "MERCADINHO KI PREÇO BAIXO LTDA",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85424,
+                  "cliente": "RODRIGUES & PEREIRA CORDEIROPOLIS LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -36196,10 +36236,42 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 14,
+          "abertos": 17,
           "atendidos": 8,
-          "pendentes": 6,
+          "pendentes": 9,
           "categorias": [
+            {
+              "nome": "Ata de Reunião",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 3,
+              "chamados": [
+                {
+                  "id": 85421,
+                  "cliente": "SUPER CENTER ZATTÃO LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85422,
+                  "cliente": "SUPER CENTER ZATTÃO LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85417,
+                  "cliente": "JAROVALE SUPERMERCADO LTDA ",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
             {
               "nome": "Autorregularização",
               "atendidosDentro": 0,
@@ -45593,14 +45665,6 @@
               "pendentes": 2,
               "chamados": [
                 {
-                  "id": 84457,
-                  "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
-                  "dataCadastro": "2026-09-24",
-                  "prazo": "2026-09-28",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 84516,
                   "cliente": "MINI SUPERMERCADO TULIO LTDA",
                   "dataCadastro": "2026-09-28",
@@ -45615,6 +45679,14 @@
                   "prazo": "2026-10-05",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 84457,
+                  "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
+                  "dataCadastro": "2026-09-24",
+                  "prazo": "2026-09-28",
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -47985,14 +48057,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 84630,
-                  "cliente": "PABLO HENRIQUE CONINCK PACHECO LTDA",
-                  "dataCadastro": "2026-09-29",
-                  "prazo": "2026-10-02",
-                  "dataEntrega": "2026-10-08",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 83922,
                   "cliente": "GRANUA AGROINDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-14",
@@ -48023,6 +48087,14 @@
                   "prazo": "2026-10-02",
                   "dataEntrega": "2026-10-02",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 84630,
+                  "cliente": "PABLO HENRIQUE CONINCK PACHECO LTDA",
+                  "dataCadastro": "2026-09-29",
+                  "prazo": "2026-10-02",
+                  "dataEntrega": "2026-10-08",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -48030,9 +48102,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 181,
-          "atendidos": 111,
-          "pendentes": 70,
+          "abertos": 185,
+          "atendidos": 114,
+          "pendentes": 71,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48297,22 +48369,6 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 84694,
-                  "cliente": "A COMERCIAL PAIVA LTDA",
-                  "dataCadastro": "2026-10-01",
-                  "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 84696,
-                  "cliente": "KAREN CRISTINE PACHECO MARKETING & COMUNICACAO",
-                  "dataCadastro": "2026-10-01",
-                  "prazo": "2026-10-05",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
                   "id": 84814,
                   "cliente": "ALFAMAX LOCADORA LTDA",
                   "dataCadastro": "2026-10-05",
@@ -48333,6 +48389,22 @@
                   "cliente": "DIMENSAO 3 LOG - TRANSPORTES & LOGISTICA LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84694,
+                  "cliente": "A COMERCIAL PAIVA LTDA",
+                  "dataCadastro": "2026-10-01",
+                  "prazo": "2026-10-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 84696,
+                  "cliente": "KAREN CRISTINE PACHECO MARKETING & COMUNICACAO",
+                  "dataCadastro": "2026-10-01",
+                  "prazo": "2026-10-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48414,7 +48486,7 @@
               "nome": "Certidão",
               "atendidosDentro": 0,
               "atendidosFora": 5,
-              "pendentes": 0,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85029,
@@ -48423,6 +48495,14 @@
                   "prazo": "2026-10-12",
                   "dataEntrega": "2026-10-15",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85414,
+                  "cliente": "FERROS COMÉRCIO DE DOCES E DERIVADOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85021,
@@ -48441,6 +48521,14 @@
                   "status": "atendido_fora"
                 },
                 {
+                  "id": 85415,
+                  "cliente": "ANJOS DO FERRO COMERCIO DE DOCES E DERIVADOS LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 84965,
                   "cliente": "PRO ADVANCED SOLUCOES EM T.I. LTDA",
                   "dataCadastro": "2026-10-07",
@@ -48455,6 +48543,14 @@
                   "prazo": "2026-10-16",
                   "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85416,
+                  "cliente": "FERRO & FAMILIA COMERCIO DE DOCES E DERIVADOS LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -48612,9 +48708,9 @@
             },
             {
               "nome": "Levantamento de Débitos Mensal",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85227,
@@ -48645,8 +48741,8 @@
                   "cliente": "MPJ - PRODUTOS, EQUIPAMENTOS E SERVICOS LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -48948,17 +49044,17 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 7,
-              "atendidosFora": 3,
-              "pendentes": 3,
+              "atendidosDentro": 8,
+              "atendidosFora": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84911,
                   "cliente": null,
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85201,
@@ -48973,6 +49069,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-21",
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85420,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-23",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
                 },
@@ -50212,14 +50316,14 @@
         {
           "mes": "2026-10",
           "abertos": 22,
-          "atendidos": 6,
-          "pendentes": 16,
+          "atendidos": 8,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 4,
+              "atendidosDentro": 6,
               "atendidosFora": 1,
-              "pendentes": 8,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84775,
@@ -50306,16 +50410,16 @@
                   "cliente": "MDB COMERCIAL LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85275,
                   "cliente": "RMB SUPERMERCADO EIRELI",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85355,
