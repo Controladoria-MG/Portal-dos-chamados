@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/10/2026 18:59",
+  "atualizado_em": "21/10/2026 09:02",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 190,
-          "atendidos": 182,
-          "pendentes": 8,
+          "abertos": 191,
+          "atendidos": 187,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 141,
+              "atendidosDentro": 146,
               "atendidosFora": 40,
-              "pendentes": 8,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -23069,7 +23069,7 @@
                   "cliente": "VITAL TRANSPORTE E LOGISTICA INTELIGENTE LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23285,38 +23285,46 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85384,
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85386,
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85388,
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85389,
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
+                  "dataEntrega": "2026-10-20",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85395,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -26648,9 +26656,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 25,
+          "abertos": 28,
           "atendidos": 22,
-          "pendentes": 3,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26776,8 +26784,32 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 85392,
+                  "cliente": "PS3 INSTALACOES E MONTAGENS LTDA ",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85393,
+                  "cliente": "LINHARES E FONTOURA CONSTRUCAO CIVIL LTDA ",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85394,
+                  "cliente": "FONTOURA E LINHARES CONSTRUCOES CIVIS LTDA ",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85379,
                   "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
@@ -36116,9 +36148,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 13,
+          "abertos": 14,
           "atendidos": 6,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Autorregularização",
@@ -36186,9 +36218,9 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosDentro": 0,
+              "atendidosFora": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85356,
@@ -36203,8 +36235,16 @@
                   "cliente": "S H DE ARAUJO & CIA LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 85397,
+                  "cliente": "IAZUL SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85208,
@@ -41572,8 +41612,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 390,
-          "pendentes": 28,
+          "atendidos": 389,
+          "pendentes": 29,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -41634,8 +41674,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 17,
-              "pendentes": 5,
+              "atendidosFora": 16,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 81838,
@@ -41770,8 +41810,8 @@
                   "cliente": "UNIFORTE DO BRASIL COMÉRCIO ATACADISTA DE EMBALAGENS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83259,
@@ -45164,8 +45204,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 285,
-          "pendentes": 34,
+          "atendidos": 284,
+          "pendentes": 35,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46506,8 +46546,8 @@
             {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 4,
-              "atendidosFora": 6,
-              "pendentes": 1,
+              "atendidosFora": 5,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83530,
@@ -46554,8 +46594,8 @@
                   "cliente": "MTEC INSTALACOES ELETRICAS LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-10-09",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84444,
@@ -47242,7 +47282,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": "2026-10-08",
+                  "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
                 },
                 {
@@ -47972,8 +48012,8 @@
         {
           "mes": "2026-10",
           "abertos": 175,
-          "atendidos": 84,
-          "pendentes": 91,
+          "atendidos": 86,
+          "pendentes": 89,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49041,9 +49081,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 11,
-              "atendidosFora": 16,
-              "pendentes": 42,
+              "atendidosDentro": 12,
+              "atendidosFora": 17,
+              "pendentes": 40,
               "chamados": [
                 {
                   "id": 84703,
@@ -49346,8 +49386,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F10)",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84762,
@@ -49570,8 +49610,8 @@
                   "cliente": "DROGARIA MIX I LTDA (FILIAL 4)",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85075,
