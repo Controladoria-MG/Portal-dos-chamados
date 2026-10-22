@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 14:59",
+  "atualizado_em": "22/10/2026 15:58",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 207,
+          "abertos": 208,
           "atendidos": 204,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 152,
               "atendidosFora": 50,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -23447,6 +23447,14 @@
                   "prazo": "2026-10-23",
                   "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85461,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -34247,9 +34255,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 8,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34439,8 +34447,16 @@
               "nome": "SPED",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85458,
+                  "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85365,
                   "cliente": "CONCEITO LOCADORA LTDA (MATRIZ)",
@@ -48246,9 +48262,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 190,
-          "atendidos": 130,
-          "pendentes": 60,
+          "abertos": 192,
+          "atendidos": 129,
+          "pendentes": 63,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48646,7 +48662,7 @@
               "nome": "Certidão",
               "atendidosDentro": 3,
               "atendidosFora": 4,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85029,
@@ -48663,6 +48679,14 @@
                   "prazo": "2026-10-22",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85460,
+                  "cliente": "QUEIROZ SUPERMERCADOS MJRR LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85021,
@@ -49222,7 +49246,7 @@
               "nome": "Regularização",
               "atendidosDentro": 8,
               "atendidosFora": 5,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84911,
@@ -49255,6 +49279,14 @@
                   "prazo": "2026-10-23",
                   "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85459,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85196,
@@ -49380,17 +49412,17 @@
             },
             {
               "nome": "Restituição",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85079,
                   "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
