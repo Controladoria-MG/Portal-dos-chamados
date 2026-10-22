@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 08:42",
+  "atualizado_em": "22/10/2026 09:36",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 195,
-          "atendidos": 189,
-          "pendentes": 6,
+          "abertos": 196,
+          "atendidos": 192,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 143,
+              "atendidosDentro": 146,
               "atendidosFora": 45,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -23349,16 +23349,24 @@
                   "cliente": " SUPERMERCADOS BANDEIRA LTDA.",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85430,
                   "cliente": " SUPERMERCADOS BANDEIRA LTDA.",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85442,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 }
               ]
             }
@@ -49029,7 +49037,7 @@
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
                 },
                 {
