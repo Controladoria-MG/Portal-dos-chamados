@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 15:58",
+  "atualizado_em": "22/10/2026 16:54",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 208,
-          "atendidos": 204,
-          "pendentes": 4,
+          "atendidos": 205,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21805,8 +21805,8 @@
             {
               "nome": "MG Controle",
               "atendidosDentro": 152,
-              "atendidosFora": 50,
-              "pendentes": 4,
+              "atendidosFora": 51,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84707,
@@ -22373,8 +22373,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85092,
@@ -23453,8 +23453,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -34255,9 +34255,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 8,
-          "pendentes": 11,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34471,8 +34471,16 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85462,
+                  "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85385,
                   "cliente": "GODOI ESQUADRIAS LTDA",
@@ -40327,8 +40335,8 @@
         {
           "mes": "2026-07",
           "abertos": 167,
-          "atendidos": 166,
-          "pendentes": 1,
+          "atendidos": 167,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -40613,16 +40621,16 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 0,
-              "atendidosFora": 11,
-              "pendentes": 1,
+              "atendidosFora": 12,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 81422,
                   "cliente": null,
                   "dataCadastro": "2026-07-23",
                   "prazo": "2026-07-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81348,
@@ -48262,9 +48270,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 192,
-          "atendidos": 129,
-          "pendentes": 63,
+          "abertos": 193,
+          "atendidos": 131,
+          "pendentes": 62,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48340,9 +48348,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 4,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84698,
@@ -48405,8 +48413,8 @@
                   "cliente": "FIXO LOCACOES DE BENS LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85156,
@@ -49177,20 +49185,20 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 85427,
-                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
-                  "dataCadastro": "2026-10-21",
-                  "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-22",
-                  "status": "atendido_dentro"
-                },
-                {
                   "id": 85446,
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 85427,
+                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
+                  "dataCadastro": "2026-10-21",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85324,
@@ -49244,9 +49252,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 8,
+              "atendidosDentro": 9,
               "atendidosFora": 5,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84911,
@@ -49285,8 +49293,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85196,
@@ -49382,7 +49390,7 @@
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85256,
@@ -49399,6 +49407,14 @@
                   "prazo": "2026-10-05",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85463,
+                  "cliente": "DISTRIBUIDORA DE HORTIFRUTTI POMAR DO QUINTAS LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84731,
