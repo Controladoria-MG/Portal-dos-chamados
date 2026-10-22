@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 10:32",
+  "atualizado_em": "22/10/2026 11:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 198,
-          "atendidos": 194,
-          "pendentes": 4,
+          "abertos": 200,
+          "atendidos": 195,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 145,
+              "atendidosDentro": 146,
               "atendidosFora": 47,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -23333,8 +23333,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85409,
@@ -23375,6 +23375,22 @@
                   "prazo": "2026-10-22",
                   "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85448,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85449,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -26721,8 +26737,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 26,
-          "pendentes": 3,
+          "atendidos": 25,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26999,16 +27015,16 @@
             {
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 2,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84913,
                   "cliente": "ESS INDUSTRIA E COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84983,
@@ -35843,7 +35859,7 @@
                   "cliente": "CLUBE DO CONFEITEIRO LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -35851,7 +35867,7 @@
                   "cliente": "Central Osasco Distribuidora de Alimentos e Bebidas Ltda.",
                   "dataCadastro": "2026-08-05",
                   "prazo": "2026-08-07",
-                  "dataEntrega": "2026-09-02",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -35867,7 +35883,7 @@
                   "cliente": "SUPER MERCADO SOROCABA LTDA ",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-09-03",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -45367,8 +45383,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 299,
-          "pendentes": 20,
+          "atendidos": 300,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46156,8 +46172,8 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 13,
-              "atendidosFora": 25,
+              "atendidosDentro": 10,
+              "atendidosFora": 28,
               "pendentes": 0,
               "chamados": [
                 {
@@ -46205,7 +46221,7 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -46229,7 +46245,7 @@
                   "cliente": "MAIS VERDE DISTRIBUIDORA DE HORTIFRUTIGRANJEIROS LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -46277,15 +46293,15 @@
                   "cliente": "SERFARMA DROGARIA LTDA",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84011,
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 07)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -46309,8 +46325,8 @@
                   "cliente": "ELETRICA IPOJUCA LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-09",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83612,
@@ -46325,8 +46341,8 @@
                   "cliente": "COMERCIAL DE MATERIAIS ELETRICOS MM LTDA",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-09",
-                  "dataEntrega": "2026-09-04",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83614,
@@ -46397,7 +46413,7 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 06)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -46549,8 +46565,8 @@
             {
               "nome": "Notificação",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 83540,
@@ -46581,8 +46597,8 @@
                   "cliente": "ALM GESTAO TECH RETAIL LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -48174,21 +48190,29 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 188,
-          "atendidos": 125,
-          "pendentes": 63,
+          "abertos": 189,
+          "atendidos": 129,
+          "pendentes": 60,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 85294,
                   "cliente": "PIRANA - AUTO SERVIÇO LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-11-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85447,
+                  "cliente": "J K PANE PANIFICAÇÃO E CONFEITARIA LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-11-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -48693,8 +48717,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 3,
+              "atendidosFora": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85028,
@@ -48709,8 +48733,8 @@
                   "cliente": "NRCA CONSULTORIA E TREINAMENTO - LTDA",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84848,
@@ -48933,8 +48957,8 @@
             {
               "nome": "Parcelamento Municipal",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85269,
@@ -48949,8 +48973,8 @@
                   "cliente": "ALFA MAQUINAS LOCACAO E SERVICOS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85268,
@@ -49132,9 +49156,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 7,
+              "atendidosDentro": 8,
               "atendidosFora": 5,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84911,
@@ -49229,8 +49253,8 @@
                   "cliente": "EMOTION PRODUÇÕES LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84914,
@@ -49325,8 +49349,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 16,
-              "atendidosFora": 33,
-              "pendentes": 23,
+              "atendidosFora": 34,
+              "pendentes": 22,
               "chamados": [
                 {
                   "id": 84703,
@@ -49805,8 +49829,8 @@
                   "cliente": "N&S GLOBAL TRADE LTDA",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85095,
