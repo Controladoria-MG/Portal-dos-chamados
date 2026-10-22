@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 09:36",
+  "atualizado_em": "22/10/2026 10:32",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,8 +21782,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 196,
-          "atendidos": 192,
+          "abertos": 198,
+          "atendidos": 194,
           "pendentes": 4,
           "categorias": [
             {
@@ -21804,8 +21804,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 146,
-              "atendidosFora": 45,
+              "atendidosDentro": 145,
+              "atendidosFora": 47,
               "pendentes": 4,
               "chamados": [
                 {
@@ -22669,8 +22669,8 @@
                   "cliente": "ALUSTOCK COMERCIO DE VIDROS E ESQUADRIAS DE ALUMINIO LTDA",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85228,
@@ -23149,8 +23149,8 @@
                   "cliente": "GOIAS SILAGEM LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85351,
@@ -23365,6 +23365,30 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85444,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-22",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Radar de Obrigações",
+              "atendidosDentro": 1,
+              "atendidosFora": 0,
+              "pendentes": 0,
+              "chamados": [
+                {
+                  "id": 85443,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-26",
                   "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
                 }
@@ -36276,9 +36300,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 8,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36380,7 +36404,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85356,
@@ -36389,6 +36413,14 @@
                   "prazo": "2026-10-21",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85445,
+                  "cliente": "Odonto Store Equipamentos Odotologicos LTDA ",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85251,
@@ -39426,8 +39458,8 @@
         {
           "mes": "2026-10",
           "abertos": 61,
-          "atendidos": 5,
-          "pendentes": 56,
+          "atendidos": 8,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39560,8 +39592,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 1,
-              "atendidosFora": 4,
-              "pendentes": 19,
+              "atendidosFora": 7,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 84708,
@@ -39712,16 +39744,16 @@
                   "cliente": "ATENDE NSA COMERCIO E DISTRIBUIÇÃO LTDA ",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85236,
                   "cliente": "RESTAURANTE E LANCHONETE BENTA LTDA",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85313,
@@ -39736,8 +39768,8 @@
                   "cliente": "MARIA CECILIA SANTOS COSTA CELANI HIPOLITO DO CARMO",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85349,
@@ -46052,8 +46084,8 @@
             },
             {
               "nome": "Encerramento de Empresa",
-              "atendidosDentro": 1,
-              "atendidosFora": 1,
+              "atendidosDentro": 0,
+              "atendidosFora": 2,
               "pendentes": 1,
               "chamados": [
                 {
@@ -46061,8 +46093,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-03",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84381,
@@ -46468,8 +46500,8 @@
             },
             {
               "nome": "Levantamento de Débitos Mensal",
-              "atendidosDentro": 1,
-              "atendidosFora": 2,
+              "atendidosDentro": 0,
+              "atendidosFora": 3,
               "pendentes": 0,
               "chamados": [
                 {
@@ -46485,8 +46517,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84312,
@@ -48142,8 +48174,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 187,
-          "atendidos": 124,
+          "abertos": 188,
+          "atendidos": 125,
           "pendentes": 63,
           "categorias": [
             {
@@ -48628,17 +48660,17 @@
             },
             {
               "nome": "Encerramento de Empresa",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85094,
                   "cliente": "BAR E LANCHES JUVENTUDE DE PRAIA GRANDE- EIRELI ",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-11-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -48997,7 +49029,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-08",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 }
               ]
@@ -49006,7 +49038,7 @@
               "nome": "Processo de Prefeitura",
               "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84704,
@@ -49039,6 +49071,14 @@
                   "prazo": "2026-10-22",
                   "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85446,
+                  "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85324,
@@ -49092,8 +49132,8 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 8,
-              "atendidosFora": 4,
+              "atendidosDentro": 7,
+              "atendidosFora": 5,
               "pendentes": 3,
               "chamados": [
                 {
@@ -49117,15 +49157,15 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85420,
                   "cliente": null,
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
                 },
                 {
