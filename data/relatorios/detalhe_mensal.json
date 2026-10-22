@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 12:08",
+  "atualizado_em": "22/10/2026 12:58",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 203,
-          "atendidos": 195,
-          "pendentes": 8,
+          "abertos": 207,
+          "atendidos": 200,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 143,
+              "atendidosDentro": 148,
               "atendidosFora": 50,
-              "pendentes": 8,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84707,
@@ -23405,11 +23405,43 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85452,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85453,
+                  "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85454,
+                  "cliente": "HotPlast Comércio de Descartáveis Ltda - ME.",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85455,
+                  "cliente": "Super Plastic Comércio de Descaráveis Ltda.",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85456,
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
@@ -48284,9 +48316,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 3,
+              "atendidosDentro": 2,
               "atendidosFora": 4,
-              "pendentes": 10,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84698,
@@ -48373,8 +48405,8 @@
                   "cliente": "RC MINIMERCADO E SERVICOS LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85366,
@@ -48741,8 +48773,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 3,
-              "pendentes": 2,
+              "atendidosFora": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85028,
@@ -48773,8 +48805,8 @@
                   "cliente": "POWER FINANCIAL DO BRASIL S.A.",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85263,
