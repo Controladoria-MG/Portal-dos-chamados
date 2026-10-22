@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 14:17",
+  "atualizado_em": "22/10/2026 14:59",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 207,
-          "atendidos": 199,
-          "pendentes": 8,
+          "atendidos": 204,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 147,
+              "atendidosDentro": 152,
               "atendidosFora": 50,
-              "pendentes": 8,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84707,
@@ -23389,16 +23389,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85450,
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85451,
@@ -23421,24 +23421,24 @@
                   "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85454,
                   "cliente": "HotPlast Comércio de Descartáveis Ltda - ME.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85455,
                   "cliente": "Super Plastic Comércio de Descaráveis Ltda.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85456,
@@ -41847,8 +41847,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 401,
-          "pendentes": 17,
+          "atendidos": 397,
+          "pendentes": 21,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42309,8 +42309,8 @@
             {
               "nome": "Auditoria",
               "atendidosDentro": 3,
-              "atendidosFora": 21,
-              "pendentes": 4,
+              "atendidosFora": 17,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 83205,
@@ -42357,7 +42357,7 @@
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -42373,16 +42373,16 @@
                   "cliente": "AUTO CENTER EMBRASIL LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83212,
                   "cliente": "JP LOCACAO COMERCIO DE EQUIPAMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-28",
                   "prazo": "2026-08-31",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83115,
@@ -42397,16 +42397,16 @@
                   "cliente": "YURI CESTARI DA SILVA EMBREAGENS OSASCO",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83112,
                   "cliente": "EMBRASIL COMERCIO DE AUTO PECAS LTDA",
                   "dataCadastro": "2026-08-27",
                   "prazo": "2026-08-28",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 83113,
@@ -48246,15 +48246,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 189,
-          "atendidos": 128,
-          "pendentes": 61,
+          "abertos": 190,
+          "atendidos": 130,
+          "pendentes": 60,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 85294,
@@ -48311,6 +48311,14 @@
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-08",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85457,
+                  "cliente": "T W ALCANTARA ATACAREJO LTDA ",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-11-19",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -49372,17 +49380,17 @@
             },
             {
               "nome": "Restituição",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85079,
                   "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -49405,8 +49413,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 16,
-              "atendidosFora": 34,
-              "pendentes": 22,
+              "atendidosFora": 35,
+              "pendentes": 21,
               "chamados": [
                 {
                   "id": 84703,
@@ -49861,8 +49869,8 @@
                   "cliente": "HOLDING RODRIGUES PEREIRA EMPREENDIMENTOS E PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84947,
