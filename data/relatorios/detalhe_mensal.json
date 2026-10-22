@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/10/2026 18:23",
+  "atualizado_em": "22/10/2026 08:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -23173,7 +23173,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-20",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
                 },
                 {
@@ -41005,7 +41005,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-21",
                   "prazo": "2026-07-22",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 }
               ]
@@ -43517,7 +43517,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-05",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -48134,8 +48134,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 186,
-          "atendidos": 123,
+          "abertos": 187,
+          "atendidos": 124,
           "pendentes": 63,
           "categorias": [
             {
@@ -48797,8 +48797,8 @@
             {
               "nome": "Notificação",
               "atendidosDentro": 3,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84838,
@@ -48821,8 +48821,8 @@
                   "cliente": "SJC FAST FOOD LTDA ",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-21",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84727,
@@ -49086,7 +49086,7 @@
               "nome": "Regularização",
               "atendidosDentro": 8,
               "atendidosFora": 4,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84911,
@@ -49175,6 +49175,14 @@
                   "prazo": "2026-10-08",
                   "dataEntrega": "2026-10-07",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85441,
+                  "cliente": "EMOTION PRODUÇÕES LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84914,
