@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 11:42",
+  "atualizado_em": "22/10/2026 12:08",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 200,
+          "abertos": 203,
           "atendidos": 195,
-          "pendentes": 5,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 146,
-              "atendidosFora": 47,
-              "pendentes": 5,
+              "atendidosDentro": 143,
+              "atendidosFora": 50,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84707,
@@ -22653,8 +22653,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85223,
@@ -22685,8 +22685,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85230,
@@ -22773,8 +22773,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85246,
@@ -23165,7 +23165,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-20",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23301,7 +23301,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-20",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23386,6 +23386,30 @@
                 },
                 {
                   "id": 85449,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85450,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85451,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85452,
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
@@ -29579,8 +29603,8 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 1,
-              "atendidosFora": 2,
+              "atendidosDentro": 0,
+              "atendidosFora": 3,
               "pendentes": 0,
               "chamados": [
                 {
@@ -29588,8 +29612,8 @@
                   "cliente": "ZARELLI SUPERMERCADOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-08-24",
-                  "dataEntrega": "2026-08-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81999,
@@ -30099,8 +30123,8 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 2,
-              "atendidosFora": 10,
+              "atendidosDentro": 1,
+              "atendidosFora": 11,
               "pendentes": 0,
               "chamados": [
                 {
@@ -30180,8 +30204,8 @@
                   "cliente": "SAMPA ATACADO DE GENEROS ALIMENTICIOS E BEBIDAS LTDA",
                   "dataCadastro": "2026-09-10",
                   "prazo": "2026-09-11",
-                  "dataEntrega": "2026-09-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83789,
@@ -36299,7 +36323,7 @@
                   "cliente": "RICHETTI COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": "2026-09-15",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -46357,7 +46381,7 @@
                   "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA (FILIAL 04)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-18",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 },
                 {
@@ -48191,8 +48215,8 @@
         {
           "mes": "2026-10",
           "abertos": 189,
-          "atendidos": 129,
-          "pendentes": 60,
+          "atendidos": 128,
+          "pendentes": 61,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48581,8 +48605,8 @@
             {
               "nome": "Certidão",
               "atendidosDentro": 3,
-              "atendidosFora": 5,
-              "pendentes": 0,
+              "atendidosFora": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85029,
@@ -48605,8 +48629,8 @@
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-14",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84760,
