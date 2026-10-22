@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 13:36",
+  "atualizado_em": "22/10/2026 14:17",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 207,
-          "atendidos": 202,
-          "pendentes": 5,
+          "atendidos": 199,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 150,
+              "atendidosDentro": 147,
               "atendidosFora": 50,
-              "pendentes": 5,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84707,
@@ -23421,24 +23421,24 @@
                   "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85454,
                   "cliente": "HotPlast Comércio de Descartáveis Ltda - ME.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85455,
                   "cliente": "Super Plastic Comércio de Descaráveis Ltda.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85456,
@@ -26793,8 +26793,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 25,
-          "pendentes": 4,
+          "atendidos": 26,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27071,16 +27071,16 @@
             {
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 2,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84913,
                   "cliente": "ESS INDUSTRIA E COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84983,
@@ -36373,8 +36373,8 @@
         {
           "mes": "2026-10",
           "abertos": 18,
-          "atendidos": 8,
-          "pendentes": 10,
+          "atendidos": 9,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36474,9 +36474,9 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85356,
@@ -36491,8 +36491,8 @@
                   "cliente": "Odonto Store Equipamentos Odotologicos LTDA ",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85251,
