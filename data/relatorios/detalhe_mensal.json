@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/10/2026 10:52",
+  "atualizado_em": "23/10/2026 11:39",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -34359,9 +34359,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 8,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34439,13 +34439,21 @@
               "nome": "Malha Fiscal",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 85381,
                   "cliente": "I2 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA.",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85503,
+                  "cliente": "MTC SOLUCOES INDUSTRIAIS LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -37674,8 +37682,8 @@
         {
           "mes": "2026-08",
           "abertos": 82,
-          "atendidos": 43,
-          "pendentes": 39,
+          "atendidos": 44,
+          "pendentes": 38,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -37912,8 +37920,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 0,
-              "atendidosFora": 12,
-              "pendentes": 5,
+              "atendidosFora": 13,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81762,
@@ -37960,8 +37968,8 @@
                   "cliente": "INDART PUXADORES LTDA",
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82154,
@@ -38410,8 +38418,8 @@
         {
           "mes": "2026-09",
           "abertos": 147,
-          "atendidos": 62,
-          "pendentes": 85,
+          "atendidos": 65,
+          "pendentes": 82,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39280,8 +39288,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 9,
-              "atendidosFora": 16,
-              "pendentes": 5,
+              "atendidosFora": 19,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83336,
@@ -39416,8 +39424,8 @@
                   "cliente": "EMPORIO RT CARVALHO LTDA",
                   "dataCadastro": "2026-09-08",
                   "prazo": "2026-09-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83694,
@@ -39448,8 +39456,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83740,
@@ -39512,8 +39520,8 @@
                   "cliente": "DONA DEOLA INDUSTRIA DE PÃES E CONFEITARIA LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84414,
@@ -39658,8 +39666,8 @@
         {
           "mes": "2026-10",
           "abertos": 67,
-          "atendidos": 8,
-          "pendentes": 59,
+          "atendidos": 16,
+          "pendentes": 51,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39792,8 +39800,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 1,
-              "atendidosFora": 7,
-              "pendentes": 16,
+              "atendidosFora": 14,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84708,
@@ -39832,16 +39840,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84829,
                   "cliente": null,
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84839,
@@ -39864,8 +39872,8 @@
                   "cliente": "FANAN MATERIAIS PARA CONSTRUÇÃO LTDA ",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-07",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85009,
@@ -39896,16 +39904,16 @@
                   "cliente": "Mega Adega Kanguru LTDA ",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85098,
                   "cliente": "C. K. UEHARA MATERIAIS PARA CONSTRUCAO LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85103,
@@ -39920,16 +39928,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85105,
                   "cliente": "GABRIELA TORQUATO FERNANDEZ LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85132,
@@ -39991,9 +39999,9 @@
             },
             {
               "nome": "Procurações DP",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 13,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 84693,
@@ -40056,8 +40064,8 @@
                   "cliente": "SANTOS & DIAN MATERIAIS PARA CONSTRUCAO LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85477,
