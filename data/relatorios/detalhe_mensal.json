@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/10/2026 13:29",
+  "atualizado_em": "23/10/2026 14:10",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -48447,8 +48447,8 @@
         {
           "mes": "2026-10",
           "abertos": 209,
-          "atendidos": 149,
-          "pendentes": 60,
+          "atendidos": 152,
+          "pendentes": 57,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48813,16 +48813,16 @@
             {
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 2,
-              "atendidosFora": 4,
-              "pendentes": 2,
+              "atendidosFora": 5,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85018,
                   "cliente": null,
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85111,
@@ -49260,9 +49260,9 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84958,
@@ -49277,8 +49277,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85059,
@@ -49725,8 +49725,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 21,
-              "atendidosFora": 37,
-              "pendentes": 19,
+              "atendidosFora": 38,
+              "pendentes": 18,
               "chamados": [
                 {
                   "id": 84703,
@@ -49909,8 +49909,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85235,
