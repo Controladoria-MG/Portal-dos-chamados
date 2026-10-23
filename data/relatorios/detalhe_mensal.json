@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/10/2026 17:34",
+  "atualizado_em": "23/10/2026 08:52",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 209,
-          "atendidos": 205,
-          "pendentes": 4,
+          "abertos": 213,
+          "atendidos": 210,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 152,
-              "atendidosFora": 51,
-              "pendentes": 4,
+              "atendidosDentro": 151,
+              "atendidosFora": 57,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84707,
@@ -22149,8 +22149,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84986,
@@ -22357,8 +22357,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-13",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85076,
@@ -22781,8 +22781,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-20",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85252,
@@ -22917,8 +22917,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85295,
@@ -23053,8 +23053,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85320,
@@ -23277,8 +23277,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85383,
@@ -23461,8 +23461,40 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85473,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85474,
+                  "cliente": "TRIZGA COMÉRCIO DE ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85480,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85481,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -23971,9 +24003,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 3,
+          "abertos": 6,
           "atendidos": 2,
-          "pendentes": 1,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Documentação Contábil",
@@ -24000,16 +24032,40 @@
               ]
             },
             {
-              "nome": "SPED",
+              "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 4,
               "chamados": [
                 {
-                  "id": 85464,
-                  "cliente": "PROGRESSO ADMINISTRADORA DE BENS PROPRIOS LTDA",
+                  "id": 85471,
+                  "cliente": "ARZINDA ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
                   "dataCadastro": "2026-10-22",
-                  "prazo": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85469,
+                  "cliente": "AGGYO ADMINISTRAÇÃO DE BENS E PARTICIPAÇÕES S.A.",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85470,
+                  "cliente": "SAVYS EMPREENDIMENTOS E PARTICIPAÇÕES S.A",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85467,
+                  "cliente": "CLV3 EMPREENDIMENTOS E PARTICIPAÇÕES S.A.",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -29312,19 +29368,19 @@
                   "status": "atendido_fora"
                 },
                 {
-                  "id": 82740,
-                  "cliente": "ZELUPA PARTICIPAÇÕES S.A.",
-                  "dataCadastro": "2026-08-20",
-                  "prazo": "2026-08-21",
-                  "dataEntrega": "2026-08-24",
-                  "status": "atendido_fora"
-                },
-                {
                   "id": 82894,
                   "cliente": "ZELUPA PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
                   "dataEntrega": "2026-08-27",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 82740,
+                  "cliente": "ZELUPA PARTICIPAÇÕES S.A.",
+                  "dataCadastro": "2026-08-20",
+                  "prazo": "2026-08-21",
+                  "dataEntrega": "2026-08-24",
                   "status": "atendido_fora"
                 },
                 {
@@ -30430,8 +30486,8 @@
         {
           "mes": "2026-10",
           "abertos": 35,
-          "atendidos": 21,
-          "pendentes": 14,
+          "atendidos": 24,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30675,9 +30731,9 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosDentro": 3,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85224,
@@ -30692,24 +30748,24 @@
                   "cliente": "IAZUL SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85432,
                   "cliente": "LIMA MOTA LOCAÇÕES, SERVIÇOS E COMERCIO LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85347,
                   "cliente": "TECNO COM INFORMATICA LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-22",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -31657,7 +31713,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-07",
-                  "dataEntrega": "2026-10-15",
+                  "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
                 }
               ]
@@ -34279,9 +34335,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 20,
+          "abertos": 22,
           "atendidos": 8,
-          "pendentes": 12,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34359,7 +34415,7 @@
               "nome": "Malha Fiscal",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85381,
@@ -34376,6 +34432,14 @@
                   "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 85479,
+                  "cliente": "VL CONCRETO BOMBAS LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -34383,8 +34447,16 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85475,
+                  "cliente": "RMDVPAR ADMINISTRAÇÃO E PARTICIPÇÕES LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85343,
                   "cliente": "POWER FINANCIAL DO BRASIL S.A. (FILIAL 1)",
@@ -36420,9 +36492,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 9,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36524,7 +36596,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85356,
@@ -36557,6 +36629,14 @@
                   "prazo": "2026-10-22",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85472,
+                  "cliente": "DROGARIA MIX I LTDA (FILIAL 7)",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85208,
@@ -39577,9 +39657,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 61,
+          "abertos": 64,
           "atendidos": 8,
-          "pendentes": 53,
+          "pendentes": 56,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39913,7 +39993,7 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 7,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84693,
@@ -39968,6 +40048,30 @@
                   "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85476,
+                  "cliente": "SANTOS & DIAN MATERIAIS PARA CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85477,
+                  "cliente": "VIASUPRI SUPRIMENTOS DE ESCRITORIO E LIMPEZA LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85478,
+                  "cliente": "EXPAND COMERCIO E SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-23",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45487,8 +45591,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 300,
-          "pendentes": 19,
+          "atendidos": 299,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47029,8 +47133,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 3,
-              "atendidosFora": 12,
-              "pendentes": 4,
+              "atendidosFora": 11,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 83526,
@@ -47173,8 +47277,8 @@
                   "cliente": "J R BARROS COMERCIO LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84107,
@@ -48295,8 +48399,8 @@
         {
           "mes": "2026-10",
           "abertos": 194,
-          "atendidos": 132,
-          "pendentes": 62,
+          "atendidos": 131,
+          "pendentes": 63,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48434,7 +48538,7 @@
                 },
                 {
                   "id": 84723,
-                  "cliente": "FIXO LOCACOES DE BENS LTDA",
+                  "cliente": "FIXO SELF PARK E LOCAÇÕES",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-30",
                   "dataEntrega": "2026-10-22",
@@ -49477,16 +49581,16 @@
             {
               "nome": "Retificação de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85221,
                   "cliente": "BRIGER ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -54319,15 +54423,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 49,
+          "abertos": 51,
           "atendidos": 5,
-          "pendentes": 44,
+          "pendentes": 46,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 39,
+              "pendentes": 41,
               "chamados": [
                 {
                   "id": 84697,
@@ -54662,6 +54766,22 @@
                   "cliente": " OBJETIVA MKT ASSESSORIA E MERCHANDISING LTDA",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85468,
+                  "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-11-17",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85482,
+                  "cliente": "RED SEA TRANSPORTE E APOIO MARITIMO LTDA ",
+                  "dataCadastro": "2026-10-22",
+                  "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
