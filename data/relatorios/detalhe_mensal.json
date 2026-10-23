@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/10/2026 15:20",
+  "atualizado_em": "23/10/2026 15:54",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 158,
-              "atendidosFora": 123,
+              "atendidosDentro": 157,
+              "atendidosFora": 124,
               "pendentes": 1,
               "chamados": [
                 {
@@ -21173,8 +21173,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-22",
-                  "dataEntrega": "2026-09-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84242,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 221,
-          "atendidos": 216,
-          "pendentes": 5,
+          "abertos": 223,
+          "atendidos": 219,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 156,
+              "atendidosDentro": 159,
               "atendidosFora": 58,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -23549,11 +23549,27 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85513,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85515,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85516,
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
@@ -26440,9 +26456,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 52,
+          "abertos": 54,
           "atendidos": 52,
-          "pendentes": 0,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -26849,6 +26865,30 @@
                   "prazo": "2026-09-24",
                   "dataEntrega": "2026-09-24",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Levantamento Divergências",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 2,
+              "chamados": [
+                {
+                  "id": 83696,
+                  "cliente": "DISTRIBUIDOR DE MORANGOS LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 83697,
+                  "cliente": "SWEET BERRY COMERCIO DE FRUTAS LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -31650,9 +31690,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 15,
+          "abertos": 13,
           "atendidos": 9,
-          "pendentes": 6,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Cadastro",
@@ -31738,29 +31778,13 @@
               "nome": "Levantamento Divergências",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83486,
                   "cliente": null,
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83696,
-                  "cliente": "DISTRIBUIDOR DE MORANGOS LTDA",
-                  "dataCadastro": "2026-09-09",
-                  "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83697,
-                  "cliente": "SWEET BERRY COMERCIO DE FRUTAS LTDA",
-                  "dataCadastro": "2026-09-09",
-                  "prazo": "2026-09-11",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48478,8 +48502,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 209,
-          "atendidos": 153,
+          "abertos": 210,
+          "atendidos": 154,
           "pendentes": 56,
           "categorias": [
             {
@@ -49757,7 +49781,7 @@
             {
               "nome": "Senha",
               "atendidosDentro": 21,
-              "atendidosFora": 39,
+              "atendidosFora": 40,
               "pendentes": 17,
               "chamados": [
                 {
@@ -50029,8 +50053,8 @@
                   "cliente": "Hyper Mall & Properties Participações S.A",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84908,
@@ -50082,7 +50106,7 @@
                 },
                 {
                   "id": 84836,
-                  "cliente": "Vicali Administração, Participações e Investimentos Ltda.",
+                  "cliente": "VICALI ADMINISTRAÇÃO, PARTICIPAÇÕES E INVESTIMENTOS LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
                   "dataEntrega": null,
@@ -50191,6 +50215,14 @@
                   "prazo": "2026-10-09",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85517,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 70)",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84759,
