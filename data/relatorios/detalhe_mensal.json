@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/10/2026 08:52",
+  "atualizado_em": "23/10/2026 09:46",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -30486,8 +30486,8 @@
         {
           "mes": "2026-10",
           "abertos": 35,
-          "atendidos": 24,
-          "pendentes": 11,
+          "atendidos": 25,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30788,16 +30788,16 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85337,
                   "cliente": "MERCADO, PADARIA ACOUGUE E RESTAURANTE OLIMPIA LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -36492,9 +36492,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 19,
+          "abertos": 17,
           "atendidos": 9,
-          "pendentes": 10,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36532,16 +36532,8 @@
               "nome": "Autorregularização",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
-                {
-                  "id": 85117,
-                  "cliente": "FLV COMÉRCIO DE HORTIFRUTO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-10-13",
-                  "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
                 {
                   "id": 85134,
                   "cliente": "R S CERQUEIRA",
@@ -36555,22 +36547,6 @@
                   "cliente": "R S CERQUEIRA (FILIAL 01)",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
-            {
-              "nome": "Malha Fiscal",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
-              "chamados": [
-                {
-                  "id": 85036,
-                  "cliente": " A LAREIRA - RESTAURANTE, PÃES, DOCES E CONVENIÊNCIAS LTDA",
-                  "dataCadastro": "2026-10-09",
-                  "prazo": "2026-10-19",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -39657,9 +39633,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 64,
+          "abertos": 67,
           "atendidos": 8,
-          "pendentes": 56,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39993,7 +39969,7 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 10,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84693,
@@ -40072,6 +40048,30 @@
                   "cliente": "EXPAND COMERCIO E SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85486,
+                  "cliente": "LIPPER GRAFICA CRIATIVA LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85487,
+                  "cliente": "LOGUS GRAFICA E EDITORA LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85488,
+                  "cliente": "LOGUS ABC SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -45591,8 +45591,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 299,
-          "pendentes": 20,
+          "atendidos": 300,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47133,8 +47133,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 3,
-              "atendidosFora": 11,
-              "pendentes": 5,
+              "atendidosFora": 12,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83526,
@@ -47277,8 +47277,8 @@
                   "cliente": "J R BARROS COMERCIO LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84107,
@@ -48399,8 +48399,8 @@
         {
           "mes": "2026-10",
           "abertos": 194,
-          "atendidos": 131,
-          "pendentes": 63,
+          "atendidos": 134,
+          "pendentes": 60,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49181,16 +49181,16 @@
             {
               "nome": "Parcelamento Municipal",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85269,
                   "cliente": "BF CORTES E FUROS TECNICOS E LOCACAO LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85270,
@@ -49205,8 +49205,8 @@
                   "cliente": "GAPEMA LOCACAO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -49524,9 +49524,9 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85256,
@@ -49549,8 +49549,8 @@
                   "cliente": "DISTRIBUIDORA DE HORTIFRUTTI POMAR DO QUINTAS LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84731,
@@ -54423,15 +54423,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 51,
+          "abertos": 54,
           "atendidos": 5,
-          "pendentes": 46,
+          "pendentes": 49,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 41,
+              "pendentes": 44,
               "chamados": [
                 {
                   "id": 84697,
@@ -54782,6 +54782,30 @@
                   "cliente": "RED SEA TRANSPORTE E APOIO MARITIMO LTDA ",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85483,
+                  "cliente": "WTECH ENGENHARIA E SERVIÇOS DE REPAROS E MANUTENÇÃO PREDIAL LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85484,
+                  "cliente": "WTECH ENGENHARIA E SERVIÇOS DE REPAROS E MANUTENÇÃO PREDIAL LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85485,
+                  "cliente": "SERVITECH SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
