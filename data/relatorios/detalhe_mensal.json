@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/10/2026 11:39",
+  "atualizado_em": "23/10/2026 12:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,8 +21782,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 216,
-          "atendidos": 213,
+          "abertos": 217,
+          "atendidos": 214,
           "pendentes": 3,
           "categorias": [
             {
@@ -21804,7 +21804,7 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 154,
+              "atendidosDentro": 155,
               "atendidosFora": 57,
               "pendentes": 3,
               "chamados": [
@@ -23514,6 +23514,14 @@
                 },
                 {
                   "id": 85501,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85507,
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
@@ -27030,8 +27038,8 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 5,
-              "atendidosFora": 0,
+              "atendidosDentro": 2,
+              "atendidosFora": 3,
               "pendentes": 0,
               "chamados": [
                 {
@@ -27039,24 +27047,24 @@
                   "cliente": "PS3 INSTALACOES E MONTAGENS LTDA ",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85393,
                   "cliente": "LINHARES E FONTOURA CONSTRUCAO CIVIL LTDA ",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85394,
                   "cliente": "FONTOURA E LINHARES CONSTRUCOES CIVIS LTDA ",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85379,
@@ -34360,8 +34368,8 @@
         {
           "mes": "2026-10",
           "abertos": 23,
-          "atendidos": 8,
-          "pendentes": 15,
+          "atendidos": 9,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34630,16 +34638,16 @@
             {
               "nome": "Termos de Intimação",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85174,
                   "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -36524,9 +36532,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 17,
+          "abertos": 18,
           "atendidos": 9,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36602,9 +36610,9 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 3,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosDentro": 2,
+              "atendidosFora": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85356,
@@ -36619,7 +36627,7 @@
                   "cliente": "Odonto Store Equipamentos Odotologicos LTDA ",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-22",
+                  "dataEntrega": "2026-10-23",
                   "status": "atendido_dentro"
                 },
                 {
@@ -36635,8 +36643,16 @@
                   "cliente": "IAZUL SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 85508,
+                  "cliente": "DROGARIA MIX I LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85472,
@@ -48430,9 +48446,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 205,
-          "atendidos": 137,
-          "pendentes": 68,
+          "abertos": 209,
+          "atendidos": 149,
+          "pendentes": 60,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48508,9 +48524,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 3,
+              "atendidosDentro": 5,
               "atendidosFora": 4,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84698,
@@ -48621,8 +48637,8 @@
                   "cliente": "AMANCIO S ELETRICA, HIDRAULICA E CONSTRUCAO EM GERAL LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84863,
@@ -48638,6 +48654,14 @@
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-11-02",
                   "dataEntrega": "2026-10-21",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85505,
+                  "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": "2026-10-23",
                   "status": "atendido_dentro"
                 },
                 {
@@ -48788,9 +48812,9 @@
             },
             {
               "nome": "Cadastro de Cliente",
-              "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 3,
+              "atendidosDentro": 2,
+              "atendidosFora": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85018,
@@ -48821,16 +48845,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85387,
                   "cliente": "MAGFI PROJETOS E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84726,
@@ -48847,6 +48871,14 @@
                   "prazo": "2026-10-14",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85509,
+                  "cliente": "BEM COMPLETO SUPERMERCADO LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -48870,7 +48902,7 @@
               "nome": "Certidão",
               "atendidosDentro": 4,
               "atendidosFora": 5,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85029,
@@ -48935,6 +48967,14 @@
                   "prazo": "2026-10-16",
                   "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85504,
+                  "cliente": "CR LOCACAO E VENDAS DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85416,
@@ -49012,9 +49052,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 4,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85028,
@@ -49037,8 +49077,8 @@
                   "cliente": "VIANA & CIA LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84848,
@@ -49222,7 +49262,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84958,
@@ -49231,6 +49271,14 @@
                   "prazo": "2026-10-09",
                   "dataEntrega": "2026-10-14",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85506,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85059,
@@ -49364,9 +49412,9 @@
             },
             {
               "nome": "Processo de Prefeitura",
-              "atendidosDentro": 3,
+              "atendidosDentro": 4,
               "atendidosFora": 1,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84704,
@@ -49413,8 +49461,8 @@
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85324,
@@ -49676,9 +49724,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 16,
-              "atendidosFora": 36,
-              "pendentes": 25,
+              "atendidosDentro": 21,
+              "atendidosFora": 37,
+              "pendentes": 19,
               "chamados": [
                 {
                   "id": 84703,
@@ -49877,40 +49925,40 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85497,
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85498,
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85499,
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85495,
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84752,
@@ -50157,8 +50205,8 @@
                   "cliente": "BEIRA ALTA PARTICIPAÇÕES S.A ",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85215,
