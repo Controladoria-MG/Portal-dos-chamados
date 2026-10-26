@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 16:52",
+  "atualizado_em": "26/10/2026 17:40",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 244,
+          "abertos": 246,
           "atendidos": 239,
-          "pendentes": 5,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 171,
-              "atendidosFora": 66,
-              "pendentes": 5,
+              "atendidosDentro": 170,
+              "atendidosFora": 67,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84707,
@@ -22957,8 +22957,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85300,
@@ -23743,6 +23743,22 @@
                   "prazo": "2026-10-29",
                   "dataEntrega": "2026-10-26",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85588,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85589,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27153,8 +27169,8 @@
         {
           "mes": "2026-10",
           "abertos": 38,
-          "atendidos": 28,
-          "pendentes": 10,
+          "atendidos": 31,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27182,9 +27198,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 6,
+              "atendidosDentro": 7,
               "atendidosFora": 2,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 85534,
@@ -27223,8 +27239,8 @@
                   "cliente": "TRONICS DO BRASIL INDUSTRIA DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84835,
@@ -27446,17 +27462,17 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85555,
                   "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -27494,9 +27510,9 @@
             },
             {
               "nome": "Verificação Lançamentos Contábeis",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84913,
@@ -27511,8 +27527,8 @@
                   "cliente": "ALSEV COMERCIO DE ALUMINIO LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84983,
@@ -30837,9 +30853,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 36,
+          "abertos": 37,
           "atendidos": 27,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31038,6 +31054,22 @@
                   "prazo": "2026-10-08",
                   "dataEntrega": "2026-10-13",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Documentação Contábil",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85584,
+                  "cliente": "SOLAR INVESTIMENTOS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32106,9 +32138,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 13,
+          "abertos": 14,
           "atendidos": 7,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32162,7 +32194,7 @@
               "nome": "Documentação",
               "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84790,
@@ -32187,6 +32219,14 @@
                   "prazo": "2026-10-09",
                   "dataEntrega": "2026-10-19",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85586,
+                  "cliente": "SOLAR INVESTIMENTOS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -36740,9 +36780,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 19,
+          "abertos": 20,
           "atendidos": 14,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36933,6 +36973,22 @@
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-14",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Solicitação de documentação",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85587,
+                  "cliente": "SOLAR INVESTIMENTOS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-06",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
@@ -48670,9 +48726,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 214,
-          "atendidos": 164,
-          "pendentes": 50,
+          "abertos": 215,
+          "atendidos": 162,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48748,9 +48804,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 11,
+              "atendidosDentro": 9,
               "atendidosFora": 4,
-              "pendentes": 5,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84698,
@@ -48789,16 +48845,16 @@
                   "cliente": "Air Sea Apoio Gestao de Saude LTDA ",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-11-16",
-                  "dataEntrega": "2026-10-26",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85332,
                   "cliente": "A ESTANCIA MORRO GRANDE - CENTRO DE REABILITACAO SOCIAL LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-11-16",
-                  "dataEntrega": "2026-10-26",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85314,
@@ -49134,8 +49190,16 @@
               "nome": "Certidão",
               "atendidosDentro": 4,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85585,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85029,
                   "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
