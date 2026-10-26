@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 10:50",
+  "atualizado_em": "26/10/2026 11:18",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 228,
+          "abertos": 236,
           "atendidos": 222,
-          "pendentes": 6,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 159,
-              "atendidosFora": 61,
-              "pendentes": 6,
+              "atendidosDentro": 154,
+              "atendidosFora": 66,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84707,
@@ -23181,16 +23181,16 @@
                   "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85358,
                   "cliente": "Universal Comércio de Embalagens e Descartáveis Ltda - EPP",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85360,
@@ -23205,8 +23205,8 @@
                   "cliente": "HotPlast Comércio de Descartáveis Ltda - ME.",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85362,
@@ -23221,8 +23221,8 @@
                   "cliente": "On Line Embalagens Eireli - EPP",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85364,
@@ -23285,8 +23285,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85384,
@@ -23613,6 +23613,70 @@
                   "cliente": "PEDRO DA CRUZ DO NASCIMENTO LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85540,
+                  "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85541,
+                  "cliente": "Universal Comércio de Embalagens e Descartáveis Ltda - EPP",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85542,
+                  "cliente": "Força Plastic Comércio de Descartáveis Ltda - ME",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85544,
+                  "cliente": "HotPlast Comércio de Descartáveis Ltda - ME.",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85545,
+                  "cliente": "Super Plastic Comércio de Descaráveis Ltda.",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85546,
+                  "cliente": "GALO HORTIFRUTI EIRELI ",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85547,
+                  "cliente": "On Line Embalagens Eireli - EPP",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85548,
+                  "cliente": "NOVA MODA COMERCIO DE ROUPAS, CALÇADOS E ACESSÓRIOS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27024,9 +27088,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 33,
+          "abertos": 34,
           "atendidos": 28,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27328,7 +27392,7 @@
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 2,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84913,
@@ -27337,6 +27401,14 @@
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-22",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85543,
+                  "cliente": "ALSEV COMERCIO DE ALUMINIO LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84983,
@@ -48598,9 +48670,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 210,
+          "abertos": 211,
           "atendidos": 158,
-          "pendentes": 52,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49878,7 +49950,7 @@
               "nome": "Senha",
               "atendidosDentro": 21,
               "atendidosFora": 44,
-              "pendentes": 13,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84703,
@@ -50111,6 +50183,14 @@
                   "prazo": "2026-10-26",
                   "dataEntrega": "2026-10-23",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85549,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84752,
