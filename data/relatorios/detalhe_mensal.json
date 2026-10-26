@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 11:18",
+  "atualizado_em": "26/10/2026 14:52",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 236,
-          "atendidos": 222,
-          "pendentes": 14,
+          "abertos": 239,
+          "atendidos": 234,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 154,
+              "atendidosDentro": 166,
               "atendidosFora": 66,
-              "pendentes": 14,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -23605,8 +23605,8 @@
                   "cliente": "Supermercado Delta Max Ltda (Matriz)",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85536,
@@ -23621,64 +23621,88 @@
                   "cliente": "BOMPLASTIC COMERCIO DE DESCARTÁVEIS LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85541,
                   "cliente": "Universal Comércio de Embalagens e Descartáveis Ltda - EPP",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85542,
                   "cliente": "Força Plastic Comércio de Descartáveis Ltda - ME",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85544,
                   "cliente": "HotPlast Comércio de Descartáveis Ltda - ME.",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85545,
                   "cliente": "Super Plastic Comércio de Descaráveis Ltda.",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85546,
                   "cliente": "GALO HORTIFRUTI EIRELI ",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85547,
                   "cliente": "On Line Embalagens Eireli - EPP",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85548,
                   "cliente": "NOVA MODA COMERCIO DE ROUPAS, CALÇADOS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85550,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85551,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85553,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -27088,9 +27112,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 34,
+          "abertos": 35,
           "atendidos": 28,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27353,6 +27377,22 @@
                   "prazo": "2026-10-05",
                   "dataEntrega": "2026-10-05",
                   "status": "atendido_dentro"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85555,
+                  "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -36749,8 +36789,8 @@
         {
           "mes": "2026-10",
           "abertos": 18,
-          "atendidos": 11,
-          "pendentes": 7,
+          "atendidos": 12,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36811,16 +36851,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85348,
                   "cliente": "TECNO COM INFORMATICA LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -39897,15 +39937,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 68,
+          "abertos": 69,
           "atendidos": 16,
-          "pendentes": 52,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 15,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 84820,
@@ -40024,6 +40064,14 @@
                   "cliente": "ALEX AMANCIO ATACADO E VAREJO DE ELETRICA & HIDRAULICA LTDA",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85556,
+                  "cliente": "ACERTONLINE ASSESSORIA EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -42271,8 +42319,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 397,
-          "pendentes": 21,
+          "atendidos": 398,
+          "pendentes": 20,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42333,8 +42381,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 17,
-              "pendentes": 5,
+              "atendidosFora": 18,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 81838,
@@ -42525,8 +42573,8 @@
                   "cliente": "ALCANTARA LOGÍSTICA E TRANSPORTE LTDA",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81738,
@@ -45863,8 +45911,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 300,
-          "pendentes": 19,
+          "atendidos": 301,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47405,8 +47453,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 3,
-              "atendidosFora": 12,
-              "pendentes": 4,
+              "atendidosFora": 13,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83526,
@@ -47429,8 +47477,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-14",
                   "prazo": "2026-09-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83981,
@@ -47549,7 +47597,7 @@
                   "cliente": "J R BARROS COMERCIO LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-26",
                   "status": "atendido_fora"
                 },
                 {
@@ -48670,15 +48718,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 211,
-          "atendidos": 158,
-          "pendentes": 53,
+          "abertos": 214,
+          "atendidos": 162,
+          "pendentes": 52,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 85294,
@@ -48741,16 +48789,16 @@
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-11-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 5,
+              "atendidosDentro": 8,
               "atendidosFora": 4,
-              "pendentes": 10,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84698,
@@ -48789,16 +48837,16 @@
                   "cliente": "Air Sea Apoio Gestao de Saude LTDA ",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-11-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85332,
                   "cliente": "A ESTANCIA MORRO GRANDE - CENTRO DE REABILITACAO SOCIAL LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-11-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85314,
@@ -48823,6 +48871,14 @@
                   "prazo": "2026-10-20",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85554,
+                  "cliente": "ATALAIA COMERCIO ATACADISTA DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84906,
@@ -48893,8 +48949,8 @@
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-11-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85017,
@@ -49437,7 +49493,7 @@
                   "cliente": "PIZZA CREK FAST FOOD LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-06",
-                  "dataEntrega": "2026-10-16",
+                  "dataEntrega": "2026-10-26",
                   "status": "atendido_fora"
                 },
                 {
@@ -49486,7 +49542,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84958,
@@ -49501,8 +49557,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-26",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85570,
+                  "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85059,
@@ -49876,9 +49940,9 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosDentro": 0,
+              "atendidosFora": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85256,
@@ -49901,8 +49965,16 @@
                   "cliente": "DISTRIBUIDORA DE HORTIFRUTTI POMAR DO QUINTAS LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 85569,
+                  "cliente": "PRISTELA PIZZARIA LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84731,
@@ -51091,15 +51163,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 23,
+          "abertos": 25,
           "atendidos": 8,
-          "pendentes": 15,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 4,
               "atendidosFora": 3,
-              "pendentes": 7,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84775,
@@ -51208,6 +51280,22 @@
                 {
                   "id": 85539,
                   "cliente": "RAMAR COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85557,
+                  "cliente": "Union Supply Comercio e Servicos de Manutencao de Maquinas LTDA ",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85563,
+                  "cliente": "GARRA PRODUTOS, ALIMENTOS E BEBIDAS LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-02",
                   "dataEntrega": null,
@@ -52037,15 +52125,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 4,
+          "abertos": 6,
           "atendidos": 0,
-          "pendentes": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 3,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84776,
@@ -52068,6 +52156,22 @@
                   "cliente": "ACMA SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85560,
+                  "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85561,
+                  "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -52290,15 +52394,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 10,
+          "abertos": 14,
           "atendidos": 0,
-          "pendentes": 10,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 10,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84705,
@@ -52377,6 +52481,38 @@
                   "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85564,
+                  "cliente": "GARRA PRODUTOS, ALIMENTOS E BEBIDAS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85565,
+                  "cliente": "GARRA PRODUTOS, ALIMENTOS E BEBIDAS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85566,
+                  "cliente": "ACOUGUE E MERCEARIA N SRA APARECIDA DE BRASILIA LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85568,
+                  "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -54296,14 +54432,14 @@
         {
           "mes": "2026-09",
           "abertos": 63,
-          "atendidos": 10,
-          "pendentes": 53,
+          "atendidos": 13,
+          "pendentes": 50,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
-              "atendidosFora": 7,
-              "pendentes": 43,
+              "atendidosFora": 10,
+              "pendentes": 40,
               "chamados": [
                 {
                   "id": 83310,
@@ -54606,8 +54742,8 @@
                   "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-25",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84483,
@@ -54646,16 +54782,16 @@
                   "cliente": "UNION SERVICOS DE APOIO LTDA",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84533,
                   "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84542,
@@ -54839,15 +54975,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 61,
-          "atendidos": 5,
-          "pendentes": 56,
+          "abertos": 65,
+          "atendidos": 6,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
-              "atendidosFora": 1,
-              "pendentes": 51,
+              "atendidosFora": 2,
+              "pendentes": 50,
               "chamados": [
                 {
                   "id": 84697,
@@ -55158,8 +55294,8 @@
                   "cliente": "ASA FORTE COMERCIO DE RAÇÕES LTDA",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85211,
@@ -55287,7 +55423,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84788,
@@ -55310,6 +55446,38 @@
                   "cliente": "NEWTNT INDÚSTRIA DE TECIDOS EIRELI",
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-20",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85559,
+                  "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85567,
+                  "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85558,
+                  "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85562,
+                  "cliente": "GODINHO SERVICOS DE APOIO LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
