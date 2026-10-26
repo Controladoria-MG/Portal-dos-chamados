@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 15:41",
+  "atualizado_em": "26/10/2026 16:52",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 240,
-          "atendidos": 234,
-          "pendentes": 6,
+          "abertos": 244,
+          "atendidos": 239,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 166,
+              "atendidosDentro": 171,
               "atendidosFora": 66,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -23709,8 +23709,40 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85578,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85579,
+                  "cliente": "GTG EMPREENDIMENTOS SERVIÇOS E COMERCIO LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85580,
+                  "cliente": "TSN TECHNICAL SERVICE NETWORK LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85581,
+                  "cliente": "PC GAMER GOIANIA LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -30806,22 +30838,22 @@
         {
           "mes": "2026-10",
           "abertos": 36,
-          "atendidos": 25,
-          "pendentes": 11,
+          "atendidos": 27,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 2,
-              "atendidosFora": 1,
-              "pendentes": 4,
+              "atendidosFora": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85419,
                   "cliente": "SUPERMERCADO CATANDUVA LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85418,
@@ -31107,9 +31139,9 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85337,
@@ -31124,8 +31156,8 @@
                   "cliente": "CORDEIRO E CIA LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -31915,14 +31947,14 @@
         {
           "mes": "2026-09",
           "abertos": 13,
-          "atendidos": 9,
-          "pendentes": 4,
+          "atendidos": 10,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Cadastro",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 3,
+              "atendidosFora": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84138,
@@ -31945,8 +31977,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-18",
                   "prazo": "2026-09-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -32074,9 +32106,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 12,
-          "atendidos": 5,
-          "pendentes": 7,
+          "abertos": 13,
+          "atendidos": 7,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32185,8 +32217,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85291,
@@ -32201,15 +32233,15 @@
                   "cliente": "ANDERSON JULIO FERNANDES",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
+              "atendidosFora": 1,
               "pendentes": 1,
               "chamados": [
                 {
@@ -32217,6 +32249,14 @@
                   "cliente": "DELTA GESSO SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 85582,
+                  "cliente": "CORDEIRO E CIA LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -32423,138 +32463,10 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 20,
+          "abertos": 5,
           "atendidos": 5,
-          "pendentes": 15,
+          "pendentes": 0,
           "categorias": [
-            {
-              "nome": "Apontamentos",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 15,
-              "chamados": [
-                {
-                  "id": 78294,
-                  "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78294,
-                  "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78301,
-                  "cliente": "ALUMINIO IMPERIAL LTDA ",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78306,
-                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78306,
-                  "cliente": "BY ENGENHARIA IMPORTAÇÃO E EXPORTAÇÃO LTDA (MATRIZ)",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78308,
-                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78308,
-                  "cliente": "Cristaleria Bruxelas Indústria e Comércio Eireli",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78309,
-                  "cliente": "Emplaca Automação e Tecnologia Ltda. ",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78309,
-                  "cliente": "Emplaca Automação e Tecnologia Ltda. ",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78313,
-                  "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78313,
-                  "cliente": "JCV INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78316,
-                  "cliente": "METALBRAS INDUSTRIA E COMERCIO DE METAIS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78316,
-                  "cliente": "METALBRAS INDUSTRIA E COMERCIO DE METAIS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78324,
-                  "cliente": "V8 INDUSTRIA E COMERCIO DE PRODUTOS ABRASIVOS LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 78326,
-                  "cliente": "VTZZ INDUSTRIA E COMÉRCIO LTDA",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                }
-              ]
-            },
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
@@ -36828,9 +36740,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 18,
+          "abertos": 19,
           "atendidos": 14,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36908,7 +36820,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85356,
@@ -36917,6 +36829,14 @@
                   "prazo": "2026-10-21",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85583,
+                  "cliente": "SUPERMERCADO PICCIN LIMITADA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85445,
@@ -37129,15 +37049,15 @@
         },
         {
           "mes": "2026-03",
-          "abertos": 20,
+          "abertos": 19,
           "atendidos": 19,
-          "pendentes": 1,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 0,
               "atendidosFora": 19,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 77683,
@@ -37266,14 +37186,6 @@
                   "prazo": "2026-04-10",
                   "dataEntrega": "2026-09-02",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 78321,
-                  "cliente": "SINZATO INDUSTRIA E COMERCIO DE CONFECCOES LTDA ",
-                  "dataCadastro": "2026-03-30",
-                  "prazo": "2026-04-10",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 78322,
@@ -48759,8 +48671,8 @@
         {
           "mes": "2026-10",
           "abertos": 214,
-          "atendidos": 163,
-          "pendentes": 51,
+          "atendidos": 164,
+          "pendentes": 50,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48836,9 +48748,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 10,
+              "atendidosDentro": 11,
               "atendidosFora": 4,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84698,
@@ -48941,8 +48853,8 @@
                   "cliente": "G & S COMERCIO DE MADEIRAS LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-11-17",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85110,
@@ -55015,15 +54927,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 66,
+          "abertos": 67,
           "atendidos": 6,
-          "pendentes": 60,
+          "pendentes": 61,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 51,
+              "pendentes": 52,
               "chamados": [
                 {
                   "id": 84697,
@@ -55460,6 +55372,14 @@
                 {
                   "id": 85576,
                   "cliente": "CRIS MAR MERCADO LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85577,
+                  "cliente": "MAVAR SERVIÇOS E APOIO LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-16",
                   "dataEntrega": null,
