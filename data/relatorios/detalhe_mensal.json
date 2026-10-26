@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 10:14",
+  "atualizado_em": "26/10/2026 10:50",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -27025,8 +27025,8 @@
         {
           "mes": "2026-10",
           "abertos": 33,
-          "atendidos": 26,
-          "pendentes": 7,
+          "atendidos": 28,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27054,17 +27054,17 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 4,
+              "atendidosDentro": 6,
               "atendidosFora": 2,
-              "pendentes": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85534,
                   "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85304,
@@ -27127,8 +27127,8 @@
                   "cliente": "EVOLUCAO WEB LOGISTICA E SERVICOS LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84939,
@@ -51011,15 +51011,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 8,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 4,
               "atendidosFora": 3,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84775,
@@ -51122,6 +51122,14 @@
                   "cliente": "RAMAR COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85539,
+                  "cliente": "RAMAR COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
