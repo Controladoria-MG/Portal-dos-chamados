@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 09:31",
+  "atualizado_em": "26/10/2026 10:14",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 157,
-              "atendidosFora": 124,
+              "atendidosDentro": 156,
+              "atendidosFora": 125,
               "pendentes": 1,
               "chamados": [
                 {
@@ -20693,8 +20693,8 @@
                   "cliente": "Supermercado Delta Max Ltda (Matriz)",
                   "dataCadastro": "2026-09-15",
                   "prazo": "2026-09-16",
-                  "dataEntrega": "2026-09-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84040,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 226,
+          "abertos": 228,
           "atendidos": 222,
-          "pendentes": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 161,
-              "atendidosFora": 59,
-              "pendentes": 4,
+              "atendidosDentro": 159,
+              "atendidosFora": 61,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -21821,8 +21821,8 @@
                   "cliente": "Supermercado Delta Max Ltda (Matriz)",
                   "dataCadastro": "2026-10-01",
                   "prazo": "2026-10-02",
-                  "dataEntrega": "2026-10-02",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84714,
@@ -23261,8 +23261,8 @@
                   "cliente": "MERCH LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85380,
@@ -23599,6 +23599,22 @@
                   "prazo": "2026-10-26",
                   "dataEntrega": "2026-10-23",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85533,
+                  "cliente": "Supermercado Delta Max Ltda (Matriz)",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85536,
+                  "cliente": "PEDRO DA CRUZ DO NASCIMENTO LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27008,9 +27024,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 32,
+          "abertos": 33,
           "atendidos": 26,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27040,8 +27056,16 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 4,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
+                {
+                  "id": 85534,
+                  "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85304,
                   "cliente": "MQ PRODUSERV COMÉRCIO E EMPREENDIMENTOS LTDA",
@@ -39801,9 +39825,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 67,
+          "abertos": 68,
           "atendidos": 16,
-          "pendentes": 51,
+          "pendentes": 52,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -39937,7 +39961,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 14,
-              "pendentes": 9,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84708,
@@ -40128,6 +40152,14 @@
                   "cliente": "SUPER MERCADO ESTRELA AZUL",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-22",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85535,
+                  "cliente": "INDART PUXADORES LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48567,8 +48599,8 @@
         {
           "mes": "2026-10",
           "abertos": 210,
-          "atendidos": 157,
-          "pendentes": 53,
+          "atendidos": 158,
+          "pendentes": 52,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49845,8 +49877,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 21,
-              "atendidosFora": 43,
-              "pendentes": 14,
+              "atendidosFora": 44,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84703,
@@ -50021,8 +50053,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85225,
@@ -50985,8 +51017,8 @@
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 6,
-              "atendidosFora": 1,
+              "atendidosDentro": 4,
+              "atendidosFora": 3,
               "pendentes": 6,
               "chamados": [
                 {
@@ -51074,16 +51106,16 @@
                   "cliente": "MDB COMERCIAL LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85275,
                   "cliente": "RMB SUPERMERCADO EIRELI",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85355,
@@ -54719,15 +54751,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 60,
+          "abertos": 61,
           "atendidos": 5,
-          "pendentes": 55,
+          "pendentes": 56,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 50,
+              "pendentes": 51,
               "chamados": [
                 {
                   "id": 84697,
@@ -55150,6 +55182,14 @@
                   "cliente": "J PINTO COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-25",
                   "prazo": "2026-11-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85538,
+                  "cliente": "ACRILZANO ARTEFATOS DE ACRILICO LTDA (FILIAL 01)",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
