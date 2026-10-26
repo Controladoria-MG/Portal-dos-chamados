@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 08:31",
+  "atualizado_em": "26/10/2026 09:31",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21804,8 +21804,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 162,
-              "atendidosFora": 58,
+              "atendidosDentro": 161,
+              "atendidosFora": 59,
               "pendentes": 4,
               "chamados": [
                 {
@@ -23493,8 +23493,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85489,
@@ -23525,8 +23525,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85510,
@@ -30638,8 +30638,8 @@
         {
           "mes": "2026-10",
           "abertos": 35,
-          "atendidos": 24,
-          "pendentes": 11,
+          "atendidos": 25,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30724,8 +30724,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
-              "atendidosFora": 2,
-              "pendentes": 4,
+              "atendidosFora": 3,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85002,
@@ -30780,8 +30780,8 @@
                   "cliente": "TECHFEED ADITIVOS PARA NUTRICAO ANIMAL LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 }
               ]
             },
