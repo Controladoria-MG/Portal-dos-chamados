@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/10/2026 16:50",
+  "atualizado_em": "26/10/2026 08:31",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 226,
-          "atendidos": 221,
-          "pendentes": 5,
+          "atendidos": 222,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21804,9 +21804,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 161,
+              "atendidosDentro": 162,
               "atendidosFora": 58,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84707,
@@ -23597,8 +23597,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -27008,9 +27008,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 30,
+          "abertos": 32,
           "atendidos": 26,
-          "pendentes": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27040,7 +27040,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 4,
               "atendidosFora": 2,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85304,
@@ -27063,6 +27063,14 @@
                   "cliente": "ASSOCIAÇÃO COMERCIAL INDUSTRIAL E SERVIÇOS DE EMBU ",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85525,
+                  "cliente": "TRONICS DO BRASIL INDUSTRIA DE EQUIPAMENTOS LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -27296,7 +27304,7 @@
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 2,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84913,
@@ -27313,6 +27321,14 @@
                   "prazo": "2026-10-15",
                   "dataEntrega": "2026-10-09",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85529,
+                  "cliente": "PLANET GRAPHICS LTDA ",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84895,
@@ -30622,8 +30638,8 @@
         {
           "mes": "2026-10",
           "abertos": 35,
-          "atendidos": 25,
-          "pendentes": 10,
+          "atendidos": 24,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30707,9 +30723,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 2,
+              "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 85002,
@@ -30764,8 +30780,8 @@
                   "cliente": "TECHFEED ADITIVOS PARA NUTRICAO ANIMAL LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -34455,9 +34471,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 23,
+          "abertos": 24,
           "atendidos": 9,
-          "pendentes": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34614,6 +34630,22 @@
                   "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85528,
+                  "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48535,8 +48567,8 @@
         {
           "mes": "2026-10",
           "abertos": 210,
-          "atendidos": 156,
-          "pendentes": 54,
+          "atendidos": 157,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49813,8 +49845,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 21,
-              "atendidosFora": 42,
-              "pendentes": 15,
+              "atendidosFora": 43,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84703,
@@ -49869,8 +49901,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-23",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84922,
@@ -54687,15 +54719,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 57,
+          "abertos": 60,
           "atendidos": 5,
-          "pendentes": 52,
+          "pendentes": 55,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 47,
+              "pendentes": 50,
               "chamados": [
                 {
                   "id": 84697,
@@ -55094,6 +55126,30 @@
                   "cliente": "J PINTO COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85526,
+                  "cliente": "BOMFRIOS COMÉRCIO DE ALIMENTOS LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85527,
+                  "cliente": "BOMFRIOS PRIME SUPERMERCADOS LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85530,
+                  "cliente": "J PINTO COMERCIO DE ALIMENTOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-25",
+                  "prazo": "2026-11-05",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
