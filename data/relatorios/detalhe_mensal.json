@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 17:43",
+  "atualizado_em": "27/10/2026 18:14",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 266,
-          "atendidos": 257,
-          "pendentes": 9,
+          "abertos": 267,
+          "atendidos": 261,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 178,
+              "atendidosDentro": 182,
               "atendidosFora": 76,
-              "pendentes": 9,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -23893,30 +23893,38 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85633,
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85636,
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85637,
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-30",
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85638,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48943,8 +48951,8 @@
         {
           "mes": "2026-10",
           "abertos": 223,
-          "atendidos": 172,
-          "pendentes": 51,
+          "atendidos": 173,
+          "pendentes": 50,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -50325,8 +50333,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 23,
-              "atendidosFora": 44,
-              "pendentes": 12,
+              "atendidosFora": 45,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84703,
@@ -50445,8 +50453,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85030,
