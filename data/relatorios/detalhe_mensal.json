@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 08:45",
+  "atualizado_em": "27/10/2026 09:13",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -32155,8 +32155,8 @@
         {
           "mes": "2026-10",
           "abertos": 14,
-          "atendidos": 7,
-          "pendentes": 7,
+          "atendidos": 8,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32208,9 +32208,9 @@
             },
             {
               "nome": "Documentação",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84790,
@@ -32241,8 +32241,8 @@
                   "cliente": "SOLAR INVESTIMENTOS LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-06",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -48852,9 +48852,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 9,
+              "atendidosDentro": 10,
               "atendidosFora": 4,
-              "pendentes": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84698,
@@ -48893,8 +48893,8 @@
                   "cliente": "Air Sea Apoio Gestao de Saude LTDA ",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-11-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85332,
@@ -49396,9 +49396,9 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 3,
+              "atendidosDentro": 2,
               "atendidosFora": 4,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85028,
@@ -49421,8 +49421,8 @@
                   "cliente": "VIANA & CIA LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84848,
@@ -51227,9 +51227,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 27,
+          "abertos": 31,
           "atendidos": 8,
-          "pendentes": 19,
+          "pendentes": 23,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -51371,7 +51371,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 10,
+              "pendentes": 14,
               "chamados": [
                 {
                   "id": 84812,
@@ -51456,6 +51456,38 @@
                 {
                   "id": 85596,
                   "cliente": "MERCADO EBENEZER COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85597,
+                  "cliente": "ALDEBARAN DISTRIBUIDORA E COMÉRCIO DE MATERIAL MÉDICO E HOSPITALAR LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85599,
+                  "cliente": "TECMAR SERVICOS NAVAIS OFFSHORE LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85600,
+                  "cliente": "TECSEA SERVICOS NAVAIS OFFSHORE LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85601,
+                  "cliente": "RED SEA TRANSPORTE E APOIO MARITIMO LTDA ",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-11-03",
                   "dataEntrega": null,
@@ -52474,15 +52506,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 14,
+          "abertos": 16,
           "atendidos": 0,
-          "pendentes": 14,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 14,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 84705,
@@ -52593,6 +52625,22 @@
                   "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85598,
+                  "cliente": "ALDEBARAN DISTRIBUIDORA E COMÉRCIO DE MATERIAL MÉDICO E HOSPITALAR LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85602,
+                  "cliente": "RED SEA TRANSPORTE E APOIO MARITIMO LTDA ",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
