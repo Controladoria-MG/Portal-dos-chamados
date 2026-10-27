@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 15:12",
+  "atualizado_em": "27/10/2026 15:33",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -48911,14 +48911,14 @@
         {
           "mes": "2026-10",
           "abertos": 221,
-          "atendidos": 170,
-          "pendentes": 51,
+          "atendidos": 169,
+          "pendentes": 52,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 3,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 85294,
@@ -48957,8 +48957,8 @@
                   "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-11-13",
-                  "dataEntrega": "2026-10-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84861,
@@ -48988,9 +48988,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 11,
+              "atendidosDentro": 10,
               "atendidosFora": 4,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84698,
@@ -49077,8 +49077,8 @@
                   "cliente": "BARATÃO SÃO LUCAS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85408,
@@ -50276,9 +50276,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 22,
+              "atendidosDentro": 23,
               "atendidosFora": 44,
-              "pendentes": 13,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 84703,
@@ -50725,8 +50725,8 @@
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (FILIAL 70)",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84759,
@@ -51419,15 +51419,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 31,
+          "abertos": 33,
           "atendidos": 9,
-          "pendentes": 22,
+          "pendentes": 24,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 4,
               "atendidosFora": 3,
-              "pendentes": 9,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84775,
@@ -51544,6 +51544,22 @@
                 {
                   "id": 85557,
                   "cliente": "Union Supply Comercio e Servicos de Manutencao de Maquinas LTDA ",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85558,
+                  "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85562,
+                  "cliente": "GODINHO SERVICOS DE APOIO LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-02",
                   "dataEntrega": null,
@@ -52698,15 +52714,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 16,
+          "abertos": 17,
           "atendidos": 0,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 16,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 84705,
@@ -52831,6 +52847,14 @@
                 {
                   "id": 85602,
                   "cliente": "RED SEA TRANSPORTE E APOIO MARITIMO LTDA ",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85630,
+                  "cliente": "JEM TRUCK TRANSPORTE DE CARGAS E TERRAPLANAGEM LTDA ",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-11-03",
                   "dataEntrega": null,
@@ -53318,7 +53342,7 @@
                   "cliente": "UP SEA SOLUÇÕES MARITIMAS E ENGENHARIA NAVAL LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-26",
-                  "dataEntrega": "2026-08-31",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -55295,9 +55319,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 67,
+          "abertos": 65,
           "atendidos": 6,
-          "pendentes": 61,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -55759,7 +55783,7 @@
               "nome": "Ata de Reunião",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 6,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84788,
@@ -55796,22 +55820,6 @@
                 {
                   "id": 85567,
                   "cliente": "E DIANA DE MEDEIROS COMÉRCIO DE RAÇÕES ",
-                  "dataCadastro": "2026-10-26",
-                  "prazo": "2026-11-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 85558,
-                  "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (MATRIZ)",
-                  "dataCadastro": "2026-10-26",
-                  "prazo": "2026-11-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 85562,
-                  "cliente": "GODINHO SERVICOS DE APOIO LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-02",
                   "dataEntrega": null,
