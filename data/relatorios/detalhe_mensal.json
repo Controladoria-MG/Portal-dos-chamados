@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 11:08",
+  "atualizado_em": "27/10/2026 12:03",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 254,
+          "abertos": 255,
           "atendidos": 248,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 171,
               "atendidosFora": 74,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84707,
@@ -23821,6 +23821,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85617,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -30909,9 +30917,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 37,
+          "abertos": 38,
           "atendidos": 28,
-          "pendentes": 9,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31054,6 +31062,22 @@
                   "prazo": "2026-10-15",
                   "dataEntrega": "2026-10-26",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Conciliação de Contas",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85618,
+                  "cliente": "CANAÃ COMERCIAL DE ALIMENTOS LTDA ",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32194,8 +32218,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 14,
-          "atendidos": 8,
+          "abertos": 13,
+          "atendidos": 7,
           "pendentes": 6,
           "categorias": [
             {
@@ -32313,8 +32337,8 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85291,
@@ -32329,8 +32353,8 @@
                   "cliente": "ANDERSON JULIO FERNANDES",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-10-08",
-                  "dataEntrega": "2026-10-26",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -32338,7 +32362,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85123,
@@ -32347,14 +32371,6 @@
                   "prazo": "2026-10-15",
                   "dataEntrega": "2026-10-26",
                   "status": "atendido_fora"
-                },
-                {
-                  "id": 85582,
-                  "cliente": "CORDEIRO E CIA LTDA",
-                  "dataCadastro": "2026-10-26",
-                  "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             }
@@ -40009,9 +40025,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 71,
+          "abertos": 72,
           "atendidos": 16,
-          "pendentes": 55,
+          "pendentes": 56,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -40472,6 +40488,22 @@
                   "cliente": "LOGUS ABC SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Recálculo de Guia",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85582,
+                  "cliente": "CORDEIRO E CIA LTDA",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48815,14 +48847,14 @@
         {
           "mes": "2026-10",
           "abertos": 219,
-          "atendidos": 164,
-          "pendentes": 55,
+          "atendidos": 167,
+          "pendentes": 52,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 85294,
@@ -48885,16 +48917,16 @@
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-11-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 }
               ]
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 10,
+              "atendidosDentro": 11,
               "atendidosFora": 4,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84698,
@@ -48941,8 +48973,8 @@
                   "cliente": "A ESTANCIA MORRO GRANDE - CENTRO DE REABILITACAO SOCIAL LTDA",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-11-16",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85314,
@@ -49533,8 +49565,8 @@
             {
               "nome": "Levantamento de Débitos Mensal",
               "atendidosDentro": 3,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85227,
@@ -49557,8 +49589,8 @@
                   "cliente": "ALMEIDA & AMARAL COMERCIO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85407,
@@ -49613,7 +49645,7 @@
                   "cliente": "SJC FAST FOOD LTDA ",
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-08",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
