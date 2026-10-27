@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 15:33",
+  "atualizado_em": "27/10/2026 16:06",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 262,
-          "atendidos": 251,
-          "pendentes": 11,
+          "abertos": 263,
+          "atendidos": 257,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 174,
-              "atendidosFora": 74,
-              "pendentes": 11,
+              "atendidosDentro": 179,
+              "atendidosFora": 75,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -23349,8 +23349,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-22",
-                  "dataEntrega": "2026-10-21",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85429,
@@ -23845,44 +23845,52 @@
                   "cliente": "C A R MINIMERCADO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85623,
                   "cliente": "R C A MINIMERCADO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85624,
                   "cliente": "A R C MINIMERCADO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85625,
                   "cliente": "Jbjulipar Participações Ltda",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85626,
                   "cliente": "EMPORIO CASA LUSITANA COMERCIAL LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85627,
                   "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85631,
+                  "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
                   "dataEntrega": null,
@@ -50557,7 +50565,7 @@
                   "cliente": "Hyper Mall & Properties Participações S.A",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -50573,7 +50581,7 @@
                   "cliente": "Ibuaçu Participações S.A",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -50581,7 +50589,7 @@
                   "cliente": "Lindele Participações S.A.",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -50613,7 +50621,7 @@
                   "cliente": "VICALI ADMINISTRAÇÃO, PARTICIPAÇÕES E INVESTIMENTOS LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -50621,7 +50629,7 @@
                   "cliente": "LSA PARTICIPAÇÕES EIRELI",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -50733,7 +50741,7 @@
                   "cliente": "LC 2 EMPREENDIMENTOS E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-21",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -50773,7 +50781,7 @@
                   "cliente": "BEIRA ALTA PARTICIPAÇÕES S.A ",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -50789,7 +50797,7 @@
                   "cliente": "HOLDING RODRIGUES PEREIRA EMPREENDIMENTOS E PARTICIPAÇÕES LTDA",
                   "dataCadastro": "2026-10-02",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-22",
+                  "dataEntrega": "2026-10-27",
                   "status": "atendido_fora"
                 },
                 {
@@ -55319,15 +55327,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 65,
+          "abertos": 66,
           "atendidos": 6,
-          "pendentes": 59,
+          "pendentes": 60,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 52,
+              "pendentes": 53,
               "chamados": [
                 {
                   "id": 84697,
@@ -55774,6 +55782,14 @@
                   "cliente": "MAVAR SERVIÇOS E APOIO LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85632,
+                  "cliente": "LANCHONETE CAMACHA LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
