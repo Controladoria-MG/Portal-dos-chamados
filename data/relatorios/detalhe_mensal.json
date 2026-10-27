@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 16:06",
+  "atualizado_em": "27/10/2026 17:10",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 263,
+          "abertos": 265,
           "atendidos": 257,
-          "pendentes": 6,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 179,
               "atendidosFora": 75,
-              "pendentes": 6,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84707,
@@ -23890,6 +23890,22 @@
                 },
                 {
                   "id": 85631,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85633,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85636,
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
@@ -48918,9 +48934,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 221,
+          "abertos": 223,
           "atendidos": 169,
-          "pendentes": 52,
+          "pendentes": 54,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49390,7 +49406,7 @@
               "nome": "Certidão",
               "atendidosDentro": 5,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85585,
@@ -49479,6 +49495,22 @@
                   "prazo": "2026-10-22",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85635,
+                  "cliente": "HEORA PARTICIPACOES LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85634,
+                  "cliente": "SPES MV HOLDING LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
