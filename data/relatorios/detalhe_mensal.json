@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 17:40",
+  "atualizado_em": "27/10/2026 08:45",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 156,
-              "atendidosFora": 125,
+              "atendidosDentro": 155,
+              "atendidosFora": 126,
               "pendentes": 1,
               "chamados": [
                 {
@@ -21685,8 +21685,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-28",
                   "prazo": "2026-09-29",
-                  "dataEntrega": "2026-09-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-26",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84553,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 246,
+          "abertos": 249,
           "atendidos": 239,
-          "pendentes": 7,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21806,7 +21806,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 170,
               "atendidosFora": 67,
-              "pendentes": 7,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84707,
@@ -23549,7 +23549,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-26",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23565,7 +23565,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-26",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23756,6 +23756,30 @@
                   "id": 85589,
                   "cliente": null,
                   "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85591,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85592,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85594,
+                  "cliente": "EMPORIO SERVICOS DE APOIO LTDA ",
+                  "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
@@ -27168,9 +27192,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 38,
+          "abertos": 37,
           "atendidos": 31,
-          "pendentes": 7,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27512,7 +27536,7 @@
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84913,
@@ -27537,14 +27561,6 @@
                   "prazo": "2026-10-15",
                   "dataEntrega": "2026-10-09",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 85529,
-                  "cliente": "PLANET GRAPHICS LTDA ",
-                  "dataCadastro": "2026-10-23",
-                  "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 84895,
@@ -34599,9 +34615,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 24,
+          "abertos": 25,
           "atendidos": 9,
-          "pendentes": 15,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34855,8 +34871,16 @@
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
+                {
+                  "id": 85590,
+                  "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85462,
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
@@ -39945,9 +39969,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 69,
+          "abertos": 71,
           "atendidos": 16,
-          "pendentes": 53,
+          "pendentes": 55,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -40089,7 +40113,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 14,
-              "pendentes": 10,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84708,
@@ -40288,6 +40312,14 @@
                   "cliente": "INDART PUXADORES LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85593,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-26",
+                  "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -40536,6 +40568,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-16",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Verificação Lançamentos Contábeis",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85529,
+                  "cliente": "PLANET GRAPHICS LTDA ",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -51179,9 +51227,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 25,
+          "abertos": 27,
           "atendidos": 8,
-          "pendentes": 17,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -51323,7 +51371,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 8,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84812,
@@ -51393,6 +51441,22 @@
                   "id": 85374,
                   "cliente": "OBJETIVA MARKETING PROMOCIONAL E EVENTOS LTDA ",
                   "dataCadastro": "2026-10-20",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85595,
+                  "cliente": "AVVA QUÍMICA S.A",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85596,
+                  "cliente": "MERCADO EBENEZER COMÉRCIO DE PRODUTOS ALIMENTÍCIOS LTDA",
+                  "dataCadastro": "2026-10-27",
                   "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
