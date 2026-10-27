@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 10:12",
+  "atualizado_em": "27/10/2026 11:08",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 253,
-          "atendidos": 249,
-          "pendentes": 4,
+          "abertos": 254,
+          "atendidos": 248,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 172,
+              "atendidosDentro": 171,
               "atendidosFora": 74,
-              "pendentes": 4,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -23789,8 +23789,8 @@
                   "cliente": "EMPORIO SERVICOS DE APOIO LTDA ",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-27",
-                  "dataEntrega": "2026-10-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85604,
@@ -23815,6 +23815,14 @@
                   "prazo": "2026-10-28",
                   "dataEntrega": "2026-10-27",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85616,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -24324,8 +24332,8 @@
         {
           "mes": "2026-10",
           "abertos": 6,
-          "atendidos": 2,
-          "pendentes": 4,
+          "atendidos": 4,
+          "pendentes": 2,
           "categorias": [
             {
               "nome": "Documentação Contábil",
@@ -24354,16 +24362,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 4,
+              "atendidosFora": 2,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85471,
                   "cliente": "ARZINDA ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85469,
@@ -24386,8 +24394,8 @@
                   "cliente": "CLV3 EMPREENDIMENTOS E PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_fora"
                 }
               ]
             }
@@ -45999,8 +46007,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 304,
-          "pendentes": 15,
+          "atendidos": 305,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46109,8 +46117,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
-              "atendidosFora": 16,
-              "pendentes": 4,
+              "atendidosFora": 17,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84372,
@@ -46205,8 +46213,8 @@
                   "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83703,
@@ -48807,8 +48815,8 @@
         {
           "mes": "2026-10",
           "abertos": 219,
-          "atendidos": 162,
-          "pendentes": 57,
+          "atendidos": 164,
+          "pendentes": 55,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49429,8 +49437,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
-              "atendidosFora": 4,
-              "pendentes": 2,
+              "atendidosFora": 5,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85028,
@@ -49477,8 +49485,8 @@
                   "cliente": "SUPERMERCADO SANTA MARIA LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85107,
@@ -50156,9 +50164,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 21,
+              "atendidosDentro": 22,
               "atendidosFora": 44,
-              "pendentes": 14,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84703,
@@ -50765,8 +50773,8 @@
                   "cliente": "55.609.458 ELIANE DIAS DA SILVA MATOS",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85075,
