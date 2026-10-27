@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 12:15",
+  "atualizado_em": "27/10/2026 14:46",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 255,
-          "atendidos": 248,
-          "pendentes": 7,
+          "abertos": 262,
+          "atendidos": 251,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 171,
+              "atendidosDentro": 174,
               "atendidosFora": 74,
-              "pendentes": 7,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84707,
@@ -23789,8 +23789,8 @@
                   "cliente": "EMPORIO SERVICOS DE APOIO LTDA ",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85604,
@@ -23821,14 +23821,70 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85617,
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85620,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85622,
+                  "cliente": "C A R MINIMERCADO E SERVIÇOS LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85623,
+                  "cliente": "R C A MINIMERCADO E SERVIÇOS LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85624,
+                  "cliente": "A R C MINIMERCADO E SERVIÇOS LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85625,
+                  "cliente": "Jbjulipar Participações Ltda",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85626,
+                  "cliente": "EMPORIO CASA LUSITANA COMERCIAL LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85627,
+                  "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-28",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -48854,15 +48910,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 219,
-          "atendidos": 167,
-          "pendentes": 52,
+          "abertos": 221,
+          "atendidos": 170,
+          "pendentes": 51,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 85294,
@@ -48901,8 +48957,8 @@
                   "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-11-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84861,
@@ -48934,7 +48990,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
               "atendidosFora": 4,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84698,
@@ -49047,6 +49103,14 @@
                   "prazo": "2026-11-10",
                   "dataEntrega": "2026-10-26",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85619,
+                  "cliente": "MERCH LTDA",
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-11-24",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85496,
@@ -49316,17 +49380,17 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 5,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85585,
                   "cliente": null,
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85029,
@@ -49686,7 +49750,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 3,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 84958,
@@ -49703,6 +49767,14 @@
                   "prazo": "2026-10-26",
                   "dataEntrega": "2026-10-26",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85628,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-27",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85570,
@@ -50116,9 +50188,9 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85256,
@@ -50149,8 +50221,8 @@
                   "cliente": "PRISTELA PIZZARIA LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84731,
@@ -51348,8 +51420,8 @@
         {
           "mes": "2026-10",
           "abertos": 31,
-          "atendidos": 8,
-          "pendentes": 23,
+          "atendidos": 9,
+          "pendentes": 22,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -51489,9 +51561,9 @@
             },
             {
               "nome": "Documentação Contábil",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 14,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84812,
@@ -51586,8 +51658,8 @@
                   "cliente": "ALDEBARAN DISTRIBUIDORA E COMÉRCIO DE MATERIAL MÉDICO E HOSPITALAR LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-11-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-27",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85599,
