@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 17:08",
+  "atualizado_em": "28/10/2026 17:51",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -27385,8 +27385,8 @@
         {
           "mes": "2026-10",
           "abertos": 49,
-          "atendidos": 32,
-          "pendentes": 17,
+          "atendidos": 33,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27415,8 +27415,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
-              "atendidosFora": 3,
-              "pendentes": 5,
+              "atendidosFora": 4,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 85534,
@@ -27447,8 +27447,8 @@
                   "cliente": "ASSOCIAÇÃO COMERCIAL INDUSTRIAL E SERVIÇOS DE EMBU ",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85525,
@@ -30475,8 +30475,8 @@
           "categorias": [
             {
               "nome": "Ata de Reunião",
-              "atendidosDentro": 6,
-              "atendidosFora": 3,
+              "atendidosDentro": 4,
+              "atendidosFora": 5,
               "pendentes": 0,
               "chamados": [
                 {
@@ -30500,16 +30500,16 @@
                   "cliente": "JAROVALE SUPERMERCADO LTDA ",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": "2026-09-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84299,
                   "cliente": "SUPER MERCADO SANTA LUZIA LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-09-23",
-                  "dataEntrega": "2026-09-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83517,
@@ -31158,8 +31158,8 @@
         {
           "mes": "2026-10",
           "abertos": 39,
-          "atendidos": 28,
-          "pendentes": 11,
+          "atendidos": 30,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31244,8 +31244,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 1,
-              "atendidosFora": 3,
-              "pendentes": 3,
+              "atendidosFora": 5,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85002,
@@ -31260,8 +31260,8 @@
                   "cliente": "LASER ALL TRANSPORTES LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85077,
@@ -31292,8 +31292,8 @@
                   "cliente": "MONTE CARLO LAB SERVICOS ADMINISTRATIVOS E COMERCIO LTDA ",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85186,
@@ -36331,7 +36331,7 @@
                   "cliente": "DISTRIBUIDORA  AGRICOLA BALBINOT LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-08-03",
-                  "dataEntrega": "2026-09-09",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_fora"
                 }
               ]
@@ -47157,7 +47157,7 @@
                   "cliente": "MARINGÁ MANUTENÇÃO DE EQUIPAMENTOS LTDA",
                   "dataCadastro": "2026-09-03",
                   "prazo": "2026-09-07",
-                  "dataEntrega": "2026-10-19",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_fora"
                 }
               ]
@@ -49182,8 +49182,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 233,
-          "atendidos": 188,
+          "abertos": 234,
+          "atendidos": 189,
           "pendentes": 45,
           "categorias": [
             {
@@ -50070,7 +50070,7 @@
               "nome": "Parcelamento Estadual",
               "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84958,
@@ -50135,6 +50135,14 @@
                   "prazo": "2026-10-16",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85689,
+                  "cliente": "COMERCIO VAREJISTA DE MERCADORIAS 3M LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -50204,17 +50212,17 @@
             },
             {
               "nome": "Parcelamento RFB",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85681,
                   "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85615,
