@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 08:29",
+  "atualizado_em": "28/10/2026 09:34",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 267,
+          "abertos": 270,
           "atendidos": 261,
-          "pendentes": 6,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 182,
-              "atendidosFora": 76,
-              "pendentes": 6,
+              "atendidosDentro": 181,
+              "atendidosFora": 77,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84707,
@@ -23053,8 +23053,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-20",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85319,
@@ -23917,7 +23917,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-27",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23925,6 +23925,30 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85645,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85648,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85656,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -24039,7 +24063,7 @@
                 },
                 {
                   "id": 80108,
-                  "cliente": "AGGYO ADMINISTRAÇÃO DE BENS E PARTICIPAÇÕES S.A.",
+                  "cliente": "JSVE RENTAL ADMINISTRACAO DE BENS E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-06-16",
                   "prazo": "2026-06-18",
                   "dataEntrega": "2026-06-17",
@@ -24191,7 +24215,7 @@
               "chamados": [
                 {
                   "id": 81754,
-                  "cliente": "AGGYO ADMINISTRAÇÃO DE BENS E PARTICIPAÇÕES S.A.",
+                  "cliente": "JSVE RENTAL ADMINISTRACAO DE BENS E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-08-03",
                   "prazo": "2026-08-07",
                   "dataEntrega": "2026-08-03",
@@ -24479,7 +24503,7 @@
                 },
                 {
                   "id": 85469,
-                  "cliente": "AGGYO ADMINISTRAÇÃO DE BENS E PARTICIPAÇÕES S.A.",
+                  "cliente": "JSVE RENTAL ADMINISTRACAO DE BENS E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-26",
                   "dataEntrega": null,
@@ -27336,9 +27360,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 37,
+          "abertos": 47,
           "atendidos": 31,
-          "pendentes": 6,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27512,7 +27536,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 2,
               "atendidosFora": 3,
-              "pendentes": 0,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 85392,
@@ -27537,6 +27561,86 @@
                   "prazo": "2026-10-22",
                   "dataEntrega": "2026-10-23",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85657,
+                  "cliente": "ROMERO & CIA ADMINISTRACAO DE BENS PROPRIOS",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85654,
+                  "cliente": "DANESES HOLDING DE PARTICIPACOES LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85659,
+                  "cliente": "V8 INDUSTRIA E COMERCIO DE PRODUTOS ABRASIVOS LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85658,
+                  "cliente": "MB3 SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85649,
+                  "cliente": "DRAKKAR 1 INTERMEDIACAO DE NEGOCIOS LTDA (MATRIZ) ",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85650,
+                  "cliente": "DRAKKAR 1 INTERMEDIACAO DE NEGOCIOS LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85651,
+                  "cliente": "B. HOVE COMERCIO E INDUSTRIA DE PRODUTOS ABRASIVOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85652,
+                  "cliente": "B. HOVE COMERCIO E INDUSTRIA DE PRODUTOS ABRASIVOS LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85653,
+                  "cliente": "CEO7 - SERVICOS DE MARKETING E APOIO ADMINISTRATIVO LTDA  ",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85655,
+                  "cliente": "ODOMED - COMERCIO DE IMPORTACAO E EXPORTACAO DE PRODUTOS DA SAUDE LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85379,
@@ -34759,9 +34863,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 25,
+          "abertos": 26,
           "atendidos": 9,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -34927,13 +35031,21 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85528,
                   "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85647,
+                  "cliente": "METALTEC SERVICOS E INSTALACOES INDUSTRIAIS LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -46306,7 +46418,7 @@
                 },
                 {
                   "id": 83702,
-                  "cliente": "AGGYO ADMINISTRAÇÃO DE BENS E PARTICIPAÇÕES S.A.",
+                  "cliente": "JSVE RENTAL ADMINISTRACAO DE BENS E PARTICIPACOES S.A.",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-10",
                   "dataEntrega": "2026-10-26",
@@ -48950,9 +49062,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 225,
+          "abertos": 226,
           "atendidos": 173,
-          "pendentes": 52,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49606,11 +49718,19 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 2,
               "atendidosFora": 5,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85643,
                   "cliente": "WILSON FOTO E VIDEO PRODUCOES LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85644,
+                  "cliente": "JMM CARRASCOSA SOLUÇÕES EMPRESARIAIS LTDA ",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
                   "dataEntrega": null,
