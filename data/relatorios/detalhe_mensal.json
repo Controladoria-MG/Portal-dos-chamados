@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 12:15",
+  "atualizado_em": "28/10/2026 12:24",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -40568,7 +40568,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-13",
                   "prazo": "2026-10-14",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_fora"
                 },
                 {
@@ -49151,14 +49151,14 @@
         {
           "mes": "2026-10",
           "abertos": 226,
-          "atendidos": 178,
-          "pendentes": 48,
+          "atendidos": 181,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 1,
-              "pendentes": 5,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 85294,
@@ -49197,8 +49197,8 @@
                   "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-11-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84861,
@@ -49228,9 +49228,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 10,
+              "atendidosDentro": 11,
               "atendidosFora": 4,
-              "pendentes": 7,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84698,
@@ -49317,8 +49317,8 @@
                   "cliente": "BARATÃO SÃO LUCAS LTDA",
                   "dataCadastro": "2026-10-06",
                   "prazo": "2026-11-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85408,
@@ -49805,8 +49805,8 @@
             {
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 4,
-              "atendidosFora": 5,
-              "pendentes": 1,
+              "atendidosFora": 6,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85643,
@@ -49845,8 +49845,8 @@
                   "cliente": "VIANA & CIA LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84848,
@@ -50556,8 +50556,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 24,
-              "atendidosFora": 45,
+              "atendidosDentro": 23,
+              "atendidosFora": 46,
               "pendentes": 10,
               "chamados": [
                 {
@@ -51061,8 +51061,8 @@
                   "cliente": "NOSSA SENHORA DE FÁTIMA LTDA",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84758,
