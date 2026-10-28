@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 12:24",
+  "atualizado_em": "28/10/2026 13:14",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -24530,7 +24530,7 @@
                   "cliente": "ARZINDA ADMINISTRAÇÃO E PARTICIPAÇÃO S.A.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-27",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_fora"
                 },
                 {
@@ -24554,7 +24554,7 @@
                   "cliente": "CLV3 EMPREENDIMENTOS E PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-27",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_fora"
                 }
               ]
@@ -27369,8 +27369,8 @@
         {
           "mes": "2026-10",
           "abertos": 48,
-          "atendidos": 31,
-          "pendentes": 17,
+          "atendidos": 32,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27510,17 +27510,17 @@
             },
             {
               "nome": "Conciliação de Contas",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85661,
                   "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85330,
