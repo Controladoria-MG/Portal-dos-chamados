@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 14:05",
+  "atualizado_em": "28/10/2026 14:58",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 155,
-              "atendidosFora": 126,
+              "atendidosDentro": 154,
+              "atendidosFora": 127,
               "pendentes": 1,
               "chamados": [
                 {
@@ -20277,8 +20277,8 @@
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-09-11",
                   "prazo": "2026-09-14",
-                  "dataEntrega": "2026-09-11",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83858,
@@ -21812,8 +21812,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 188,
-              "atendidosFora": 77,
+              "atendidosDentro": 187,
+              "atendidosFora": 78,
               "pendentes": 7,
               "chamados": [
                 {
@@ -22613,8 +22613,8 @@
                   "cliente": "REPUME REPUXAÇÃO E METALÚRGICA LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85195,
@@ -49158,9 +49158,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 226,
-          "atendidos": 181,
-          "pendentes": 45,
+          "abertos": 228,
+          "atendidos": 184,
+          "pendentes": 44,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49636,9 +49636,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 5,
+              "atendidosDentro": 7,
               "atendidosFora": 5,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85585,
@@ -49733,16 +49733,16 @@
                   "cliente": "HEORA PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85634,
                   "cliente": "SPES MV HOLDING LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -50342,7 +50342,7 @@
               "nome": "Regularização",
               "atendidosDentro": 9,
               "atendidosFora": 5,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84911,
@@ -50383,6 +50383,14 @@
                   "prazo": "2026-10-27",
                   "dataEntrega": "2026-10-22",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85679,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85196,
@@ -50477,8 +50485,8 @@
             {
               "nome": "Regularização de Débitos",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 2,
+              "atendidosFora": 4,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85256,
@@ -50509,8 +50517,8 @@
                   "cliente": "PRISTELA PIZZARIA LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84731,
@@ -50566,7 +50574,7 @@
               "nome": "Senha",
               "atendidosDentro": 23,
               "atendidosFora": 46,
-              "pendentes": 10,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84703,
@@ -50807,6 +50815,14 @@
                   "prazo": "2026-11-03",
                   "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85678,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84752,
