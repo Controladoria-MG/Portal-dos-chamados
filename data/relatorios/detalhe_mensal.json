@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 13:14",
+  "atualizado_em": "28/10/2026 13:42",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 274,
+          "abertos": 275,
           "atendidos": 268,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 188,
               "atendidosFora": 77,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84707,
@@ -23981,6 +23981,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85677,
+                  "cliente": "MARCUS ALBERTO CARLINI LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -42751,8 +42759,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 399,
-          "pendentes": 19,
+          "atendidos": 400,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42813,8 +42821,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 19,
-              "pendentes": 3,
+              "atendidosFora": 20,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81838,
@@ -42949,8 +42957,8 @@
                   "cliente": "UNIFORTE DO BRASIL COMÉRCIO ATACADISTA DE EMBALAGENS LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-08-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83259,
