@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 09:34",
+  "atualizado_em": "28/10/2026 10:18",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 270,
+          "abertos": 272,
           "atendidos": 261,
-          "pendentes": 9,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 181,
               "atendidosFora": 77,
-              "pendentes": 9,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84707,
@@ -23947,6 +23947,22 @@
                 {
                   "id": 85656,
                   "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85662,
+                  "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85663,
+                  "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
                   "dataEntrega": null,
@@ -27360,9 +27376,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 47,
+          "abertos": 48,
           "atendidos": 31,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27504,8 +27520,16 @@
               "nome": "Conciliação de Contas",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85661,
+                  "cliente": "ALUFENIX INDUSTRIA E COMERCIO DE METAIS LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-28",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85330,
                   "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
@@ -34863,9 +34887,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 26,
+          "abertos": 28,
           "atendidos": 9,
-          "pendentes": 17,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -35055,8 +35079,16 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85666,
+                  "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85161,
                   "cliente": "Parafutrecos Comercial LTDA ",
@@ -35103,13 +35135,21 @@
               "nome": "SPED",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85458,
                   "cliente": "BANDEIRANTES REFRIGERAÇÃO COMERCIAL LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85664,
+                  "cliente": "PRISTELA PIZZARIA LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -36165,8 +36205,8 @@
         {
           "mes": "2026-07",
           "abertos": 20,
-          "atendidos": 18,
-          "pendentes": 2,
+          "atendidos": 19,
+          "pendentes": 1,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -36187,8 +36227,8 @@
             {
               "nome": "Autorregularização",
               "atendidosDentro": 1,
-              "atendidosFora": 5,
-              "pendentes": 1,
+              "atendidosFora": 6,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 80985,
@@ -36235,8 +36275,8 @@
                   "cliente": "ITALO BRASILEIRA AGRO COMERCIAL LTDA",
                   "dataCadastro": "2026-07-06",
                   "prazo": "2026-08-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 80765,
@@ -49581,7 +49621,7 @@
                   "cliente": "CLINICA SAUDE & VIDA LTDA ",
                   "dataCadastro": "2026-10-09",
                   "prazo": "2026-10-12",
-                  "dataEntrega": "2026-10-23",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_fora"
                 },
                 {
@@ -50061,8 +50101,8 @@
             {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 4,
-              "atendidosFora": 1,
-              "pendentes": 2,
+              "atendidosFora": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85615,
@@ -50093,8 +50133,8 @@
                   "cliente": "V. J. ALMEIDA ADMINISTRAÇÃO DE BENS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84801,
@@ -50380,9 +50420,9 @@
             },
             {
               "nome": "Regularização de Débitos",
-              "atendidosDentro": 1,
+              "atendidosDentro": 0,
               "atendidosFora": 3,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85256,
@@ -50413,8 +50453,8 @@
                   "cliente": "PRISTELA PIZZARIA LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": "2026-10-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84731,
