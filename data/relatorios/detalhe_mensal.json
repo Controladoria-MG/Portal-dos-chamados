@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 14:58",
+  "atualizado_em": "28/10/2026 15:38",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 275,
-          "atendidos": 268,
-          "pendentes": 7,
+          "atendidos": 270,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 187,
-              "atendidosFora": 78,
-              "pendentes": 7,
+              "atendidosDentro": 188,
+              "atendidosFora": 79,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 84707,
@@ -23781,8 +23781,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": "2026-10-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85594,
@@ -23981,16 +23981,16 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85677,
                   "cliente": "MARCUS ALBERTO CARLINI LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -37132,9 +37132,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 21,
+          "abertos": 22,
           "atendidos": 14,
-          "pendentes": 7,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37292,8 +37292,16 @@
               "nome": "SPED",
               "atendidosDentro": 1,
               "atendidosFora": 4,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85682,
+                  "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA  (MATRIZ)",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84900,
                   "cliente": "CUCINARE PRO ALIMENTAÇÃO LTDA (F10)",
@@ -40306,8 +40314,8 @@
         {
           "mes": "2026-10",
           "abertos": 75,
-          "atendidos": 16,
-          "pendentes": 59,
+          "atendidos": 17,
+          "pendentes": 58,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -40448,8 +40456,8 @@
             {
               "nome": "Certificado",
               "atendidosDentro": 1,
-              "atendidosFora": 14,
-              "pendentes": 13,
+              "atendidosFora": 15,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 84708,
@@ -40592,8 +40600,8 @@
                   "cliente": "MERCADAO NATURAL LTDA",
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85177,
@@ -46351,8 +46359,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 305,
-          "pendentes": 14,
+          "atendidos": 306,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -48157,8 +48165,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 32,
-              "atendidosFora": 87,
-              "pendentes": 5,
+              "atendidosFora": 88,
+              "pendentes": 4,
               "chamados": [
                 {
                   "id": 83368,
@@ -49125,8 +49133,8 @@
                   "cliente": "TEC GRUA SERVICO DE OPERACAO PARA CONSTRUCAO LTDA",
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84625,
@@ -49158,15 +49166,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 228,
+          "abertos": 231,
           "atendidos": 184,
-          "pendentes": 44,
+          "pendentes": 47,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 3,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 85294,
@@ -49205,8 +49213,8 @@
                   "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-11-13",
-                  "dataEntrega": "2026-10-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84861,
@@ -49638,7 +49646,7 @@
               "nome": "Certidão",
               "atendidosDentro": 7,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85585,
@@ -49647,6 +49655,14 @@
                   "prazo": "2026-10-27",
                   "dataEntrega": "2026-10-27",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85680,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85029,
@@ -50157,9 +50173,17 @@
             {
               "nome": "Parcelamento RFB",
               "atendidosDentro": 4,
-              "atendidosFora": 2,
+              "atendidosFora": 3,
               "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85681,
+                  "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85615,
                   "cliente": "PS3 INSTALACOES E MONTAGENS LTDA ",
@@ -50173,8 +50197,8 @@
                   "cliente": "A & BNK FACILITIES LTDA",
                   "dataCadastro": "2026-10-08",
                   "prazo": "2026-10-14",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85323,
@@ -50318,7 +50342,7 @@
               "nome": "Procuração",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85064,
@@ -50327,6 +50351,14 @@
                   "prazo": "2026-10-15",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85683,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85234,
@@ -50340,9 +50372,9 @@
             },
             {
               "nome": "Regularização",
-              "atendidosDentro": 9,
+              "atendidosDentro": 10,
               "atendidosFora": 5,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84911,
@@ -50389,8 +50421,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85196,
@@ -50573,8 +50605,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 23,
-              "atendidosFora": 46,
-              "pendentes": 11,
+              "atendidosFora": 45,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 84703,
@@ -50629,8 +50661,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-23",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84922,
