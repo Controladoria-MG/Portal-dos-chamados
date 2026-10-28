@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 11:36",
+  "atualizado_em": "28/10/2026 12:15",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 273,
-          "atendidos": 264,
-          "pendentes": 9,
+          "abertos": 274,
+          "atendidos": 268,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 184,
+              "atendidosDentro": 188,
               "atendidosFora": 77,
-              "pendentes": 9,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -23845,7 +23845,7 @@
                   "cliente": "C A R MINIMERCADO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": "2026-10-27",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23853,7 +23853,7 @@
                   "cliente": "R C A MINIMERCADO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": "2026-10-27",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23861,7 +23861,7 @@
                   "cliente": "A R C MINIMERCADO E SERVIÇOS LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": "2026-10-27",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23877,7 +23877,7 @@
                   "cliente": "EMPORIO CASA LUSITANA COMERCIAL LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": "2026-10-27",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23885,7 +23885,7 @@
                   "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": "2026-10-27",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
                 },
                 {
@@ -23949,27 +23949,35 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85662,
                   "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85663,
                   "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85669,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85675,
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
@@ -40289,9 +40297,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 73,
+          "abertos": 75,
           "atendidos": 16,
-          "pendentes": 57,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -40433,7 +40441,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 14,
-              "pendentes": 11,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84708,
@@ -40640,6 +40648,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85673,
+                  "cliente": "SOLANGE MARIA PRADO SANTOS COSTA ",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85676,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -49127,8 +49151,8 @@
         {
           "mes": "2026-10",
           "abertos": 226,
-          "atendidos": 177,
-          "pendentes": 49,
+          "atendidos": 178,
+          "pendentes": 48,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49204,9 +49228,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 9,
+              "atendidosDentro": 10,
               "atendidosFora": 4,
-              "pendentes": 8,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84698,
@@ -49365,8 +49389,8 @@
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-11-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85017,
@@ -49404,9 +49428,9 @@
             },
             {
               "nome": "Ata de Reunião de Sócios",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84742,
@@ -49429,8 +49453,8 @@
                   "cliente": "OLANA ADMINISTRAÇÃO E PARTICIPAÇÕES S.A.",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -49604,9 +49628,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 7,
+              "atendidosDentro": 5,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85585,
@@ -49701,16 +49725,16 @@
                   "cliente": "HEORA PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": "2026-10-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85634,
                   "cliente": "SPES MV HOLDING LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": "2026-10-28",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -50532,9 +50556,9 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 23,
+              "atendidosDentro": 24,
               "atendidosFora": 45,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84703,
@@ -50773,8 +50797,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-03",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84752,
