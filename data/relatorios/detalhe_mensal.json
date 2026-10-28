@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 16:23",
+  "atualizado_em": "28/10/2026 17:08",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 275,
+          "abertos": 276,
           "atendidos": 270,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 187,
               "atendidosFora": 80,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -23991,6 +23991,14 @@
                   "prazo": "2026-10-30",
                   "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85688,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-11-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27376,9 +27384,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 48,
+          "abertos": 49,
           "atendidos": 32,
-          "pendentes": 16,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27408,7 +27416,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 85534,
@@ -27481,6 +27489,14 @@
                   "prazo": "2026-10-26",
                   "dataEntrega": "2026-10-26",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85687,
+                  "cliente": "PRIMO & SANTOS LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 84939,
@@ -49166,9 +49182,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 232,
+          "abertos": 233,
           "atendidos": 188,
-          "pendentes": 44,
+          "pendentes": 45,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -50151,6 +50167,22 @@
                   "prazo": "2026-10-19",
                   "dataEntrega": "2026-10-23",
                   "status": "atendido_fora"
+                }
+              ]
+            },
+            {
+              "nome": "Parcelamento PGFN",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85686,
+                  "cliente": "RAMIRO EQUIPAMENTOS GASTRONOMICOS LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
