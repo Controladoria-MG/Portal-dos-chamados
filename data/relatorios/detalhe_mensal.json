@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 15:38",
+  "atualizado_em": "28/10/2026 16:23",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21812,8 +21812,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 188,
-              "atendidosFora": 79,
+              "atendidosDentro": 187,
+              "atendidosFora": 80,
               "pendentes": 5,
               "chamados": [
                 {
@@ -23509,8 +23509,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85500,
@@ -46359,8 +46359,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 306,
-          "pendentes": 13,
+          "atendidos": 308,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -47901,8 +47901,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 3,
-              "atendidosFora": 13,
-              "pendentes": 3,
+              "atendidosFora": 14,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 83526,
@@ -47973,8 +47973,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83582,
@@ -48165,8 +48165,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 32,
-              "atendidosFora": 88,
-              "pendentes": 4,
+              "atendidosFora": 89,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 83368,
@@ -48381,8 +48381,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-30",
                   "prazo": "2026-10-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84651,
@@ -49166,9 +49166,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 231,
-          "atendidos": 184,
-          "pendentes": 47,
+          "abertos": 232,
+          "atendidos": 188,
+          "pendentes": 44,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -50052,9 +50052,9 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 3,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84958,
@@ -50085,8 +50085,8 @@
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85603,
@@ -50373,8 +50373,8 @@
             {
               "nome": "Regularização",
               "atendidosDentro": 10,
-              "atendidosFora": 5,
-              "pendentes": 2,
+              "atendidosFora": 7,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84911,
@@ -50453,16 +50453,16 @@
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85249,
                   "cliente": "PEREGRINUS COMERCIO VAREJISTA ARTIGOS ELETRONICOS LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84888,
@@ -50566,8 +50566,16 @@
               "nome": "Restituição",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85685,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85079,
                   "cliente": "SUPERMERCADO ALVORADA IRMÃOS SILVEIRA LTDA",
@@ -50605,8 +50613,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 23,
-              "atendidosFora": 45,
-              "pendentes": 12,
+              "atendidosFora": 46,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84703,
@@ -50661,8 +50669,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-07",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84922,
