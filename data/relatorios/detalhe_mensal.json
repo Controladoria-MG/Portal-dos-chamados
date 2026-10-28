@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/10/2026 10:18",
+  "atualizado_em": "28/10/2026 11:36",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -10156,8 +10156,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 96,
-              "atendidosFora": 167,
+              "atendidosDentro": 95,
+              "atendidosFora": 168,
               "pendentes": 0,
               "chamados": [
                 {
@@ -11021,8 +11021,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-05-14",
                   "prazo": "2026-05-15",
-                  "dataEntrega": "2026-05-14",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79237,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 272,
-          "atendidos": 261,
-          "pendentes": 11,
+          "abertos": 273,
+          "atendidos": 264,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 181,
+              "atendidosDentro": 184,
               "atendidosFora": 77,
-              "pendentes": 11,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84707,
@@ -23925,24 +23925,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85645,
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85648,
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85656,
@@ -23965,6 +23965,14 @@
                   "cliente": "RAPTOR GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85669,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -26848,9 +26856,9 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 54,
+          "abertos": 52,
           "atendidos": 52,
-          "pendentes": 2,
+          "pendentes": 0,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27257,30 +27265,6 @@
                   "prazo": "2026-09-24",
                   "dataEntrega": "2026-09-24",
                   "status": "atendido_dentro"
-                }
-              ]
-            },
-            {
-              "nome": "Levantamento Divergências",
-              "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
-              "chamados": [
-                {
-                  "id": 83696,
-                  "cliente": "DISTRIBUIDOR DE MORANGOS LTDA",
-                  "dataCadastro": "2026-09-09",
-                  "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 83697,
-                  "cliente": "SWEET BERRY COMERCIO DE FRUTAS LTDA",
-                  "dataCadastro": "2026-09-09",
-                  "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 }
               ]
             },
@@ -31141,9 +31125,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 38,
+          "abertos": 39,
           "atendidos": 28,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31517,7 +31501,7 @@
               "nome": "Verificação Lançamentos Contábeis",
               "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84783,
@@ -31526,6 +31510,14 @@
                   "prazo": "2026-10-07",
                   "dataEntrega": "2026-10-14",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85670,
+                  "cliente": "Centro de Distribuição de Alimentos Penha Eireli",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85377,
@@ -32282,8 +32274,8 @@
         },
         {
           "mes": "2026-09",
-          "abertos": 13,
-          "atendidos": 10,
+          "abertos": 15,
+          "atendidos": 12,
           "pendentes": 3,
           "categorias": [
             {
@@ -32369,7 +32361,7 @@
             {
               "nome": "Levantamento Divergências",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
+              "atendidosFora": 2,
               "pendentes": 1,
               "chamados": [
                 {
@@ -32379,6 +32371,22 @@
                   "prazo": "2026-09-08",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 83696,
+                  "cliente": "DISTRIBUIDOR DE MORANGOS LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 83697,
+                  "cliente": "SWEET BERRY COMERCIO DE FRUTAS LTDA",
+                  "dataCadastro": "2026-09-09",
+                  "prazo": "2026-09-11",
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -32442,9 +32450,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 12,
+          "abertos": 13,
           "atendidos": 7,
-          "pendentes": 5,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32498,8 +32506,16 @@
               "nome": "Documentação",
               "atendidosDentro": 1,
               "atendidosFora": 3,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85668,
+                  "cliente": "VARANDA FRUTAS E MERCEARIA LTDA ",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-11-11",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 84790,
                   "cliente": "UNIFORTE DO BRASIL COMÉRCIO ATACADISTA DE EMBALAGENS LTDA",
@@ -37100,9 +37116,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 20,
+          "abertos": 21,
           "atendidos": 14,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37178,9 +37194,9 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 3,
-              "atendidosFora": 3,
-              "pendentes": 2,
+              "atendidosDentro": 2,
+              "atendidosFora": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85356,
@@ -37189,6 +37205,14 @@
                   "prazo": "2026-10-21",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85667,
+                  "cliente": "SUPERMERCADO SANTA MARIA LTDA",
+                  "dataCadastro": "2026-10-28",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85583,
@@ -37227,15 +37251,15 @@
                   "cliente": "DROGARIA MIX I LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-26",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85472,
                   "cliente": "DROGARIA MIX I LTDA (FILIAL 7)",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-26",
+                  "dataEntrega": "2026-10-28",
                   "status": "atendido_fora"
                 },
                 {
@@ -49103,8 +49127,8 @@
         {
           "mes": "2026-10",
           "abertos": 226,
-          "atendidos": 173,
-          "pendentes": 53,
+          "atendidos": 177,
+          "pendentes": 49,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49180,9 +49204,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 10,
+              "atendidosDentro": 9,
               "atendidosFora": 4,
-              "pendentes": 7,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84698,
@@ -49341,8 +49365,8 @@
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-10-15",
                   "prazo": "2026-11-12",
-                  "dataEntrega": "2026-10-26",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85017,
@@ -49580,9 +49604,9 @@
             },
             {
               "nome": "Certidão",
-              "atendidosDentro": 5,
+              "atendidosDentro": 7,
               "atendidosFora": 5,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85585,
@@ -49677,16 +49701,16 @@
                   "cliente": "HEORA PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85634,
                   "cliente": "SPES MV HOLDING LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -49756,25 +49780,25 @@
             },
             {
               "nome": "Levantamento de Débitos",
-              "atendidosDentro": 2,
+              "atendidosDentro": 4,
               "atendidosFora": 5,
-              "pendentes": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85643,
                   "cliente": "WILSON FOTO E VIDEO PRODUCOES LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85644,
                   "cliente": "JMM CARRASCOSA SOLUÇÕES EMPRESARIAIS LTDA ",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85028,
@@ -49980,9 +50004,9 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 1,
+              "atendidosDentro": 2,
               "atendidosFora": 3,
-              "pendentes": 4,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84958,
@@ -50005,8 +50029,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-28",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85570,
