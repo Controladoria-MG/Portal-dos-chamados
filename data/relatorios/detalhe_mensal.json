@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 09:20",
+  "atualizado_em": "29/10/2026 10:06",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 279,
+          "abertos": 282,
           "atendidos": 270,
-          "pendentes": 9,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 187,
-              "atendidosFora": 80,
-              "pendentes": 9,
+              "atendidosDentro": 186,
+              "atendidosFora": 81,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 84707,
@@ -23477,8 +23477,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-26",
-                  "dataEntrega": "2026-10-22",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85474,
@@ -24023,6 +24023,30 @@
                   "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 85702,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85704,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85707,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -24531,15 +24555,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 6,
+          "abertos": 7,
           "atendidos": 4,
-          "pendentes": 2,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Documentação Contábil",
               "atendidosDentro": 0,
               "atendidosFora": 2,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85027,
@@ -24556,6 +24580,14 @@
                   "prazo": "2026-10-12",
                   "dataEntrega": "2026-10-16",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85700,
+                  "cliente": "DANESES HOLDING DE PARTICIPACOES LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27408,9 +27440,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 50,
+          "abertos": 49,
           "atendidos": 41,
-          "pendentes": 9,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27608,7 +27640,7 @@
               "nome": "Documentação Contábil",
               "atendidosDentro": 10,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85392,
@@ -27639,23 +27671,15 @@
                   "cliente": "ROMERO & CIA ADMINISTRACAO DE BENS PROPRIOS",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
-                },
-                {
-                  "id": 85654,
-                  "cliente": "DANESES HOLDING DE PARTICIPACOES LTDA",
-                  "dataCadastro": "2026-10-28",
-                  "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
                 },
                 {
                   "id": 85659,
                   "cliente": "V8 INDUSTRIA E COMERCIO DE PRODUTOS ABRASIVOS LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -27663,7 +27687,7 @@
                   "cliente": "MB3 SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -27679,7 +27703,7 @@
                   "cliente": "DRAKKAR 1 INTERMEDIACAO DE NEGOCIOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -27687,7 +27711,7 @@
                   "cliente": "B. HOVE COMERCIO E INDUSTRIA DE PRODUTOS ABRASIVOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -27695,7 +27719,7 @@
                   "cliente": "B. HOVE COMERCIO E INDUSTRIA DE PRODUTOS ABRASIVOS LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -27703,7 +27727,7 @@
                   "cliente": "CEO7 - SERVICOS DE MARKETING E APOIO ADMINISTRATIVO LTDA  ",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -27711,7 +27735,7 @@
                   "cliente": "ODOMED - COMERCIO DE IMPORTACAO E EXPORTACAO DE PRODUTOS DA SAUDE LTDA",
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -40369,9 +40393,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 75,
+          "abertos": 77,
           "atendidos": 18,
-          "pendentes": 57,
+          "pendentes": 59,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -40513,7 +40537,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 16,
-              "pendentes": 11,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84708,
@@ -40736,6 +40760,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85703,
+                  "cliente": "PIRANA SERVIÇOS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85705,
+                  "cliente": "DE PAOLA GELATO LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -49222,15 +49262,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 234,
-          "atendidos": 194,
-          "pendentes": 40,
+          "abertos": 239,
+          "atendidos": 192,
+          "pendentes": 47,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
-              "atendidosDentro": 3,
+              "atendidosDentro": 2,
               "atendidosFora": 1,
-              "pendentes": 4,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 85294,
@@ -49293,8 +49333,8 @@
                   "cliente": "T W ALCANTARA ATACAREJO LTDA ",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-11-19",
-                  "dataEntrega": "2026-10-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -49302,7 +49342,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
               "atendidosFora": 4,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84698,
@@ -49397,6 +49437,14 @@
                   "cliente": "RC MINIMERCADO E SERVICOS LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85701,
+                  "cliente": "NRL COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -49622,7 +49670,7 @@
               "nome": "Cadastro de Cliente",
               "atendidosDentro": 2,
               "atendidosFora": 5,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85018,
@@ -49679,6 +49727,22 @@
                   "prazo": "2026-10-14",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85708,
+                  "cliente": "HEPA FILTROS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85709,
+                  "cliente": "INDEP INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85509,
@@ -50348,9 +50412,9 @@
             },
             {
               "nome": "Processo de Prefeitura",
-              "atendidosDentro": 4,
+              "atendidosDentro": 3,
               "atendidosFora": 2,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84704,
@@ -50405,8 +50469,8 @@
                   "cliente": "ALINE SIQUEIRA DE VILHENA SANTOS FREITAS GUIMARAIS FERREIRA ",
                   "dataCadastro": "2026-10-19",
                   "prazo": "2026-10-23",
-                  "dataEntrega": "2026-10-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -50430,7 +50494,7 @@
               "nome": "Procuração",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85064,
@@ -50439,6 +50503,22 @@
                   "prazo": "2026-10-15",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85710,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85711,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85234,
