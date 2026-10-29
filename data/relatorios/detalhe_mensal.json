@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 10:06",
+  "atualizado_em": "29/10/2026 10:32",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 282,
-          "atendidos": 270,
-          "pendentes": 12,
+          "atendidos": 274,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 186,
+              "atendidosDentro": 190,
               "atendidosFora": 81,
-              "pendentes": 12,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84707,
@@ -24005,24 +24005,24 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85691,
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85694,
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85702,
@@ -24045,8 +24045,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -38418,8 +38418,8 @@
         {
           "mes": "2026-08",
           "abertos": 81,
-          "atendidos": 48,
-          "pendentes": 33,
+          "atendidos": 49,
+          "pendentes": 32,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -38816,8 +38816,8 @@
             {
               "nome": "Procurações DP",
               "atendidosDentro": 0,
-              "atendidosFora": 20,
-              "pendentes": 2,
+              "atendidosFora": 21,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 82242,
@@ -38856,8 +38856,8 @@
                   "cliente": "ALDENIR VENANCIO DE OLIVEIRA LTDA",
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82747,
@@ -49262,9 +49262,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 239,
+          "abertos": 240,
           "atendidos": 192,
-          "pendentes": 47,
+          "pendentes": 48,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -50534,7 +50534,7 @@
               "nome": "Regularização",
               "atendidosDentro": 10,
               "atendidosFora": 7,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84911,
@@ -50583,6 +50583,14 @@
                   "prazo": "2026-10-30",
                   "dataEntrega": "2026-10-28",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85714,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85196,
