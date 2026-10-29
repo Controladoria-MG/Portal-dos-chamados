@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 17:04",
+  "atualizado_em": "29/10/2026 17:53",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 292,
-          "atendidos": 283,
-          "pendentes": 9,
+          "abertos": 294,
+          "atendidos": 288,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 192,
+              "atendidosDentro": 197,
               "atendidosFora": 88,
-              "pendentes": 9,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -24109,24 +24109,40 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85764,
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85768,
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85781,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85782,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -35120,8 +35136,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 14,
-          "pendentes": 15,
+          "atendidos": 15,
+          "pendentes": 14,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -35397,9 +35413,9 @@
             },
             {
               "nome": "Saldo Credor Incorreto",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 2,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85590,
@@ -35430,8 +35446,8 @@
                   "cliente": "ANDERSON JULIO FERNANDES",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 84866,
@@ -37332,9 +37348,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 19,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37548,8 +37564,16 @@
               "nome": "Solicitação de documentação",
               "atendidosDentro": 1,
               "atendidosFora": 0,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85789,
+                  "cliente": "MERCADINHO BARCELONA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-04",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85587,
                   "cliente": "SOLAR INVESTIMENTOS LTDA",
@@ -40521,9 +40545,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 83,
+          "abertos": 88,
           "atendidos": 18,
-          "pendentes": 65,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -40969,7 +40993,7 @@
               "nome": "Procurações DP",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 15,
+              "pendentes": 20,
               "chamados": [
                 {
                   "id": 84693,
@@ -41094,6 +41118,46 @@
                 {
                   "id": 85770,
                   "cliente": "DE TOMMASO DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85774,
+                  "cliente": "GIGANTAO SUPERMERCADOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85775,
+                  "cliente": "GJ RODRIGUES LOCACAO DE BENS MOVEIS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85776,
+                  "cliente": "VALET RODRIGUES LOCACAO DE BENS MOVEIS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85777,
+                  "cliente": "MULTIEMPRESAS PARTICIPACOES E EMPREENDIMENTOS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85778,
+                  "cliente": "SUPERMAX ASSESSORIA EM GESTAO EMPRESARIAL LTDA",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
                   "dataEntrega": null,
@@ -43039,8 +43103,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 400,
-          "pendentes": 18,
+          "atendidos": 401,
+          "pendentes": 17,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -43101,8 +43165,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 20,
-              "pendentes": 2,
+              "atendidosFora": 21,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 81838,
@@ -43269,8 +43333,8 @@
                   "cliente": "TSN TECHNICAL SERVICE NETWORK LTDA",
                   "dataCadastro": "2026-08-24",
                   "prazo": "2026-09-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83168,
@@ -46631,8 +46695,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 308,
-          "pendentes": 11,
+          "atendidos": 309,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46741,8 +46805,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
-              "atendidosFora": 17,
-              "pendentes": 3,
+              "atendidosFora": 18,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 84372,
@@ -46773,8 +46837,8 @@
                   "cliente": "CHAVEIRO MULTIPLIC LTDA ",
                   "dataCadastro": "2026-09-21",
                   "prazo": "2026-09-24",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83518,
@@ -49438,9 +49502,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 266,
-          "atendidos": 193,
-          "pendentes": 73,
+          "abertos": 271,
+          "atendidos": 194,
+          "pendentes": 77,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49798,13 +49862,53 @@
               "nome": "Auditoria",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 11,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 85492,
                   "cliente": "LOGUS ABC SERVICOS ADMINISTRATIVOS LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85783,
+                  "cliente": "GIGANTAO SUPERMERCADOS LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85784,
+                  "cliente": "GIGANTAO SUPERMERCADOS LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85785,
+                  "cliente": "GIGANTAO SUPERMERCADOS LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85786,
+                  "cliente": "GIGANTAO SUPERMERCADOS LTDA (FILIAL 4)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85790,
+                  "cliente": "GJ RODRIGUES LOCACAO DE BENS MOVEIS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -50412,9 +50516,9 @@
             },
             {
               "nome": "Parcelamento Estadual",
-              "atendidosDentro": 4,
+              "atendidosDentro": 5,
               "atendidosFora": 3,
-              "pendentes": 2,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84958,
@@ -50453,8 +50557,8 @@
                   "cliente": "G13 IMPORTACAO E EXPORTACAO LTDA",
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-29",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85059,
@@ -56231,15 +56335,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 71,
+          "abertos": 73,
           "atendidos": 6,
-          "pendentes": 65,
+          "pendentes": 67,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 58,
+              "pendentes": 60,
               "chamados": [
                 {
                   "id": 84697,
@@ -56734,6 +56838,22 @@
                   "cliente": "RESTAURANTE PICANHA DO ZE LTDA ",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85779,
+                  "cliente": "ENTREGA RIO ATACADISTA UNIPESSOAL LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85780,
+                  "cliente": "MARJ - MERCADOS ASSOCIADOS DO ESTADO DO RIO DE JANEIRO",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-13",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
