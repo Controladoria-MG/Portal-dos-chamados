@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 15:35",
+  "atualizado_em": "29/10/2026 16:01",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 287,
+          "abertos": 288,
           "atendidos": 279,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 190,
               "atendidosFora": 86,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84707,
@@ -24087,6 +24087,14 @@
                   "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
+                },
+                {
+                  "id": 85743,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -24595,9 +24603,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 8,
+          "abertos": 9,
           "atendidos": 4,
-          "pendentes": 4,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Documentação Contábil",
@@ -24635,8 +24643,16 @@
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 0,
               "atendidosFora": 0,
-              "pendentes": 1,
+              "pendentes": 2,
               "chamados": [
+                {
+                  "id": 85751,
+                  "cliente": "RMDVPAR ADMINISTRAÇÃO E PARTICIPÇÕES LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85734,
                   "cliente": "T.T.S PATRIMONIAL LTDA",
@@ -35064,8 +35080,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 10,
-          "pendentes": 19,
+          "atendidos": 14,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -35182,16 +35198,16 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 1,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85475,
                   "cliente": "RMDVPAR ADMINISTRAÇÃO E PARTICIPÇÕES LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85343,
@@ -35214,32 +35230,32 @@
             {
               "nome": "PER/DCOMP - Intimação/Comunicado",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85376,
                   "cliente": "LITOCOMP INDUSTRIA GRAFICA E EDITORA LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 }
               ]
             },
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85528,
                   "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85647,
@@ -35342,16 +35358,16 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 4,
+              "atendidosFora": 2,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85590,
                   "cliente": "ROBSON DE SOUSA LIMA COMERCIO DE ABRASIVOS",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85462,
@@ -37285,8 +37301,8 @@
         {
           "mes": "2026-10",
           "abertos": 23,
-          "atendidos": 15,
-          "pendentes": 8,
+          "atendidos": 16,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37371,8 +37387,8 @@
             {
               "nome": "Recálculo de Guia",
               "atendidosDentro": 2,
-              "atendidosFora": 4,
-              "pendentes": 3,
+              "atendidosFora": 5,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85356,
@@ -37395,8 +37411,8 @@
                   "cliente": "SUPERMERCADO PICCIN LIMITADA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85445,
@@ -49358,9 +49374,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 249,
+          "abertos": 262,
           "atendidos": 192,
-          "pendentes": 57,
+          "pendentes": 70,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49713,12 +49729,12 @@
               "pendentes": 8,
               "chamados": [
                 {
-                  "id": 84953,
-                  "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
-                  "dataCadastro": "2026-10-07",
-                  "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
+                  "id": 85492,
+                  "cliente": "LOGUS ABC SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-10-23",
+                  "prazo": "2026-10-27",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85490,
@@ -49737,10 +49753,18 @@
                   "status": "pendente"
                 },
                 {
-                  "id": 85492,
-                  "cliente": "LOGUS ABC SERVICOS ADMINISTRATIVOS LTDA",
-                  "dataCadastro": "2026-10-23",
-                  "prazo": "2026-10-27",
+                  "id": 84953,
+                  "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
+                },
+                {
+                  "id": 84950,
+                  "cliente": "DIMENSAO 3 LOG - TRANSPORTES & LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -49757,14 +49781,6 @@
                   "cliente": "ALFAMAX LOCADORA LTDA",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-12",
-                  "dataEntrega": null,
-                  "status": "pendente"
-                },
-                {
-                  "id": 84950,
-                  "cliente": "DIMENSAO 3 LOG - TRANSPORTES & LOGISTICA LTDA",
-                  "dataCadastro": "2026-10-07",
-                  "prazo": "2026-10-09",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -50902,7 +50918,7 @@
               "nome": "Senha",
               "atendidosDentro": 23,
               "atendidosFora": 46,
-              "pendentes": 17,
+              "pendentes": 30,
               "chamados": [
                 {
                   "id": 84703,
@@ -51569,6 +51585,62 @@
                   "status": "pendente"
                 },
                 {
+                  "id": 85744,
+                  "cliente": "KAREN CRISTINE PACHECO MARKETING & COMUNICACAO",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85745,
+                  "cliente": "ALFAMAX LOCADORA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85746,
+                  "cliente": "ALFAMAX LOCADORA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85747,
+                  "cliente": "ALFAMAX LOCADORA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85748,
+                  "cliente": "ALFAMAX LOCADORA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85749,
+                  "cliente": "DIMENSAO 3 LOG - TRANSPORTES & LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85750,
+                  "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 85075,
                   "cliente": "FCR SERVICO DE APOIO ADMINISTRATIVO LTDA",
                   "dataCadastro": "2026-10-13",
@@ -51585,12 +51657,60 @@
                   "status": "atendido_dentro"
                 },
                 {
+                  "id": 85752,
+                  "cliente": "HUGO DELEON L.R. CONFECCOES LTDA (FILIAL 1)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85753,
+                  "cliente": "HUGO DELEON L.R. CONFECCOES LTDA (FILIAL 2)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85754,
+                  "cliente": "HUGO DELEON L.R. CONFECCOES LTDA (FILIAL 3)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
                   "id": 85350,
                   "cliente": "HEORA PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-29",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85755,
+                  "cliente": "LIPPER GRAFICA CRIATIVA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85756,
+                  "cliente": "LOGUS GRAFICA E EDITORA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85757,
+                  "cliente": "LOGUS ABC SERVICOS ADMINISTRATIVOS LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             }
