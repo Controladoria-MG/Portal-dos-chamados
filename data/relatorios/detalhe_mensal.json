@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 11:26",
+  "atualizado_em": "29/10/2026 12:26",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -17124,8 +17124,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 157,
-              "atendidosFora": 138,
+              "atendidosDentro": 156,
+              "atendidosFora": 139,
               "pendentes": 0,
               "chamados": [
                 {
@@ -18733,8 +18733,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-20",
                   "prazo": "2026-08-21",
-                  "dataEntrega": "2026-08-20",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82738,
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 284,
-          "atendidos": 275,
-          "pendentes": 9,
+          "atendidos": 278,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 189,
-              "atendidosFora": 83,
-              "pendentes": 9,
+              "atendidosDentro": 190,
+              "atendidosFora": 85,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 84707,
@@ -22885,8 +22885,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85285,
@@ -23029,8 +23029,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": "2026-10-19",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85311,
@@ -24029,8 +24029,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85704,
@@ -24053,16 +24053,16 @@
                   "cliente": "SUPERMERCADO JAPÃO LTDA ",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85721,
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -32555,8 +32555,8 @@
         {
           "mes": "2026-10",
           "abertos": 15,
-          "atendidos": 8,
-          "pendentes": 7,
+          "atendidos": 9,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -32697,16 +32697,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 1,
+              "atendidosFora": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85291,
                   "cliente": "MERCADO, PADARIA ACOUGUE E RESTAURANTE OLIMPIA LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-19",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -40417,9 +40417,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 79,
+          "abertos": 80,
           "atendidos": 18,
-          "pendentes": 61,
+          "pendentes": 62,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -40561,7 +40561,7 @@
               "nome": "Certificado",
               "atendidosDentro": 1,
               "atendidosFora": 16,
-              "pendentes": 15,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 84708,
@@ -40814,6 +40814,14 @@
                 {
                   "id": 85720,
                   "cliente": "Jotapege Servicos Administrativos LTDA ",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85727,
+                  "cliente": "CHURRASCO DA VILA RESTAURANTE LTDA",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
                   "dataEntrega": null,
@@ -42132,8 +42140,8 @@
             },
             {
               "nome": "Processo de Prefeitura",
-              "atendidosDentro": 1,
-              "atendidosFora": 4,
+              "atendidosDentro": 0,
+              "atendidosFora": 5,
               "pendentes": 0,
               "chamados": [
                 {
@@ -42141,8 +42149,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-07-30",
                   "prazo": "2026-07-31",
-                  "dataEntrega": "2026-07-31",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81669,
@@ -42903,8 +42911,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 399,
-          "pendentes": 19,
+          "atendidos": 400,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42965,8 +42973,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 19,
-              "pendentes": 3,
+              "atendidosFora": 20,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81838,
@@ -43157,8 +43165,8 @@
                   "cliente": "ALCANTARA LOGÍSTICA E TRANSPORTE LTDA",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81738,
@@ -44988,8 +44996,8 @@
             },
             {
               "nome": "Senha",
-              "atendidosDentro": 40,
-              "atendidosFora": 145,
+              "atendidosDentro": 39,
+              "atendidosFora": 146,
               "pendentes": 0,
               "chamados": [
                 {
@@ -45133,8 +45141,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-08-06",
                   "prazo": "2026-08-10",
-                  "dataEntrega": "2026-08-10",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 82023,
@@ -49302,9 +49310,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 242,
+          "abertos": 245,
           "atendidos": 192,
-          "pendentes": 50,
+          "pendentes": 53,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49390,7 +49398,7 @@
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
               "atendidosFora": 4,
-              "pendentes": 8,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84698,
@@ -49405,6 +49413,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85725,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-26",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -50838,7 +50854,7 @@
               "nome": "Senha",
               "atendidosDentro": 23,
               "atendidosFora": 46,
-              "pendentes": 11,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84703,
@@ -51085,6 +51101,22 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85729,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85730,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
