@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 12:26",
+  "atualizado_em": "29/10/2026 13:11",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 284,
-          "atendidos": 278,
-          "pendentes": 6,
+          "atendidos": 277,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 190,
+              "atendidosDentro": 189,
               "atendidosFora": 85,
-              "pendentes": 6,
+              "pendentes": 7,
               "chamados": [
                 {
                   "id": 84707,
@@ -24053,8 +24053,8 @@
                   "cliente": "SUPERMERCADO JAPÃO LTDA ",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85721,
@@ -46503,8 +46503,8 @@
         {
           "mes": "2026-09",
           "abertos": 319,
-          "atendidos": 307,
-          "pendentes": 12,
+          "atendidos": 308,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -46613,8 +46613,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 1,
-              "atendidosFora": 16,
-              "pendentes": 4,
+              "atendidosFora": 17,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 84372,
@@ -46709,8 +46709,8 @@
                   "cliente": "CORONEL PIG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
                   "dataCadastro": "2026-09-22",
                   "prazo": "2026-10-20",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83703,
