@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 13:11",
+  "atualizado_em": "29/10/2026 14:46",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,8 +21782,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 284,
-          "atendidos": 277,
+          "abertos": 285,
+          "atendidos": 278,
           "pendentes": 7,
           "categorias": [
             {
@@ -21812,7 +21812,7 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 189,
+              "atendidosDentro": 190,
               "atendidosFora": 85,
               "pendentes": 7,
               "chamados": [
@@ -23949,7 +23949,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-28",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
                 },
                 {
@@ -24059,6 +24059,14 @@
                 {
                   "id": 85721,
                   "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85733,
+                  "cliente": "EAGLEHOLD PARTICIPAÇÕES LTDA ",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
                   "dataEntrega": "2026-10-29",
@@ -30542,8 +30550,8 @@
         {
           "mes": "2026-09",
           "abertos": 73,
-          "atendidos": 69,
-          "pendentes": 4,
+          "atendidos": 70,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -30876,8 +30884,8 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 2,
-              "atendidosFora": 9,
-              "pendentes": 2,
+              "atendidosFora": 10,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 83748,
@@ -30932,8 +30940,8 @@
                   "cliente": "COSTA & SILVA MATERIAIS DE CONSTRUÇÃO, ELÉTRICO E HIDRÁULICO LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84440,
@@ -31230,8 +31238,8 @@
         {
           "mes": "2026-10",
           "abertos": 39,
-          "atendidos": 33,
-          "pendentes": 6,
+          "atendidos": 34,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -31396,16 +31404,16 @@
             {
               "nome": "DCTFWeb",
               "atendidosDentro": 3,
-              "atendidosFora": 2,
-              "pendentes": 1,
+              "atendidosFora": 3,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85308,
                   "cliente": "COMERCIAL SHITSU LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-10-21",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85188,
@@ -35024,8 +35032,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 9,
-          "pendentes": 20,
+          "atendidos": 10,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -35142,8 +35150,8 @@
             {
               "nome": "Omissão de Obrigações Acessórias",
               "atendidosDentro": 1,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85475,
@@ -35166,8 +35174,8 @@
                   "cliente": "T.T.S PATRIMONIAL LTDA",
                   "dataCadastro": "2026-10-21",
                   "prazo": "2026-10-23",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -37244,9 +37252,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 22,
+          "abertos": 23,
           "atendidos": 14,
-          "pendentes": 8,
+          "pendentes": 9,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37308,8 +37316,16 @@
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
+                {
+                  "id": 85732,
+                  "cliente": "Nova Fortefer Materiais Elétricos Ltda",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
                 {
                   "id": 85348,
                   "cliente": "TECNO COM INFORMATICA LTDA",
@@ -42911,8 +42927,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 400,
-          "pendentes": 18,
+          "atendidos": 399,
+          "pendentes": 19,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42973,8 +42989,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 20,
-              "pendentes": 2,
+              "atendidosFora": 19,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 81838,
@@ -43165,8 +43181,8 @@
                   "cliente": "ALCANTARA LOGÍSTICA E TRANSPORTE LTDA",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-09-18",
-                  "dataEntrega": "2026-10-29",
-                  "status": "atendido_fora"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 81738,
