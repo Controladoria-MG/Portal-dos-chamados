@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 14:46",
+  "atualizado_em": "29/10/2026 15:35",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -19516,8 +19516,8 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 154,
-              "atendidosFora": 127,
+              "atendidosDentro": 153,
+              "atendidosFora": 128,
               "pendentes": 1,
               "chamados": [
                 {
@@ -21365,8 +21365,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-09-23",
                   "prazo": "2026-09-24",
-                  "dataEntrega": "2026-09-23",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84371,
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 285,
-          "atendidos": 278,
-          "pendentes": 7,
+          "abertos": 287,
+          "atendidos": 279,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21813,8 +21813,8 @@
             {
               "nome": "MG Controle",
               "atendidosDentro": 190,
-              "atendidosFora": 85,
-              "pendentes": 7,
+              "atendidosFora": 86,
+              "pendentes": 8,
               "chamados": [
                 {
                   "id": 84707,
@@ -23837,8 +23837,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-27",
                   "prazo": "2026-10-28",
-                  "dataEntrega": "2026-10-27",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85622,
@@ -24053,8 +24053,8 @@
                   "cliente": "SUPERMERCADO JAPÃO LTDA ",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85721,
@@ -24071,6 +24071,22 @@
                   "prazo": "2026-10-30",
                   "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85735,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85738,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -24579,9 +24595,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 7,
+          "abertos": 8,
           "atendidos": 4,
-          "pendentes": 3,
+          "pendentes": 4,
           "categorias": [
             {
               "nome": "Documentação Contábil",
@@ -24610,6 +24626,22 @@
                   "cliente": "DANESES HOLDING DE PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Omissão de Obrigações Acessórias",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85734,
+                  "cliente": "T.T.S PATRIMONIAL LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -37253,8 +37285,8 @@
         {
           "mes": "2026-10",
           "abertos": 23,
-          "atendidos": 14,
-          "pendentes": 9,
+          "atendidos": 15,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37314,17 +37346,17 @@
             },
             {
               "nome": "Pendência de Débito",
-              "atendidosDentro": 0,
+              "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 1,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 85732,
                   "cliente": "Nova Fortefer Materiais Elétricos Ltda",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-11-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85348,
@@ -39186,14 +39218,14 @@
         {
           "mes": "2026-09",
           "abertos": 147,
-          "atendidos": 66,
-          "pendentes": 81,
+          "atendidos": 67,
+          "pendentes": 80,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 12,
-              "atendidosFora": 19,
-              "pendentes": 71,
+              "atendidosFora": 20,
+              "pendentes": 70,
               "chamados": [
                 {
                   "id": 83321,
@@ -39856,7 +39888,7 @@
                   "cliente": "SUPERMERCADO CIAMDRIGHI LTDA",
                   "dataCadastro": "2026-09-02",
                   "prazo": "2026-09-04",
-                  "dataEntrega": "2026-09-16",
+                  "dataEntrega": "2026-10-29",
                   "status": "atendido_fora"
                 },
                 {
@@ -39952,8 +39984,8 @@
                   "cliente": "MORETE SUPERMERCADOS LTDA (MATRIZ)",
                   "dataCadastro": "2026-09-04",
                   "prazo": "2026-09-08",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83594,
@@ -42927,8 +42959,8 @@
         {
           "mes": "2026-08",
           "abertos": 418,
-          "atendidos": 399,
-          "pendentes": 19,
+          "atendidos": 400,
+          "pendentes": 18,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -42989,8 +43021,8 @@
             {
               "nome": "Alteração Contratual",
               "atendidosDentro": 11,
-              "atendidosFora": 19,
-              "pendentes": 3,
+              "atendidosFora": 20,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 81838,
@@ -43181,8 +43213,8 @@
                   "cliente": "ALCANTARA LOGÍSTICA E TRANSPORTE LTDA",
                   "dataCadastro": "2026-08-21",
                   "prazo": "2026-09-18",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 81738,
@@ -49326,9 +49358,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 245,
+          "abertos": 249,
           "atendidos": 192,
-          "pendentes": 53,
+          "pendentes": 57,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49681,6 +49713,14 @@
               "pendentes": 8,
               "chamados": [
                 {
+                  "id": 84953,
+                  "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
+                  "dataCadastro": "2026-10-07",
+                  "prazo": "2026-10-09",
+                  "dataEntrega": "2026-10-16",
+                  "status": "atendido_fora"
+                },
+                {
                   "id": 85490,
                   "cliente": "LIPPER GRAFICA CRIATIVA LTDA",
                   "dataCadastro": "2026-10-23",
@@ -49703,14 +49743,6 @@
                   "prazo": "2026-10-27",
                   "dataEntrega": null,
                   "status": "pendente"
-                },
-                {
-                  "id": 84953,
-                  "cliente": "DUARTE & FONTES TRANSPORTES E LOGISTICA LTDA",
-                  "dataCadastro": "2026-10-07",
-                  "prazo": "2026-10-09",
-                  "dataEntrega": "2026-10-16",
-                  "status": "atendido_fora"
                 },
                 {
                   "id": 84814,
@@ -50870,7 +50902,7 @@
               "nome": "Senha",
               "atendidosDentro": 23,
               "atendidosFora": 46,
-              "pendentes": 13,
+              "pendentes": 17,
               "chamados": [
                 {
                   "id": 84703,
@@ -51503,6 +51535,38 @@
                   "prazo": "2026-10-27",
                   "dataEntrega": "2026-10-27",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85739,
+                  "cliente": "RRV RECURSOS HUMANOS E REPRESENTACOES LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85740,
+                  "cliente": "A COMERCIAL PAIVA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85741,
+                  "cliente": "A COMERCIAL PAIVA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85742,
+                  "cliente": "KAREN CRISTINE PACHECO MARKETING & COMUNICACAO",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85075,
@@ -55935,15 +55999,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 70,
+          "abertos": 71,
           "atendidos": 6,
-          "pendentes": 64,
+          "pendentes": 65,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 57,
+              "pendentes": 58,
               "chamados": [
                 {
                   "id": 84697,
@@ -56430,6 +56494,14 @@
                   "cliente": "UP SEA SOLUÇÕES MARITIMAS E ENGENHARIA NAVAL LTDA",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-11-05",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85736,
+                  "cliente": "RESTAURANTE PICANHA DO ZE LTDA ",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
