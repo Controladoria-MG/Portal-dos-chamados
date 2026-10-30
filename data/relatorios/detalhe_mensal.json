@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/10/2026 11:00",
+  "atualizado_em": "30/10/2026 11:45",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,8 +21782,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 299,
-          "atendidos": 287,
+          "abertos": 300,
+          "atendidos": 288,
           "pendentes": 12,
           "categorias": [
             {
@@ -21812,7 +21812,7 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 196,
+              "atendidosDentro": 197,
               "atendidosFora": 88,
               "pendentes": 12,
               "chamados": [
@@ -24181,6 +24181,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-30",
                   "prazo": "2026-11-03",
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_dentro"
+                },
+                {
+                  "id": 85813,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -37405,8 +37413,8 @@
         {
           "mes": "2026-10",
           "abertos": 25,
-          "atendidos": 19,
-          "pendentes": 6,
+          "atendidos": 20,
+          "pendentes": 5,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37482,9 +37490,9 @@
             },
             {
               "nome": "Recálculo de Guia",
-              "atendidosDentro": 2,
+              "atendidosDentro": 3,
               "atendidosFora": 6,
-              "pendentes": 3,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85356,
@@ -37499,8 +37507,8 @@
                   "cliente": "Nova Fortefer Materias Eletricos Ltda (Filial 01)",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85667,
@@ -49575,8 +49583,8 @@
         {
           "mes": "2026-10",
           "abertos": 272,
-          "atendidos": 194,
-          "pendentes": 78,
+          "atendidos": 195,
+          "pendentes": 77,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -49660,9 +49668,9 @@
             },
             {
               "nome": "Alteração Contratual",
-              "atendidosDentro": 11,
+              "atendidosDentro": 12,
               "atendidosFora": 4,
-              "pendentes": 10,
+              "pendentes": 9,
               "chamados": [
                 {
                   "id": 84698,
@@ -49709,8 +49717,8 @@
                   "cliente": "PIRANA - AUTO SERVIÇO LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-11-13",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85329,
@@ -53541,9 +53549,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 6,
+          "abertos": 7,
           "atendidos": 0,
-          "pendentes": 6,
+          "pendentes": 7,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -53588,6 +53596,22 @@
                   "cliente": "GODINHO RESTAURANTE & DELIVERY LTDA (FILIAL 1)",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Pendência de Débito",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85811,
+                  "cliente": "DISTRIBUIDORA LIGEIRINHO DE PRODUTOS ALIMENTICIOS LTDA ",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -56423,15 +56447,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 74,
+          "abertos": 79,
           "atendidos": 6,
-          "pendentes": 68,
+          "pendentes": 73,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 61,
+              "pendentes": 66,
               "chamados": [
                 {
                   "id": 84697,
@@ -56949,6 +56973,46 @@
                   "id": 85797,
                   "cliente": "WJS COMUNICAÇÃO VISUAL LTDA ",
                   "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85814,
+                  "cliente": "RESTAURANTE MINEIRO DELIVERY LTDA.",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85815,
+                  "cliente": "RESTAURANTE ENCANTO MINEIRO LTDA",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85816,
+                  "cliente": "A MINEIRA FESTAS E EVENTOS LTDA",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85817,
+                  "cliente": "RESTAURANTE PORTO DAS CONFRARIAS LTDA",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85818,
+                  "cliente": "A MINEIRA SF LTDA",
+                  "dataCadastro": "2026-10-30",
                   "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
