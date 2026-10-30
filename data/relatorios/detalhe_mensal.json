@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/10/2026 14:22",
+  "atualizado_em": "30/10/2026 14:45",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 301,
+          "abertos": 303,
           "atendidos": 288,
-          "pendentes": 13,
+          "pendentes": 15,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 197,
-              "atendidosFora": 88,
-              "pendentes": 13,
+              "atendidosDentro": 196,
+              "atendidosFora": 89,
+              "pendentes": 15,
               "chamados": [
                 {
                   "id": 84707,
@@ -22605,8 +22605,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-14",
                   "prazo": "2026-10-15",
-                  "dataEntrega": "2026-10-15",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85194,
@@ -24194,6 +24194,22 @@
                 },
                 {
                   "id": 85822,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85823,
+                  "cliente": "INTERFRIOS COMÉRCIO DE FRIOS E LATICÍNIOS EIRELI",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85824,
                   "cliente": null,
                   "dataCadastro": "2026-10-30",
                   "prazo": "2026-11-03",
