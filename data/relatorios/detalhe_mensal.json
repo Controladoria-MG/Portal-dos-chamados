@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/10/2026 13:33",
+  "atualizado_em": "30/10/2026 14:22",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 300,
+          "abertos": 301,
           "atendidos": 288,
-          "pendentes": 12,
+          "pendentes": 13,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 197,
               "atendidosFora": 88,
-              "pendentes": 12,
+              "pendentes": 13,
               "chamados": [
                 {
                   "id": 84707,
@@ -24013,7 +24013,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-28",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-29",
+                  "dataEntrega": "2026-10-30",
                   "status": "atendido_dentro"
                 },
                 {
@@ -24189,6 +24189,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-30",
                   "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85822,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -27609,8 +27617,8 @@
         {
           "mes": "2026-10",
           "abertos": 53,
-          "atendidos": 42,
-          "pendentes": 11,
+          "atendidos": 45,
+          "pendentes": 8,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27639,8 +27647,8 @@
             {
               "nome": "Balanço e DRE",
               "atendidosDentro": 7,
-              "atendidosFora": 4,
-              "pendentes": 6,
+              "atendidosFora": 7,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85534,
@@ -27759,24 +27767,24 @@
                   "cliente": "VPS COMERCIO DE AUTO PECAS E ACESSÓRIOS LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85572,
                   "cliente": "SELVANO COMERCIO DE AUTO PECAS E ACESSORIOS LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85575,
                   "cliente": "SELVANO ADMINISTRADORA DE BENS E PARTICIPACOES LTDA",
                   "dataCadastro": "2026-10-26",
                   "prazo": "2026-10-27",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_fora"
                 }
               ]
             },
