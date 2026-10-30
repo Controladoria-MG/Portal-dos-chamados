@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/10/2026 08:50",
+  "atualizado_em": "30/10/2026 09:53",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21783,8 +21783,8 @@
         {
           "mes": "2026-10",
           "abertos": 297,
-          "atendidos": 286,
-          "pendentes": 11,
+          "atendidos": 287,
+          "pendentes": 10,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 195,
+              "atendidosDentro": 196,
               "atendidosFora": 88,
-              "pendentes": 11,
+              "pendentes": 10,
               "chamados": [
                 {
                   "id": 84707,
@@ -24149,8 +24149,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85799,
@@ -27584,8 +27584,8 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 51,
-          "atendidos": 40,
+          "abertos": 52,
+          "atendidos": 41,
           "pendentes": 11,
           "categorias": [
             {
@@ -27614,9 +27614,9 @@
             },
             {
               "nome": "Balanço e DRE",
-              "atendidosDentro": 6,
+              "atendidosDentro": 7,
               "atendidosFora": 4,
-              "pendentes": 6,
+              "pendentes": 5,
               "chamados": [
                 {
                   "id": 85534,
@@ -27687,8 +27687,8 @@
                   "cliente": "PLANET GRAPHICS LTDA ",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85142,
@@ -27752,7 +27752,7 @@
               "nome": "Conciliação de Contas",
               "atendidosDentro": 1,
               "atendidosFora": 1,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85661,
@@ -27769,6 +27769,14 @@
                   "prazo": "2026-10-19",
                   "dataEntrega": "2026-10-20",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85802,
+                  "cliente": "CENTRO COMERCIAL DE FERRAMENTAS LTDA",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -49605,7 +49613,7 @@
                   "cliente": "FRANCINALDO FERREIRA DE ANDRADE LTDA",
                   "dataCadastro": "2026-10-16",
                   "prazo": "2026-11-13",
-                  "dataEntrega": "2026-10-29",
+                  "dataEntrega": "2026-10-30",
                   "status": "atendido_dentro"
                 },
                 {
