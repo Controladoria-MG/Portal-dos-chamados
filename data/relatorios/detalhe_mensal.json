@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/10/2026 11:45",
+  "atualizado_em": "30/10/2026 12:06",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -11789,7 +11789,7 @@
                   "cliente": "TECMAR SERVICOS NAVAIS OFFSHORE LTDA (FILIAL 1)",
                   "dataCadastro": "2026-05-25",
                   "prazo": "2026-05-26",
-                  "dataEntrega": "2026-06-08",
+                  "dataEntrega": "2026-10-30",
                   "status": "atendido_fora"
                 },
                 {
@@ -12276,8 +12276,8 @@
           "categorias": [
             {
               "nome": "MG Controle",
-              "atendidosDentro": 156,
-              "atendidosFora": 158,
+              "atendidosDentro": 155,
+              "atendidosFora": 159,
               "pendentes": 0,
               "chamados": [
                 {
@@ -12805,8 +12805,8 @@
                   "cliente": "MACROZÃO STRATEGY SERVIÇOS DE APOIO LTDA",
                   "dataCadastro": "2026-06-05",
                   "prazo": "2026-06-08",
-                  "dataEntrega": "2026-06-08",
-                  "status": "atendido_dentro"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 79727,
@@ -49582,9 +49582,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 272,
+          "abertos": 273,
           "atendidos": 195,
-          "pendentes": 77,
+          "pendentes": 78,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -50374,7 +50374,7 @@
               "nome": "Levantamento de Débitos",
               "atendidosDentro": 4,
               "atendidosFora": 6,
-              "pendentes": 0,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85643,
@@ -50447,6 +50447,14 @@
                   "prazo": "2026-10-14",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85820,
+                  "cliente": "CORDEIRO E CIA LTDA",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85000,
@@ -56447,15 +56455,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 79,
+          "abertos": 80,
           "atendidos": 6,
-          "pendentes": 73,
+          "pendentes": 74,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 66,
+              "pendentes": 67,
               "chamados": [
                 {
                   "id": 84697,
@@ -57014,6 +57022,14 @@
                   "cliente": "A MINEIRA SF LTDA",
                   "dataCadastro": "2026-10-30",
                   "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85819,
+                  "cliente": "A MINEIRA FESTAS E EVENTOS LTDA",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-06",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
