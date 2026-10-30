@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/10/2026 14:45",
+  "atualizado_em": "30/10/2026 15:29",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 303,
+          "abertos": 304,
           "atendidos": 288,
-          "pendentes": 15,
+          "pendentes": 16,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 196,
               "atendidosFora": 89,
-              "pendentes": 15,
+              "pendentes": 16,
               "chamados": [
                 {
                   "id": 84707,
@@ -24213,6 +24213,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-30",
                   "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85826,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -35318,7 +35326,7 @@
                   "cliente": "I2 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA.",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-29",
+                  "dataEntrega": "2026-10-30",
                   "status": "atendido_dentro"
                 },
                 {
@@ -37173,8 +37181,8 @@
         {
           "mes": "2026-09",
           "abertos": 25,
-          "atendidos": 21,
-          "pendentes": 4,
+          "atendidos": 22,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37387,8 +37395,8 @@
             {
               "nome": "SPED",
               "atendidosDentro": 0,
-              "atendidosFora": 1,
-              "pendentes": 1,
+              "atendidosFora": 2,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84394,
@@ -37403,8 +37411,8 @@
                   "cliente": "CL COMERCIO VAREJISTA E ROTISSERIE LTDA",
                   "dataCadastro": "2026-09-24",
                   "prazo": "2026-09-25",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -40657,9 +40665,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 88,
+          "abertos": 89,
           "atendidos": 18,
-          "pendentes": 70,
+          "pendentes": 71,
           "categorias": [
             {
               "nome": "Apontamentos",
@@ -41080,6 +41088,22 @@
                   "cliente": "CHURRASCO DA VILA RESTAURANTE LTDA",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                }
+              ]
+            },
+            {
+              "nome": "Malha Fiscal",
+              "atendidosDentro": 0,
+              "atendidosFora": 0,
+              "pendentes": 1,
+              "chamados": [
+                {
+                  "id": 85825,
+                  "cliente": "CL COMERCIO VAREJISTA E ROTISSERIE LTDA",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-02",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
@@ -49615,8 +49639,8 @@
         {
           "mes": "2026-10",
           "abertos": 273,
-          "atendidos": 195,
-          "pendentes": 78,
+          "atendidos": 196,
+          "pendentes": 77,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -51237,8 +51261,8 @@
             {
               "nome": "Senha",
               "atendidosDentro": 23,
-              "atendidosFora": 46,
-              "pendentes": 31,
+              "atendidosFora": 47,
+              "pendentes": 30,
               "chamados": [
                 {
                   "id": 84703,
@@ -51645,8 +51669,8 @@
                   "cliente": "MGT Administração de Bens e Participações Ltda",
                   "dataCadastro": "2026-10-05",
                   "prazo": "2026-10-09",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 84764,
