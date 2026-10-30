@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/10/2026 17:53",
+  "atualizado_em": "30/10/2026 08:50",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 294,
-          "atendidos": 288,
-          "pendentes": 6,
+          "abertos": 297,
+          "atendidos": 286,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21812,9 +21812,9 @@
             },
             {
               "nome": "MG Controle",
-              "atendidosDentro": 197,
+              "atendidosDentro": 195,
               "atendidosFora": 88,
-              "pendentes": 6,
+              "pendentes": 11,
               "chamados": [
                 {
                   "id": 84707,
@@ -24077,8 +24077,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85738,
@@ -24093,8 +24093,8 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-29",
-                  "status": "atendido_dentro"
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85758,
@@ -24143,6 +24143,30 @@
                   "prazo": "2026-10-30",
                   "dataEntrega": "2026-10-29",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85792,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85799,
+                  "cliente": "DM COMERCIO ALIMENTICIO LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85800,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 }
               ]
             },
@@ -27560,9 +27584,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 50,
+          "abertos": 51,
           "atendidos": 40,
-          "pendentes": 10,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -27592,7 +27616,7 @@
               "nome": "Balanço e DRE",
               "atendidosDentro": 6,
               "atendidosFora": 4,
-              "pendentes": 5,
+              "pendentes": 6,
               "chamados": [
                 {
                   "id": 85534,
@@ -27601,6 +27625,14 @@
                   "prazo": "2026-10-27",
                   "dataEntrega": "2026-10-26",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85795,
+                  "cliente": "XERYU'S IMPORTADORA E DISTRIBUIDORA DE ARTIGOS PARA VESTUARIO LTDA (MATRIZ)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85304,
@@ -34728,8 +34760,8 @@
         {
           "mes": "2026-09",
           "abertos": 38,
-          "atendidos": 33,
-          "pendentes": 5,
+          "atendidos": 35,
+          "pendentes": 3,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -35014,8 +35046,8 @@
             {
               "nome": "Retificação de Obrigação Acessória",
               "atendidosDentro": 0,
-              "atendidosFora": 3,
-              "pendentes": 1,
+              "atendidosFora": 4,
+              "pendentes": 0,
               "chamados": [
                 {
                   "id": 84046,
@@ -35046,8 +35078,8 @@
                   "cliente": "DM COMERCIO ALIMENTICIO LTDA",
                   "dataCadastro": "2026-09-09",
                   "prazo": "2026-09-11",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 }
               ]
             },
@@ -35078,16 +35110,16 @@
             {
               "nome": "Saldo Credor Incorreto",
               "atendidosDentro": 0,
-              "atendidosFora": 2,
-              "pendentes": 2,
+              "atendidosFora": 3,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 84636,
                   "cliente": null,
                   "dataCadastro": "2026-09-29",
                   "prazo": "2026-09-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 83639,
@@ -35136,8 +35168,8 @@
         {
           "mes": "2026-10",
           "abertos": 29,
-          "atendidos": 15,
-          "pendentes": 14,
+          "atendidos": 18,
+          "pendentes": 11,
           "categorias": [
             {
               "nome": "Antecipação de Apurações",
@@ -35213,17 +35245,17 @@
             },
             {
               "nome": "Malha Fiscal",
-              "atendidosDentro": 0,
+              "atendidosDentro": 2,
               "atendidosFora": 0,
-              "pendentes": 4,
+              "pendentes": 2,
               "chamados": [
                 {
                   "id": 85381,
                   "cliente": "I2 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA.",
                   "dataCadastro": "2026-10-20",
                   "prazo": "2026-10-30",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_dentro"
                 },
                 {
                   "id": 85503,
@@ -35246,8 +35278,8 @@
                   "cliente": "VL CONCRETO BOMBAS LTDA",
                   "dataCadastro": "2026-10-22",
                   "prazo": "2026-11-02",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-30",
+                  "status": "atendido_dentro"
                 }
               ]
             },
@@ -35302,16 +35334,16 @@
             {
               "nome": "Pendência de Débito",
               "atendidosDentro": 0,
-              "atendidosFora": 0,
-              "pendentes": 2,
+              "atendidosFora": 1,
+              "pendentes": 1,
               "chamados": [
                 {
                   "id": 85528,
                   "cliente": "CABEXPRESS INDUSTRIA E COMÉRCIO DE CABOS ELÉTRICOS LTDA",
                   "dataCadastro": "2026-10-23",
                   "prazo": "2026-10-26",
-                  "dataEntrega": null,
-                  "status": "pendente"
+                  "dataEntrega": "2026-10-29",
+                  "status": "atendido_fora"
                 },
                 {
                   "id": 85647,
@@ -37348,9 +37380,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 23,
+          "abertos": 25,
           "atendidos": 19,
-          "pendentes": 4,
+          "pendentes": 6,
           "categorias": [
             {
               "nome": "Ata de Reunião",
@@ -37428,7 +37460,7 @@
               "nome": "Recálculo de Guia",
               "atendidosDentro": 2,
               "atendidosFora": 6,
-              "pendentes": 1,
+              "pendentes": 3,
               "chamados": [
                 {
                   "id": 85356,
@@ -37437,6 +37469,14 @@
                   "prazo": "2026-10-21",
                   "dataEntrega": "2026-10-21",
                   "status": "atendido_dentro"
+                },
+                {
+                  "id": 85794,
+                  "cliente": "Nova Fortefer Materias Eletricos Ltda (Filial 01)",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85667,
@@ -37453,6 +37493,14 @@
                   "prazo": "2026-10-27",
                   "dataEntrega": "2026-10-29",
                   "status": "atendido_fora"
+                },
+                {
+                  "id": 85793,
+                  "cliente": "S.K. UEHARA CIA LTDA",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-10-30",
+                  "dataEntrega": null,
+                  "status": "pendente"
                 },
                 {
                   "id": 85445,
@@ -49502,9 +49550,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 271,
+          "abertos": 272,
           "atendidos": 194,
-          "pendentes": 77,
+          "pendentes": 78,
           "categorias": [
             {
               "nome": "Abertura de Empresa",
@@ -51118,7 +51166,7 @@
               "nome": "Senha",
               "atendidosDentro": 23,
               "atendidosFora": 46,
-              "pendentes": 30,
+              "pendentes": 31,
               "chamados": [
                 {
                   "id": 84703,
@@ -51381,6 +51429,14 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85796,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 },
@@ -56335,15 +56391,15 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 73,
+          "abertos": 74,
           "atendidos": 6,
-          "pendentes": 67,
+          "pendentes": 68,
           "categorias": [
             {
               "nome": "Apontamentos",
               "atendidosDentro": 2,
               "atendidosFora": 2,
-              "pendentes": 60,
+              "pendentes": 61,
               "chamados": [
                 {
                   "id": 84697,
@@ -56854,6 +56910,14 @@
                   "cliente": "MARJ - MERCADOS ASSOCIADOS DO ESTADO DO RIO DE JANEIRO",
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-11-13",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85797,
+                  "cliente": "WJS COMUNICAÇÃO VISUAL LTDA ",
+                  "dataCadastro": "2026-10-29",
+                  "prazo": "2026-11-03",
                   "dataEntrega": null,
                   "status": "pendente"
                 }
