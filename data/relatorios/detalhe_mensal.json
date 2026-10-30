@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/10/2026 09:53",
+  "atualizado_em": "30/10/2026 10:30",
   "departamentos": [
     {
       "nome": "CONTROLADORIA",
@@ -21782,9 +21782,9 @@
         },
         {
           "mes": "2026-10",
-          "abertos": 297,
+          "abertos": 299,
           "atendidos": 287,
-          "pendentes": 10,
+          "pendentes": 12,
           "categorias": [
             {
               "nome": "Fechamento Fiscal",
@@ -21814,7 +21814,7 @@
               "nome": "MG Controle",
               "atendidosDentro": 196,
               "atendidosFora": 88,
-              "pendentes": 10,
+              "pendentes": 12,
               "chamados": [
                 {
                   "id": 84707,
@@ -24125,7 +24125,7 @@
                   "cliente": null,
                   "dataCadastro": "2026-10-29",
                   "prazo": "2026-10-30",
-                  "dataEntrega": "2026-10-29",
+                  "dataEntrega": "2026-10-30",
                   "status": "atendido_dentro"
                 },
                 {
@@ -24162,6 +24162,22 @@
                 },
                 {
                   "id": 85800,
+                  "cliente": null,
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-03",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85803,
+                  "cliente": "ICRM SERVIÇOS DE APOIO LTDA",
+                  "dataCadastro": "2026-10-30",
+                  "prazo": "2026-11-02",
+                  "dataEntrega": null,
+                  "status": "pendente"
+                },
+                {
+                  "id": 85806,
                   "cliente": null,
                   "dataCadastro": "2026-10-30",
                   "prazo": "2026-11-03",
